@@ -1,6 +1,6 @@
-baseURL: "https://datavizf18.classes.andrewheiss.com/"
+baseURL: "https://wesslen.github.io/dsba5122-spring2019"
 languageCode: en-us
-title: Data visualization
+title: Visual Analytics
 theme: "ath-tufte-hugo_18-19"
 googleAnalytics: ""
 ignoreFiles:
@@ -31,7 +31,7 @@ menu:
       url: "https://rstudio.cloud"
       weight: 5
     - name: Class Slack
-      url: "https://byudatavizf2018.slack.com"
+      url: "https://unccdsba5122s2019.slack.com"
       weight: 6
 # Disable taxonomies
 taxonomies:
@@ -39,34 +39,34 @@ taxonomies:
   group: ""
   category: ""
 params:
-  author: Andrew Heiss
+  author: Ryan Wesslen
   thumbnail: /images/dataviz_meta.png
   instructor: 
-    name: Dr. Andrew Heiss
-    email: andrew_heiss@byu.edu
-    url: "https://www.andrewheiss.com"
-    twitter: andrewheiss
-    github: andrewheiss
-    office: 639 TNRB
+    name: Ryan Wesslen
+    email: rwesslen@uncc.edu
+    url: "https://wesslen.github.io"
+    twitter: ryanwesslen
+    github: wesslen
+    office: TBD
   course:
-    number: MPA 635
-    semester: Fall 2018
-    days: "Tuesdays"
-    time: "3:30–4:45 PM"
-    location: "W110 TNRB"
-    twitter: andrewheiss
-    dates: "September 4–December 11, 2018"
+    number: DSBA 5122
+    semester: Spring 2019
+    days: "Mondays"
+    time: "6:00–8:50 PM"
+    location: "Room 110M: Packard Place"
+    twitter: ryanwesslen
+    dates: "January 9–April 30, 2019"
     github: "andrewheiss/datavizf18.classes.andrewheiss.com"
-    slack: "https://byudatavizf2018.slack.com"
+    slack: "https://unccdsba5122s2019.slack.com"
     copyrightYear: "2018"
     contactDetails: >-
-      Office hours: [Sign up here.](https://calendly.com/andrewheiss/meeting/)<br><br>E-mail is the best way to get in contact with me—I will respond to all course-related e-mails within 24 hours (*really*).
+      Office hours: TBD.
   university: 
-    name: Brigham Young University
-    url: "https://www.byu.edu"
+    name: University of North Carolina at Charlotte
+    url: "https://www.uncc.edu"
   school:
-    name: Romney Institute of Public Service and Ethics
-    url: "https://marriottschool.byu.edu/mpa/"
+    name: Data Science & Business Analytics Program
+    url: "https://dsba.uncc.edu/"
   description: "Communicate science and statistics with beautiful graphics"
   primaryColor: "#DA5B69"
   secondaryColor: "#F9983E"
@@ -74,8 +74,7 @@ params:
     Hex icon by Andrew Heiss, with a stylized version of [Hans Rosling's health+wealth plot](https://www.youtube.com/watch?v=jbkSRLYSojo).<br>Color scheme adapted from the [viridis plasma map](https://github.com/sjmgarnier/viridis).
   logo:
     url: /images/dataviz_hires.png
-    alt: Data visualization
+    alt: Visual Analytics
   meta:
-    twitterSite: "@andrewheiss"
-    twitterCreator: "@andrewheiss"
-    fbAuthor: "https://www.facebook.com/andrewheiss"
+    twitterSite: "@ryanwesslen"
+    twitterCreator: "@ryanwesslen"
