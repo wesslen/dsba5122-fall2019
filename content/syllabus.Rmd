@@ -22,20 +22,23 @@ In this class, you'll learn how to use industry-standard graphic and data design
 
 # Course objectives
 
-<span class="newthought">By the end of this course,</span> you will become (1) literate in data and graphic design principles, (2) an ethical data communicator, and (3) a collaborative sharer by producing beautiful, powerful, and clear visualizations of your own data. Specifically, you should:
+<!-- <span class="newthought">By the end of this course,</span> you will become (1) literate in data and graphic design principles, (2) an ethical data communicator, and (3) a collaborative sharer by producing beautiful, powerful, and clear visualizations of your own data. Specifically, you should: -->
 
-- Understand the principles of data and graphic design
-- Evaluate the credibility, ethics, and aesthetics of data visualizations
-- Create well-designed data visualizations with appropriate tools
-- Share data and graphics in open forums
-- Be curious and confident in consuming and producing data
+<!-- - Understand the principles of data and graphic design -->
+<!-- - Evaluate the credibility, ethics, and aesthetics of data visualizations -->
+<!-- - Create well-designed data visualizations with appropriate tools -->
+<!-- - Share data and graphics in open forums -->
+<!-- - Be curious and confident in consuming and producing data -->
 
-Given these objectives, this course fulfills two of the four learning outcomes for BYU's [Master of Public Administration (MPA)](https://marriottschool.byu.edu/mpa/) program: 
+<!-- Given these objectives, this course fulfills two of the four learning outcomes for BYU's [Master of Public Administration (MPA)](https://marriottschool.byu.edu/mpa/) program:  -->
 
-- **Quantitative Analysis**: BYU MPA graduates are skilled at evaluating programs and policies. They know how to gather data, correctly analyze it, and employ the analysis to recommend policy and programmatic action in public service organizations.
+<!-- - **Quantitative Analysis**: BYU MPA graduates are skilled at evaluating programs and policies. They know how to gather data, correctly analyze it, and employ the analysis to recommend policy and programmatic action in public service organizations. -->
 
-- **Communications**: BYU MPA graduates effectively convey verbal and written information with the polish and professionalism appropriate for the public service context. They listen to and promote understanding among people with diverse viewpoints.
+<!-- - **Communications**: BYU MPA graduates effectively convey verbal and written information with the polish and professionalism appropriate for the public service context. They listen to and promote understanding among people with diverse viewpoints. -->
 
+## Syllabus Subject to Change
+
+The standards and requirements set forth in this syllabus may be modified by the course instructor. Notice of such changes will be made in advance and by announcement in class.
 
 # Course materials
 
@@ -71,36 +74,29 @@ Fortunately there are tons of online resources to help you with this. Two of the
 
 Searching for help with R on Google can be tricky because the program is, um, a single letter. Try searching for "rstats" instead. If you use Twitter, post R-related questions and content with [#rstats](https://twitter.com/search?q=%23rstats).
 
-Additionally, we have a class chatroom at [Slack](https://byudatavizf2018.slack.com) where anyone in the class can ask questions and anyone can answer. Ask questions about the readings, problem sets, and projects [in the class Slack workspace](https://byudatavizf2018.slack.com). I will monitor Slack regularly, and you should also all do so as well. You'll likely have similar questions as your peers, and you'll likely be able to answer other peoples' questions too.
+Additionally, we have a class chatroom at [Slack](https://unccdsba5122s2019.slack.com) where anyone in the class can ask questions and anyone can answer. Ask questions about the readings, problem sets, and projects [in the class Slack workspace](https://unccdsba5122s2019.slack.com). I will monitor Slack regularly, and you should also all do so as well. You'll likely have similar questions as your peers, and you'll likely be able to answer other peoples' questions too.
 
 
-# Course policies
+# Classroom policies
 
 <span class="newthought">Be nice. Be honest. Don't cheat.</span>
 
-We will also follow the [full list of Marriott School and BYU classroom policies](https://marriottschool.byu.edu/policies/classroom/).
+## Orderly and productive classroom conduct
+I will conduct this class in an atmosphere of mutual respect. I encourage your active participation in class discussions. Each of us may have strongly differing opinions on the various topics of class discussions. The conflict of ideas is encouraged and welcome. The orderly questioning of the ideas of others, including mine, is similarly welcome. However, I will exercise my responsibility to manage the discussions so that ideas and argument can proceed in an orderly fashion. You should expect that if your conduct during class discussions seriously disrupts the atmosphere of mutual respect I expect in this class, you will not be permitted to participate further.
 
-## Counseling and Psychological Services (CAPS)
+## Recording in the classroom
+Electronic video and/or audio recording is not permitted during class unless the student obtains permission from the instructor. If permission is granted, any distribution of the recording is prohibited. Students with specific electronic recording accommodations authorized by the Office of Disability Services do not require instructor permission; however, the instructor must be notified of any such accommodation prior to recording. Any distribution of such recordings is prohibited.
 
-Life at BYU can be complicated and challenging. You might feel overwhelmed, experience anxiety or depression, or struggle with relationships or family responsibilities. [Counseling and Psychological Services (CAPS)](https://caps.byu.edu/) provides free, *confidential* support for students who are struggling with mental health and emotional challenges. The CAPS office is staffed by professional psychologists who are attuned to the needs of all types of college and professional students. Please do not hesitate to contact CAPS for assistance—getting help is a smart and courageous thing to do.
+## Discussion of grades and performance
+Such discussion shall occur between the student and the instructor(s). Sharing information regarding grades and performance in places such as discussion forums or email blasts is prohibited.
 
-## Basic needs security
+## Code of Student Responsibility
+“The UNC Charlotte Code of Student Responsibility(the Code) sets forth certain rights and responsibilities in matters of student discipline. The Code defines these responsibilities and guarantees you certain rights that ensure your protection from unjust imposition of disciplinary penalties.  You should familiarize yourself with the provisions and procedures of the Code” (Introductory statement from the UNC Charlotte brochure about the Code of Student Responsibility).  The entire document may be found at this Internet address: <http://legal.uncc.edu/policies/ps-104.html>
 
-If you have difficulty affording groceries or accessing sufficient food to eat every day, or if you lack a safe and stable place to live, and you believe this may affect your performance in this course, please contact the [Dean of Students](https://deanofstudents.byu.edu/) for support. Please also consider speaking with your local LDS bishop regarding Church welfare assistance *regardless of whether or not you are LDS*. Additionally, please talk to me if you are comfortable in doing so. This will enable me to provide any resources that I might possess.
+## Academic Integrity
+All students are required to read and abide by the Code of Student Academic Integrity. Violations of the Code of Student Academic Integrity, including plagiarism, will result in disciplinary action as provided in the Code. Students are expected to submit their own work, either as individuals or contributors to a group assignment. Definitions and examples of plagiarism and other violations are set forth in the Code. The Code is available from the Dean of Students Office or online at: http://www.legal.uncc.edu/policies/ps-105.html (Links to an external site.)Links to an external site.   
 
-## Class conduct and expectations
-
-On the first day of class, we came up a few specific rules, expectations, and policies for the course:
-
-- Late work will be penalized by 10% each week it is late (starting the day after it is due)
-- You each get two free passes for late work. Just let me know when you want to use one.
-- Be responsible with laptop use. If you plan on taking notes with your computer, sit near the back or don't sit in front of people who are distracted by it (and if you don't sit in the back, be super responsible with your laptop). 
-- Be good and respectful. You're all adults.
-
-## Laptops
-
-This is a computer-heavy course and each class session will require extensive laptop use. Occasionally I may ask that laptops be closed for some in-class activities, you will be expected to use your computer. Please note that this is different from the laptop policy in other Romney Institute and Marriott School classes. Use your computer responsibly in class.
-
+Faculty may ask students to produce identification at examinations and may require students to demonstrate that graded assignments completed outside of class are their own work.
 
 # Assignments and grades
 
@@ -109,49 +105,44 @@ This is a computer-heavy course and each class session will require extensive la
 ```{r assignments-grades, include=FALSE}
 assignments <- tribble(
   ~Points,  ~Assignment,
-  15 * 14 , "Reflection memos (≈ 15 × 14)",
-  5 * 40  , "Problem sets (5 × 40)",
-  50      , "Code-through",
-  75     , "Mini project 1",
-  75     , "Mini project 2",
-  200     , "Final project"
+  4 * 5 , "Quizzes (4 × 5)",
+  4 * 5 , "Problem sets (4 × 5)",
+  5 * 2 , "Datacamp courses (5 x 2)",
+  10     , "Design Contest",
+  20     , "Group project final presentation + demo",
+  20     , "Group project final report"
 ) %>%
-  mutate(Percent = Points / sum(Points),
-         Percent = scales::percent(Percent))
+  mutate(Percent = Points / sum(Points)
+         )
 
 grading <- tribble(
-  ~Grade, ~Range, ~Grade1, ~Range1,
-  "A",  "93–100%", "C",  "73–76%",
-  "A−", "90–92%", "C−", "70–72%",
-  "B+", "87–89%", "D+", "67–69%",
-  "B",  "83–86%", "D",  "63–66%",
-  "B−", "80–82%", "D−", "60–62%",
-  "C+", "77–79%", "F",  "< 60%"
+  ~Grade, ~Range,
+  "A (Excellent)",  "90.00–100.00 pts", 
+  "B (Good)",  "80.00–89.99 pts", 
+  "C (Fair)",  "70.00-79.99 pts",
+  "D (Passing)",  "60.00-69.99 pts", 
+  "U (Failing)",  "< 60.00 pts" 
 )
 ```
 
 ```{r show-assignments-table, echo=FALSE, results="asis"}
 assignments_total <- data_frame(Assignment = "Total",
-                                Points = sum(assignments$Points),
-                                Percent = NA)
+                                Points = sum(assignments$Points))
 
 bind_rows(assignments, assignments_total) %>% 
-  select(Assignment, Points, Percent) %>% 
-  pandoc.table(justify = "lcc", missing = "—")
+  select(Assignment, Points) 
 ```
 
 \
 
 ```{r show-grades-table, echo=FALSE, results="asis"}
-grading %>%
-  pandoc.table(justify = "lclc", 
-               col.names = c("Grade", "Range", "Grade", "Range"))
+grading
 ```
 
 
 # Red pandas
 
-[^panda] <span class="newthought">Once you have read</span> this entire syllabus and [the assignments page](/assignments/), please [click here](mailto:andrew_heiss@byu.edu) and e-mail me a picture of a red panda. For real. Brownie points if it's animated.
+[^panda] <span class="newthought">Once you have read</span> this entire syllabus and [the assignments page](/assignments/), please [click here](mailto:rwesslen@uncc.edu) and e-mail me a picture of a red panda. For real. Brownie points if it's animated.
 
 [^panda]: {-}
   ![Hungry red panda](https://media.giphy.com/media/HUeE6FU2Ih0LC/giphy.gif)
