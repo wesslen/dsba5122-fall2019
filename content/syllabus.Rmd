@@ -42,19 +42,17 @@ The standards and requirements set forth in this syllabus may be modified by the
 
 # Course materials
 
-<span class="newthought">Most of the readings in this class are free.</span> We will only use one physical textbook.^[And the library provides access to it for free.]
+<span class="newthought">The course textbooks include free online versions.</span> Although I'd still highly recommend buying physical copies (but it's completely optional).
 
-- [@Cairo:2016] [$36 used, $38 new at [Amazon](https://www.amazon.com/Truthful-Art-Data-Charts-Communication/dp/0321934075)]
+The three books we'll use are:^[Fun fact: all of these books were written in R using [Bookdown](https://bookdown.org/)!]
 
-We'll rely heavily on these other books, which are all available online.^[*R for Data Science* exists in print, and both *Data Visualization: A practical introduction* and *Fundamentals of Data Visualization* will be released in print during the semester.]
-
-- [@Healy:2018] [**FREE** online; $40 new at [Amazon](https://www.amazon.com/Data-Visualization-Introduction-Kieran-Healy/dp/0691181624/) in December]
-- [@Wilke:2018] [**FREE** online; $50 new at [Amazon](https://www.amazon.com/Fundamentals-Data-Visualization-Informative-Compelling/dp/1492031089) in December]
+- [@Healy:2018] [**FREE** online; $40 new at [Amazon](https://www.amazon.com/Data-Visualization-Introduction-Kieran-Healy/dp/0691181624/)]
+- [@Wilke:2018] [**FREE** online; $50 new at [Amazon](https://www.amazon.com/Fundamentals-Data-Visualization-Informative-Compelling/dp/1492031089)]
 - [@WickhamGrolemund:2017] [**FREE** online; $16 used, $18 new at [Amazon](https://www.amazon.com/R-Data-Science-Hadley-Wickham/dp/1491910399/)]
 
 There will also occasionally be additional articles and videos to read and watch. When this happens, links to these other resources will be included on the reading page for that week.
 
-I also highly recommend subscribing to the [R Weekly newsletter](https://rweekly.org/). This e-mail is sent every Monday and is full of helpful tutorials about how to do stuff with R.
+I also highly recommend subscribing to the [R Bloggers](https://www.r-bloggers.com/). This e-mail is sent daily withll of helpful tutorials about how to do stuff with R.
 
 ## R and RStudio
 
@@ -76,6 +74,7 @@ Searching for help with R on Google can be tricky because the program is, um, a 
 
 Additionally, we have a class chatroom at [Slack](https://unccdsba5122s2019.slack.com) where anyone in the class can ask questions and anyone can answer. Ask questions about the readings, problem sets, and projects [in the class Slack workspace](https://unccdsba5122s2019.slack.com). I will monitor Slack regularly, and you should also all do so as well. You'll likely have similar questions as your peers, and you'll likely be able to answer other peoples' questions too.
 
+<!-- slack pwd: unccdataviz -->
 
 # Classroom policies
 
@@ -132,8 +131,6 @@ assignments_total <- data_frame(Assignment = "Total",
 bind_rows(assignments, assignments_total) %>% 
   select(Assignment, Points) 
 ```
-
-\
 
 ```{r show-grades-table, echo=FALSE, results="asis"}
 grading

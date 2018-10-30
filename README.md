@@ -1,6 +1,6 @@
 # DSBA 5122: Visual Analytics
 
-This repository contains the code for generating [datavizf18.classes.andrewheiss.com](https://datavizf18.classes.andrewheiss.com/).
+This repository contains the code for generating [dsba5122-spring2019.netlify.com](https://dsba5122-spring2019.netlify.com).
 
 ## Attribution
 

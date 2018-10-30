@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Classes on Visual Analytics</title>
-    <link>/rwesslen/dsba5122-spring2019/class/</link>
+    <link>/class/</link>
     <description>Recent content in Classes on Visual Analytics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 11 Feb 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/rwesslen/dsba5122-spring2019/class/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/class/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Amounts</title>
-      <link>/rwesslen/dsba5122-spring2019/class/04-class/</link>
-      <pubDate>Tue, 25 Sep 2018 00:00:00 +0000</pubDate>
+      <link>/class/04-class/</link>
+      <pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/rwesslen/dsba5122-spring2019/class/04-class/</guid>
+      <guid>/class/04-class/</guid>
       <description>Contents  Slides US birth data Clearest and muddiest things   Slides Download the slides from today’s lecture.
    US birth data Here’s the data I used:
   Data from the CDC and SSA (via FiveThirtyEight)  Here’s a more complete version of the code I wrote in class:
@@ -24,21 +24,21 @@
     </item>
     
     <item>
-      <title>Mapping data to graphics</title>
-      <link>/rwesslen/dsba5122-spring2019/class/03-class/</link>
-      <pubDate>Tue, 18 Sep 2018 00:00:00 +0000</pubDate>
+      <title>Visual Representation Basics II</title>
+      <link>/class/03-class/</link>
+      <pubDate>Mon, 04 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/rwesslen/dsba5122-spring2019/class/03-class/</guid>
+      <guid>/class/03-class/</guid>
       <description>Contents  Slides Extra-dimensional aesthetics Guessing the identity of the Trump resistance op-ed writer with R Workhouses and star movies Clearest and muddiest things   Slides Download the slides from today’s lecture.
    Extra-dimensional aesthetics  Make your own animated plots with gganimate Video of simulated Hurricane Florence storm surge The Wall Street Journal’s audio-based visualization of Hamilton’s internal rhymes  Guessing the identity of the Trump resistance op-ed writer with R  David Robinson’s approach Mike Kearney’s approach: his code and his short article  Workhouses and star movies Download this zip file, extract it, and open the file named week3.</description>
     </item>
     
     <item>
-      <title>Graphic Design</title>
-      <link>/rwesslen/dsba5122-spring2019/class/02-class/</link>
-      <pubDate>Tue, 11 Sep 2018 00:00:00 +0000</pubDate>
+      <title>Visual Representation Basics I</title>
+      <link>/class/02-class/</link>
+      <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/rwesslen/dsba5122-spring2019/class/02-class/</guid>
+      <guid>/class/02-class/</guid>
       <description>Contents  Slides Quick redesign Clearest and muddiest things   Slides Download the slides from today’s lecture.
    Quick redesign Choose one of these on-campus fliers and redesign it in a small group:
  BYU Student Wellness:  All assets Safe Kids Utah County:  All assets  Clearest and muddiest things Go to this form and answer these two questions:
@@ -46,11 +46,11 @@ What was the muddiest thing from class today?</description>
     </item>
     
     <item>
-      <title>Truth, beauty, and data</title>
-      <link>/rwesslen/dsba5122-spring2019/class/01-class/</link>
-      <pubDate>Tue, 04 Sep 2018 00:00:00 +0000</pubDate>
+      <title>Introduction to Visual Analytics</title>
+      <link>/class/01-class/</link>
+      <pubDate>Mon, 14 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/rwesslen/dsba5122-spring2019/class/01-class/</guid>
+      <guid>/class/01-class/</guid>
       <description>Contents  Slides Playing with LEGO Clearest and muddiest things   Slides Download the slides from today’s lecture.
    Playing with LEGO The R Markdown file we (briefly) played with is here.
 Clearest and muddiest things Go to this form and answer these two questions:

@@ -1,4 +1,4 @@
-baseURL: "https://webpages.uncc.edu/rwesslen/dsba5122-spring2019"
+baseURL: "https://dsba5122-spring2019.netlify.com"
 languageCode: en-us
 title: Visual Analytics
 theme: "ath-tufte-hugo_18-19"
@@ -71,7 +71,7 @@ params:
   primaryColor: "#DA5B69"
   secondaryColor: "#F9983E"
   credits: >-
-    Hex icon by Andrew Heiss, with a stylized version of [Hans Rosling's health+wealth plot](https://www.youtube.com/watch?v=jbkSRLYSojo).<br>Color scheme adapted from the [viridis plasma map](https://github.com/sjmgarnier/viridis).
+    Original website and hex icon by Andrew Heiss, with a stylized version of [Hans Rosling's health+wealth plot](https://www.youtube.com/watch?v=jbkSRLYSojo).<br>Color scheme adapted from the [viridis plasma map](https://github.com/sjmgarnier/viridis).
   logo:
     url: /images/dataviz_hires.png
     alt: Visual Analytics
