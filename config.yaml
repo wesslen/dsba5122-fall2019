@@ -26,19 +26,19 @@ menu:
       weight: 2
     - name: Reference
       url: /reference/
-      weight: 4
+      weight: 8
     - name: Canvas
       url: "https://canvas.uncc.edu"
-      weight: 5
+      weight: 4
     - name: RStudio.cloud
       url: "https://rstudio.cloud"
-      weight: 6
+      weight: 5
     - name: Class Slack
       url: "https://unccdsba5122s2019.slack.com"
-      weight: 7
+      weight: 6
     - name: DataCamp
       url: "https://www.datacamp.com/"
-      weight: 8
+      weight: 7
 # Disable taxonomies
 taxonomies:
   tag: ""
@@ -46,7 +46,7 @@ taxonomies:
   category: ""
 params:
   author: Ryan Wesslen
-  thumbnail: /images/dataviz_meta.png
+  thumbnail: /images/dsba5122.png
   instructor: 
     name: Ryan Wesslen
     email: rwesslen@uncc.edu
@@ -77,9 +77,9 @@ params:
   primaryColor: "#046A38"
   secondaryColor: "#B9975B"
   credits: >-
-    Original [website](https://datavizf18.classes.andrewheiss.com/) and hex icon by [Andrew Heiss](https://www.andrewheiss.com/), with a stylized version of [Hans Rosling's health+wealth plot](https://www.youtube.com/watch?v=jbkSRLYSojo).<br>Color scheme adapted from the [viridis plasma map](https://github.com/sjmgarnier/viridis).
+    Original [website](https://datavizf18.classes.andrewheiss.com/) by [Andrew Heiss](https://www.andrewheiss.com/).
   logo:
-    url: /images/dataviz_hires.png
+    url: /images/dsba5122.png
     alt: Visual Analytics
   meta:
     twitterSite: "@ryanwesslen"

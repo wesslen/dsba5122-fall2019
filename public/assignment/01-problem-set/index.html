@@ -13,7 +13,7 @@
     <meta name="twitter:site" content="@ryanwesslen">
     <meta name="twitter:title" content="Problem set 1 | DSBA 5122: Visual Analytics">
     <meta name="twitter:creator" content="@ryanwesslen">
-    <meta name="twitter:image" content="https://dsba5122-spring2019.netlify.com/images/dataviz_meta.png">
+    <meta name="twitter:image" content="https://dsba5122-spring2019.netlify.com/images/dsba5122.png">
     <meta name="twitter:description" content="Communicate science and statistics with beautiful graphics" />
 
     <meta property="og:site_name" content="DSBA 5122: Visual Analytics"/>
@@ -21,10 +21,10 @@
     <meta property="og:type" content="article" />
     <meta property="article:author" content="" />
     <meta property="og:url" content="https://dsba5122-spring2019.netlify.com" />
-    <meta property="og:image" content="https://dsba5122-spring2019.netlify.com/images/dataviz_meta.png">
+    <meta property="og:image" content="https://dsba5122-spring2019.netlify.com/images/dsba5122.png">
     <meta property="og:description" content="Communicate science and statistics with beautiful graphics" />
 
-    <meta name="generator" content="Hugo 0.46" />    
+    <meta name="generator" content="Hugo 0.49.2" />    
 
     <title>Problem set 1 | DSBA 5122: Visual Analytics</title>
     <link rel="canonical" href="https://dsba5122-spring2019.netlify.com/assignment/01-problem-set/">
@@ -105,7 +105,7 @@
 <div class="wrap">
     <header>
         <nav class="group logo-wrap">
-            <a href="/" class="logo"><img src="https://dsba5122-spring2019.netlify.com/images/dataviz_hires.png" alt="Visual Analytics"></a>
+            <a href="/" class="logo"><img src="https://dsba5122-spring2019.netlify.com/images/dsba5122.png" alt="Visual Analytics"></a>
             <h1 class="websitetitle"><a href="https://dsba5122-spring2019.netlify.com">DSBA 5122: Visual Analytics</a></h1>
         </nav>
         <nav class="bottom-group">
@@ -116,8 +116,6 @@
             
             <a href="/assignments/">Assignments</a>
             
-            <a href="/reference/">Reference</a>
-            
             <a href="https://canvas.uncc.edu">Canvas</a>
             
             <a href="https://rstudio.cloud">RStudio.cloud</a>
@@ -125,6 +123,8 @@
             <a href="https://unccdsba5122s2019.slack.com">Class Slack</a>
             
             <a href="https://www.datacamp.com/">DataCamp</a>
+            
+            <a href="/reference/">Reference</a>
             
         </nav>
     </header>
@@ -140,7 +140,7 @@
     <style type="text/css">
 a.sourceLine { display: inline-block; line-height: 1.25; }
 a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
-a.sourceLine:empty { height: 1.2em; position: absolute; }
+a.sourceLine:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode { white-space: pre; position: relative; }
 div.sourceCode { margin: 1em 0; }
@@ -153,13 +153,11 @@ code.sourceCode { white-space: pre-wrap; }
 a.sourceLine { text-indent: -1em; padding-left: 1em; }
 }
 pre.numberSource a.sourceLine
-  { position: relative; }
-pre.numberSource a.sourceLine:empty
-  { position: absolute; }
+  { position: relative; left: -4em; }
 pre.numberSource a.sourceLine::before
   { content: attr(data-line-number);
-    position: absolute; left: -5em; text-align: right; vertical-align: baseline;
-    border: none; pointer-events: all;
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all; display: inline-block;
     -webkit-touch-callout: none; -webkit-user-select: none;
     -khtml-user-select: none; -moz-user-select: none;
     -ms-user-select: none; user-select: none;
@@ -208,13 +206,13 @@ code span.wa { color: #bf0303; } /* Warning */
 
 
 <h2 id="task-0">Task 0</h2>
-<p><a href="/files/your-name_problem-set-1.Rmd">Download this R Markdown file</a>.<span><label for="sn-0" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-0" class="margin-toggle"/><span class="sidenote">Your browser might show the file instead of downloading it. If that’s the case, you can copy/paste the code from the browser to RStudio. In RStudio, go to “File” &gt; “New” &gt; “New R Markdown…”, click “OK” with the default options, delete all the placeholder code/text in the new file, and paste the example code in the now-blank file.<br />
+<p><a href="/files/your-name_problem-set-1.Rmd">Download this R Markdown file</a>.<span><label for="sn-1" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-1" class="margin-toggle"/><span class="sidenote">Your browser might show the file instead of downloading it. If that’s the case, you can copy/paste the code from the browser to RStudio. In RStudio, go to “File” &gt; “New” &gt; “New R Markdown…”, click “OK” with the default options, delete all the placeholder code/text in the new file, and paste the example code in the now-blank file.<br />
 <br />
 </span></span> It contains an outline/skeleton of what you’ll need to do in this problem set, and it includes lots of the code prewritten just for you!</p>
-<p>Make sure you install R and RStudio and tidyverse first.<span><label for="sn-1" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-1" class="margin-toggle"/><span class="sidenote">Follow <a href="/install/">these instructions</a> and install R, RStudio, and all the tidyverse packages. If you have any questions, don’t hesitate to ask me or your classmates for help!<br />
+<p>Make sure you install R and RStudio and tidyverse first.<span><label for="sn-2" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-2" class="margin-toggle"/><span class="sidenote">Follow <a href="/install/">these instructions</a> and install R, RStudio, and all the tidyverse packages. If you have any questions, don’t hesitate to ask me or your classmates for help!<br />
 <br />
 </span></span></p>
-<p>Complete the three tasks below and type your answers in that downloaded file. When you’re done, knit the document as a Word file or PDF with the “Knit” button at the top of the script editing pane.<span><label for="sn-2" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-2" class="margin-toggle"/><span class="sidenote"><img src="/images/assignment/knit-button.png" alt="Knit button" /><br />
+<p>Complete the three tasks below and type your answers in that downloaded file. When you’re done, knit the document as a Word file or PDF with the “Knit” button at the top of the script editing pane.<span><label for="sn-3" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-3" class="margin-toggle"/><span class="sidenote"><img src="/images/assignment/knit-button.png" alt="Knit button" /><br />
 <br />
 </span></span></p>
 <h2 id="task-1-become-familiar-with-rstudio-and-r-markdown">Task 1: Become familiar with RStudio and R Markdown</h2>
@@ -225,7 +223,7 @@ code span.wa { color: #bf0303; } /* Warning */
 <li><a href="http://rmarkdown.rstudio.com/lesson-2.html">How it Works</a></li>
 <li><a href="http://rmarkdown.rstudio.com/lesson-3.html">Code Chunks</a></li>
 <li><a href="http://rmarkdown.rstudio.com/lesson-4.html">Inline Code</a></li>
-<li><a href="http://rmarkdown.rstudio.com/lesson-8.html">Markdown Basics</a><span><label for="sn-3" class="margin-toggle">&#8853;</label><input type="checkbox" id="sn-3" class="margin-toggle"/><span class="marginnote"> The <a href="https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf">R Markdown Reference Guide</a> is super useful here.<br />
+<li><a href="http://rmarkdown.rstudio.com/lesson-8.html">Markdown Basics</a><span><label for="sn-4" class="margin-toggle">&#8853;</label><input type="checkbox" id="sn-4" class="margin-toggle"/><span class="marginnote"> The <a href="https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf">R Markdown Reference Guide</a> is super useful here.<br />
 <br />
 </span></span></li>
 <li><a href="http://rmarkdown.rstudio.com/lesson-9.html">Output Formats</a></li>
@@ -238,14 +236,15 @@ code span.wa { color: #bf0303; } /* Warning */
 <a class="sourceLine" id="cb1-2" data-line-number="2">tinytex<span class="op">::</span><span class="kw">install_tinytex</span>()</a></code></pre></div>
 <p>If you want to use a full-blown LaTeX installation, install one of these. But note that <em>you don’t need to do this!</em></p>
 <ul>
-<li>LaTeX for macOS: <a href="https://www.tug.org/mactex/">MacTeX</a><span><label for="sn-4" class="margin-toggle">&#8853;</label><input type="checkbox" id="sn-4" class="margin-toggle"/><span class="marginnote"> For whatever reason, LaTeX is astoundingly huge and it will feel like you’re downloading the entire internet when you install it. Be patient :)<br />
+<li>LaTeX for macOS: <a href="https://www.tug.org/mactex/">MacTeX</a><span><label for="sn-5" class="margin-toggle">&#8853;</label><input type="checkbox" id="sn-5" class="margin-toggle"/><span class="marginnote"> For whatever reason, LaTeX is astoundingly huge and it will feel like you’re downloading the entire internet when you install it. Be patient :)<br />
 <br />
 </span></span></li>
 <li>LaTeX for Windows: <a href="https://miktex.org/howto/install-miktex">MiKTeX</a></li>
 </ul>
 <p>When you’re done with everything in Task 1, type something in the R Markdown skeleton file you downloaded at the beginning. You should see a <code># Task 1</code> heading. Type it under that.</p>
 <h2 id="task-2-playing-with-r">Task 2: Playing with R</h2>
-<p>This example uses data from the <a href="https://www.gapminder.org/">Gapminder project</a>.<span><label for="sn-5" class="margin-toggle">&#8853;</label><input type="checkbox" id="sn-5" class="margin-toggle"/><span class="marginnote"> You may have seen Hans Rosling’s <a href="https://www.ted.com/talks/hans_rosling_shows_the_best_stats_you_ve_ever_seen">delightful TED talk</a> showing how global health and wealth have been increasing. If you haven’t, you should watch it. Sadly, Hans died in February 2017.<br />
+<p>This example uses data from the <a href="https://www.gapminder.org/">Gapminder project</a>.<span><label for="sn-6" class="margin-toggle">&#8853;</label><input type="checkbox" id="sn-6" class="margin-toggle"/><span class="marginnote">
+You may have seen Hans Rosling’s <a href="https://www.ted.com/talks/hans_rosling_shows_the_best_stats_you_ve_ever_seen">delightful TED talk</a> showing how global health and wealth have been increasing. If you haven’t, you should watch it. Sadly, Hans died in February 2017.<br />
 <br />
 </span></span> You’ll need to install the <code>gapminder</code> R package first. Install it either with the “Packages” panel in RStudio or by typing <code>install.packages(&quot;gapminder&quot;)</code> in the R console.</p>
 <p>For this task, you won’t do any actual coding. The skeleton R Markdown file has all the code you need for this task. Download it, open it in RStudio, and walk through the examples in RStudio on your computer. If you place your cursor on some R code and press “⌘ + enter” (for macOS users) or “ctrl + enter” (for Windows users), RStudio will send that line to the console and run it.</p>
@@ -312,7 +311,7 @@ code span.wa { color: #bf0303; } /* Warning */
         <span class="credit">All content licensed under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.</span><br>
 
         <span class="credit">Content <i class="fab fa-creative-commons"></i> 2019 <a href="https://wesslen.github.io">Ryan Wesslen</a></span><br>
-        <span class="credit">Original <a href="https://datavizf18.classes.andrewheiss.com/">website</a> and hex icon by <a href="https://www.andrewheiss.com/">Andrew Heiss</a>, with a stylized version of <a href="https://www.youtube.com/watch?v=jbkSRLYSojo">Hans Rosling&rsquo;s health+wealth plot</a>.<br>Color scheme adapted from the <a href="https://github.com/sjmgarnier/viridis">viridis plasma map</a>.</span><br>
+        <span class="credit">Original <a href="https://datavizf18.classes.andrewheiss.com/">website</a> by <a href="https://www.andrewheiss.com/">Andrew Heiss</a>.</span><br>
 
         <span class="credit">This site created with the <a href="https://github.com/andrewheiss/ath-tufte-hugo_18-19">ath-tufte-hugo theme</a> in <a href="https://bookdown.org/yihui/blogdown/">blogdown</a> and <a href="https://gohugo.io/">Hugo</a>.</span>
         </div>

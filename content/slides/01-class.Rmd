@@ -81,6 +81,14 @@ class: center, middle
 
 ---
 
+class: center, middle
+
+# Let's get started!
+
+![Hungry red panda](https://media.giphy.com/media/1BVuXduUzNros/giphy.gif)
+
+---
+
 class: inverse, middle, center
 
 # Intro to Visual Analytics

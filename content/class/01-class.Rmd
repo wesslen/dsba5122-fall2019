@@ -16,11 +16,11 @@ editor_options:
 
 [Class slides](/slides/01-class.html).
 
-```{r}
-knitr::include_url('../slides/01-class.html')
+```{r echo=FALSE}
+knitr::include_url('/slides/01-class.html')
 ```
 
-# Hands-on Exercise
+# Lab session: Intro to RStudio
 
 1. First, create a RStudio.Cloud account [rstudio.cloud](http://rstudio.cloud/).
 

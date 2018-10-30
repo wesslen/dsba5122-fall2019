@@ -5,8 +5,14 @@ author: "Ryan Wesslen"
 
 ^[{-} `r blogdown::shortcode("courseinfo")`] <span class="newthought">This site contains</span> the syllabus, schedule, and assignments for DSBA5122: Visual Analytics, held during Spring 2019 at University of North Carolina at Charlotte.
 
-By the end of this course, you will become (1) literate in data and graphic design principles, (2) an ethical data communicator, and (3) a collaborative sharer by producing beautiful, powerful, and clear visualizations of your own data.
+By the end of this course, you will become: 
+
+1. literate in data and graphic design principles;
+
+2. an ethical data communicator;
+
+3. a collaborative sharer by producing beautiful, powerful, and clear visualizations of your own data.
 
 <figure>
-[![](/images/dataviz-flowchart.png)](/images/dataviz-flowchart.png)
+[![](/images/data-science.png)](/images/data-science.png)
 </figure>

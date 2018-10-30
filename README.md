@@ -1,5 +1,7 @@
 # DSBA 5122: Visual Analytics
 
+![](images/dsba5122.png)
+
 This repository contains the code for generating [dsba5122-spring2019.netlify.com](https://dsba5122-spring2019.netlify.com).
 
 ## Attribution

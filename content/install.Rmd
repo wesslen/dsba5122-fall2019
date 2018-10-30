@@ -65,7 +65,6 @@ Next, you need to install RStudio, the nicer graphical user interface (GUI) for 
 
 Double click on RStudio to run it (check your applications folder or start menu).
 
-
 ## Install `tidyverse`
 
 R packages are easy to install with RStudio. Select the packages panel, click on "Install," type the name of the package you want to install, and press enter.

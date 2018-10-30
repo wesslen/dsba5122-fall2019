@@ -130,17 +130,14 @@ assignments_total <- data_frame(Assignment = "Total",
 
 bind_rows(assignments, assignments_total) %>% 
   select(Assignment, Points) %>%
-  knitr::kable("markdown")
+  knitr::kable("markdown", align = "cc")
 ```
 
 ```{r show-grades-table, echo=FALSE, results="asis"}
-knitr::kable(grading, "markdown")
+knitr::kable(grading, "markdown", align = "cc")
 ```
 
 
-# Red pandas
+# Let's have fun and explore!
 
-[^panda] <span class="newthought">Once you have read</span> this entire syllabus and [the assignments page](/assignments/), please [click here](mailto:rwesslen@uncc.edu) and e-mail me a picture of a red panda. For real. Brownie points if it's animated.
-
-[^panda]: {-}
-  ![Hungry red panda](https://media.giphy.com/media/HUeE6FU2Ih0LC/giphy.gif)
+![](https://media.giphy.com/media/3ov9k9AyzTiUCfsZrO/giphy.gif)

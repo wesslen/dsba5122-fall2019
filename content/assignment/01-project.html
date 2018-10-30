@@ -10,7 +10,7 @@ editor_options:
 <style type="text/css">
 a.sourceLine { display: inline-block; line-height: 1.25; }
 a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
-a.sourceLine:empty { height: 1.2em; position: absolute; }
+a.sourceLine:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode { white-space: pre; position: relative; }
 div.sourceCode { margin: 1em 0; }
@@ -23,13 +23,11 @@ code.sourceCode { white-space: pre-wrap; }
 a.sourceLine { text-indent: -1em; padding-left: 1em; }
 }
 pre.numberSource a.sourceLine
-  { position: relative; }
-pre.numberSource a.sourceLine:empty
-  { position: absolute; }
+  { position: relative; left: -4em; }
 pre.numberSource a.sourceLine::before
   { content: attr(data-line-number);
-    position: absolute; left: -5em; text-align: right; vertical-align: baseline;
-    border: none; pointer-events: all;
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all; display: inline-block;
     -webkit-touch-callout: none; -webkit-user-select: none;
     -khtml-user-select: none; -moz-user-select: none;
     -ms-user-select: none; user-select: none;
@@ -89,11 +87,11 @@ code span.wa { color: #bf0303; } /* Warning */
 <p>Here’s what you need to do:</p>
 <ol style="list-style-type: decimal">
 <li><p><strong>Create</strong> a new RStudio project and place it on your computer somewhere. Open that new folder in Windows File Explorer or macOS Finder (however you navigate around the files on your computer), and create two subfolders there named <code>data</code> and <code>output</code>.</p></li>
-<li><p><strong>Download</strong> New York City’s database of rat sightings since 2010:<span><label for="sn-0" class="margin-toggle">&#8853;</label><input type="checkbox" id="sn-0" class="margin-toggle"/><span class="marginnote"> <img src="https://media.giphy.com/media/3rgXBqQT75uvb1V8Os/giphy.gif" alt="Shredder" /><br />
+<li><p><strong>Download</strong> New York City’s database of rat sightings since 2010:<span><label for="sn-1" class="margin-toggle">&#8853;</label><input type="checkbox" id="sn-1" class="margin-toggle"/><span class="marginnote"> <img src="https://media.giphy.com/media/3rgXBqQT75uvb1V8Os/giphy.gif" alt="Shredder" /><br />
 <br />
 </span></span></p>
 <p><a href="/data/Rat_Sightings.csv"><i class="fas fa-table"></i> NYC Rat Sightings</a></p>
-<p>Place this in the <code>data</code> subfolder you created in step 1.<span><label for="sn-1" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-1" class="margin-toggle"/><span class="sidenote">As always, you’ll probably need to right click on this link and choose “Save link as…”, since your browser will want to display it as text. The data was originally <a href="https://www.kaggle.com/new-york-city/nyc-rat-sightings/data">uploaded by the City of New York to Kaggle</a>, and is provided with a public domain license.<br />
+<p>Place this in the <code>data</code> subfolder you created in step 1.<span><label for="sn-2" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-2" class="margin-toggle"/><span class="sidenote">As always, you’ll probably need to right click on this link and choose “Save link as…”, since your browser will want to display it as text. The data was originally <a href="https://www.kaggle.com/new-york-city/nyc-rat-sightings/data">uploaded by the City of New York to Kaggle</a>, and is provided with a public domain license.<br />
 <br />
 </span></span></p></li>
 <li><p><strong>Create</strong> a new R Markdown file and save it in your project. In RStudio go to File &gt; New File &gt; R Markdown…, choose the default options, and delete all the placeholder text in the new file except for the metadata at the top, which is between <code>---</code> and <code>---</code>.</p></li>
@@ -116,18 +114,18 @@ code span.wa { color: #bf0303; } /* Warning */
 </ul></li>
 <li><strong>Upload</strong> the following outputs to Learning Suite:
 <ul>
-<li>A PDF or Word file of your memo with your final code and graphic embedded in it.<span><label for="sn-2" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-2" class="margin-toggle"/><span class="sidenote">You can approach this in a couple different ways—you can write the memo and then include the full figure and code at the end, <a href="https://rud.is/b/2017/09/18/mapping-fall-foliage-with-sf/">similar to this blog post</a>, or you can write the memo in an incremental way, describing the different steps of creating the figure, ultimately arriving at a clean final figure, <a href="https://rudeboybert.github.io/fivethirtyeight/articles/bechdel.html">like this blog post</a>.<br />
+<li>A PDF or Word file of your memo with your final code and graphic embedded in it.<span><label for="sn-3" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-3" class="margin-toggle"/><span class="sidenote">You can approach this in a couple different ways—you can write the memo and then include the full figure and code at the end, <a href="https://rud.is/b/2017/09/18/mapping-fall-foliage-with-sf/">similar to this blog post</a>, or you can write the memo in an incremental way, describing the different steps of creating the figure, ultimately arriving at a clean final figure, <a href="https://rudeboybert.github.io/fivethirtyeight/articles/bechdel.html">like this blog post</a>.<br />
 <br />
 </span></span> This means you’ll need to do all your coding in an R Markdown file and embed your code in chunks.</li>
-<li>A standalone PNG version of your graphic<span><label for="sn-3" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-3" class="margin-toggle"/><span class="sidenote">Use <code>ggsave(plot_name, filename = &quot;output/blah.png&quot;, width = XX, height = XX)</code><br />
+<li>A standalone PNG version of your graphic<span><label for="sn-4" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-4" class="margin-toggle"/><span class="sidenote">Use <code>ggsave(plot_name, filename = &quot;output/blah.png&quot;, width = XX, height = XX)</code><br />
 <br />
 </span></span></li>
-<li>A standalone PDF version of your graphic<span><label for="sn-4" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-4" class="margin-toggle"/><span class="sidenote">Use <code>ggsave(plot_name, filename = &quot;output/blah.pdf&quot;, width = XX, height = XX)</code><br />
+<li>A standalone PDF version of your graphic<span><label for="sn-5" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-5" class="margin-toggle"/><span class="sidenote">Use <code>ggsave(plot_name, filename = &quot;output/blah.pdf&quot;, width = XX, height = XX)</code><br />
 <br />
 </span></span></li>
 </ul></li>
 </ol>
-<p>You will be graded based on how you use R and <code>ggplot</code>, how well you apply the principles of CRAP, <em>The Truthful Art</em>, and <em>Effective Data Visualization</em>, and how appropriate the graph is for the data and the story you’re telling. I will use <a href="/files/mini-project-1-rubric.pdf">this rubric</a> to grade the final product.<span><label for="sn-5" class="margin-toggle">&#8853;</label><input type="checkbox" id="sn-5" class="margin-toggle"/><span class="marginnote"> <a href="/assignment/rubrics/mini-project-1-rubric.pdf"><img src="/images/rubrics/mini-project-1-rubric.png" alt="Example rubric for redesign 2" /></a><br />
+<p>You will be graded based on how you use R and <code>ggplot</code>, how well you apply the principles of CRAP, <em>The Truthful Art</em>, and <em>Effective Data Visualization</em>, and how appropriate the graph is for the data and the story you’re telling. I will use <a href="/files/mini-project-1-rubric.pdf">this rubric</a> to grade the final product.<span><label for="sn-6" class="margin-toggle">&#8853;</label><input type="checkbox" id="sn-6" class="margin-toggle"/><span class="marginnote"> <a href="/assignment/rubrics/mini-project-1-rubric.pdf"><img src="/images/rubrics/mini-project-1-rubric.png" alt="Example rubric for redesign 2" /></a><br />
 <br />
 </span></span></p>
 <p>For this assignment, I am less concerned with detailed graphic design principles—select appropriate colors, change fonts if you’re brave, and choose a nice <code>ggplot</code> theme and perhaps make a few adjustments like moving the legend around (<code>theme(legend.position = &quot;bottom&quot;)</code>) or other things you find with <code>ggThemeAssist</code>.</p>
@@ -138,10 +136,10 @@ code span.wa { color: #bf0303; } /* Warning */
 <ul>
 <li>By default, <code>read_csv()</code> treats cells that are empty or “NA” as missing values. This rat dataset uses “N/A” to mark missing values, so we need to add that as a possible marker of missingness (hence <code>na = c(&quot;&quot;, &quot;NA&quot;, &quot;N/A&quot;)</code>)</li>
 <li>To make life easier, I’ve renamed some of the key variables you might work with. You can rename others if you want.</li>
-<li>I’ve also created a few date-related variables (<code>sighting_year</code>, <code>sighting_month</code>, <code>sighting_day</code>, and <code>sighting_weekday</code>). You don’t have to use them, but they’re there if you need them.<span><label for="sn-6" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-6" class="margin-toggle"/><span class="sidenote">The functions that create these, like <code>year()</code> and <code>wday()</code> are part of the <code>lubridate</code> library.<br />
+<li>I’ve also created a few date-related variables (<code>sighting_year</code>, <code>sighting_month</code>, <code>sighting_day</code>, and <code>sighting_weekday</code>). You don’t have to use them, but they’re there if you need them.<span><label for="sn-7" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-7" class="margin-toggle"/><span class="sidenote">The functions that create these, like <code>year()</code> and <code>wday()</code> are part of the <code>lubridate</code> library.<br />
 <br />
 </span></span></li>
-<li>The date/time variables are formatted like <code>04/03/2017 12:00:00 AM</code>, which R is not able to automatically parse as a date when reading the CSV file. You can use the <code>mdy_hms()</code> function in the <code>lubridate</code> library to parse dates that are structured as “month-day-year-hour-minute.”<span><label for="sn-7" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-7" class="margin-toggle"/><span class="sidenote">There are also a bunch of other iterations of this function, like <code>ymd()</code>, <code>dmy()</code>, etc., for other date formats.<br />
+<li>The date/time variables are formatted like <code>04/03/2017 12:00:00 AM</code>, which R is not able to automatically parse as a date when reading the CSV file. You can use the <code>mdy_hms()</code> function in the <code>lubridate</code> library to parse dates that are structured as “month-day-year-hour-minute.”<span><label for="sn-8" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-8" class="margin-toggle"/><span class="sidenote">There are also a bunch of other iterations of this function, like <code>ymd()</code>, <code>dmy()</code>, etc., for other date formats.<br />
 <br />
 </span></span></li>
 <li>There’s one row with an unspecified borough, so I filter that out.</li>

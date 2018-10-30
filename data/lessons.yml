@@ -33,6 +33,10 @@ lessons:
     date: "February 18"
     reading: "05-reading"
     class: "05-class"
+    
+  - title: "**Problem set 2 (Due Feb 25)**"
+    date: "February 18"
+    assignment: "02-problem-set"
 
   - title: '<span class="fake-header-table">Interactive Visualizations</span>'
     header: True
@@ -41,10 +45,10 @@ lessons:
     date: "February 25"
     reading: "06-reading"
     class: "06-class"
-
-  - title: "**Problem set 2**"
+    
+  - title: "**Design Contest (Due Mar 25)**"
     date: "February 25"
-    assignment: "02-problem-set"
+    assignment: "01-project"
     
   - title: "No class (Spring Break)"
     date: "March 4"
@@ -58,49 +62,41 @@ lessons:
     date: "March 18"
     reading: "08-reading"
     class: "08-class"
-  
-  - title: "**Mini project 1**"
-    date: "March 18"
-    assignment: "01-project"
 
-  - title: "Networks and Trees"
+  - title: "Hierarchies and Trees"
     date: "March 25"
     reading: "09-reading"
     class: "09-class"
   
-  - title: "**Problem set 3**"
+  - title: "**Problem set 3 (Due Apr 1)**"
     date: "March 25"
     assignment: "03-problem-set"
     
-  - title: "Machine Learning"
+  - title: "Graphs and Networks"
     date: "April 1"
     reading: "10-reading"
     class: "10-class"
 
-  - title: '<span class="fake-header-table">Communicating</span>'
+  - title: '<span class="fake-header-table">Advanced Topics</span>'
     header: True
 
-  - title: "Advanced Tools (D3, CSS, JS)"
+  - title: "Coordinated Multiple Views: Interacting & Brushing"
     date: "April 8"
     reading: "11-reading"
 
-  - title: "Websites"
+  - title: "Deployment & Back-end Systems"
     date: "April 15"
     reading: "12-reading"
     
-  - title: "**Problem set 4**"
+  - title: "**Problem set 4** (Due Apr 22)"
     date: "April 15"
     assignment: "04-problem-set"
-  
-  - title: "**Mini project 2**"
-    date: "April 15"
-    assignment: "02-project"
 
-  - title: "Enhancing graphics"
+  - title: "Evaluating Visualizations"
     date: "April 22"
     reading: "13-reading"
 
-  - title: "Truth, beauty, and data revisited"
+  - title: "Wrap-up"
     date: "April 29"
     reading: "14-reading"
 

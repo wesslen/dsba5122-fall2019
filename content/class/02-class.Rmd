@@ -21,22 +21,7 @@ editor_options:
 </figure>
 
 
-# Quick redesign
-
-Choose one of these on-campus fliers and redesign it in a small group:
-
-- BYU Student Wellness: [<i class="fas fa-file-archive"></i> All assets](/files/byu-student-wellness.zip)
-- Safe Kids Utah County: [<i class="fas fa-file-archive"></i> All assets](/files/safe-kids.zip)
-
-
-# Clearest and muddiest things
-
-Go to [this form](https://goo.gl/forms/rSIbw1voOV2vWKMD2) and answer these two questions:
-
-1. What was the muddiest thing from class today? What are you still wondering about?
-2. What was the clearest thing from class today? What was the most exciting thing you learned?
-
-I'll compile the questions and send out answers after class.
+# Lab session: ggplot2
 
 
 ```{r class-stuff, include=FALSE, eval=FALSE}

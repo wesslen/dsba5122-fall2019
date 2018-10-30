@@ -14,11 +14,7 @@ editor_options:
 
 # Slides
 
-[Download the slides from today's lecture](/slides/MPA-635_2018-09-18.pdf).
-
-<figure>
-[![First slide](/images/slides/slides_2018-09-18.png)](/slides/MPA-635_2018-09-18.pdf)
-</figure>
+[Download the slides from today's lecture]().
 
 
 # Extra-dimensional aesthetics
@@ -41,14 +37,7 @@ Download this zip file, *extract it*, and open the file named `week3.Rproj`:
 - [<i class="fas fa-file-archive"></i> `week3.zip`](/files/week3.zip)
 
 
-# Clearest and muddiest things
-
-Go to [this form](https://goo.gl/forms/rSIbw1voOV2vWKMD2) and answer these two questions:
-
-1. What was the muddiest thing from class today? What are you still wondering about?
-2. What was the clearest thing from class today? What was the most exciting thing you learned?
-
-I'll compile the questions and send out answers after class.
+# Lab Session: ggplot2 (part 2)
 
 
 ```{r class-stuff, include=FALSE, eval=FALSE}
