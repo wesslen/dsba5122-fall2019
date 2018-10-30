@@ -1,0 +1,90 @@
+---
+title: "DSBA 5122: Visual Analytics"
+subtitle: "Class 1: Intro to Visual Analytics"  
+author: "Ryan Wesslen"
+date: '2019-01-14'
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-syllabus-no-bib.csl
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: xaringan-themer.css
+    chakra: libs/remark-latest.min.js
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+library(xaringanthemer)
+mono_accent(base_color = "#046A38")
+```
+
+class: center, middle
+
+# Welcome
+
+![](../../static/images/slides/01-class/welcome.gif)
+
+---
+
+# Introduce yourself
+
+- Name
+
+- Program (DSBA, HI, other?)
+
+- Programming & Visualization Experience
+
+- What are you interested in learning more about in visualizations?
+
+---
+
+# Course Website
+
+[Insert image]
+
+<https://dsba5122-spring2019.netlify.com>
+
+---
+
+# Course Outline
+
+---
+
+# Course Assignments
+
+---
+
+# Using R/RStudio
+
+.pull-left[
+# RStudio Locally
+
+- **Pros**: It's on your computer. 
+
+- **Cons**: Different settings (OS, versions, packages, etc.) can make sharing/replication painful.
+
+]
+.pull-right[
+# RStudio.Cloud
+
+- **Benefits**: Clean environment, easy to replicate/share
+
+- **Cons**: Sometimes slow or down (cost of free), limited to 1GB of memory
+]
+
+--
+
+- Use RStudio.Cloud to run in-class demos and test purposes but use local version for your homeworks and projects.
+
+- FYI there's also [Docker](https://ropenscilabs.github.io/r-docker-tutorial/) and/or [Cloud](https://www.andrewheiss.com/blog/2017/04/27/super-basic-practical-guide-to-docker-and-rstudio/) approaches!
+
+---
+
+class: inverse, middle, center
+
+# Intro to Visual Analytics
+
+---
+
+

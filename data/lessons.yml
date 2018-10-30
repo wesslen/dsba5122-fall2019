@@ -6,35 +6,38 @@ lessons:
     date: "January 14"
     reading: "01-reading"
     class: "01-class"
+    
+  - title: "No class (MLK Holiday)"
+    date: "January 21"
 
   - title: "Visual Representation Basics I"
     date: "January 28"
     reading: "02-reading"
     class: "02-class"
+    
+  - title: "**Problem set 1 (Due Feb 4)**"
+    date: "January 28"
+    assignment: "01-problem-set"
 
   - title: "Visual Representation Basics II"
     date: "February 4"
     reading: "03-reading"
     class: "03-class"
+    
+  - title: "Time & Space"
+    date: "February 11"
+    reading: "04-reading"
+    class: "04-class"
 
-  - title: "**Problem set 1**"
-    date: "February 4"
-    assignment: "01-problem-set"
+  - title: "Uncertainty"
+    date: "February 18"
+    reading: "05-reading"
+    class: "05-class"
 
   - title: '<span class="fake-header-table">Interactive Visualizations</span>'
     header: True
 
   - title: "Multidimensional"
-    date: "February 11"
-    reading: "04-reading"
-    class: "04-class"
-
-  - title: "Dimensionality Reduction"
-    date: "February 18"
-    reading: "05-reading"
-    class: "05-class"
-
-  - title: "Time & Space"
     date: "February 25"
     reading: "06-reading"
     class: "06-class"
@@ -42,8 +45,11 @@ lessons:
   - title: "**Problem set 2**"
     date: "February 25"
     assignment: "02-problem-set"
+    
+  - title: "No class (Spring Break)"
+    date: "March 4"
 
-  - title: "Networks and Trees"
+  - title: "Dimensionality Reduction"
     date: "March 11"
     reading: "07-reading"
     class: "07-class"
@@ -51,25 +57,28 @@ lessons:
   - title: "Text Analysis"
     date: "March 18"
     reading: "08-reading"
+    class: "08-class"
   
   - title: "**Mini project 1**"
     date: "March 18"
     assignment: "01-project"
 
-  - title: "Uncertainty"
+  - title: "Networks and Trees"
     date: "March 25"
     reading: "09-reading"
+    class: "09-class"
   
   - title: "**Problem set 3**"
     date: "March 25"
     assignment: "03-problem-set"
+    
+  - title: "Machine Learning"
+    date: "April 1"
+    reading: "10-reading"
+    class: "10-class"
 
   - title: '<span class="fake-header-table">Communicating</span>'
     header: True
-
-  - title: "Deploying Apps"
-    date: "April 1"
-    reading: "10-reading"
 
   - title: "Advanced Tools (D3, CSS, JS)"
     date: "April 8"

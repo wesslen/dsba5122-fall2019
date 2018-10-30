@@ -14,23 +14,15 @@ editor_options:
 
 # Slides
 
-[Download the slides from today's lecture](/slides/MPA-635_2018-09-04.pdf).
+[Class slides](/slides/01-class.html).
 
-<figure>
-[![First slide](/images/slides/slides_2018-09-04.png)](/slides/MPA-635_2018-09-04.pdf)
-</figure>
+```{r}
+knitr::include_url('../slides/01-class.html')
+```
 
+# Hands-on Exercise
 
-# Playing with LEGO
+1. First, create a RStudio.Cloud account [rstudio.cloud](http://rstudio.cloud/).
 
-The R Markdown file we (briefly) played with [is here](/files/play-legos.Rmd).
+2. Go to our RStudio.Cloud project.
 
-
-# Clearest and muddiest things
-
-Go to [this form](https://goo.gl/forms/rSIbw1voOV2vWKMD2) and answer these two questions:
-
-1. What was the muddiest thing from class today? What are you still wondering about?
-2. What was the clearest thing from class today? What was the most exciting thing you learned?
-
-I'll compile the questions and send out answers after class.

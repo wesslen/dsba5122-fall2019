@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en-us"
+      xmlns:og="http://ogp.me/ns#"
+      xmlns:fb="https://www.facebook.com/2008/fbml">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Ryan Wesslen">
+    <meta name="description" content="Communicate science and statistics with beautiful graphics">
+
+    <meta name="twitter:card" value="summary_large_image">
+    <meta name="twitter:site" content="@ryanwesslen">
+    <meta name="twitter:title" content="Mini project 1: Rats of New York | DSBA 5122: Visual Analytics">
+    <meta name="twitter:creator" content="@ryanwesslen">
+    <meta name="twitter:image" content="/images/dataviz_meta.png">
+    <meta name="twitter:description" content="Communicate science and statistics with beautiful graphics" />
+
+    <meta property="og:site_name" content="DSBA 5122: Visual Analytics"/>
+    <meta property="og:title" content="Mini project 1: Rats of New York | DSBA 5122: Visual Analytics">
+    <meta property="og:type" content="article" />
+    <meta property="article:author" content="" />
+    <meta property="og:url" content="/" />
+    <meta property="og:image" content="/images/dataviz_meta.png">
+    <meta property="og:description" content="Communicate science and statistics with beautiful graphics" />
+
+    <meta name="generator" content="Hugo 0.46" />    
+
+    <title>Mini project 1: Rats of New York | DSBA 5122: Visual Analytics</title>
+    <link rel="canonical" href="/assignment/01-project.knit/">
+    <link href="/theme/css/tufte.css" rel="stylesheet">
+    <link href="/theme/css/latex.css" rel="stylesheet">
+    <link href="/theme/css/custom.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style type="text/css">
+        .wrap a, .wrap a:visited {
+            color: #DA5B69;
+        }
+
+        .wrap a:hover {
+            color: #F9983E;
+        }
+
+        .wrap p > a {
+            color: #DA5B69;
+        }
+
+        article .sidenote-number:after, article .sidenote:before {
+            color: #DA5B69;
+        }
+
+        article .sidenote:before {
+            color: #DA5B69;
+        }
+
+        @media (max-width: 760px) {
+            label.margin-toggle:not(.sidenote-number) {
+                color: #DA5B69;
+            }
+        }
+
+        .contrast a, .contrast a:visited {
+            color: #DA5B69; 
+        }
+
+        header > nav a {
+            color: #DA5B69;
+        }
+
+        .credits a {
+            color: #DA5B69;
+        }
+
+        .wrap .tag {
+            background: #DA5B69;
+        }
+    </style>
+
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/images/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/images/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/images/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16" />
+    <meta name="application-name" content="DSBA 5122: Visual Analytics"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="/images/mstile-144x144.png" />
+
+    
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,600|Roboto:300,400" rel="stylesheet"> 
+<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+<div class="wrap">
+    <header>
+        <nav class="group logo-wrap">
+            <a href="/" class="logo"><img src="/images/dataviz_hires.png" alt="Visual Analytics"></a>
+            <h1 class="websitetitle"><a href="/">DSBA 5122: Visual Analytics</a></h1>
+        </nav>
+        <nav class="bottom-group">
+            
+            <a href="/syllabus/">Syllabus</a>
+            
+            <a href="/schedule/">Schedule</a>
+            
+            <a href="/assignments/">Assignments</a>
+            
+            <a href="/reference/">Reference</a>
+            
+            <a href="https://canvas.uncc.edu">Canvas</a>
+            
+            <a href="https://rstudio.cloud">RStudio.cloud</a>
+            
+            <a href="https://unccdsba5122s2019.slack.com">Class Slack</a>
+            
+            <a href="https://www.datacamp.com/">DataCamp</a>
+            
+        </nav>
+    </header>
+
+
+    <article class="group">
+    <h1>Mini project 1: Rats of New York</h1>
+
+    
+    <p class="page-date">Due by <strong>11:59 PM</strong> on Friday, October 26, 2018</p>
+    
+    
+    <p><span class="newthought">New York City is full of urban wildlife,</span> and rats are one of the city&rsquo;s most infamous animal mascots. Rats in NYC are plentiful, but they also deliver food, so they&rsquo;re useful too.</p>
+
+<figure>
+<!--html_preserve-->
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/PeJUqcbool4" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+<!--/html_preserve-->
+</figure>
+
+<p>NYC keeps incredibly detailed data regarding animal sightings, including rats, and <a href="https://www.kaggle.com/new-york-city/nyc-rat-sightings/data">it makes this data publicly available</a>.</p>
+
+<p>For this first mini project, you will use <strong>R and <code>ggplot</code></strong> to tell an interesting story hidden in the data. You can recreate one of these ugly, less-than-helpful graphs, or create a new story by looking at other variables in the data:</p>
+
+<figure class="fullwidth">
+![Bad example 1](/images/assignment/rat_examples.png)
+</figure>
+
+<p>Here&rsquo;s what you need to do:</p>
+
+<ol>
+<li><p><strong>Create</strong> a new RStudio project and place it on your computer somewhere. Open that new folder in Windows File Explorer or macOS Finder (however you navigate around the files on your computer), and create two subfolders there named <code>data</code> and <code>output</code>.</p></li>
+
+<li><p><strong>Download</strong> New York City&rsquo;s database of rat sightings since 2010:<sup class="footnote-ref" id="fnref:Shredder-https-m"><a href="#fn:Shredder-https-m">1</a></sup></p>
+
+<p><a href="/data/Rat_Sightings.csv"><i class="fas fa-table"></i> NYC Rat Sightings</a></p>
+
+<p>Place this in the <code>data</code> subfolder you created in step 1.<sup class="footnote-ref" id="fnref:As-always-you-ll"><a href="#fn:As-always-you-ll">2</a></sup></p></li>
+
+<li><p><strong>Create</strong> a new R Markdown file and save it in your project. In RStudio go to File &gt; New File &gt; R Markdown…, choose the default options, and delete all the placeholder text in the new file except for the metadata at the top, which is between <code>---</code> and <code>---</code>.</p></li>
+
+<li><p><strong>Verify</strong> that your project folder is structured like this:</p>
+
+<pre><code>your-project-name/
+  your-analysis.Rmd
+  your-project-name.Rproj
+  data/
+    Rat_Sightings.csv
+  output/
+    NOTHING
+</code></pre></li>
+
+<li><p><strong>Summarize</strong> the data somehow. The raw data has more than 100,000 rows, which means you&rsquo;ll need to aggregate the data. Consider looking at the number of sightings per borough, per year, per dwelling type, etc., or a combination of these, like the change in the number sightings across the 5 boroughs between 2010 and 2016.</p></li>
+
+<li><p><strong>Create</strong> an appropriate visualization based on the data you summarized.</p></li>
+
+<li><p><strong>Write</strong> a memo (no word limit) explaining your process. I&rsquo;m specifically looking for a discussion of the following:</p>
+
+<ul>
+<li>What was wrong with the original graphic (if you&rsquo;re fixing one of the original figures)?</li>
+<li>What story are you telling with your new graphic?</li>
+<li>How did you apply the principles of CRAP?</li>
+<li>How did you apply Alberto Cairo&rsquo;s five qualities of great visualizations?</li>
+</ul></li>
+
+<li><p><strong>Upload</strong> the following outputs to Learning Suite:</p>
+
+<ul>
+<li>A PDF or Word file of your memo with your final code and graphic embedded in it.<sup class="footnote-ref" id="fnref:You-can-approach"><a href="#fn:You-can-approach">3</a></sup> This means you&rsquo;ll need to do all your coding in an R Markdown file and embed your code in chunks.</li>
+<li>A standalone PNG version of your graphic<sup class="footnote-ref" id="fnref:Use-ggsave-plot"><a href="#fn:Use-ggsave-plot">4</a></sup></li>
+<li>A standalone PDF version of your graphic<sup class="footnote-ref" id="fnref:Use-ggsave-plot"><a href="#fn:Use-ggsave-plot">5</a></sup></li>
+</ul></li>
+</ol>
+
+<p>You will be graded based on how you use R and <code>ggplot</code>, how well you apply the principles of CRAP, <em>The Truthful Art</em>, and <em>Effective Data Visualization</em>, and how appropriate the graph is for the data and the story you&rsquo;re telling. I will use <a href="/files/mini-project-1-rubric.pdf">this rubric</a> to grade the final product.<sup class="footnote-ref" id="fnref:Example-rubric-f"><a href="#fn:Example-rubric-f">6</a></sup></p>
+
+<p>For this assignment, I am less concerned with detailed graphic design principles—select appropriate colors, change fonts if you&rsquo;re brave, and choose a nice <code>ggplot</code> theme and perhaps make a few adjustments like moving the legend around (<code>theme(legend.position = &quot;bottom&quot;)</code>) or other things you find with <code>ggThemeAssist</code>.</p>
+
+<p><strong>The assignment is due by 11:59 PM on Friday, October 26</strong>.</p>
+
+<p><strong>Please seek out help when you need it!</strong> You know enough R (and have enough examples of code from class and your readings) to be able to do this. Your project has to be turned in individually, and your visualization should be your own (i.e. if you work with others, don&rsquo;t all turn in the same graph), but you should work with others! Meet with me for help too—I&rsquo;m here to help!</p>
+
+<p><em>You can do this,</em> and you&rsquo;ll feel like a budding dataviz witch/wizard when you&rsquo;re done.</p>
+
+<p>I&rsquo;ve provided some starter code below. A couple comments about it:</p>
+
+<ul>
+<li>By default, <code>read_csv()</code> treats cells that are empty or &ldquo;NA&rdquo; as missing values. This rat dataset uses &ldquo;N/A&rdquo; to mark missing values, so we need to add that as a possible marker of missingness (hence <code>na = c(&quot;&quot;, &quot;NA&quot;, &quot;N/A&quot;)</code>)</li>
+<li>To make life easier, I&rsquo;ve renamed some of the key variables you might work with. You can rename others if you want.</li>
+<li>I&rsquo;ve also created a few date-related variables (<code>sighting_year</code>, <code>sighting_month</code>, <code>sighting_day</code>, and <code>sighting_weekday</code>). You don&rsquo;t have to use them, but they&rsquo;re there if you need them.<sup class="footnote-ref" id="fnref:The-functions-th"><a href="#fn:The-functions-th">7</a></sup></li>
+<li>The date/time variables are formatted like <code>04/03/2017 12:00:00 AM</code>, which R is not able to automatically parse as a date when reading the CSV file. You can use the <code>mdy_hms()</code> function in the <code>lubridate</code> library to parse dates that are structured as &ldquo;month-day-year-hour-minute&rdquo;.<sup class="footnote-ref" id="fnref:There-are-also-a"><a href="#fn:There-are-also-a">8</a></sup></li>
+<li>There&rsquo;s one row with an unspecified borough, so I filter that out.</li>
+</ul>
+
+<pre><code class="language-r">library(tidyverse)
+library(lubridate)
+
+rats_raw &lt;- read_csv(&quot;data/Rat_Sightings.csv&quot;, na = c(&quot;&quot;, &quot;NA&quot;, &quot;N/A&quot;))
+
+# If you get an error that says &quot;All formats failed to parse. No formats
+# found&quot;, it's because the mdy_hms function couldn't parse the date. The date
+# variable *should* be in this format: &quot;04/03/2017 12:00:00 AM&quot;, but in some
+# rare instances, it might load without the seconds as &quot;04/03/2017 12:00 AM&quot;.
+# If there are no seconds, use mdy_hm() instead of mdy_hms().
+rats_clean &lt;- rats_raw %&gt;%
+  rename(created_date = `Created Date`,
+         location_type = `Location Type`,
+         borough = Borough) %&gt;%
+  mutate(created_date = mdy_hms(created_date)) %&gt;%
+  mutate(sighting_year = year(created_date),
+         sighting_month = month(created_date),
+         sighting_day = day(created_date),
+         sighting_weekday = wday(created_date, label = TRUE, abbr = FALSE)) %&gt;%
+  filter(borough != &quot;Unspecified&quot;)
+</code></pre>
+
+<p>You&rsquo;ll summarize the data with functions from <code>dplyr</code>, including stuff like <code>count()</code>, <code>arrange()</code>, <code>filter()</code>, <code>group_by()</code>, <code>summarize()</code>, and <code>mutate()</code>. Here are some examples of ways to summarize the data:</p>
+
+<pre><code class="language-r"># See the count of rat sightings by weekday
+rats_clean %&gt;%
+  count(sighting_weekday)
+
+# Assign a table to an object to use it in a plot
+rats_by_weekday &lt;- rats_clean %&gt;%
+  count(sighting_weekday, sighting_year)
+
+ggplot(rats_by_weekday, aes(x = fct_rev(sighting_weekday), y = n)) + 
+  geom_col() +
+  coord_flip() +
+  facet_wrap(~ sighting_year)
+
+# See the count of rat sightings by weekday and borough
+rats_clean %&gt;%
+  count(sighting_weekday, borough, sighting_year)
+
+# An alternative to count() is to specify the groups with group_by() and then
+# be explicit about how you're summarizing the groups, such as calculating the
+# mean, standard deviation, or number of observations (we do that here with
+# `n()`).
+rats_clean %&gt;%
+  group_by(sighting_weekday, borough) %&gt;%
+  summarize(n = n())
+</code></pre>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:Shredder-https-m">{-} <img src="https://media.giphy.com/media/3rgXBqQT75uvb1V8Os/giphy.gif" alt="Shredder" /> <a class="footnote-return" href="#fnref:Shredder-https-m"><sup>[return]</sup></a></li>
+<li id="fn:As-always-you-ll">As always, you&rsquo;ll probably need to right click on this link and choose &ldquo;Save link as…&rdquo;, since your browser will want to display it as text. The data was originally <a href="https://www.kaggle.com/new-york-city/nyc-rat-sightings/data">uploaded by the City of New York to Kaggle</a>, and is provided with a public domain license. <a class="footnote-return" href="#fnref:As-always-you-ll"><sup>[return]</sup></a></li>
+<li id="fn:You-can-approach">You can approach this in a couple different ways—you can write the memo and then include the full figure and code at the end, <a href="https://rud.is/b/2017/09/18/mapping-fall-foliage-with-sf/">similar to this blog post</a>, or you can write the memo in an incremental way, describing the different steps of creating the figure, ultimately arriving at a clean final figure, <a href="https://rudeboybert.github.io/fivethirtyeight/articles/bechdel.html">like this blog post</a>. <a class="footnote-return" href="#fnref:You-can-approach"><sup>[return]</sup></a></li>
+<li id="fn:Use-ggsave-plot">Use <code>ggsave(plot_name, filename = &quot;output/blah.png&quot;, width = XX, height = XX)</code> <a class="footnote-return" href="#fnref:Use-ggsave-plot"><sup>[return]</sup></a></li>
+<li id="fn:Use-ggsave-plot">Use <code>ggsave(plot_name, filename = &quot;output/blah.pdf&quot;, width = XX, height = XX)</code> <a class="footnote-return" href="#fnref:Use-ggsave-plot"><sup>[return]</sup></a></li>
+<li id="fn:Example-rubric-f">{-} <a href="/assignment/rubrics/mini-project-1-rubric.pdf"><img src="/images/rubrics/mini-project-1-rubric.png" alt="Example rubric for redesign 2" /></a> <a class="footnote-return" href="#fnref:Example-rubric-f"><sup>[return]</sup></a></li>
+<li id="fn:The-functions-th">The functions that create these, like <code>year()</code> and <code>wday()</code> are part of the <code>lubridate</code> library. <a class="footnote-return" href="#fnref:The-functions-th"><sup>[return]</sup></a></li>
+<li id="fn:There-are-also-a">There are also a bunch of other iterations of this function, like <code>ymd()</code>, <code>dmy()</code>, etc., for other date formats. <a class="footnote-return" href="#fnref:There-are-also-a"><sup>[return]</sup></a></li>
+</ol>
+</div>
+
+
+    </article>
+
+    <footer>
+        <hr class="slender">
+
+        <div class="course-info">
+        <span class="course-name">
+            DSBA 5122: Visual Analytics (Spring 2019)
+        </span><br>
+        <span>
+            <a href="https://www.uncc.edu">University of North Carolina at Charlotte</a> | 
+            <a href="https://dsba.uncc.edu/">Data Science &amp; Business Analytics Program</a>
+        </span>
+        </div>
+
+        <ul class="footer-links">
+            <li>
+            <a href="https://wesslen.github.io"><i class="fas fa-user"></i> Ryan Wesslen</a>
+            </li>
+
+            <li>
+            <a href="mailto:rwesslen@uncc.edu"><i class="fas fa-envelope"></i> rwesslen@uncc.edu</a>
+            </li>
+
+            <li>
+            <i class="far fa-calendar-alt"></i> Mondays
+            </li>
+
+            <li>
+            <i class="far fa-clock"></i> 6:00–8:50 PM
+            </li>
+
+            <li>
+            <i class="fas fa-university"></i> Room 110M: Packard Place
+            </li>
+
+            <li>
+            <a href="https://twitter.com/ryanwesslen"><i class="fab fa-twitter"></i></a>
+            </li>
+
+            <li>
+            <a href="https://github.com/wesslen/dsba5122-sprint2019"><i class="fab fa-github"></i></a>
+            </li>
+        </ul>
+
+        <div class="credits">
+        <span class="credit">All content licensed under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.</span><br>
+
+        <span class="credit">Content <i class="fab fa-creative-commons"></i> 2019 <a href="https://wesslen.github.io">Ryan Wesslen</a></span><br>
+        <span class="credit">Original website and hex icon by Andrew Heiss, with a stylized version of <a href="https://www.youtube.com/watch?v=jbkSRLYSojo">Hans Rosling&rsquo;s health+wealth plot</a>.<br>Color scheme adapted from the <a href="https://github.com/sjmgarnier/viridis">viridis plasma map</a>.</span><br>
+
+        <span class="credit">This site created with the <a href="https://github.com/andrewheiss/ath-tufte-hugo_18-19">ath-tufte-hugo theme</a> in <a href="https://bookdown.org/yihui/blogdown/">blogdown</a> and <a href="https://gohugo.io/">Hugo</a>.</span>
+        </div>
+    </footer>
+
+    
+
+</div>
+</body>
+</html>
+

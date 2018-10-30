@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Assignments on Visual Analytics</title>
-    <link>/assignment/</link>
+    <link>https://dsba5122-spring2019.netlify.com/assignment/</link>
     <description>Recent content in Assignments on Visual Analytics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 18 Dec 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/assignment/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://dsba5122-spring2019.netlify.com/assignment/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Final project</title>
-      <link>/assignment/final-project/</link>
+      <link>https://dsba5122-spring2019.netlify.com/assignment/final-project/</link>
       <pubDate>Tue, 18 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>/assignment/final-project/</guid>
+      <guid>https://dsba5122-spring2019.netlify.com/assignment/final-project/</guid>
       <description>The instructions for the final project will be posted by the end of October.</description>
     </item>
     
     <item>
       <title>Mini project 2</title>
-      <link>/assignment/02-project/</link>
+      <link>https://dsba5122-spring2019.netlify.com/assignment/02-project/</link>
       <pubDate>Tue, 27 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>/assignment/02-project/</guid>
+      <guid>https://dsba5122-spring2019.netlify.com/assignment/02-project/</guid>
       <description>The instructions for this mini project will be posted at least three weeks before it is due.</description>
     </item>
     
     <item>
       <title>Problem set 5</title>
-      <link>/assignment/05-problem-set/</link>
+      <link>https://dsba5122-spring2019.netlify.com/assignment/05-problem-set/</link>
       <pubDate>Tue, 13 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>/assignment/05-problem-set/</guid>
+      <guid>https://dsba5122-spring2019.netlify.com/assignment/05-problem-set/</guid>
       <description>The instructions for this problem set will be posted at least one week before it is due.</description>
     </item>
     
     <item>
       <title>Problem set 4</title>
-      <link>/assignment/04-problem-set/</link>
+      <link>https://dsba5122-spring2019.netlify.com/assignment/04-problem-set/</link>
       <pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>/assignment/04-problem-set/</guid>
+      <guid>https://dsba5122-spring2019.netlify.com/assignment/04-problem-set/</guid>
       <description>The instructions for this problem set will be posted at least one week before it is due.</description>
     </item>
     
     <item>
       <title>Mini project 1: Rats of New York</title>
-      <link>/assignment/01-project/</link>
+      <link>https://dsba5122-spring2019.netlify.com/assignment/01-project/</link>
       <pubDate>Fri, 26 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>/assignment/01-project/</guid>
-      <description>a.sourceLine { display: inline-block; line-height: 1.25; } a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; } a.sourceLine:empty { height: 1.2em; } .sourceCode { overflow: visible; } code.sourceCode { white-space: pre; position: relative; } div.sourceCode { margin: 1em 0; } pre.sourceCode { margin: 0; } @media screen { div.sourceCode { overflow: auto; } } @media print { code.sourceCode { white-space: pre-wrap; } a.sourceLine { text-indent: -1em; padding-left: 1em; } } pre.numberSource a.</description>
+      <guid>https://dsba5122-spring2019.netlify.com/assignment/01-project/</guid>
+      <description>a.sourceLine { display: inline-block; line-height: 1.25; } a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; } a.sourceLine:empty { height: 1.2em; position: absolute; } .sourceCode { overflow: visible; } code.sourceCode { white-space: pre; position: relative; } div.sourceCode { margin: 1em 0; } pre.sourceCode { margin: 0; } @media screen { div.sourceCode { overflow: auto; } } @media print { code.sourceCode { white-space: pre-wrap; } a.sourceLine { text-indent: -1em; padding-left: 1em; } } pre.</description>
     </item>
     
     <item>
       <title>Problem set 3</title>
-      <link>/assignment/03-problem-set/</link>
+      <link>https://dsba5122-spring2019.netlify.com/assignment/03-problem-set/</link>
       <pubDate>Tue, 16 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>/assignment/03-problem-set/</guid>
+      <guid>https://dsba5122-spring2019.netlify.com/assignment/03-problem-set/</guid>
       <description>Task 0: Getting started Create a new RStudio project somewhere on your computer. Open that new folder in Windows File Explorer or macOS Finder (however you navigate around the files on your computer), and create a subfolder there named output.
 Download this R Markdown file and place it in your newly-created projectYou’ll probably have to right click on the link and choose “Save link as…”.
  It contains an outline/skeleton of the one task you’ll need to do in this problem set.</description>
@@ -69,10 +69,10 @@ Download this R Markdown file and place it in your newly-created projectYou’ll
     
     <item>
       <title>Problem set 2</title>
-      <link>/assignment/02-problem-set/</link>
+      <link>https://dsba5122-spring2019.netlify.com/assignment/02-problem-set/</link>
       <pubDate>Tue, 02 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>/assignment/02-problem-set/</guid>
+      <guid>https://dsba5122-spring2019.netlify.com/assignment/02-problem-set/</guid>
       <description>Task 0: Getting started Create a new RStudio project somewhere on your computer. Open that new folder in Windows Explorer or macOS Finder (however you navigate around the files on your computer), and create a subfolder there named data.
 Download all these files and place them in your new data/ folder.&amp;#8853;You’ll probably need to right click on each and choose “Save link as…”.
 
@@ -81,11 +81,11 @@ Download all these files and place them in your new data/ folder.&amp;#8853;You�
     
     <item>
       <title>Problem set 1</title>
-      <link>/assignment/01-problem-set/</link>
+      <link>https://dsba5122-spring2019.netlify.com/assignment/01-problem-set/</link>
       <pubDate>Tue, 18 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>/assignment/01-problem-set/</guid>
-      <description>a.sourceLine { display: inline-block; line-height: 1.25; } a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; } a.sourceLine:empty { height: 1.2em; } .sourceCode { overflow: visible; } code.sourceCode { white-space: pre; position: relative; } div.sourceCode { margin: 1em 0; } pre.sourceCode { margin: 0; } @media screen { div.sourceCode { overflow: auto; } } @media print { code.sourceCode { white-space: pre-wrap; } a.sourceLine { text-indent: -1em; padding-left: 1em; } } pre.numberSource a.</description>
+      <guid>https://dsba5122-spring2019.netlify.com/assignment/01-problem-set/</guid>
+      <description>a.sourceLine { display: inline-block; line-height: 1.25; } a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; } a.sourceLine:empty { height: 1.2em; position: absolute; } .sourceCode { overflow: visible; } code.sourceCode { white-space: pre; position: relative; } div.sourceCode { margin: 1em 0; } pre.sourceCode { margin: 0; } @media screen { div.sourceCode { overflow: auto; } } @media print { code.sourceCode { white-space: pre-wrap; } a.sourceLine { text-indent: -1em; padding-left: 1em; } } pre.</description>
     </item>
     
   </channel>

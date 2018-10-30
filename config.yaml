@@ -27,12 +27,18 @@ menu:
     - name: Reference
       url: /reference/
       weight: 4
+    - name: Canvas
+      url: "https://canvas.uncc.edu"
+      weight: 5
     - name: RStudio.cloud
       url: "https://rstudio.cloud"
-      weight: 5
+      weight: 6
     - name: Class Slack
       url: "https://unccdsba5122s2019.slack.com"
-      weight: 6
+      weight: 7
+    - name: DataCamp
+      url: "https://www.datacamp.com/"
+      weight: 8
 # Disable taxonomies
 taxonomies:
   tag: ""
