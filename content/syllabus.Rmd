@@ -44,7 +44,7 @@ The standards and requirements set forth in this syllabus may be modified by the
 
 <span class="newthought">The course textbooks include free online versions.</span> Although I'd still highly recommend buying physical copies (but it's completely optional).
 
-The three books we'll use are:^[Fun fact: all of these books were written in R using [Bookdown](https://bookdown.org/)!]
+The three books we'll use are:^[Fun fact: all of these books were written in R using [Bookdown](https://bookdown.org/)! Don't believe, here's their code [Healy](https://github.com/kjhealy/socviz), [Wilke](https://github.com/clauswilke/dataviz), and [Wickham](https://github.com/hadley/r4ds).]
 
 - [@Healy:2018] [**FREE** online; $40 new at [Amazon](https://www.amazon.com/Data-Visualization-Introduction-Kieran-Healy/dp/0691181624/)]
 - [@Wilke:2018] [**FREE** online; $50 new at [Amazon](https://www.amazon.com/Fundamentals-Data-Visualization-Informative-Compelling/dp/1492031089)]
@@ -52,7 +52,7 @@ The three books we'll use are:^[Fun fact: all of these books were written in R u
 
 There will also occasionally be additional articles and videos to read and watch. When this happens, links to these other resources will be included on the reading page for that week.
 
-I also highly recommend subscribing to the [R Bloggers](https://www.r-bloggers.com/). This e-mail is sent daily withll of helpful tutorials about how to do stuff with R.
+I also highly recommend subscribing to the [R Bloggers](https://www.r-bloggers.com/). This e-mail is sent daily with helpful tutorials about how to do stuff with R.
 
 ## R and RStudio
 
@@ -129,11 +129,12 @@ assignments_total <- data_frame(Assignment = "Total",
                                 Points = sum(assignments$Points))
 
 bind_rows(assignments, assignments_total) %>% 
-  select(Assignment, Points) 
+  select(Assignment, Points) %>%
+  knitr::kable("markdown")
 ```
 
 ```{r show-grades-table, echo=FALSE, results="asis"}
-grading
+knitr::kable(grading, "markdown")
 ```
 
 

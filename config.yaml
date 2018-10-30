@@ -74,10 +74,10 @@ params:
     name: Data Science & Business Analytics Program
     url: "https://dsba.uncc.edu/"
   description: "Communicate science and statistics with beautiful graphics"
-  primaryColor: "#DA5B69"
-  secondaryColor: "#F9983E"
+  primaryColor: "#046A38"
+  secondaryColor: "#B9975B"
   credits: >-
-    Original website and hex icon by Andrew Heiss, with a stylized version of [Hans Rosling's health+wealth plot](https://www.youtube.com/watch?v=jbkSRLYSojo).<br>Color scheme adapted from the [viridis plasma map](https://github.com/sjmgarnier/viridis).
+    Original [website](https://datavizf18.classes.andrewheiss.com/) and hex icon by [Andrew Heiss](https://www.andrewheiss.com/), with a stylized version of [Hans Rosling's health+wealth plot](https://www.youtube.com/watch?v=jbkSRLYSojo).<br>Color scheme adapted from the [viridis plasma map](https://github.com/sjmgarnier/viridis).
   logo:
     url: /images/dataviz_hires.png
     alt: Visual Analytics
