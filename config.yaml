@@ -1,4 +1,4 @@
-baseURL: "https://wesslen.github.io/dsba5122-spring2019"
+baseURL: "https://webpages.uncc.edu/rwesslen/dsba5122-spring2019"
 languageCode: en-us
 title: Visual Analytics
 theme: "ath-tufte-hugo_18-19"
@@ -56,9 +56,9 @@ params:
     location: "Room 110M: Packard Place"
     twitter: ryanwesslen
     dates: "January 9–April 30, 2019"
-    github: "andrewheiss/datavizf18.classes.andrewheiss.com"
+    github: "wesslen/dsba5122-sprint2019"
     slack: "https://unccdsba5122s2019.slack.com"
-    copyrightYear: "2018"
+    copyrightYear: "2019"
     contactDetails: >-
       Office hours: TBD.
   university: 

@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data visualization on Visual Analytics</title>
+    <link>/rwesslen/dsba5122-spring2019/</link>
+    <description>Recent content in Data visualization on Visual Analytics</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Dec 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/rwesslen/dsba5122-spring2019/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Final project</title>
+      <link>/rwesslen/dsba5122-spring2019/assignment/final-project/</link>
+      <pubDate>Tue, 18 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/rwesslen/dsba5122-spring2019/assignment/final-project/</guid>
+      <description>The instructions for the final project will be posted by the end of October.</description>
+    </item>
+    
+    <item>
+      <title>Truth, beauty, and data revisited</title>
+      <link>/rwesslen/dsba5122-spring2019/reading/14-reading/</link>
+      <pubDate>Tue, 11 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/rwesslen/dsba5122-spring2019/reading/14-reading/</guid>
+      <description>Required   Chapter 12 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
+  Chapter 24 in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
+  Ben Wellington, “Making data mean more through storytelling”  Jonathan Schwabish, “Better Data Communication,” National Bureau of Economic Research  Why People Make Bad Charts (and What to Do When it Happens)  Treasuring All Truth  Questions to reflect on  Questions TBD  </description>
+    </item>
+    
+    <item>
+      <title>Enhancing graphics</title>
+      <link>/rwesslen/dsba5122-spring2019/reading/13-reading/</link>
+      <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/rwesslen/dsba5122-spring2019/reading/13-reading/</guid>
+      <description>Required   Chapter 15, Chapter 16, Chapter 18, Chapter 20, and Chapter 21 in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
+  Chapter 8 in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
+ Other readings TBD  Questions to reflect on  Questions TBD  </description>
+    </item>
+    
+    <item>
+      <title>Annotating and grouping</title>
+      <link>/rwesslen/dsba5122-spring2019/reading/12-reading/</link>
+      <pubDate>Tue, 27 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/rwesslen/dsba5122-spring2019/reading/12-reading/</guid>
+      <description>Required   Chapter 17 and Chapter 19 in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
+  Chapter 5 in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
+ Other readings TBD  Questions to reflect on  Questions TBD  </description>
+    </item>
+    
+    <item>
+      <title>Mini project 2</title>
+      <link>/rwesslen/dsba5122-spring2019/assignment/02-project/</link>
+      <pubDate>Tue, 27 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/rwesslen/dsba5122-spring2019/assignment/02-project/</guid>
+      <description>The instructions for this mini project will be posted at least three weeks before it is due.</description>
+    </item>
+    
+    <item>
+      <title>Problem set 5</title>
+      <link>/rwesslen/dsba5122-spring2019/assignment/05-problem-set/</link>
+      <pubDate>Tue, 13 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/rwesslen/dsba5122-spring2019/assignment/05-problem-set/</guid>
+      <description>The instructions for this problem set will be posted at least one week before it is due.</description>
+    </item>
+    
+    <item>
+      <title>Text</title>
+      <link>/rwesslen/dsba5122-spring2019/reading/11-reading/</link>
+      <pubDate>Tue, 13 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/rwesslen/dsba5122-spring2019/reading/11-reading/</guid>
+      <description>Required   Look through some of the chapters in Julia Silge and David Robinson, Tidy Text MiningJulia Silge and David Robinson, Text Mining with R (Sebastopol, California: O’Reilly Media, 2017), https://www.tidytextmining.com/.
+ (but definitely don’t read them all! You just need to get a taste of what modern text analysis looks like.) A bunch of (really) short things:   Julia Silge, “She Giggles, He Gallops”  Abby Ohlheiser, “These are the words most associated with men and women, according to Facebook status updates”  Six Ideas for Displaying Qualitative Data  Word clouds considered harmful  Word clouds cause death… or something  When It’s Ok to Use Word Clouds  The Class of 2011  Every time Ford and Kavanaugh dodged a question, in one chart  Sentiment Analysis of The Book of Mormon  Tweet by @s_soroka   Questions to reflect on  Why is qualitative data difficult to visualize?</description>
+    </item>
+    
+    <item>
+      <title>Space</title>
+      <link>/rwesslen/dsba5122-spring2019/reading/10-reading/</link>
+      <pubDate>Tue, 06 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/rwesslen/dsba5122-spring2019/reading/10-reading/</guid>
+      <description>Required   Chapter 10 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
+  Chapter 7 in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
+  It looks like this is a lot of reading, but lots of these are short videos or tweets or interactive websites, so don’t worry!</description>
+    </item>
+    
+    <item>
+      <title>Problem set 4</title>
+      <link>/rwesslen/dsba5122-spring2019/assignment/04-problem-set/</link>
+      <pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/rwesslen/dsba5122-spring2019/assignment/04-problem-set/</guid>
+      <description>The instructions for this problem set will be posted at least one week before it is due.</description>
+    </item>
+    
+    <item>
+      <title>Time</title>
+      <link>/rwesslen/dsba5122-spring2019/reading/09-reading/</link>
+      <pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/rwesslen/dsba5122-spring2019/reading/09-reading/</guid>
+      <description>Required   Chapter 8 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
+  The Nuclear Threat—The Shadow Peace, part 1  11 Ways to Visualize Changes Over Time – A Guide A bunch of (really) short blog posts:   Streamgraphs: Economic trade flows with R  A century of ocean shipping animated  What is seasonal adjustment and why is it used?</description>
+    </item>
+    
+    <item>
+      <title>Mini project 1: Rats of New York</title>
+      <link>/rwesslen/dsba5122-spring2019/assignment/01-project/</link>
+      <pubDate>Fri, 26 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/rwesslen/dsba5122-spring2019/assignment/01-project/</guid>
+      <description>a.sourceLine { display: inline-block; line-height: 1.25; } a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; } a.sourceLine:empty { height: 1.2em; } .sourceCode { overflow: visible; } code.sourceCode { white-space: pre; position: relative; } div.sourceCode { margin: 1em 0; } pre.sourceCode { margin: 0; } @media screen { div.sourceCode { overflow: auto; } } @media print { code.sourceCode { white-space: pre-wrap; } a.sourceLine { text-indent: -1em; padding-left: 1em; } } pre.numberSource a.</description>
+    </item>
+    
+    <item>
+      <title>Comparisons</title>
+      <link>/rwesslen/dsba5122-spring2019/reading/08-reading/</link>
+      <pubDate>Tue, 23 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/rwesslen/dsba5122-spring2019/reading/08-reading/</guid>
+      <description>Required   Chapter 9 in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
+  Sparkline theory and practiceThis is a collection of posts by Edward Tufte about sparklines—scroll down a ways and check out his examples, analysis, and critiques.
+  Time series sparklines  The bullet graph  Lollipop chartsIf you’re feeling adventurous (and you should!), do this tutorial as you read it.</description>
+    </item>
+    
+    <item>
+      <title>Problem set 3</title>
+      <link>/rwesslen/dsba5122-spring2019/assignment/03-problem-set/</link>
+      <pubDate>Tue, 16 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/rwesslen/dsba5122-spring2019/assignment/03-problem-set/</guid>
+      <description>Task 0: Getting started Create a new RStudio project somewhere on your computer. Open that new folder in Windows File Explorer or macOS Finder (however you navigate around the files on your computer), and create a subfolder there named output.
+Download this R Markdown file and place it in your newly-created projectYou’ll probably have to right click on the link and choose “Save link as…”.
+ It contains an outline/skeleton of the one task you’ll need to do in this problem set.</description>
+    </item>
+    
+    <item>
+      <title>Relationships</title>
+      <link>/rwesslen/dsba5122-spring2019/reading/07-reading/</link>
+      <pubDate>Tue, 16 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/rwesslen/dsba5122-spring2019/reading/07-reading/</guid>
+      <description>Required   Chapter 9 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
+  Chapter 12 in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
+  Kieran Healy, “Two y-axes”  Two Alternatives to Using a Second Y-Axis &amp;amp; Illusion of success &amp;amp; Dissecting two axes  Dual-Scaled Axes in Graphs: Are They Ever the Best Solution?</description>
+    </item>
+    
+    <item>
+      <title>Uncertainty</title>
+      <link>/rwesslen/dsba5122-spring2019/reading/06-reading/</link>
+      <pubDate>Tue, 09 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/rwesslen/dsba5122-spring2019/reading/06-reading/</guid>
+      <description>Required   Chapter 7 in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
+  Chapters 4, 7, and 11 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
+  Why It’s So Hard for Us to Visualize Uncertainty  Amanda Cox’s keynote address at the 2017 OpenVis Conf  Communicating Uncertainty When Lives Are on the Line  Showing uncertainty during the live election forecast &amp;amp; Trolling the uncertainty dial  Questions to reflect on  Why is it important to deal with uncertainty in data?</description>
+    </item>
+    
+    <item>
+      <title>Problem set 2</title>
+      <link>/rwesslen/dsba5122-spring2019/assignment/02-problem-set/</link>
+      <pubDate>Tue, 02 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/rwesslen/dsba5122-spring2019/assignment/02-problem-set/</guid>
+      <description>Task 0: Getting started Create a new RStudio project somewhere on your computer. Open that new folder in Windows Explorer or macOS Finder (however you navigate around the files on your computer), and create a subfolder there named data.
+Download all these files and place them in your new data/ folder.&amp;#8853;You’ll probably need to right click on each and choose “Save link as…”.
+
+  The_Fellowship_Of_The_Ring.csv  The_Two_Towers.csv  The_Return_Of_The_King.</description>
+    </item>
+    
+    <item>
+      <title>Proportions</title>
+      <link>/rwesslen/dsba5122-spring2019/reading/05-reading/</link>
+      <pubDate>Tue, 02 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/rwesslen/dsba5122-spring2019/reading/05-reading/</guid>
+      <description>Required   Chapter 10 in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
+  Engaging Readers with Square Pie/Waffle Charts  Understanding Pie Charts&amp;#8853;Figure 2 from Ivelina Momcheva and Erik Tollerud, “Software Use in Astronomy: An Informal Survey,” July 14, 2015, https://arxiv.org/abs/1507.03989.
+  Square pie chart beats out the rest in perception study  Recommended   Ian Spence, “No Humble Pie: The Origins and Usage of a Statistical Chart”Ian Spence, “No Humble Pie: The Origins and Usage of a Statistical Chart,” Journal of Educational and Behavioral Statistics 30, nos.</description>
+    </item>
+    
+    <item>
+      <title>Amounts</title>
+      <link>/rwesslen/dsba5122-spring2019/class/04-class/</link>
+      <pubDate>Tue, 25 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/rwesslen/dsba5122-spring2019/class/04-class/</guid>
+      <description>Contents  Slides US birth data Clearest and muddiest things   Slides Download the slides from today’s lecture.
+   US birth data Here’s the data I used:
+  Data from the CDC and SSA (via FiveThirtyEight)  Here’s a more complete version of the code I wrote in class:
+  birth-plots.Rmd  The complete RStudio project  The knitted birth-plots.html  Clearest and muddiest things Go to this form and answer these two questions:</description>
+    </item>
+    
+    <item>
+      <title>Amounts</title>
+      <link>/rwesslen/dsba5122-spring2019/reading/04-reading/</link>
+      <pubDate>Tue, 25 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/rwesslen/dsba5122-spring2019/reading/04-reading/</guid>
+      <description>Required   Chapter 6 in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
+  Chapter 6 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
+  Questions to reflect on  How do these types of visualizations help or hinder or search for truth in data?</description>
+    </item>
+    
+    <item>
+      <title>Mapping data to graphics</title>
+      <link>/rwesslen/dsba5122-spring2019/class/03-class/</link>
+      <pubDate>Tue, 18 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/rwesslen/dsba5122-spring2019/class/03-class/</guid>
+      <description>Contents  Slides Extra-dimensional aesthetics Guessing the identity of the Trump resistance op-ed writer with R Workhouses and star movies Clearest and muddiest things   Slides Download the slides from today’s lecture.
+   Extra-dimensional aesthetics  Make your own animated plots with gganimate Video of simulated Hurricane Florence storm surge The Wall Street Journal’s audio-based visualization of Hamilton’s internal rhymes  Guessing the identity of the Trump resistance op-ed writer with R  David Robinson’s approach Mike Kearney’s approach: his code and his short article  Workhouses and star movies Download this zip file, extract it, and open the file named week3.</description>
+    </item>
+    
+    <item>
+      <title>Mapping data to graphics</title>
+      <link>/rwesslen/dsba5122-spring2019/reading/03-reading/</link>
+      <pubDate>Tue, 18 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/rwesslen/dsba5122-spring2019/reading/03-reading/</guid>
+      <description>Required   Hans Rosling, “200 Countries, 200 Years, 4 Minutes”  Chapter 2 in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
+  Chapter 3 in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
+  Recommended Walking through this chapter here and working through all the code will be immensely helpful.</description>
+    </item>
+    
+    <item>
+      <title>Problem set 1</title>
+      <link>/rwesslen/dsba5122-spring2019/assignment/01-problem-set/</link>
+      <pubDate>Tue, 18 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/rwesslen/dsba5122-spring2019/assignment/01-problem-set/</guid>
+      <description>a.sourceLine { display: inline-block; line-height: 1.25; } a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; } a.sourceLine:empty { height: 1.2em; } .sourceCode { overflow: visible; } code.sourceCode { white-space: pre; position: relative; } div.sourceCode { margin: 1em 0; } pre.sourceCode { margin: 0; } @media screen { div.sourceCode { overflow: auto; } } @media print { code.sourceCode { white-space: pre-wrap; } a.sourceLine { text-indent: -1em; padding-left: 1em; } } pre.numberSource a.</description>
+    </item>
+    
+    <item>
+      <title>Graphic Design</title>
+      <link>/rwesslen/dsba5122-spring2019/class/02-class/</link>
+      <pubDate>Tue, 11 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/rwesslen/dsba5122-spring2019/class/02-class/</guid>
+      <description>Contents  Slides Quick redesign Clearest and muddiest things   Slides Download the slides from today’s lecture.
+   Quick redesign Choose one of these on-campus fliers and redesign it in a small group:
+ BYU Student Wellness:  All assets Safe Kids Utah County:  All assets  Clearest and muddiest things Go to this form and answer these two questions:
+What was the muddiest thing from class today?</description>
+    </item>
+    
+    <item>
+      <title>Graphic Design</title>
+      <link>/rwesslen/dsba5122-spring2019/reading/02-reading/</link>
+      <pubDate>Tue, 11 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/rwesslen/dsba5122-spring2019/reading/02-reading/</guid>
+      <description>Required   Chapter 5 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
+  Chapter 4 and Chapter 22 in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
+  Summary of CRAP graphic design principles from Garr Reynolds, Presentation ZenGarr Reynolds, Presentation Zen: Simple Ideas on Presentation Design and Delivery, 1st ed.</description>
+    </item>
+    
+    <item>
+      <title>Truth, Beauty, and Data</title>
+      <link>/rwesslen/dsba5122-spring2019/reading/01-reading/</link>
+      <pubDate>Tue, 04 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/rwesslen/dsba5122-spring2019/reading/01-reading/</guid>
+      <description>Required   Chapter 1 in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
+  Chapters 2 and 3 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
+ (skim the introduction and chapter 1)  Study: Charts change hearts and minds better than words do  President Dieter F.</description>
+    </item>
+    
+    <item>
+      <title>Truth, beauty, and data</title>
+      <link>/rwesslen/dsba5122-spring2019/class/01-class/</link>
+      <pubDate>Tue, 04 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/rwesslen/dsba5122-spring2019/class/01-class/</guid>
+      <description>Contents  Slides Playing with LEGO Clearest and muddiest things   Slides Download the slides from today’s lecture.
+   Playing with LEGO The R Markdown file we (briefly) played with is here.
+Clearest and muddiest things Go to this form and answer these two questions:
+What was the muddiest thing from class today? What are you still wondering about? What was the clearest thing from class today? What was the most exciting thing you learned?</description>
+    </item>
+    
+    <item>
+      <title>Assignments</title>
+      <link>/rwesslen/dsba5122-spring2019/assignments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/rwesslen/dsba5122-spring2019/assignments/</guid>
+      <description>Weekly reflection memo You will get the most out of this class if you (1) attend class, (2) complete all the readings, and (3) engageTake detailed notes, work through the example code and try to understand it, have vivid dreams about graphs, etc.
+ with the readings.Also (4) ask for help!
+
+To encourage engagement with the readings, you’ll need to submit a 250–500 word reflection memo by 11:59 PM each Monday (the day before class).</description>
+    </item>
+    
+    <item>
+      <title>Final projects</title>
+      <link>/rwesslen/dsba5122-spring2019/final-projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/rwesslen/dsba5122-spring2019/final-projects/</guid>
+      <description>Contents  Natalia Brown: Analysis of travel runs in Yellowstone Dan Sisco: Firefighter fatalities, 2000–2015 Whitney Royal: European hotel reviews Jordan Hunter: Severe workplace injuries in the United States, 2015–2017 James Sinkovic: Assassinations on the rise? Christopher Law: European hotel reviews Jacob Fullmer: Chase Bank nationwide deposit trends, 2010–2016 Stephanie Dossena: Trends in terrorism, 1970–2010 Victor Obiri: Breaking down terrorism in the US   For their final projects, students had to use R and Illustrator to take a huge dataset, explore it, tinker with it, and tell a nuanced story about it using at least three graphs.</description>
+    </item>
+    
+    <item>
+      <title>Installing R, RStudio, and tidyverse</title>
+      <link>/rwesslen/dsba5122-spring2019/install/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/rwesslen/dsba5122-spring2019/install/</guid>
+      <description>You will do all of your visualization work in this class with the open source (and free!) programming language R. You will use RStudio as the main program to access R. Think of R as an engine and RStudio as a car dashboard—R handles all the calculations and the actual statistics, while RStudio provides a nice interface for running R code.
+RStudio.cloud R is free, but it can sometimes be a pain to install and configure.</description>
+    </item>
+    
+    <item>
+      <title>Reference</title>
+      <link>/rwesslen/dsba5122-spring2019/reference/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/rwesslen/dsba5122-spring2019/reference/</guid>
+      <description>Contents  Citations and bibliography Interesting and excellent real world examples How to select the appropriate chart type Helpful data visualization resources Visualization in Excel Visualization in Tableau Working with R and ggplot2 R in the wild Data Colors Fonts Markdown   Citations and bibliography &amp;#8853;You can open the file in BibDesk on macOS, JabRef on Windows, or Zotero or Mendeley online.
+ You can download a BibTeX file of all the non-web-based readings in the course.</description>
+    </item>
+    
+    <item>
+      <title>Schedule</title>
+      <link>/rwesslen/dsba5122-spring2019/schedule/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/rwesslen/dsba5122-spring2019/schedule/</guid>
+      <description>Here’s your roadmap for the semester!
+  Readings should be completed before each class session  Reflection memos should be turned in by 11:59 on the day before each class session  Assignments are due by 11:59 PM on the day they are due  Class materials (slides, in-class activities, etc.) will be added on the day of class     Foundations Reading Assignment Class   January 14 Truth, beauty, and data      January 28 Graphic design      February 4 Mapping data to graphics      February 4 Problem set 1       Interactive Visualizations Reading Assignment Class   February 11 Amounts      February 18 Proportions      February 18 Problem set 2      February 25 Uncertainty      March 11 Relationships      March 11 Problem set 3      March 18 Comparisons      March 18 Mini project 1      March 25 Time      March 25 Problem set 4      April 1 Space      April 8 Text      April 8 Problem set 5       Communicating Reading Assignment Class   April 15 Annotating and grouping      April 15 Mini project 2      April 22 Enhancing graphics      April 22 Code-through due (this is a Friday)      April 29 Truth, beauty, and data revisited       Final Reading Assignment Class   May 6 Final project due       </description>
+    </item>
+    
+    <item>
+      <title>Syllabus</title>
+      <link>/rwesslen/dsba5122-spring2019/syllabus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/rwesslen/dsba5122-spring2019/syllabus/</guid>
+      <description>Data rarely speaks for itself.&amp;#8853;Instructor
+Ryan Wesslen
+ TBD
+rwesslen@uncc.edu
+@ryanwesslen
+ Office hours: TBD.
+Course
+ Mondays
+ January 9–April 30, 2019
+ 6:00–8:50 PM
+ Room 110M: Packard Place
+ Slack
+ By itself, the facts contained in raw data are difficult to understand, and in the absence of beauty and order, it is impossible to understand the truth that the data shows.
+In this class, you’ll learn how to use industry-standard graphic and data design techniques to create beautiful, understandable visualizations and uncover truth in data.</description>
+    </item>
+    
+  </channel>
+</rss>

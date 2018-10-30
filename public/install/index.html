@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en-us"
+      xmlns:og="http://ogp.me/ns#"
+      xmlns:fb="https://www.facebook.com/2008/fbml">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Ryan Wesslen">
+    <meta name="description" content="Communicate science and statistics with beautiful graphics">
+
+    <meta name="twitter:card" value="summary_large_image">
+    <meta name="twitter:site" content="@ryanwesslen">
+    <meta name="twitter:title" content="Installing R, RStudio, and tidyverse | DSBA 5122: Visual Analytics">
+    <meta name="twitter:creator" content="@ryanwesslen">
+    <meta name="twitter:image" content="/images/dataviz_meta.png">
+    <meta name="twitter:description" content="Communicate science and statistics with beautiful graphics" />
+
+    <meta property="og:site_name" content="DSBA 5122: Visual Analytics"/>
+    <meta property="og:title" content="Installing R, RStudio, and tidyverse | DSBA 5122: Visual Analytics">
+    <meta property="og:type" content="article" />
+    <meta property="article:author" content="" />
+    <meta property="og:url" content="/rwesslen/dsba5122-spring2019" />
+    <meta property="og:image" content="/images/dataviz_meta.png">
+    <meta property="og:description" content="Communicate science and statistics with beautiful graphics" />
+
+    <meta name="generator" content="Hugo 0.49.2" />    
+
+    <title>Installing R, RStudio, and tidyverse | DSBA 5122: Visual Analytics</title>
+    <link rel="canonical" href="/rwesslen/dsba5122-spring2019/install/">
+    <link href="/theme/css/tufte.css" rel="stylesheet">
+    <link href="/theme/css/latex.css" rel="stylesheet">
+    <link href="/theme/css/custom.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style type="text/css">
+        .wrap a, .wrap a:visited {
+            color: #DA5B69;
+        }
+
+        .wrap a:hover {
+            color: #F9983E;
+        }
+
+        .wrap p > a {
+            color: #DA5B69;
+        }
+
+        article .sidenote-number:after, article .sidenote:before {
+            color: #DA5B69;
+        }
+
+        article .sidenote:before {
+            color: #DA5B69;
+        }
+
+        @media (max-width: 760px) {
+            label.margin-toggle:not(.sidenote-number) {
+                color: #DA5B69;
+            }
+        }
+
+        .contrast a, .contrast a:visited {
+            color: #DA5B69; 
+        }
+
+        header > nav a {
+            color: #DA5B69;
+        }
+
+        .credits a {
+            color: #DA5B69;
+        }
+
+        .wrap .tag {
+            background: #DA5B69;
+        }
+    </style>
+
+    <link rel="shortcut icon" href="/rwesslen/dsba5122-spring2019/favicon.ico" />
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/rwesslen/dsba5122-spring2019/images/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/rwesslen/dsba5122-spring2019/images/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/rwesslen/dsba5122-spring2019/images/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/rwesslen/dsba5122-spring2019/images/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/rwesslen/dsba5122-spring2019/images/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/rwesslen/dsba5122-spring2019/images/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="/rwesslen/dsba5122-spring2019/images/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/rwesslen/dsba5122-spring2019/images/favicon-16x16.png" sizes="16x16" />
+    <meta name="application-name" content="DSBA 5122: Visual Analytics"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="/rwesslen/dsba5122-spring2019/images/mstile-144x144.png" />
+
+    
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,600|Roboto:300,400" rel="stylesheet"> 
+<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+<div class="wrap">
+    <header>
+        <nav class="group logo-wrap">
+            <a href="/" class="logo"><img src="/images/dataviz_hires.png" alt="Visual Analytics"></a>
+            <h1 class="websitetitle"><a href="/rwesslen/dsba5122-spring2019">DSBA 5122: Visual Analytics</a></h1>
+        </nav>
+        <nav class="bottom-group">
+            
+            <a href="/rwesslen/dsba5122-spring2019/syllabus/">Syllabus</a>
+            
+            <a href="/rwesslen/dsba5122-spring2019/schedule/">Schedule</a>
+            
+            <a href="/rwesslen/dsba5122-spring2019/assignments/">Assignments</a>
+            
+            <a href="/rwesslen/dsba5122-spring2019/reference/">Reference</a>
+            
+            <a href="https://rstudio.cloud">RStudio.cloud</a>
+            
+            <a href="https://unccdsba5122s2019.slack.com">Class Slack</a>
+            
+        </nav>
+    </header>
+
+
+    <article class="group">
+    <h1>Installing R, RStudio, and tidyverse</h1>
+
+    <p><span class="newthought">You will do all of your visualization work</span> in this class with the open source (and free!) programming language <a href="https://cran.r-project.org/">R</a>. You will use <a href="https://www.rstudio.com/">RStudio</a> as the main program to access R. Think of R as an engine and RStudio as a car dashboard—R handles all the calculations and the actual statistics, while RStudio provides a nice interface for running R code.</p>
+<h2 id="rstudio.cloud">RStudio.cloud</h2>
+<p>R is free, but it can sometimes be a pain to install and configure. To make life easier, you can (and should!) use the free <a href="http://rstudio.cloud/">RStudio.cloud</a> service <em>initially</em>, which lets you run a full instance of RStudio in your web browser. This means you won’t have to install anything on your computer to get started with R! We will have a shared class workspace in RStudio.cloud that will let you quickly copy templates for labs and problem sets.</p>
+<p>Go to <a href="https://rstudio.cloud/" class="uri">https://rstudio.cloud/</a> and create an account. You’ll receive a link to join the shared class workspace separately. If you don’t get this link, let me know and I will invite you.</p>
+<h2 id="rstudio-on-your-computer">RStudio on your computer</h2>
+<p>RStudio.cloud is convenient, but it can be slow and it is not designed to be able to handle larger datasets, more complicated analysis, or fancier graphics. Over the course of the semester, you should wean yourself off of RStudio.cloud and install all these things locally. This is also important if you want to customize fonts, since RStudio.cloud has extremely limited support for fonts other than Helvetica.</p>
+<p>Here’s how you install all these things</p>
+<h3 id="install-r">Install R</h3>
+<p>First you need to install R itself (the engine).</p>
+<ol style="list-style-type: decimal">
+<li>Go to the CRAN (Collective R Archive Network)<span><label for="sn-0" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-0" class="margin-toggle"/><span class="sidenote">It’s a goofy name, but CRAN is where most R packages—and R itself—lives.<br />
+<br />
+</span></span> website: <a href="https://cran.r-project.org/" class="uri">https://cran.r-project.org/</a></li>
+<li><p>Click on “Download R for <code>XXX</code>”, where <code>XXX</code> is either Mac or Windows:</p>
+<p><img src="/images/install/install-r-links.png" width="75%" /></p>
+<ul>
+<li><p>If you use macOS, scroll down to the first <code>.pkg</code> file in the list of files (as of right now, it’s <code>R-3.5.1.pkg</code>) and download it.</p>
+<p><img src="/images/install/install-r-mac.png" width="100%" /></p></li>
+<li><p>If you use Windows, click “base” (or click on the bolded “install R for the first time” link) and download it.</p>
+<p><img src="/images/install/install-r-windows.png" width="100%" /></p></li>
+</ul></li>
+<li><p>Double click on the downloaded file (check your <code>Downloads</code> folder). Click yes through all the prompts to install like any other program.</p></li>
+</ol>
+<h3 id="install-rstudio">Install RStudio</h3>
+<p>Next, you need to install RStudio, the nicer graphical user interface (GUI) for R (the dashboard). Once R and RStudio are both installed, you can ignore R and only use RStudio. RStudio will use R automatically and you won’t ever have to interact with it directly.</p>
+<ol style="list-style-type: decimal">
+<li>Go to the free download location on RStudio’s website: <a href="https://www.rstudio.com/products/rstudio/download/#download" class="uri">https://www.rstudio.com/products/rstudio/download/#download</a></li>
+<li><p>Select the installer that corresponds with your computer’s operating system (Windows or macOS):</p>
+<p><img src="/images/install/install-r-rstudio.png" width="100%" /></p></li>
+<li><p>Double click on the downloaded file (again, check your <code>Downloads</code> folder). Click yes through all the prompts to install like any other program.</p></li>
+</ol>
+<p>Double click on RStudio to run it (check your applications folder or start menu).</p>
+<h3 id="install-tidyverse">Install <code>tidyverse</code></h3>
+<p>R packages are easy to install with RStudio. Select the packages panel, click on “Install,” type the name of the package you want to install, and press enter.</p>
+<p><img src="/images/install/install-r-package-panel.png" width="40%" /></p>
+<p>This can sometimes be tedious when you’re installing lots of packages, though. <a href="https://www.tidyverse.org/">The tidyverse</a><span><label for="sn-1" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-1" class="margin-toggle"/><span class="sidenote">A universe of packages centered around tidy data, including <code>ggplot2</code><br />
+<br />
+</span></span> for instance, consists of dozens of packages that all work together. Rather than install each individually, you can install a single magical package and get them all at the same time.</p>
+<p>Go to the packages panel in RStudio, click on “Install,” type “tidyverse”, and press enter. You’ll see a bunch of output in the RStudio console as all the tidyverse packages are installed.</p>
+<p><img src="/images/install/install-r-tidyverse.png" width="60%" /></p>
+<p>Notice also that RStudio will generate a line of code for you and run it: <code>install.packages(&quot;tidyverse&quot;)</code>. You can also just paste and run this instead of using the packages panel.</p>
+
+
+    </article>
+
+    <footer>
+        <hr class="slender">
+
+        <div class="course-info">
+        <span class="course-name">
+            DSBA 5122: Visual Analytics (Spring 2019)
+        </span><br>
+        <span>
+            <a href="https://www.uncc.edu">University of North Carolina at Charlotte</a> | 
+            <a href="https://dsba.uncc.edu/">Data Science &amp; Business Analytics Program</a>
+        </span>
+        </div>
+
+        <ul class="footer-links">
+            <li>
+            <a href="https://wesslen.github.io"><i class="fas fa-user"></i> Ryan Wesslen</a>
+            </li>
+
+            <li>
+            <a href="mailto:rwesslen@uncc.edu"><i class="fas fa-envelope"></i> rwesslen@uncc.edu</a>
+            </li>
+
+            <li>
+            <i class="far fa-calendar-alt"></i> Mondays
+            </li>
+
+            <li>
+            <i class="far fa-clock"></i> 6:00–8:50 PM
+            </li>
+
+            <li>
+            <i class="fas fa-university"></i> Room 110M: Packard Place
+            </li>
+
+            <li>
+            <a href="https://twitter.com/ryanwesslen"><i class="fab fa-twitter"></i></a>
+            </li>
+
+            <li>
+            <a href="https://github.com/wesslen/dsba5122-sprint2019"><i class="fab fa-github"></i></a>
+            </li>
+        </ul>
+
+        <div class="credits">
+        <span class="credit">All content licensed under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.</span><br>
+
+        <span class="credit">Content <i class="fab fa-creative-commons"></i> 2019 <a href="https://wesslen.github.io">Ryan Wesslen</a></span><br>
+        <span class="credit">Hex icon by Andrew Heiss, with a stylized version of <a href="https://www.youtube.com/watch?v=jbkSRLYSojo">Hans Rosling&rsquo;s health+wealth plot</a>.<br>Color scheme adapted from the <a href="https://github.com/sjmgarnier/viridis">viridis plasma map</a>.</span><br>
+
+        <span class="credit">This site created with the <a href="https://github.com/andrewheiss/ath-tufte-hugo_18-19">ath-tufte-hugo theme</a> in <a href="https://bookdown.org/yihui/blogdown/">blogdown</a> and <a href="https://gohugo.io/">Hugo</a>.</span>
+        </div>
+    </footer>
+
+    
+
+</div>
+</body>
+</html>
+

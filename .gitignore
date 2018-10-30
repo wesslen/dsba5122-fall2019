@@ -3,6 +3,5 @@
 .RData
 .Ruserdata
 blogdown/
-public/
 .DS_Store
 static/**/*.zip
