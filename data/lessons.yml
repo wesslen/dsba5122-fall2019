@@ -1,5 +1,5 @@
 lessons:
-  - title: '<span class="fake-header-table">Foundations</span>'
+  - title: '<span class="fake-header-table">Information Visualization</span>'
     header: True
 
   - title: "Intro to Visual Analytics"
@@ -63,7 +63,7 @@ lessons:
     reading: "08-reading"
     class: "08-class"
 
-  - title: "Hierarchies and Trees"
+  - title: "Design Contest Presentations"
     date: "March 25"
     reading: "09-reading"
     class: "09-class"
@@ -72,7 +72,7 @@ lessons:
     date: "March 25"
     assignment: "03-problem-set"
     
-  - title: "Graphs and Networks"
+  - title: "Networks and Trees"
     date: "April 1"
     reading: "10-reading"
     class: "10-class"
@@ -92,7 +92,7 @@ lessons:
     date: "April 15"
     assignment: "04-problem-set"
 
-  - title: "Evaluating Visualizations"
+  - title: "Machine Learning"
     date: "April 22"
     reading: "13-reading"
 
