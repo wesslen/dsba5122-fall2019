@@ -12,15 +12,12 @@
     
     
     <item>
-      <title>Amounts</title>
+      <title>Time &amp; Space</title>
       <link>https://dsba5122-spring2019.netlify.com/class/04-class/</link>
       <pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/class/04-class/</guid>
-      <description>Contents  Slides US birth data Clearest and muddiest things   Slides Download the slides from today’s lecture.
-   US birth data Here’s the data I used:
-  Data from the CDC and SSA (via FiveThirtyEight)  Here’s a more complete version of the code I wrote in class:
-  birth-plots.Rmd  The complete RStudio project  The knitted birth-plots.html  Clearest and muddiest things Go to this form and answer these two questions:</description>
+      <description>Contents  Slides   Slides Download the slides from today’s lecture.</description>
     </item>
     
     <item>

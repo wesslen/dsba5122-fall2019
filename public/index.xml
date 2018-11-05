@@ -6,21 +6,59 @@
     <description>Recent content in Data visualization on Visual Analytics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://dsba5122-spring2019.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Amounts</title>
+      <title>Problem set 4</title>
+      <link>https://dsba5122-spring2019.netlify.com/assignment/04-problem-set/</link>
+      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/assignment/04-problem-set/</guid>
+      <description>The instructions for this problem set will be posted at least one week before it is due.</description>
+    </item>
+    
+    <item>
+      <title>Problem set 3</title>
+      <link>https://dsba5122-spring2019.netlify.com/assignment/03-problem-set/</link>
+      <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/assignment/03-problem-set/</guid>
+      <description>Task 0: Getting started Create a new RStudio project somewhere on your computer. Open that new folder in Windows File Explorer or macOS Finder (however you navigate around the files on your computer), and create a subfolder there named output.
+Download this R Markdown file and place it in your newly-created projectYou’ll probably have to right click on the link and choose “Save link as…”.
+ It contains an outline/skeleton of the one task you’ll need to do in this problem set.</description>
+    </item>
+    
+    <item>
+      <title>Final project</title>
+      <link>https://dsba5122-spring2019.netlify.com/assignment/final-project/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/assignment/final-project/</guid>
+      <description>The instructions for the final project will be posted by the end of February.</description>
+    </item>
+    
+    <item>
+      <title>Problem set 2</title>
+      <link>https://dsba5122-spring2019.netlify.com/assignment/02-problem-set/</link>
+      <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/assignment/02-problem-set/</guid>
+      <description>Task 0: Getting started Create a new RStudio project somewhere on your computer. Open that new folder in Windows Explorer or macOS Finder (however you navigate around the files on your computer), and create a subfolder there named data.
+Download all these files and place them in your new data/ folder.&amp;#8853;You’ll probably need to right click on each and choose “Save link as…”.
+
+  The_Fellowship_Of_The_Ring.csv  The_Two_Towers.csv  The_Return_Of_The_King.</description>
+    </item>
+    
+    <item>
+      <title>Time &amp; Space</title>
       <link>https://dsba5122-spring2019.netlify.com/class/04-class/</link>
       <pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/class/04-class/</guid>
-      <description>Contents  Slides US birth data Clearest and muddiest things   Slides Download the slides from today’s lecture.
-   US birth data Here’s the data I used:
-  Data from the CDC and SSA (via FiveThirtyEight)  Here’s a more complete version of the code I wrote in class:
-  birth-plots.Rmd  The complete RStudio project  The knitted birth-plots.html  Clearest and muddiest things Go to this form and answer these two questions:</description>
+      <description>Contents  Slides   Slides Download the slides from today’s lecture.</description>
     </item>
     
     <item>
@@ -59,6 +97,15 @@ Welcome  Introduce yourself  Name
 https://dsba5122-spring2019.netlify.com
  Course Outline  Course Assignments  Using R/RStudio class: inverse, middle, center
  Intro to Visual Analytics  </description>
+    </item>
+    
+    <item>
+      <title>Problem set 1</title>
+      <link>https://dsba5122-spring2019.netlify.com/assignment/01-problem-set/</link>
+      <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/assignment/01-problem-set/</guid>
+      <description>a.sourceLine { display: inline-block; line-height: 1.25; } a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; } a.sourceLine:empty { height: 1.2em; } .sourceCode { overflow: visible; } code.sourceCode { white-space: pre; position: relative; } div.sourceCode { margin: 1em 0; } pre.sourceCode { margin: 0; } @media screen { div.sourceCode { overflow: auto; } } @media print { code.sourceCode { white-space: pre-wrap; } a.sourceLine { text-indent: -1em; padding-left: 1em; } } pre.numberSource a.</description>
     </item>
     
     <item>
@@ -124,15 +171,6 @@ Questions to reflect on  How do we know what is true? Are facts truth? Why do we
     </item>
     
     <item>
-      <title>Final project</title>
-      <link>https://dsba5122-spring2019.netlify.com/assignment/final-project/</link>
-      <pubDate>Tue, 18 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-spring2019.netlify.com/assignment/final-project/</guid>
-      <description>The instructions for the final project will be posted by the end of October.</description>
-    </item>
-    
-    <item>
       <title>Truth, beauty, and data revisited</title>
       <link>https://dsba5122-spring2019.netlify.com/reading/14-reading/</link>
       <pubDate>Tue, 11 Dec 2018 00:00:00 +0000</pubDate>
@@ -140,7 +178,7 @@ Questions to reflect on  How do we know what is true? Are facts truth? Why do we
       <guid>https://dsba5122-spring2019.netlify.com/reading/14-reading/</guid>
       <description>Required   Chapter 12 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
   Chapter 24 in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
-  Ben Wellington, “Making data mean more through storytelling”  Jonathan Schwabish, “Better Data Communication,” National Bureau of Economic Research  Why People Make Bad Charts (and What to Do When it Happens)  Treasuring All Truth  Questions to reflect on  Questions TBD  </description>
+  Ben Wellington, “Making data mean more through storytelling”  Jonathan Schwabish, “Better Data Communication,” National Bureau of Economic Research  Why People Make Bad Charts (and What to Do When it Happens)  Questions to reflect on  Questions TBD  </description>
     </item>
     
     <item>
@@ -163,15 +201,6 @@ Questions to reflect on  How do we know what is true? Are facts truth? Why do we
       <description>Required   Chapter 17 and Chapter 19 in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
   Chapter 5 in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
  Other readings TBD  Questions to reflect on  Questions TBD  </description>
-    </item>
-    
-    <item>
-      <title>Mini project 2</title>
-      <link>https://dsba5122-spring2019.netlify.com/assignment/02-project/</link>
-      <pubDate>Tue, 27 Nov 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-spring2019.netlify.com/assignment/02-project/</guid>
-      <description>The instructions for this mini project will be posted at least three weeks before it is due.</description>
     </item>
     
     <item>
@@ -205,15 +234,6 @@ Questions to reflect on  How do we know what is true? Are facts truth? Why do we
     </item>
     
     <item>
-      <title>Problem set 4</title>
-      <link>https://dsba5122-spring2019.netlify.com/assignment/04-problem-set/</link>
-      <pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-spring2019.netlify.com/assignment/04-problem-set/</guid>
-      <description>The instructions for this problem set will be posted at least one week before it is due.</description>
-    </item>
-    
-    <item>
       <title>Time</title>
       <link>https://dsba5122-spring2019.netlify.com/reading/09-reading/</link>
       <pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate>
@@ -221,15 +241,6 @@ Questions to reflect on  How do we know what is true? Are facts truth? Why do we
       <guid>https://dsba5122-spring2019.netlify.com/reading/09-reading/</guid>
       <description>Required   Chapter 8 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
   The Nuclear Threat—The Shadow Peace, part 1  11 Ways to Visualize Changes Over Time – A Guide A bunch of (really) short blog posts:   Streamgraphs: Economic trade flows with R  A century of ocean shipping animated  What is seasonal adjustment and why is it used?</description>
-    </item>
-    
-    <item>
-      <title>Mini project 1: Rats of New York</title>
-      <link>https://dsba5122-spring2019.netlify.com/assignment/01-project/</link>
-      <pubDate>Fri, 26 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-spring2019.netlify.com/assignment/01-project/</guid>
-      <description>a.sourceLine { display: inline-block; line-height: 1.25; } a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; } a.sourceLine:empty { height: 1.2em; } .sourceCode { overflow: visible; } code.sourceCode { white-space: pre; position: relative; } div.sourceCode { margin: 1em 0; } pre.sourceCode { margin: 0; } @media screen { div.sourceCode { overflow: auto; } } @media print { code.sourceCode { white-space: pre-wrap; } a.sourceLine { text-indent: -1em; padding-left: 1em; } } pre.numberSource a.</description>
     </item>
     
     <item>
@@ -241,17 +252,6 @@ Questions to reflect on  How do we know what is true? Are facts truth? Why do we
       <description>Required   Chapter 9 in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
   Sparkline theory and practiceThis is a collection of posts by Edward Tufte about sparklines—scroll down a ways and check out his examples, analysis, and critiques.
   Time series sparklines  The bullet graph  Lollipop chartsIf you’re feeling adventurous (and you should!), do this tutorial as you read it.</description>
-    </item>
-    
-    <item>
-      <title>Problem set 3</title>
-      <link>https://dsba5122-spring2019.netlify.com/assignment/03-problem-set/</link>
-      <pubDate>Tue, 16 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-spring2019.netlify.com/assignment/03-problem-set/</guid>
-      <description>Task 0: Getting started Create a new RStudio project somewhere on your computer. Open that new folder in Windows File Explorer or macOS Finder (however you navigate around the files on your computer), and create a subfolder there named output.
-Download this R Markdown file and place it in your newly-created projectYou’ll probably have to right click on the link and choose “Save link as…”.
- It contains an outline/skeleton of the one task you’ll need to do in this problem set.</description>
     </item>
     
     <item>
@@ -277,18 +277,6 @@ Download this R Markdown file and place it in your newly-created projectYou’ll
     </item>
     
     <item>
-      <title>Problem set 2</title>
-      <link>https://dsba5122-spring2019.netlify.com/assignment/02-problem-set/</link>
-      <pubDate>Tue, 02 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-spring2019.netlify.com/assignment/02-problem-set/</guid>
-      <description>Task 0: Getting started Create a new RStudio project somewhere on your computer. Open that new folder in Windows Explorer or macOS Finder (however you navigate around the files on your computer), and create a subfolder there named data.
-Download all these files and place them in your new data/ folder.&amp;#8853;You’ll probably need to right click on each and choose “Save link as…”.
-
-  The_Fellowship_Of_The_Ring.csv  The_Two_Towers.csv  The_Return_Of_The_King.</description>
-    </item>
-    
-    <item>
       <title>Proportions</title>
       <link>https://dsba5122-spring2019.netlify.com/reading/05-reading/</link>
       <pubDate>Tue, 02 Oct 2018 00:00:00 +0000</pubDate>
@@ -308,15 +296,6 @@ Download all these files and place them in your new data/ folder.&amp;#8853;You�
       <description>Required   Chapter 6 in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
   Chapter 6 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
   Questions to reflect on  How do these types of visualizations help or hinder or search for truth in data?</description>
-    </item>
-    
-    <item>
-      <title>Problem set 1</title>
-      <link>https://dsba5122-spring2019.netlify.com/assignment/01-problem-set/</link>
-      <pubDate>Tue, 18 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-spring2019.netlify.com/assignment/01-problem-set/</guid>
-      <description>a.sourceLine { display: inline-block; line-height: 1.25; } a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; } a.sourceLine:empty { height: 1.2em; } .sourceCode { overflow: visible; } code.sourceCode { white-space: pre; position: relative; } div.sourceCode { margin: 1em 0; } pre.sourceCode { margin: 0; } @media screen { div.sourceCode { overflow: auto; } } @media print { code.sourceCode { white-space: pre-wrap; } a.sourceLine { text-indent: -1em; padding-left: 1em; } } pre.numberSource a.</description>
     </item>
     
     <item>
@@ -366,7 +345,7 @@ RStudio.cloud R is free, but it can sometimes be a pain to install and configure
       
       <guid>https://dsba5122-spring2019.netlify.com/schedule/</guid>
       <description>Here’s your roadmap for the semester!
-  Readings should be completed before each class session  Assignments are due by 11:59 PM on the day they are due  Class materials (slides, in-class activities, etc.) will be added on the day of class     Foundations Reading Assignment Class   January 14 Intro to Visual Analytics      January 21 No class (MLK Holiday)      January 28 Visual Representation Basics I      January 28 Problem set 1 (Due Feb 4)      February 4 Visual Representation Basics II      February 11 Time &amp;amp; Space      February 18 Uncertainty      February 18 Problem set 2 (Due Feb 25)       Interactive Visualizations Reading Assignment Class   February 25 Multidimensional      February 25 Design Contest (Due Mar 25)      March 4 No class (Spring Break)      March 11 Dimensionality Reduction      March 18 Text Analysis      March 25 Hierarchies and Trees      March 25 Problem set 3 (Due Apr 1)      April 1 Graphs and Networks       Advanced Topics Reading Assignment Class   April 8 Coordinated Multiple Views: Interacting &amp;amp; Brushing      April 15 Deployment &amp;amp; Back-end Systems      April 15 Problem set 4 (Due Apr 22)      April 22 Evaluating Visualizations      April 29 Wrap-up       Final Reading Assignment Class   May 6 Final project due       </description>
+  Readings should be completed before each class session  Assignments are due by 11:59 PM on the day they are due  Class materials (slides, in-class activities, etc.) will be added on the day of class     Information Visualization Reading Assignment Class   January 14 Intro to Visual Analytics      January 21 No class (MLK Holiday)      January 28 Visual Representation Basics I      January 28 Problem set 1 (Due Feb 4)      February 4 Visual Representation Basics II      February 11 Time &amp;amp; Space      February 18 Uncertainty &amp;amp; Risk      February 18 Problem set 2 (Due Feb 25)       Interactive Visualizations Reading Assignment Class   February 25 Multidimensional      February 25 Design Contest (Due Mar 25)      March 4 No class (Spring Break)      March 11 Dimensionality Reduction      March 18 Text Analysis      March 25 Design Contest Presentations      March 25 Problem set 3 (Due Apr 1)      April 1 Networks and Trees       Advanced Topics Reading Assignment Class   April 8 Coordinated Multiple Views: Interacting &amp;amp; Brushing      April 15 Deployment &amp;amp; Back-end Systems      April 15 Problem set 4 (Due Apr 22)      April 22 Machine Learning      April 29 Wrap-up       Final Reading Assignment Class   May 6 Final project due       </description>
     </item>
     
     <item>
@@ -383,7 +362,7 @@ rwesslen@uncc.edu
  Office hours: TBD.
 Course
  Mondays
- January 9–April 30, 2019
+ January 9 – May 6, 2019
  6:00–8:50 PM
  Room 110M: Packard Place
  Slack

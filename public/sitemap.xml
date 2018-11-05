@@ -3,6 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://dsba5122-spring2019.netlify.com/assignment/04-problem-set/</loc>
+    <lastmod>2019-04-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dsba5122-spring2019.netlify.com/assignment/03-problem-set/</loc>
+    <lastmod>2019-03-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dsba5122-spring2019.netlify.com/assignment/final-project/</loc>
+    <lastmod>2019-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dsba5122-spring2019.netlify.com/assignment/02-problem-set/</loc>
+    <lastmod>2019-02-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://dsba5122-spring2019.netlify.com/class/04-class/</loc>
     <lastmod>2019-02-11T00:00:00+00:00</lastmod>
   </url>
@@ -19,6 +39,11 @@
   
   <url>
     <loc>https://dsba5122-spring2019.netlify.com/slides/02-class/</loc>
+    <lastmod>2019-01-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dsba5122-spring2019.netlify.com/assignment/01-problem-set/</loc>
     <lastmod>2019-01-28T00:00:00+00:00</lastmod>
   </url>
   
@@ -48,11 +73,6 @@
   </url>
   
   <url>
-    <loc>https://dsba5122-spring2019.netlify.com/assignment/final-project/</loc>
-    <lastmod>2018-12-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://dsba5122-spring2019.netlify.com/reading/14-reading/</loc>
     <lastmod>2018-12-11T00:00:00+00:00</lastmod>
   </url>
@@ -64,11 +84,6 @@
   
   <url>
     <loc>https://dsba5122-spring2019.netlify.com/reading/12-reading/</loc>
-    <lastmod>2018-11-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dsba5122-spring2019.netlify.com/assignment/02-project/</loc>
     <lastmod>2018-11-27T00:00:00+00:00</lastmod>
   </url>
   
@@ -88,28 +103,13 @@
   </url>
   
   <url>
-    <loc>https://dsba5122-spring2019.netlify.com/assignment/04-problem-set/</loc>
-    <lastmod>2018-10-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://dsba5122-spring2019.netlify.com/reading/09-reading/</loc>
     <lastmod>2018-10-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dsba5122-spring2019.netlify.com/assignment/01-project/</loc>
-    <lastmod>2018-10-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://dsba5122-spring2019.netlify.com/reading/08-reading/</loc>
     <lastmod>2018-10-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dsba5122-spring2019.netlify.com/assignment/03-problem-set/</loc>
-    <lastmod>2018-10-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -123,11 +123,6 @@
   </url>
   
   <url>
-    <loc>https://dsba5122-spring2019.netlify.com/assignment/02-problem-set/</loc>
-    <lastmod>2018-10-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://dsba5122-spring2019.netlify.com/reading/05-reading/</loc>
     <lastmod>2018-10-02T00:00:00+00:00</lastmod>
   </url>
@@ -135,11 +130,6 @@
   <url>
     <loc>https://dsba5122-spring2019.netlify.com/reading/04-reading/</loc>
     <lastmod>2018-09-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dsba5122-spring2019.netlify.com/assignment/01-problem-set/</loc>
-    <lastmod>2018-09-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -174,7 +164,7 @@
   
   <url>
     <loc>https://dsba5122-spring2019.netlify.com/assignment/</loc>
-    <lastmod>2018-12-18T00:00:00+00:00</lastmod>
+    <lastmod>2019-04-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -190,7 +180,7 @@
   
   <url>
     <loc>https://dsba5122-spring2019.netlify.com/</loc>
-    <lastmod>2019-02-11T00:00:00+00:00</lastmod>
+    <lastmod>2019-04-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>

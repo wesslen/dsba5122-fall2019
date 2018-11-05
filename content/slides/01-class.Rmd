@@ -85,7 +85,7 @@ class: center, middle
 
 # Let's get started!
 
-![Hungry red panda](https://media.giphy.com/media/1BVuXduUzNros/giphy.gif)
+![](https://media.giphy.com/media/1BVuXduUzNros/giphy.gif)
 
 ---
 

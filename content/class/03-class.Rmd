@@ -16,7 +16,6 @@ editor_options:
 
 [Download the slides from today's lecture]().
 
-
 # Extra-dimensional aesthetics
 
 - [Make your own animated plots with `gganimate`](https://github.com/thomasp85/gganimate)
