@@ -15,3 +15,5 @@ editor_options:
 # Slides
 
 [Download the slides from today's lecture]().
+
+<!-- http://openaccess.city.ac.uk/20334/1/analysis-flight-variability.pdf -->

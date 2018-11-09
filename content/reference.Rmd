@@ -82,6 +82,8 @@ Because it is focused entirely on visualization (and because it's a well-support
 
 - [**CS 5630** / **CS 6630**](http://dataviscourse.net/2018/index.html): [Dr. Alexander Lex](http://vdl.sci.utah.edu/team/lex/) at Utah University's undergraduate and graduate Visualization for Data Science course.
 
+- [**INLS 641**](https://ils.unc.edu/courses/2017_fall/inls641_001/index.html): [Dr. David Gotz](https://sils.unc.edu/people/faculty/profiles/David-Gotz) at UNC Chapel Hill's graduate course on Visual Analytics
+
 
 # Working with R and ggplot2
 

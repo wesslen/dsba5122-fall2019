@@ -36,8 +36,9 @@ Extra-dimensional aesthetics  Make your own animated plots with gganimate Video 
       <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/class/02-class/</guid>
-      <description>Contents  Slides Lab session: ggplot2   Slides Download the slides from today’s lecture.
-   Lab session: ggplot2 </description>
+      <description>Contents  Slides Lab session: dplyr + ggplot   Slides Download the slides from today’s lecture.
+Lab session: dplyr + ggplot Part 1: Omayma Said’s Intro to the Tidyverse: Data Manipulation using dplyr
+Part 2: Garrick Aden Buie’s A Gentle Guide to the Grammar of Graphics with ggplot2</description>
     </item>
     
     <item>
@@ -46,10 +47,13 @@ Extra-dimensional aesthetics  Make your own animated plots with gganimate Video 
       <pubDate>Mon, 14 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/class/01-class/</guid>
-      <description>Contents  Slides Lab session: Intro to RStudio   Slides Class slides.
- Lab session: Intro to RStudio First, create a RStudio.Cloud account rstudio.cloud.
- Go to our RStudio.Cloud project.
-  </description>
+      <description>Contents  Slides Lab session: Intro to RStudio   Slides Introduction and overview (see syllabus)
+ Visual Analytics introduction
+  Examples:
+ Lane Harrison’s Baby Making visualization
+    Me 8 years ago: I&#39;ll eventually switch all data analyses from R to python
+Me 6 years ago: I&#39;ll just use rpy2 to call R from Python for things I can&#39;t switch
+Me today: Rstudio + Rmarkdown + reticulate forever!</description>
     </item>
     
   </channel>

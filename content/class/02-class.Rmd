@@ -14,16 +14,17 @@ editor_options:
 
 # Slides
 
-[Download the slides from today's lecture](/slides/MPA-635_2018-09-11.pdf).
+[Download the slides from today's lecture]().
 
 <!-- https://github.com/gadenbuie/gentle-ggplot2 -->
 
-<figure>
-[![First slide](/images/slides/slides_2018-09-11.png)](/slides/MPA-635_2018-09-11.pdf)
-</figure>
 
+# Lab session: dplyr + ggplot
 
-# Lab session: ggplot2
+Part 1: Omayma Said's [Intro to the Tidyverse: Data Manipulation using dplyr](https://speakerdeck.com/omaymas/data-manipulation-with-dplyr-first-steps)
+
+Part 2: Garrick Aden Buie's [A Gentle Guide to the Grammar of Graphics
+with ggplot2](https://pkg.garrickadenbuie.com/gentle-ggplot2)
 
 
 ```{r class-stuff, include=FALSE, eval=FALSE}
