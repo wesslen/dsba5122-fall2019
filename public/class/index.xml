@@ -6,10 +6,22 @@
     <description>Recent content in Classes on Visual Analytics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 18 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://dsba5122-spring2019.netlify.com/class/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Uncertanity &amp; Risk</title>
+      <link>https://dsba5122-spring2019.netlify.com/class/05-class/</link>
+      <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/class/05-class/</guid>
+      <description>Contents  Slides   Slides Download the slides from today’s lecture.
+Slides from my #openvisconf talk: Tidy data and Bayesian analysis
+make uncertainty visualization fun! https://t.co/395TMdLBv0 #tidybayes pic.twitter.com/VHnAUbTsOp — Matthew Kay (???) May 15, 2018   Lab:
+Matthew Kay’s Uncertainty visualization examples</description>
+    </item>
     
     <item>
       <title>Time &amp; Space</title>
@@ -27,6 +39,8 @@
       
       <guid>https://dsba5122-spring2019.netlify.com/class/03-class/</guid>
       <description>Contents  Slides Extra-dimensional aesthetics Guessing the identity of the Trump resistance op-ed writer with R Workhouses and star movies Lab Session: ggplot2 (part 2)   Slides Download the slides from today’s lecture.
+Jenny Bryan’s ggplot2 tutorial GitHub / slides
+Allison Hill’s Data Visualization in the Tidyverse The Great Tidy Plot Off
 Extra-dimensional aesthetics  Make your own animated plots with gganimate Video of simulated Hurricane Florence storm surge The Wall Street Journal’s audio-based visualization of Hamilton’s internal rhymes  Guessing the identity of the Trump resistance op-ed writer with R  David Robinson’s approach Mike Kearney’s approach: his code and his short article  Workhouses and star movies Download this zip file, extract it, and open the file named week3.</description>
     </item>
     
@@ -51,9 +65,9 @@ Part 2: Garrick Aden Buie’s A Gentle Guide to the Grammar of Graphics with ggp
  Visual Analytics introduction
   Examples:
  Lane Harrison’s Baby Making visualization
-    Me 8 years ago: I&#39;ll eventually switch all data analyses from R to python
-Me 6 years ago: I&#39;ll just use rpy2 to call R from Python for things I can&#39;t switch
-Me today: Rstudio + Rmarkdown + reticulate forever!</description>
+ ourworldindata.org
+  Most important lesson from today:
+Any time I have been struggling to learn a new tool/technology/software … I go back to this short clip I cut out of ???&#39;s 2014 ??? tutorial on Dplyr to motivate myself to keep pushing through … learning new tools is hard for everyone at the beginning!</description>
     </item>
     
   </channel>

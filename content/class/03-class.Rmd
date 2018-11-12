@@ -16,6 +16,11 @@ editor_options:
 
 [Download the slides from today's lecture]().
 
+Jenny Bryan's [ggplot2 tutorial GitHub](https://github.com/jennybc/ggplot2-tutorial) / [slides](https://speakerdeck.com/jennybc/ggplot2-tutorial)
+
+Allison Hill's [Data Visualization in the Tidyverse
+The Great Tidy Plot Off](https://alison.netlify.com/uo-tidy-bakeoff/)
+
 # Extra-dimensional aesthetics
 
 - [Make your own animated plots with `gganimate`](https://github.com/thomasp85/gganimate)
@@ -28,6 +33,8 @@ editor_options:
 - [David Robinson's approach](http://varianceexplained.org/r/op-ed-text-analysis/)
 - Mike Kearney's approach: [his code](https://github.com/mkearney/resist_oped) and [his short article](https://www.rjionline.org/stories/we-put-data-science-to-the-test-to-try-to-uncover-the-mystery-author-of-the)
 
+
+<!-- https://ijlyttle.shinyapps.io/tidyeval/ -->
 
 # Workhouses and star movies
 

@@ -14,5 +14,7 @@ By the end of this course, you will become:
 3. a collaborative sharer by producing beautiful, powerful, and clear visualizations of your own data.
 
 <figure>
-[![](/images/data-science.png)](/images/data-science.png)
+[![](/images/pederson.gif)](/images/pederson.gif)
 </figure>
+
+From Thomas Lin Pederson's [May 2017 blog post](https://www.data-imaginist.com/2017/animating-the-logo/).
