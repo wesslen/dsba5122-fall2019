@@ -28,7 +28,7 @@ menu:
       url: /reference/
       weight: 8
     - name: Canvas
-      url: "https://canvas.uncc.edu"
+      url: "https://uncc.instructure.com/courses/100065"
       weight: 4
     - name: RStudio.cloud
       url: "https://rstudio.cloud"
@@ -50,7 +50,7 @@ params:
   instructor: 
     name: Ryan Wesslen
     email: rwesslen@uncc.edu
-    url: "https://wesslen.github.io"
+    url: "https://wesslen.netlify.com"
     twitter: ryanwesslen
     github: wesslen
     office: TBD

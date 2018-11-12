@@ -20,7 +20,7 @@ editor_options:
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-Lab:
+# Lab:
 
 Matthew Kay's [Uncertainty visualization examples](https://github.com/mjskay/uncertainty-examples)
 
