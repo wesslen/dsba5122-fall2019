@@ -206,13 +206,13 @@ code span.wa { color: #bf0303; } /* Warning */
 
 
 <h2 id="task-0">Task 0</h2>
-<p><a href="/files/your-name_problem-set-1.Rmd">Download this R Markdown file</a>.<span><label for="sn-0" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-0" class="margin-toggle"/><span class="sidenote">Your browser might show the file instead of downloading it. If that’s the case, you can copy/paste the code from the browser to RStudio. In RStudio, go to “File” &gt; “New” &gt; “New R Markdown…”, click “OK” with the default options, delete all the placeholder code/text in the new file, and paste the example code in the now-blank file.<br />
+<p><a href="/files/your-name_problem-set-1.Rmd">Download this R Markdown file</a>.<span><label for="sn-1" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-1" class="margin-toggle"/><span class="sidenote">Your browser might show the file instead of downloading it. If that’s the case, you can copy/paste the code from the browser to RStudio. In RStudio, go to “File” &gt; “New” &gt; “New R Markdown…”, click “OK” with the default options, delete all the placeholder code/text in the new file, and paste the example code in the now-blank file.<br />
 <br />
 </span></span> It contains an outline/skeleton of what you’ll need to do in this problem set, and it includes lots of the code prewritten just for you!</p>
-<p>Make sure you install R and RStudio and tidyverse first.<span><label for="sn-1" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-1" class="margin-toggle"/><span class="sidenote">Follow <a href="/install/">these instructions</a> and install R, RStudio, and all the tidyverse packages. If you have any questions, don’t hesitate to ask me or your classmates for help!<br />
+<p>Make sure you install R and RStudio and tidyverse first.<span><label for="sn-2" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-2" class="margin-toggle"/><span class="sidenote">Follow <a href="/install/">these instructions</a> and install R, RStudio, and all the tidyverse packages. If you have any questions, don’t hesitate to ask me or your classmates for help!<br />
 <br />
 </span></span></p>
-<p>Complete the three tasks below and type your answers in that downloaded file. When you’re done, knit the document as a Word file or PDF with the “Knit” button at the top of the script editing pane.<span><label for="sn-2" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-2" class="margin-toggle"/><span class="sidenote"><img src="/images/assignment/knit-button.png" alt="Knit button" /><br />
+<p>Complete the three tasks below and type your answers in that downloaded file. When you’re done, knit the document as a Word file or PDF with the “Knit” button at the top of the script editing pane.<span><label for="sn-3" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-3" class="margin-toggle"/><span class="sidenote"><img src="/images/assignment/knit-button.png" alt="Knit button" /><br />
 <br />
 </span></span></p>
 <h2 id="task-1-become-familiar-with-rstudio-and-r-markdown">Task 1: Become familiar with RStudio and R Markdown</h2>
@@ -223,7 +223,7 @@ code span.wa { color: #bf0303; } /* Warning */
 <li><a href="http://rmarkdown.rstudio.com/lesson-2.html">How it Works</a></li>
 <li><a href="http://rmarkdown.rstudio.com/lesson-3.html">Code Chunks</a></li>
 <li><a href="http://rmarkdown.rstudio.com/lesson-4.html">Inline Code</a></li>
-<li><a href="http://rmarkdown.rstudio.com/lesson-8.html">Markdown Basics</a><span><label for="sn-3" class="margin-toggle">&#8853;</label><input type="checkbox" id="sn-3" class="margin-toggle"/><span class="marginnote"> The <a href="https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf">R Markdown Reference Guide</a> is super useful here.<br />
+<li><a href="http://rmarkdown.rstudio.com/lesson-8.html">Markdown Basics</a><span><label for="sn-4" class="margin-toggle">&#8853;</label><input type="checkbox" id="sn-4" class="margin-toggle"/><span class="marginnote"> The <a href="https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf">R Markdown Reference Guide</a> is super useful here.<br />
 <br />
 </span></span></li>
 <li><a href="http://rmarkdown.rstudio.com/lesson-9.html">Output Formats</a></li>
@@ -236,14 +236,14 @@ code span.wa { color: #bf0303; } /* Warning */
 <a class="sourceLine" id="cb1-2" data-line-number="2">tinytex<span class="op">::</span><span class="kw">install_tinytex</span>()</a></code></pre></div>
 <p>If you want to use a full-blown LaTeX installation, install one of these. But note that <em>you don’t need to do this!</em></p>
 <ul>
-<li>LaTeX for macOS: <a href="https://www.tug.org/mactex/">MacTeX</a><span><label for="sn-4" class="margin-toggle">&#8853;</label><input type="checkbox" id="sn-4" class="margin-toggle"/><span class="marginnote"> For whatever reason, LaTeX is astoundingly huge and it will feel like you’re downloading the entire internet when you install it. Be patient :)<br />
+<li>LaTeX for macOS: <a href="https://www.tug.org/mactex/">MacTeX</a><span><label for="sn-5" class="margin-toggle">&#8853;</label><input type="checkbox" id="sn-5" class="margin-toggle"/><span class="marginnote"> For whatever reason, LaTeX is astoundingly huge and it will feel like you’re downloading the entire internet when you install it. Be patient :)<br />
 <br />
 </span></span></li>
 <li>LaTeX for Windows: <a href="https://miktex.org/howto/install-miktex">MiKTeX</a></li>
 </ul>
 <p>When you’re done with everything in Task 1, type something in the R Markdown skeleton file you downloaded at the beginning. You should see a <code># Task 1</code> heading. Type it under that.</p>
 <h2 id="task-2-playing-with-r">Task 2: Playing with R</h2>
-<p>This example uses data from the <a href="https://www.gapminder.org/">Gapminder project</a>.<span><label for="sn-5" class="margin-toggle">&#8853;</label><input type="checkbox" id="sn-5" class="margin-toggle"/><span class="marginnote">
+<p>This example uses data from the <a href="https://www.gapminder.org/">Gapminder project</a>.<span><label for="sn-6" class="margin-toggle">&#8853;</label><input type="checkbox" id="sn-6" class="margin-toggle"/><span class="marginnote">
 You may have seen Hans Rosling’s <a href="https://www.ted.com/talks/hans_rosling_shows_the_best_stats_you_ve_ever_seen">delightful TED talk</a> showing how global health and wealth have been increasing. If you haven’t, you should watch it. Sadly, Hans died in February 2017.<br />
 <br />
 </span></span> You’ll need to install the <code>gapminder</code> R package first. Install it either with the “Packages” panel in RStudio or by typing <code>install.packages(&quot;gapminder&quot;)</code> in the R console.</p>

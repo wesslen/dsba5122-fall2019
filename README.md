@@ -12,6 +12,7 @@ Thanks to the many open source contributors of the course materials:
 * [Thomas Lin Pederson](https://www.data-imaginist.com/)
 * [Jenny Bryan](https://jennybryan.org/)
 * [Matthew Kay](http://www.mjskay.com/)
+* [Garrick Aden-Buie](https://www.garrickadenbuie.com/project/)
 * [David Robinson](http://varianceexplained.org/about/)
 * [Mike Kearney](https://mikewk.com/)
 

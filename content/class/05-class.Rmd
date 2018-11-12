@@ -1,5 +1,5 @@
 ---
-title: "Uncertanity & Risk"
+title: "Uncertainty & Risk"
 date: "2019-02-18"
 citeproc: false
 bibliography: ../../static/bib/references.bib
