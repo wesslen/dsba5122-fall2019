@@ -1,0 +1,23 @@
+---
+title: "Networks & Trees"
+date: "2019-04-01"
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-syllabus-no-bib.csl
+output:
+  blogdown::html_page:
+    template: ../../pandoc/toc-title_html.template
+    toc: true
+editor_options: 
+  chunk_output_type: console
+---
+
+# Slides
+
+[Download the slides from today's lecture]().
+
+# Tweet of the day
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Our lab&#39;s first preprint!  Coral: an R shiny and D3.js web app for flexible, interactive, and high-resolution visualization of the human kinome. <a href="https://t.co/xD7QUXgjOR">https://t.co/xD7QUXgjOR</a> <a href="https://t.co/1gGy9zzsBT">pic.twitter.com/1gGy9zzsBT</a></p>&mdash; doug phanstiel (@dphansti) <a href="https://twitter.com/dphansti/status/1000074434982699009?ref_src=twsrc%5Etfw">May 25, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+

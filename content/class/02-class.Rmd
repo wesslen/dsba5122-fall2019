@@ -19,42 +19,22 @@ editor_options:
 <!-- https://github.com/gadenbuie/gentle-ggplot2 -->
 
 
+# Tweet of the day
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Visual encoding is itself a data transformation, often applied after a chain of other transformations. This is “first week of class”, table stakes stuff. Sad if true that we don’t internalize this!</p>&mdash; Jeffrey Heer (@jeffrey_heer) <a href="https://twitter.com/jeffrey_heer/status/1028353025889333248?ref_src=twsrc%5Etfw">August 11, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 # Lab session: dplyr + ggplot
 
-Part 1: Omayma Said's [Intro to the Tidyverse: Data Manipulation using dplyr](https://speakerdeck.com/omaymas/data-manipulation-with-dplyr-first-steps)
+* Omayma Said's [Intro to the Tidyverse: Data Manipulation using dplyr](https://speakerdeck.com/omaymas/data-manipulation-with-dplyr-first-steps)^[Click the link to open up in its own window. It'll make it easier to read.]
 
-Part 2: Garrick Aden Buie's [A Gentle Guide to the Grammar of Graphics
+
+<div style="left: 0; width: 100%; height: 100%; position: relative; padding-bottom: 56.1987%;"><iframe src="//speakerdeck.com/player/b0f7b1b372524a728409876f191c9f15" style="border: 0; top: 0; left: 0; width: 50%; height: 50%; position: absolute;" allowfullscreen scrolling="no"></iframe></div>
+
+* Garrick Aden Buie's [A Gentle Guide to the Grammar of Graphics
 with ggplot2](https://pkg.garrickadenbuie.com/gentle-ggplot2)
 
-
-```{r class-stuff, include=FALSE, eval=FALSE}
-library(tidyverse)
-library(gapminder)
-library(here)
-
-source(here("lib", "graphics.R"))
-
-just_2007 <- gapminder %>% 
-  filter(year == 2007)
-
-main_plot <- ggplot(just_2007, 
-                    aes(y = lifeExp, x = gdpPercap, size = pop, fill = continent)) +
-  geom_point(pch = 21, color = "white") + 
-  scale_x_log10(labels = scales::dollar_format(accuracy = 1)) +
-  scale_fill_manual(values = as.character(dv_colors[2:6]), guide = FALSE) +
-  scale_size_continuous(range = c(2, 15), guide = FALSE) +
-  labs(x = "GDP per capita", y = "Life expectancy",
-       title = "Global health and wealth in 2007",
-       caption = "Source: Hans Rosling and the Gapminder Project") +
-  theme_dv()
-main_plot
-
-ggsave(main_plot, filename = "~/Desktop/main-plot.pdf",
-       height = 3, width = 4, units = "in", device = cairo_pdf)
-ggsave(main_plot, filename = "~/Desktop/main-plot.png",
-       height = 3, width = 4, units = "in", type = "cairo")
-ggsave(main_plot, filename = "~/Desktop/main-plot.svg",
-       height = 3, width = 4, units = "in")
-ggsave(main_plot, filename = "~/Desktop/main-plot.jpg",
-       height = 3, width = 4, units = "in", quality = 75)
+```{r echo=FALSE}
+knitr::include_url('https://pkg.garrickadenbuie.com/gentle-ggplot2')
 ```

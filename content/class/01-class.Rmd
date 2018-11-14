@@ -14,17 +14,17 @@ editor_options:
 
 # Slides
 
-1. Introduction and overview (see syllabus)
+1. Introduction and overview (see [syllabus](/syllabus/))
 
 2. Visual Analytics introduction
 
 Examples:
 
-- Lane Harrison's [Baby Making](http://codementum.org/babymaking/) visualization
+1. Lane Harrison's [Baby Making](http://codementum.org/babymaking/) visualization
 
-- [ourworldindata.org](https://ourworldindata.org/technological-progress)
+2. [ourworldindata.org](https://ourworldindata.org/technological-progress)
 
-Most important lesson from today:
+# Tweet of the day:
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Any time I have been struggling to learn a new tool/technology/software ... I go back to this short clip I cut out of <a href="https://twitter.com/hadleywickham?ref_src=twsrc%5Etfw">@hadleywickham</a>&#39;s 2014 <a href="https://twitter.com/user2014_ucla?ref_src=twsrc%5Etfw">@user2014_ucla</a> tutorial on Dplyr to motivate myself to keep pushing through ... learning new tools is hard for everyone at the beginning! <a href="https://t.co/RevpkSJqWc">pic.twitter.com/RevpkSJqWc</a></p>&mdash; Aliakbar Akbaritabar (Ali) (@Akbaritabar) <a href="https://twitter.com/Akbaritabar/status/1022057084802748416?ref_src=twsrc%5Etfw">July 25, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -36,17 +36,15 @@ Most important lesson from today:
 
 [Class slides](/slides/01-class.html).
 
-```{r echo=FALSE}
-knitr::include_url('/slides/01-class.html')
-```
-
 # Lab session: Intro to RStudio
 
 1. First, create a RStudio.Cloud account [rstudio.cloud](http://rstudio.cloud/).
 
 2. Go to our RStudio.Cloud project.
 
-Helpful link:
+# esquisse: ggplot2 add-in
 
-[esquisse (ggplot2 add-in/GUI)](https://github.com/dreamRs/esquisse)
+![](./static/images/class/esquisse.gif)
+
+[esquisse](https://github.com/dreamRs/esquisse)
 

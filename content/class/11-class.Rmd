@@ -1,0 +1,24 @@
+---
+title: "Coordinated Multiple Views: Interacting & Brushing"
+date: "2019-04-08"
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-syllabus-no-bib.csl
+output:
+  blogdown::html_page:
+    template: ../../pandoc/toc-title_html.template
+    toc: true
+editor_options: 
+  chunk_output_type: console
+---
+
+# Slides
+
+[Download the slides from today's lecture]().
+
+
+# Links
+
+- [altair](https://vegawidget.github.io/altair/index.html) / [vega editor](https://vega.github.io/editor/#/)
+
+- [dragulaR](https://github.com/zzawadz/dragulaR)

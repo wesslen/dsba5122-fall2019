@@ -1,0 +1,26 @@
+---
+title: "Deployment, Back-end and Scalability"
+date: "2019-04-15"
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-syllabus-no-bib.csl
+output:
+  blogdown::html_page:
+    template: ../../pandoc/toc-title_html.template
+    toc: true
+editor_options: 
+  chunk_output_type: console
+---
+
+# Slides
+
+[Download the slides from today's lecture]().
+
+- [Profiling a Shiny App](https://rstudio.github.io/profvis/examples.html#example-3---profiling-a-shiny-application)
+
+- [Persistent storage in Shiny Apps](https://daattali.com/shiny/persistent-data-storage/)
+
+- [Plot caching](https://blog.rstudio.com/2018/11/13/shiny-1-2-0/)
+
+- [Scaling Shiny Apps with async](https://blog.rstudio.com/2018/06/26/shiny-1-1-0/)
+

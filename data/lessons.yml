@@ -58,7 +58,7 @@ lessons:
     reading: "07-reading"
     class: "07-class"
 
-  - title: "Text Analysis"
+  - title: "Unstructured Text"
     date: "March 18"
     reading: "08-reading"
     class: "08-class"
@@ -83,10 +83,12 @@ lessons:
   - title: "Coordinated Multiple Views: Interacting & Brushing"
     date: "April 8"
     reading: "11-reading"
+    class: "11-class"
 
-  - title: "Deployment & Back-end Systems"
+  - title: "Deployment, Back-end and Scalability"
     date: "April 15"
     reading: "12-reading"
+    class: "12-class"
     
   - title: "**Problem set 4** (Due Apr 22)"
     date: "April 15"

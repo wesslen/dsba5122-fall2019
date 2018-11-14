@@ -17,4 +17,6 @@ By the end of this course, you will become:
 [![](/images/pederson.gif)](/images/pederson.gif)
 </figure>
 
+<center>
 From Thomas Lin Pederson's [May 2017 blog post](https://www.data-imaginist.com/2017/animating-the-logo/).
+</center>

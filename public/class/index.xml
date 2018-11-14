@@ -6,10 +6,95 @@
     <description>Recent content in Classes on Visual Analytics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 18 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://dsba5122-spring2019.netlify.com/class/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Machine Learning</title>
+      <link>https://dsba5122-spring2019.netlify.com/class/13-class/</link>
+      <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/class/13-class/</guid>
+      <description>Contents  Slides Tweet of the day   Slides Download the slides from today’s lecture.
+Tweet of the day If I were to sum up the challenges in machine learning for healthcare in a single XKCD, this would definitely be the one: pic.twitter.com/9E88x4jtiQ — Andrew Beam (???) August 1, 2018   </description>
+    </item>
+    
+    <item>
+      <title>Deployment, Back-end and Scalability</title>
+      <link>https://dsba5122-spring2019.netlify.com/class/12-class/</link>
+      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/class/12-class/</guid>
+      <description>Contents  Slides   Slides Download the slides from today’s lecture.
+ Profiling a Shiny App
+ Persistent storage in Shiny Apps
+ Plot caching
+ Scaling Shiny Apps with async
+  </description>
+    </item>
+    
+    <item>
+      <title>Coordinated Multiple Views: Interacting &amp; Brushing</title>
+      <link>https://dsba5122-spring2019.netlify.com/class/11-class/</link>
+      <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/class/11-class/</guid>
+      <description>Contents  Slides Links   Slides Download the slides from today’s lecture.
+Links  altair / vega editor
+ dragulaR
+  </description>
+    </item>
+    
+    <item>
+      <title>Networks &amp; Trees</title>
+      <link>https://dsba5122-spring2019.netlify.com/class/10-class/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/class/10-class/</guid>
+      <description>Contents  Slides Tweet of the day   Slides Download the slides from today’s lecture.
+Tweet of the day Our lab&#39;s first preprint! Coral: an R shiny and D3.js web app for flexible, interactive, and high-resolution visualization of the human kinome. https://t.co/xD7QUXgjOR pic.twitter.com/1gGy9zzsBT — doug phanstiel (???) May 25, 2018   </description>
+    </item>
+    
+    <item>
+      <title>Design Contest Presentations</title>
+      <link>https://dsba5122-spring2019.netlify.com/class/09-class/</link>
+      <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/class/09-class/</guid>
+      <description>Contents  Slides   Slides Download the slides from today’s lecture.</description>
+    </item>
+    
+    <item>
+      <title>Unstructured Text</title>
+      <link>https://dsba5122-spring2019.netlify.com/class/08-class/</link>
+      <pubDate>Mon, 18 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/class/08-class/</guid>
+      <description>Contents  Slides Links   Slides Download the slides from today’s lecture.
+Links  Tidy Text Mining by Julia Silge and David Robinson  </description>
+    </item>
+    
+    <item>
+      <title>Dimensionality Reduction</title>
+      <link>https://dsba5122-spring2019.netlify.com/class/07-class/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/class/07-class/</guid>
+      <description>Contents  Slides Links   Slides Download the slides from today’s lecture.
+Links introducing stat_mds, dimensionality reduction in #ggplot2 using principal components analysis or tSNE https://t.co/HiShktJPjy #rstats #dataviz pic.twitter.com/5cY8315Tjk — Ben Dilday (???) September 11, 2018   </description>
+    </item>
+    
+    <item>
+      <title>Multidimensional</title>
+      <link>https://dsba5122-spring2019.netlify.com/class/06-class/</link>
+      <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/class/06-class/</guid>
+      <description>Contents  Slides Tweet of the day Lab:   Slides Download the slides from today’s lecture.
+Tweet of the day Lab: </description>
+    </item>
     
     <item>
       <title>Uncertainty &amp; Risk</title>
@@ -17,9 +102,12 @@
       <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/class/05-class/</guid>
-      <description>Contents  Slides Lab:   Slides Download the slides from today’s lecture.
+      <description>Contents  Slides Links: Lab:   Slides Download the slides from today’s lecture.
 Slides from my #openvisconf talk: Tidy data and Bayesian analysis
-make uncertainty visualization fun! https://t.co/395TMdLBv0 #tidybayes pic.twitter.com/VHnAUbTsOp — Matthew Kay (???) May 15, 2018   Lab: Matthew Kay’s Uncertainty visualization examples</description>
+make uncertainty visualization fun! https://t.co/395TMdLBv0 #tidybayes pic.twitter.com/VHnAUbTsOp — Matthew Kay (???) May 15, 2018   Links: Kristoffer Magnusson’s
+ Bayesian Inference: An Interactive Visualization
+ Interpreting Confidence Intervals
+  Lab: Matthew Kay’s Uncertainty visualization examples</description>
     </item>
     
     <item>
@@ -28,7 +116,9 @@ make uncertainty visualization fun! https://t.co/395TMdLBv0 #tidybayes pic.twitt
       <pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/class/04-class/</guid>
-      <description>Contents  Slides   Slides Download the slides from today’s lecture.</description>
+      <description>Contents  Slides Tweet of the day Links   Slides Download the slides from today’s lecture.
+Tweet of the day Rumour has it ??? killed his talk last night…
+⏰ “Time series &amp;amp; financial analysis in the tidyverse” 📽 https://t.co/h2jGX0fZ38 #rstats * feat. ???&#39;s {tsibble}, ??? 📦s, and {rsample} pic.twitter.com/fYrC1hoHLB — Mara Averick (???) September 26, 2018   Links  []  </description>
     </item>
     
     <item>
@@ -37,10 +127,10 @@ make uncertainty visualization fun! https://t.co/395TMdLBv0 #tidybayes pic.twitt
       <pubDate>Mon, 04 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/class/03-class/</guid>
-      <description>Contents  Slides Extra-dimensional aesthetics Guessing the identity of the Trump resistance op-ed writer with R   Slides Download the slides from today’s lecture.
-Jenny Bryan’s ggplot2 tutorial GitHub / slides
-Allison Hill’s Data Visualization in the Tidyverse The Great Tidy Plot Off
-Extra-dimensional aesthetics  Make your own animated plots with gganimate Video of simulated Hurricane Florence storm surge The Wall Street Journal’s audio-based visualization of Hamilton’s internal rhymes  Guessing the identity of the Trump resistance op-ed writer with R  David Robinson’s approach Mike Kearney’s approach: his code and his short article  </description>
+      <description>Contents  Slides Tweet of the Day Extra-dimensional aesthetics Guessing the identity of the Trump resistance op-ed writer with R   Slides Download the slides from today’s lecture.
+ Jenny Bryan’s ggplot2 tutorial GitHub / slides
+ Allison Hill’s Data Visualization in the Tidyverse The Great Tidy Plot Off
+  Tweet of the Day Animated #rstats data tidying with tidyr&#39;s spread and gather functions, brought to life using the new gganimate by ?</description>
     </item>
     
     <item>
@@ -49,9 +139,8 @@ Extra-dimensional aesthetics  Make your own animated plots with gganimate Video 
       <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/class/02-class/</guid>
-      <description>Contents  Slides Lab session: dplyr + ggplot   Slides Download the slides from today’s lecture.
-Lab session: dplyr + ggplot Part 1: Omayma Said’s Intro to the Tidyverse: Data Manipulation using dplyr
-Part 2: Garrick Aden Buie’s A Gentle Guide to the Grammar of Graphics with ggplot2</description>
+      <description>Contents  Slides Tweet of the day Lab session: dplyr + ggplot   Slides Download the slides from today’s lecture.
+Tweet of the day Visual encoding is itself a data transformation, often applied after a chain of other transformations. This is “first week of class”, table stakes stuff. Sad if true that we don’t internalize this! — Jeffrey Heer (???) August 11, 2018   Lab session: dplyr + ggplot  Omayma Said’s Intro to the Tidyverse: Data Manipulation using dplyrClick the link to open up in its own window.</description>
     </item>
     
     <item>
@@ -60,13 +149,12 @@ Part 2: Garrick Aden Buie’s A Gentle Guide to the Grammar of Graphics with ggp
       <pubDate>Mon, 14 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/class/01-class/</guid>
-      <description>Contents  Slides Lab session: Intro to RStudio   Slides Introduction and overview (see syllabus)
+      <description>Contents  Slides Tweet of the day: Lab session: Intro to RStudio esquisse: ggplot2 add-in   Slides Introduction and overview (see syllabus)
  Visual Analytics introduction
   Examples:
- Lane Harrison’s Baby Making visualization
+Lane Harrison’s Baby Making visualization
  ourworldindata.org
-  Most important lesson from today:
-Any time I have been struggling to learn a new tool/technology/software … I go back to this short clip I cut out of ???&#39;s 2014 ??? tutorial on Dplyr to motivate myself to keep pushing through … learning new tools is hard for everyone at the beginning!</description>
+  Tweet of the day: Any time I have been struggling to learn a new tool/technology/software … I go back to this short clip I cut out of ???&#39;s 2014 ??? tutorial on Dplyr to motivate myself to keep pushing through … learning new tools is hard for everyone at the beginning!</description>
     </item>
     
   </channel>
