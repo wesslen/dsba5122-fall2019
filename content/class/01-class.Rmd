@@ -27,7 +27,7 @@ Examples:
 # Tweet of the day:
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Any time I have been struggling to learn a new tool/technology/software ... I go back to this short clip I cut out of <a href="https://twitter.com/hadleywickham?ref_src=twsrc%5Etfw">@hadleywickham</a>&#39;s 2014 <a href="https://twitter.com/user2014_ucla?ref_src=twsrc%5Etfw">@user2014_ucla</a> tutorial on Dplyr to motivate myself to keep pushing through ... learning new tools is hard for everyone at the beginning! <a href="https://t.co/RevpkSJqWc">pic.twitter.com/RevpkSJqWc</a></p>&mdash; Aliakbar Akbaritabar (Ali) (@Akbaritabar) <a href="https://twitter.com/Akbaritabar/status/1022057084802748416?ref_src=twsrc%5Etfw">July 25, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>^[[Hadley Wickham](http://hadley.nz/) is the R guru amongst gurus. He developed `dplyr`, `ggplot2`, (and many other R packages) and now is Chief Scientist for RStudio, leading the direction of RStudio's research. If you want some idea of his contribution, see [his GitHub repos](https://github.com/hadley?tab=repositories).]
 
 
 <!-- https://github.com/yusuzech/r-web-scraping-cheat-sheet -->

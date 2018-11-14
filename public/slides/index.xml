@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Slides on Visual Analytics</title>
-    <link>https://dsba5122-spring2019.netlify.com/slides/</link>
+    <link>/slides/</link>
     <description>Recent content in Slides on Visual Analytics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 28 Jan 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://dsba5122-spring2019.netlify.com/slides/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/slides/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>DSBA 5122: Visual Analytics</title>
-      <link>https://dsba5122-spring2019.netlify.com/slides/02-class/</link>
+      <link>/slides/02-class/</link>
       <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dsba5122-spring2019.netlify.com/slides/02-class/</guid>
+      <guid>/slides/02-class/</guid>
       <description>class: center, middle
 Welcome  Introduce yourself  Name
  Program (DSBA, HI, other?)
@@ -30,10 +30,10 @@ https://dsba5122-spring2019.netlify.com
     
     <item>
       <title>DSBA 5122: Visual Analytics</title>
-      <link>https://dsba5122-spring2019.netlify.com/slides/01-class/</link>
+      <link>/slides/01-class/</link>
       <pubDate>Mon, 14 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dsba5122-spring2019.netlify.com/slides/01-class/</guid>
+      <guid>/slides/01-class/</guid>
       <description>class: center, middle
 Welcome  Introduce yourself  Name
  Program (DSBA, HI, other?)
