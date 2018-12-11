@@ -27,4 +27,4 @@ editor_options:
 
 # Links
 
-* []
+* [Pudding's "Human Terrain"](https://pudding.cool/2018/10/city_3d/)

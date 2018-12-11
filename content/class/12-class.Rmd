@@ -16,6 +16,8 @@ editor_options:
 
 [Download the slides from today's lecture]().
 
+- [Docker and `plumber'](https://medium.com/@skyetetra/using-docker-to-deploy-an-r-plumber-api-863ccf91516d)
+
 - [Profiling a Shiny App](https://rstudio.github.io/profvis/examples.html#example-3---profiling-a-shiny-application)
 
 - [Persistent storage in Shiny Apps](https://daattali.com/shiny/persistent-data-storage/)
@@ -24,3 +26,4 @@ editor_options:
 
 - [Scaling Shiny Apps with async](https://blog.rstudio.com/2018/06/26/shiny-1-1-0/)
 
+- [Shiny unit testing with `testhat`](https://www.r-bloggers.com/unit-testing-shiny-apps-using-testthat/)

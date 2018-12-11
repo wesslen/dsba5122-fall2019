@@ -42,9 +42,13 @@ The standards and requirements set forth in this syllabus may be modified by the
 
 # Course materials
 
-<span class="newthought">The course textbooks include free online versions.</span> Although I'd still highly recommend buying physical copies (but it's completely optional).
+<span class="newthought">The course **requires** one textbook and **recommends** three books that also have free online versions as alternatives to purchasing the books.</span> Although I'd still highly recommend buying physical copies (but it's completely optional).
 
-The three books we'll use are:^[Fun fact: all of these books were written in R using [Bookdown](https://bookdown.org/)! Don't believe, here's their code [Healy](https://github.com/kjhealy/socviz), [Wilke](https://github.com/clauswilke/dataviz), and [Wickham](https://github.com/hadley/r4ds).]
+The **required** textbook is:
+
+- [@Cairo:2016] [$36 used, $38 new at [Amazon](https://www.amazon.com/Truthful-Art-Data-Charts-Communication/dp/0321934075)]
+
+The three recommended books are:^[Fun fact: all of these books were written in R using [Bookdown](https://bookdown.org/)! Don't believe, here's their code [Healy](https://github.com/kjhealy/socviz), [Wilke](https://github.com/clauswilke/dataviz), and [Wickham](https://github.com/hadley/r4ds).]
 
 - [@Healy:2018] [**FREE** online; $40 new at [Amazon](https://www.amazon.com/Data-Visualization-Introduction-Kieran-Healy/dp/0691181624/)]
 - [@Wilke:2018] [**FREE** online; $50 new at [Amazon](https://www.amazon.com/Fundamentals-Data-Visualization-Informative-Compelling/dp/1492031089)]
@@ -93,7 +97,7 @@ Such discussion shall occur between the student and the instructor(s). Sharing i
 “The UNC Charlotte Code of Student Responsibility(the Code) sets forth certain rights and responsibilities in matters of student discipline. The Code defines these responsibilities and guarantees you certain rights that ensure your protection from unjust imposition of disciplinary penalties.  You should familiarize yourself with the provisions and procedures of the Code” (Introductory statement from the UNC Charlotte brochure about the Code of Student Responsibility).  The entire document may be found at this Internet address: <http://legal.uncc.edu/policies/ps-104.html>
 
 ## Academic Integrity
-All students are required to read and abide by the Code of Student Academic Integrity. Violations of the Code of Student Academic Integrity, including plagiarism, will result in disciplinary action as provided in the Code. Students are expected to submit their own work, either as individuals or contributors to a group assignment. Definitions and examples of plagiarism and other violations are set forth in the Code. The Code is available from the Dean of Students Office or online at: http://www.legal.uncc.edu/policies/ps-105.html (Links to an external site.)Links to an external site.   
+All students are required to read and abide by the Code of Student Academic Integrity. Violations of the Code of Student Academic Integrity, including plagiarism, will result in disciplinary action as provided in the Code. Students are expected to submit their own work, either as individuals or contributors to a group assignment. Definitions and examples of plagiarism and other violations are set forth in the Code. The Code is available from the Dean of Students Office or online at: <http://www.legal.uncc.edu/policies/ps-105.html>.   
 
 Faculty may ask students to produce identification at examinations and may require students to demonstrate that graded assignments completed outside of class are their own work.
 

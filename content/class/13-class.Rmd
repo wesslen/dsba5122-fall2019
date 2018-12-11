@@ -21,3 +21,8 @@ editor_options:
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">If I were to sum up the challenges in machine learning for healthcare in a single XKCD, this would definitely be the one: <a href="https://t.co/9E88x4jtiQ">pic.twitter.com/9E88x4jtiQ</a></p>&mdash; Andrew Beam (@AndrewLBeam) <a href="https://twitter.com/AndrewLBeam/status/1024467299145793536?ref_src=twsrc%5Etfw">August 1, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+- [Galit Shumuel's "To Explain or To Predict?"](http://www.galitshmueli.com/content/explain-or-predict)
+
+- [Enterprise Web Services with Neural Networks Using R and TensorFlow](https://opensource.t-mobile.com/blog/posts/r-tensorflow-api/)
+
+- [LIME]()

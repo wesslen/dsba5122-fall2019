@@ -24,11 +24,9 @@ editor_options:
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Visual encoding is itself a data transformation, often applied after a chain of other transformations. This is “first week of class”, table stakes stuff. Sad if true that we don’t internalize this!</p>&mdash; Jeffrey Heer (@jeffrey_heer) <a href="https://twitter.com/jeffrey_heer/status/1028353025889333248?ref_src=twsrc%5Etfw">August 11, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>^[[Enrico Bertini](http://enrico.bertini.io/) is a data visualization researcher at NYU who co-hosts (with [Moritz Stefaner](http://truth-and-beauty.net/)) the podcast ["Data Stories"](http://datastori.es/), which I highly recommend.] ,^[[Jeff Heer](https://homes.cs.washington.edu/~jheer/) is a leading researcher in data visualization; he helped develop [D3](https://d3js.org/), [Trifacta](https://www.trifacta.com/), [Vega](https://vega.github.io/vega/), and has had countless other publications. My personal favorite is his already classic 2009 ["Brief History of Data Visualization"](https://www.youtube.com/watch?v=N00g9Q9stBo) talk on YouTube.]
 
-
 # Lab session: dplyr + ggplot
 
 * Omayma Said's [Intro to the Tidyverse: Data Manipulation using dplyr](https://speakerdeck.com/omaymas/data-manipulation-with-dplyr-first-steps)^[Click the link to open up in its own window. It'll make it easier to read.]
-
 
 <div style="left: 0; width: 100%; height: 100%; position: relative; padding-bottom: 56.1987%;"><iframe src="//speakerdeck.com/player/b0f7b1b372524a728409876f191c9f15" style="border: 0; top: 0; left: 0; width: 50%; height: 50%; position: absolute;" allowfullscreen scrolling="no"></iframe></div>
 
@@ -38,3 +36,9 @@ with ggplot2](https://pkg.garrickadenbuie.com/gentle-ggplot2)
 ```{r echo=FALSE}
 knitr::include_url('https://pkg.garrickadenbuie.com/gentle-ggplot2')
 ```
+
+# esquisse: ggplot2 add-in
+
+![](../../static/images/class/esquisse.gif)
+
+[esquisse](https://github.com/dreamRs/esquisse)
