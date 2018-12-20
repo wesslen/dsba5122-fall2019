@@ -13,9 +13,3 @@ csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
 # Recommendations
 
 - <i class="fas fa-book"></i> [Chapter 6](https://serialmentor.com/dataviz/visualizing-amounts.html) in Claus Wilke, *Fundamentals of Data Visualization* [@Wilke:2018]
-
-
-# Questions to reflect on
-
-- How do these types of visualizations help or hinder or search for truth in data?
-- What are different ways to show the variability of a single number? Are some more appropriate than others? Why?

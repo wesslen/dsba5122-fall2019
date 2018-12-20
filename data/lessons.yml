@@ -7,6 +7,10 @@ lessons:
     reading: "01-reading"
     class: "01-class"
     
+  - title: "**Datacamp Course 1 (Due Jan 29)**"
+    date: "January 14"
+    assignment: "01-datacamp"
+    
   - title: "No class (MLK Holiday)"
     date: "January 21"
 
@@ -23,6 +27,10 @@ lessons:
     date: "February 4"
     reading: "03-reading"
     class: "03-class"
+    
+  - title: "**Datacamp Course 2 (Due Feb 19)**"
+    date: "February 4"
+    assignment: "02-datacamp"
     
   - title: "Time & Space"
     date: "February 11"
@@ -50,6 +58,10 @@ lessons:
     date: "February 25"
     assignment: "01-project"
     
+  - title: "**Datacamp Course 3 (Due Mar 12)**"
+    date: "February 25"
+    assignment: "03-datacamp"
+    
   - title: "No class (Spring Break)"
     date: "March 4"
 
@@ -76,6 +88,10 @@ lessons:
     date: "April 1"
     reading: "10-reading"
     class: "10-class"
+    
+  - title: "**Datacamp Course 4 (Due Apr 16)**"
+    date: "April 1"
+    assignment: "04-datacamp"
 
   - title: '<span class="fake-header-table">Advanced Topics</span>'
     header: True
@@ -90,7 +106,7 @@ lessons:
     reading: "12-reading"
     class: "12-class"
     
-  - title: "**Problem set 4** (Due Apr 22)"
+  - title: "**Problem set 4 (Due Apr 22)**"
     date: "April 15"
     assignment: "04-problem-set"
 

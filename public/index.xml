@@ -6,10 +6,21 @@
     <description>Recent content in Data visualization on Visual Analytics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 22 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Oct 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://dsba5122-spring2019.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Uncertainty</title>
+      <link>https://dsba5122-spring2019.netlify.com/reading/06-reading/</link>
+      <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/reading/06-reading/</guid>
+      <description> Required   Chapter 7 in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
+  Chapters 4, 7, and 11 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
+  Why It’s So Hard for Us to Visualize Uncertainty  Recommended   Communicating Uncertainty When Lives Are on the Line  Showing uncertainty during the live election forecast &amp;amp; Trolling the uncertainty dial  </description>
+    </item>
     
     <item>
       <title>DSBA 5122: Visual Analytics</title>
@@ -278,9 +289,18 @@ Tweet of the day Rumour has it ??? killed his talk last night…
       <pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/reading/04-reading/</guid>
-      <description>Required   Chapter 8 and Chapter 10 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
+      <description> Required   Chapter 8 and Chapter 10 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
   Recommendations   Chapter 6 in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
-  Questions to reflect on  How do these types of visualizations help or hinder or search for truth in data?</description>
+  </description>
+    </item>
+    
+    <item>
+      <title>Datacamp Course 1</title>
+      <link>https://dsba5122-spring2019.netlify.com/assignment/02-datacamp/</link>
+      <pubDate>Mon, 04 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/assignment/02-datacamp/</guid>
+      <description>DataCamp Course For this DataCamp course, you’ll learn about doing exploratory data analysis, focusing on ggplot2 and the related tidyverse packages (e.g., dplyr, broom).</description>
     </item>
     
     <item>
@@ -361,11 +381,10 @@ Tweet of the day Visual encoding is itself a data transformation, often applied 
       <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/reading/02-reading/</guid>
-      <description> Required   Chapter 3 and Chapter 5 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
+      <description>Required   Chapter 3 and Chapter 5 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
   Optional   Chapter 4 and Chapter 22 in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
 
-  [https://eagereyes.org/criticism/sketch-of-infovis-science] by Robert Kosara.
-  Questions to reflect on    </description>
+  The Science of Information Visualization: A Sketch by Robert Kosara.</description>
     </item>
     
     <item>
@@ -376,14 +395,23 @@ Tweet of the day Visual encoding is itself a data transformation, often applied 
       <guid>https://dsba5122-spring2019.netlify.com/slides/01-class/</guid>
       <description>class: center, middle
 Welcome  Introduce yourself  Name
- Program (DSBA, HI, other?)
- Programming &amp;amp; Visualization Experience
- What are you interested in learning more about in visualizations?
+ What’s your academic and professional background?
+ Programming &amp;amp; visualization experience (e.g., tools like R, Tableau, Spotfire, etc.)
+ What are you interested in learning more about with data visualizations?
   https://dsba5122-spring2019.netlify.com
  https://dsba5122-spring2019.netlify.com or https://bitly.com/dsba5122
 class: center, middle
  Let’s get started! class: inverse, middle, center
- Intro to Visual Analytics (and Information Visualization)  What is a visualization? The use of computer-supported, interactive visual representations of data to amplify cognition.</description>
+ Intro to Visual Analytics (and Information Visualization)  What is a visualization?</description>
+    </item>
+    
+    <item>
+      <title>Datacamp Course 1</title>
+      <link>https://dsba5122-spring2019.netlify.com/assignment/01-datacamp/</link>
+      <pubDate>Mon, 14 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/assignment/01-datacamp/</guid>
+      <description>DataCamp Course For this DataCamp course, you’ll learn about using tidyverse package.</description>
     </item>
     
     <item>
@@ -504,25 +532,13 @@ Tweet of the day: Any time I have been struggling to learn a new tool/technology
     </item>
     
     <item>
-      <title>Uncertainty</title>
-      <link>https://dsba5122-spring2019.netlify.com/reading/06-reading/</link>
-      <pubDate>Tue, 09 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-spring2019.netlify.com/reading/06-reading/</guid>
-      <description>Required   Chapter 7 in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
-  Chapters 4, 7, and 11 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
-  Why It’s So Hard for Us to Visualize Uncertainty  Amanda Cox’s keynote address at the 2017 OpenVis Conf  Communicating Uncertainty When Lives Are on the Line  Showing uncertainty during the live election forecast &amp;amp; Trolling the uncertainty dial  Questions to reflect on  Why is it important to deal with uncertainty in data?</description>
-    </item>
-    
-    <item>
       <title>Assignments</title>
       <link>https://dsba5122-spring2019.netlify.com/assignments/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/assignments/</guid>
       <description>DataCamp Courses You will need to complete five DataCamp courses, each is 2.5 points. Points will be allocated for all (2.5 points) for completion or 0 points (not completed) by the assigned date. These will be assigned on DataCamp and are intended to reinforce the programming assignments and material.
-Throughout the semester, additional DataCamp courses will be suggested for extra credit points.
-Problem sets To practice working with RStudio and making data-based graphics, you will complete a series of 5 problem sets.</description>
+About half-way through the semester (February-March), additional DataCamp courses may be suggested for extra credit points (2.5 points per course).</description>
     </item>
     
     <item>
@@ -561,7 +577,7 @@ RStudio.cloud R is free, but it can sometimes be a pain to install and configure
       
       <guid>https://dsba5122-spring2019.netlify.com/schedule/</guid>
       <description> Here’s your roadmap for the semester!
-  Readings should be completed before each class session  Assignments are due by 11:59 PM on the day they are due  Class materials (slides, in-class activities, etc.) will be added on the day of class     Information Visualization Reading Assignment Class   January 14 Intro to Visual Analytics      January 21 No class (MLK Holiday)      January 28 Visual Representation Basics I      January 28 Problem set 1 (Due Feb 4)      February 4 Visual Representation Basics II      February 11 Time &amp;amp; Space      February 18 Uncertainty &amp;amp; Risk      February 18 Problem set 2 (Due Feb 25)       Interactive Visualizations Reading Assignment Class   February 25 Multidimensional      February 25 Design Contest (Due Mar 25)      March 4 No class (Spring Break)      March 11 Dimensionality Reduction      March 18 Unstructured Text      March 25 Design Contest Presentations      March 25 Problem set 3 (Due Apr 1)      April 1 Networks and Trees       Advanced Topics Reading Assignment Class   April 8 Coordinated Multiple Views: Interacting &amp;amp; Brushing      April 15 Deployment, Back-end and Scalability      April 15 Problem set 4 (Due Apr 22)      April 22 Machine Learning      April 29 Wrap-up       Final Reading Assignment Class   May 6 Final project due       </description>
+  Readings should be completed before each class session  Assignments are due by 11:59 PM on the day they are due  Class materials (slides, in-class activities, etc.) will be added on the day of class     Information Visualization Reading Assignment Class   January 14 Intro to Visual Analytics      January 14 Datacamp Course 1 (Due Jan 29)      January 21 No class (MLK Holiday)      January 28 Visual Representation Basics I      January 28 Problem set 1 (Due Feb 4)      February 4 Visual Representation Basics II      February 4 Datacamp Course 2 (Due Feb 19)      February 11 Time &amp;amp; Space      February 18 Uncertainty &amp;amp; Risk      February 18 Problem set 2 (Due Feb 25)       Interactive Visualizations Reading Assignment Class   February 25 Multidimensional      February 25 Design Contest (Due Mar 25)      February 25 Datacamp Course 3 (Due Mar 12)      March 4 No class (Spring Break)      March 11 Dimensionality Reduction      March 18 Unstructured Text      March 25 Design Contest Presentations      March 25 Problem set 3 (Due Apr 1)      April 1 Networks and Trees      April 1 Datacamp Course 4 (Due Apr 16)       Advanced Topics Reading Assignment Class   April 8 Coordinated Multiple Views: Interacting &amp;amp; Brushing      April 15 Deployment, Back-end and Scalability      April 15 Problem set 4 (Due Apr 22)      April 22 Machine Learning      April 29 Wrap-up       Final Reading Assignment Class   May 6 Final project due       </description>
     </item>
     
     <item>

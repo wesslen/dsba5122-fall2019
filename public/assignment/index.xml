@@ -53,12 +53,30 @@ Download all these files and place them in your new data/ folder.&amp;#8853;You�
     </item>
     
     <item>
+      <title>Datacamp Course 1</title>
+      <link>https://dsba5122-spring2019.netlify.com/assignment/02-datacamp/</link>
+      <pubDate>Mon, 04 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/assignment/02-datacamp/</guid>
+      <description>DataCamp Course For this DataCamp course, you’ll learn about doing exploratory data analysis, focusing on ggplot2 and the related tidyverse packages (e.g., dplyr, broom).</description>
+    </item>
+    
+    <item>
       <title>Problem set 1</title>
       <link>https://dsba5122-spring2019.netlify.com/assignment/01-problem-set/</link>
       <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/assignment/01-problem-set/</guid>
       <description>a.sourceLine { display: inline-block; line-height: 1.25; } a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; } a.sourceLine:empty { height: 1.2em; } .sourceCode { overflow: visible; } code.sourceCode { white-space: pre; position: relative; } div.sourceCode { margin: 1em 0; } pre.sourceCode { margin: 0; } @media screen { div.sourceCode { overflow: auto; } } @media print { code.sourceCode { white-space: pre-wrap; } a.sourceLine { text-indent: -1em; padding-left: 1em; } } pre.</description>
+    </item>
+    
+    <item>
+      <title>Datacamp Course 1</title>
+      <link>https://dsba5122-spring2019.netlify.com/assignment/01-datacamp/</link>
+      <pubDate>Mon, 14 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/assignment/01-datacamp/</guid>
+      <description>DataCamp Course For this DataCamp course, you’ll learn about using tidyverse package.</description>
     </item>
     
     <item>

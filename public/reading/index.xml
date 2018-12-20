@@ -6,10 +6,21 @@
     <description>Recent content in Readings on Visual Analytics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 18 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Oct 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://dsba5122-spring2019.netlify.com/reading/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Uncertainty</title>
+      <link>https://dsba5122-spring2019.netlify.com/reading/06-reading/</link>
+      <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/reading/06-reading/</guid>
+      <description> Required   Chapter 7 in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
+  Chapters 4, 7, and 11 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
+  Why It’s So Hard for Us to Visualize Uncertainty  Recommended   Communicating Uncertainty When Lives Are on the Line  Showing uncertainty during the live election forecast &amp;amp; Trolling the uncertainty dial  </description>
+    </item>
     
     <item>
       <title>Uncertainty &amp; Risk</title>
@@ -28,9 +39,9 @@
       <pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/reading/04-reading/</guid>
-      <description>Required   Chapter 8 and Chapter 10 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
+      <description> Required   Chapter 8 and Chapter 10 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
   Recommendations   Chapter 6 in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
-  Questions to reflect on  How do these types of visualizations help or hinder or search for truth in data?</description>
+  </description>
     </item>
     
     <item>
@@ -50,11 +61,10 @@
       <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/reading/02-reading/</guid>
-      <description> Required   Chapter 3 and Chapter 5 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
+      <description>Required   Chapter 3 and Chapter 5 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
   Optional   Chapter 4 and Chapter 22 in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
 
-  [https://eagereyes.org/criticism/sketch-of-infovis-science] by Robert Kosara.
-  Questions to reflect on    </description>
+  The Science of Information Visualization: A Sketch by Robert Kosara.</description>
     </item>
     
     <item>
@@ -151,17 +161,6 @@ Questions to reflect on  How do we know what is true? Are facts truth? Why do we
       <description>Required   Chapter 9 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
   Chapter 12 in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
   Kieran Healy, “Two y-axes”  Two Alternatives to Using a Second Y-Axis &amp;amp; Illusion of success &amp;amp; Dissecting two axes  Dual-Scaled Axes in Graphs: Are They Ever the Best Solution?</description>
-    </item>
-    
-    <item>
-      <title>Uncertainty</title>
-      <link>https://dsba5122-spring2019.netlify.com/reading/06-reading/</link>
-      <pubDate>Tue, 09 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-spring2019.netlify.com/reading/06-reading/</guid>
-      <description>Required   Chapter 7 in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
-  Chapters 4, 7, and 11 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
-  Why It’s So Hard for Us to Visualize Uncertainty  Amanda Cox’s keynote address at the 2017 OpenVis Conf  Communicating Uncertainty When Lives Are on the Line  Showing uncertainty during the live election forecast &amp;amp; Trolling the uncertainty dial  Questions to reflect on  Why is it important to deal with uncertainty in data?</description>
     </item>
     
   </channel>

@@ -74,4 +74,4 @@ Read [Chapter 3 of R for Data Science](http://r4ds.had.co.nz/data-visualisation.
 
 # All done!
 
-Knit the completed R Markdown file as a PDF (use the "Knit" button at the top of the script editor window) and compress the entire folder (including the PDF document, RStudio Project, any respective data, and the R Markdown file). To complete the assignment, upload it to Canvas by 11:59pm on February 4, 2018.
+Knit the completed R Markdown file as a html (use the "Knit" button at the top of the script editor window) and compress the entire folder (including the html document, RStudio Project, any respective data, and the R Markdown file). To complete the assignment, upload it to Canvas by 11:59pm on February 4, 2018.

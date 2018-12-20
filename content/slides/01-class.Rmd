@@ -31,11 +31,11 @@ class: center, middle
 
 - Name
 
-- Program (DSBA, HI, other?)
+- What's your academic and professional background?
 
-- Programming & Visualization Experience
+- Programming & visualization experience (e.g., tools like R, Tableau, Spotfire, etc.)
 
-- What are you interested in learning more about in visualizations?
+- What are you interested in learning more about with data visualizations?
 
 ---
 
@@ -354,12 +354,17 @@ Two types of insight in data visualizations (Chang et al., 2009):
 2. Knowledge-building
 
 ---
-class: middle, center
 
 # It is enlightening
 
 "Some topics do matter more than others indeed because **they are more critical to the well-being of more people.**"
 
-- What you 
+--
+
+- What is the importance of your data visualization?
+
+--
+
+- Find topics that are important (and fun) to understand, especially in cases where you don't know the right question to ask (i.e., exploratory data analysis).
 
 

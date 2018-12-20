@@ -1,0 +1,12 @@
+---
+title: "Datacamp Course 1"
+date: "2019-02-04"
+due_date: "2018-02-19"
+due_time: "11:59 PM"
+editor_options: 
+  chunk_output_type: console
+---
+
+# DataCamp Course
+
+For this DataCamp course, you'll learn about doing exploratory data analysis, focusing on `ggplot2` and the related `tidyverse` packages (e.g., `dplyr`, `broom`).

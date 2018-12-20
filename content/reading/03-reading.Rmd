@@ -16,11 +16,4 @@ csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
 
 <!-- - <i class="fab fa-youtube"></i> Hans Rosling, ["200 Countries, 200 Years, 4 Minutes"](https://www.youtube.com/watch?v=jbkSRLYSojo) -->
 
-
-
-# Questions to reflect on
-
-- Why is it important to visualize variables and data?
-- What does it mean to map data to graph aesthetics?
-- How are grammar of graphics aesthetics (i.e. `aes()` in ggplot) related to Tufte's data-to-ink ratio?
-- What data was mapped to which aesthetics in Rosling's video?
+- <i class="fas fa-external-link-square-alt"></i>[How do we know when a visualization is good? Perspectives from a cognitive scientist](https://medium.com/multiple-views-visualization-research-explained/how-do-we-know-when-a-visualization-is-good-c894b5194b62) by Lace Padilla (Multiple Views Blog)
