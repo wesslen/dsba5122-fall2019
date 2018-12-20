@@ -36,7 +36,7 @@ your-project-name\
 
 ^[{-} ![](https://media.giphy.com/media/vAPR1EHM4a0GA/giphy.gif)] Follow the instructions in the [R Markdown file you downloaded](/files/your-name_problem-set-2.Rmd).
 
-When you're done, submit a knitted PDF or Word file of your analysis on Learning Suite. 
+When you're done, submit a compressed (zipped) folder of your entire project including the knitted PDF file, R Markdown file, data folder, and RStudio Project of your analysis on Canvas. 
 
 It's best if the final knitted document is clean and free of warnings and messages (so if a chunk is creating messages, like wherever you run `library(tidyverse)`, add `message=FALSE, warning=FALSE` to the chunk options).
 

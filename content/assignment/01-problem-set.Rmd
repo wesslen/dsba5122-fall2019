@@ -15,7 +15,6 @@ Make sure you install R and RStudio and tidyverse first.^[Follow [these instruct
 
 Complete the three tasks below and type your answers in that downloaded file. When you're done, knit the document as a Word file or PDF with the "Knit" button at the top of the script editing pane.^[![Knit button](/images/assignment/knit-button.png)]
 
-
 # Task 1: Become familiar with RStudio and R Markdown
 
 In Task 2, you'll play with actual R commands and create graphics. Before we get there, you need to familiarize yourself with RStudio. Go through [this short tutorial](http://stat545.com/block002_hello-r-workspace-wd-project.html).
@@ -75,4 +74,4 @@ Read [Chapter 3 of R for Data Science](http://r4ds.had.co.nz/data-visualisation.
 
 # All done!
 
-Knit the completed R Markdown file as a Word document or PDF (use the "Knit" button at the top of the script editor window) and upload it to Learning Suite.
+Knit the completed R Markdown file as a PDF (use the "Knit" button at the top of the script editor window) and compress the entire folder (including the PDF document, RStudio Project, any respective data, and the R Markdown file). To complete the assignment, upload it to Canvas by 11:59pm on February 4, 2018.

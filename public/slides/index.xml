@@ -6,10 +6,106 @@
     <description>Recent content in Slides on Visual Analytics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://dsba5122-spring2019.netlify.com/slides/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>DSBA 5122: Visual Analytics</title>
+      <link>https://dsba5122-spring2019.netlify.com/slides/13-class/</link>
+      <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/slides/13-class/</guid>
+      <description> class: center, middle
+Welcome  </description>
+    </item>
+    
+    <item>
+      <title>DSBA 5122: Visual Analytics</title>
+      <link>https://dsba5122-spring2019.netlify.com/slides/12-class/</link>
+      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/slides/12-class/</guid>
+      <description> class: center, middle
+Welcome  </description>
+    </item>
+    
+    <item>
+      <title>DSBA 5122: Visual Analytics</title>
+      <link>https://dsba5122-spring2019.netlify.com/slides/11-class/</link>
+      <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/slides/11-class/</guid>
+      <description> class: center, middle
+Welcome  </description>
+    </item>
+    
+    <item>
+      <title>DSBA 5122: Visual Analytics</title>
+      <link>https://dsba5122-spring2019.netlify.com/slides/10-class/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/slides/10-class/</guid>
+      <description> class: center, middle
+Welcome  </description>
+    </item>
+    
+    <item>
+      <title>DSBA 5122: Visual Analytics</title>
+      <link>https://dsba5122-spring2019.netlify.com/slides/08-class/</link>
+      <pubDate>Mon, 18 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/slides/08-class/</guid>
+      <description> class: center, middle
+Welcome  </description>
+    </item>
+    
+    <item>
+      <title>DSBA 5122: Visual Analytics</title>
+      <link>https://dsba5122-spring2019.netlify.com/slides/07-class/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/slides/07-class/</guid>
+      <description> class: center, middle
+Welcome  </description>
+    </item>
+    
+    <item>
+      <title>DSBA 5122: Visual Analytics</title>
+      <link>https://dsba5122-spring2019.netlify.com/slides/06-class/</link>
+      <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/slides/06-class/</guid>
+      <description> class: center, middle
+Welcome  </description>
+    </item>
+    
+    <item>
+      <title>DSBA 5122: Visual Analytics</title>
+      <link>https://dsba5122-spring2019.netlify.com/slides/05-class/</link>
+      <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/slides/05-class/</guid>
+      <description>class: center, middle, inverse
+Defining Uncertanity and Risk Knightian Uncertainty, a la Donald Rumsfeld
+ Gigerenzer Separates the use of heuristics, or rule-of-thumbs
+class: middle, center, inverse
+ Bayesian theory class: middle, center, inverse
+ Safari example  Overview  Set-up: We’re on safari in South Africa and we want to see the lions.
+ Problem: We’re uncertain to the lions’ location.
+ Application: How can we design a visualization tool to aid our driver to help find the lions?</description>
+    </item>
+    
+    <item>
+      <title>DSBA 5122: Visual Analytics</title>
+      <link>https://dsba5122-spring2019.netlify.com/slides/04-class/</link>
+      <pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/slides/04-class/</guid>
+      <description> class: center, middle
+Welcome  </description>
+    </item>
     
     <item>
       <title>DSBA 5122: Visual Analytics</title>
@@ -17,15 +113,28 @@
       <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/slides/02-class/</guid>
+      <description>class: center, middle, inverse
+The Truth Continuum (Chapter 3) “Any visualization is a model.”
+–
+“The more adequately a model fits whatever it stands for without being needlessly complex, and the easier it is for its intended audience to interpret it correctly, the better it will be.”
+class: center, middle
+class: center, middle
+class: center, middle
+class: center
+class: center, middle
+class: center, middle
+–
+“Good visualizations shouldn’t oversimplify information.</description>
+    </item>
+    
+    <item>
+      <title>DSBA 5122: Visual Analytics</title>
+      <link>https://dsba5122-spring2019.netlify.com/slides/03-class/</link>
+      <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/slides/03-class/</guid>
       <description> class: center, middle
-Welcome  Introduce yourself  Name
- Program (DSBA, HI, other?)
- Programming &amp;amp; Visualization Experience
- What are you interested in learning more about in visualizations?
-   Course Website [Insert image]
-https://dsba5122-spring2019.netlify.com
- Course Outline  Course Assignments  Using R/RStudio class: inverse, middle, center
- Intro to Visual Analytics  </description>
+Welcome  </description>
     </item>
     
     <item>
@@ -41,11 +150,9 @@ Welcome  Introduce yourself  Name
  What are you interested in learning more about in visualizations?
   https://dsba5122-spring2019.netlify.com
  https://dsba5122-spring2019.netlify.com or https://bitly.com/dsba5122
-.pull-left[ ## RStudio Locally
- Pros: It’s on your computer.
- Cons: Different settings (OS, versions, packages, etc.) can make sharing/replication painful.
-  ] .pull-right[ ## RStudio.Cloud
- Benefits: Clean environment, easy to replicate/share</description>
+class: center, middle
+ Let’s get started! class: inverse, middle, center
+ Intro to Visual Analytics (and Information Visualization)  What is a visualization? The use of computer-supported, interactive visual representations of data to amplify cognition.</description>
     </item>
     
   </channel>

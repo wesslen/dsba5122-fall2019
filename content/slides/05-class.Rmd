@@ -1,0 +1,212 @@
+---
+title: "DSBA 5122: Visual Analytics"
+subtitle: "Class 5: Uncertainty and Risk"  
+author: "Ryan Wesslen"
+date: '2019-02-18'
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-syllabus-no-bib.csl
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: xaringan-themer.css
+    chakra: libs/remark-latest.min.js
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+library(xaringanthemer)
+mono_accent(base_color = "#046A38")
+```
+
+class: center, middle, inverse
+
+# Defining Uncertanity and Risk
+
+---
+
+Knightian Uncertainty, a la Donald Rumsfeld
+
+---
+
+# Gigerenzer
+
+Separates the use of heuristics, or rule-of-thumbs
+
+---
+
+class: middle, center, inverse
+
+# Bayesian theory
+
+---
+
+class: middle, center, inverse
+
+# Safari example
+
+---
+
+# Overview
+
+- **Set-up**: We're on safari in South Africa and we want to see the lions.
+
+- **Problem**: We're uncertain to the lions' location. 
+
+- **Application**: How can we design a visualization tool to aid our driver to help find the lions?
+
+# Current "expert" strategies (heuristics or rule-of-thumbs)
+
+- Experts (i.e., guides) say that "nature is uncertain", sometimes you're just lucky. (Hakuna Matata).
+
+- They know that there are three signs that lions are in the area:
+
+1. Other animals (like impalas and giraffes) are highly sensitive ('jumpy')
+
+- Least important as could be caused by other factors (e.g., another jeep, weather)
+
+- If they're jumpy, that's a positive sign of lions in the area; if they're not, that's a negative sign of lions.
+
+2. Lion tracks
+
+- Important factor but as its shows the lions' past presence but could've been days ago.
+
+3. Lion dung (the smellier, the better)
+
+- Most important as it shows lions were just there.
+
+--
+
+When we spot a factor, it increases the chance of seeing lions in a fixed area around that point (e.g., 1,000 feet around the spot). The opposite occurs for negative factors (e.g., other calm animals like impalas or giraffes).
+
+--
+
+If we don't see anything, that too is a negative factor and reduces the likelihood of lions in the broader area.
+
+---
+
+# Map
+
+1. We only have a map of the park. 
+
+2. We are in a jeep and we're constrained to drive for 45 minutes (we need to get breakfast).
+
+3. We start in the morning with no prior knowledge, i.e., we assume flat (uninformed) priors.
+
+4. Our location is tracked automatically at fixed points (e.g., every minute).
+
+5. In each spot, we can immediately detect lions or any of the factors (e.g., lion footprints or lion dung) perfectly within some fixed location window (i.e., we have perfect vision within 100 feet radius and no animals/factors are hidden).
+
+6. If we spot any factors, we update our tool which will then recalculate our posterior probabilities (i.e., we update our information and accordingly our predicted probabilities).
+
+7. We're not allowed to track the animals locations (e.g., gps-tags) or use drones to track their location.
+
+--
+
+**Goal**: Let's build a Bayesian-based visualization that uses a heatmap visualization.
+
+---
+
+<!-- Start -->
+
+.pull-left[
+
+]
+.pull-right[
+- We start at Tremisana Inn.  
+]
+
+---
+
+<!-- Lion prints 5 min -->
+
+.pull-left[
+
+]
+.pull-right[
+- Already we find lions prints! This is a great sign. 
+
+- This increases the likelihood we're around 
+]
+
+---
+
+<!-- calm Gazelle 10 min -->
+
+.pull-left[
+
+]
+.pull-right[
+We start at Tremensana Inn. After 
+]
+
+---
+
+<!-- nothing 15 min -->
+
+.pull-left[
+
+]
+.pull-right[
+We start at Tremensana Inn. After 
+]
+
+---
+
+<!-- calm Giraffes 20 min -->
+
+.pull-left[
+
+]
+.pull-right[
+We start at Tremensana Inn. After 
+]
+
+---
+
+<!-- nothing 25 min -->
+
+.pull-left[
+
+]
+.pull-right[
+- We don't find anything
+]
+
+---
+
+<!-- Lion dung 30 min -->
+
+.pull-left[
+
+]
+.pull-right[
+- We find lion dung (that's quite smelly).
+
+- This is a positive sign, and means the lions are more likely to be close by.
+]
+
+---
+
+<!-- excited Impalas 35 min -->
+
+.pull-left[
+
+]
+.pull-right[
+- We find the impalas are excited and jumping.
+
+- This is another positive sign, and means the lions are very likely to be close by.
+]
+
+---
+
+<!-- we've found the lions 40 min -->
+
+.pull-left[
+
+]
+.pull-right[
+We've found the lions!
+]
+

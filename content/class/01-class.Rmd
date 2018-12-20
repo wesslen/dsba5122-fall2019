@@ -14,15 +14,19 @@ editor_options:
 
 # Slides
 
-1. Introduction and overview (see [syllabus](/syllabus/))
+1. Introduction to Visual Analytics
 
-2. Visual Analytics introduction
+```{r echo=FALSE}
+knitr::include_url('slides/01-class#1')
+```
 
-Examples:
+2. Lab: Intro to R/RStudio and RMarkdown
 
-1. Lane Harrison's [Baby Making](http://codementum.org/babymaking/) visualization
+- Create a RStudio.Cloud account [rstudio.cloud](http://rstudio.cloud/).
 
-2. [ourworldindata.org](https://ourworldindata.org/technological-progress)
+- Go to our RStudio.Cloud project.
+
+[RMarkdown Tutorial](http://socviz.co/gettingstarted.html)
 
 # Tweet of the day:
 
@@ -31,16 +35,3 @@ Examples:
 
 
 <!-- https://github.com/yusuzech/r-web-scraping-cheat-sheet -->
-
-3. Lab: RStudio 
-
-[Class slides](/slides/01-class.html).
-
-# Lab session: Intro to RStudio
-
-1. First, create a RStudio.Cloud account [rstudio.cloud](http://rstudio.cloud/).
-
-2. Go to our RStudio.Cloud project.
-
-[RMarkdown Tutorial](http://socviz.co/gettingstarted.html)
-

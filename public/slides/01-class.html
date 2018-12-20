@@ -1,0 +1,228 @@
+---
+title: "DSBA 5122: Visual Analytics"
+subtitle: "Class 1: Intro to Visual Analytics"  
+author: "Ryan Wesslen"
+date: '2019-01-14'
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-syllabus-no-bib.csl
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: xaringan-themer.css
+    chakra: libs/remark-latest.min.js
+---
+
+
+
+<p>class: center, middle</p>
+<div id="welcome" class="section level1">
+<h1>Welcome</h1>
+<p><img src="../../static/images/slides/01-class/welcome.gif" /></p>
+<hr />
+</div>
+<div id="introduce-yourself" class="section level1">
+<h1>Introduce yourself</h1>
+<ul>
+<li><p>Name</p></li>
+<li><p>Program (DSBA, HI, other?)</p></li>
+<li><p>Programming &amp; Visualization Experience</p></li>
+<li><p>What are you interested in learning more about in visualizations?</p></li>
+</ul>
+<hr />
+<div class="figure">
+<img src="../../static/images/slides/01-class/course-site.png" alt="https://dsba5122-spring2019.netlify.com" />
+<p class="caption"><a href="https://dsba5122-spring2019.netlify.com" class="uri">https://dsba5122-spring2019.netlify.com</a></p>
+</div>
+<p><a href="https://dsba5122-spring2019.netlify.com" class="uri">https://dsba5122-spring2019.netlify.com</a> or <a href="https://bitly.com/dsba5122" class="uri">https://bitly.com/dsba5122</a></p>
+<!-- .pull-left[ -->
+<!-- ## RStudio Locally -->
+<!-- - **Pros**: It's on your computer.  -->
+<!-- - **Cons**: Different settings (OS, versions, packages, etc.) can make sharing/replication painful. -->
+<!-- ] -->
+<!-- .pull-right[ -->
+<!-- ## RStudio.Cloud -->
+<!-- - **Benefits**: Clean environment, easy to replicate/share -->
+<!-- - **Cons**: Sometimes slow or down (cost of free), limited to 1GB of memory -->
+<!-- ] -->
+<!-- -- -->
+<!-- Use RStudio.Cloud to run in-class demos and test purposes but use local version for your homeworks and projects. -->
+<!-- FYI there's also [Docker](https://ropenscilabs.github.io/r-docker-tutorial/) and/or [Cloud](https://www.andrewheiss.com/blog/2017/04/27/super-basic-practical-guide-to-docker-and-rstudio/) approaches! -->
+<hr />
+<p>class: center, middle</p>
+</div>
+<div id="lets-get-started" class="section level1">
+<h1>Let’s get started!</h1>
+<p><img src="https://media.giphy.com/media/1BVuXduUzNros/giphy.gif" /></p>
+<hr />
+<p>class: inverse, middle, center</p>
+</div>
+<div id="intro-to-visual-analytics-and-information-visualization" class="section level1">
+<h1>Intro to Visual Analytics (and Information Visualization)</h1>
+<hr />
+</div>
+<div id="what-is-a-visualization" class="section level1">
+<h1>What is a visualization?</h1>
+<div id="the-use-of-computer-supported-interactive-visual-representations-of-data-to-amplify-cognition." class="section level2">
+<h2>The use of computer-supported, interactive visual representations of data to <strong>amplify cognition</strong>.</h2>
+<div id="card-mackinley-and-shneiderman-1999" class="section level3">
+<h3>- Card, Mackinley, and Shneiderman (1999)</h3>
+<hr />
+</div>
+</div>
+</div>
+<div id="data-visualization-is-separated-into-three-disciplines" class="section level1">
+<h1>Data visualization is separated into three disciplines:</h1>
+<div id="scientific-visualization-1987" class="section level3">
+<h3>- Scientific visualization (1987)</h3>
+</div>
+<div id="information-visualization-1999" class="section level3">
+<h3>- Information visualization (1999)</h3>
+</div>
+<div id="visual-analytics-2005" class="section level3">
+<h3>- Visual analytics (2005)</h3>
+<hr />
+<p>class: middle, center</p>
+</div>
+</div>
+<div id="scientific-visualization-scivis" class="section level1">
+<h1>Scientific visualization (SciVis)</h1>
+<p>.pull-left[
+## Volume Visualization
+<img src="../../static/images/slides/01-class/sci-vis1.png" width="300px" style="display: block; margin: auto;" />]</p>
+<p>.pull-right[
+## Flow visualization</p>
+<p><img src="../../static/images/slides/01-class/sci-vis2.png" width="300px" style="display: block; margin: auto;" />
+]
+—</p>
+<p>class: middle</p>
+<p>.pull-left[
+### Information Visualization (InfoVis)</p>
+<p>Low-level, system 1 processing</p>
+<p>Intuitive, perceptual decision-making</p>
+<p>Single, isolated graph/chart</p>
+<p>Typically, non-expert or average user</p>
+<p><strong>Goal</strong>: identify best external (visual) representation
+]
+–
+.pull-right[
+### Visual Analytics (VA)</p>
+<p>High-level, system 2 processing</p>
+<p>Effortful, deliberate decision-making</p>
+<p>Highly interactive, coordinated-multiple views</p>
+<p>Typically, expert or specialized knowledge</p>
+<p><strong>Goal</strong>: “human-in-the-loop” decision-making (e.g., integrate with machine learning)
+]</p>
+<table style="width:4%;">
+<colgroup>
+<col width="4%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>This course is called “Visual Analytics” but includes a lot on Information Visualization.</td>
+</tr>
+</tbody>
+</table>
+<p>class: inverse, middle, center</p>
+</div>
+<div id="brief-history-of-data-visualizations" class="section level1">
+<h1>Brief History of Data Visualizations</h1>
+<p><img src="../../static/images/slides/01-class/playfair.png" width="450px" style="display: block; margin: auto;" /></p>
+<p>William Playfair, 1786</p>
+<hr />
+<p>class: center</p>
+<div id="cholera-in-london-1854" class="section level2">
+<h2>Cholera in London: 1854</h2>
+<p><img src="../../static/images/slides/01-class/cholera_cartoon.jpg" width="330px" style="display: block; margin: auto;" /></p>
+<hr />
+<p>.pull-left[
+## John Snow</p>
+<p><img src="../../static/images/slides/01-class/johnSnow.jpg" width="600px" style="display: block; margin: auto;" />
+]</p>
+<p>–</p>
+<p>.pull-right[</p>
+</div>
+<div id="the-other-john-snow" class="section level2">
+<h2>The other John Snow</h2>
+<p><img src="../../static/images/slides/01-class/John_Snow.jpg" width="320px" style="display: block; margin: auto;" />
+]</p>
+</div>
+<div id="tuftes-perspective" class="section level2">
+<h2>Tufte’s Perspective <img src="../../static/images/slides/01-class/tufte.png" width="180px" align="right" /></h2>
+<ol style="list-style-type: decimal">
+<li><p>Place data in an appropriate context for assessing <strong>cause and effect</strong>.</p></li>
+<li><p>Making quantitatives comparisons (e.g., Workhouse &amp; Brewery).</p></li>
+<li><p>Considering alternative explanations and contrary cases.</p></li>
+<li><p>Assessment for possible errors (e.g., compared with what?)</p></li>
+</ol>
+</div>
+<div id="background-image-url....staticimagesslides01-class33863r.jpg" class="section level2">
+<h2>background-image: url(“../../static/images/slides/01-class/33863r.jpg”)</h2>
+</div>
+<div id="background-image-url....staticimagesslides01-class33864r.jpg" class="section level2">
+<h2>background-image: url(“../../static/images/slides/01-class/33864r.jpg”)</h2>
+</div>
+<div id="background-image-url....staticimagesslides01-class33865r.jpg" class="section level2">
+<h2>background-image: url(“../../static/images/slides/01-class/33865r.jpg”)</h2>
+<p>background-image: url(“../../static/images/slides/01-class/33892r.jpg”)
+background-size: cover
+—
+background-image: url(“../../static/images/slides/01-class/33889r.jpg”)
+—</p>
+<p>class: middle, center</p>
+<iframe src="https://www.youtube.com/embed/N00g9Q9stBo" width="420" height="315" frameborder="0" allowfullscreen=""></iframe>
+<p>Watch <a href="https://homes.cs.washington.edu/~jheer/">Jeff Heer</a>’s 2009 “Brief History of Data Visualization”.</p>
+<hr />
+<p>class: middle, center, inverse</p>
+</div>
+</div>
+<div id="why-look-at-data" class="section level1">
+<h1>Why look at Data?</h1>
+<blockquote>
+<p>“The greatest value of a picture is when it forces us to notice what we never expected to see.” — John Tukey</p>
+</blockquote>
+<!-- Chapter 1.1 Kieran -->
+<!-- [Chapter](http://socviz.co/lookatdata.html) -->
+<p>class: middle, center</p>
+<div id="datasaurus-dozen" class="section level2">
+<h2>Datasaurus Dozen</h2>
+<p><img src="../../static/images/slides/01-class/DataSaurusDozen.gif" width="650px" style="display: block; margin: auto;" /></p>
+<p><a href="https://www.autodeskresearch.com/publications/samestats">Matejka and Fitzmaurice, 2017</a> / <a href="https://github.com/lockedata/datasauRus">GitHub</a></p>
+<p><img src="../../static/images/slides/01-class/ch-01-correlations-1.png" width="650px" style="display: block; margin: auto;" /></p>
+</div>
+<div id="background-image-url....staticimagesslides01-classhockey.png" class="section level2">
+<h2>background-image: url(“../../static/images/slides/01-class/hockey.png”)</h2>
+</div>
+<div id="five-qualities-of-great-visualizations" class="section level2">
+<h2>Five Qualities of Great Visualizations</h2>
+<ol style="list-style-type: decimal">
+<li><p>It is truthful.</p></li>
+<li><p>It is functional.</p></li>
+<li><p>It is beautiful.</p></li>
+<li><p>It is insightful.</p></li>
+<li><p>It is enlightening.</p></li>
+</ol>
+<p>“Truth and untruth aren’t absolutes. They are the extremes at either end of a spectrum”</p>
+<ul>
+<li><p>Avoid self-deception</p></li>
+<li><p>Be honest with your audience</p></li>
+</ul>
+<p><img src="../../static/images/slides/01-class/truthful2.png" /></p>
+<p><img src="../../static/images/slides/01-class/functional2.png" /></p>
+<hr />
+</div>
+</div>
+<div id="it-is-beautiful." class="section level1">
+<h1>It is beautiful.</h1>
+<div id="section" class="section level2">
+<h2><img src="../../static/images/slides/01-class/beauty.png" /></h2>
+<p>background-image: url(“../../static/images/slides/01-class/ch-01-chartjunk-life-expectancy.png”)
+background-size: cover
+—
+background-image: url(“../../static/images/slides/01-class/ch-01-holmes-monstrous-only.png”)
+background-size: cover
+—</p>
+<p>class: center, middle</p>
+<p><img src="../../static/images/slides/01-class/ch-01-excel-3d-column-chart-values.png" /></p>
+</div>
+</div>

@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en-us"
+      xmlns:og="http://ogp.me/ns#"
+      xmlns:fb="https://www.facebook.com/2008/fbml">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Ryan Wesslen">
+    <meta name="description" content="Communicate science and statistics with beautiful graphics">
+
+    <meta name="twitter:card" value="summary_large_image">
+    <meta name="twitter:site" content="@ryanwesslen">
+    <meta name="twitter:title" content="DSBA 5122: Visual Analytics | DSBA 5122: Visual Analytics">
+    <meta name="twitter:creator" content="@ryanwesslen">
+    <meta name="twitter:image" content="https://dsba5122-spring2019.netlify.com/images/dsba5122.png">
+    <meta name="twitter:description" content="Communicate science and statistics with beautiful graphics" />
+
+    <meta property="og:site_name" content="DSBA 5122: Visual Analytics"/>
+    <meta property="og:title" content="DSBA 5122: Visual Analytics | DSBA 5122: Visual Analytics">
+    <meta property="og:type" content="article" />
+    <meta property="article:author" content="" />
+    <meta property="og:url" content="https://dsba5122-spring2019.netlify.com" />
+    <meta property="og:image" content="https://dsba5122-spring2019.netlify.com/images/dsba5122.png">
+    <meta property="og:description" content="Communicate science and statistics with beautiful graphics" />
+
+    <meta name="generator" content="Hugo 0.51" />    
+
+    <title>DSBA 5122: Visual Analytics | DSBA 5122: Visual Analytics</title>
+    <link rel="canonical" href="https://dsba5122-spring2019.netlify.com/slides/05-class/">
+    <link href="/theme/css/tufte.css" rel="stylesheet">
+    <link href="/theme/css/latex.css" rel="stylesheet">
+    <link href="/theme/css/custom.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style type="text/css">
+        .wrap a, .wrap a:visited {
+            color: #046A38;
+        }
+
+        .wrap a:hover {
+            color: #B9975B;
+        }
+
+        .wrap p > a {
+            color: #046A38;
+        }
+
+        article .sidenote-number:after, article .sidenote:before {
+            color: #046A38;
+        }
+
+        article .sidenote:before {
+            color: #046A38;
+        }
+
+        @media (max-width: 760px) {
+            label.margin-toggle:not(.sidenote-number) {
+                color: #046A38;
+            }
+        }
+
+        .contrast a, .contrast a:visited {
+            color: #046A38; 
+        }
+
+        header > nav a {
+            color: #046A38;
+        }
+
+        .credits a {
+            color: #046A38;
+        }
+
+        .wrap .tag {
+            background: #046A38;
+        }
+    </style>
+
+    <link rel="shortcut icon" href="https://dsba5122-spring2019.netlify.com/favicon.ico" />
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://dsba5122-spring2019.netlify.com/images/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://dsba5122-spring2019.netlify.com/images/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://dsba5122-spring2019.netlify.com/images/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://dsba5122-spring2019.netlify.com/images/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://dsba5122-spring2019.netlify.com/images/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://dsba5122-spring2019.netlify.com/images/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="https://dsba5122-spring2019.netlify.com/images/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="https://dsba5122-spring2019.netlify.com/images/favicon-16x16.png" sizes="16x16" />
+    <meta name="application-name" content="DSBA 5122: Visual Analytics"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="https://dsba5122-spring2019.netlify.com/images/mstile-144x144.png" />
+
+    
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,600|Roboto:300,400" rel="stylesheet"> 
+<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+<div class="wrap">
+    <header>
+        <nav class="group logo-wrap">
+            <a href="/" class="logo"><img src="https://dsba5122-spring2019.netlify.com/images/dsba5122.png" alt="Visual Analytics"></a>
+            <h1 class="websitetitle"><a href="https://dsba5122-spring2019.netlify.com">DSBA 5122: Visual Analytics</a></h1>
+        </nav>
+        <nav class="bottom-group">
+            
+            <a href="/syllabus/">Syllabus</a>
+            
+            <a href="/schedule/">Schedule</a>
+            
+            <a href="/assignments/">Assignments</a>
+            
+            <a href="https://uncc.instructure.com/courses/100065">Canvas</a>
+            
+            <a href="https://rstudio.cloud">RStudio.cloud</a>
+            
+            <a href="https://unccdsba5122s2019.slack.com">Class Slack</a>
+            
+            <a href="https://www.datacamp.com/enterprise/dsba5122-visual-analytics">DataCamp</a>
+            
+            <a href="/reference/">Reference</a>
+            
+        </nav>
+    </header>
+
+
+    <article class="group">
+    <h1>DSBA 5122: Visual Analytics</h1>
+
+    <h2>2019/02/18</h2>
+    
+    
+
+
+<p>class: center, middle, inverse</p>
+<div id="defining-uncertanity-and-risk" class="section level1">
+<h1>Defining Uncertanity and Risk</h1>
+<hr />
+<p>Knightian Uncertainty, a la Donald Rumsfeld</p>
+<hr />
+</div>
+<div id="gigerenzer" class="section level1">
+<h1>Gigerenzer</h1>
+<p>Separates the use of heuristics, or rule-of-thumbs</p>
+<hr />
+<p>class: middle, center, inverse</p>
+</div>
+<div id="bayesian-theory" class="section level1">
+<h1>Bayesian theory</h1>
+<hr />
+<p>class: middle, center, inverse</p>
+</div>
+<div id="safari-example" class="section level1">
+<h1>Safari example</h1>
+<hr />
+</div>
+<div id="overview" class="section level1">
+<h1>Overview</h1>
+<ul>
+<li><p><strong>Set-up</strong>: We’re on safari in South Africa and we want to see the lions.</p></li>
+<li><p><strong>Problem</strong>: We’re uncertain to the lions’ location.</p></li>
+<li><p><strong>Application</strong>: How can we design a visualization tool to aid our driver to help find the lions?</p></li>
+</ul>
+</div>
+<div id="current-expert-strategies-heuristics-or-rule-of-thumbs" class="section level1">
+<h1>Current “expert” strategies (heuristics or rule-of-thumbs)</h1>
+<ul>
+<li><p>Experts (i.e., guides) say that “nature is uncertain”, sometimes you’re just lucky. (Hakuna Matata).</p></li>
+<li><p>They know that there are three signs that lions are in the area:</p></li>
+</ul>
+<ol style="list-style-type: decimal">
+<li>Other animals (like impalas and giraffes) are highly sensitive (’jumpy’)</li>
+</ol>
+<ul>
+<li><p>Least important as could be caused by other factors (e.g., another jeep, weather)</p></li>
+<li><p>If they’re jumpy, that’s a positive sign of lions in the area; if they’re not, that’s a negative sign of lions.</p></li>
+</ul>
+<ol start="2" style="list-style-type: decimal">
+<li>Lion tracks</li>
+</ol>
+<ul>
+<li>Important factor but as its shows the lions’ past presence but could’ve been days ago.</li>
+</ul>
+<ol start="3" style="list-style-type: decimal">
+<li>Lion dung (the smellier, the better)</li>
+</ol>
+<ul>
+<li>Most important as it shows lions were just there.</li>
+</ul>
+<p>–</p>
+<p>When we spot a factor, it increases the chance of seeing lions in a fixed area around that point (e.g., 1,000 feet around the spot). The opposite occurs for negative factors (e.g., other calm animals like impalas or giraffes).</p>
+<p>–</p>
+<p>If we don’t see anything, that too is a negative factor and reduces the likelihood of lions in the broader area.</p>
+<hr />
+</div>
+<div id="map" class="section level1">
+<h1>Map</h1>
+<ol style="list-style-type: decimal">
+<li><p>We only have a map of the park.</p></li>
+<li><p>We are in a jeep and we’re constrained to drive for 45 minutes (we need to get breakfast).</p></li>
+<li><p>We start in the morning with no prior knowledge, i.e., we assume flat (uninformed) priors.</p></li>
+<li><p>Our location is tracked automatically at fixed points (e.g., every minute).</p></li>
+<li><p>In each spot, we can immediately detect lions or any of the factors (e.g., lion footprints or lion dung) perfectly within some fixed location window (i.e., we have perfect vision within 100 feet radius and no animals/factors are hidden).</p></li>
+<li><p>If we spot any factors, we update our tool which will then recalculate our posterior probabilities (i.e., we update our information and accordingly our predicted probabilities).</p></li>
+<li><p>We’re not allowed to track the animals locations (e.g., gps-tags) or use drones to track their location.</p></li>
+</ol>
+<p>–</p>
+<p><strong>Goal</strong>: Let’s build a Bayesian-based visualization that uses a heatmap visualization.</p>
+<hr />
+<!-- Start -->
+<p>.pull-left[]
+.pull-right[
+- We start at Tremisana Inn.<br />
+]</p>
+<hr />
+<!-- Lion prints 5 min -->
+<p>.pull-left[]
+.pull-right[
+- Already we find lions prints! This is a great sign.</p>
+<ul>
+<li>This increases the likelihood we’re around
+]</li>
+</ul>
+<hr />
+<!-- calm Gazelle 10 min -->
+<p>.pull-left[]
+.pull-right[
+We start at Tremensana Inn. After ]</p>
+<hr />
+<!-- nothing 15 min -->
+<p>.pull-left[]
+.pull-right[
+We start at Tremensana Inn. After ]</p>
+<hr />
+<!-- calm Giraffes 20 min -->
+<p>.pull-left[]
+.pull-right[
+We start at Tremensana Inn. After ]</p>
+<hr />
+<!-- nothing 25 min -->
+<p>.pull-left[]
+.pull-right[
+- We don’t find anything]</p>
+<hr />
+<!-- Lion dung 30 min -->
+<p>.pull-left[]
+.pull-right[
+- We find lion dung (that’s quite smelly).</p>
+<ul>
+<li>This is a positive sign, and means the lions are more likely to be close by.
+]</li>
+</ul>
+<hr />
+<!-- excited Impalas 35 min -->
+<p>.pull-left[]
+.pull-right[
+- We find the impalas are excited and jumping.</p>
+<ul>
+<li>This is another positive sign, and means the lions are very likely to be close by.
+]</li>
+</ul>
+<hr />
+<!-- we've found the lions 40 min -->
+<p>.pull-left[]
+.pull-right[
+We’ve found the lions!]</p>
+</div>
+
+
+    </article>
+
+    <footer>
+        <hr class="slender">
+
+        <div class="course-info">
+        <span class="course-name">
+            DSBA 5122: Visual Analytics (Spring 2019)
+        </span><br>
+        <span>
+            <a href="https://www.uncc.edu">University of North Carolina at Charlotte</a> | 
+            <a href="https://dsba.uncc.edu/">Data Science &amp; Business Analytics Program</a>
+        </span>
+        </div>
+
+        <ul class="footer-links">
+            <li>
+            <a href="https://wesslen.netlify.com"><i class="fas fa-user"></i> Ryan Wesslen</a>
+            </li>
+
+            <li>
+            <a href="mailto:rwesslen@uncc.edu"><i class="fas fa-envelope"></i> rwesslen@uncc.edu</a>
+            </li>
+
+            <li>
+            <i class="far fa-calendar-alt"></i> Mondays
+            </li>
+
+            <li>
+            <i class="far fa-clock"></i> 6:00–8:50 PM
+            </li>
+
+            <li>
+            <i class="fas fa-university"></i> Room 110M: Packard Place
+            </li>
+
+            <li>
+            <a href="https://twitter.com/ryanwesslen"><i class="fab fa-twitter"></i></a>
+            </li>
+
+            <li>
+            <a href="https://github.com/wesslen/dsba5122-spring2019"><i class="fab fa-github"></i></a>
+            </li>
+        </ul>
+
+        <div class="credits">
+        <span class="credit">All content licensed under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.</span><br>
+
+        <span class="credit">Content <i class="fab fa-creative-commons"></i> 2019 <a href="https://wesslen.netlify.com">Ryan Wesslen</a></span><br>
+        <span class="credit">Original <a href="https://datavizf18.classes.andrewheiss.com/">website</a> by <a href="https://www.andrewheiss.com/">Andrew Heiss</a>.</span><br>
+
+        <span class="credit">This site created with the <a href="https://github.com/andrewheiss/ath-tufte-hugo_18-19">ath-tufte-hugo theme</a> in <a href="https://bookdown.org/yihui/blogdown/">blogdown</a> and <a href="https://gohugo.io/">Hugo</a>.</span>
+        </div>
+    </footer>
+
+    
+
+</div>
+</body>
+</html>
+

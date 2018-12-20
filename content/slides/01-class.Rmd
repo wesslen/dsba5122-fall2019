@@ -43,29 +43,27 @@ class: center, middle
 
 <https://dsba5122-spring2019.netlify.com> or <https://bitly.com/dsba5122>
 
----
+<!-- .pull-left[ -->
+<!-- ## RStudio Locally -->
 
-.pull-left[
-## RStudio Locally
+<!-- - **Pros**: It's on your computer.  -->
 
-- **Pros**: It's on your computer. 
+<!-- - **Cons**: Different settings (OS, versions, packages, etc.) can make sharing/replication painful. -->
 
-- **Cons**: Different settings (OS, versions, packages, etc.) can make sharing/replication painful.
+<!-- ] -->
+<!-- .pull-right[ -->
+<!-- ## RStudio.Cloud -->
 
-]
-.pull-right[
-## RStudio.Cloud
+<!-- - **Benefits**: Clean environment, easy to replicate/share -->
 
-- **Benefits**: Clean environment, easy to replicate/share
+<!-- - **Cons**: Sometimes slow or down (cost of free), limited to 1GB of memory -->
+<!-- ] -->
 
-- **Cons**: Sometimes slow or down (cost of free), limited to 1GB of memory
-]
+<!-- -- -->
 
---
+<!-- Use RStudio.Cloud to run in-class demos and test purposes but use local version for your homeworks and projects. -->
 
-Use RStudio.Cloud to run in-class demos and test purposes but use local version for your homeworks and projects.
-
-FYI there's also [Docker](https://ropenscilabs.github.io/r-docker-tutorial/) and/or [Cloud](https://www.andrewheiss.com/blog/2017/04/27/super-basic-practical-guide-to-docker-and-rstudio/) approaches!
+<!-- FYI there's also [Docker](https://ropenscilabs.github.io/r-docker-tutorial/) and/or [Cloud](https://www.andrewheiss.com/blog/2017/04/27/super-basic-practical-guide-to-docker-and-rstudio/) approaches! -->
 
 ---
 
@@ -79,11 +77,19 @@ class: center, middle
 
 class: inverse, middle, center
 
-# Intro to Visual Analytics
+# Intro to Visual Analytics (and Information Visualization)
 
 ---
 
-## The use of computer-supported, interactive visual representations of data to **amplify cognition**.
+# What is a visualization?
+
+## The use of computer-supported, interactive visual representations of data to **amplify cognition**. 
+
+### - Card, Mackinley, and Shneiderman (1999)
+
+---
+
+# Data visualization is separated into three disciplines:
 
 ### - Scientific visualization (1987)
 
@@ -95,142 +101,265 @@ class: inverse, middle, center
 
 class: middle, center
 
-# Scientific visualization
+# Scientific visualization (SciVis)
 
 .pull-left[
 ## Volume Visualization
-
-![](../../static/images/slides/01-class/sci-vis1.png)
+```{r out.width = "300px", fig.align="center", echo=FALSE}
+knitr::include_graphics("../../static/images/slides/01-class/sci-vis1.png")
+```
 ]
 
 .pull-right[
 ## Flow visualization
 
-![](../../static/images/slides/01-class/sci-vis2.png)
+```{r out.width = "300px", fig.align="center", echo=FALSE}
+knitr::include_graphics("../../static/images/slides/01-class/sci-vis2.png")
+```
 ]
 ---
+# Information Visualization (InfoVis)
 
-class: middle
+Low-level, system 1 processing 
 
-## Data visualization domains:
+Intuitive, perceptual decision-making
+
+Single, isolated graph/chart
+
+Typically, non-expert or average user
+
+**Goal**: identify best external (visual) representation
+
+---
+
+# Visual Analytics (VA)
+
+High-level, system 2 processing
+
+Effortful, deliberate decision-making
+
+Highly interactive, coordinated-multiple views
+
+Typically, expert or specialized knowledge
+
+**Goal**: "human-in-the-loop" decision-making (e.g., integrate with machine learning)
+
+--
+
+This course is called "Visual Analytics" but includes a lot on Information Visualization.
+
+---
+
+class: inverse, middle, center
+
+## A *Very* Brief History of Data Visualizations
+
+```{r out.width = "450px", fig.align="center", echo=FALSE}
+knitr::include_graphics("../../static/images/slides/01-class/playfair.png")
+```
+
+William Playfair, 1786
+
+---
+
+class: center
+
+## Cholera in London: 1854
+
+```{r out.width = "330px", fig.align="center", echo=FALSE}
+knitr::include_graphics("../../static/images/slides/01-class/cholera_cartoon.jpg")
+```
+
+---
 
 .pull-left[
-### Information Visualization (InfoVis)
+## John Snow
 
-- Low-level, system 1 processing 
+```{r out.width = "600px", fig.align="center", echo=FALSE}
+knitr::include_graphics("../../static/images/slides/01-class/johnSnow.jpg")
+```
+]
 
-- Intuitive, perceptual decision-making
+--
 
-- Single, isolated graph/chart
+.pull-right[
 
-- Typically, non-expert or average user
+## The other John Snow
 
-- Goal: identify best external (visual) representation
+```{r out.width = "320px", fig.align="center", echo=FALSE}
+knitr::include_graphics("../../static/images/slides/01-class/John_Snow.jpg")
+```
+]
+
+---
+background-image: url("../../static/images/slides/01-class/snow_map.png")
+background-size: cover
+---
+
+## Tufte's Perspective <img src="../../static/images/slides/01-class/tufte.png" width="160px" align="right" />
+
+1. Place data in an appropriate context for assessing **cause and effect**.
+
+2. Making quantitatives comparisons (e.g., Workhouse & Brewery).
+
+3. Considering alternative explanations and contrary cases.
+
+4. Assessment for possible errors (e.g., compared with what?)
+
+---
+background-image: url("../../static/images/slides/01-class/minard.jpg")
+background-size: cover
+---
+background-image: url("../../static/images/slides/01-class/33863r.jpg")
+---
+background-image: url("../../static/images/slides/01-class/33864r.jpg")
+---
+background-image: url("../../static/images/slides/01-class/33865r.jpg")
+---
+background-image: url("../../static/images/slides/01-class/33892r.jpg")
+background-size: cover
+---
+background-image: url("../../static/images/slides/01-class/33889r.jpg")
+---
+
+class: middle, center
+
+```{r out.width = "630px",fig.align="center", echo=FALSE}
+vembedr::embed_youtube("N00g9Q9stBo") 
+```
+
+Watch [Jeff Heer](https://homes.cs.washington.edu/~jheer/)'s 2009 "Brief History of Data Visualization".
+
+---
+
+class: middle, center, inverse
+
+# Why look at Data?
+
+> “The greatest value of a picture is when it forces us to notice what we never expected to see.” — John Tukey
+
+<!-- Chapter 1.1 Kieran -->
+<!-- [Chapter](http://socviz.co/lookatdata.html) -->
+
+---
+class: middle, center
+
+```{r out.width = "570px", fig.align="center", echo=FALSE}
+knitr::include_graphics("../../static/images/slides/01-class/ch-01-anscombe-1.png")
+```
+Anscombe's Quartet (1973), Healy: Chapter 1
+---
+class: middle, center
+
+## Datasaurus Dozen
+
+```{r out.width = "650px", fig.align="center", echo=FALSE}
+knitr::include_graphics("../../static/images/slides/01-class/DataSaurusDozen.gif")
+```
+
+[Matejka and Fitzmaurice, 2017](https://www.autodeskresearch.com/publications/samestats) / [GitHub](https://github.com/lockedata/datasauRus)
+
+---
+```{r out.width = "600px", fig.align="center", echo=FALSE}
+knitr::include_graphics("../../static/images/slides/01-class/ch-01-jackman-outlier.png")
+```
+---
+```{r out.width = "650px", fig.align="center", echo=FALSE}
+knitr::include_graphics("../../static/images/slides/01-class/ch-01-correlations-1.png")
+```
+---
+class: inverse, middle, center
+
+# Five Qualities of Great Visualizations
+
+"But why do I never stumble on to an article or blog post showing ... how a visualization helped a group of doctors do something remarkable? Is it just because this stuff does not get reported or what?" -Enrico Bertini (NYU)
+
+Chapter 2 of Cairo "The Truthful Art"
+
+---
+background-image: url("../../static/images/slides/01-class/hockey.png")
+---
+## Five Qualities of Great Visualizations
+
+1. It is truthful.
+
+2. It is functional.
+
+3. It is beautiful.
+
+4. It is insightful.
+
+5. It is enlightening.
+
+---
+
+# It is truthful
+
+.pull-left[
+![](../../static/images/slides/01-class/truth.png)
 ]
 --
 .pull-right[
-### Visual Analytics (VA)
-
-- High-level, system 2 processing
-
-- Effortful, deliberate decision-making
-
-- Highly interactive, coordinated-multiple views
-
-- Typically, expert or specialized knowledge
-
-- Goal: "human-in-the-loop" decision-making (e.g., integrate with machine learning)
+![](../../static/images/slides/01-class/truth2.png)
 ]
 
 --
 
- This course is labelled "Visual Analytics" but includes many elements of Information Visualization.
+"If someone hides data from you, it’s probably because he has something to hide." (Cairo, Chapter 2)
 
 ---
 
-* InfoVis, VA, and SciVis
+"Truth and untruth aren’t absolutes. They are the extremes at either end of a spectrum" (Cairo, Chapter 2)
 
-* Historical
+- Avoid self-deception
 
-- Classics: Snow (2), Minard (2), Du Bois (5), provide Jeff Heer's talk
+- Be honest with your audience
 
-* What makes a good visualization?
+![](../../static/images/slides/01-class/truthful2.png)
+
+---
+class: middle, center
+# It is functional
+
+![](../../static/images/slides/01-class/functional.png)
+
+---
+class: middle, center
+
+![](../../static/images/slides/01-class/functional2.png)
 
 ---
 
-Why look at Data?
+class: middle, center
 
-Chapter 1.1 Kieran
+# It is beautiful
 
-[Chapter](http://socviz.co/lookatdata.html)
-
+![](../../static/images/slides/01-class/beauty.png)
+---
+background-image: url("../../static/images/slides/01-class/ch-01-chartjunk-life-expectancy.png")
+background-size: cover
+---
+background-image: url("../../static/images/slides/01-class/ch-01-holmes-monstrous-only.png")
+background-size: cover
 ---
 
-class: center, middle
+# It is insightful
 
-![](../../static/images/slides/01-class/ch-01-anscombe-1.png)
+“The purpose of visualization is insight, not pictures" - Card, Mackinley, and Shneiderman (1999)
 
----
+Two types of insight in data visualizations (Chang et al., 2009):
 
-class: center, middle
+1. Eureka (or Aha!) moments
 
-![](../../static/images/slides/01-class/ch-01-jackman-outlier.png)
-
----
-
-[GitHub](https://github.com/lockedata/datasauRus)
-
+2. Knowledge-building
 
 ---
+class: middle, center
 
-class: center, middle
+# It is enlightening
 
-![](../../static/images/slides/01-class/ch-01-correlations-1.png)
+"Some topics do matter more than others indeed because **they are more critical to the well-being of more people.**"
 
----
+- What you 
 
-class: center, middle
 
-![](../../static/images/slides/01-class/ch-01-chartjunk-life-expectancy.png)
-
----
-
-class: center, middle
-
-![](../../static/images/slides/01-class/ch-01-holmes-monstrous-only.png)
-
----
-
-class: center, middle
-
-![](../../static/images/slides/01-class/ch-01-anderson-boxplots-cognitive.png)
-
----
-
-class: center, middle
-
-![](../../static/images/slides/01-class/ch-01-democracy-nyt-version.png)
-
----
-
-class: center, middle
-
-![](../../static/images/slides/01-class/ch-01-democracy-voeten-version-2.png)
-
----
-
-class: center, middle
-
-![](../../static/images/slides/01-class/ch-01-excel-3d-column-chart-values.png)
-
----
-
-class: center, middle
-
-![](../../static/images/slides/01-class/ch-01-preception-data-1.png)
-
----
-
-class: center, middle
-
-![](../../static/images/slides/01-class/ch-01-perception-curves-1.png)

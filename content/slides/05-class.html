@@ -1,0 +1,150 @@
+---
+title: "DSBA 5122: Visual Analytics"
+subtitle: "Class 5: Uncertainty and Risk"  
+author: "Ryan Wesslen"
+date: '2019-02-18'
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-syllabus-no-bib.csl
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: xaringan-themer.css
+    chakra: libs/remark-latest.min.js
+---
+
+
+
+<p>class: center, middle, inverse</p>
+<div id="defining-uncertanity-and-risk" class="section level1">
+<h1>Defining Uncertanity and Risk</h1>
+<hr />
+<p>Knightian Uncertainty, a la Donald Rumsfeld</p>
+<hr />
+</div>
+<div id="gigerenzer" class="section level1">
+<h1>Gigerenzer</h1>
+<p>Separates the use of heuristics, or rule-of-thumbs</p>
+<hr />
+<p>class: middle, center, inverse</p>
+</div>
+<div id="bayesian-theory" class="section level1">
+<h1>Bayesian theory</h1>
+<hr />
+<p>class: middle, center, inverse</p>
+</div>
+<div id="safari-example" class="section level1">
+<h1>Safari example</h1>
+<hr />
+</div>
+<div id="overview" class="section level1">
+<h1>Overview</h1>
+<ul>
+<li><p><strong>Set-up</strong>: We’re on safari in South Africa and we want to see the lions.</p></li>
+<li><p><strong>Problem</strong>: We’re uncertain to the lions’ location.</p></li>
+<li><p><strong>Application</strong>: How can we design a visualization tool to aid our driver to help find the lions?</p></li>
+</ul>
+</div>
+<div id="current-expert-strategies-heuristics-or-rule-of-thumbs" class="section level1">
+<h1>Current “expert” strategies (heuristics or rule-of-thumbs)</h1>
+<ul>
+<li><p>Experts (i.e., guides) say that “nature is uncertain”, sometimes you’re just lucky. (Hakuna Matata).</p></li>
+<li><p>They know that there are three signs that lions are in the area:</p></li>
+</ul>
+<ol style="list-style-type: decimal">
+<li>Other animals (like impalas and giraffes) are highly sensitive (’jumpy’)</li>
+</ol>
+<ul>
+<li><p>Least important as could be caused by other factors (e.g., another jeep, weather)</p></li>
+<li><p>If they’re jumpy, that’s a positive sign of lions in the area; if they’re not, that’s a negative sign of lions.</p></li>
+</ul>
+<ol start="2" style="list-style-type: decimal">
+<li>Lion tracks</li>
+</ol>
+<ul>
+<li>Important factor but as its shows the lions’ past presence but could’ve been days ago.</li>
+</ul>
+<ol start="3" style="list-style-type: decimal">
+<li>Lion dung (the smellier, the better)</li>
+</ol>
+<ul>
+<li>Most important as it shows lions were just there.</li>
+</ul>
+<p>–</p>
+<p>When we spot a factor, it increases the chance of seeing lions in a fixed area around that point (e.g., 1,000 feet around the spot). The opposite occurs for negative factors (e.g., other calm animals like impalas or giraffes).</p>
+<p>–</p>
+<p>If we don’t see anything, that too is a negative factor and reduces the likelihood of lions in the broader area.</p>
+<hr />
+</div>
+<div id="map" class="section level1">
+<h1>Map</h1>
+<ol style="list-style-type: decimal">
+<li><p>We only have a map of the park.</p></li>
+<li><p>We are in a jeep and we’re constrained to drive for 45 minutes (we need to get breakfast).</p></li>
+<li><p>We start in the morning with no prior knowledge, i.e., we assume flat (uninformed) priors.</p></li>
+<li><p>Our location is tracked automatically at fixed points (e.g., every minute).</p></li>
+<li><p>In each spot, we can immediately detect lions or any of the factors (e.g., lion footprints or lion dung) perfectly within some fixed location window (i.e., we have perfect vision within 100 feet radius and no animals/factors are hidden).</p></li>
+<li><p>If we spot any factors, we update our tool which will then recalculate our posterior probabilities (i.e., we update our information and accordingly our predicted probabilities).</p></li>
+<li><p>We’re not allowed to track the animals locations (e.g., gps-tags) or use drones to track their location.</p></li>
+</ol>
+<p>–</p>
+<p><strong>Goal</strong>: Let’s build a Bayesian-based visualization that uses a heatmap visualization.</p>
+<hr />
+<!-- Start -->
+<p>.pull-left[]
+.pull-right[
+- We start at Tremisana Inn.<br />
+]</p>
+<hr />
+<!-- Lion prints 5 min -->
+<p>.pull-left[]
+.pull-right[
+- Already we find lions prints! This is a great sign.</p>
+<ul>
+<li>This increases the likelihood we’re around
+]</li>
+</ul>
+<hr />
+<!-- calm Gazelle 10 min -->
+<p>.pull-left[]
+.pull-right[
+We start at Tremensana Inn. After ]</p>
+<hr />
+<!-- nothing 15 min -->
+<p>.pull-left[]
+.pull-right[
+We start at Tremensana Inn. After ]</p>
+<hr />
+<!-- calm Giraffes 20 min -->
+<p>.pull-left[]
+.pull-right[
+We start at Tremensana Inn. After ]</p>
+<hr />
+<!-- nothing 25 min -->
+<p>.pull-left[]
+.pull-right[
+- We don’t find anything]</p>
+<hr />
+<!-- Lion dung 30 min -->
+<p>.pull-left[]
+.pull-right[
+- We find lion dung (that’s quite smelly).</p>
+<ul>
+<li>This is a positive sign, and means the lions are more likely to be close by.
+]</li>
+</ul>
+<hr />
+<!-- excited Impalas 35 min -->
+<p>.pull-left[]
+.pull-right[
+- We find the impalas are excited and jumping.</p>
+<ul>
+<li>This is another positive sign, and means the lions are very likely to be close by.
+]</li>
+</ul>
+<hr />
+<!-- we've found the lions 40 min -->
+<p>.pull-left[]
+.pull-right[
+We’ve found the lions!]</p>
+</div>
