@@ -31,7 +31,7 @@ menu:
       url: "https://uncc.instructure.com/courses/100065"
       weight: 4
     - name: RStudio.cloud
-      url: "https://rstudio.cloud"
+      url: "https://rstudio.cloud/spaces/7976/"
       weight: 5
     - name: Class Slack
       url: "https://unccdsba5122s2019.slack.com"

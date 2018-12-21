@@ -7,6 +7,10 @@ editor_options:
   chunk_output_type: console
 ---
 
-# DataCamp Course
+# DataCamp Course: Introduction to the Tidyverse by David Robinson
 
-For this DataCamp course, you'll learn about using `tidyverse` package.
+Here is the [link to the assigned course](https://www.datacamp.com/enterprise/dsba5122-visual-analytics/assignments/38278).
+
+For this DataCamp course, you'll learn about using `tidyverse` package from David Robinson, Chief Data Scientist for DataCamp.^[David is a prolific data scientist and blogger, whose blog ["Variance Explained"](http://varianceexplained.org/) is one of the most popular data science blogs. He has a great [blog post](http://varianceexplained.org/r/intro-tidyverse/) discussing the background of this course.]
+
+This assignment is worth 2.5 points and **must** be completed (in full) by the deadline for full credit.

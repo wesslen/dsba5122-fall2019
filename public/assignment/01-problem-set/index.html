@@ -118,7 +118,7 @@
             
             <a href="https://uncc.instructure.com/courses/100065">Canvas</a>
             
-            <a href="https://rstudio.cloud">RStudio.cloud</a>
+            <a href="https://rstudio.cloud/spaces/7976/">RStudio.cloud</a>
             
             <a href="https://unccdsba5122s2019.slack.com">Class Slack</a>
             
@@ -207,13 +207,14 @@ code span.wa { color: #bf0303; } /* Warning */
 
 
 <h2 id="task-0">Task 0</h2>
-<p><a href="/files/your-name_problem-set-1.Rmd">Download this R Markdown file</a>.<span><label for="sn-1" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-1" class="margin-toggle"/><span class="sidenote">Your browser might show the file instead of downloading it. If that’s the case, you can copy/paste the code from the browser to RStudio. In RStudio, go to “File” &gt; “New” &gt; “New R Markdown…”, click “OK” with the default options, delete all the placeholder code/text in the new file, and paste the example code in the now-blank file.<br />
+<p>Create a <a href="https://r4ds.had.co.nz/workflow-projects.html#rstudio-projects">new R project as a “New Directory” (folder)</a>.</p>
+<p>Within your new project folder, <a href="/files/your-name_problem-set-1.Rmd">download this R Markdown file</a>.<span><label for="sn-1" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-1" class="margin-toggle"/><span class="sidenote">Your browser might show the file instead of downloading it. If that’s the case, you can copy/paste the code from the browser to RStudio. In RStudio, go to “File” &gt; “New” &gt; “New R Markdown…”, click “OK” with the default options, delete all the placeholder code/text in the new file, and paste the example code in the now-blank file.<br />
 <br />
 </span></span> It contains an outline/skeleton of what you’ll need to do in this problem set, and it includes lots of the code prewritten just for you!</p>
 <p>Make sure you install R and RStudio and tidyverse first.<span><label for="sn-2" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-2" class="margin-toggle"/><span class="sidenote">Follow <a href="/install/">these instructions</a> and install R, RStudio, and all the tidyverse packages. If you have any questions, don’t hesitate to ask me or your classmates for help!<br />
 <br />
 </span></span></p>
-<p>Complete the three tasks below and type your answers in that downloaded file. When you’re done, knit the document as a Word file or PDF with the “Knit” button at the top of the script editing pane.<span><label for="sn-3" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-3" class="margin-toggle"/><span class="sidenote"><img src="/images/assignment/knit-button.png" alt="Knit button" /><br />
+<p>Complete the three tasks below and type your answers in that downloaded file. When you’re done, knit the document as a html file with the “Knit” button at the top of the script editing pane.<span><label for="sn-3" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-3" class="margin-toggle"/><span class="sidenote"><img src="/images/assignment/knit-button.png" alt="Knit button" /><br />
 <br />
 </span></span></p>
 <h2 id="task-1-become-familiar-with-rstudio-and-r-markdown">Task 1: Become familiar with RStudio and R Markdown</h2>
@@ -230,21 +231,23 @@ code span.wa { color: #bf0303; } /* Warning */
 <li><a href="http://rmarkdown.rstudio.com/lesson-9.html">Output Formats</a></li>
 </ul>
 <p>Before doing these R Markdown tutorials, you’ll need to install a couple more R packages. Use RStudio’s “Packages” panel to install <code>rmarkdown</code> and <code>viridis</code>. Alternatively, paste these commands in the RStudio Console: <code>install.packages(&quot;rmarkdown&quot;)</code> and <code>install.packages(&quot;viridis&quot;)</code>. You can also type <code>install.packages(c(&quot;rmarkdown&quot;, &quot;viridis&quot;))</code> to install both at the same time.</p>
-<p>Don’t worry if you don’t completely understand R Markdown! We’ll go over it at the beginning of class next Tuesday. Try your hardest and play around with it.</p>
-<p>Also, if you want to convert R Markdown files to PDF instead of just Word or HTML (which you do), you’ll need to install LaTeX, which is a fancy scientific typesetting program. You don’t need to know how it works—it just has to be installed for R to use it.</p>
+<p>Don’t worry if you don’t completely understand R Markdown!<span><label for="sn-5" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-5" class="margin-toggle"/><span class="sidenote">See <a href="https://r4ds.had.co.nz/r-markdown.html">R4DS Chapter 27</a> if you need some help.<br />
+<br />
+</span></span> Try your hardest and play around with it.</p>
+<p>Also, (<strong>optional</strong>) if you want to convert R Markdown files to PDF instead of just Word or HTML, you’ll need to install LaTeX, which is a fancy scientific typesetting program. You don’t need to know how it works—it just has to be installed for R to use it.</p>
 <p>The easiest way to install it is with the <strong>tinytex</strong> R package. Run these two lines in your R console to install a smaller version of LaTeX that should work great for this class:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" title="1"><span class="kw">install.packages</span>(<span class="st">&#39;tinytex&#39;</span>)</a>
 <a class="sourceLine" id="cb1-2" title="2">tinytex<span class="op">::</span><span class="kw">install_tinytex</span>()</a></code></pre></div>
 <p>If you want to use a full-blown LaTeX installation, install one of these. But note that <em>you don’t need to do this!</em></p>
 <ul>
-<li>LaTeX for macOS: <a href="https://www.tug.org/mactex/">MacTeX</a><span><label for="sn-5" class="margin-toggle">&#8853;</label><input type="checkbox" id="sn-5" class="margin-toggle"/><span class="marginnote"> For whatever reason, LaTeX is astoundingly huge and it will feel like you’re downloading the entire internet when you install it. Be patient :)<br />
+<li>LaTeX for macOS: <a href="https://www.tug.org/mactex/">MacTeX</a><span><label for="sn-6" class="margin-toggle">&#8853;</label><input type="checkbox" id="sn-6" class="margin-toggle"/><span class="marginnote"> For whatever reason, LaTeX is astoundingly huge and it will feel like you’re downloading the entire internet when you install it. Be patient :)<br />
 <br />
 </span></span></li>
 <li>LaTeX for Windows: <a href="https://miktex.org/howto/install-miktex">MiKTeX</a></li>
 </ul>
 <p>When you’re done with everything in Task 1, type something in the R Markdown skeleton file you downloaded at the beginning. You should see a <code># Task 1</code> heading. Type it under that.</p>
 <h2 id="task-2-playing-with-r">Task 2: Playing with R</h2>
-<p>This example uses data from the <a href="https://www.gapminder.org/">Gapminder project</a>.<span><label for="sn-6" class="margin-toggle">&#8853;</label><input type="checkbox" id="sn-6" class="margin-toggle"/><span class="marginnote">
+<p>This example uses data from the <a href="https://www.gapminder.org/">Gapminder project</a>.<span><label for="sn-7" class="margin-toggle">&#8853;</label><input type="checkbox" id="sn-7" class="margin-toggle"/><span class="marginnote">
 You may have seen Hans Rosling’s <a href="https://www.ted.com/talks/hans_rosling_shows_the_best_stats_you_ve_ever_seen">delightful TED talk</a> showing how global health and wealth have been increasing. If you haven’t, you should watch it. Sadly, Hans died in February 2017.<br />
 <br />
 </span></span> You’ll need to install the <code>gapminder</code> R package first. Install it either with the “Packages” panel in RStudio or by typing <code>install.packages(&quot;gapminder&quot;)</code> in the R console.</p>
@@ -260,7 +263,7 @@ You may have seen Hans Rosling’s <a href="https://www.ted.com/talks/hans_rosli
 <li><a href="http://r4ds.had.co.nz/data-visualisation.html#exercises-5">3.8.1</a>: Questions 1 and 2</li>
 </ul>
 <h2 id="all-done">All done!</h2>
-<p>Knit the completed R Markdown file as a html (use the “Knit” button at the top of the script editor window) and compress the entire folder (including the html document, RStudio Project, any respective data, and the R Markdown file). To complete the assignment, upload it to Canvas by 11:59pm on February 4, 2018.</p>
+<p>Knit the completed R Markdown file as a html (use the “Knit” button at the top of the script editor window) and compress the entire folder (including the html document, RStudio Project, any respective data, and the R Markdown file). To complete the assignment, <a href="">upload here to Canvas</a> by 11:59pm on February 4, 2018. You only need to upload once if you work in groups.</p>
 
 
     </article>

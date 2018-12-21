@@ -9,11 +9,13 @@ editor_options:
 
 # Task 0
 
-[Download this R Markdown file](/files/your-name_problem-set-1.Rmd).^[Your browser might show the file instead of downloading it. If that's the case, you can copy/paste the code from the browser to RStudio. In RStudio, go to "File" > "New" > "New R Markdown…", click "OK" with the default options, delete all the placeholder code/text in the new file, and paste the example code in the now-blank file.] It contains an outline/skeleton of what you'll need to do in this problem set, and it includes lots of the code prewritten just for you!
+Create a [new R project as a "New Directory" (folder)](https://r4ds.had.co.nz/workflow-projects.html#rstudio-projects).
+
+Within your new project folder, [download this R Markdown file](/files/your-name_problem-set-1.Rmd).^[Your browser might show the file instead of downloading it. If that's the case, you can copy/paste the code from the browser to RStudio. In RStudio, go to "File" > "New" > "New R Markdown…", click "OK" with the default options, delete all the placeholder code/text in the new file, and paste the example code in the now-blank file.] It contains an outline/skeleton of what you'll need to do in this problem set, and it includes lots of the code prewritten just for you!
 
 Make sure you install R and RStudio and tidyverse first.^[Follow [these instructions](/install/) and install R, RStudio, and all the tidyverse packages. If you have any questions, don't hesitate to ask me or your classmates for help!] 
 
-Complete the three tasks below and type your answers in that downloaded file. When you're done, knit the document as a Word file or PDF with the "Knit" button at the top of the script editing pane.^[![Knit button](/images/assignment/knit-button.png)]
+Complete the three tasks below and type your answers in that downloaded file. When you're done, knit the document as a html file with the "Knit" button at the top of the script editing pane.^[![Knit button](/images/assignment/knit-button.png)]
 
 # Task 1: Become familiar with RStudio and R Markdown
 
@@ -30,9 +32,9 @@ Finally, you will write future memos and problems sets in R Markdown instead of 
 
 Before doing these R Markdown tutorials, you'll need to install a couple more R packages. Use RStudio's "Packages" panel to install `rmarkdown` and `viridis`. Alternatively, paste these commands in the RStudio Console: `install.packages("rmarkdown")` and `install.packages("viridis")`. You can also type `install.packages(c("rmarkdown", "viridis"))` to install both at the same time.
 
-Don't worry if you don't completely understand R Markdown! We'll go over it at the beginning of class next Tuesday. Try your hardest and play around with it.
+Don't worry if you don't completely understand R Markdown!^[See [R4DS Chapter 27](https://r4ds.had.co.nz/r-markdown.html) if you need some help.] Try your hardest and play around with it.
 
-Also, if you want to convert R Markdown files to PDF instead of just Word or HTML (which you do), you'll need to install LaTeX, which is a fancy scientific typesetting program. You don't need to know how it works—it just has to be installed for R to use it.
+Also, (**optional**) if you want to convert R Markdown files to PDF instead of just Word or HTML, you'll need to install LaTeX, which is a fancy scientific typesetting program. You don't need to know how it works—it just has to be installed for R to use it.
 
 The easiest way to install it is with the **tinytex** R package. Run these two lines in your R console to install a smaller version of LaTeX that should work great for this class:
 
@@ -74,4 +76,4 @@ Read [Chapter 3 of R for Data Science](http://r4ds.had.co.nz/data-visualisation.
 
 # All done!
 
-Knit the completed R Markdown file as a html (use the "Knit" button at the top of the script editor window) and compress the entire folder (including the html document, RStudio Project, any respective data, and the R Markdown file). To complete the assignment, upload it to Canvas by 11:59pm on February 4, 2018.
+Knit the completed R Markdown file as a html (use the "Knit" button at the top of the script editor window) and compress the entire folder (including the html document, RStudio Project, any respective data, and the R Markdown file). To complete the assignment, [upload here to Canvas]() by 11:59pm on February 4, 2018. You only need to upload once if you work in groups.

@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://dsba5122-spring2019.netlify.com/reading/06-reading/</loc>
-    <lastmod>2019-10-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://dsba5122-spring2019.netlify.com/slides/13-class/</loc>
     <lastmod>2019-04-22T00:00:00+00:00</lastmod>
   </url>
@@ -73,12 +68,22 @@
   </url>
   
   <url>
+    <loc>https://dsba5122-spring2019.netlify.com/reading/08-reading/</loc>
+    <lastmod>2019-03-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://dsba5122-spring2019.netlify.com/slides/07-class/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://dsba5122-spring2019.netlify.com/class/07-class/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dsba5122-spring2019.netlify.com/reading/07-reading/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
@@ -94,6 +99,11 @@
   
   <url>
     <loc>https://dsba5122-spring2019.netlify.com/class/06-class/</loc>
+    <lastmod>2019-02-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dsba5122-spring2019.netlify.com/reading/06-reading/</loc>
     <lastmod>2019-02-25T00:00:00+00:00</lastmod>
   </url>
   
@@ -228,16 +238,6 @@
   </url>
   
   <url>
-    <loc>https://dsba5122-spring2019.netlify.com/reading/08-reading/</loc>
-    <lastmod>2018-10-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dsba5122-spring2019.netlify.com/reading/07-reading/</loc>
-    <lastmod>2018-10-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://dsba5122-spring2019.netlify.com/</loc>
     <priority>0</priority>
     <xhtml:link
@@ -285,7 +285,7 @@
   
   <url>
     <loc>https://dsba5122-spring2019.netlify.com/</loc>
-    <lastmod>2019-10-09T00:00:00+00:00</lastmod>
+    <lastmod>2019-04-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -298,7 +298,7 @@
   
   <url>
     <loc>https://dsba5122-spring2019.netlify.com/reading/</loc>
-    <lastmod>2019-10-09T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

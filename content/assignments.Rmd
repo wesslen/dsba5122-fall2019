@@ -7,11 +7,11 @@ slug: assignments
 
 You will need to complete five DataCamp courses, each is 2.5 points. Points will be allocated for all (2.5 points) for completion or 0 points (not completed) by the assigned date. These will be assigned on DataCamp and are intended to reinforce the programming assignments and material.
 
-About half-way through the semester (February-March), additional DataCamp courses may be suggested for extra credit points (2.5 points per course).
+About half-way through the semester (February-March), additional DataCamp courses may be provided for extra credit points.
 
 # Problem sets
 
-<span class="newthought">To practice working with RStudio</span> and making data-based graphics, you will complete a series of 4 problem sets. You need to show that you made a good faith effort to work each question. The problem sets will also be graded using a check system:
+<span class="newthought">To practice working with RStudio</span> and making data-based graphics, you will complete a series of 4 problem sets. You need to show that you made a good faith effort to work each question. The problem sets will also be graded using the following point system:
 
 - 1 pt: File runs (.Rmd/.html files + data/images)
 - 2 pts: Explanations on code (written in English)
@@ -23,7 +23,7 @@ You may (and should!) work together on the problem sets, but you must turn in yo
 
 <span class="newthought">Quizzes</span> are intended to reinforce the course reading materials as well as enforce course attendance. Quizzes will be given in class and will consist of five multiple choice questions for each quiz. Each quiz will be given **without prior warning** and given out between the class break (between the lecture and lab sections, about halfway through the class). Quizzes will be on paper and closed-book, i.e., **without any other resource** (no phones, laptops, books, etc.).
 
-There will be five (5) total quizzes across five difference classes; however, your lowest grade will be dropped so if you do poorly on one, focus on the next ones.
+There will be five (5) total quizzes in five different classes; however, your lowest grade will be dropped so if you do poorly on one, focus on the next ones.
 
 I will try to review each quiz in the following class to provide feedback on each quiz. Your grades will be posted on Canvas.
 
@@ -35,7 +35,7 @@ Students who are absent will not be able to make up quizzes unless they can prov
 
 Feel free to start thinking about ideas (datasets, research questions) now. This will be in groups of no more than 3 students per group.
 
-This is worth *10* points. It will be submitted via Canvas as well as include an in-class, 10 minute presentation on . 
+This is worth **10** points. It will be submitted via Canvas as well as include an in-class, 10 minute presentation on **March 25th**. 
 
 # Final project
 
@@ -44,6 +44,7 @@ This is worth *10* points. It will be submitted via Canvas as well as include an
 Project details will be posted later once I settle on the best form for it. This much is certain so far:
 
 - You will use some sort of real-world, interactive data visualization (Shiny-based) some sort of research question.
+- The project will consist of a written report and a final presentation, which will be during our Exam class on May 6th.
 - It will be so much fun!
 
 There is no final exam. This project is your final exam.

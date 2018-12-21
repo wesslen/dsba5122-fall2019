@@ -6,21 +6,10 @@
     <description>Recent content in Data visualization on Visual Analytics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://dsba5122-spring2019.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Uncertainty</title>
-      <link>https://dsba5122-spring2019.netlify.com/reading/06-reading/</link>
-      <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-spring2019.netlify.com/reading/06-reading/</guid>
-      <description> Required   Chapter 7 in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
-  Chapters 4, 7, and 11 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
-  Why It’s So Hard for Us to Visualize Uncertainty  Recommended   Communicating Uncertainty When Lives Are on the Line  Showing uncertainty during the live election forecast &amp;amp; Trolling the uncertainty dial  </description>
-    </item>
     
     <item>
       <title>DSBA 5122: Visual Analytics</title>
@@ -38,8 +27,8 @@ Welcome  </description>
       <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/class/13-class/</guid>
-      <description>Contents  Slides Tweet of the day   Slides Download the slides from today’s lecture.
-Tweet of the day If I were to sum up the challenges in machine learning for healthcare in a single XKCD, this would definitely be the one: pic.twitter.com/9E88x4jtiQ — Andrew Beam (@AndrewLBeam) August 1, 2018    Galit Shumuel’s “To Explain or To Predict?”
+      <description>Contents  Slides Tweet of the day Links   Slides Download the slides from today’s lecture.
+Tweet of the day If I were to sum up the challenges in machine learning for healthcare in a single XKCD, this would definitely be the one: pic.twitter.com/9E88x4jtiQ — Andrew Beam (@AndrewLBeam) August 1, 2018   Links  Galit Shumuel’s “To Explain or To Predict?”
  Enterprise Web Services with Neural Networks Using R and TensorFlow</description>
     </item>
     
@@ -59,8 +48,8 @@ Welcome  </description>
       <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/class/12-class/</guid>
-      <description> Contents  Slides   Slides Download the slides from today’s lecture.
- Docker and `plumber’
+      <description> Contents  Slides Links   Slides Download the slides from today’s lecture.
+Links  Docker and `plumber’
  Profiling a Shiny App
  Persistent storage in Shiny Apps
  Plot caching
@@ -126,7 +115,7 @@ Tweet of the day Our lab&#39;s first preprint! Coral: an R shiny and D3.js web a
       <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/class/09-class/</guid>
-      <description>Contents  Slides   Slides Download the slides from today’s lecture.</description>
+      <description>Contents  Slides   Slides No lecture/slides today; we’ll have each group present their design contest presentations (10 minutes for each group).</description>
     </item>
     
     <item>
@@ -161,6 +150,18 @@ Links  Tidy Text Mining by Julia Silge and David Robinson  </description>
     </item>
     
     <item>
+      <title>Unstructured text</title>
+      <link>https://dsba5122-spring2019.netlify.com/reading/08-reading/</link>
+      <pubDate>Mon, 18 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/reading/08-reading/</guid>
+      <description>Required   Chapter 1: Tidytext format and Chapter 3: Analyzing word and document frequency: tf-idf in Julia Silge and David Robinson, Tidy Text Mining in RJulia Silge and David Robinson, Text Mining with R (Sebastopol, California: O’Reilly Media, 2017), https://www.tidytextmining.com/.
+  Recommended   Chapter 6: Topic modeling in Julia Silge and David Robinson, Tidy Text Mining in RIbid.
+
+  Ken Benoit, Kohei Watanabe, and Stefan Müller, “quanteda”quanteda is my favorite R-based text package.</description>
+    </item>
+    
+    <item>
       <title>DSBA 5122: Visual Analytics</title>
       <link>https://dsba5122-spring2019.netlify.com/slides/07-class/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
@@ -178,6 +179,16 @@ Welcome  </description>
       <guid>https://dsba5122-spring2019.netlify.com/class/07-class/</guid>
       <description> Contents  Slides Links   Slides Download the slides from today’s lecture.
 Links introducing stat_mds, dimensionality reduction in #ggplot2 using principal components analysis or tSNE https://t.co/HiShktJPjy #rstats #dataviz pic.twitter.com/5cY8315Tjk — Ben Dilday (@BenDilday) September 11, 2018   </description>
+    </item>
+    
+    <item>
+      <title>Dimensionality Reduction</title>
+      <link>https://dsba5122-spring2019.netlify.com/reading/07-reading/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/reading/07-reading/</guid>
+      <description> Required   Chapter 12: Visualizing associations (12.3 and 12.4) in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
+  Recommended </description>
     </item>
     
     <item>
@@ -207,6 +218,20 @@ Welcome  </description>
       <guid>https://dsba5122-spring2019.netlify.com/class/06-class/</guid>
       <description> Contents  Slides Tweet of the day Lab:   Slides Download the slides from today’s lecture.
 Tweet of the day Lab: </description>
+    </item>
+    
+    <item>
+      <title>Multidimensional</title>
+      <link>https://dsba5122-spring2019.netlify.com/reading/06-reading/</link>
+      <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/reading/06-reading/</guid>
+      <description>Required   Chapters 9 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
+
+  Chapter 12: Visualizing associations (12.1 and 12.2) in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
+
+  Recommended   Kieran Healy, “Two y-axes”
+  Two Alternatives to Using a Second Y-Axis &amp;amp; Illusion of success &amp;amp; Dissecting two axes</description>
     </item>
     
     <item>
@@ -258,8 +283,11 @@ make uncertainty visualization fun! https://t.co/395TMdLBv0 #tidybayes pic.twitt
       
       <guid>https://dsba5122-spring2019.netlify.com/reading/05-reading/</guid>
       <description>Required   Chapter 7 in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
+
   Chapters 7 and 11 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
-  Recommended   Why It’s So Hard for Us to Visualize Uncertainty  Communicating Uncertainty When Lives Are on the Line  Showing uncertainty during the live election forecast &amp;amp; Trolling the uncertainty dial&amp;#8853;Figure 2 from Ivelina Momcheva and Erik Tollerud, “Software Use in Astronomy: An Informal Survey,” July 14, 2015, https://arxiv.</description>
+
+  Recommended   Why It’s So Hard for Us to Visualize Uncertainty
+  Communicating Uncertainty When Lives Are on the Line</description>
     </item>
     
     <item>
@@ -289,9 +317,11 @@ Tweet of the day Rumour has it ??? killed his talk last night…
       <pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/reading/04-reading/</guid>
-      <description> Required   Chapter 8 and Chapter 10 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
-  Recommendations   Chapter 6 in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
-  </description>
+      <description>Required   Chapter 8 and Chapter 10 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
+
+  Chapter 13: Visualizing time series and Chapter 14: Visualizing trends in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
+
+  Chapter 7: Maps in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.</description>
     </item>
     
     <item>
@@ -300,7 +330,8 @@ Tweet of the day Rumour has it ??? killed his talk last night…
       <pubDate>Mon, 04 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/assignment/02-datacamp/</guid>
-      <description>DataCamp Course For this DataCamp course, you’ll learn about doing exploratory data analysis, focusing on ggplot2 and the related tidyverse packages (e.g., dplyr, broom).</description>
+      <description>DataCamp Course: Exploratory Data Analysis in R by David Robinson Here is the link to the assigned course.
+For this DataCamp course, you’ll learn about doing exploratory data analysis, focusing on ggplot2 and the related tidyverse packages (e.g., dplyr, broom).</description>
     </item>
     
     <item>
@@ -322,8 +353,10 @@ Tweet of the day Rumour has it ??? killed his talk last night…
       
       <guid>https://dsba5122-spring2019.netlify.com/reading/03-reading/</guid>
       <description>Required   Chapter 6 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
-  Chapter 2 in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
-  Chapter 3 in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.</description>
+
+  Chapter 3: Make a plot in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
+
+  Recommended   Chapter 2: Aesthetic mapping in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.</description>
     </item>
     
     <item>
@@ -382,9 +415,10 @@ Tweet of the day Visual encoding is itself a data transformation, often applied 
       
       <guid>https://dsba5122-spring2019.netlify.com/reading/02-reading/</guid>
       <description>Required   Chapter 3 and Chapter 5 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
-  Optional   Chapter 4 and Chapter 22 in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
 
-  The Science of Information Visualization: A Sketch by Robert Kosara.</description>
+  Chapter 2: Get started in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
+
+  Recommended   Chapter 4: Color Basics and Chapter 22: Image file formats in Claus Wilke, Fundamentals of Data VisualizationClaus E.</description>
     </item>
     
     <item>
@@ -411,7 +445,10 @@ class: center, middle
       <pubDate>Mon, 14 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/assignment/01-datacamp/</guid>
-      <description>DataCamp Course For this DataCamp course, you’ll learn about using tidyverse package.</description>
+      <description>DataCamp Course: Introduction to the Tidyverse by David Robinson Here is the link to the assigned course.
+For this DataCamp course, you’ll learn about using tidyverse package from David Robinson, Chief Data Scientist for DataCamp.David is a prolific data scientist and blogger, whose blog “Variance Explained” is one of the most popular data science blogs. He has a great blog post discussing the background of this course.
+
+This assignment is worth 2.</description>
     </item>
     
     <item>
@@ -510,35 +547,14 @@ Tweet of the day: Any time I have been struggling to learn a new tool/technology
     </item>
     
     <item>
-      <title>Comparisons</title>
-      <link>https://dsba5122-spring2019.netlify.com/reading/08-reading/</link>
-      <pubDate>Tue, 23 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-spring2019.netlify.com/reading/08-reading/</guid>
-      <description>Required   Chapter 9 in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
-  Sparkline theory and practiceThis is a collection of posts by Edward Tufte about sparklines—scroll down a ways and check out his examples, analysis, and critiques.
-  Time series sparklines  The bullet graph  Lollipop chartsIf you’re feeling adventurous (and you should!), do this tutorial as you read it.</description>
-    </item>
-    
-    <item>
-      <title>Relationships</title>
-      <link>https://dsba5122-spring2019.netlify.com/reading/07-reading/</link>
-      <pubDate>Tue, 16 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-spring2019.netlify.com/reading/07-reading/</guid>
-      <description>Required   Chapter 9 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
-  Chapter 12 in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
-  Kieran Healy, “Two y-axes”  Two Alternatives to Using a Second Y-Axis &amp;amp; Illusion of success &amp;amp; Dissecting two axes  Dual-Scaled Axes in Graphs: Are They Ever the Best Solution?</description>
-    </item>
-    
-    <item>
       <title>Assignments</title>
       <link>https://dsba5122-spring2019.netlify.com/assignments/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/assignments/</guid>
       <description>DataCamp Courses You will need to complete five DataCamp courses, each is 2.5 points. Points will be allocated for all (2.5 points) for completion or 0 points (not completed) by the assigned date. These will be assigned on DataCamp and are intended to reinforce the programming assignments and material.
-About half-way through the semester (February-March), additional DataCamp courses may be suggested for extra credit points (2.5 points per course).</description>
+About half-way through the semester (February-March), additional DataCamp courses may be provided for extra credit points.
+Problem sets To practice working with RStudio and making data-based graphics, you will complete a series of 4 problem sets.</description>
     </item>
     
     <item>
@@ -577,7 +593,7 @@ RStudio.cloud R is free, but it can sometimes be a pain to install and configure
       
       <guid>https://dsba5122-spring2019.netlify.com/schedule/</guid>
       <description> Here’s your roadmap for the semester!
-  Readings should be completed before each class session  Assignments are due by 11:59 PM on the day they are due  Class materials (slides, in-class activities, etc.) will be added on the day of class     Information Visualization Reading Assignment Class   January 14 Intro to Visual Analytics      January 14 Datacamp Course 1 (Due Jan 29)      January 21 No class (MLK Holiday)      January 28 Visual Representation Basics I      January 28 Problem set 1 (Due Feb 4)      February 4 Visual Representation Basics II      February 4 Datacamp Course 2 (Due Feb 19)      February 11 Time &amp;amp; Space      February 18 Uncertainty &amp;amp; Risk      February 18 Problem set 2 (Due Feb 25)       Interactive Visualizations Reading Assignment Class   February 25 Multidimensional      February 25 Design Contest (Due Mar 25)      February 25 Datacamp Course 3 (Due Mar 12)      March 4 No class (Spring Break)      March 11 Dimensionality Reduction      March 18 Unstructured Text      March 25 Design Contest Presentations      March 25 Problem set 3 (Due Apr 1)      April 1 Networks and Trees      April 1 Datacamp Course 4 (Due Apr 16)       Advanced Topics Reading Assignment Class   April 8 Coordinated Multiple Views: Interacting &amp;amp; Brushing      April 15 Deployment, Back-end and Scalability      April 15 Problem set 4 (Due Apr 22)      April 22 Machine Learning      April 29 Wrap-up       Final Reading Assignment Class   May 6 Final project due       </description>
+  Readings should be completed before each class session  Assignments are due by 11:59 PM on the day they are due  Class materials (slides, in-class activities, etc.) will be added on the day of class     Information Visualization Reading Assignment Class   January 14 Intro to Visual Analytics      January 14 Datacamp course 1 (Due Jan 29)      January 21 No class (MLK Holiday)      January 28 Visual Representation Basics I      January 28 Problem set 1 (Due Feb 4)      February 4 Visual Representation Basics II      February 4 Datacamp course 2 (Due Feb 19)      February 11 Time &amp;amp; Space      February 18 Uncertainty &amp;amp; Risk      February 18 Problem set 2 (Due Feb 25)       Interactive Visualizations Reading Assignment Class   February 25 Multidimensional      February 25 Design Contest (Due Mar 25)      February 25 Datacamp course 3 (Due Mar 12)      March 4 No class (Spring Break)      March 11 Dimensionality Reduction      March 18 Unstructured Text      March 25 Design Contest Presentations      March 25 Problem set 3 (Due Apr 1)      April 1 Networks and Trees      April 1 Datacamp course 4 (Due Apr 16)       Advanced Topics Reading Assignment Class   April 8 Coordinated Multiple Views: Interacting &amp;amp; Brushing      April 15 Deployment, Back-end and Scalability      April 15 Problem set 4 (Due Apr 22)      April 22 Machine Learning      April 29 Wrap-up       Final Reading Assignment Class   May 6 Final project due       </description>
     </item>
     
     <item>

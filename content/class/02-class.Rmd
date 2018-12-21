@@ -16,8 +16,6 @@ editor_options:
 
 [Download the slides from today's lecture]().
 
-<!-- https://github.com/gadenbuie/gentle-ggplot2 -->
-
 
 # Tweet of the day
 

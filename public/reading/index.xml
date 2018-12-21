@@ -6,20 +6,45 @@
     <description>Recent content in Readings on Visual Analytics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 18 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://dsba5122-spring2019.netlify.com/reading/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Uncertainty</title>
+      <title>Unstructured text</title>
+      <link>https://dsba5122-spring2019.netlify.com/reading/08-reading/</link>
+      <pubDate>Mon, 18 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/reading/08-reading/</guid>
+      <description>Required   Chapter 1: Tidytext format and Chapter 3: Analyzing word and document frequency: tf-idf in Julia Silge and David Robinson, Tidy Text Mining in RJulia Silge and David Robinson, Text Mining with R (Sebastopol, California: O’Reilly Media, 2017), https://www.tidytextmining.com/.
+  Recommended   Chapter 6: Topic modeling in Julia Silge and David Robinson, Tidy Text Mining in RIbid.
+
+  Ken Benoit, Kohei Watanabe, and Stefan Müller, “quanteda”quanteda is my favorite R-based text package.</description>
+    </item>
+    
+    <item>
+      <title>Dimensionality Reduction</title>
+      <link>https://dsba5122-spring2019.netlify.com/reading/07-reading/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/reading/07-reading/</guid>
+      <description> Required   Chapter 12: Visualizing associations (12.3 and 12.4) in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
+  Recommended </description>
+    </item>
+    
+    <item>
+      <title>Multidimensional</title>
       <link>https://dsba5122-spring2019.netlify.com/reading/06-reading/</link>
-      <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/reading/06-reading/</guid>
-      <description> Required   Chapter 7 in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
-  Chapters 4, 7, and 11 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
-  Why It’s So Hard for Us to Visualize Uncertainty  Recommended   Communicating Uncertainty When Lives Are on the Line  Showing uncertainty during the live election forecast &amp;amp; Trolling the uncertainty dial  </description>
+      <description>Required   Chapters 9 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
+
+  Chapter 12: Visualizing associations (12.1 and 12.2) in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
+
+  Recommended   Kieran Healy, “Two y-axes”
+  Two Alternatives to Using a Second Y-Axis &amp;amp; Illusion of success &amp;amp; Dissecting two axes</description>
     </item>
     
     <item>
@@ -29,8 +54,11 @@
       
       <guid>https://dsba5122-spring2019.netlify.com/reading/05-reading/</guid>
       <description>Required   Chapter 7 in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
+
   Chapters 7 and 11 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
-  Recommended   Why It’s So Hard for Us to Visualize Uncertainty  Communicating Uncertainty When Lives Are on the Line  Showing uncertainty during the live election forecast &amp;amp; Trolling the uncertainty dial&amp;#8853;Figure 2 from Ivelina Momcheva and Erik Tollerud, “Software Use in Astronomy: An Informal Survey,” July 14, 2015, https://arxiv.</description>
+
+  Recommended   Why It’s So Hard for Us to Visualize Uncertainty
+  Communicating Uncertainty When Lives Are on the Line</description>
     </item>
     
     <item>
@@ -39,9 +67,11 @@
       <pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/reading/04-reading/</guid>
-      <description> Required   Chapter 8 and Chapter 10 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
-  Recommendations   Chapter 6 in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
-  </description>
+      <description>Required   Chapter 8 and Chapter 10 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
+
+  Chapter 13: Visualizing time series and Chapter 14: Visualizing trends in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
+
+  Chapter 7: Maps in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.</description>
     </item>
     
     <item>
@@ -51,8 +81,10 @@
       
       <guid>https://dsba5122-spring2019.netlify.com/reading/03-reading/</guid>
       <description>Required   Chapter 6 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
-  Chapter 2 in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
-  Chapter 3 in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.</description>
+
+  Chapter 3: Make a plot in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
+
+  Recommended   Chapter 2: Aesthetic mapping in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.</description>
     </item>
     
     <item>
@@ -62,9 +94,10 @@
       
       <guid>https://dsba5122-spring2019.netlify.com/reading/02-reading/</guid>
       <description>Required   Chapter 3 and Chapter 5 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
-  Optional   Chapter 4 and Chapter 22 in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
 
-  The Science of Information Visualization: A Sketch by Robert Kosara.</description>
+  Chapter 2: Get started in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
+
+  Recommended   Chapter 4: Color Basics and Chapter 22: Image file formats in Claus Wilke, Fundamentals of Data VisualizationClaus E.</description>
     </item>
     
     <item>
@@ -139,28 +172,6 @@ Questions to reflect on  How do we know what is true? Are facts truth? Why do we
       <guid>https://dsba5122-spring2019.netlify.com/reading/09-reading/</guid>
       <description>Required   Chapter 8 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
   The Nuclear Threat—The Shadow Peace, part 1  11 Ways to Visualize Changes Over Time – A Guide A bunch of (really) short blog posts:   Streamgraphs: Economic trade flows with R  A century of ocean shipping animated  What is seasonal adjustment and why is it used?</description>
-    </item>
-    
-    <item>
-      <title>Comparisons</title>
-      <link>https://dsba5122-spring2019.netlify.com/reading/08-reading/</link>
-      <pubDate>Tue, 23 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-spring2019.netlify.com/reading/08-reading/</guid>
-      <description>Required   Chapter 9 in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
-  Sparkline theory and practiceThis is a collection of posts by Edward Tufte about sparklines—scroll down a ways and check out his examples, analysis, and critiques.
-  Time series sparklines  The bullet graph  Lollipop chartsIf you’re feeling adventurous (and you should!), do this tutorial as you read it.</description>
-    </item>
-    
-    <item>
-      <title>Relationships</title>
-      <link>https://dsba5122-spring2019.netlify.com/reading/07-reading/</link>
-      <pubDate>Tue, 16 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-spring2019.netlify.com/reading/07-reading/</guid>
-      <description>Required   Chapter 9 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
-  Chapter 12 in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
-  Kieran Healy, “Two y-axes”  Two Alternatives to Using a Second Y-Axis &amp;amp; Illusion of success &amp;amp; Dissecting two axes  Dual-Scaled Axes in Graphs: Are They Ever the Best Solution?</description>
     </item>
     
   </channel>

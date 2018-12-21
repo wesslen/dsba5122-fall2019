@@ -18,4 +18,4 @@ editor_options:
 
 # Links
 
-* [Tidy Text Mining by Julia Silge and David Robinson](https://www.tidytextmining.com/)
+* [Tidy Text Mining](https://www.tidytextmining.com/) by Julia Silge and David Robinson

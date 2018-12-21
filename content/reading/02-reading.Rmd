@@ -10,9 +10,13 @@ csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
 
 - <i class="fas fa-book"></i> Chapter 3 and Chapter 5 in Alberto Cairo, *The Truthful Art* [@Cairo:2016]
 
-# Optional
+- <i class="fas fa-book"></i> [Chapter 2: Get started](http://socviz.co/gettingstarted.html) in Kieran Healy, *Data Visualization* [@Healy:2018]
 
-- <i class="fas fa-book"></i> [Chapter 4](https://serialmentor.com/dataviz/color-basics.html) and [Chapter 22](https://serialmentor.com/dataviz/image-file-formats.html) in Claus Wilke, *Fundamentals of Data Visualization* [@Wilke:2018]
+# Recommended
+
+- <i class="fas fa-book"></i> [Chapter 4: Color Basics](https://serialmentor.com/dataviz/color-basics.html) and [Chapter 22: Image file formats](https://serialmentor.com/dataviz/image-file-formats.html) in Claus Wilke, *Fundamentals of Data Visualization* [@Wilke:2018]
+
+- <i class="fas fa-book"></i> [Chapter 3: Data visualization](https://r4ds.had.co.nz/data-visualisation.html)  and [Chapter 5: Data transformation](https://r4ds.had.co.nz/transform.html) in Garrett Grolemund and Hadley Wickham, *R for Data Science* [@WickhamGrolemund:2017]
 
 - <i class="fas fa-external-link-square-alt"></i> [The Science of Information Visualization: A Sketch ](https://eagereyes.org/criticism/sketch-of-infovis-science) by Robert Kosara.
 

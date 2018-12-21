@@ -1,6 +1,6 @@
 ---
-title: "Uncertainty"
-date: "2019-10-09"
+title: "Multidimensional"
+date: "2019-02-25"
 citeproc: false
 bibliography: ../../static/bib/references.bib
 csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
@@ -8,11 +8,14 @@ csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
 
 # Required
 
-- <i class="fas fa-book"></i> [Chapter 7](https://serialmentor.com/dataviz/histograms-density-plots.html) in Claus Wilke, *Fundamentals of Data Visualization* [@Wilke:2018]
-- <i class="fas fa-book"></i> Chapters 4, 7, and 11 in Alberto Cairo, *The Truthful Art* [@Cairo:2016]
-- <i class="fas fa-external-link-square-alt"></i> [Why It's So Hard for Us to Visualize Uncertainty](https://hbr.org/2016/11/why-its-so-hard-for-us-to-visualize-uncertainty)
+- <i class="fas fa-book"></i> Chapters 9 in Alberto Cairo, *The Truthful Art* [@Cairo:2016]
+
+- <i class="fas fa-book"></i> [Chapter 12: Visualizing associations (12.1 and 12.2)](https://serialmentor.com/dataviz/visualizing-associations.html) in Claus Wilke, *Fundamentals of Data Visualization* [@Wilke:2018]
 
 # Recommended 
 
-- <i class="fas fa-external-link-square-alt"></i> [Communicating Uncertainty When Lives Are on the Line](https://eagereyes.org/blog/2017/communicating-uncertainty-when-lives-are-on-the-line)
-- <i class="fas fa-external-link-square-alt"></i> [Showing uncertainty during the live election forecast](https://flowingdata.com/2016/11/15/showing-uncertainty-during-the-live-election-forecast/) & [Trolling the uncertainty dial](https://flowingdata.com/2017/06/27/trolling-the-uncertainty-dial/)
+- <i class="fas fa-external-link-square-alt"></i> Kieran Healy, ["Two y-axes"](https://kieranhealy.org/blog/archives/2016/01/16/two-y-axes/)
+
+- <i class="fas fa-external-link-square-alt"></i> [Two Alternatives to Using a Second Y-Axis](http://stephanieevergreen.com/two-alternatives-to-using-a-second-y-axis/) & [Illusion of success](http://junkcharts.typepad.com/junk_charts/2006/06/illusion_of_suc.html) & [Dissecting two axes](http://junkcharts.typepad.com/junk_charts/2006/01/dissecting_two_.html)
+
+- <i class="fas fa-external-link-square-alt"></i> [Dual-Scaled Axes in Graphs: Are They Ever the Best Solution?](http://www.perceptualedge.com/articles/visual_business_intelligence/dual-scaled_axes.pdf) [@Few:2008]

@@ -14,6 +14,6 @@ editor_options:
 
 # Slides
 
-[Download the slides from today's lecture]().
+No lecture/slides today; we'll have each group present their design contest presentations (10 minutes for each group).
 
 

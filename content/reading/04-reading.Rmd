@@ -10,6 +10,12 @@ csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
 
 - <i class="fas fa-book"></i> Chapter 8 and Chapter 10 in Alberto Cairo, *The Truthful Art* [@Cairo:2016]
 
-# Recommendations
+- <i class="fas fa-book"></i> [Chapter 13: Visualizing time series](https://serialmentor.com/dataviz/time-series.html) and [Chapter 14: Visualizing trends](https://serialmentor.com/dataviz/visualizing-trends.html) in Claus Wilke, *Fundamentals of Data Visualization* [@Wilke:2018]
 
-- <i class="fas fa-book"></i> [Chapter 6](https://serialmentor.com/dataviz/visualizing-amounts.html) in Claus Wilke, *Fundamentals of Data Visualization* [@Wilke:2018]
+- <i class="fas fa-book"></i> [Chapter 7: Maps](http://socviz.co/maps.html) in Kieran Healy, *Data Visualization* [@Healy:2018]
+
+# Recommended
+
+- <i class="fas fa-book"></i> [Chapter 15: Visualizing geospatial trends](https://serialmentor.com/dataviz/geospatial-data.html) in Claus Wilke, *Fundamentals of Data Visualization* [@Wilke:2018]
+
+- <i class="fas fa-book"></i> [Chapter 16: Dates and times](https://r4ds.had.co.nz/dates-and-times.html) in Garrett Grolemund and Hadley Wickham, *R for Data Science* [@WickhamGrolemund:2017]

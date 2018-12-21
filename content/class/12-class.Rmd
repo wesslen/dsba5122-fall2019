@@ -16,6 +16,8 @@ editor_options:
 
 [Download the slides from today's lecture]().
 
+# Links
+
 - [Docker and `plumber'](https://medium.com/@skyetetra/using-docker-to-deploy-an-r-plumber-api-863ccf91516d)
 
 - [Profiling a Shiny App](https://rstudio.github.io/profvis/examples.html#example-3---profiling-a-shiny-application)
