@@ -118,6 +118,13 @@ Here are some of the best examples I've come across:
 
 # Data
 
+## Pulling your own data:
+
+    - [**Yifu Yan's Resources for webscraping in R**](https://github.com/yusuzech/r-web-scraping-cheat-sheet): This cheat sheet of resources was inspired by Hartley Brody's [similar cheat sheet for web-scraping in Python](https://blog.hartleybrody.com/web-scraping-cheat-sheet/) 
+    - [**Mike Kearney's `rtweet` package for using the Twitter API to pull Twitter data**](https://rtweet.info/): Mike has created the foremost package (in any language, in my opinion) for using the Twitter API. He has also created a ton of helpful resources including [his incredibly helpful `rtweet` workshop slides](https://rtweet-workshop.mikewk.com/).
+
+## Past datasets: 
+
 - [**Google Dataset Search**](https://toolbox.google.com/datasetsearch): Google indexes thousands of public datasets; search for them here
 - [**Kaggle**](https://www.kaggle.com/datasets): Kaggle hosts machine learning competitions where people compete to create the fastest, most efficient, most predictive algorithms. A byproduct of these competitions is a host of fascinating datasets that are generally free and open to the public. See, for example, [the European Soccer Database](https://www.kaggle.com/hugomathien/soccer), the [Salem Witchcraft Dataset](https://www.kaggle.com/rtatman/salem-witchcraft-dataset) or results from an [Oreo flavors taste test](https://www.kaggle.com/rtatman/oreo-flavors-tastetest-ratings).
 - [**360Giving**](http://www.threesixtygiving.org/data/data-registry/): Dozens of British foundations follow a standard file format for sharing grant data and have made that data available online.
@@ -126,8 +133,7 @@ Here are some of the best examples I've come across:
     - [**François Briatte's extensive curated lists**](https://github.com/briatte/srqm/wiki/Data): Includes data from/about intergovernmental organizations (IGOs), nongovernmental organizations (NGOs), public opinion surveys, parliaments and legislatures, wars, human rights, elections, and municipalities.
     - [**Thomas Leeper's list of political science datasets**](https://github.com/leeper/poliscitoys/issues/1): Good short list of useful datasets, divided by type of data (country-level data, survey data, social media data, event data, text data, etc.).
     - [**Erik Gahner's list of political science datasets**](https://github.com/erikgahner/PolData): Huge list of useful datasets, divided by topic (governance, elections, policy, political elites, etc.)
-
-
+    
 # Colors
 
 - [**PolicyViz Design Color Tools**](https://policyviz.com/better-presentations/design-resources/design-color-tools/): Large collection of useful color resources

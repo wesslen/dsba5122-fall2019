@@ -26,6 +26,7 @@ lessons:
   - title: "Visual Representation Basics II"
     date: "February 4"
     reading: "03-reading"
+    #class: "03-class"
     
   - title: "**Datacamp course 2 (Due Feb 19)**"
     date: "February 4"
@@ -34,10 +35,12 @@ lessons:
   - title: "Time & Space"
     date: "February 11"
     reading: "04-reading"
+    #class: "04-class"
 
   - title: "Uncertainty & Risk"
     date: "February 18"
     reading: "05-reading"
+    #class: "05-class"
     
   - title: "**Problem set 2 (Due Feb 25)**"
     date: "February 18"
@@ -47,10 +50,12 @@ lessons:
 
   - title: "Multidimensional"
     date: "February 25"
+    #reading: "06-reading"
+    #class: "06-class"
     
   - title: "**Design Contest (Due Mar 25)**"
     date: "February 25"
-    assignment: "01-project"
+    #assignment: "01-project"
     
   - title: "**Datacamp course 3 (Due Mar 12)**"
     date: "February 25"
@@ -60,9 +65,13 @@ lessons:
 
   - title: "Dimensionality Reduction"
     date: "March 11"
+    #reading: "07-reading"
+    #class: "07-class"
 
   - title: "Unstructured Text"
     date: "March 18"
+    #reading: "08-reading"
+    #class: "08-class"
 
   - title: "Design Contest Presentations"
     date: "March 25"
@@ -72,32 +81,42 @@ lessons:
     
   - title: "Networks and Trees"
     date: "April 1"
+    #reading: "10-reading"
+    #class: "10-class"
     
   - title: "**Datacamp course 4 (Due Apr 16)**"
     date: "April 1"
-    assignment: "04-datacamp"
+    #assignment: "04-datacamp"
 
   - title: '<span class="fake-header-table">Advanced Topics</span>'
     header: True
 
   - title: "Coordinated Multiple Views: Interacting & Brushing"
     date: "April 8"
+    #reading: "11-reading"
+    #class: "11-class"
 
   - title: "Deployment, Back-end and Scalability"
     date: "April 15"
+    #reading: "12-reading"
+    #class: "12-class"
     
   - title: "**Problem set 4 (Due Apr 22)**"
     date: "April 15"
 
   - title: "Machine Learning"
     date: "April 22"
+    #reading: "13-reading"
+    #class: "13-class"
 
   - title: "Wrap-up"
     date: "April 29"
+    #reading: "14-reading"
+    #class: "14-class"
 
   - title: '<span class="fake-header-table">Final</span>'
     header: True
 
   - title: "**Final project due**"
     date: "May 6"
-    assignment: "final-project"
+    #assignment: "final-project"

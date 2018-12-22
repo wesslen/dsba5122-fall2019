@@ -10,7 +10,7 @@ csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
 
 - <i class="fas fa-book"></i> Chapter 3 and Chapter 5 in Alberto Cairo, *The Truthful Art* [@Cairo:2016]
 
-- <i class="fas fa-book"></i> [Chapter 2: Get started](http://socviz.co/gettingstarted.html) in Kieran Healy, *Data Visualization* [@Healy:2018]
+<i class="fas fa-book"></i> [Chapter 3: Make a plot](http://socviz.co/makeplot.html) in Kieran Healy, *Data Visualization* [@Healy:2018]
 
 # Recommended
 
@@ -21,3 +21,5 @@ csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
 - <i class="fas fa-external-link-square-alt"></i> [The Science of Information Visualization: A Sketch ](https://eagereyes.org/criticism/sketch-of-infovis-science) by Robert Kosara.
 
 - <i class="fas fa-external-link-square-alt"></i>[What is visualization research? What should it be?](https://medium.com/multiple-views-visualization-research-explained/what-is-visualization-research-what-should-it-be-8840a9ba658) by Jessica Hullman (Multiple Views Blog)
+
+- <i class="fas fa-external-link-square-alt"></i> [Labelling dataviz ](https://mikewk.com/post/2018-09-20-labelling-dataviz/) by Mike Kearney.

@@ -354,9 +354,9 @@ For this DataCamp course, you’ll learn about doing exploratory data analysis, 
       <guid>https://dsba5122-spring2019.netlify.com/reading/03-reading/</guid>
       <description>Required   Chapter 6 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
 
-  Chapter 3: Make a plot in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
+  Chapter 4: Show the right numbers in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
 
-  Recommended   Chapter 2: Aesthetic mapping in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.</description>
+  Recommended   Chapter 2: Aesthetic mapping in Claus Wilke, Fundamentals of Data VisualizationClaus E.</description>
     </item>
     
     <item>
@@ -415,10 +415,9 @@ Tweet of the day Visual encoding is itself a data transformation, often applied 
       
       <guid>https://dsba5122-spring2019.netlify.com/reading/02-reading/</guid>
       <description>Required   Chapter 3 and Chapter 5 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
+   Chapter 3: Make a plot in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
 
-  Chapter 2: Get started in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
-
-  Recommended   Chapter 4: Color Basics and Chapter 22: Image file formats in Claus Wilke, Fundamentals of Data VisualizationClaus E.</description>
+Recommended   Chapter 4: Color Basics and Chapter 22: Image file formats in Claus Wilke, Fundamentals of Data VisualizationClaus E.</description>
     </item>
     
     <item>
@@ -467,10 +466,9 @@ Questions to reflect on  How do we know what is true? Are facts truth? Why do we
       <pubDate>Mon, 14 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/class/01-class/</guid>
-      <description>Contents  Slides Tweet of the day:   Slides Introduction to Visual Analytics   Lab: Intro to R/RStudio and RMarkdown   Create a RStudio.Cloud account rstudio.cloud.
+      <description>Contents  Slides &amp;amp; Lab Tweet of the day:   Slides &amp;amp; Lab Introduction to Visual Analytics   Lab: Intro to R/RStudio and RMarkdown   Create a RStudio.Cloud account rstudio.cloud.
  Go to our RStudio.Cloud project.
-  RMarkdown Tutorial
-Tweet of the day: Any time I have been struggling to learn a new tool/technology/software … I go back to this short clip I cut out of ???&#39;s 2014 ??? tutorial on Dplyr to motivate myself to keep pushing through … learning new tools is hard for everyone at the beginning!</description>
+  Our first exercise will be running Chapter 2: Get started in Kieran Healy, Data Visualization Kieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.</description>
     </item>
     
     <item>
@@ -583,7 +581,7 @@ RStudio.cloud R is free, but it can sometimes be a pain to install and configure
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/reference/</guid>
-      <description>Contents  Citations and bibliography Interesting and excellent real world examples How to select the appropriate chart type Helpful data visualization resources Visualization in Excel Visualization in Tableau Information Visualization &amp;amp; Visual Analytics Courses Working with R and ggplot2 R in the wild Data Colors Fonts Markdown   Citations and bibliography &amp;#8853;You can open the file in BibDesk on macOS, JabRef on Windows, or Zotero or Mendeley online.</description>
+      <description>Contents  Citations and bibliography Interesting and excellent real world examples How to select the appropriate chart type Helpful data visualization resources Visualization in Excel Visualization in Tableau Information Visualization &amp;amp; Visual Analytics Courses Working with R and ggplot2 R in the wild Data Pulling your own data: Past datasets:  Colors Fonts Markdown   Citations and bibliography &amp;#8853;You can open the file in BibDesk on macOS, JabRef on Windows, or Zotero or Mendeley online.</description>
     </item>
     
     <item>
