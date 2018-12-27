@@ -80,13 +80,13 @@ Additionally, we have a class chatroom at [Slack](https://unccdsba5122s2019.slac
 
 # Classroom policies
 
-<span class="newthought">Be nice. Be honest. Don't cheat.</span>^[See Tamara Munzner's great post: ["Cheating: The List Of Things I Never Want To Hear Again"](https://www.cs.ubc.ca/~tmm/courses/cheat.html).]
+<span class="newthought">Be nice. Be honest. [Don't cheat](https://www.cs.ubc.ca/~tmm/courses/cheat.html).</span>
 
 ## Orderly and productive classroom conduct
-I will conduct this class in an atmosphere of mutual respect. I encourage your active participation in class discussions. Each of us may have strongly differing opinions on the various topics of class discussions. The conflict of ideas is encouraged and welcome. The orderly questioning of the ideas of others, including mine, is similarly welcome. However, I will exercise my responsibility to manage the discussions so that ideas and argument can proceed in an orderly fashion. You should expect that if your conduct during class discussions seriously disrupts the atmosphere of mutual respect I expect in this class, you will not be permitted to participate further.
+I will conduct this class in an atmosphere of mutual respect. I encourage your active participation in class discussions. Each of us may have strongly differing opinions on the various topics of class discussions. The conflict of ideas is encouraged and welcome. The orderly questioning of the ideas of others, including mine, is similarly welcome. However, **I will exercise my responsibility to manage the discussions so that ideas and argument can proceed in an orderly fashion**. You should expect that if your conduct during class discussions seriously disrupts the atmosphere of mutual respect I expect in this class, you will not be permitted to participate further.
 
 ## Recording in the classroom
-Electronic video and/or audio recording is not permitted during class unless the student obtains permission from the instructor. If permission is granted, any distribution of the recording is prohibited. Students with specific electronic recording accommodations authorized by the Office of Disability Services do not require instructor permission; however, the instructor must be notified of any such accommodation prior to recording. Any distribution of such recordings is prohibited.
+Electronic video and/or audio recording **is not permitted during class unless the student obtains permission from the instructor**. If permission is granted, any distribution of the recording is prohibited. Students with specific electronic recording accommodations authorized by the Office of Disability Services do not require instructor permission; however, the instructor must be notified of any such accommodation prior to recording. Any distribution of such recordings is prohibited.
 
 ## Discussion of grades and performance
 Such discussion shall occur between the student and the instructor(s). Sharing information regarding grades and performance in places such as discussion forums or email blasts is prohibited.
