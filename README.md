@@ -14,10 +14,12 @@ Thanks to the many open source contributors of the course materials (directly or
 * [Matthew Kay](http://www.mjskay.com/)
 * [Garrick Aden-Buie](https://www.garrickadenbuie.com/project/)
 * [David Robinson](http://varianceexplained.org/about/)
-* [Davis Vaughn](https://twitter.com/dvaughan32)
+* [Davis Vaughn](https://blog.davisvaughan.com/)
 * [Jessica Hullman](http://users.eecs.northwestern.edu/~jhullman/)
 * [Robert Kosara](https://eagereyes.org/)
 * [Mike Kearney](https://mikewk.com/)
+* [David Schoch](http://schochastics.net/)
+* [Tyler Bradley](https://tbradley1013.github.io/)
 
 ## Theme
 

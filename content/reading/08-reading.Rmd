@@ -18,3 +18,5 @@ csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
 
 - <i class="fas fa-external-link-square-alt"></i> Julie Silge, ["Training, Evaluating, and Interpreting Topic Models"](https://juliasilge.com/blog/evaluating-stm/)^[Julie's blog is on the `stm` package, which is my favorite topic modeling package by Molly Roberts, Brandon Stewart, and Dustin Tingley (among others). If you want to learn more, see [their great website](https://www.structuraltopicmodel.com/).]
 
+- <i class="fas fa-external-link-square-alt"></i> Julie Silge, ["Text Classification with tidy principles"](https://juliasilge.com/blog/tidy-text-classification/)^[This blog will teach how to set up text classification problems, i.e., supervised machine learning.]
+

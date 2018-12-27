@@ -37,7 +37,7 @@ lessons:
     reading: "04-reading"
     #class: "04-class"
 
-  - title: "Uncertainty & Risk"
+  - title: "Distributions & Uncertainty"
     date: "February 18"
     reading: "05-reading"
     #class: "05-class"
@@ -48,7 +48,7 @@ lessons:
   - title: '<span class="fake-header-table">Interactive Visualizations</span>'
     header: True
 
-  - title: "Multidimensional"
+  - title: "Statistical Models"
     date: "February 25"
     #reading: "06-reading"
     #class: "06-class"
@@ -63,7 +63,7 @@ lessons:
   - title: "No class (Spring Break)"
     date: "March 4"
 
-  - title: "Dimensionality Reduction"
+  - title: "Multidimensional &\nDimensionality Reduction"
     date: "March 11"
     #reading: "07-reading"
     #class: "07-class"
@@ -83,6 +83,9 @@ lessons:
     date: "April 1"
     #reading: "10-reading"
     #class: "10-class"
+    
+  - title: "**Final project (Due May 6)**"
+    date: "April 1"
     
   - title: "**Datacamp course 4 (Due Apr 16)**"
     date: "April 1"

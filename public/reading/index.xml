@@ -24,41 +24,39 @@
     </item>
     
     <item>
-      <title>Dimensionality Reduction</title>
+      <title>Multidimensional &amp; Dimensionality Reduction</title>
       <link>https://dsba5122-spring2019.netlify.com/reading/07-reading/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/reading/07-reading/</guid>
-      <description> Required   Chapter 12: Visualizing associations (12.3 and 12.4) in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
-  Recommended </description>
+      <description>Required   Chapters 9 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
+
+  Chapter 12: Visualizing associations in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
+
+  Recommended   Kieran Healy, “Two y-axes”
+  Tyler Bradley, “PCA in a tidy(verse) framework”</description>
     </item>
     
     <item>
-      <title>Multidimensional</title>
+      <title>Statistical Models</title>
       <link>https://dsba5122-spring2019.netlify.com/reading/06-reading/</link>
       <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/reading/06-reading/</guid>
-      <description>Required   Chapters 9 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
+      <description>Required   Chapter 6: Work with Models in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
 
-  Chapter 12: Visualizing associations (12.1 and 12.2) in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
-
-  Recommended   Kieran Healy, “Two y-axes”
-  Two Alternatives to Using a Second Y-Axis &amp;amp; Illusion of success &amp;amp; Dissecting two axes</description>
+  Chapter 22: Model introduction and Chapter 23: Model basics in Garrett Grolemund and Hadley Wickham, R for Data ScienceHadley Wickham and Garrett Grolemund, R for Data Science: Import, Tidy, Transform, Visualize, and Model Data (Sebastopol, California: O’Reilly Media, 2017), http://r4ds.had.co.nz/.</description>
     </item>
     
     <item>
-      <title>Uncertainty &amp; Risk</title>
+      <title>Distributions &amp; Uncertainty</title>
       <link>https://dsba5122-spring2019.netlify.com/reading/05-reading/</link>
       <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/reading/05-reading/</guid>
-      <description>Required   Chapter 7 in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
+      <description>Required   Chapters 7 and 11 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
 
-  Chapters 7 and 11 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
-
-  Recommended   Why It’s So Hard for Us to Visualize Uncertainty
-  Communicating Uncertainty When Lives Are on the Line</description>
+  Chapter 7: Histograms and density plots, Chapter 8: Empirical cumulative distribution functions, Chapter 9: Visualizing many distributions at once in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.</description>
     </item>
     
     <item>
@@ -67,11 +65,11 @@
       <pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/reading/04-reading/</guid>
-      <description>Required   Chapter 8 and Chapter 10 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
+      <description>Required   Chapter 8: “Revealing Change” and Chapter 10: “Mapping Data” in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
 
-  Chapter 13: Visualizing time series and Chapter 14: Visualizing trends in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
+  Chapter 7: Maps in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
 
-  Chapter 7: Maps in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.</description>
+  Chapter 13: Visualizing time series and Chapter 14: Visualizing trends in Claus Wilke, Fundamentals of Data VisualizationClaus E.</description>
     </item>
     
     <item>
@@ -80,11 +78,11 @@
       <pubDate>Mon, 04 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/reading/03-reading/</guid>
-      <description>Required   Chapter 6 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
+      <description>Required   Chapter 6: “Exploring Data with Simple Charts” in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
 
   Chapter 4: Show the right numbers in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
 
-  Recommended   Chapter 2: Aesthetic mapping in Claus Wilke, Fundamentals of Data VisualizationClaus E.</description>
+  Recommended   Chapter 5: Directory of visualizations and Chapter 22: Image file formats in Claus Wilke, Fundamentals of Data VisualizationClaus E.</description>
     </item>
     
     <item>
@@ -93,10 +91,10 @@
       <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/reading/02-reading/</guid>
-      <description>Required   Chapter 3 and Chapter 5 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
-   Chapter 3: Make a plot in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
+      <description>Required   Chapter 3: “Truth Continuum” and Chapter 5: “Basic Principles of Visualization” in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
+   [Chapter 1: Look at data]http://socviz.co/lookatdata.html) in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
 
-Recommended   Chapter 4: Color Basics and Chapter 22: Image file formats in Claus Wilke, Fundamentals of Data VisualizationClaus E.</description>
+Recommended   Chapter 2: Aesthetic mapping in Claus Wilke, Fundamentals of Data VisualizationClaus E.</description>
     </item>
     
     <item>

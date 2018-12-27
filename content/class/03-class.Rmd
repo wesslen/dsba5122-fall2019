@@ -16,28 +16,14 @@ editor_options:
 
 [Download the slides from today's lecture]().
 
-* Jenny Bryan's [ggplot2 tutorial GitHub](https://github.com/jennybc/ggplot2-tutorial) / [slides](https://speakerdeck.com/jennybc/ggplot2-tutorial)
+- Jenny Bryan's [ggplot2 tutorial GitHub](https://github.com/jennybc/ggplot2-tutorial) / [slides](https://speakerdeck.com/jennybc/ggplot2-tutorial)
 
-* Allison Hill's [Data Visualization in the Tidyverse
+- Allison Hill's [Data Visualization in the Tidyverse
 The Great Tidy Plot Off](https://alison.netlify.com/uo-tidy-bakeoff/)
+
+- [Make your own animated plots with `gganimate`](https://gganimate.com/)
 
 # Tweet of the Day
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Animated <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> data tidying with tidyr&#39;s spread and gather functions, brought to life using the new gganimate by <a href="https://twitter.com/thomasp85?ref_src=twsrc%5Etfw">@thomasp85</a>.<br><br>Source and more info: <a href="https://t.co/XuIo0KfgsD">https://t.co/XuIo0KfgsD</a> <a href="https://t.co/se2EmNjxk8">pic.twitter.com/se2EmNjxk8</a></p>&mdash; Garrick Aden-Buie (@grrrck) <a href="https://twitter.com/grrrck/status/1032068685949796352?ref_src=twsrc%5Etfw">August 22, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-# Extra-dimensional aesthetics
-
-- [Make your own animated plots with `gganimate`](https://github.com/thomasp85/gganimate)
-- [Video of simulated Hurricane Florence storm surge](https://twitter.com/weatherchannel/status/1040305773664980993)
-- [The Wall Street Journal's audio-based visualization of *Hamilton*'s internal rhymes](http://graphics.wsj.com/hamilton/)
-
-
-# Guessing the identity of the Trump resistance op-ed writer with R
-
-- [David Robinson's approach](http://varianceexplained.org/r/op-ed-text-analysis/)
-- Mike Kearney's approach: [his code](https://github.com/mkearney/resist_oped) and [his short article](https://www.rjionline.org/stories/we-put-data-science-to-the-test-to-try-to-uncover-the-mystery-author-of-the)
-
-
-<!-- https://ijlyttle.shinyapps.io/tidyeval/ -->
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">🌟 guide to visual encoding types from <a href="https://twitter.com/tamaramunzner?ref_src=twsrc%5Etfw">@tamaramunzner</a>&#39;s &quot;Visualization &amp; Journalism&quot; <a href="https://t.co/A2x96QYNoL">https://t.co/A2x96QYNoL</a> <a href="https://twitter.com/hashtag/dataviz?src=hash&amp;ref_src=twsrc%5Etfw">#dataviz</a> <a href="https://twitter.com/hashtag/infovis?src=hash&amp;ref_src=twsrc%5Etfw">#infovis</a> <a href="https://t.co/2FIyXeWk4h">pic.twitter.com/2FIyXeWk4h</a></p>&mdash; Mara Averick (@dataandme) <a href="https://twitter.com/dataandme/status/1052631850273918977?ref_src=twsrc%5Etfw">October 17, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>^[[Tamara Munzner](https://www.cs.ubc.ca/~tmm/) is one of the most influential data visualization researchers. Her textbook ["Visualization Analysis and Design"](https://www.amazon.com/Visualization-Analysis-Design-AK-Peters-dp-1466508914/dp/1466508914/ref=mt_hardcover?_encoding=UTF8&me=&qid=) is one of the most popular data viz books and some of her students are now leaders in data viz (e.g., [Matt Brehmer](https://mattbrehmer.github.io/), [Melanie Tory](https://www.melanietory.com/), [Michael Seldmair](https://homepage.univie.ac.at/michael.sedlmair/), and [Miriah Meyer](https://www.cs.utah.edu/~miriah/)).] ,^[[Mara Averick](https://twitter.com/dataandme) is RStudio's `tidyverse` developer advocate, which essentially means she's one of the most influential champions of all things `tidyverse`. She is an absolute [must-follow on Twitter](https://twitter.com/edwin_thoen/status/901740217987719170) and noted "data sciolist" who excels at commmunicating the technical issues of `tidyverse` in a non-technical way, e.g., [her 2018 RStudio::conf talk](https://www.rstudio.com/resources/videos/phrasing-communicating-data-science-through-tweets-gifs-and-classic-misdirection/). ]

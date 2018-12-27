@@ -80,7 +80,7 @@ Links  Tidy Text Mining by Julia Silge and David Robinson  </description>
     </item>
     
     <item>
-      <title>Dimensionality Reduction</title>
+      <title>Multidimensional &amp; Dimensionality Reduction</title>
       <link>https://dsba5122-spring2019.netlify.com/class/07-class/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
@@ -90,7 +90,7 @@ Links introducing stat_mds, dimensionality reduction in #ggplot2 using principal
     </item>
     
     <item>
-      <title>Multidimensional</title>
+      <title>Statistical Models</title>
       <link>https://dsba5122-spring2019.netlify.com/class/06-class/</link>
       <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
       
@@ -100,7 +100,7 @@ Tweet of the day Lab: </description>
     </item>
     
     <item>
-      <title>Uncertainty &amp; Risk</title>
+      <title>Distributions &amp; Uncertanity</title>
       <link>https://dsba5122-spring2019.netlify.com/class/05-class/</link>
       <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
       
@@ -130,10 +130,11 @@ Tweet of the day Rumour has it ??? killed his talk last night…
       <pubDate>Mon, 04 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/class/03-class/</guid>
-      <description>Contents  Slides Tweet of the Day Extra-dimensional aesthetics Guessing the identity of the Trump resistance op-ed writer with R   Slides Download the slides from today’s lecture.
+      <description>Contents  Slides Tweet of the Day   Slides Download the slides from today’s lecture.
  Jenny Bryan’s ggplot2 tutorial GitHub / slides
  Allison Hill’s Data Visualization in the Tidyverse The Great Tidy Plot Off
-  Tweet of the Day Animated #rstats data tidying with tidyr&#39;s spread and gather functions, brought to life using the new gganimate by ?</description>
+ Make your own animated plots with gganimate
+  Tweet of the Day 🌟 guide to visual encoding types from ???&#39;s “Visualization &amp;amp; Journalism” https://t.co/A2x96QYNoL #dataviz #infovis pic.twitter.com/2FIyXeWk4h — Mara Averick (@dataandme) October 17, 2018   Tamara Munzner is one of the most influential data visualization researchers.</description>
     </item>
     
     <item>

@@ -2,7 +2,7 @@
 title: "DSBA 5122: Visual Analytics"
 subtitle: "Class 3: Visual Representations Basics II"  
 author: "Ryan Wesslen"
-date: '2019-01-28'
+date: '2019-02-04'
 citeproc: false
 bibliography: ../../static/bib/references.bib
 csl: ../../static/bib/chicago-syllabus-no-bib.csl
