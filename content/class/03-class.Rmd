@@ -23,6 +23,12 @@ The Great Tidy Plot Off](https://alison.netlify.com/uo-tidy-bakeoff/)
 
 - [Make your own animated plots with `gganimate`](https://gganimate.com/)
 
+# Lab 3: Make a plot (ggplot2)
+
+- Go to our [healy-dataviz](https://rstudio.cloud/spaces/7976/project/160035) project and open "04_show_the_right_numbers.Rmd".
+
+- This covers [Chapter 4: Show the right numbers](http://socviz.co/groupfacettx.html#groupfacettx) in Kieran Healy, *Data Visualization* [@Healy:2018]. If we have time, we'll also try to cover some parts of [Chapter 5: Group tables, add labels, make notes](http://socviz.co/workgeoms.html#workgeoms), which is the file "05_tables_and_labels.Rmd".
+
 # Tweet of the Day
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">🌟 guide to visual encoding types from <a href="https://twitter.com/tamaramunzner?ref_src=twsrc%5Etfw">@tamaramunzner</a>&#39;s &quot;Visualization &amp; Journalism&quot; <a href="https://t.co/A2x96QYNoL">https://t.co/A2x96QYNoL</a> <a href="https://twitter.com/hashtag/dataviz?src=hash&amp;ref_src=twsrc%5Etfw">#dataviz</a> <a href="https://twitter.com/hashtag/infovis?src=hash&amp;ref_src=twsrc%5Etfw">#infovis</a> <a href="https://t.co/2FIyXeWk4h">pic.twitter.com/2FIyXeWk4h</a></p>&mdash; Mara Averick (@dataandme) <a href="https://twitter.com/dataandme/status/1052631850273918977?ref_src=twsrc%5Etfw">October 17, 2018</a></blockquote>

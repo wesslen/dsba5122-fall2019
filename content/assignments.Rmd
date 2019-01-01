@@ -27,11 +27,11 @@ There will be five (5) total quizzes in five different classes; however, your lo
 
 I will try to review each quiz in the following class to provide feedback on each quiz. Your grades will be posted on Canvas.
 
-Students who are absent will not be able to make up quizzes unless they can provide medical or work related excuses (e.g., traveling for a conference or work-related activities). However, students must email me (Ryan) no later than the next class if a class is missed. If you're worried about whether a class will be missed, you can kindly email me or send me a direct Slack message if you know you'll have to miss class. I'll let you know if you need to make up the quiz.^[Please note, we'll be very limited on times we can meet to make up the next quiz and likely for any make-up quizzes you'll need to do it before the next class.] 
+**Students who are absent will not be able to make up quizzes unless they can provide medical or work related excuses** (e.g., traveling for a conference or work-related activities). If you have such a reasonable excuse, **you must email me (Ryan) no later than the next class if a class is missed**. If you know you'll have to miss class, it's likely smart to email me or send me a direct Slack message. I'll let you know if you need to make up the quiz.^[Please note, we'll be very limited on times we can meet to make up the next quiz and likely for any make-up quizzes you'll need to do it before the next class.] 
 
 # Design Contest / Mini-Project
 
-<span class="newthought">Too give you practice</span> with the data and design principles you'll learn in this class, you will complete a mini-project. I will provide you with real-world data and pose one or more questions—you will make a static visualization plot.
+<span class="newthought">Too give you practice</span> with the data and design principles you'll learn in this class, you will complete a mini-project. I will provide you with real-world data and pose one or more questions—you will make a static visualization plots.
 
 Feel free to start thinking about ideas (datasets, research questions) now. This will be in groups of no more than 3 students per group.
 

@@ -16,7 +16,6 @@ editor_options:
 
 [Download the slides from today's lecture]().
 
-
 # Tweet of the day
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Rumour has it <a href="https://twitter.com/dvaughan32?ref_src=twsrc%5Etfw">@dvaughan32</a> killed his talk last night…<br>⏰ &quot;Time series &amp; financial analysis in the tidyverse&quot; <br>📽 <a href="https://t.co/h2jGX0fZ38">https://t.co/h2jGX0fZ38</a> <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> <br>* feat. <a href="https://twitter.com/earowang?ref_src=twsrc%5Etfw">@earowang</a>&#39;s {tsibble}, <a href="https://twitter.com/bizScienc?ref_src=twsrc%5Etfw">@bizScienc</a> 📦s, and {rsample} <a href="https://t.co/fYrC1hoHLB">pic.twitter.com/fYrC1hoHLB</a></p>&mdash; Mara Averick (@dataandme) <a href="https://twitter.com/dataandme/status/1044935141725007877?ref_src=twsrc%5Etfw">September 26, 2018</a></blockquote>
@@ -28,3 +27,9 @@ editor_options:
 # Links
 
 * [Pudding's "Human Terrain"](https://pudding.cool/2018/10/city_3d/)
+
+# Lab 4: Make a plot (ggplot2)
+
+- Go to our [healy-dataviz](https://rstudio.cloud/spaces/7976/project/160035) project and open "07_maps.Rmd".
+
+- This covers [Chapter 8: Draw Maps](http://socviz.co/maps.html#maps) in Kieran Healy, *Data Visualization* [@Healy:2018]. 

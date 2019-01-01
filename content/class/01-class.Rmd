@@ -17,18 +17,22 @@ editor_options:
 1. Introduction to Visual Analytics
 
 ```{r echo=FALSE}
-knitr::include_url('slides/01-class#1')
+knitr::include_url('https://wesslen.netlify.com/slides/dsba5122-spring2019-01-class.html#1')
 ```
+
+Click on the slides and press "F" to make it into full-screen. Press "ESC" to exit from full-screen.
 
 2. Lab: Intro to R/RStudio and RMarkdown
 
 - Create a RStudio.Cloud account [rstudio.cloud](http://rstudio.cloud/).
 
-- Go to our RStudio.Cloud project.
+- Go to our class' [RStudio.Cloud workspace](https://rstudio.cloud/spaces/7976/projects).
+
+- Open [healy-dataviz](https://rstudio.cloud/spaces/7976/project/160035).
 
 Our first exercise will be running [Chapter 2: Get started](http://socviz.co/gettingstarted.html) in Kieran Healy, *Data Visualization* [@Healy:2018].
 
-To get started, we'll first need to follow [Kieran's instructions](https://kieranhealy.org/blog/archives/2018/12/12/teaching-and-learning-materials-for-data-visualization/) to get the `socviz` package.
+The great thing with RStudio.Cloud, is that I already installed all of the packages. However, if you want to run this on your own local machine, you'll need to install all of the packages locally. To get started, you'll need to follow [Kieran's instructions](https://kieranhealy.org/blog/archives/2018/12/12/teaching-and-learning-materials-for-data-visualization/) to get the `socviz` package.
 
 
 # Tweet of the day:

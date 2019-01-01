@@ -16,13 +16,7 @@ editor_options:
 
 [Download the slides from today's lecture]().
 
-
-# Tweet of the day
-
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Visual encoding is itself a data transformation, often applied after a chain of other transformations. This is “first week of class”, table stakes stuff. Sad if true that we don’t internalize this!</p>&mdash; Jeffrey Heer (@jeffrey_heer) <a href="https://twitter.com/jeffrey_heer/status/1028353025889333248?ref_src=twsrc%5Etfw">August 11, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>^[[Enrico Bertini](http://enrico.bertini.io/) is a data visualization researcher at NYU who co-hosts (with [Moritz Stefaner](http://truth-and-beauty.net/)) the podcast ["Data Stories"](http://datastori.es/), which I highly recommend.] ,^[[Jeff Heer](https://homes.cs.washington.edu/~jheer/) is a leading researcher in data visualization; he helped develop [D3](https://d3js.org/), [Trifacta](https://www.trifacta.com/), [Vega](https://vega.github.io/vega/), and has had countless other publications. My personal favorite is his already classic 2009 ["Brief History of Data Visualization"](https://www.youtube.com/watch?v=N00g9Q9stBo) talk on YouTube.]
-
-# Lab session: dplyr + ggplot
+# Helpful Materials
 
 * Omayma Said's [Intro to the Tidyverse: Data Manipulation using dplyr](https://speakerdeck.com/omaymas/data-manipulation-with-dplyr-first-steps)^[Click the link to open up in its own window. It'll make it easier to read.]
 
@@ -40,3 +34,15 @@ knitr::include_url('https://pkg.garrickadenbuie.com/gentle-ggplot2')
 ![](../../static/images/class/esquisse.gif)
 
 [esquisse](https://github.com/dreamRs/esquisse)
+
+# Lab 2: Make a plot (ggplot2)
+
+- Go to our [healy-dataviz](https://rstudio.cloud/spaces/7976/project/160035) project and open "03_make_a_plot.Rmd".
+
+- This covers [Chapter 3: Make a Plot](http://socviz.co/makeplot.html#makeplot) in Kieran Healy, *Data Visualization* [@Healy:2018].
+
+
+# Tweet of the day
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Visual encoding is itself a data transformation, often applied after a chain of other transformations. This is “first week of class”, table stakes stuff. Sad if true that we don’t internalize this!</p>&mdash; Jeffrey Heer (@jeffrey_heer) <a href="https://twitter.com/jeffrey_heer/status/1028353025889333248?ref_src=twsrc%5Etfw">August 11, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>^[[Enrico Bertini](http://enrico.bertini.io/) is a data visualization researcher at NYU who co-hosts (with [Moritz Stefaner](http://truth-and-beauty.net/)) the podcast ["Data Stories"](http://datastori.es/), which I highly recommend.] ,^[[Jeff Heer](https://homes.cs.washington.edu/~jheer/) is a leading researcher in data visualization; he helped develop [D3](https://d3js.org/), [Trifacta](https://www.trifacta.com/), [Vega](https://vega.github.io/vega/), and has had countless other publications. My personal favorite is his already classic 2009 ["Brief History of Data Visualization"](https://www.youtube.com/watch?v=N00g9Q9stBo) talk on YouTube.]

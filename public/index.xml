@@ -304,9 +304,9 @@ Welcome  </description>
       <pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/class/04-class/</guid>
-      <description> Contents  Slides Tweet of the day Links   Slides Download the slides from today’s lecture.
+      <description>Contents  Slides Tweet of the day Links Lab 4: Make a plot (ggplot2)   Slides Download the slides from today’s lecture.
 Tweet of the day Rumour has it ??? killed his talk last night…
-⏰ “Time series &amp;amp; financial analysis in the tidyverse” 📽 https://t.co/h2jGX0fZ38 #rstats * feat. ???&#39;s {tsibble}, ??? 📦s, and {rsample} pic.twitter.com/fYrC1hoHLB — Mara Averick (@dataandme) September 26, 2018   Links  Pudding’s “Human Terrain”  </description>
+⏰ “Time series &amp;amp; financial analysis in the tidyverse” 📽 https://t.co/h2jGX0fZ38 #rstats * feat. ???&#39;s {tsibble}, ??? 📦s, and {rsample} pic.twitter.com/fYrC1hoHLB — Mara Averick (@dataandme) September 26, 2018   Links  Pudding’s “Human Terrain”  Lab 4: Make a plot (ggplot2)  Go to our healy-dataviz project and open “07_maps.</description>
     </item>
     
     <item>
@@ -348,11 +348,12 @@ For this DataCamp course, you’ll learn about doing exploratory data analysis, 
       <pubDate>Mon, 04 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/class/03-class/</guid>
-      <description>Contents  Slides Tweet of the Day   Slides Download the slides from today’s lecture.
+      <description>Contents  Slides Lab 3: Make a plot (ggplot2) Tweet of the Day   Slides Download the slides from today’s lecture.
  Jenny Bryan’s ggplot2 tutorial GitHub / slides
  Allison Hill’s Data Visualization in the Tidyverse The Great Tidy Plot Off
  Make your own animated plots with gganimate
-  Tweet of the Day 🌟 guide to visual encoding types from ???&#39;s “Visualization &amp;amp; Journalism” https://t.co/A2x96QYNoL #dataviz #infovis pic.twitter.com/2FIyXeWk4h — Mara Averick (@dataandme) October 17, 2018   Tamara Munzner is one of the most influential data visualization researchers.</description>
+  Lab 3: Make a plot (ggplot2)  Go to our healy-dataviz project and open “04_show_the_right_numbers.Rmd”.
+ This covers Chapter 4: Show the right numbers in Kieran Healy, Data Visualization Kieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.</description>
     </item>
     
     <item>
@@ -403,8 +404,9 @@ class: center, middle
       <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/class/02-class/</guid>
-      <description>Contents  Slides Tweet of the day Lab session: dplyr + ggplot esquisse: ggplot2 add-in   Slides Download the slides from today’s lecture.
-Tweet of the day Visual encoding is itself a data transformation, often applied after a chain of other transformations. This is “first week of class”, table stakes stuff. Sad if true that we don’t internalize this! — Jeffrey Heer (@jeffrey_heer) August 11, 2018   Enrico Bertini is a data visualization researcher at NYU who co-hosts (with Moritz Stefaner) the podcast “Data Stories”, which I highly recommend.</description>
+      <description>Contents  Slides Helpful Materials esquisse: ggplot2 add-in Lab 2: Make a plot (ggplot2) Tweet of the day   Slides Download the slides from today’s lecture.
+Helpful Materials  Omayma Said’s Intro to the Tidyverse: Data Manipulation using dplyrClick the link to open up in its own window. It’ll make it easier to read.
+     Garrick Aden Buie’s A Gentle Guide to the Grammar of Graphics with ggplot2   esquisse: ggplot2 add-in esquisse</description>
     </item>
     
     <item>
@@ -465,9 +467,11 @@ Questions to reflect on  How do we know what is true? Are facts truth? Why do we
       <pubDate>Mon, 14 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/class/01-class/</guid>
-      <description>Contents  Slides &amp;amp; Lab Tweet of the day:   Slides &amp;amp; Lab Introduction to Visual Analytics   Lab: Intro to R/RStudio and RMarkdown   Create a RStudio.Cloud account rstudio.cloud.
- Go to our RStudio.Cloud project.
-  Our first exercise will be running Chapter 2: Get started in Kieran Healy, Data Visualization Kieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.</description>
+      <description>Contents  Slides &amp;amp; Lab Tweet of the day:   Slides &amp;amp; Lab Introduction to Visual Analytics   Click on the slides and press “F” to make it into full-screen. Press “ESC” to exit from full-screen.
+Lab: Intro to R/RStudio and RMarkdown   Create a RStudio.Cloud account rstudio.cloud.
+ Go to our class’ RStudio.Cloud workspace.
+ Open healy-dataviz.
+  Our first exercise will be running Chapter 2: Get started in Kieran Healy, Data Visualization Kieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.</description>
     </item>
     
     <item>
