@@ -12,6 +12,11 @@ editor_options:
   chunk_output_type: console
 ---
 
+# Tweet of the day:
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Any time I have been struggling to learn a new tool/technology/software ... I go back to this short clip I cut out of <a href="https://twitter.com/hadleywickham?ref_src=twsrc%5Etfw">@hadleywickham</a>&#39;s 2014 <a href="https://twitter.com/user2014_ucla?ref_src=twsrc%5Etfw">@user2014_ucla</a> tutorial on Dplyr to motivate myself to keep pushing through ... learning new tools is hard for everyone at the beginning! <a href="https://t.co/RevpkSJqWc">pic.twitter.com/RevpkSJqWc</a></p>&mdash; Aliakbar Akbaritabar (Ali) (@Akbaritabar) <a href="https://twitter.com/Akbaritabar/status/1022057084802748416?ref_src=twsrc%5Etfw">July 25, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>^[[Hadley Wickham](http://hadley.nz/) is the R guru amongst gurus. He developed `dplyr`, `ggplot2`, (and many other R packages) and now is Chief Scientist for RStudio, leading the direction of RStudio's research. If you want some idea of his contribution, see [his GitHub repos](https://github.com/hadley?tab=repositories).]
+
 # Slides & Lab
 
 1. Introduction to Visual Analytics
@@ -20,7 +25,7 @@ editor_options:
 knitr::include_url('https://wesslen.netlify.com/slides/dsba5122-spring2019-01-class.html#1')
 ```
 
-Click on the slides and press "F" to make it into full-screen. Press "ESC" to exit from full-screen.
+[Click here to open, press F for full screen](https://wesslen.netlify.com/slides/dsba5122-spring2019-01-class.html#1).
 
 2. Lab: Intro to R/RStudio and RMarkdown
 
@@ -30,12 +35,7 @@ Click on the slides and press "F" to make it into full-screen. Press "ESC" to ex
 
 - Open [healy-dataviz](https://rstudio.cloud/spaces/7976/project/160035).
 
-Our first exercise will be running [Chapter 2: Get started](http://socviz.co/gettingstarted.html) in Kieran Healy, *Data Visualization* [@Healy:2018].
+Our first exercise will be running [Chapter 2: Get started](http://socviz.co/gettingstarted.html) in Healy.
 
 The great thing with RStudio.Cloud, is that I already installed all of the packages. However, if you want to run this on your own local machine, you'll need to install all of the packages locally. To get started, you'll need to follow [Kieran's instructions](https://kieranhealy.org/blog/archives/2018/12/12/teaching-and-learning-materials-for-data-visualization/) to get the `socviz` package.
 
-
-# Tweet of the day:
-
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Any time I have been struggling to learn a new tool/technology/software ... I go back to this short clip I cut out of <a href="https://twitter.com/hadleywickham?ref_src=twsrc%5Etfw">@hadleywickham</a>&#39;s 2014 <a href="https://twitter.com/user2014_ucla?ref_src=twsrc%5Etfw">@user2014_ucla</a> tutorial on Dplyr to motivate myself to keep pushing through ... learning new tools is hard for everyone at the beginning! <a href="https://t.co/RevpkSJqWc">pic.twitter.com/RevpkSJqWc</a></p>&mdash; Aliakbar Akbaritabar (Ali) (@Akbaritabar) <a href="https://twitter.com/Akbaritabar/status/1022057084802748416?ref_src=twsrc%5Etfw">July 25, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>^[[Hadley Wickham](http://hadley.nz/) is the R guru amongst gurus. He developed `dplyr`, `ggplot2`, (and many other R packages) and now is Chief Scientist for RStudio, leading the direction of RStudio's research. If you want some idea of his contribution, see [his GitHub repos](https://github.com/hadley?tab=repositories).]
