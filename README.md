@@ -4,9 +4,9 @@ This repository contains the code for generating [dsba5122-spring2019.netlify.co
 
 ## Attribution
 
-This course was forked from Andrew Heiss' [MPA 635 Data Visualization](https://github.com/andrewheiss/datavizf18.classes.andrewheiss.com). Many of the resources were used (although many added) and like Andrew's repo, this course is provided under CC BY-NC-SA 4.0.
+This course was forked from Andrew Heiss' [MPA 635 Data Visualization](https://github.com/andrewheiss/datavizf18.classes.andrewheiss.com). Many of the resources were used (and many added too) and like Andrew's repo, this course is provided under CC BY-NC-SA 4.0.
 
-Thanks to the many open source contributors of the course materials (directly or inspired by their work):
+Much thanks goes to the many open source contributors of the course materials (directly or inspired by their work):
 * [Andrew Heiss](https://www.andrewheiss.com/) 
 * [Allison Hill](https://alison.rbind.io/)
 * [Thomas Lin Pederson](https://www.data-imaginist.com/)
@@ -18,6 +18,9 @@ Thanks to the many open source contributors of the course materials (directly or
 * [Jessica Hullman](http://users.eecs.northwestern.edu/~jhullman/)
 * [Robert Kosara](https://eagereyes.org/)
 * [Mike Kearney](https://mikewk.com/)
+* [Emil Hvitfeldt](https://www.hvitfeldt.me/blog/)
+* [Julia Silge](https://juliasilge.com/)
+* [Chester Ismay](https://ismayc.github.io/)
 * [David Schoch](http://schochastics.net/)
 * [Tyler Bradley](https://tbradley1013.github.io/)
 

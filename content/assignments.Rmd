@@ -17,11 +17,11 @@ About half-way through the semester (February-March), additional DataCamp course
 - 2 pts: Explanations on code (written in English)
 - 2 pts: Correct code
 
-You may (and should!) work together on the problem sets, but you must turn in your own answers. You cannot work in groups of more than **three** people, and you must note who participated in the group in your assignment.
+You may (and should!) work with one other person on the problem sets, but you **must** turn in your own answers. You cannot work in groups of more than **two** people, and you must note who you worked with on your assignment.
 
 # Quizzes
 
-<span class="newthought">Quizzes</span> are intended to reinforce the course reading materials as well as enforce course attendance. Quizzes will be given in class and will consist of five multiple choice questions for each quiz. Each quiz will be given **without prior warning** and given out between the class break (between the lecture and lab sections, about halfway through the class). Quizzes will be on paper and closed-book, i.e., **without any other resource** (no phones, laptops, books, etc.).
+<span class="newthought">Quizzes</span> are intended to reinforce the lectures and course reading materials as well as enforce course attendance. Quizzes will be given in class and will consist of five multiple choice questions for each quiz. Each quiz will be given **without prior warning** and given out between the class break (between the lecture and lab sections, about halfway through the class). Quizzes will be on paper and closed-book, i.e., **without any other resource** (no phones, laptops, books, etc.).
 
 There will be five (5) total quizzes in five different classes; however, your lowest grade will be dropped so if you do poorly on one, focus on the next ones.
 

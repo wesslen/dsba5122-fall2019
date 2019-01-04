@@ -8,12 +8,11 @@ csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
 
 # Required
 
-- <i class="fas fa-book"></i> [Chapter 6: Work with Models](http://socviz.co/modeling.html) in Kieran Healy, *Data Visualization* [@Healy:2018]
+- <i class="fas fa-book"></i> [Chapter 6: Work with Models](http://socviz.co/modeling.html) in Healy.
 
-- <i class="fas fa-book"></i> [Chapter 22: Model introduction](https://r4ds.had.co.nz/model-intro.html)  and [Chapter 23: Model basics](https://r4ds.had.co.nz/model-basics.html) in Garrett Grolemund and Hadley Wickham, *R for Data Science* [@WickhamGrolemund:2017]
+- <i class="fas fa-book"></i> [Chapter 22: Model introduction](https://r4ds.had.co.nz/model-intro.html)  and [Chapter 23: Model basics](https://r4ds.had.co.nz/model-basics.html) in Wickham/Grolemund.
 
 # Recommended 
 
-- <i class="fas fa-external-link-square-alt"></i> [Two Alternatives to Using a Second Y-Axis](http://stephanieevergreen.com/two-alternatives-to-using-a-second-y-axis/) & [Illusion of success](http://junkcharts.typepad.com/junk_charts/2006/06/illusion_of_suc.html) & [Dissecting two axes](http://junkcharts.typepad.com/junk_charts/2006/01/dissecting_two_.html)
+- <i class="fas fa-external-link-square-alt"></i> [Chapter 6: Basic Regression](https://moderndive.com/6-regression.html) from "ModernDive: An Introduction to Statistical and Data Sciences via R" by Chester Ismay and Albert Y. Kim.^[This is an outstanding new book -- with a free online version -- that will be a big complement to the tidyverse in the future. We could have spent much more time on this book and I encourage anyone interested in applying statistical models to read the later chapters.]
 
-- <i class="fas fa-external-link-square-alt"></i> [Dual-Scaled Axes in Graphs: Are They Ever the Best Solution?](http://www.perceptualedge.com/articles/visual_business_intelligence/dual-scaled_axes.pdf) [@Few:2008]

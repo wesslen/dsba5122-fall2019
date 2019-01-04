@@ -10,7 +10,7 @@ csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
 
 - <i class="fas fa-book"></i> Chapters 7 and 11 in Alberto Cairo, *The Truthful Art* [@Cairo:2016]
 
-- <i class="fas fa-book"></i> [Chapter 7: Histograms and density plots](https://serialmentor.com/dataviz/histograms-density-plots.html), [Chapter 8: Empirical cumulative distribution functions](https://serialmentor.com/dataviz/ecdf-qq.html), [Chapter 9: Visualizing many distributions at once](https://serialmentor.com/dataviz/boxplots-violins.html) in Claus Wilke, *Fundamentals of Data Visualization* [@Wilke:2018]
+- <i class="fas fa-book"></i> [Chapter 7: Histograms and density plots](https://serialmentor.com/dataviz/histograms-density-plots.html), [Chapter 8: Empirical cumulative distribution functions](https://serialmentor.com/dataviz/ecdf-qq.html), [Chapter 9: Visualizing many distributions at once](https://serialmentor.com/dataviz/boxplots-violins.html) and [Chapter 16: Visualizing uncertanity](https://serialmentor.com/dataviz/visualizing-uncertainty.html) in Claus Wilke, *Fundamentals of Data Visualization* [@Wilke:2018]
 
 # Recommended
 

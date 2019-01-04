@@ -16,7 +16,7 @@ csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
 
 # Recommended
 
-- <i class="fas fa-external-link-square-alt"></i>[ggplot2 trial and error - US trade data](https://www.hvitfeldt.me/blog/ggplot2-trial-and-error-us-trade-data/) by Emil Hvitfeldt
+- <i class="fas fa-external-link-square-alt"></i> [ggplot2 trial and error - US trade data](https://www.hvitfeldt.me/blog/ggplot2-trial-and-error-us-trade-data/) by Emil Hvitfeldt
 
 - <i class="fas fa-book"></i> [Chapter 15: Visualizing geospatial trends](https://serialmentor.com/dataviz/geospatial-data.html) in Claus Wilke, *Fundamentals of Data Visualization* [@Wilke:2018]
 
