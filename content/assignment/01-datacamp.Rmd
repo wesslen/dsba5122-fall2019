@@ -9,10 +9,24 @@ editor_options:
 
 # DataCamp Course: Introduction to the Tidyverse by David Robinson
 
-![https://www.datacamp.com/enterprise/dsba5122-visual-analytics/assignments/38278](../../static/images/assignment/tidyverse.png)
+```{r out.width = "300px", echo=FALSE}
+knitr::include_graphics("https://assets.datacamp.com/production/course_4914/shields/original/shield_image_course_4914_20180824-15-gt3h0p?1535132842")
+```
 
 Here is the [link to the assigned course](https://www.datacamp.com/enterprise/dsba5122-visual-analytics/assignments/38278).
 
 For this DataCamp course, you'll learn about using `tidyverse` package from David Robinson, Chief Data Scientist for DataCamp.^[David is a prolific data scientist and blogger, whose blog ["Variance Explained"](http://varianceexplained.org/) is one of the most popular data science blogs. He has a great [blog post](http://varianceexplained.org/r/intro-tidyverse/) discussing the background of this course.]
 
-This assignment is worth 2.5 points and **must** be completed (in full) by the deadline for full credit.^[This course also has a companion mobile version! If you install the datacamp app, you can go through examples and practice on your phone. No need to complete that course but feel free to play around.]
+This course has four chapters:
+
+1. Data wrangling
+
+2. Data visualization
+
+3. Grouping and summarizing
+
+4. Types of visualizations.
+
+This will give you hands on experience using the `gapminder` dataset and focusing on `dplyr` and `ggplot2`.
+
+This assignment is worth 2.5 points and **must** be completed (in full, i.e., all four chapters) by the deadline for full credit.^[This course also has a companion mobile version! If you install the datacamp app, you can go through examples and practice on your phone. No need to complete that course but feel free to play around.]

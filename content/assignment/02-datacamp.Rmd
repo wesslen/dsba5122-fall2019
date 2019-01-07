@@ -9,7 +9,10 @@ editor_options:
 
 # DataCamp Course: Exploratory Data Analysis in R by David Robinson
 
-![https://www.datacamp.com/enterprise/dsba5122-visual-analytics/assignments/38801](../../static/images/assignment/eda.png)
+
+```{r out.width = "300px", echo=FALSE}
+knitr::include_graphics("https://assets.datacamp.com/production/course_1414/shields/original/shield_image_course_1414_20171103-211-2zvp9s?1509673388")
+```
 
 Here is the [link to the assigned course](https://www.datacamp.com/enterprise/dsba5122-visual-analytics/assignments/38801).
 

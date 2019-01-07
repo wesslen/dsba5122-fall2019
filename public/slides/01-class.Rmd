@@ -272,6 +272,10 @@ class: middle, center, inverse
 
 > “The greatest value of a picture is when it forces us to notice what we never expected to see.” — John Tukey
 
+```{r out.width = "200", fig.align="center", echo=FALSE}
+knitr::include_graphics("../images/slides/01-class/tukey.jpg")
+```
+
 ---
 class: middle, center
 
