@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DSBA 5122: Visual Analytics</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Ryan Wesslen" />
+    <meta name="date" content="2019-01-28" />
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# DSBA 5122: Visual Analytics
+## Class 2: Visual Representations Basics I
+### Ryan Wesslen
+### 2019-01-28
+
+---
+
+
+
+
+class: center, middle, inverse
+
+# The Truth Continuum (Chapter 3)
+
+"Any visualization is a model."
+
+--
+
+"The more adequately a model fits whatever it stands for without being needlessly complex, and the easier it is for its intended audience to interpret it correctly, the better it will be."
+
+---
+
+class: center, middle
+
+![](../images/slides/02-class/dubious1.png)
+
+---
+
+class: center, middle
+
+&lt;img src="../images/slides/02-class/dubious2.png" width="400px" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: center, middle
+
+&lt;img src="../images/slides/02-class/dubious3.png" width="400px" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: center
+
+&lt;img src="../images/slides/02-class/dubious4.png" width="500px" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: center, middle
+
+&lt;img src="../images/slides/02-class/dubious5.png" width="500px" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: center, middle
+
+&lt;img src="../images/slides/02-class/dubious6.png" width="650px" style="display: block; margin: auto;" /&gt;
+
+---
+
+&lt;img src="../images/slides/02-class/dubious7.png" width="650px" style="display: block; margin: auto;" /&gt;
+
+--
+
+"Good visualizations shouldn’t oversimplify information. **They need to clarify it.** In many cases, clarifying a subject requires increasing the amount of information, not reducing it."
+
+---
+
+&lt;img src="../images/slides/02-class/dubious8.png" width="650px" style="display: block; margin: auto;" /&gt;
+
+--
+
+"What you design is never exactly what your audience ends up interpreting, so **reducing the chances for misinterpretation becomes crucial.**"
+
+---
+
+class: middle, center, inverse
+
+Why Are We So Often Mistaken?
+
+---
+
+## 1. Patternicity Bug
+
+## 2. Storytelling Bug
+
+## 3. Confirmation Bug
+
+---
+
+# Patternicity Bug
+
+&lt;img src="../images/slides/02-class/patternicity.png" width="650px" style="display: block; margin: auto;" /&gt;
+
+---
+
+# Storytelling Bug
+
+---
+
+# Confirmation Bug
+
+--
+
+"The way we present information matters as much as the soundness of the information itself."
+
+---
+
+class: middle, center, inverse
+
+# Basic Principles of Visualization (Chapter 5)
+    </textarea>
+<script src="libs/remark-latest.min.js"></script>
+<script>var slideshow = remark.create();
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function() {
+  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})();</script>
+
+<script>
+(function() {
+  var i, text, code, codes = document.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+})();
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
