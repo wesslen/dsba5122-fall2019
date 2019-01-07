@@ -9,6 +9,8 @@ editor_options:
 
 # DataCamp Course: Exploratory Data Analysis in R by David Robinson
 
+![https://www.datacamp.com/enterprise/dsba5122-visual-analytics/assignments/38801](../../static/images/assignment/eda.png)
+
 Here is the [link to the assigned course](https://www.datacamp.com/enterprise/dsba5122-visual-analytics/assignments/38801).
 
 For this DataCamp course, you'll learn about doing exploratory data analysis, focusing on `ggplot2` and the related `tidyverse` packages (e.g., `dplyr`, `broom`).
