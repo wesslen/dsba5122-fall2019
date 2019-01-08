@@ -35,7 +35,7 @@ knitr::include_url('https://pkg.garrickadenbuie.com/gentle-ggplot2')
 
 # esquisse: ggplot2 add-in
 
-![](../../static/images/class/esquisse.gif)
+![](https://raw.githubusercontent.com/wesslen/dsba5122-spring2019/master/static/images/class/esquisse.gif)
 
 [esquisse](https://github.com/dreamRs/esquisse)
 
