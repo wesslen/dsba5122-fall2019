@@ -36,6 +36,10 @@ class: center, middle
 
 - What are you interested to learn more about data visualizations?
 
+--
+
+To do by next class: Send me an introduction email <rwesslen@uncc.edu> answering these questions. It's up to you on length. This is my chance to learn about your background.
+
 ---
 
 ![https://dsba5122-spring2019.netlify.com](../images/slides/01-class/course-site.png)
