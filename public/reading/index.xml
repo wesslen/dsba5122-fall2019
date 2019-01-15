@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Readings on Visual Analytics</title>
-    <link>https://dsba5122-spring2019.netlify.com/reading/</link>
+    <link>/reading/</link>
     <description>Recent content in Readings on Visual Analytics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 18 Mar 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://dsba5122-spring2019.netlify.com/reading/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/reading/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Unstructured text</title>
-      <link>https://dsba5122-spring2019.netlify.com/reading/08-reading/</link>
+      <link>/reading/08-reading/</link>
       <pubDate>Mon, 18 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dsba5122-spring2019.netlify.com/reading/08-reading/</guid>
+      <guid>/reading/08-reading/</guid>
       <description>Required   Chapter 1: Tidytext format and Chapter 3: Analyzing word and document frequency: tf-idf in Julia Silge and David Robinson, Tidy Text Mining in RJulia Silge and David Robinson, Text Mining with R (Sebastopol, California: O’Reilly Media, 2017), https://www.tidytextmining.com/.
   Recommended   Chapter 6: Topic modeling in Julia Silge and David Robinson, Tidy Text Mining in RIbid.
 
@@ -25,10 +25,10 @@
     
     <item>
       <title>Multidimensional &amp; Dimensionality Reduction</title>
-      <link>https://dsba5122-spring2019.netlify.com/reading/07-reading/</link>
+      <link>/reading/07-reading/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dsba5122-spring2019.netlify.com/reading/07-reading/</guid>
+      <guid>/reading/07-reading/</guid>
       <description>Required   Chapters 9 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
 
   Chapter 12: Visualizing associations in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
@@ -39,10 +39,10 @@
     
     <item>
       <title>Statistical Models</title>
-      <link>https://dsba5122-spring2019.netlify.com/reading/06-reading/</link>
+      <link>/reading/06-reading/</link>
       <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dsba5122-spring2019.netlify.com/reading/06-reading/</guid>
+      <guid>/reading/06-reading/</guid>
       <description>Required   Chapter 6: Work with Models in Healy.
   Chapter 22: Model introduction and Chapter 23: Model basics in Wickham/Grolemund.
   Recommended   Chapter 6: Basic Regression from “ModernDive: An Introduction to Statistical and Data Sciences via R” by Chester Ismay and Albert Y. Kim.This is an outstanding new book – with a free online version – that will be a big complement to the tidyverse in the future.</description>
@@ -50,10 +50,10 @@
     
     <item>
       <title>Distributions &amp; Uncertainty</title>
-      <link>https://dsba5122-spring2019.netlify.com/reading/05-reading/</link>
+      <link>/reading/05-reading/</link>
       <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dsba5122-spring2019.netlify.com/reading/05-reading/</guid>
+      <guid>/reading/05-reading/</guid>
       <description>Required   Chapters 7 and 11 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
 
   Chapter 7: Histograms and density plots, Chapter 8: Empirical cumulative distribution functions, Chapter 9: Visualizing many distributions at once and Chapter 16: Visualizing uncertanity in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.</description>
@@ -61,10 +61,10 @@
     
     <item>
       <title>Time &amp; Space</title>
-      <link>https://dsba5122-spring2019.netlify.com/reading/04-reading/</link>
+      <link>/reading/04-reading/</link>
       <pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dsba5122-spring2019.netlify.com/reading/04-reading/</guid>
+      <guid>/reading/04-reading/</guid>
       <description>Required   Chapter 8: “Revealing Change” and Chapter 10: “Mapping Data” in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
 
   Chapter 7: Maps in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
@@ -74,10 +74,10 @@
     
     <item>
       <title>Visual Representation Basics II</title>
-      <link>https://dsba5122-spring2019.netlify.com/reading/03-reading/</link>
+      <link>/reading/03-reading/</link>
       <pubDate>Mon, 04 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dsba5122-spring2019.netlify.com/reading/03-reading/</guid>
+      <guid>/reading/03-reading/</guid>
       <description>Required   Chapter 6: “Exploring Data with Simple Charts” in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
 
   Chapter 4: Show the right numbers in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
@@ -87,10 +87,10 @@
     
     <item>
       <title>Visual Representation Basics I</title>
-      <link>https://dsba5122-spring2019.netlify.com/reading/02-reading/</link>
+      <link>/reading/02-reading/</link>
       <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dsba5122-spring2019.netlify.com/reading/02-reading/</guid>
+      <guid>/reading/02-reading/</guid>
       <description>Required   Chapter 3: “Truth Continuum” and Chapter 5: “Basic Principles of Visualization” in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
    Chapter 1: Look at data in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
 
@@ -99,20 +99,20 @@ Recommended   Chapter 2: Aesthetic mapping in Claus Wilke, Fundamentals of Data 
     
     <item>
       <title>Intro to Visual Analytics</title>
-      <link>https://dsba5122-spring2019.netlify.com/reading/01-reading/</link>
+      <link>/reading/01-reading/</link>
       <pubDate>Mon, 14 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dsba5122-spring2019.netlify.com/reading/01-reading/</guid>
+      <guid>/reading/01-reading/</guid>
       <description> Required Given this is the first class, there are no required readings.
 Questions to reflect on  How do we know what is true? Are facts truth? Why do we visualize data? What makes a great visualization? How do you choose which kind of visualization to use?  </description>
     </item>
     
     <item>
       <title>Truth, beauty, and data revisited</title>
-      <link>https://dsba5122-spring2019.netlify.com/reading/14-reading/</link>
+      <link>/reading/14-reading/</link>
       <pubDate>Tue, 11 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://dsba5122-spring2019.netlify.com/reading/14-reading/</guid>
+      <guid>/reading/14-reading/</guid>
       <description> Required   Chapter 12 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
   Chapter 24 in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
   Ben Wellington, “Making data mean more through storytelling”  Jonathan Schwabish, “Better Data Communication,” National Bureau of Economic Research  Why People Make Bad Charts (and What to Do When it Happens)  Questions to reflect on  Questions TBD  </description>
@@ -120,10 +120,10 @@ Questions to reflect on  How do we know what is true? Are facts truth? Why do we
     
     <item>
       <title>Enhancing graphics</title>
-      <link>https://dsba5122-spring2019.netlify.com/reading/13-reading/</link>
+      <link>/reading/13-reading/</link>
       <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://dsba5122-spring2019.netlify.com/reading/13-reading/</guid>
+      <guid>/reading/13-reading/</guid>
       <description> Required   Chapter 15, Chapter 16, Chapter 18, Chapter 20, and Chapter 21 in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
   Chapter 8 in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
  Other readings TBD  Questions to reflect on  Questions TBD  </description>
@@ -131,10 +131,10 @@ Questions to reflect on  How do we know what is true? Are facts truth? Why do we
     
     <item>
       <title>Annotating and grouping</title>
-      <link>https://dsba5122-spring2019.netlify.com/reading/12-reading/</link>
+      <link>/reading/12-reading/</link>
       <pubDate>Tue, 27 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://dsba5122-spring2019.netlify.com/reading/12-reading/</guid>
+      <guid>/reading/12-reading/</guid>
       <description> Required   Chapter 17 and Chapter 19 in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
   Chapter 5 in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
  Other readings TBD  Questions to reflect on  Questions TBD  </description>
@@ -142,20 +142,20 @@ Questions to reflect on  How do we know what is true? Are facts truth? Why do we
     
     <item>
       <title>Text</title>
-      <link>https://dsba5122-spring2019.netlify.com/reading/11-reading/</link>
+      <link>/reading/11-reading/</link>
       <pubDate>Tue, 13 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://dsba5122-spring2019.netlify.com/reading/11-reading/</guid>
+      <guid>/reading/11-reading/</guid>
       <description>Required   Look through some of the chapters in Julia Silge and David Robinson, Tidy Text MiningJulia Silge and David Robinson, Text Mining with R (Sebastopol, California: O’Reilly Media, 2017), https://www.tidytextmining.com/.
  (but definitely don’t read them all! You just need to get a taste of what modern text analysis looks like.) A bunch of (really) short things:   Julia Silge, “She Giggles, He Gallops”  Abby Ohlheiser, “These are the words most associated with men and women, according to Facebook status updates”  Six Ideas for Displaying Qualitative Data  Word clouds considered harmful  Word clouds cause death… or something  When It’s Ok to Use Word Clouds  The Class of 2011  Every time Ford and Kavanaugh dodged a question, in one chart  Sentiment Analysis of The Book of Mormon  Tweet by @s_soroka   Questions to reflect on  Why is qualitative data difficult to visualize?</description>
     </item>
     
     <item>
       <title>Space</title>
-      <link>https://dsba5122-spring2019.netlify.com/reading/10-reading/</link>
+      <link>/reading/10-reading/</link>
       <pubDate>Tue, 06 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://dsba5122-spring2019.netlify.com/reading/10-reading/</guid>
+      <guid>/reading/10-reading/</guid>
       <description>Required   Chapter 10 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
   Chapter 7 in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
   It looks like this is a lot of reading, but lots of these are short videos or tweets or interactive websites, so don’t worry!</description>
@@ -163,10 +163,10 @@ Questions to reflect on  How do we know what is true? Are facts truth? Why do we
     
     <item>
       <title>Time</title>
-      <link>https://dsba5122-spring2019.netlify.com/reading/09-reading/</link>
+      <link>/reading/09-reading/</link>
       <pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://dsba5122-spring2019.netlify.com/reading/09-reading/</guid>
+      <guid>/reading/09-reading/</guid>
       <description>Required   Chapter 8 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
   The Nuclear Threat—The Shadow Peace, part 1  11 Ways to Visualize Changes Over Time – A Guide A bunch of (really) short blog posts:   Streamgraphs: Economic trade flows with R  A century of ocean shipping animated  What is seasonal adjustment and why is it used?</description>
     </item>
