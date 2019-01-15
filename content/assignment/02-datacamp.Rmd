@@ -14,6 +14,6 @@ editor_options:
 knitr::include_graphics("https://assets.datacamp.com/production/course_1414/shields/original/shield_image_course_1414_20171103-211-2zvp9s?1509673388")
 ```
 
-Here is the [link to the assigned course](https://www.datacamp.com/enterprise/dsba5122-visual-analytics/assignments/38801).
+Here is the [link to the assigned course](https://www.datacamp.com/enterprise/dsba5122-visual-analytics-58036aae-d5c5-424e-aa2a-eab645c8a12a/assignments/40874).
 
 For this DataCamp course, you'll learn about doing exploratory data analysis, focusing on `ggplot2` and the related `tidyverse` packages (e.g., `dplyr`, `broom`).

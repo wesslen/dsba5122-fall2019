@@ -37,7 +37,7 @@ menu:
       url: "https://unccdsba5122s2019.slack.com"
       weight: 6
     - name: DataCamp
-      url: "https://www.datacamp.com/enterprise/dsba5122-visual-analytics"
+      url: "https://www.datacamp.com/groups/dsba5122-visual-analytics-58036aae-d5c5-424e-aa2a-eab645c8a12a"
       weight: 7
 # Disable taxonomies
 taxonomies:
