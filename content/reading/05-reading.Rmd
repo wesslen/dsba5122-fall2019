@@ -20,4 +20,4 @@ csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
 
 [^pie]: {-} ![Software pie chart](/images/class/software-pie-chart.png) Figure 2 from @MomchevaTollerud:2015.
 
-- <i class="far fa-external-link-square-alt"></i> UW Interactive Data Lab, ["Value-Suppressing Uncertainty Palettes"](https://medium.com/@uwdata/value-suppressing-uncertainty-palettes-426130122ce9)
+- <i class="fas fa-external-link-square-alt"></i> UW Interactive Data Lab, ["Value-Suppressing Uncertainty Palettes"](https://medium.com/@uwdata/value-suppressing-uncertainty-palettes-426130122ce9)
