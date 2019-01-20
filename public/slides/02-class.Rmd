@@ -141,7 +141,7 @@ class: middle
 knitr::include_graphics("../images/slides/02-class/mach-bands.png")
 ```
 
-??
+???
 When the gray bars share a boundary, the apparent contrast between them appears to increase. Speaking loosely, we can say that our visual system is trying to construct a representation of what it is looking at based more on relative differences in the luminance (or brightness) of the bars, rather than their absolute value. Similarly, the ghostly blobs in the Hermann grid effect can be thought of as a side-effect of the visual system being tuned for a different task.
 ---
 

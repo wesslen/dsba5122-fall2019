@@ -1,14 +1,608 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Visual Analytics</title>
+    <title>Data visualization on Visual Analytics</title>
     <link>https://dsba5122-spring2019.netlify.com/</link>
-    <description>Recent content on Visual Analytics</description>
+    <description>Recent content in Data visualization on Visual Analytics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Mon, 22 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://dsba5122-spring2019.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>DSBA 5122: Visual Analytics</title>
+      <link>https://dsba5122-spring2019.netlify.com/slides/13-class/</link>
+      <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/slides/13-class/</guid>
+      <description> class: center, middle
+Welcome  </description>
+    </item>
+    
+    <item>
+      <title>Machine Learning</title>
+      <link>https://dsba5122-spring2019.netlify.com/class/13-class/</link>
+      <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/class/13-class/</guid>
+      <description>Contents  Slides Tweet of the day Links   Slides Download the slides from today’s lecture.
+Tweet of the day If I were to sum up the challenges in machine learning for healthcare in a single XKCD, this would definitely be the one: pic.twitter.com/9E88x4jtiQ — Andrew Beam (@AndrewLBeam) August 1, 2018   Links  Galit Shumuel’s “To Explain or To Predict?”
+ Enterprise Web Services with Neural Networks Using R and TensorFlow</description>
+    </item>
+    
+    <item>
+      <title>DSBA 5122: Visual Analytics</title>
+      <link>https://dsba5122-spring2019.netlify.com/slides/12-class/</link>
+      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/slides/12-class/</guid>
+      <description> class: center, middle
+Welcome  </description>
+    </item>
+    
+    <item>
+      <title>Deployment, Back-end and Scalability</title>
+      <link>https://dsba5122-spring2019.netlify.com/class/12-class/</link>
+      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/class/12-class/</guid>
+      <description> Contents  Slides Links   Slides Download the slides from today’s lecture.
+Links  Docker and `plumber’
+ Profiling a Shiny App
+ Persistent storage in Shiny Apps
+ Plot caching
+ Scaling Shiny Apps with async
+ Shiny unit testing with testhat
+  </description>
+    </item>
+    
+    <item>
+      <title>Problem set 4</title>
+      <link>https://dsba5122-spring2019.netlify.com/assignment/04-problem-set/</link>
+      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/assignment/04-problem-set/</guid>
+      <description>The instructions for this problem set will be posted at least one week before it is due.</description>
+    </item>
+    
+    <item>
+      <title>Coordinated Multiple Views: Interacting &amp; Brushing</title>
+      <link>https://dsba5122-spring2019.netlify.com/class/11-class/</link>
+      <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/class/11-class/</guid>
+      <description> Contents  Slides Links   Slides Download the slides from today’s lecture.
+Links  altair / vega editor
+ dragulaR
+  </description>
+    </item>
+    
+    <item>
+      <title>DSBA 5122: Visual Analytics</title>
+      <link>https://dsba5122-spring2019.netlify.com/slides/11-class/</link>
+      <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/slides/11-class/</guid>
+      <description> class: center, middle
+Welcome  </description>
+    </item>
+    
+    <item>
+      <title>DSBA 5122: Visual Analytics</title>
+      <link>https://dsba5122-spring2019.netlify.com/slides/10-class/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/slides/10-class/</guid>
+      <description> class: center, middle
+Welcome  </description>
+    </item>
+    
+    <item>
+      <title>Networks &amp; Trees</title>
+      <link>https://dsba5122-spring2019.netlify.com/class/10-class/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/class/10-class/</guid>
+      <description> Contents  Slides Tweet of the day   Slides Download the slides from today’s lecture.
+Tweet of the day Our lab&#39;s first preprint! Coral: an R shiny and D3.js web app for flexible, interactive, and high-resolution visualization of the human kinome. https://t.co/xD7QUXgjOR pic.twitter.com/1gGy9zzsBT — doug phanstiel (@dphansti) May 25, 2018   </description>
+    </item>
+    
+    <item>
+      <title>Design Contest Presentations</title>
+      <link>https://dsba5122-spring2019.netlify.com/class/09-class/</link>
+      <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/class/09-class/</guid>
+      <description>Contents  Slides   Slides No lecture/slides today; we’ll have each group present their design contest presentations (10 minutes for each group).</description>
+    </item>
+    
+    <item>
+      <title>Problem set 3</title>
+      <link>https://dsba5122-spring2019.netlify.com/assignment/03-problem-set/</link>
+      <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/assignment/03-problem-set/</guid>
+      <description>Task 0: Getting started Create a new RStudio project somewhere on your computer. Open that new folder in Windows File Explorer or macOS Finder (however you navigate around the files on your computer), and create a subfolder there named output.
+Download this R Markdown file and place it in your newly-created projectYou’ll probably have to right click on the link and choose “Save link as…”.
+ It contains an outline/skeleton of the one task you’ll need to do in this problem set.</description>
+    </item>
+    
+    <item>
+      <title>DSBA 5122: Visual Analytics</title>
+      <link>https://dsba5122-spring2019.netlify.com/slides/08-class/</link>
+      <pubDate>Mon, 18 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/slides/08-class/</guid>
+      <description> class: center, middle
+Welcome  </description>
+    </item>
+    
+    <item>
+      <title>Unstructured Text</title>
+      <link>https://dsba5122-spring2019.netlify.com/class/08-class/</link>
+      <pubDate>Mon, 18 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/class/08-class/</guid>
+      <description> Contents  Slides Links   Slides Download the slides from today’s lecture.
+Links  Tidy Text Mining by Julia Silge and David Robinson  </description>
+    </item>
+    
+    <item>
+      <title>Unstructured text</title>
+      <link>https://dsba5122-spring2019.netlify.com/reading/08-reading/</link>
+      <pubDate>Mon, 18 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/reading/08-reading/</guid>
+      <description>Required   Chapter 1: Tidytext format and Chapter 3: Analyzing word and document frequency: tf-idf in Julia Silge and David Robinson, Tidy Text Mining in RJulia Silge and David Robinson, Text Mining with R (Sebastopol, California: O’Reilly Media, 2017), https://www.tidytextmining.com/.
+  Recommended   Chapter 6: Topic modeling in Julia Silge and David Robinson, Tidy Text Mining in RIbid.
+
+  Ken Benoit, Kohei Watanabe, and Stefan Müller, “quanteda”quanteda is my favorite R-based text package.</description>
+    </item>
+    
+    <item>
+      <title>DSBA 5122: Visual Analytics</title>
+      <link>https://dsba5122-spring2019.netlify.com/slides/07-class/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/slides/07-class/</guid>
+      <description> class: center, middle
+Welcome  </description>
+    </item>
+    
+    <item>
+      <title>Multidimensional &amp; Dimensionality Reduction</title>
+      <link>https://dsba5122-spring2019.netlify.com/class/07-class/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/class/07-class/</guid>
+      <description> Contents  Slides Links   Slides Download the slides from today’s lecture.
+Links introducing stat_mds, dimensionality reduction in #ggplot2 using principal components analysis or tSNE https://t.co/HiShktJPjy #rstats #dataviz pic.twitter.com/5cY8315Tjk — Ben Dilday (@BenDilday) September 11, 2018   </description>
+    </item>
+    
+    <item>
+      <title>Multidimensional &amp; Dimensionality Reduction</title>
+      <link>https://dsba5122-spring2019.netlify.com/reading/07-reading/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/reading/07-reading/</guid>
+      <description>Required   Chapters 9 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
+
+  Chapter 12: Visualizing associations in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
+
+  Recommended   Kieran Healy, “Two y-axes”
+  Tyler Bradley, “PCA in a tidy(verse) framework”</description>
+    </item>
+    
+    <item>
+      <title>Final project</title>
+      <link>https://dsba5122-spring2019.netlify.com/assignment/final-project/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/assignment/final-project/</guid>
+      <description>The instructions for the final project will be posted by the end of February.</description>
+    </item>
+    
+    <item>
+      <title>DSBA 5122: Visual Analytics</title>
+      <link>https://dsba5122-spring2019.netlify.com/slides/06-class/</link>
+      <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/slides/06-class/</guid>
+      <description> class: center, middle
+Welcome  </description>
+    </item>
+    
+    <item>
+      <title>Statistical Models</title>
+      <link>https://dsba5122-spring2019.netlify.com/class/06-class/</link>
+      <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/class/06-class/</guid>
+      <description>Contents  Tweet of the day Slides Lab 6: Work with models in ggplot2   Tweet of the day At long last, the parsnip package is on CRAN. parsnip is a unified R interface to models. The first of two blog posts about the package is at https://t.co/PXgFJ8eucM #rstats #tidyverse pic.twitter.com/BmuA9exckK — Max Kuhn (@topepos) November 28, 2018   Slides Download the slides from today’s lecture.
+Lab 6: Work with models in ggplot2  Go to our healy-dataviz project and open “06_models.</description>
+    </item>
+    
+    <item>
+      <title>Statistical Models</title>
+      <link>https://dsba5122-spring2019.netlify.com/reading/06-reading/</link>
+      <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/reading/06-reading/</guid>
+      <description>Required   Chapter 6: Work with Models in Healy.
+  Chapter 22: Model introduction and Chapter 23: Model basics in Wickham/Grolemund.
+  Recommended   Chapter 6: Basic Regression from “ModernDive: An Introduction to Statistical and Data Sciences via R” by Chester Ismay and Albert Y. Kim.This is an outstanding new book – with a free online version – that will be a big complement to the tidyverse in the future.</description>
+    </item>
+    
+    <item>
+      <title>DSBA 5122: Visual Analytics</title>
+      <link>https://dsba5122-spring2019.netlify.com/slides/05-class/</link>
+      <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/slides/05-class/</guid>
+      <description>class: center, middle, inverse
+Defining Uncertanity and Risk Knightian Uncertainty, a la Donald Rumsfeld
+ Gigerenzer Separates the use of heuristics, or rule-of-thumbs
+class: middle, center, inverse
+ Bayesian theory class: middle, center, inverse
+ Safari example  Overview  Set-up: We’re on safari in South Africa and we want to see the lions.
+ Problem: We’re uncertain to the lions’ location.
+ Application: How can we design a visualization tool to aid our driver to help find the lions?</description>
+    </item>
+    
+    <item>
+      <title>Distributions &amp; Uncertainty</title>
+      <link>https://dsba5122-spring2019.netlify.com/reading/05-reading/</link>
+      <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/reading/05-reading/</guid>
+      <description>Required   Chapters 7 and 11 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
+
+  Chapter 7: Histograms and density plots, Chapter 8: Empirical cumulative distribution functions, Chapter 9: Visualizing many distributions at once and Chapter 16: Visualizing uncertanity in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.</description>
+    </item>
+    
+    <item>
+      <title>Distributions &amp; Uncertanity</title>
+      <link>https://dsba5122-spring2019.netlify.com/class/05-class/</link>
+      <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/class/05-class/</guid>
+      <description>Contents  Tweet of the Day Slides Links: Lab:   Tweet of the Day Slides from my #openvisconf talk: Tidy data and Bayesian analysis
+make uncertainty visualization fun! https://t.co/395TMdLBv0 #tidybayes pic.twitter.com/VHnAUbTsOp — Matthew Kay (@mjskay) May 15, 2018   Slides Download the slides from today’s lecture.
+Links: Kristoffer Magnusson’s
+ Bayesian Inference: An Interactive Visualization
+ Interpreting Confidence Intervals
+  Lab: Matthew Kay’s Uncertainty visualization examples</description>
+    </item>
+    
+    <item>
+      <title>Problem set 2</title>
+      <link>https://dsba5122-spring2019.netlify.com/assignment/02-problem-set/</link>
+      <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/assignment/02-problem-set/</guid>
+      <description>Task 0: Getting started Create a new RStudio project somewhere on your computer. Open that new folder in Windows Explorer or macOS Finder (however you navigate around the files on your computer), and create a subfolder there named data.
+Download all these files and place them in your new data/ folder.&amp;#8853;You’ll probably need to right click on each and choose “Save link as…”.
+
+  The_Fellowship_Of_The_Ring.csv  The_Two_Towers.csv  The_Return_Of_The_King.</description>
+    </item>
+    
+    <item>
+      <title>DSBA 5122: Visual Analytics</title>
+      <link>https://dsba5122-spring2019.netlify.com/slides/04-class/</link>
+      <pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/slides/04-class/</guid>
+      <description> class: center, middle
+Welcome  </description>
+    </item>
+    
+    <item>
+      <title>Time &amp; Space</title>
+      <link>https://dsba5122-spring2019.netlify.com/class/04-class/</link>
+      <pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/class/04-class/</guid>
+      <description>Contents  Tweet of the day Slides Links Lab 4: Draw Maps in ggplot2   Tweet of the day Rumour has it ??? killed his talk last night…
+⏰ “Time series &amp;amp; financial analysis in the tidyverse” 📽 https://t.co/h2jGX0fZ38 #rstats * feat. ???&#39;s {tsibble}, ??? 📦s, and {rsample} pic.twitter.com/fYrC1hoHLB — Mara Averick (@dataandme) September 26, 2018   Slides Download the slides from today’s lecture.
+Links  Pudding’s “Human Terrain”  Lab 4: Draw Maps in ggplot2  Go to our healy-dataviz project and open “07_maps.</description>
+    </item>
+    
+    <item>
+      <title>Time &amp; Space</title>
+      <link>https://dsba5122-spring2019.netlify.com/reading/04-reading/</link>
+      <pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/reading/04-reading/</guid>
+      <description>Required   Chapter 8: “Revealing Change” and Chapter 10: “Mapping Data” in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
+
+  Chapter 7: Maps in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
+
+  Chapter 13: Visualizing time series and Chapter 14: Visualizing trends in Claus Wilke, Fundamentals of Data VisualizationClaus E.</description>
+    </item>
+    
+    <item>
+      <title>DSBA 5122: Visual Analytics</title>
+      <link>https://dsba5122-spring2019.netlify.com/slides/03-class/</link>
+      <pubDate>Mon, 04 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/slides/03-class/</guid>
+      <description> class: center, middle
+Welcome  </description>
+    </item>
+    
+    <item>
+      <title>Datacamp Course 1</title>
+      <link>https://dsba5122-spring2019.netlify.com/assignment/02-datacamp/</link>
+      <pubDate>Mon, 04 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/assignment/02-datacamp/</guid>
+      <description>DataCamp Course: Exploratory Data Analysis in R by David Robinson Here is the link to the assigned course.
+For this DataCamp course, you’ll learn about doing exploratory data analysis, focusing on ggplot2 and the related tidyverse packages (e.g., dplyr, broom).</description>
+    </item>
+    
+    <item>
+      <title>Visual Representation Basics II</title>
+      <link>https://dsba5122-spring2019.netlify.com/class/03-class/</link>
+      <pubDate>Mon, 04 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/class/03-class/</guid>
+      <description>Contents  Tweet of the Day Slides Lab 3: Make a plot (ggplot2)   Tweet of the Day 🌟 guide to visual encoding types from ???&#39;s “Visualization &amp;amp; Journalism” https://t.co/A2x96QYNoL #dataviz #infovis pic.twitter.com/2FIyXeWk4h — Mara Averick (@dataandme) October 17, 2018   Tamara Munzner is one of the most influential data visualization researchers. Her textbook “Visualization Analysis and Design” is one of the most popular data viz books and some of her students are now leaders in data viz (e.</description>
+    </item>
+    
+    <item>
+      <title>Visual Representation Basics II</title>
+      <link>https://dsba5122-spring2019.netlify.com/reading/03-reading/</link>
+      <pubDate>Mon, 04 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/reading/03-reading/</guid>
+      <description>Required   Chapter 6: “Exploring Data with Simple Charts” in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
+
+  Chapter 4: Show the right numbers in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
+
+  Recommended   Chapter 5: Directory of visualizations and Chapter 22: Image file formats in Claus Wilke, Fundamentals of Data VisualizationClaus E.</description>
+    </item>
+    
+    <item>
+      <title>DSBA 5122: Visual Analytics</title>
+      <link>https://dsba5122-spring2019.netlify.com/slides/02-class/</link>
+      <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/slides/02-class/</guid>
+      <description>class: center, middle, inverse
+The Truth Continuum (Chapter 3) “Any visualization is a model.”
+–
+“The more adequately a model fits whatever it stands for without being needlessly complex, and the easier it is for its intended audience to interpret it correctly, the better it will be.”
+class: center, middle
+class: center, middle
+class: center, middle
+class: center
+class: center, middle
+class: center, middle
+–
+“Good visualizations shouldn’t oversimplify information.</description>
+    </item>
+    
+    <item>
+      <title>Problem set 1</title>
+      <link>https://dsba5122-spring2019.netlify.com/assignment/01-problem-set/</link>
+      <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/assignment/01-problem-set/</guid>
+      <description>a.sourceLine { display: inline-block; line-height: 1.25; } a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; } a.sourceLine:empty { height: 1.2em; } .sourceCode { overflow: visible; } code.sourceCode { white-space: pre; position: relative; } div.sourceCode { margin: 1em 0; } pre.sourceCode { margin: 0; } @media screen { div.sourceCode { overflow: auto; } } @media print { code.sourceCode { white-space: pre-wrap; } a.sourceLine { text-indent: -1em; padding-left: 1em; } } pre.</description>
+    </item>
+    
+    <item>
+      <title>Visual Representation Basics I</title>
+      <link>https://dsba5122-spring2019.netlify.com/class/02-class/</link>
+      <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/class/02-class/</guid>
+      <description>Contents  Tweet of the day Slides Helpful Materials esquisse: ggplot2 add-in Lab 2: Make a plot (ggplot2)   Tweet of the day Visual encoding is itself a data transformation, often applied after a chain of other transformations. This is “first week of class”, table stakes stuff. Sad if true that we don’t internalize this! — Jeffrey Heer (@jeffrey_heer) August 11, 2018   Enrico Bertini is a data visualization researcher at NYU who co-hosts (with Moritz Stefaner) the podcast “Data Stories”, which I highly recommend.</description>
+    </item>
+    
+    <item>
+      <title>Visual Representation Basics I</title>
+      <link>https://dsba5122-spring2019.netlify.com/reading/02-reading/</link>
+      <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/reading/02-reading/</guid>
+      <description>Required   Chapter 3: “Truth Continuum” and Chapter 5: “Basic Principles of Visualization” in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
+   Chapter 1: Look at data in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
+
+Recommended   Chapter 2: Aesthetic mapping in Claus Wilke, Fundamentals of Data VisualizationClaus E.</description>
+    </item>
+    
+    <item>
+      <title>DSBA 5122: Visual Analytics</title>
+      <link>https://dsba5122-spring2019.netlify.com/slides/01-class/</link>
+      <pubDate>Mon, 14 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/slides/01-class/</guid>
+      <description>class: center, middle
+Welcome  Introduce yourself  Name
+ What’s your academic and professional background?
+ Programming &amp;amp; visualization experience (e.g., tools like R, Tableau, Spotfire, etc.)
+ What are you interested in learning more about with data visualizations?
+  To do by next class: Send me an introduction email rwesslen@uncc.edu answering these questions. It’s up to you on length. This is my chance to learn about your background.</description>
+    </item>
+    
+    <item>
+      <title>Datacamp Course 1</title>
+      <link>https://dsba5122-spring2019.netlify.com/assignment/01-datacamp/</link>
+      <pubDate>Mon, 14 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/assignment/01-datacamp/</guid>
+      <description>DataCamp Course: Introduction to the Tidyverse by David Robinson Here is the link to the assigned course.
+For this DataCamp course, you’ll learn about using tidyverse package from David Robinson, Chief Data Scientist for DataCamp.David is a prolific data scientist and blogger, whose blog “Variance Explained” is one of the most popular data science blogs. He has a great blog post discussing the background of this course.
+
+This course has four chapters:</description>
+    </item>
+    
+    <item>
+      <title>Intro to Visual Analytics</title>
+      <link>https://dsba5122-spring2019.netlify.com/reading/01-reading/</link>
+      <pubDate>Mon, 14 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/reading/01-reading/</guid>
+      <description> Required Given this is the first class, there are no required readings.
+Questions to reflect on  How do we know what is true? Are facts truth? Why do we visualize data? What makes a great visualization? How do you choose which kind of visualization to use?  </description>
+    </item>
+    
+    <item>
+      <title>Introduction to Visual Analytics</title>
+      <link>https://dsba5122-spring2019.netlify.com/class/01-class/</link>
+      <pubDate>Mon, 14 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/class/01-class/</guid>
+      <description>Contents  Tweet of the day: Slides &amp;amp; Lab   Tweet of the day: Any time I have been struggling to learn a new tool/technology/software … I go back to this short clip I cut out of ???&#39;s 2014 ??? tutorial on Dplyr to motivate myself to keep pushing through … learning new tools is hard for everyone at the beginning! pic.twitter.com/RevpkSJqWc — Aliakbar Akbaritabar (Ali) (@Akbaritabar) July 25, 2018   Hadley Wickham is the R guru amongst gurus.</description>
+    </item>
+    
+    <item>
+      <title>Truth, beauty, and data revisited</title>
+      <link>https://dsba5122-spring2019.netlify.com/reading/14-reading/</link>
+      <pubDate>Tue, 11 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/reading/14-reading/</guid>
+      <description> Required   Chapter 12 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
+  Chapter 24 in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
+  Ben Wellington, “Making data mean more through storytelling”  Jonathan Schwabish, “Better Data Communication,” National Bureau of Economic Research  Why People Make Bad Charts (and What to Do When it Happens)  Questions to reflect on  Questions TBD  </description>
+    </item>
+    
+    <item>
+      <title>Enhancing graphics</title>
+      <link>https://dsba5122-spring2019.netlify.com/reading/13-reading/</link>
+      <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/reading/13-reading/</guid>
+      <description> Required   Chapter 15, Chapter 16, Chapter 18, Chapter 20, and Chapter 21 in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
+  Chapter 8 in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
+ Other readings TBD  Questions to reflect on  Questions TBD  </description>
+    </item>
+    
+    <item>
+      <title>Annotating and grouping</title>
+      <link>https://dsba5122-spring2019.netlify.com/reading/12-reading/</link>
+      <pubDate>Tue, 27 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/reading/12-reading/</guid>
+      <description> Required   Chapter 17 and Chapter 19 in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
+  Chapter 5 in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
+ Other readings TBD  Questions to reflect on  Questions TBD  </description>
+    </item>
+    
+    <item>
+      <title>Problem set 5</title>
+      <link>https://dsba5122-spring2019.netlify.com/assignment/05-problem-set/</link>
+      <pubDate>Tue, 13 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/assignment/05-problem-set/</guid>
+      <description>The instructions for this problem set will be posted at least one week before it is due.</description>
+    </item>
+    
+    <item>
+      <title>Text</title>
+      <link>https://dsba5122-spring2019.netlify.com/reading/11-reading/</link>
+      <pubDate>Tue, 13 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/reading/11-reading/</guid>
+      <description>Required   Look through some of the chapters in Julia Silge and David Robinson, Tidy Text MiningJulia Silge and David Robinson, Text Mining with R (Sebastopol, California: O’Reilly Media, 2017), https://www.tidytextmining.com/.
+ (but definitely don’t read them all! You just need to get a taste of what modern text analysis looks like.) A bunch of (really) short things:   Julia Silge, “She Giggles, He Gallops”  Abby Ohlheiser, “These are the words most associated with men and women, according to Facebook status updates”  Six Ideas for Displaying Qualitative Data  Word clouds considered harmful  Word clouds cause death… or something  When It’s Ok to Use Word Clouds  The Class of 2011  Every time Ford and Kavanaugh dodged a question, in one chart  Sentiment Analysis of The Book of Mormon  Tweet by @s_soroka   Questions to reflect on  Why is qualitative data difficult to visualize?</description>
+    </item>
+    
+    <item>
+      <title>Space</title>
+      <link>https://dsba5122-spring2019.netlify.com/reading/10-reading/</link>
+      <pubDate>Tue, 06 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/reading/10-reading/</guid>
+      <description>Required   Chapter 10 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
+  Chapter 7 in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
+  It looks like this is a lot of reading, but lots of these are short videos or tweets or interactive websites, so don’t worry!</description>
+    </item>
+    
+    <item>
+      <title>Time</title>
+      <link>https://dsba5122-spring2019.netlify.com/reading/09-reading/</link>
+      <pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/reading/09-reading/</guid>
+      <description>Required   Chapter 8 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
+  The Nuclear Threat—The Shadow Peace, part 1  11 Ways to Visualize Changes Over Time – A Guide A bunch of (really) short blog posts:   Streamgraphs: Economic trade flows with R  A century of ocean shipping animated  What is seasonal adjustment and why is it used?</description>
+    </item>
+    
+    <item>
+      <title>Assignments</title>
+      <link>https://dsba5122-spring2019.netlify.com/assignments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/assignments/</guid>
+      <description>DataCamp Courses You will need to complete four DataCamp courses, each is 2.5 points. Points will be allocated for all (2.5 points) for completion or 0 points (not completed) by the assigned date. These will be assigned on DataCamp and are intended to reinforce the programming assignments and material.
+About half-way through the semester (February-March), additional DataCamp courses may be provided for extra credit points.
+Problem sets To practice working with RStudio and making data-based graphics, you will complete a series of 4 problem sets.</description>
+    </item>
+    
+    <item>
+      <title>Final projects</title>
+      <link>https://dsba5122-spring2019.netlify.com/final-projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/final-projects/</guid>
+      <description>Contents  Helpful links   For their final projects, students will develop their own Shiny app to develop an interactive visualization on an interesting data-intensive problem.
+Helpful links Mike Kearney’s list of 3,000+ Shiny Apps shared on TwitterThis site is a great place to start for getting motivation. Find someone else’s app. Look at their code. Get ideas of what can improve their visualization. Learn new ways to present data.</description>
+    </item>
+    
+    <item>
+      <title>Installing R, RStudio, and tidyverse</title>
+      <link>https://dsba5122-spring2019.netlify.com/install/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/install/</guid>
+      <description>You will do all of your visualization work in this class with the open source (and free!) programming language R. You will use RStudio as the main program to access R. Think of R as an engine and RStudio as a car dashboard—R handles all the calculations and the actual statistics, while RStudio provides a nice interface for running R code.
+RStudio.cloud R is free, but it can sometimes be a pain to install and configure.</description>
+    </item>
+    
+    <item>
+      <title>Reference</title>
+      <link>https://dsba5122-spring2019.netlify.com/reference/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/reference/</guid>
+      <description>Contents  Citations and bibliography Interesting and excellent real world examples How to select the appropriate chart type Helpful data visualization resources Visualization in Excel Visualization in Tableau Information Visualization &amp;amp; Visual Analytics Courses Working with R and ggplot2 R in the wild Data Pulling your own data: Past datasets:  Colors Fonts Markdown   Citations and bibliography &amp;#8853;You can open the file in BibDesk on macOS, JabRef on Windows, or Zotero or Mendeley online.</description>
+    </item>
+    
+    <item>
+      <title>Schedule</title>
+      <link>https://dsba5122-spring2019.netlify.com/schedule/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/schedule/</guid>
+      <description> Here’s your roadmap for the semester!
+  Readings should be completed before each class session  Assignments are due by 11:59 PM on the day they are due  Class materials (slides, in-class activities, etc.) will be added on the day of class     Information Visualization Reading Assignment Class   January 14 Intro to Visual Analytics      January 14 Datacamp course 1 (Due Jan 29)      January 21 No class (MLK Holiday)      January 28 Visual Representation Basics I      January 28 Problem set 1 (Due Feb 4)      February 4 Visual Representation Basics II      February 4 Datacamp course 2 (Due Feb 19)      February 11 Time &amp;amp; Space      February 18 Distributions &amp;amp; Uncertainty      February 18 Problem set 2 (Due Feb 25)       Interactive Visualizations Reading Assignment Class   February 25 Statistical Models      February 25 Design Contest assigned (Due Mar 25)      February 25 Datacamp course 3 (Due Mar 12)      March 4 No class (Spring Break)      March 11 Multidimensional &amp;amp; Dimensionality Reduction      March 18 Unstructured Text      March 25 Design Contest Presentations      March 25 Problem set 3 (Due Apr 1)      April 1 Networks and Trees      April 1 Final project assigned (Due May 6)      April 1 Datacamp course 4 (Due Apr 16)       Advanced Topics Reading Assignment Class   April 8 Coordinated Multiple Views: Interacting &amp;amp; Brushing      April 15 Deployment, Back-end and Scalability      April 15 Problem set 4 (Due Apr 22)      April 22 Machine Learning      April 29 Wrap-up       Final Reading Assignment Class   May 6 Final project due       </description>
+    </item>
+    
+    <item>
+      <title>Syllabus</title>
+      <link>https://dsba5122-spring2019.netlify.com/syllabus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/syllabus/</guid>
+      <description>Data rarely speaks for itself.&amp;#8853;Instructor
+Ryan Wesslen
+ TBD
+rwesslen@uncc.edu
+@ryanwesslen
+ Office hours: TBD.
+Course
+ Mondays
+ January 14 – May 6, 2019
+ 6:00–8:50 PM
+ Room 110M: Packard Place
+ Slack
+ By itself, the facts contained in raw data are difficult to understand, and in the absence of beauty and order, it is impossible to understand the truth that the data shows.
+In this class, you’ll learn how to use industry-standard graphic and data design techniques to create beautiful, understandable visualizations and uncover truth in data.</description>
+    </item>
     
   </channel>
 </rss>
