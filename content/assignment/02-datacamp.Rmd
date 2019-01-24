@@ -1,5 +1,5 @@
 ---
-title: "Datacamp Course 1"
+title: "Datacamp Course 2"
 date: "2019-02-04"
 due_date: "2019-02-19"
 due_time: "11:59 PM"

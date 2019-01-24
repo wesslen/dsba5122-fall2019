@@ -21,6 +21,16 @@
     </item>
     
     <item>
+      <title>Datacamp Course 4</title>
+      <link>https://dsba5122-spring2019.netlify.com/assignment/04-datacamp/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/assignment/04-datacamp/</guid>
+      <description>DataCamp Course: Building Web Applications in R with Shiny: Case Studies by Dean Attali Here is the link to the assigned course.
+For this DataCamp course, you’ll learn more about shiny using hands on case studies. The instructor for this course is a shiny expert who’s shinyjs package helps blend JavaScript code snippets within Shiny. He also has a great advanced shiny blog post that provides a lot of great tips for more customized functionality.</description>
+    </item>
+    
+    <item>
       <title>Problem set 3</title>
       <link>https://dsba5122-spring2019.netlify.com/assignment/03-problem-set/</link>
       <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
@@ -41,6 +51,16 @@ Download this R Markdown file and place it in your newly-created projectYou’ll
     </item>
     
     <item>
+      <title>Datacamp Course 3</title>
+      <link>https://dsba5122-spring2019.netlify.com/assignment/03-datacamp/</link>
+      <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/assignment/03-datacamp/</guid>
+      <description>DataCamp Course: Building Web Applications in R with Shiny by Mine Cetinkaya-Rundel Here is the link to the assigned course.
+For this DataCamp course, you’ll learn about shiny, the framework for developing html-based interactive visualizations without requiring HTML, CSS, or JavaScript experiment (though it will help tremendously if you have a background).</description>
+    </item>
+    
+    <item>
       <title>Problem set 2</title>
       <link>https://dsba5122-spring2019.netlify.com/assignment/02-problem-set/</link>
       <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
@@ -53,7 +73,7 @@ Download all these files and place them in your new data/ folder.&amp;#8853;You�
     </item>
     
     <item>
-      <title>Datacamp Course 1</title>
+      <title>Datacamp Course 2</title>
       <link>https://dsba5122-spring2019.netlify.com/assignment/02-datacamp/</link>
       <pubDate>Mon, 04 Feb 2019 00:00:00 +0000</pubDate>
       

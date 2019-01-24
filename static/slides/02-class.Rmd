@@ -21,9 +21,7 @@ class: center, middle, inverse
 
 # The Truth Continuum (Chapter 3)
 
-"Any visualization is a model."
-
---
+### "Any visualization is a model."
 
 "The more adequately a model fits whatever it stands for without being needlessly complex, and the easier it is for its intended audience to interpret it correctly, the better it will be."
 
@@ -35,7 +33,7 @@ class: center, middle
 
 ---
 
-class: center
+class: center, middle
 
 ```{r out.width = "500px", fig.align="center", echo=FALSE}
 knitr::include_graphics("../images/slides/02-class/dubious4.png")
@@ -63,17 +61,17 @@ knitr::include_graphics("../images/slides/02-class/dubious6.png")
 knitr::include_graphics("../images/slides/02-class/dubious7.png")
 ```
 
---
+???
 
 "Good visualizations shouldn’t oversimplify information. **They need to clarify it.** In many cases, clarifying a subject requires increasing the amount of information, not reducing it."
 
----
+--
 
 ```{r out.width = "650px", fig.align="center", echo=FALSE}
 knitr::include_graphics("../images/slides/02-class/dubious8.png")
 ```
 
---
+???
 
 "What you design is never exactly what your audience ends up interpreting, so **reducing the chances for misinterpretation becomes crucial.**"
 
@@ -81,15 +79,9 @@ knitr::include_graphics("../images/slides/02-class/dubious8.png")
 
 class: middle, center, inverse
 
-Why Are We So Often Mistaken?
+# Why Are We So Often Mistaken?
 
----
-
-## 1. Patternicity Bug
-
-## 2. Storytelling Bug
-
-## 3. Confirmation Bug
+### Cairo's three "bugs" in thinking (Ch. 3)
 
 ---
 
@@ -103,19 +95,57 @@ knitr::include_graphics("../images/slides/02-class/patternicity.png")
 
 # Storytelling Bug
 
+### Once we detect patterns, we naturally try to find a cause-effect explanation for them.
+
+### Storytelling can be a potent tool for communicating effectively, but it is *dangerous if it blinds us toward evidence that should compel us to tweak or discard our models*.
+
 ---
 
 # Confirmation Bug
 
---
+### - Once a good story takes over our understanding of something, we’ll attach to it like leeches to warm, plump flesh. **An attack on our beliefs will be seen as personal.**
 
-"The way we present information matters as much as the soundness of the information itself."
+### - "The way we present information matters as much as the soundness of the information itself."
+
+---
+
+class: middle, center, inverse
+
+# Truth Is Neither Absolute, Nor Relative (Chapter 3)
 
 ---
 
 class: middle, center, inverse
 
 # Basic Principles of Visualization (Chapter 5)
+
+---
+
+# Cairo's design suggestions for visualizations:
+
+### 1. Think about the task or tasks you want to enable
+
+### 2. Try different graphic forms
+
+### 3. Arrange the components of the graphic 
+
+### 4. Test the outcomes 
+
+---
+
+# 1. Think about the task or tasks you want to enable
+
+---
+
+# 2. Try different graphic forms
+
+---
+
+# 3. Arrange the components of the graphic
+
+---
+
+# 4. Test the outcomes
 
 ---
 
@@ -145,7 +175,7 @@ knitr::include_graphics("../images/slides/02-class/mach-bands.png")
 When the gray bars share a boundary, the apparent contrast between them appears to increase. Speaking loosely, we can say that our visual system is trying to construct a representation of what it is looking at based more on relative differences in the luminance (or brightness) of the bars, rather than their absolute value. Similarly, the ghostly blobs in the Hermann grid effect can be thought of as a side-effect of the visual system being tuned for a different task.
 ---
 
-class: middle
+class: middle, inverse
 
 # Pre-attentive
 
@@ -155,7 +185,7 @@ knitr::include_graphics("../images/slides/02-class/pre-attentive.png")
 
 ---
 
-class: middle
+class: middle, inverse
 
 # Multichannel
 

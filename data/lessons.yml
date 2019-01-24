@@ -59,6 +59,7 @@ lessons:
     
   - title: "**Datacamp course 3 (Due Mar 12)**"
     date: "February 25"
+    assignment: "03-datacamp"
     
   - title: "No class (Spring Break)"
     date: "March 4"
@@ -89,7 +90,7 @@ lessons:
     
   - title: "**Datacamp course 4 (Due Apr 16)**"
     date: "April 1"
-    #assignment: "04-datacamp"
+    assignment: "04-datacamp"
 
   - title: '<span class="fake-header-table">Advanced Topics</span>'
     header: True

@@ -100,6 +100,16 @@ Welcome  </description>
     </item>
     
     <item>
+      <title>Datacamp Course 4</title>
+      <link>https://dsba5122-spring2019.netlify.com/assignment/04-datacamp/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/assignment/04-datacamp/</guid>
+      <description>DataCamp Course: Building Web Applications in R with Shiny: Case Studies by Dean Attali Here is the link to the assigned course.
+For this DataCamp course, you’ll learn more about shiny using hands on case studies. The instructor for this course is a shiny expert who’s shinyjs package helps blend JavaScript code snippets within Shiny. He also has a great advanced shiny blog post that provides a lot of great tips for more customized functionality.</description>
+    </item>
+    
+    <item>
       <title>Networks &amp; Trees</title>
       <link>https://dsba5122-spring2019.netlify.com/class/10-class/</link>
       <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
@@ -212,6 +222,16 @@ Links introducing stat_mds, dimensionality reduction in #ggplot2 using principal
       <guid>https://dsba5122-spring2019.netlify.com/slides/06-class/</guid>
       <description> class: center, middle
 Welcome  </description>
+    </item>
+    
+    <item>
+      <title>Datacamp Course 3</title>
+      <link>https://dsba5122-spring2019.netlify.com/assignment/03-datacamp/</link>
+      <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/assignment/03-datacamp/</guid>
+      <description>DataCamp Course: Building Web Applications in R with Shiny by Mine Cetinkaya-Rundel Here is the link to the assigned course.
+For this DataCamp course, you’ll learn about shiny, the framework for developing html-based interactive visualizations without requiring HTML, CSS, or JavaScript experiment (though it will help tremendously if you have a background).</description>
     </item>
     
     <item>
@@ -333,7 +353,7 @@ Welcome  </description>
     </item>
     
     <item>
-      <title>Datacamp Course 1</title>
+      <title>Datacamp Course 2</title>
       <link>https://dsba5122-spring2019.netlify.com/assignment/02-datacamp/</link>
       <pubDate>Mon, 04 Feb 2019 00:00:00 +0000</pubDate>
       
@@ -348,7 +368,7 @@ For this DataCamp course, you’ll learn about doing exploratory data analysis, 
       <pubDate>Mon, 04 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/class/03-class/</guid>
-      <description>Contents  Tweet of the Day Slides Lab 3: Make a plot (ggplot2)   Tweet of the Day 🌟 guide to visual encoding types from ???&#39;s “Visualization &amp;amp; Journalism” https://t.co/A2x96QYNoL #dataviz #infovis pic.twitter.com/2FIyXeWk4h — Mara Averick (@dataandme) October 17, 2018   Tamara Munzner is one of the most influential data visualization researchers. Her textbook “Visualization Analysis and Design” is one of the most popular data viz books and some of her students are now leaders in data viz (e.</description>
+      <description>Contents  Tweet of the Day Slides Lab 3: Make a plot (ggplot2)   Tweet of the Day 🌟 guide to visual encoding types from ???&#39;s “Visualization &amp;amp; Journalism” https://t.co/A2x96QYNoL #dataviz #infovis pic.twitter.com/2FIyXeWk4h — Mara Averick (@dataandme) October 17, 2018   Tamara Munzner is one of the most influential data visualization researchers. Her textbook “Visualization Analysis and Design” is one of the most popular data viz books and some of her former students are now leaders in data viz (e.</description>
     </item>
     
     <item>

@@ -1,0 +1,19 @@
+---
+title: "Datacamp Course 4"
+date: "2019-04-01"
+due_date: "2019-04-16"
+due_time: "11:59 PM"
+editor_options: 
+  chunk_output_type: console
+---
+
+# DataCamp Course: Building Web Applications in R with Shiny: Case Studies by Dean Attali
+
+
+```{r out.width = "300px", echo=FALSE}
+knitr::include_graphics("https://assets.datacamp.com/production/course_3805/shields/original/shield_image_course_3805_20180131-12-kwbbfq?1517372954")
+```
+
+Here is the [link to the assigned course](https://www.datacamp.com/enterprise/dsba5122-visual-analytics-58036aae-d5c5-424e-aa2a-eab645c8a12a/assignments/42167).
+
+For this DataCamp course, you'll learn more about `shiny` using hands on case studies. The instructor for this course is a shiny expert who's `shinyjs` package helps blend JavaScript code snippets within Shiny. He also has a great [advanced shiny blog post](https://deanattali.com/blog/advanced-shiny-tips/) that provides a lot of great tips for more customized functionality.
