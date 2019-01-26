@@ -20,11 +20,13 @@ editor_options:
 
 # Slides
 
-[Download the slides from today's lecture]().
+```{r echo=FALSE}
+knitr::include_url('../../slides/02-class.html#1')
+```
 
 # Helpful Materials
 
-* Omayma Said's [Intro to the Tidyverse: Data Manipulation using dplyr](https://speakerdeck.com/omaymas/data-manipulation-with-dplyr-first-steps)^[Click the link to open up in its own window. It'll make it easier to read.]
+* Omayma Said's [Intro to the Tidyverse: Data Manipulation using dplyr](https://speakerdeck.com/omaymas/data-manipulation-with-dplyr-first-steps)
 
 * Garrick Aden Buie's [A Gentle Guide to the Grammar of Graphics
 with ggplot2](https://pkg.garrickadenbuie.com/gentle-ggplot2)
