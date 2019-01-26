@@ -4,8 +4,8 @@ subtitle: "Why R (and RStudio)?"
 author: "Ryan Wesslen"
 date: '2019-01-28'
 citeproc: false
-bibliography: ../../static/bib/references.bib
-csl: ../../static/bib/chicago-syllabus-no-bib.csl
+bibliography: ../../10bib/references.bib
+csl: ../../10bib/chicago-syllabus-no-bib.csl
 output:
   xaringan::moon_reader:
     nature: 
@@ -23,14 +23,14 @@ mono_accent(base_color = "#046A38")
 
 # What is R?
 
-![](../../static/images/slides/dsba-rintro/r.gif)
+![](../../images/slides/dsba-rintro/r.gif)
 
 ---
 
 # What is RStudio?
 
 ```{r echo=FALSE, out.width = '80%'}
-knitr::include_graphics("../../static/images/slides/dsba-rintro/rstudio.gif")
+knitr::include_graphics("../../images/slides/dsba-rintro/rstudio.gif")
 ```
 
 ---
@@ -50,31 +50,31 @@ It's free, as in ... free beer?
 
 ---
 
-![](../../static/images/slides/dsba-rintro/r1.png)
+![](../../images/slides/dsba-rintro/r1.png)
 
 ---
 
-![](../../static/images/slides/dsba-rintro/r2.png)
+![](../../images/slides/dsba-rintro/r2.png)
 
 ---
 
-![](../../static/images/slides/dsba-rintro/r3.png)
+![](../../images/slides/dsba-rintro/r3.png)
 
 ---
 
-![](../../static/images/slides/dsba-rintro/r4.png)
+![](../../images/slides/dsba-rintro/r4.png)
 
 ---
 
-![](../../static/images/slides/dsba-rintro/r5.png)
+![](../../images/slides/dsba-rintro/r5.png)
 
 ---
 
-![](../../static/images/slides/dsba-rintro/r6.png)
+![](../../images/slides/dsba-rintro/r6.png)
 
 ---
 
-![](../../static/images/slides/dsba-rintro/r7.png)
+![](../../images/slides/dsba-rintro/r7.png)
 
 ---
 
@@ -130,7 +130,7 @@ ggraph(rt_g, layout = 'linear', circular = TRUE) +
 class: middle, center
 
 ```{r echo=FALSE}
-knitr::include_graphics("../../static/images/slides/dsba-rintro/r9.png")
+knitr::include_graphics("../../images/slides/dsba-rintro/r9.png")
 ```
 
 ---
@@ -148,7 +148,7 @@ class: middle, center
 # tidyverse
 
 ```{r echo=FALSE, out.width = '60%'}
-knitr::include_graphics("../../static/images/slides/dsba-rintro/r8.png")
+knitr::include_graphics("../../images/slides/dsba-rintro/r8.png")
 ```
 
 ---
@@ -156,7 +156,7 @@ knitr::include_graphics("../../static/images/slides/dsba-rintro/r8.png")
 # What are R packages?
 
 ```{r echo=FALSE, out.width = '100%'}
-knitr::include_graphics("../../static/images/slides/dsba-rintro/r10.png")
+knitr::include_graphics("../../images/slides/dsba-rintro/r10.png")
 ```
 
 ---
@@ -164,7 +164,7 @@ knitr::include_graphics("../../static/images/slides/dsba-rintro/r10.png")
 # What are R packages?
 
 ```{r echo=FALSE, out.width = '100%'}
-knitr::include_graphics("../../static/images/slides/dsba-rintro/r11.png")
+knitr::include_graphics("../../images/slides/dsba-rintro/r11.png")
 ```
 
 ---
@@ -172,7 +172,7 @@ knitr::include_graphics("../../static/images/slides/dsba-rintro/r11.png")
 # What are R packages?
 
 ```{r echo=FALSE, out.width = '100%'}
-knitr::include_graphics("../../static/images/slides/dsba-rintro/r12.png")
+knitr::include_graphics("../../images/slides/dsba-rintro/r12.png")
 ```
 
 ---
@@ -180,7 +180,7 @@ knitr::include_graphics("../../static/images/slides/dsba-rintro/r12.png")
 # How to install and run packages:
 
 ```{r echo=FALSE, out.width = '100%'}
-knitr::include_graphics("../../static/images/slides/dsba-rintro/r13.png")
+knitr::include_graphics("../../images/slides/dsba-rintro/r13.png")
 ```
 
 ---
@@ -188,7 +188,7 @@ knitr::include_graphics("../../static/images/slides/dsba-rintro/r13.png")
 # How to install and run packages:
 
 ```{r echo=FALSE, out.width = '100%'}
-knitr::include_graphics("../../static/images/slides/dsba-rintro/r14.png")
+knitr::include_graphics("../../images/slides/dsba-rintro/r14.png")
 ```
 
 ---
@@ -196,7 +196,7 @@ knitr::include_graphics("../../static/images/slides/dsba-rintro/r14.png")
 # How to install and run packages:
 
 ```{r echo=FALSE, out.width = '100%'}
-knitr::include_graphics("../../static/images/slides/dsba-rintro/r15.png")
+knitr::include_graphics("../../images/slides/dsba-rintro/r15.png")
 ```
 
 ---
@@ -204,7 +204,7 @@ knitr::include_graphics("../../static/images/slides/dsba-rintro/r15.png")
 # How to install and run packages:
 
 ```{r echo=FALSE, out.width = '100%'}
-knitr::include_graphics("../../static/images/slides/dsba-rintro/r16.png")
+knitr::include_graphics("../../images/slides/dsba-rintro/r16.png")
 ```
 
 ---
@@ -212,7 +212,7 @@ knitr::include_graphics("../../static/images/slides/dsba-rintro/r16.png")
 # How to install and run packages:
 
 ```{r echo=FALSE, out.width = '100%'}
-knitr::include_graphics("../../static/images/slides/dsba-rintro/r17.png")
+knitr::include_graphics("../../images/slides/dsba-rintro/r17.png")
 ```
 
 ---
@@ -220,7 +220,7 @@ knitr::include_graphics("../../static/images/slides/dsba-rintro/r17.png")
 # Data science workflow
 
 ```{r echo=FALSE, out.width = '100%'}
-knitr::include_graphics("../../static/images/slides/dsba-rintro/r18.png")
+knitr::include_graphics("../../images/slides/dsba-rintro/r18.png")
 ```
 
 ---
@@ -239,8 +239,9 @@ knitr::include_graphics("../../static/images/slides/dsba-rintro/r18.png")
 
 - Introduce the `%>%` operator; skip syntax like `[[]]` and `$` for later.
 
-.  
-So urce: [David Robinson](http://varianceexplained.org/r/teach-tidyverse/)
+   
+
+Source: [David Robinson](http://varianceexplained.org/r/teach-tidyverse/)
 
 ---
 
