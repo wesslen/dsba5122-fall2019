@@ -18,7 +18,18 @@ output:
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
 library(xaringanthemer); library(tidyverse)
-mono_accent(base_color = "#046A38")
+mono_light(
+  base_color = "#046A38",
+  white_color = "#ffffff",
+  text_font_size = "28px",
+  header_h1_font_size = "40px",
+  header_h2_font_size = "35px", 
+  header_h3_font_size = "30px",
+  code_font_size = "14px",
+  header_font_google = google_font("Josefin Sans"),
+  text_font_google   = google_font("Montserrat", "300", "300i"),
+  code_font_google   = google_font("Droid Mono")
+)
 ```
 
 class: center, middle
@@ -33,7 +44,7 @@ class: center, middle
 
 # What is RStudio?
 
-```{r echo=FALSE, out.width = '80%'}
+```{r echo=FALSE, out.width = '95%', fig.align='center'}
 knitr::include_graphics("../../images/slides/dsba-rintro/rstudio.gif")
 ```
 
@@ -43,7 +54,9 @@ knitr::include_graphics("../../images/slides/dsba-rintro/rstudio.gif")
 
 It's free, as in ... free beer?
 
+<p align="center">
 <div style="width:80%;height:0;padding-bottom:77%;position:relative;"><iframe src="https://giphy.com/embed/3o6MbkGRfcasxz9rnW" width="80%" height="80%" style="position:absolute" align="middle" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/season-11-the-simpsons-11x5-3o6MbkGRfcasxz9rnW">via GIPHY</a></p>
+</p>
 
 ---
 
@@ -54,37 +67,51 @@ It's free, as in ... free beer?
 
 ---
 
-![](../../images/slides/dsba-rintro/r1.png)
+```{r echo=FALSE, fig.align='center'}
+knitr::include_graphics("../../images/slides/dsba-rintro/r1.png")
+```
 
 ---
 
-![](../../images/slides/dsba-rintro/r2.png)
+```{r echo=FALSE, fig.align='center'}
+knitr::include_graphics("../../images/slides/dsba-rintro/r2.png")
+```
 
 ---
 
-![](../../images/slides/dsba-rintro/r3.png)
+```{r echo=FALSE, fig.align='center'}
+knitr::include_graphics("../../images/slides/dsba-rintro/r3.png")
+```
 
 ---
 
-![](../../images/slides/dsba-rintro/r4.png)
+```{r echo=FALSE, fig.align='center'}
+knitr::include_graphics("../../images/slides/dsba-rintro/r4.png")
+```
 
 ---
 
-![](../../images/slides/dsba-rintro/r5.png)
+```{r echo=FALSE, fig.align='center'}
+knitr::include_graphics("../../images/slides/dsba-rintro/r5.png")
+```
 
 ---
 
-![](../../images/slides/dsba-rintro/r6.png)
+```{r echo=FALSE, fig.align='center'}
+knitr::include_graphics("../../images/slides/dsba-rintro/r6.png")
+```
 
 ---
 
-![](../../images/slides/dsba-rintro/r7.png)
+```{r echo=FALSE, fig.align='center'}
+knitr::include_graphics("../../images/slides/dsba-rintro/r7.png")
+```
 
 ---
 
 # 3. Why R / RStudio?
 
-The community (h/t [`@hrbrmstr`](https://rud.is/books/21-recipes/visualizing-a-graph-of-retweet-relationships.html))
+The [`#rstats`](https://twitter.com/search?q=%23rstats) community (h/t [`@hrbrmstr`](https://rud.is/books/21-recipes/visualizing-a-graph-of-retweet-relationships.html))
 
 ```{r eval=FALSE}
 library(rtweet)
@@ -104,7 +131,7 @@ rt_g <- search_tweets("#rstats", n=3200) %>%    # twitter api
 
 # 3. Why R / RStudio?
 
-The community
+The [`#rstats`](https://twitter.com/search?q=%23rstats) community (h/t [`@hrbrmstr`](https://rud.is/books/21-recipes/visualizing-a-graph-of-retweet-relationships.html))
 
 ```{r eval=FALSE}
 # ggplot inspired networks: ggraph
@@ -200,9 +227,7 @@ knitr::include_graphics("../../images/slides/dsba-rintro/r13.png")
 knitr::include_graphics("../../images/slides/dsba-rintro/r14.png")
 ```
 
----
-
-# How to install and run packages:
+--
 
 ```{r echo=FALSE, out.width = '100%'}
 knitr::include_graphics("../../images/slides/dsba-rintro/r15.png")
@@ -254,14 +279,14 @@ knitr::include_graphics("../../images/slides/dsba-rintro/r20.png")
 
 # Core packages: dplyr, ggplot2, piping
 
-```{r echo=FALSE, out.width = '80%'}
+```{r echo=FALSE, out.width = '90%', fig.align='center'}
 knitr::include_graphics("../../images/slides/dsba-rintro/r21.png")
 ```
 ---
 
 # Core packages: dplyr, ggplot2, piping
 
-```{r echo=FALSE, out.width = '80%'}
+```{r echo=FALSE, out.width = '90%', fig.align='center'}
 knitr::include_graphics("../../images/slides/dsba-rintro/r22.png")
 ```
 
@@ -302,7 +327,7 @@ babynames %>%
 
 class: middle, center
 
-# Happy programming!
+# Happy R programming!
 
-<iframe src="https://giphy.com/embed/JIX9t2j0ZTN9S" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/JIX9t2j0ZTN9S">via GIPHY</a></p>
+<iframe src="https://giphy.com/embed/JIX9t2j0ZTN9S" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/JIX9t2j0ZTN9S"></a></p>
 

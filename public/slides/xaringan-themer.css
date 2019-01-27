@@ -16,43 +16,43 @@
  *    - remarkjs wiki: https://github.com/gnab/remark/wiki
  *
  * ------------------------------------------------------- */
-@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
-@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
-@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300,300i);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
+@import url(https://fonts.googleapis.com/css?family=Droid+Mono);
 
 
 body {
-  font-family: 'Droid Serif', 'Palatino Linotype', 'Book Antiqua', Palatino, 'Microsoft YaHei', 'Songti SC', serif;
-  font-weight: normal;
-  color: #272822;
+  font-family: Montserrat, 'Palatino Linotype', 'Book Antiqua', Palatino, 'Microsoft YaHei', 'Songti SC', serif;
+  font-weight: 300;
+  color: #024A27;
 }
 h1, h2, h3 {
-  font-family: 'Yanone Kaffeesatz';
+  font-family: Josefin Sans;
   font-weight: normal;
   color: #046A38;
 }
 .remark-slide-content {
-  background-color: #FFFFFF;
-  font-size: 20px;
+  background-color: #ffffff;
+  font-size: 28px;
   
   
   
   padding: 1em 4em 1em 4em;
 }
 .remark-slide-content h1 {
-    font-size: 55px;
+    font-size: 40px;
 }
 .remark-slide-content h2 {
-    font-size: 45px;
-}
-.remark-slide-content h3 {
     font-size: 35px;
 }
+.remark-slide-content h3 {
+    font-size: 30px;
+}
 .remark-code, .remark-inline-code {
-  font-family: 'Source Code Pro', 'Lucida Console', Monaco, monospace;
+  font-family: Droid Mono, 'Lucida Console', Monaco, monospace;
 }
 .remark-code {
-  font-size: 0.9em;
+  font-size: 14px;
 }
 .remark-inline-code {
   font-size: 1em;
@@ -82,14 +82,14 @@ a, a > code {
 }
 .inverse {
   background-color: #046A38;
-  color: #FFFFFF;
+  color: #ffffff;
   
 }
 .inverse h1, .inverse h2, .inverse h3 {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .title-slide, .title-slide h1, .title-slide h2, .title-slide h3 {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .title-slide {
   background-color: #046A38;
@@ -142,25 +142,25 @@ blockquote {
 }
 .remark-slide table thead th { border-bottom: 1px solid #ddd; }
 th, td { padding: 5px; }
-.remark-slide thead, .remark-slide tfoot, .remark-slide tr:nth-child(even) { background: #B3D2C3 }
+.remark-slide thead, .remark-slide tfoot, .remark-slide tr:nth-child(even) { background: #CCE1D7 }
 table.dataTable tbody {
-  background-color: #FFFFFF;
-  color: #272822;
+  background-color: #ffffff;
+  color: #024A27;
 }
 table.dataTable.display tbody tr.odd {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 table.dataTable.display tbody tr.even {
-  background-color: #B3D2C3;
+  background-color: #CCE1D7;
 }
 table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
   background-color: rgba(255, 255, 255, 0.5);
 }
 .dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_filter, .dataTables_wrapper .dataTables_info, .dataTables_wrapper .dataTables_processing, .dataTables_wrapper .dataTables_paginate {
-  color: #272822;
+  color: #024A27;
 }
 .dataTables_wrapper .dataTables_paginate .paginate_button {
-  color: #272822 !important;
+  color: #024A27 !important;
 }
 
 @page { margin: 0; }
