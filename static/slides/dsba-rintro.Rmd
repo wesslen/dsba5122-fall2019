@@ -2,7 +2,7 @@
 title: "DSBA 5122: Visual Analytics"
 subtitle: "Why R (and RStudio)?"  
 author: "Ryan Wesslen"
-date: '2019-01-28'
+date: 'January 28, 2019'
 citeproc: false
 bibliography: ../../10bib/references.bib
 csl: ../../10bib/chicago-syllabus-no-bib.csl

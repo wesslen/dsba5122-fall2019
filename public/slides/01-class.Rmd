@@ -2,7 +2,7 @@
 title: "DSBA 5122: Visual Analytics"
 subtitle: "Class 1: Intro to Visual Analytics"  
 author: "Ryan Wesslen"
-date: '2019-01-14'
+date: 'January 14, 2019'
 citeproc: false
 output:
   xaringan::moon_reader:
