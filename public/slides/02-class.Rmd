@@ -245,7 +245,7 @@ knitr::include_graphics("../images/slides/02-class/encoding.png")
 
 # 3. Arrange the graphic components
 
-```{r out.width = "540px", fig.align="center", echo=FALSE}
+```{r out.width = "500px", fig.align="center", echo=FALSE}
 knitr::include_graphics("../images/slides/02-class/perceptual.png")
 ```
 
@@ -254,7 +254,7 @@ knitr::include_graphics("../images/slides/02-class/perceptual.png")
 # 4. Test the outcomes
 
 ```{r out.width = "540px", fig.align="center", echo=FALSE}
-knitr::include_graphics("../images/slides/02-class/thayer.png")
+knitr::include_graphics("../images/slides/02-class/thaler.png")
 ```
 
 ---
