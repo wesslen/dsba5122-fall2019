@@ -17,15 +17,19 @@ output:
 
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
-library(xaringanthemer)
+library(xaringanthemer); library(tidyverse)
 mono_accent(base_color = "#046A38")
 ```
+
+class: center, middle
 
 # What is R?
 
 ![](../../images/slides/dsba-rintro/r.gif)
 
 ---
+
+class: center, middle
 
 # What is RStudio?
 
@@ -39,13 +43,13 @@ knitr::include_graphics("../../images/slides/dsba-rintro/rstudio.gif")
 
 It's free, as in ... free beer?
 
-<div style="width:80%;height:0;padding-bottom:77%;position:relative;"><iframe src="https://giphy.com/embed/3o6MbkGRfcasxz9rnW" width="80%" height="80%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/season-11-the-simpsons-11x5-3o6MbkGRfcasxz9rnW">via GIPHY</a></p>
+<div style="width:80%;height:0;padding-bottom:77%;position:relative;"><iframe src="https://giphy.com/embed/3o6MbkGRfcasxz9rnW" width="80%" height="80%" style="position:absolute" align="middle" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/season-11-the-simpsons-11x5-3o6MbkGRfcasxz9rnW">via GIPHY</a></p>
 
 ---
 
 # 2. Why R / RStudio?
 
-<blockquote class="twitter-tweet tw-align-center" data-lang="en"><p lang="en" dir="ltr">well this R=Batman, Python=Superman apparently showed up in a vendor pitch to one of my colleagues. That must make it official. <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> <a href="https://twitter.com/hashtag/python?src=hash&amp;ref_src=twsrc%5Etfw">#python</a> <a href="https://t.co/pkKGB8EOHj">pic.twitter.com/pkKGB8EOHj</a></p>&mdash; JD Long (@CMastication) <a href="https://twitter.com/CMastication/status/1037486624500854784?ref_src=twsrc%5Etfw">September 5, 2018</a></blockquote>
+<blockquote class="twitter-tweet tw-align-center" width="50%" data-lang="en"><p lang="en" dir="ltr">well this R=Batman, Python=Superman apparently showed up in a vendor pitch to one of my colleagues. That must make it official. <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> <a href="https://twitter.com/hashtag/python?src=hash&amp;ref_src=twsrc%5Etfw">#python</a> <a href="https://t.co/pkKGB8EOHj">pic.twitter.com/pkKGB8EOHj</a></p>&mdash; JD Long (@CMastication) <a href="https://twitter.com/CMastication/status/1037486624500854784?ref_src=twsrc%5Etfw">September 5, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ---
@@ -88,16 +92,12 @@ library(igraph)
 library(ggraph)
 library(tidyverse)
 
-rt_g <- search_tweets("#rstats", n=3200) %>%> # twitter api
+rt_g <- search_tweets("#rstats", n=3200) %>%    # twitter api
   filter(retweet_count > 0) %>%                 # keep tweets with RT's
   select(screen_name, mentions_screen_name) %>% # select column from/to
   unnest(mentions_screen_name) %>%              # unnest json
   filter(!is.na(mentions_screen_name)) %>%      # include mentions
   graph_from_data_frame()                       # convert to ggraph format
-
-# set node labels
-V(rt_g)$node_label <- unname(ifelse(degree(rt_g)[V(rt_g)] > 40, names(V(rt_g)), "")) 
-V(rt_g)$node_size <- unname(ifelse(degree(rt_g)[V(rt_g)] > 40, degree(rt_g), 0)) 
 ```
 
 ---
@@ -107,10 +107,6 @@ V(rt_g)$node_size <- unname(ifelse(degree(rt_g)[V(rt_g)] > 40, degree(rt_g), 0))
 The community
 
 ```{r eval=FALSE}
-subt <- "Most retweeted screen names labeled.\
-      Darkers edges == more retweets.\
-      Node size == larger degree"
-
 # ggplot inspired networks: ggraph
 ggraph(rt_g, layout = 'linear', circular = TRUE) + 
   geom_edge_arc(edge_width=0.125, aes(alpha=..index..)) +
@@ -134,12 +130,17 @@ knitr::include_graphics("../../images/slides/dsba-rintro/r9.png")
 ```
 
 ---
+# And it's just fun!
 
-<blockquote class="twitter-tweet tw-align-center" width="60%" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">I can and it&#39;s HORRIFYING😬😬😬😬 <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> <a href="https://t.co/aMQiwva7fr">pic.twitter.com/aMQiwva7fr</a></p>&mdash; Tyler Morgan-Wall (@tylermorganwall) <a href="https://twitter.com/tylermorganwall/status/1088978382195437568?ref_src=twsrc%5Etfw">January 26, 2019</a></blockquote>
+<blockquote class="twitter-tweet tw-align-center" width="45%" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">I can and it&#39;s HORRIFYING😬😬😬😬 <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> <a href="https://t.co/aMQiwva7fr">pic.twitter.com/aMQiwva7fr</a></p>&mdash; Tyler Morgan-Wall (@tylermorganwall) <a href="https://twitter.com/tylermorganwall/status/1088978382195437568?ref_src=twsrc%5Etfw">January 26, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+---
 
-And it's just fun!
+class: middle
+
+<blockquote class="twitter-tweet tw-align-center" data-conversation="none" data-lang="en"><p lang="und" dir="ltr"> <a href="https://t.co/BhS5yaeMbk">pic.twitter.com/BhS5yaeMbk</a></p>&mdash; David Schoppik (@schoppik) <a href="https://twitter.com/schoppik/status/1088983406220886016?ref_src=twsrc%5Etfw">January 26, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ---
 
@@ -173,6 +174,14 @@ knitr::include_graphics("../../images/slides/dsba-rintro/r11.png")
 
 ```{r echo=FALSE, out.width = '100%'}
 knitr::include_graphics("../../images/slides/dsba-rintro/r12.png")
+```
+
+---
+
+# What are R packages?
+
+```{r echo=FALSE, out.width = '100%'}
+knitr::include_graphics("../../images/slides/dsba-rintro/r12b.png")
 ```
 
 ---
@@ -225,50 +234,75 @@ knitr::include_graphics("../../images/slides/dsba-rintro/r18.png")
 
 ---
 
-# Schools of thought for learning R
+# tidy data
 
-### Base R first:
+```{r echo=FALSE, out.width = '100%'}
+knitr::include_graphics("../../images/slides/dsba-rintro/r19.png")
+```
 
-- Teach syntax such as `$` and `[[]]`, loops and conditionals, data types, etc.
-
-- Possibly introduce dplyr or data.table as alternatives.
-
-### Tidyverse first:
-
-- Keep a single-minded focus on data frames and dplyr; introduce ggplot2, tidyr and purrr shortly afterwards.
-
-- Introduce the `%>%` operator; skip syntax like `[[]]` and `$` for later.
-
-   
-
-Source: [David Robinson](http://varianceexplained.org/r/teach-tidyverse/)
+> “Tidy datasets are all alike but every messy dataset is messy in its own way.” – Hadley Wickham
 
 ---
 
-# Teach the Tidyverse to Beginners
+# tidy data: "pivoting"
 
-- Get students doing powerful things quickly.
-
-- Don’t teach procedural logic (loops and conditionals)
-
-- Teach tables (group by and join).
-
-- `%>%` (“piping”) isn’t too hard for beginners
-
-- R Projects instead of `setwd()` each time
-
-- “There’s only one way to do it”
-
---
-
-### Conclusion: You have permission not to be boring
-
-[David's RStudio::conf 2018 Talk](2018 RStudio::conf talk on teaching tidyverse)
+```{r echo=FALSE, out.width = '100%'}
+knitr::include_graphics("../../images/slides/dsba-rintro/r20.png")
+```
 
 ---
 
-# Appendix: 
+# Core packages: dplyr, ggplot2, piping
 
-<blockquote class="twitter-tweet tw-align-center" data-lang="en"><p lang="en" dir="ltr">I had a long flight and I guess <a href="https://twitter.com/drob?ref_src=twsrc%5Etfw">@drob</a> was right all along, so I wrote a lil thing about some of the themes I noticed at <a href="https://twitter.com/hashtag/rstudioconf?src=hash&amp;ref_src=twsrc%5Etfw">#rstudioconf</a> 💜<a href="https://t.co/5QIAVOCrlR">https://t.co/5QIAVOCrlR</a> <a href="https://t.co/d9TUlHJj5m">pic.twitter.com/d9TUlHJj5m</a></p>&mdash; Brooke Watson (@brookLYNevery1) <a href="https://twitter.com/brookLYNevery1/status/1086756454638379009?ref_src=twsrc%5Etfw">January 19, 2019</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```{r echo=FALSE, out.width = '80%'}
+knitr::include_graphics("../../images/slides/dsba-rintro/r21.png")
+```
+---
+
+# Core packages: dplyr, ggplot2, piping
+
+```{r echo=FALSE, out.width = '80%'}
+knitr::include_graphics("../../images/slides/dsba-rintro/r22.png")
+```
+
+---
+
+# Core packages: dplyr, ggplot2, piping
+
+What are the top 3 most popular years for males born "Taylor"?
+
+```{r message=FALSE, warning=FALSE, echo=TRUE}
+# Load the data
+library(babynames)
+data(babynames)
+```
+
+.pull-left[
+```{r fig.height=3}
+df <- filter(babynames, sex=="M")
+df <- filter(df, name=="Taylor") 
+df <- arrange(df, desc(n))
+df <- select(df, year, n, prop)
+
+head(df, n=3)
+```
+]
+.pull-right[
+```{r fig.height=3}
+babynames %>%
+  filter(sex=="M") %>%
+  filter(name=="Taylor") %>%
+  arrange(desc(n)) %>%
+  select(year, n, prop) %>%
+  head(n=3)
+```
+]
+
+---
+
+class: middle, center
+
+# Happy programming!
+
+<iframe src="https://giphy.com/embed/JIX9t2j0ZTN9S" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/JIX9t2j0ZTN9S">via GIPHY</a></p>
 
