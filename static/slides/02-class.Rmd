@@ -345,6 +345,16 @@ class: middle
 
 # Cleveland and McGill, 1984
 
+```{r out.width = "700px", fig.align="center", echo=FALSE}
+knitr::include_graphics("../images/slides/02-class/fig-x-dot-chart.png")
+```
+
+---
+
+class: middle
+
+# Cleveland and McGill, 1984
+
 ```{r out.width = "750px", fig.align="center", echo=FALSE}
 knitr::include_graphics("../images/slides/02-class/cleveland-results.png")
 ```
