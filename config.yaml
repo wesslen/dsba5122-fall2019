@@ -53,7 +53,7 @@ params:
     url: "https://wesslen.netlify.com"
     twitter: ryanwesslen
     github: wesslen
-    office: TBD
+    office: CenterCity
   course:
     number: DSBA 5122
     semester: Spring 2019
@@ -66,7 +66,7 @@ params:
     slack: "https://unccdsba5122s2019.slack.com"
     copyrightYear: "2019"
     contactDetails: >-
-      Office hours: TBD.
+      [Office Hours via Calendly](https://calendly.com/rwesslen/15min/).
   university: 
     name: University of North Carolina at Charlotte
     url: "https://www.uncc.edu"
