@@ -1,13 +1,13 @@
 ---
 title: "Problem set 1"
 date: "2019-01-28"
-due_date: "2019-02-04"
+due_date: "2019-02-11"
 due_time: "11:59 PM"
 editor_options: 
   chunk_output_type: console
 ---
 
-*Note*: to complete this task, you **MUST** submit your final folder (compressed as a zip file) through [here to Canvas](https://uncc.instructure.com/courses/100065/assignments/516650) by 11:59pm on February 4, 2018. Each person needs to submit their own folder! So if you work in pairs, both individuals have to submit a folder.
+*Note*: to complete this task, you **MUST** submit your final folder (compressed as a zip file) through [here to Canvas](https://uncc.instructure.com/courses/100065/assignments/516650) by 11:59pm on February 11, 2018. Each person needs to submit their own folder! So if you work in pairs, both individuals have to submit a folder.
 
 # Task 0
 
@@ -78,4 +78,4 @@ Read [Chapter 3 of R for Data Science](http://r4ds.had.co.nz/data-visualisation.
 
 # All done!
 
-Knit the completed R Markdown file as a html (use the "Knit" button at the top of the script editor window) and compress the entire folder (including the html document, RStudio Project, any respective data, and the R Markdown file). To complete the assignment, [upload here to Canvas](https://uncc.instructure.com/courses/100065/assignments/516650) by 11:59pm on February 4, 2018. Each person needs to submit their own folder. (Example: if you work with someone else, you both have to submit a folder!)
+Knit the completed R Markdown file as a html (use the "Knit" button at the top of the script editor window) and compress the entire folder (including the html document, RStudio Project, any respective data, and the R Markdown file). To complete the assignment, [upload here to Canvas](https://uncc.instructure.com/courses/100065/assignments/516650) by 11:59pm on February 11, 2018. Each person needs to submit their own folder. (Example: if you work with someone else, you both have to submit a folder!)

@@ -19,7 +19,7 @@ lessons:
     reading: "02-reading"
     class: "02-class"
     
-  - title: "**Problem set 1 (Due Feb 4)**"
+  - title: "**Problem set 1 (Due Feb 11)**"
     date: "January 28"
     assignment: "01-problem-set"
 
@@ -42,7 +42,7 @@ lessons:
     reading: "05-reading"
     #class: "05-class"
     
-  - title: "**Problem set 2 (Due Feb 25)**"
+  - title: "**Problem set 2 (Due Mar 4)**"
     date: "February 18"
 
   - title: '<span class="fake-header-table">Interactive Visualizations</span>'
@@ -77,7 +77,7 @@ lessons:
   - title: "Design Contest Presentations"
     date: "March 25"
   
-  - title: "**Problem set 3 (Due Apr 1)**"
+  - title: "**Problem set 3 (Due Apr 8)**"
     date: "March 25"
     
   - title: "Networks and Trees"
@@ -105,7 +105,7 @@ lessons:
     #reading: "12-reading"
     #class: "12-class"
     
-  - title: "**Problem set 4 (Due Apr 22)**"
+  - title: "**Problem set 4 (Due Apr 29)**"
     date: "April 15"
 
   - title: "Machine Learning"
