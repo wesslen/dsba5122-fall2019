@@ -19,7 +19,7 @@ editor_options:
 
 # Slides & Lab
 
-1. Introduction to Visual Analytics
+1. Introduction to Visual Analytics: [Click here to open slides full screen](../../slides/01-class.html#1)
 
 ```{r echo=FALSE}
 knitr::include_url('../../slides/01-class.html#1')
