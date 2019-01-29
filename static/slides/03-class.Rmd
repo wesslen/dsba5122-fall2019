@@ -16,11 +16,74 @@ output:
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
 library(xaringanthemer)
-mono_accent(base_color = "#046A38")
+library(xaringanthemer)
+mono_light(
+  base_color = "#046A38",
+  white_color = "#ffffff",
+  text_font_size = "28px",
+  header_h1_font_size = "40px",
+  header_h2_font_size = "35px", 
+  header_h3_font_size = "30px",
+  code_font_size = "14px",
+  header_font_google = google_font("Josefin Sans"),
+  text_font_google   = google_font("Montserrat", "300", "300i"),
+  code_font_google   = google_font("Droid Mono")
+)
 ```
+
+class: middle, center, inverse
+
+# Basic Principles of Visualization (Chapter 5)
+
+---
 
 class: center, middle
 
-# Welcome
+```{r out.width = "500px", fig.align="center", echo=FALSE}
+knitr::include_graphics("../images/slides/02-class/sample1.png")
+```
 
-![](../../static/images/slides/01-class/welcome.gif)
+---
+
+class: center, middle
+
+```{r out.width = "500px", fig.align="center", echo=FALSE}
+knitr::include_graphics("../images/slides/02-class/sample2.png")
+```
+
+---
+
+class: center, middle
+
+```{r out.width = "500px", fig.align="center", echo=FALSE}
+knitr::include_graphics("../images/slides/02-class/sample3.png")
+```
+
+---
+
+class: center, middle
+
+```{r out.width = "500px", fig.align="center", echo=FALSE}
+knitr::include_graphics("../images/slides/02-class/charts-avoid.png")
+```
+
+---
+
+class: middle, center, inverse
+
+# Exploring Data with Simple Charts (Ch. 5): `ggplot2` edition
+
+---
+
+## geom_bar
+
+
+---
+
+## geom_point
+
+
+---
+
+## geom_line
+

@@ -43,8 +43,4 @@ knitr::include_url('https://pkg.garrickadenbuie.com/gentle-ggplot2')
 
 [esquisse](https://github.com/dreamRs/esquisse)
 
-# Lab 2: Make a plot (ggplot2)
 
-- Go to our [healy-dataviz](https://rstudio.cloud/spaces/7976/project/160035) project and open "03_make_a_plot.Rmd".
-
-- This covers [Chapter 3: Make a Plot](http://socviz.co/makeplot.html#makeplot) in Healy.

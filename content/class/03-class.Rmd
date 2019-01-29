@@ -23,13 +23,14 @@ editor_options:
 
 - Jenny Bryan's [ggplot2 tutorial GitHub](https://github.com/jennybc/ggplot2-tutorial) / [slides](https://speakerdeck.com/jennybc/ggplot2-tutorial)
 
-- Allison Hill's [Data Visualization in the Tidyverse
-The Great Tidy Plot Off](https://alison.netlify.com/uo-tidy-bakeoff/)
+- Allison Hill's [Data Visualization in the Tidyverse The Great Tidy Plot Off](https://alison.netlify.com/uo-tidy-bakeoff/)
+
+- [Aesthetics specifications for `ggplot2`](https://ggplot2.tidyverse.org/articles/ggplot2-specs.html)
 
 - [Make your own animated plots with `gganimate`](https://gganimate.com/)
 
 # Lab 3: Make a plot (ggplot2)
 
-- Go to our [healy-dataviz](https://rstudio.cloud/spaces/7976/project/160035) project and open "04_show_the_right_numbers.Rmd".
+- Go to our [healy-dataviz](https://rstudio.cloud/spaces/7976/project/160035) project and open "03_make_a_plot.Rmd".
 
-- This covers [Chapter 4: Show the right numbers](http://socviz.co/groupfacettx.html#groupfacettx) in Healy. If we have time, we'll also try to cover some parts of [Chapter 5: Group tables, add labels, make notes](http://socviz.co/workgeoms.html#workgeoms), which is the file "05_tables_and_labels.Rmd".
+- This covers [Chapter 3: Make a Plot](http://socviz.co/makeplot.html#makeplot) in Healy. 
