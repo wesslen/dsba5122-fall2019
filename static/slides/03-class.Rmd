@@ -45,6 +45,32 @@ class: middle, center, inverse
 
 class: center, middle
 
+```{r out.width = "400px", fig.align="center", echo=FALSE}
+knitr::include_graphics("../images/slides/02-class/perceptual.png")
+```
+
+What if we want to show "high" and "low" levels?
+
+---
+
+class: center, middle
+
+```{r out.width = "700px", fig.align="center", echo=FALSE}
+knitr::include_graphics("../images/slides/03-class/high-low.png")
+```
+
+---
+
+class: center, middle
+
+```{r out.width = "700px", fig.align="center", echo=FALSE}
+knitr::include_graphics("../images/slides/03-class/scales.png")
+```
+
+---
+
+class: center, middle
+
 ```{r out.width = "700px", fig.align="center", echo=FALSE}
 knitr::include_graphics("../images/slides/03-class/sample1.png")
 ```
@@ -734,6 +760,27 @@ knitr::include_graphics("../images/slides/03-class/geospatial-1.png")
 .pull-left[
 ```{r eval=FALSE}
 library(maps)
+
+crimes <- USArrests %>%
+  rownames_to_column(var = "state") %>%
+  mutate(state = tolower(state)) %>%
+  `gather("variable","value",-state)`
+
+states_map <- map_data("state")
+
+crimes %>%
+  `filter(variable == "Assault")` %>%
+  ggplot(aes(map_id = state)) +
+  `geom_map(aes(fill = value), map = states_map)` +
+  expand_limits(x = states_map$long, 
+                y = states_map$lat) +
+  theme(legend.position = "bottom")
+```
+]
+.pull-right[
+```{r echo=FALSE,fig.width=5}
+library(maps)
+
 crimes <- USArrests %>%
   rownames_to_column(var = "state") %>%
   mutate(state = tolower(state)) %>%
@@ -741,26 +788,12 @@ crimes <- USArrests %>%
 
 states_map <- map_data("state")
 
-ggplot(crimes, aes(map_id = state)) +
-    geom_map(aes(fill = value), map = states_map) +
-    expand_limits(x = states_map$long, y = states_map$lat) +
-    facet_wrap( ~ variable)
-```
-]
-.pull-right[
-```{r echo=FALSE,fig.width=5}
-library(maps)
-crimes <- USArrests %>%
-  add_rownames(var = "state") %>%
-  mutate(state = tolower(state)) %>%
-  gather("variable","value",-state)
-
-states_map <- map_data("state")
-
-ggplot(crimes, aes(map_id = state)) +
-    geom_map(aes(fill = value), map = states_map) +
-    expand_limits(x = states_map$long, y = states_map$lat) +
-    facet_wrap( ~ variable)
+crimes %>%
+  filter(variable == "Assault") %>%
+  ggplot(aes(map_id = state)) +
+  geom_map(aes(fill = value), map = states_map) +
+  expand_limits(x = states_map$long, y = states_map$lat) +
+  theme(legend.position = "bottom")
 ```
 ]
 ---
@@ -771,6 +804,85 @@ ggplot(crimes, aes(map_id = state)) +
 knitr::include_graphics("../images/slides/03-class/errorbars-1.png")
 ```
 
+.pull-left[
+```{r eval=FALSE}
+l3 <- c("compact","subcompact","midsize",
+       "2seater","minivan","suv","pickup")
+
+# avg highway mpg with boostrapped 95% CI 
+mpg %>%
+  mutate(class = factor(class, levels = l3)) %>%
+  ggplot(aes(x = class, y = hwy, color = class)) +
+  `stat_summary(fun.y = mean, geom = "point")` + 
+  `stat_summary(fun.data = mean_cl_boot, 
+                geom = "pointrange")` + 
+  theme_bw() +
+  coord_flip() +
+  theme(legend.position = "none") +
+  labs(x = " ", y = "Highway MPG with 95% CI")
+```
+]
+.pull-right[
+```{r echo=FALSE}
+l3 <- c("compact","subcompact","midsize",
+       "2seater","minivan","suv","pickup")
+
+# avg highway mpg with boostrapped 95% CI 
+mpg %>%
+  mutate(class = factor(class, levels = l3)) %>%
+  ggplot(aes(x = class, y = hwy, color = class)) +
+  stat_summary(fun.y = mean, geom = "point") + 
+  stat_summary(fun.data = mean_cl_boot, geom = "pointrange") + 
+  theme_bw() +
+  coord_flip() +
+  theme(legend.position = "none") +
+  labs(x = " ", y = "Highway MPG with 95% CI")
+```
+]
+---
+
+# Uncertainty
+
+```{r out.width = "600px", fig.align="center", echo=FALSE}
+knitr::include_graphics("../images/slides/03-class/errorbars-1.png")
+```
+
+.pull-left[
+```{r eval=FALSE}
+l3 <- c("compact","subcompact","midsize",
+       "2seater","minivan","suv","pickup")
+
+# avg highway mpg with boostrapped 95% CI 
+mpg %>%
+  mutate(class = factor(class, levels = l3)) %>%
+  ggplot(aes(x = class, y = hwy, color = class)) +
+  stat_summary(fun.y = mean, geom = "point") + 
+  stat_summary(fun.data = mean_cl_boot, 
+               `geom = "errorbar"`) + 
+  theme_bw() +
+  coord_flip() +
+  theme(legend.position = "none") +
+  labs(x = " ", y = "Highway MPG with 95% CI")
+```
+]
+.pull-right[
+```{r echo=FALSE}
+l3 <- c("compact","subcompact","midsize",
+       "2seater","minivan","suv","pickup")
+
+# avg highway mpg with boostrapped 95% CI 
+mpg %>%
+  mutate(class = factor(class, levels = l3)) %>%
+  ggplot(aes(x = class, y = hwy, color = class)) +
+  stat_summary(fun.y = mean, geom = "point") + 
+  stat_summary(fun.data = mean_cl_boot, geom = "errorbar") + 
+  theme_bw() +
+  coord_flip() +
+  theme(legend.position = "none") +
+  labs(x = " ", y = "Highway MPG with 95% CI")
+```
+]
+
 ---
 
 # Uncertainty
@@ -778,10 +890,6 @@ knitr::include_graphics("../images/slides/03-class/errorbars-1.png")
 ```{r out.width = "600px", fig.align="center", echo=FALSE}
 knitr::include_graphics("../images/slides/03-class/confidence-dists-1.png")
 ```
-
----
-
-# Uncertainty
 
 ```{r out.width = "600px", fig.align="center", echo=FALSE}
 knitr::include_graphics("../images/slides/03-class/confidence-bands-1.png")

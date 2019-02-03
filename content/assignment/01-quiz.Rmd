@@ -45,15 +45,15 @@ D) Truthful, framed, attractive, beautiful, insightful
 
 ## Question 3
 
-What are the three required components of ggplot?
+According to "The Truthful Art", which perceptual task (or channel) enables the most accurate estimates:
 
-A) data + coordinates + points
+A) Area
 
-B) data + aesthetics + geoms
+B) Shading
 
-C) ggplot + geoms + coordinates
+C) Color/Hue
 
-D) data + mappings + facets
+D) Position along a common axis
 
 ##  Use this dataset for Question 4 and 5
 
