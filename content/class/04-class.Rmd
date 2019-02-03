@@ -25,7 +25,9 @@ editor_options:
 
 # Links
 
-* [Pudding's "Human Terrain"](https://pudding.cool/2018/10/city_3d/)
+- [Make your own animated plots with `gganimate`](https://gganimate.com/)
+
+- [Pudding's "Human Terrain"](https://pudding.cool/2018/10/city_3d/)
 
 # Lab 4: Draw Maps in ggplot2
 

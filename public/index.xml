@@ -326,7 +326,7 @@ Welcome  </description>
       <guid>https://dsba5122-spring2019.netlify.com/class/04-class/</guid>
       <description>Contents  Tweet of the day Slides Links Lab 4: Draw Maps in ggplot2   Tweet of the day Rumour has it ??? killed his talk last night…
 ⏰ “Time series &amp;amp; financial analysis in the tidyverse” 📽 https://t.co/h2jGX0fZ38 #rstats * feat. ???&#39;s {tsibble}, ??? 📦s, and {rsample} pic.twitter.com/fYrC1hoHLB — Mara Averick (@dataandme) September 26, 2018   Slides Download the slides from today’s lecture.
-Links  Pudding’s “Human Terrain”  Lab 4: Draw Maps in ggplot2  Go to our healy-dataviz project and open “07_maps.</description>
+Links  Make your own animated plots with gganimate</description>
     </item>
     
     <item>
@@ -363,12 +363,21 @@ For this DataCamp course, you’ll learn about doing exploratory data analysis, 
     </item>
     
     <item>
+      <title>Quiz 1</title>
+      <link>https://dsba5122-spring2019.netlify.com/assignment/01-quiz/</link>
+      <pubDate>Mon, 04 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/assignment/01-quiz/</guid>
+      <description>a.sourceLine { display: inline-block; line-height: 1.25; } a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; } a.sourceLine:empty { height: 1.2em; } .sourceCode { overflow: visible; } code.sourceCode { white-space: pre; position: relative; } div.sourceCode { margin: 1em 0; } pre.sourceCode { margin: 0; } @media screen { div.sourceCode { overflow: auto; } } @media print { code.sourceCode { white-space: pre-wrap; } a.sourceLine { text-indent: -1em; padding-left: 1em; } } pre.</description>
+    </item>
+    
+    <item>
       <title>Visual Representation Basics II</title>
       <link>https://dsba5122-spring2019.netlify.com/class/03-class/</link>
       <pubDate>Mon, 04 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/class/03-class/</guid>
-      <description>Contents  Tweet of the Day Slides Lab 3: Make a plot (ggplot2)   Tweet of the Day 🌟 guide to visual encoding types from ???&#39;s “Visualization &amp;amp; Journalism” https://t.co/A2x96QYNoL #dataviz #infovis pic.twitter.com/2FIyXeWk4h — Mara Averick (@dataandme) October 17, 2018   Tamara Munzner is one of the most influential data visualization researchers. Her textbook “Visualization Analysis and Design” is one of the most popular data viz books and some of her former students are now leaders in data viz (e.</description>
+      <description>Contents  Tweet of the Day Slides Links Lab 3: Make a plot (ggplot2)   Tweet of the Day 🌟 guide to visual encoding types from ???&#39;s “Visualization &amp;amp; Journalism” https://t.co/A2x96QYNoL #dataviz #infovis pic.twitter.com/2FIyXeWk4h — Mara Averick (@dataandme) October 17, 2018   Tamara Munzner is one of the most influential data visualization researchers. Her textbook “Visualization Analysis and Design” is one of the most popular data viz books and some of her former students are now leaders in data viz (e.</description>
     </item>
     
     <item>
@@ -489,6 +498,24 @@ Questions to reflect on  How do we know what is true? Are facts truth? Why do we
       <description> Required   Chapter 12 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
   Chapter 24 in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
   Ben Wellington, “Making data mean more through storytelling”  Jonathan Schwabish, “Better Data Communication,” National Bureau of Economic Research  Why People Make Bad Charts (and What to Do When it Happens)  Questions to reflect on  Questions TBD  </description>
+    </item>
+    
+    <item>
+      <title>Truth, beauty, and data revisited</title>
+      <link>https://dsba5122-spring2019.netlify.com/reading/14-reading.knit/</link>
+      <pubDate>Tue, 11 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/reading/14-reading.knit/</guid>
+      <description> Required   Chapter 12 in Alberto Cairo, The Truthful Art [@Cairo:2016]  Chapter 24 in Claus Wilke, Fundamentals of Data Visualization [@Wilke:2018]  Ben Wellington, &amp;ldquo;Making data mean more through storytelling&amp;rdquo;  Jonathan Schwabish, &amp;ldquo;Better Data Communication,&amp;rdquo; National Bureau of Economic Research  Why People Make Bad Charts (and What to Do When it Happens)  Questions to reflect on  Questions TBD  </description>
+    </item>
+    
+    <item>
+      <title>Truth, beauty, and data revisited</title>
+      <link>https://dsba5122-spring2019.netlify.com/reading/14-reading.utf8/</link>
+      <pubDate>Tue, 11 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/reading/14-reading.utf8/</guid>
+      <description> Required   Chapter 12 in Alberto Cairo, The Truthful Art [@Cairo:2016]  Chapter 24 in Claus Wilke, Fundamentals of Data Visualization [@Wilke:2018]  Ben Wellington, &amp;ldquo;Making data mean more through storytelling&amp;rdquo;  Jonathan Schwabish, &amp;ldquo;Better Data Communication,&amp;rdquo; National Bureau of Economic Research  Why People Make Bad Charts (and What to Do When it Happens)  Questions to reflect on  Questions TBD  </description>
     </item>
     
     <item>

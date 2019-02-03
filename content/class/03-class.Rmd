@@ -19,15 +19,19 @@ editor_options:
 
 # Slides
 
-[Download the slides from today's lecture]().
+[Click here to open full-screen.]('../../../../slides/03-class.html#1')
+
+```{r echo=FALSE}
+knitr::include_url('../../slides/03-class.html#1')
+```
+
+- [Aesthetics specifications for `ggplot2`](https://ggplot2.tidyverse.org/articles/ggplot2-specs.html)
+
+# Links
 
 - Jenny Bryan's [ggplot2 tutorial GitHub](https://github.com/jennybc/ggplot2-tutorial) / [slides](https://speakerdeck.com/jennybc/ggplot2-tutorial)
 
 - Allison Hill's [Data Visualization in the Tidyverse The Great Tidy Plot Off](https://alison.netlify.com/uo-tidy-bakeoff/)
-
-- [Aesthetics specifications for `ggplot2`](https://ggplot2.tidyverse.org/articles/ggplot2-specs.html)
-
-- [Make your own animated plots with `gganimate`](https://gganimate.com/)
 
 # Lab 3: Make a plot (ggplot2)
 

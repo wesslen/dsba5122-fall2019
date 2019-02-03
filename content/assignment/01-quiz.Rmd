@@ -1,0 +1,159 @@
+---
+title: "Quiz 1"
+date: "2019-02-04"
+due_date: "2019-02-04"
+due_time: "11:59 PM"
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+Name: _____________________
+
+Student ID: _________________________
+
+This quiz is closed-note. You will have 10 minutes to complete.
+
+
+## Question 1
+
+What are the three disciplines of data visualizations?
+
+A) Information graphics, scientific graphics, graphic analytics
+
+B) Grammar of graphics, exploratory analysis, confirmatory analysis
+
+C) Information visualization, visual analytics, scientific visualization
+
+D) Computer graphics, human-computer interaction, spatial mapping
+
+## Question 2
+
+According to "The Truthful Art", the five qualities of a great visualization are:
+
+A) Truthful, functional, beautiful, insightful, enlightening
+
+B) Labeled, framed, attractive, clear, correct
+
+C) Intuitive, functional, clear, enlightening, correct
+
+D) Truthful, framed, attractive, beautiful, insightful
+
+## Question 3
+
+What are the three required components of ggplot?
+
+A) data + coordinates + points
+
+B) data + aesthetics + geoms
+
+C) ggplot + geoms + coordinates
+
+D) data + mappings + facets
+
+##  Use this dataset for Question 4 and 5
+
+```{r}
+head(mpg, n = 5)
+```
+
+## Question 4
+
+Which code produces the **average** `mpg` and **count** for **Volkswagen** manufactured cars by the car's cylinder (`cyl`):
+
+```{r echo=FALSE}
+mpg %>%
+  filter(manufacturer == "volkswagen") %>%
+  group_by(cyl) %>%
+  summarise(avgHwy=mean(hwy), count=n())
+```
+
+A)
+
+```{r eval=FALSE}
+mpg %>%
+  filter(manufacturer == "volkswagen") %>%
+  group_by(cyl) %>%
+  summarise(avgHwy=mean(hwy), count=n())
+```
+
+B)
+
+```{r eval=FALSE}
+mpg %>%
+  where(manufacturer == "volkswagen") %>%
+  select(cyl) %>%
+  summarise(avgHwy=mean(hwy), count=n())
+```
+
+C)
+
+```{r eval=FALSE}
+mpg %>%
+  group_by(cyl) %>%
+  summarise(avgHwy=mean(hwy), count=n()) %>%
+  filter(manufacturer == "volkswagen")
+```
+
+D)
+
+```{r eval=FALSE}
+mpg ->
+  group_by(cyl) ->
+  average(avgHwy=m(hwy)) ->
+  count(count=n()) ->
+  filter(manufacturer == "volkswagen")  
+```
+
+## Question 5
+
+What code replicates this plot:
+
+```{r echo=FALSE,fig.height=4,fig.width=5}
+ggplot(mpg, aes(x = cty, y = hwy, color = class)) +
+  geom_point() +
+  facet_wrap(year~.) +
+  theme_bw() +
+  theme(legend.position = "bottom")
+```
+
+
+A)
+
+```{r eval=FALSE}
+ggplot(mpg, aes(x = cty, y = hwy, color = class)) +
+  geom_point() +
+  facet_grid(year~.)
+```
+
+B)
+
+```{r eval=FALSE}
+ggplot(mpg, aes(x = cty, y = hwy, color = class)) +
+  geom_scatter() +
+  facet_wrap(year~.) +
+  theme(legend.position = "bottom")
+```
+
+C)
+
+```{r eval=FALSE}
+ggplot(mpg, aes(x = cty, y = hwy, color = class)) +
+  geom_point(year) +
+  theme_bw(legend.position = "bottom") +
+  coords(facet_grid)
+```
+
+D)
+
+```{r eval=FALSE}
+ggplot(mpg, aes(x = cty, y = hwy, color = class)) +
+  geom_point() +
+  facet_wrap(year~.) +
+  theme_bw() +
+  theme(legend.position = "bottom")
+```

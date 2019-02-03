@@ -20,7 +20,7 @@ editor_options:
 
 # Slides
 
-[Click here to open full-screen.]('../../slides/02-class.html#1')
+[Click here to open full-screen.]('../../../../slides/02-class.html#1')
 
 ```{r echo=FALSE}
 knitr::include_url('../../slides/02-class.html#1')

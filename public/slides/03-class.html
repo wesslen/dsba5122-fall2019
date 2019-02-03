@@ -14,7 +14,7 @@ class: center, middle, inverse, title-slide
 # DSBA 5122: Visual Analytics
 ## Class 3: Visual Representations Basics II
 ### Ryan Wesslen
-### 2019-02-04
+### February 4, 2019
 
 ---
 
@@ -23,54 +23,613 @@ class: center, middle, inverse, title-slide
 
 class: middle, center, inverse
 
-# Basic Principles of Visualization (Chapter 5)
+# Basic Principles of Visualization: Cairo, Chapter 5
 
 ---
 
 class: center, middle
 
-&lt;img src="../images/slides/02-class/sample1.png" width="500px" style="display: block; margin: auto;" /&gt;
+&lt;img src="../images/slides/03-class/sample1.png" width="700px" style="display: block; margin: auto;" /&gt;
 
 ---
 
 class: center, middle
 
-&lt;img src="../images/slides/02-class/sample2.png" width="500px" style="display: block; margin: auto;" /&gt;
+&lt;img src="../images/slides/03-class/sample2.png" width="700px" style="display: block; margin: auto;" /&gt;
 
 ---
 
 class: center, middle
 
-&lt;img src="../images/slides/02-class/sample3.png" width="500px" style="display: block; margin: auto;" /&gt;
+&lt;img src="../images/slides/03-class/sample3.png" width="700px" style="display: block; margin: auto;" /&gt;
 
 ---
 
 class: center, middle
 
-&lt;img src="../images/slides/02-class/charts-avoid.png" width="500px" style="display: block; margin: auto;" /&gt;
+&lt;img src="../images/slides/03-class/charts-avoid.png" width="600px" style="display: block; margin: auto;" /&gt;
 
 ---
 
-class: middle, center, inverse
+class: middle, inverse
 
-# Exploring Data with Simple Charts (Ch. 5): `ggplot2` edition
+#      Directory of Visualizations: Wilke, Chapter 5 (with tidyverse)
+
+
+
+```r
+library(tidyverse)
+```
+
+```
+## ── Attaching packages ───────────────────────────── tidyverse 1.2.1 ──
+```
+
+```
+## ✔ ggplot2 3.1.0     ✔ purrr   0.2.5
+## ✔ tibble  1.4.2     ✔ dplyr   0.7.8
+## ✔ tidyr   0.8.2     ✔ stringr 1.3.1
+## ✔ readr   1.1.1     ✔ forcats 0.3.0
+```
+
+```
+## ── Conflicts ──────────────────────────────── tidyverse_conflicts() ──
+## ✖ dplyr::filter() masks stats::filter()
+## ✖ dplyr::lag()    masks stats::lag()
+```
 
 ---
 
-## geom_bar
+For this section, I'm going to use the `mpg` dataset.
+
+
+```r
+head(mpg,n=5)
+```
+
+```
+## # A tibble: 5 x 11
+##   manufacturer model displ  year   cyl trans  drv     cty   hwy fl    class
+##   &lt;chr&gt;        &lt;chr&gt; &lt;dbl&gt; &lt;int&gt; &lt;int&gt; &lt;chr&gt;  &lt;chr&gt; &lt;int&gt; &lt;int&gt; &lt;chr&gt; &lt;chr&gt;
+## 1 audi         a4      1.8  1999     4 auto(… f        18    29 p     comp…
+## 2 audi         a4      1.8  1999     4 manua… f        21    29 p     comp…
+## 3 audi         a4      2    2008     4 manua… f        20    31 p     comp…
+## 4 audi         a4      2    2008     4 auto(… f        21    30 p     comp…
+## 5 audi         a4      2.8  1999     6 auto(… f        16    26 p     comp…
+```
+
+
+```r
+# glimpse is from dplyr
+glimpse(mpg)
+```
+
+```
+## Observations: 234
+## Variables: 11
+## $ manufacturer &lt;chr&gt; "audi", "audi", "audi", "audi", "audi", "audi", "...
+## $ model        &lt;chr&gt; "a4", "a4", "a4", "a4", "a4", "a4", "a4", "a4 qua...
+## $ displ        &lt;dbl&gt; 1.8, 1.8, 2.0, 2.0, 2.8, 2.8, 3.1, 1.8, 1.8, 2.0,...
+## $ year         &lt;int&gt; 1999, 1999, 2008, 2008, 1999, 1999, 2008, 1999, 1...
+## $ cyl          &lt;int&gt; 4, 4, 4, 4, 6, 6, 6, 4, 4, 4, 4, 6, 6, 6, 6, 6, 6...
+## $ trans        &lt;chr&gt; "auto(l5)", "manual(m5)", "manual(m6)", "auto(av)...
+## $ drv          &lt;chr&gt; "f", "f", "f", "f", "f", "f", "f", "4", "4", "4",...
+## $ cty          &lt;int&gt; 18, 21, 20, 21, 16, 18, 18, 18, 16, 20, 19, 15, 1...
+## $ hwy          &lt;int&gt; 29, 29, 31, 30, 26, 26, 27, 26, 25, 28, 27, 25, 2...
+## $ fl           &lt;chr&gt; "p", "p", "p", "p", "p", "p", "p", "p", "p", "p",...
+## $ class        &lt;chr&gt; "compact", "compact", "compact", "compact", "comp...
+```
+
+---
+
+# Amounts
+
+Descriptive statistics like averages and counts by one or two categorical groups (covariates or features). These use **absolute values**, rather than *relative* values, therefore **scale matters**.
+
+&lt;img src="../images/slides/03-class/amounts-1.png" width="600px" style="display: block; margin: auto;" /&gt;
+
+&lt;img src="../images/slides/03-class/amounts-2.png" width="600px" style="display: block; margin: auto;" /&gt;
+
+---
+
+# Amounts
+
+&lt;img src="../images/slides/03-class/amounts-1.png" width="600px" style="display: block; margin: auto;" /&gt;
+
+.pull-left[
+
+```r
+ggplot(mpg, aes(x = class)) +
+  geom_bar()
+```
+]
+.pull-right[
+![](03-class_files/figure-html/unnamed-chunk-12-1.png)&lt;!-- --&gt;
+]
+
+---
+
+# Amounts
+
+&lt;img src="../images/slides/03-class/amounts-1.png" width="600px" style="display: block; margin: auto;" /&gt;
+
+.pull-left[
+
+```r
+ggplot(mpg, aes(x = class, `fill = class`)) +
+  geom_bar() +
+  `coord_flip() +`
+  labs(x = " ", y = "Car count",
+       title = "Cars by type") +
+  `theme(legend.position = "none")`
+```
+
+]
+.pull-right[
+![](03-class_files/figure-html/unnamed-chunk-15-1.png)&lt;!-- --&gt;
+]
+
+---
+
+# Amounts
+
+&lt;img src="../images/slides/03-class/amounts-1.png" width="600px" style="display: block; margin: auto;" /&gt;
+
+.pull-left[
+
+```r
+l &lt;- c("2seater","minivan","pickup",
+       "subcompact","midsize","compact","suv")
+
+mpg %&gt;%
+  `mutate(class = factor(class, levels = l))` %&gt;%
+  ggplot(aes(x = class, fill = class)) +
+  geom_bar() +
+  coord_flip() +
+  labs(x = " ", y = "Car count",
+       title = "Cars by type") +
+  theme(legend.position = "none")
+```
+]
+.pull-right[
+![](03-class_files/figure-html/unnamed-chunk-18-1.png)&lt;!-- --&gt;
+]
+
+---
+
+# Amounts
+
+&lt;img src="../images/slides/03-class/amounts-2.png" width="600px" style="display: block; margin: auto;" /&gt;
+
+.pull-left[
+
+```r
+l &lt;- c("2seater","minivan","pickup",
+       "subcompact","midsize","compact","suv")
+
+mpg %&gt;%
+  mutate(class = factor(class, levels = l)) %&gt;%
+  ggplot(aes(x = class, `fill = drv`)) +
+  geom_bar() +
+  coord_flip() +
+  labs(x = " ", y = "Car count",
+       title = "Cars by type") +
+  theme(legend.position = c(0.8,0.2))
+```
+]
+.pull-right[
+![](03-class_files/figure-html/unnamed-chunk-21-1.png)&lt;!-- --&gt;
+]
+
+---
+
+# Proportions
+
+Relative values to compare sizes of categories. 
+
+&lt;img src="../images/slides/03-class/proportions-1.png" width="600px" style="display: block; margin: auto;" /&gt;
+
+&lt;img src="../images/slides/03-class/proportions-2.png" width="600px" style="display: block; margin: auto;" /&gt;
 
 
 ---
 
-## geom_point
+# Proportions
+
+&lt;img src="../images/slides/03-class/proportions-1.png" width="600px" style="display: block; margin: auto;" /&gt;
+
+.pull-left[
+
+```r
+p &lt;- mpg %&gt;%
+  count(class) %&gt;%
+  mutate(pct = n / sum(n)) %&gt;%
+  ggplot(aes(x = "", y = pct, fill = class)) +
+  geom_bar(width = 1, stat = "identity")
+
+p
+```
+]
+.pull-right[
+![](03-class_files/figure-html/unnamed-chunk-26-1.png)&lt;!-- --&gt;
+]
+
+---
+
+# Proportions
+
+&lt;img src="../images/slides/03-class/proportions-1.png" width="600px" style="display: block; margin: auto;" /&gt;
+
+.pull-left[
+
+```r
+p &lt;- mpg %&gt;%
+  count(class) %&gt;%
+  mutate(pct = n / sum(n)) %&gt;%
+  ggplot(aes(x = "", y = pct, fill = class)) +
+  geom_bar(width = 1, stat = "identity")
+
+p + `coord_polar("y", start=0) +`
+  theme_minimal() +
+  labs(x = " ", y = "Proportion by class")
+```
+]
+.pull-right[
+![](03-class_files/figure-html/unnamed-chunk-29-1.png)&lt;!-- --&gt;
+]
+
+---
+
+# Proportions
+
+&lt;img src="../images/slides/03-class/proportions-2.png" width="600px" style="display: block; margin: auto;" /&gt;
+
+
+.pull-left[
+
+```r
+library(treemapify)
+mpg %&gt;%
+  filter(year == 1999) %&gt;%
+  `count(manufacturer) %&gt;%`
+  ggplot(aes(`area = n,`
+             `fill = manufacturer`, 
+             `label = manufacturer`)) +
+  geom_treemap() +`
+  geom_treemap_text() +
+  theme(legend.position = "none")
+```
+]
+.pull-right[
+![](03-class_files/figure-html/unnamed-chunk-32-1.png)&lt;!-- --&gt;
+]
+
+---
+
+# Proportions
+
+&lt;img src="../images/slides/03-class/proportions-2.png" width="600px" style="display: block; margin: auto;" /&gt;
+
+
+.pull-left[
+
+```r
+library(ggalluvial)
+
+data(vaccinations)
+
+ggplot(vaccinations,
+       aes(x = survey, y = freq,  
+           `alluvium = subject, stratum = response,`
+           fill = response, label = response)) +
+  scale_x_discrete(expand = c(.1, .1)) +
+  geom_flow() +
+  geom_stratum(alpha = .5) +
+  `geom_text(stat = "stratum", size = 3) +`
+  theme(legend.position = "none") +
+  labs(title = "Vaccination survey response at three times")
+```
+]
+.pull-right[
+![](03-class_files/figure-html/unnamed-chunk-35-1.png)&lt;!-- --&gt;
+]
+
+---
+
+# Distributions
+
+What is the variance? How evenly spread are the values?
+
+&lt;img src="../images/slides/03-class/distributions-1.png" width="600px" style="display: block; margin: auto;" /&gt;
+
+&lt;img src="../images/slides/03-class/distributions-2.png" width="600px" style="display: block; margin: auto;" /&gt;
+
+---
+
+# Distributions
+
+&lt;img src="../images/slides/03-class/distributions-1.png" width="600px" style="display: block; margin: auto;" /&gt;
+
+.pull-left[
+
+```r
+ggplot(mpg, aes(x = hwy)) +
+  geom_histogram()
+```
+]
+.pull-right[
+![](03-class_files/figure-html/unnamed-chunk-40-1.png)&lt;!-- --&gt;
+]
+
+---
+
+# Distributions
+
+&lt;img src="../images/slides/03-class/distributions-1.png" width="600px" style="display: block; margin: auto;" /&gt;
+
+.pull-left[
+
+```r
+ggplot(mpg, aes(x = hwy)) +
+  geom_`density()`
+```
+]
+.pull-right[
+![](03-class_files/figure-html/unnamed-chunk-43-1.png)&lt;!-- --&gt;
+]
+
+---
+
+# Distributions
+
+&lt;img src="../images/slides/03-class/distributions-1.png" width="600px" style="display: block; margin: auto;" /&gt;
+
+.pull-left[
+
+```r
+ggplot(mpg, aes(x = hwy)) +
+  geom_density(`adjust = 0.2`) # adjust kernel
+```
+]
+.pull-right[
+![](03-class_files/figure-html/unnamed-chunk-46-1.png)&lt;!-- --&gt;
+]
+---
+
+# Distributions
+
+&lt;img src="../images/slides/03-class/distributions-2.png" width="600px" style="display: block; margin: auto;" /&gt;
+
+.pull-left[
+
+```r
+ggplot(mpg, aes(x = hwy, `fill = drv`)) +
+  geom_density(alpha = 0.4) +
+  `theme(legend.position = c(0.8,0.8))`
+```
+]
+.pull-right[
+![](03-class_files/figure-html/unnamed-chunk-49-1.png)&lt;!-- --&gt;
+]
+
+---
+
+# Distributions
+
+&lt;img src="../images/slides/03-class/distributions-2.png" width="600px" style="display: block; margin: auto;" /&gt;
+
+.pull-left[
+
+```r
+library(ggridges)
+library(ggthemes)
+
+l2 &lt;- c("subcompact","midsize","compact",
+       "2seater","minivan","pickup","suv")
+
+mpg %&gt;%
+  mutate(class = factor(class, levels = l2)) %&gt;%
+  ggplot(aes(`x = hwy, y = class, fill = class`)) +
+  `geom_density_ridges(alpha = 0.4) +`
+  `theme_tufte() +`
+  theme(legend.position = "none")
+```
+]
+.pull-right[
+![](03-class_files/figure-html/unnamed-chunk-52-1.png)&lt;!-- --&gt;
+]
 
 
 ---
 
-## geom_line
+# x-y relationships
+
+What is the relationship between two or more variables?
+
+&lt;img src="../images/slides/03-class/basic-scatter-1.png" width="600px" style="display: block; margin: auto;" /&gt;
+
+&lt;img src="../images/slides/03-class/xy-lines-1.png" width="600px" style="display: block; margin: auto;" /&gt;
+
+---
+
+# x-y relationships
+
+&lt;img src="../images/slides/03-class/basic-scatter-1.png" width="600px" style="display: block; margin: auto;" /&gt;
+
+
+.pull-left[
+
+```r
+ggplot(mpg, aes(x = cty, y = hwy)) +
+  geom_point()
+```
+]
+.pull-right[
+![](03-class_files/figure-html/unnamed-chunk-57-1.png)&lt;!-- --&gt;
+]
+
+---
+
+# x-y relationships
+
+&lt;img src="../images/slides/03-class/basic-scatter-1.png" width="600px" style="display: block; margin: auto;" /&gt;
+
+
+.pull-left[
+
+```r
+library(ggthemes)
+
+ggplot(mpg, aes(x = cty, y = hwy)) +
+  geom_point(`aes(color = trans)`, size = 0.5) +
+  `facet_wrap(~trans) +`
+  theme_fivethirtyeight() +
+  theme(legend.position = "none",
+        `text = element_text(size=10)`)
+```
+]
+.pull-right[
+![](03-class_files/figure-html/unnamed-chunk-60-1.png)&lt;!-- --&gt;
+]
+
+
+---
+
+# x-y relationships
+
+&lt;img src="../images/slides/03-class/xy-lines-1.png" width="600px" style="display: block; margin: auto;" /&gt;
+
+
+.pull-left[
+
+```r
+library(nycflights13)
+
+# break up by data manipulation
+df &lt;- flights %&gt;%
+  mutate(day=as.Date(time_hour)) %&gt;%
+  filter(day &lt; "2013-02-01") %&gt;%
+  count(day,origin)
+
+# and ggplot
+ggplot(df, aes(x=day, y=n, color=origin)) +
+  geom_line(aes(group=origin)) +
+  geom_point() +
+  theme(legend.position="bottom")
+```
+]
+.pull-right[
+![](03-class_files/figure-html/unnamed-chunk-63-1.png)&lt;!-- --&gt;
+]
+
+---
+
+# x-y relationships
+
+&lt;img src="../images/slides/03-class/xy-binning-1.png" width="600px" style="display: block; margin: auto;" /&gt;
+
+.pull-left[
+
+```r
+filter(mpg, class != "2seater") %&gt;%
+  ggplot(aes(x = cty, y = hwy)) +
+  geom_density_2d()
+```
+]
+.pull-right[
+![](03-class_files/figure-html/unnamed-chunk-66-1.png)&lt;!-- --&gt;
+]
+
+---
+
+# x-y relationships
+
+&lt;img src="../images/slides/03-class/xy-binning-1.png" width="600px" style="display: block; margin: auto;" /&gt;
+
+.pull-left[
+
+```r
+filter(mpg, class != "2seater") %&gt;%
+  ggplot(aes(x = cty, y = hwy)) +
+  geom_density_2d(`aes(color = class)`) + 
+  `facet_wrap(~class) +`
+  `theme(legend.position = "none")`
+```
+]
+.pull-right[
+![](03-class_files/figure-html/unnamed-chunk-69-1.png)&lt;!-- --&gt;
+]
+
+---
+
+# x-y relationships
+
+&lt;img src="../images/slides/03-class/xy-binning-1.png" width="600px" style="display: block; margin: auto;" /&gt;
+
+.pull-left[
+
+```r
+filter(mpg, class != "2seater") %&gt;%
+  ggplot(aes(x = cty, y = hwy)) +
+  `geom_hex(aes(color = class), bins = 10) +`
+  facet_wrap(~class) +
+  theme(legend.position = "none")
+```
+]
+.pull-right[
+![](03-class_files/figure-html/unnamed-chunk-72-1.png)&lt;!-- --&gt;
+]
+
+---
+
+# Geospatial
+
+&lt;img src="../images/slides/03-class/geospatial-1.png" width="600px" style="display: block; margin: auto;" /&gt;
+
+.pull-left[
+
+```r
+library(maps)
+crimes &lt;- USArrests %&gt;%
+  rownames_to_column(var = "state") %&gt;%
+  mutate(state = tolower(state)) %&gt;%
+  gather("variable","value",-state)
+
+states_map &lt;- map_data("state")
+
+ggplot(crimes, aes(map_id = state)) +
+    geom_map(aes(fill = value), map = states_map) +
+    expand_limits(x = states_map$long, y = states_map$lat) +
+    facet_wrap( ~ variable)
+```
+]
+.pull-right[
+![](03-class_files/figure-html/unnamed-chunk-75-1.png)&lt;!-- --&gt;
+]
+---
+
+# Uncertainty
+
+&lt;img src="../images/slides/03-class/errorbars-1.png" width="600px" style="display: block; margin: auto;" /&gt;
+
+---
+
+# Uncertainty
+
+&lt;img src="../images/slides/03-class/confidence-dists-1.png" width="600px" style="display: block; margin: auto;" /&gt;
+
+---
+
+# Uncertainty
+
+&lt;img src="../images/slides/03-class/confidence-bands-1.png" width="600px" style="display: block; margin: auto;" /&gt;
     </textarea>
 <script src="libs/remark-latest.min.js"></script>
-<script>var slideshow = remark.create();
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"highlightSpans": true
+});
 if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
   window.dispatchEvent(new Event('resize'));
 });
