@@ -20,7 +20,7 @@ editor_options:
 
 # Slides
 
-[full screen](../../slides/02-class.html#1) / / [pdf version]("https://github.com/wesslen/dsba5122-spring2019/raw/master/public/files/dsba5122-spring2019-02-class.pdf")
+[full screen](../../slides/02-class.html#1) / / [pdf version](https://github.com/wesslen/dsba5122-spring2019/raw/master/public/files/dsba5122-spring2019-02-class.pdf)
 
 ```{r echo=FALSE}
 knitr::include_url('../../slides/02-class.html#1')
