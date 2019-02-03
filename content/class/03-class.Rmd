@@ -19,7 +19,7 @@ editor_options:
 
 # Slides
 
-[Click here to open full-screen.]('../../../../slides/03-class.html#1')
+[full screen](../../slides/03-class.html#1) / [pdf version]('/../../../../public/files/dsba5122-spring2019-03-class.pdf')
 
 ```{r echo=FALSE}
 knitr::include_url('../../slides/03-class.html#1')
