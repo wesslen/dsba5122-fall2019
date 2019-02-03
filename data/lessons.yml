@@ -26,7 +26,7 @@ lessons:
   - title: "Visual Representation Basics II"
     date: "February 4"
     reading: "03-reading"
-    #class: "03-class"
+    class: "03-class"
     
   - title: "**Datacamp course 2 (Due Feb 19)**"
     date: "February 4"
