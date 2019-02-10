@@ -37,7 +37,9 @@ knitr::include_url('../../slides/04-class.html#1')
 
 - [R advanced spatial lessons by Ben Best](http://benbestphd.com/R-adv-spatial-lessons/tidy.html)
 
-- [Statnmap Introduction to mapping with `sf` and company](https://statnmap.com/2018-07-14-introduction-to-mapping-with-sf-and-co/)
+- [Statnmap's Introduction to mapping with `sf` and company](https://statnmap.com/2018-07-14-introduction-to-mapping-with-sf-and-co/)
+
+- [LittleMissData's Map plots created with R and `ggmap`](https://www.littlemissdata.com/blog/maps)
 
 # Lab 4: `gganimate` and Draw Maps in ggplot2
 

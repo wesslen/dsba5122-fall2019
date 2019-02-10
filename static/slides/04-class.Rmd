@@ -372,3 +372,42 @@ class: center, middle
 ```{r out.width = "600px", fig.align="center", echo=FALSE}
 knitr::include_graphics("../images/slides/04-class/voronoi2.png")
 ```
+
+---
+
+Example: `ggvoronoi` ([vignette](https://cran.r-project.org/web/packages/ggvoronoi/vignettes/ggvoronoi.html))
+
+```{r getdata, include=FALSE}
+set.seed(45056)
+x <- sample(1:200,100)
+y <- sample(1:200,100)
+points <- data.frame(x, y,
+                     distance = sqrt((x-100)^2 + (y-100)^2))
+circle <- data.frame(x = 100*(1+cos(seq(0, 2*pi, length.out = 2500))),
+                     y = 100*(1+sin(seq(0, 2*pi, length.out = 2500))),
+                     group = rep(1,2500))
+```
+
+```{r ggvoronoi1}
+library(ggvoronoi)
+
+head(points, n = 2)
+```
+
+```{r ggvoronoi2}
+ggplot(points) +
+  geom_point(aes(x,y,color=distance)) +
+  geom_path(data=circle,aes(x,y,group=group))
+```
+
+---
+
+Example: `ggvoronoi`
+
+```{r}
+ggplot(points, aes(x,y,fill=distance)) +
+  geom_voronoi() +
+  stat_voronoi(geom="path") +
+  geom_point()
+```
+

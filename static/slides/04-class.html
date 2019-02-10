@@ -289,6 +289,48 @@ class: center, middle
 # 3D Voronoi of Airport locations
 
 &lt;img src="../images/slides/04-class/voronoi2.png" width="600px" style="display: block; margin: auto;" /&gt;
+
+---
+
+Example: `ggvoronoi` ([vignette](https://cran.r-project.org/web/packages/ggvoronoi/vignettes/ggvoronoi.html))
+
+
+
+
+```r
+library(ggvoronoi)
+
+head(points, n = 2)
+```
+
+```
+##     x   y  distance
+## 1 152  43  77.15569
+## 2  14 188 123.04471
+```
+
+
+```r
+ggplot(points) +
+  geom_point(aes(x,y,color=distance)) +
+  geom_path(data=circle,aes(x,y,group=group))
+```
+
+![](04-class_files/figure-html/ggvoronoi2-1.png)&lt;!-- --&gt;
+
+---
+
+Example: `ggvoronoi`
+
+
+```r
+ggplot(points, aes(x,y,fill=distance)) +
+  geom_voronoi() +
+  stat_voronoi(geom="path") +
+  geom_point()
+```
+
+![](04-class_files/figure-html/unnamed-chunk-34-1.png)&lt;!-- --&gt;
     </textarea>
 <script src="libs/remark-latest.min.js"></script>
 <script src="https://platform.twitter.com/widgets.js"></script>

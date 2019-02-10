@@ -9,7 +9,7 @@ This course was forked from Andrew Heiss' [MPA 635 Data Visualization](https://g
 Much thanks goes to the many open source contributors of the course materials (directly or inspired by their work):
 * [Andrew Heiss](https://www.andrewheiss.com/) 
 * [Allison Hill](https://alison.rbind.io/)
-* [Thomas Lin Pederson](https://www.data-imaginist.com/)
+* [Thomas Lin Pedersen](https://www.data-imaginist.com/)
 * [Jenny Bryan](https://jennybryan.org/)
 * [Matthew Kay](http://www.mjskay.com/)
 * [Garrick Aden-Buie](https://www.garrickadenbuie.com/project/)
