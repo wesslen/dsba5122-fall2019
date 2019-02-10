@@ -209,7 +209,7 @@ knitr::include_graphics("../images/slides/04-class/charlotteprotest.png")
 
 class: middle, inverse, center
 
-# Spatial
+# Spatial/Maps: Cairo Chap. 10 and Wilke Chap. 15
 
 <blockquote class="twitter-tweet tw-align-center" width="60%" data-lang="en"><p lang="en" dir="ltr">A nice example of projection distortion! How big is Alaska really? <a href="https://t.co/37I6wre2dM">https://t.co/37I6wre2dM</a></p>&mdash; TimSalabim (@TimSalabim3) <a href="https://twitter.com/TimSalabim3/status/1026193095568838657?ref_src=twsrc%5Etfw">August 5, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
