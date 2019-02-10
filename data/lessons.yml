@@ -35,7 +35,7 @@ lessons:
   - title: "Time & Space"
     date: "February 11"
     reading: "04-reading"
-    #class: "04-class"
+    class: "04-class"
 
   - title: "Distributions & Uncertainty"
     date: "February 18"

@@ -21,7 +21,11 @@ editor_options:
 
 # Slides
 
-[Download the slides from today's lecture]().
+[full screen](../../slides/04-class.html#1) / [pdf version](https://github.com/wesslen/dsba5122-spring2019/raw/master/public/files/dsba5122-spring2019-04-class.pdf)
+
+```{r echo=FALSE}
+knitr::include_url('../../slides/04-class.html#1')
+```
 
 # Links
 
@@ -29,8 +33,16 @@ editor_options:
 
 - [Pudding's "Human Terrain"](https://pudding.cool/2018/10/city_3d/)
 
-# Lab 4: Draw Maps in ggplot2
+- [`geoflowr` package](https://github.com/ropenscilabs/geoflowr/)
 
-- Go to our [healy-dataviz](https://rstudio.cloud/spaces/7976/project/160035) project and open "07_maps.Rmd".
+- [R advanced spatial lessons by Ben Best](http://benbestphd.com/R-adv-spatial-lessons/tidy.html)
 
-- This covers [Chapter 8: Draw Maps](http://socviz.co/maps.html#maps) in Healy
+- [Statnmap Introduction to mapping with `sf` and company](https://statnmap.com/2018-07-14-introduction-to-mapping-with-sf-and-co/)
+
+# Lab 4: `gganimate` and Draw Maps in ggplot2
+
+1. [Rstudio.cloud `gganimate` cookbook project](https://rstudio.cloud/spaces/7976/project/211237) / [Slides](https://www.data-imaginist.com/slides/rstudioconf2019/assets/player/keynotedhtmlplayer#1)
+
+2. Go to our [healy-dataviz](https://rstudio.cloud/spaces/7976/project/160035) project and open "07_maps.Rmd".
+
+  - This covers [Chapter 8: Draw Maps](http://socviz.co/maps.html#maps) in Healy
