@@ -308,7 +308,7 @@ head(points, n = 2)
 ## 1 152  43  77.15569
 ## 2  14 188 123.04471
 ```
-
+.pull-left[
 
 ```r
 ggplot(points) +
@@ -317,11 +317,8 @@ ggplot(points) +
 ```
 
 ![](04-class_files/figure-html/ggvoronoi2-1.png)&lt;!-- --&gt;
-
----
-
-Example: `ggvoronoi`
-
+]
+.pull-right[
 
 ```r
 ggplot(points, aes(x,y,fill=distance)) +
@@ -330,7 +327,8 @@ ggplot(points, aes(x,y,fill=distance)) +
   geom_point()
 ```
 
-![](04-class_files/figure-html/unnamed-chunk-34-1.png)&lt;!-- --&gt;
+![](04-class_files/figure-html/voronoi3-1.png)&lt;!-- --&gt;
+]
     </textarea>
 <script src="libs/remark-latest.min.js"></script>
 <script src="https://platform.twitter.com/widgets.js"></script>

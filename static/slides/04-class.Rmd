@@ -393,21 +393,18 @@ library(ggvoronoi)
 
 head(points, n = 2)
 ```
-
-```{r ggvoronoi2}
+.pull-left[
+```{r ggvoronoi2, fig.width=5}
 ggplot(points) +
   geom_point(aes(x,y,color=distance)) +
   geom_path(data=circle,aes(x,y,group=group))
 ```
-
----
-
-Example: `ggvoronoi`
-
-```{r}
+]
+.pull-right[
+```{r voronoi3, fig.width=5}
 ggplot(points, aes(x,y,fill=distance)) +
   geom_voronoi() +
   stat_voronoi(geom="path") +
   geom_point()
 ```
-
+]
