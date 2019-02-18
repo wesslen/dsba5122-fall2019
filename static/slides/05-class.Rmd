@@ -226,7 +226,7 @@ knitr::include_graphics("../images/slides/05-class/cairo5.png")
 
 class: center, middle
 
-```{r out.width = "600px", fig.align="center", echo=FALSE}
+```{r out.width = "550px", fig.align="center", echo=FALSE}
 knitr::include_graphics("../images/slides/05-class/cairo6.png")
 ```
 
