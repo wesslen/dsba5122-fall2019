@@ -49,4 +49,6 @@ You will need to do two things: either write in complete sentences a response or
 
 When you're done, submit a compressed (zipped) folder of your entire project including the knitted HTML file, R Markdown file, data folder, and RStudio Project of your analysis on Canvas. 
 
+To complete the assignment, [upload here to Canvas](https://uncc.instructure.com/courses/100065/assignments/516672) by 11:59pm on March 4, 2018.
+
 It's best if the final knitted document is clean and free of warnings and messages (so if a chunk is creating messages, like wherever you run `library(tidyverse)`, add `message=FALSE, warning=FALSE` to the chunk options).
