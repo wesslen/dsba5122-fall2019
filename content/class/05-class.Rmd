@@ -15,7 +15,7 @@ editor_options:
 # Tweet of the Day:
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">My <a href="https://twitter.com/tapestryconf?ref_src=twsrc%5Etfw">@tapestryconf</a> talk is now in video form: A biased tour of the uncertainty visualization zoo. If you liked the version with just slides, you&#39;ll love (?) the version with me talking over slides :) <a href="https://t.co/hSdczZlgKW">https://t.co/hSdczZlgKW</a></p>&mdash; Matthew Kay (@mjskay) <a href="https://twitter.com/mjskay/status/1071139021231964162?ref_src=twsrc%5Etfw">December 7, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>^[Matthew Kay is an assistant professor of Information at the University of Michigan School of Information. His research focuses on communicating uncertainty and is also the author of the [`tidybayes` package](https://mjskay.github.io/tidybayes/), a very easy introduction to the world of Bayesian statistics from a tidy perspective. If you're new to Bayesian statistics, he also wrote an [excellent paper](http://www.mjskay.com/papers/chi_2016_bayes.pdf) on why Bayesian statistics is appropriate for human-centered (HCI) research. I also highly recommend [his research appearance on the DataStories podcast](http://datastori.es/134-visualizing-uncertainty-with-jessica-hullman-and-matthew-kay/) with his colleague, Jessica Hullman.]
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>^[Matthew Kay is an assistant professor of Information at the University of Michigan School of Information. His research focuses on communicating uncertainty, especially from a Bayesian perspective including authoring the [`tidybayes` package](https://mjskay.github.io/tidybayes/). If you're new to Bayesian statistics, he has an [excellent paper](http://www.mjskay.com/papers/chi_2016_bayes.pdf) on why Bayesian statistics is appropriate for human-centered (HCI) research. I also highly recommend [his research appearance on the DataStories podcast](http://datastori.es/134-visualizing-uncertainty-with-jessica-hullman-and-matthew-kay/) with his colleague, Jessica Hullman.]
 
 
 # Slides:
@@ -31,7 +31,7 @@ make uncertainty visualization fun](http://www.mjskay.com/presentations/openvisc
 
 # Links:
 
-Kristoffer Magnusson's 
+Kristoffer Magnusson's visualization demos:
 
 * [Bayesian Inference: An Interactive Visualization](http://rpsychologist.com/d3/bayes/)
 
