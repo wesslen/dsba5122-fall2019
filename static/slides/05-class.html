@@ -12,9 +12,9 @@
 class: center, middle, inverse, title-slide
 
 # DSBA 5122: Visual Analytics
-## Class 5: Uncertainty and Risk
+## Class 5: Distributions and Uncertainty
 ### Ryan Wesslen
-### 2019-02-18
+### February 18, 2019
 
 ---
 
@@ -23,199 +23,218 @@ class: center, middle, inverse, title-slide
 
 class: center, middle, inverse
 
-# Defining Uncertanity and Risk
+# Why view Distributions? Cairo Ch. 7 &amp; Wilke Ch. 7 - 9
+
+&lt;img src="../images/slides/01-class/DataSaurusDozen.gif" width="600px" style="display: block; margin: auto;" /&gt;
 
 ---
 
-Knightian Uncertainty, a la Donald Rumsfeld
+class: center, middle
 
----
-
-# Gigerenzer
-
-Separates the use of heuristics, or rule-of-thumbs
-
----
-
-class: middle, center, inverse
-
-# Bayesian theory
-
----
-
-class: middle, center, inverse
-
-# Safari example
-
----
-
-# Overview
-
-- **Set-up**: We're on safari in South Africa and we want to see the lions.
-
-- **Problem**: We're uncertain to the lions' location. 
-
-- **Application**: How can we design a visualization tool to aid our driver to help find the lions?
-
----
-
-# Current "expert" strategies (heuristics or rule-of-thumbs)
-
-- Experts (i.e., guides) say that "nature is uncertain", sometimes you're just lucky. (Hakuna Matata).
-
-- They know that there are three signs that lions are in the area:
-
-1. Other animals (like impalas and giraffes) are highly sensitive ('jumpy')
-
-- Least important as could be caused by other factors (e.g., another jeep, weather)
-
-- If they're jumpy, that's a positive sign of lions in the area; if they're not, that's a negative sign of lions.
-
-2. Lion tracks
-
-- Important factor but as its shows the lions' past presence but could've been days ago.
-
-3. Lion dung (the smellier, the better)
-
-- Most important as it shows lions were just there.
-
+.pull-left[
+&lt;img src="../images/slides/05-class/cairo.png" width="300px" style="display: block; margin: auto;" /&gt;
+]
 --
-
-When we spot a factor, it increases the chance of seeing lions in a fixed area around that point (e.g., 1,000 feet around the spot). The opposite occurs for negative factors (e.g., other calm animals like impalas or giraffes).
-
---
-
-If we don't see anything, that too is a negative factor and reduces the likelihood of lions in the broader area.
+.pull-right[
+&lt;img src="../images/slides/05-class/cairo2.png" width="280px" style="display: block; margin: auto;" /&gt;
+]
 
 ---
 
-# Map
+class: center, middle
 
-1. We only have a map of the park. 
-
-2. We are in a jeep and we're constrained to drive for 45 minutes (we need to get breakfast).
-
-3. We start in the morning with no prior knowledge, i.e., we assume flat (uninformed) priors.
-
-4. Our location is tracked automatically at fixed points (e.g., every minute).
-
-5. In each spot, we can immediately detect lions or any of the factors (e.g., lion footprints or lion dung) perfectly within some fixed location window (i.e., we have perfect vision within 100 feet radius and no animals/factors are hidden).
-
-6. If we spot any factors, we update our tool which will then recalculate our posterior probabilities (i.e., we update our information and accordingly our predicted probabilities).
-
-7. We're not allowed to track the animals locations (e.g., gps-tags) or use drones to track their location.
-
---
-
-**Goal**: Let's build a Bayesian inference model that uses a heatmap visualization.
+&lt;img src="../images/slides/05-class/cairo3.png" width="600px" style="display: block; margin: auto;" /&gt;
 
 ---
 
-&lt;!-- Start --&gt;
+class: center, middle
+
+&lt;img src="../images/slides/05-class/wilke1.png" width="700px" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: center, middle
+
+&lt;img src="../images/slides/05-class/wilke2.png" width="700px" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: center, middle
+
+&lt;img src="../images/slides/05-class/wilke3.png" width="700px" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: center, middle
+
+&lt;img src="../images/slides/05-class/wilke4.png" width="700px" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: center, middle
+
+&lt;img src="../images/slides/05-class/wilke5.png" width="700px" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: center, middle
+
+&lt;img src="../images/slides/05-class/wilke6.png" width="500px" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: center, middle
+
+&lt;img src="../images/slides/05-class/wilke7.png" width="500px" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: center, middle
+
+&lt;img src="../images/slides/05-class/wilke8.png" width="700px" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: center, middle
 
 .pull-left[
 
+```r
+ggplot(df, aes(x, y)) + geom_boxplot()
+```
 ]
 .pull-right[
-- We start at Tremisana Inn.  
+
+```r
+ggplot(df, aes(x, y)) + geom_violin()
+```
 ]
+
+&lt;img src="../images/slides/05-class/wilke9.png" width="700px" style="display: block; margin: auto;" /&gt;
+
 
 ---
 
-&lt;!-- Lion prints 5 min --&gt;
+class: center, middle
 
-.pull-left[
-
-]
-.pull-right[
-- Already we find lions prints! This is a great sign. 
-
-- This increases the likelihood we're around 
-]
+&lt;img src="../images/slides/05-class/wilke10.png" width="700px" style="display: block; margin: auto;" /&gt;
 
 ---
 
-&lt;!-- calm Gazelle 10 min --&gt;
+class: center, middle
 
-.pull-left[
-
-]
-.pull-right[
-We start at Tremensana Inn. After 
-]
+&lt;img src="../images/slides/05-class/wilke11.png" width="700px" style="display: block; margin: auto;" /&gt;
 
 ---
 
-&lt;!-- nothing 15 min --&gt;
+class: center, middle
 
-.pull-left[
-
-]
-.pull-right[
-We start at Tremensana Inn. After 
-]
+&lt;img src="../images/slides/05-class/wilke12.png" width="700px" style="display: block; margin: auto;" /&gt;
 
 ---
 
-&lt;!-- calm Giraffes 20 min --&gt;
+class: center, middle
 
-.pull-left[
-
-]
-.pull-right[
-We start at Tremensana Inn. After 
-]
+&lt;img src="../images/slides/05-class/wilke13.png" width="700px" style="display: block; margin: auto;" /&gt;
 
 ---
 
-&lt;!-- nothing 25 min --&gt;
+class: center, middle
 
-.pull-left[
-
-]
-.pull-right[
-- We don't find anything
-]
+&lt;img src="../images/slides/05-class/wilke14.png" width="700px" style="display: block; margin: auto;" /&gt;
 
 ---
 
-&lt;!-- Lion dung 30 min --&gt;
+class: center, inverse, middle
 
-.pull-left[
+## Uncertainty: Cairo Ch. 10 &amp; Wilke Ch. 16
 
-]
-.pull-right[
-- We find lion dung (that's quite smelly).
+&lt;img src="../images/slides/05-class/xkcd.png" width="400px" style="display: block; margin: auto;" /&gt;
 
-- This is a positive sign, and means the lions are more likely to be close by.
-]
+xkcd
 
 ---
 
-&lt;!-- excited Impalas 35 min --&gt;
+class: center, middle
 
-.pull-left[
-
-]
-.pull-right[
-- We find the impalas are excited and jumping.
-
-- This is another positive sign, and means the lions are very likely to be close by.
-]
+&lt;img src="../images/slides/05-class/cairo4.png" width="700px" style="display: block; margin: auto;" /&gt;
 
 ---
 
-&lt;!-- we've found the lions 40 min --&gt;
+class: center, middle
 
-.pull-left[
+&lt;img src="../images/slides/05-class/cairo5.png" width="650px" style="display: block; margin: auto;" /&gt;
 
-]
-.pull-right[
-We've found the lions!
-]
+---
+
+class: center, middle
+
+&lt;img src="../images/slides/05-class/cairo6.png" width="600px" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: center, middle
+
+&lt;img src="../images/slides/05-class/cairo7.png" width="500px" style="display: block; margin: auto;" /&gt;
+
+---
+
+## Why is visualizing uncertainty hard?
+
+- Efficient encodings for uncertainty can be hard to find.
+&lt;!-- try putting mean, variance, and interval estimation in one plot + doing this when useful channels are already used up --&gt;
+
+- Make sure people understand encodings (what does the plot mean?). 
+
+- Perceptual models of probability (e.g., quantile dot plot, HOP).
+
+- Decisions under uncertainty (e.g., [Gigerenzer et al](https://youtu.be/BcMuYhoL38A) or [Monty Hall problem](https://youtu.be/9vRUxbzJZ9Y)).
+
+- Findings may not apply in all contexts.
+
+- Plus, you still have to actually build it!
+
+[Matthew Kay](https://mjskay.github.io/uncertainty-vis-book/ch-why-hard.html)
+
+---
+
+class: center, middle
+
+&lt;img src="../images/slides/05-class/wilke15.png" width="700px" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: center, middle
+
+&lt;img src="../images/slides/05-class/wilke16.png" width="700px" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: center, middle
+
+&lt;img src="../images/slides/05-class/wilke17.png" width="700px" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: center, middle
+
+&lt;img src="../images/slides/05-class/wilke18.png" width="700px" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: center, middle
+
+&lt;img src="../images/slides/05-class/wilke19.png" width="600px" style="display: block; margin: auto;" /&gt;
+
+&lt;img src="../images/slides/05-class/wilke20.png" width="600px" style="display: block; margin: auto;" /&gt;
     </textarea>
 <script src="libs/remark-latest.min.js"></script>
-<script>var slideshow = remark.create();
+<script src="https://platform.twitter.com/widgets.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"highlightSpans": true
+});
 if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
   window.dispatchEvent(new Event('resize'));
 });

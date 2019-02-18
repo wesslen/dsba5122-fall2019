@@ -273,6 +273,20 @@ class: middle, center, inverse
     
     <item>
       <title>Distributions &amp; Uncertainty</title>
+      <link>https://dsba5122-spring2019.netlify.com/class/05-class/</link>
+      <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/class/05-class/</guid>
+      <description>Contents  Tweet of the Day Slides Links: Lab:   Tweet of the Day Slides from my #openvisconf talk: Tidy data and Bayesian analysis
+make uncertainty visualization fun! https://t.co/395TMdLBv0 #tidybayes pic.twitter.com/VHnAUbTsOp — Matthew Kay (@mjskay) May 15, 2018   Slides full screen / pdf version
+ Matthew Kay’s Tidy data and Bayesian analysis make uncertainty visualization fun
+Links: Kristoffer Magnusson’s
+ Bayesian Inference: An Interactive Visualization
+ Interpreting Confidence Intervals</description>
+    </item>
+    
+    <item>
+      <title>Distributions &amp; Uncertainty</title>
       <link>https://dsba5122-spring2019.netlify.com/reading/05-reading/</link>
       <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
       
@@ -283,29 +297,14 @@ class: middle, center, inverse
     </item>
     
     <item>
-      <title>Distributions &amp; Uncertanity</title>
-      <link>https://dsba5122-spring2019.netlify.com/class/05-class/</link>
-      <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-spring2019.netlify.com/class/05-class/</guid>
-      <description>Contents  Tweet of the Day Slides Links: Lab:   Tweet of the Day Slides from my #openvisconf talk: Tidy data and Bayesian analysis
-make uncertainty visualization fun! https://t.co/395TMdLBv0 #tidybayes pic.twitter.com/VHnAUbTsOp — Matthew Kay (@mjskay) May 15, 2018   Slides Download the slides from today’s lecture.
-Links: Kristoffer Magnusson’s
- Bayesian Inference: An Interactive Visualization
- Interpreting Confidence Intervals
-  Lab: Matthew Kay’s Uncertainty visualization examples</description>
-    </item>
-    
-    <item>
       <title>Problem set 2</title>
       <link>https://dsba5122-spring2019.netlify.com/assignment/02-problem-set/</link>
       <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/assignment/02-problem-set/</guid>
-      <description>Task 0: Getting started Create a new RStudio project somewhere on your computer. Open that new folder in Windows Explorer or macOS Finder (however you navigate around the files on your computer), and create a subfolder there named data.
-Download all these files and place them in your new data/ folder.&amp;#8853;You’ll probably need to right click on each and choose “Save link as…”.
-
-  The_Fellowship_Of_The_Ring.csv  The_Two_Towers.csv  The_Return_Of_The_King.</description>
+      <description>Task 0: Getting started Create a new RStudio project somewhere on your computer.&amp;#8853;Remember, in RStudio, “File &amp;gt; New Project ..”)
+ Open that new folder in Windows Explorer or macOS Finder (however you navigate around the files on your computer), and create a subfolder there named data.
+Download the file below and place it in your new data/ folder.&amp;#8853;You’ll probably need to right click on each and choose “Save link as…”.</description>
     </item>
     
     <item>
@@ -609,7 +608,7 @@ RStudio.cloud R is free, but it can sometimes be a pain to install and configure
       
       <guid>https://dsba5122-spring2019.netlify.com/schedule/</guid>
       <description> Here’s your roadmap for the semester!
-  Readings should be completed before each class session  Assignments are due by 11:59 PM on the day they are due  Class materials (slides, in-class activities, etc.) will be added on the day of class     Information Visualization Reading Assignment Class   January 14 Intro to Visual Analytics      January 14 Datacamp course 1 (Due Jan 29)      January 21 No class (MLK Holiday)      January 28 Visual Representation Basics I      January 28 Problem set 1 (Due Feb 11)      February 4 Visual Representation Basics II      February 4 Datacamp course 2 (Due Feb 19)      February 11 Time &amp;amp; Space      February 18 Distributions &amp;amp; Uncertainty      February 18 Problem set 2 (Due Mar 4)       Interactive Visualizations Reading Assignment Class   February 25 Statistical Models      February 25 Design Contest assigned (Due Mar 25)      February 25 Datacamp course 3 (Due Mar 12)      March 4 No class (Spring Break)      March 11 Multidimensional &amp;amp; Dimensionality Reduction      March 18 Unstructured Text      March 25 Design Contest Presentations      March 25 Problem set 3 (Due Apr 8)      April 1 Networks and Trees      April 1 Final project assigned (Due May 6)      April 1 Datacamp course 4 (Due Apr 16)       Advanced Topics Reading Assignment Class   April 8 Coordinated Multiple Views: Interacting &amp;amp; Brushing      April 15 Deployment, Back-end and Scalability      April 15 Problem set 4 (Due Apr 29)      April 22 Machine Learning      April 29 Wrap-up       Final Reading Assignment Class   May 6 Final project due       </description>
+  Readings should be completed before each class session  Assignments are due by 11:59 PM on the day they are due  Class materials (slides, in-class activities, etc.) will be added on the day of class     Information Visualization Reading Assignment Class   January 14 Intro to Visual Analytics      January 14 Datacamp course 1 (Due Jan 29)      January 21 No class (MLK Holiday)      January 28 Visual Representation Basics I      January 28 Problem set 1 (Due Feb 11)      February 4 Visual Representation Basics II      February 4 Datacamp course 2 (Due Feb 19)      February 11 Time &amp;amp; Space      February 18 Distributions &amp;amp; Uncertainty      February 18 Problem set 2 (Due Mar 4)       Interactive Visualizations Reading Assignment Class   February 25 Statistical Models      February 25 Design Contest assigned (Due Mar 25)      February 25 Datacamp course 3 (Due Mar 12)      March 4 No class (Spring Break)      March 11 Multidimensional &amp;amp; Dimensionality Reduction      March 18 Text-as-Data      March 25 Design Contest Presentations      March 25 Problem set 3 (Due Apr 8)      April 1 Networks and Trees      April 1 Final project assigned (Due May 6)      April 1 Datacamp course 4 (Due Apr 16)       Advanced Topics Reading Assignment Class   April 8 Coordinated Multiple Views: Interacting &amp;amp; Brushing      April 15 Deployment, Back-end and Scalability      April 15 Problem set 4 (Due Apr 29)      April 22 Machine Learning      April 29 Wrap-up       Final Reading Assignment Class   May 6 Final project due       </description>
     </item>
     
     <item>
@@ -627,7 +626,7 @@ rwesslen@uncc.edu
 Course
  Mondays
  January 14 – May 6, 2019
- 6:00–8:50 PM
+ 6:00–8:45 PM
  Room 110M: Packard Place
  Slack
  By itself, the facts contained in raw data are difficult to understand, and in the absence of beauty and order, it is impossible to understand the truth that the data shows.
