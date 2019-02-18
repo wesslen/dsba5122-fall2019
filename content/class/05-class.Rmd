@@ -12,12 +12,13 @@ editor_options:
   chunk_output_type: console
 ---
 
-# Tweet of the Day
+# Tweet of the Day:
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Slides from my <a href="https://twitter.com/hashtag/openvisconf?src=hash&amp;ref_src=twsrc%5Etfw">#openvisconf</a> talk: Tidy data and Bayesian analysis<br>make uncertainty visualization fun! <a href="https://t.co/395TMdLBv0">https://t.co/395TMdLBv0</a> <a href="https://twitter.com/hashtag/tidybayes?src=hash&amp;ref_src=twsrc%5Etfw">#tidybayes</a> <a href="https://t.co/VHnAUbTsOp">pic.twitter.com/VHnAUbTsOp</a></p>&mdash; Matthew Kay (@mjskay) <a href="https://twitter.com/mjskay/status/996382910864351233?ref_src=twsrc%5Etfw">May 15, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">My <a href="https://twitter.com/tapestryconf?ref_src=twsrc%5Etfw">@tapestryconf</a> talk is now in video form: A biased tour of the uncertainty visualization zoo. If you liked the version with just slides, you&#39;ll love (?) the version with me talking over slides :) <a href="https://t.co/hSdczZlgKW">https://t.co/hSdczZlgKW</a></p>&mdash; Matthew Kay (@mjskay) <a href="https://twitter.com/mjskay/status/1071139021231964162?ref_src=twsrc%5Etfw">December 7, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>^[Matthew Kay is an assistant professor of Information at the University of Michigan School of Information. His research focuses on communicating uncertainty and is also the author of the [`tidybayes` package](https://mjskay.github.io/tidybayes/), a very easy introduction to the world of Bayesian statistics from a tidy perspective. If you're new to Bayesian statistics, he also wrote an [excellent paper](http://www.mjskay.com/papers/chi_2016_bayes.pdf) on why Bayesian statistics is appropriate for human-centered (HCI) research. I also highly recommend [his research appearance on the DataStories podcast](http://datastori.es/134-visualizing-uncertainty-with-jessica-hullman-and-matthew-kay/) with his colleague, Jessica Hullman.]
 
-# Slides
+
+# Slides:
 
 [full screen](../../slides/05-class.html#1) / [pdf version](https://github.com/wesslen/dsba5122-spring2019/raw/master/public/files/dsba5122-spring2019-05-class.pdf)
 
@@ -38,6 +39,8 @@ Kristoffer Magnusson's
 
 StackOverflow: [Difference between Bayesian and Boostrapping](https://stats.stackexchange.com/questions/25286/when-to-use-bootstrap-vs-bayesian-technique)^[Or if you want even more technical, see the [Wikipedia page on Expected Loss](https://en.wikipedia.org/wiki/Loss_function#Expected_loss). This gets at the core difference between Bayesian and Frequentist schools of thought.]
 
+Pierre Dragicevic's ["Fair statistical communication in HCI"](../../readings/dragicevic-fair-reporting.pdf) paper.^[This paper is an excellent guide for ways to appropriately communicate statistical models and uncertainty. This provides a good background on why overemphasis on p-values and dichotomous testing can go wrong and miss important perspectives when doing hypothesis testing.]
+
 # Lab:
 
 Claus Wilke's 2019 RStudio::Conf talk on [Visualizing uncertainty with hypothetical outcome plots (HOPs)
@@ -45,4 +48,4 @@ Claus Wilke's 2019 RStudio::Conf talk on [Visualizing uncertainty with hypotheti
 
 For the lab session, update [last week's `gganimate` folder](https://rstudio.cloud/spaces/7976/project/211237) on our RStudio.cloud course page.
 
-Matthew Kay's [Uncertainty visualization examples](https://github.com/mjskay/uncertainty-examples)
+If we have time, I also included Matthew Kay's [Uncertainty visualization examples](https://github.com/mjskay/uncertainty-examples) in the RStudio.cloud project (see uncertainty-examples folder).

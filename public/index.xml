@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Data visualization on Visual Analytics</title>
+    <title>Visual Analytics</title>
     <link>https://dsba5122-spring2019.netlify.com/</link>
-    <description>Recent content in Data visualization on Visual Analytics</description>
+    <description>Recent content on Visual Analytics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 22 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://dsba5122-spring2019.netlify.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>ba5122-spring2019.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -277,12 +280,7 @@ class: middle, center, inverse
       <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/class/05-class/</guid>
-      <description>Contents  Tweet of the Day Slides Links: Lab:   Tweet of the Day Slides from my #openvisconf talk: Tidy data and Bayesian analysis
-make uncertainty visualization fun! https://t.co/395TMdLBv0 #tidybayes pic.twitter.com/VHnAUbTsOp — Matthew Kay (@mjskay) May 15, 2018   Slides full screen / pdf version
- Matthew Kay’s Tidy data and Bayesian analysis make uncertainty visualization fun
-Links: Kristoffer Magnusson’s
- Bayesian Inference: An Interactive Visualization
- Interpreting Confidence Intervals</description>
+      <description>Contents  Tweet of the Day: Slides: Links: Lab:   Tweet of the Day: My ??? talk is now in video form: A biased tour of the uncertainty visualization zoo. If you liked the version with just slides, you&#39;ll love (?) the version with me talking over slides :) https://t.co/hSdczZlgKW — Matthew Kay (@mjskay) December 7, 2018   Matthew Kay is an assistant professor of Information at the University of Michigan School of Information.</description>
     </item>
     
     <item>
