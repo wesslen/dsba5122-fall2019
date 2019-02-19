@@ -141,7 +141,7 @@ Small multiples tends to be less effective when each of the variables are on dif
 
 Let's consider instead CMPD traffic stops but by CMPD division. These are more even spread by division than the type of stop.
 
-**Plot** a line chart (optional points too) for stops by `Date` (x axis) and `CMPD_Division` (y axis). (hint: to modify how the date is shown, use the layer `scale_x_date(date_labels = "%Y") +` to show only the year. Feel free to modify by looking at `?scale_x_date`.)
+**Plot** a line chart (optional points too) for stops by `Date` (x axis) and counts ('n', or whatever you named your count variable) (y axis). (hint: to modify how the date is shown, use the layer `scale_x_date(date_labels = "%Y") +` to show only the year. Feel free to modify by looking at `?scale_x_date`.)
 
 ```{r stops-by-division}
 
