@@ -235,13 +235,34 @@ For this DataCamp course, you’ll learn about shiny, the framework for developi
     </item>
     
     <item>
+      <title>Design contest</title>
+      <link>https://dsba5122-spring2019.netlify.com/assignment/design-contest/</link>
+      <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/assignment/design-contest/</guid>
+      <description>Datasets:
+Choose from one of four datasets.
+babynames: US baby name data for each year from 1880 to 2013, the number of children of each sex given each name. All names used 5 or more times are included. 1,792,091 rows, 5 columns (year, sex, name, n, prop). (Source: Social security administration).
+ fueleconomy: Fuel economy data for all cars sold in the US from 1984 to 2015. 33,442 rows, 12 variables.</description>
+    </item>
+    
+    <item>
+      <title>Quiz 2</title>
+      <link>https://dsba5122-spring2019.netlify.com/assignment/02-quiz/</link>
+      <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/assignment/02-quiz/</guid>
+      <description>a.sourceLine { display: inline-block; line-height: 1.25; } a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; } a.sourceLine:empty { height: 1.2em; } .sourceCode { overflow: visible; } code.sourceCode { white-space: pre; position: relative; } div.sourceCode { margin: 1em 0; } pre.sourceCode { margin: 0; } @media screen { div.sourceCode { overflow: auto; } } @media print { code.sourceCode { white-space: pre-wrap; } a.sourceLine { text-indent: -1em; padding-left: 1em; } } pre.</description>
+    </item>
+    
+    <item>
       <title>Statistical Models</title>
       <link>https://dsba5122-spring2019.netlify.com/class/06-class/</link>
       <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/class/06-class/</guid>
-      <description>Contents  Tweet of the day Slides Lab 6: Work with models in ggplot2   Tweet of the day At long last, the parsnip package is on CRAN. parsnip is a unified R interface to models. The first of two blog posts about the package is at https://t.co/PXgFJ8eucM #rstats #tidyverse pic.twitter.com/BmuA9exckK — Max Kuhn (@topepos) November 28, 2018   Slides Download the slides from today’s lecture.
-Lab 6: Work with models in ggplot2  Go to our healy-dataviz project and open “06_models.</description>
+      <description>Contents  Tweet of the day Overview Lab 6: Work with models in ggplot2   Tweet of the day At long last, the parsnip package is on CRAN. parsnip is a unified R interface to models. The first of two blog posts about the package is at https://t.co/PXgFJ8eucM #rstats #tidyverse pic.twitter.com/BmuA9exckK — Max Kuhn (@topepos) November 28, 2018   Overview No slides for today’s class.
+ Design contest assignment.</description>
     </item>
     
     <item>

@@ -18,9 +18,16 @@ editor_options:
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-# Slides
+# Overview
 
-[Download the slides from today's lecture]().
+No slides for today's class.
+
+- [Design contest assignment](../../assignment/design-contest/). Presentations will be in class on March 25.
+
+- [`flexdashboard` overview](https://rmarkdown.rstudio.com/flexdashboard/) / [intro pdf slides](https://github.com/wesslen/iviz-rstudio-workshop/raw/master/slides/flexdashboard.pdf) 
+
+For this part, we'll use [this RStudio.Cloud project](https://rstudio.cloud/spaces/7976/project/231799) on our class workspace.
+
 
 # Lab 6: Work with models in ggplot2
 

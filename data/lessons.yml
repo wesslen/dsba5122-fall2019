@@ -52,11 +52,11 @@ lessons:
   - title: "Statistical Models"
     date: "February 25"
     reading: "06-reading"
-    #class: "06-class"
+    class: "06-class"
     
   - title: "**Design Contest assigned (Due Mar 25)**"
     date: "February 25"
-    #assignment: "01-project"
+    assignment: "design-contest"
     
   - title: "**Datacamp course 3 (Due Mar 12)**"
     date: "February 25"

@@ -87,7 +87,7 @@ df %>%
 **Plot** a box plot with `Was_a_Search_Conducted` on the x-axis and `Driver_Age` on the y-axis.
 
 ```{r boxplot}
-ggplot(df, aes(x = Result_of_Stop, y = Driver_Age)) +
+ggplot(df, aes(x = Was_a_Search_Conducted, y = Driver_Age)) +
   geom_boxplot()
 ```
 
@@ -100,7 +100,7 @@ ggplot(df, aes(x = Was_a_Search_Conducted, y = Driver_Age, fill = Was_a_Search_C
 
 From the plots above, do you think the age of the driver is a significant factor in whether a search was conducted? Why or why not? xxxxx
 
-**Answer: It appears that the searches were conducted on a slightly younger population than the population that was not searched.**
+**Answer: It appears that the searches were conducted on a slightly younger population than the population that was not searched. But other answers could include no relationship, need better plot to make a judgment.**
 
 ## Date of stop (1 point)
 

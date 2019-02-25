@@ -1,0 +1,47 @@
+---
+title: "Design contest"
+date: "2019-02-25"
+due_date: "2019-03-25"
+due_time: "06:00 PM"
+editor_options: 
+  chunk_output_type: console
+---
+
+
+
+<p>Datasets:</p>
+<p>Choose from one of four datasets.</p>
+<ol style="list-style-type: decimal">
+<li><p><code>babynames</code>: US baby name data for each year from 1880 to 2013, the number of children of each sex given each name. All names used 5 or more times are included. 1,792,091 rows, 5 columns (year, sex, name, n, prop). (Source: Social security administration).</p></li>
+<li><p><code>fueleconomy</code>: Fuel economy data for all cars sold in the US from 1984 to 2015. 33,442 rows, 12 variables. (Source: Environmental protection agency)</p></li>
+<li><p><code>nasaweather</code>: Data from the 2006 ASA data expo. Contains monthly atmospheric measurements from Jan 1995 to Dec 2000 on 24 x 24 grid over Central America. 41,472 observations, 11 variables. (Source: ASA data expo)</p></li>
+<li><p><code>nycflights13</code>: This package contains information about all flights that departed from NYC (i.e., EWR, JFK and LGA) in 2013: 336,776 flights with 16 variables. To help understand what causes delays, it also includes a number of other useful datasets: weather, planes, airports, airlines. (Source: Bureau of transportation statistics)</p></li>
+</ol>
+<p>Objective:</p>
+<ol style="list-style-type: decimal">
+<li><p>Create a scenario: Start by forming a primary research question. Then develop a scenario to answer that research question.</p></li>
+<li><p>Read the paper titled <a href="https://www.cs.ubc.ca/labs/imager/tr/2009/NestedModel/NestedModel.pdf">“A Nested Model for Visualization Design and Validation”</a>. It explains the design process in detail.</p></li>
+<li><p>Design a visual analytics system using <code>flexdashboard</code>, <code>ggplot2</code>, <code>htmlwidgets</code> and/or <code>shiny</code>. You need to design a visual analytics system to help yourself conduct the tasks you proposed.</p></li>
+</ol>
+<p>Answer the following questions in your design process:</p>
+<ul>
+<li><p>What are the data and tasks?</p></li>
+<li><p>What can/must be done using data analysis?</p></li>
+<li><p>What needs to be done interactively?</p></li>
+<li><p>How to best support the user in conducting the tasks?</p></li>
+<li><p>What’s the analysis and interaction flow?</p></li>
+<li><p>What needs to be visualized and how to best visualize it?</p></li>
+</ul>
+<p>The resulting design will be a visualization dashboard. If you can’t figure out how to implement certain recommendations (e.g., certain types of interactions), then it’s okay to make notes. For this project, the goal is on design rather than implementation (though you’ll get a higher grade the more you can implement).</p>
+<p><strong>Presentation</strong>: Prepare a 7-8 minutes presentation to introduce your dataset, scenario, design process (e.g. your answers to the problems), and your dashboard.</p>
+<p>The presentations will be given on March 25 in class. Upload your dashboard to your shinyapps.io account for deployment.</p>
+<p>For your presentation, you will need to create slides for your presentation. You may use PowerPoint, Keynote, or try an R-based presentation tool (e.g., ioslides, slidy, or <code>xaringan</code>). I would strongly recommend <code>xaringan</code>. In the first page of your slides, write down the names of the team members.</p>
+<p>Grading: The instructor grades the design after your presentation according to the following criteria:</p>
+<ul>
+<li>Novelty of your scenario (2 point)</li>
+<li>How well you follow the design process (2 points)</li>
+<li>The novelty of your design (2 points)</li>
+<li>Quality of your dashboard (2 points)</li>
+<li>Quality of the presentation (2 points)</li>
+</ul>
+<p>Higher scores will include using a broader range of packages and adding in interactive or animated tools (e.g., enable <code>shiny</code>, <code>gganimate</code>, <code>htmlwidgets</code> like plotly) when appropriate. However, please note, don’t just add interaction to add more complexity. You will need to justify why interaction or animation was necessary if you use these items.</p>
