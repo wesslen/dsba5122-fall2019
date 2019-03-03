@@ -166,7 +166,7 @@ To do this, we need to use the `sf` package. (For help along the way, see [this 
 ```{r load-sf}
 library(sf); library(viridis)
 
-cmpd <- st_read("./data/CMPD_Police_Divisions.shp")
+cmpd <- st_read("./data/CMPD_Police_Divisions/CMPD_Police_Divisions.shp")
 ```
 
 Note that while we have five files, we only load in the shapefile (`.shp`) file. This is typical but know that to use this file you would need the other four files in the same folder as your shapefile.
