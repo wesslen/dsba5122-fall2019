@@ -19,7 +19,7 @@ Download the file below and place it in your new `data/` folder.^[{-} You'll pro
 
 For the shape file, this will come as a zip file. You will need to extract **all** the files in this folder into a sub-folder in your `/data/` folder.
 
-[Download this R Markdown file](/files/your-name_problem-set-2.Rmd) and place it in your newly-created project^[{-} Again, you might have to right click on the link and choose "Save link as…".] It contains an outline/skeleton of the two tasks you'll need to do in this problem set. Lots of the code is pre-written again!
+[Download this R Markdown file](https://github.com/wesslen/dsba5122-spring2019/raw/master/static/files/your-name_problem-set-2.Rmd) and place it in your newly-created project^[{-} Again, you might have to right click on the link and choose "Save link as…".] It contains an outline/skeleton of the two tasks you'll need to do in this problem set. Lots of the code is pre-written again!
 
 In the end, the structure of your new project directory should look something like this:
 
@@ -39,7 +39,7 @@ your-project-name\
 
 # Task: CMPD Traffic Stops
 
-^[{-} ![](https://media.giphy.com/media/l2Jed4yKA1OlaFJPW/giphy.gif)] Follow the instructions in the [R Markdown file you downloaded](/files/your-name_problem-set-2.Rmd).
+^[{-} ![](https://media.giphy.com/media/l2Jed4yKA1OlaFJPW/giphy.gif)] Follow the instructions in the [R Markdown file you downloaded](https://github.com/wesslen/dsba5122-spring2019/raw/master/static/files/your-name_problem-set-2.Rmd).
 
 You will need to do two things: either write in complete sentences a response or write R code to fill in a chunk.
 
