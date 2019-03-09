@@ -72,7 +72,7 @@ skim(mpg)
 ##  n obs: 234 
 ##  n variables: 11 
 ## 
-## ── Variable type:character ──────────────────────────────────────────────────────────────
+## ── Variable type:character ───────────────────────────────────────────────────────────────────
 ##      variable missing complete   n min max empty n_unique
 ##         class       0      234 234   3  10     0        7
 ##           drv       0      234 234   1   1     0        3
@@ -81,7 +81,7 @@ skim(mpg)
 ##         model       0      234 234   2  22     0       38
 ##         trans       0      234 234   8  10     0       10
 ## 
-## ── Variable type:integer ────────────────────────────────────────────────────────────────
+## ── Variable type:integer ─────────────────────────────────────────────────────────────────────
 ##  variable missing complete   n    mean   sd   p0  p25    p50  p75 p100
 ##       cty       0      234 234   16.86 4.26    9   14   17     19   35
 ##       cyl       0      234 234    5.89 1.61    4    4    6      8    8
@@ -93,7 +93,7 @@ skim(mpg)
 ##  ▃▇▃▇▅▁▁▁
 ##  ▇▁▁▁▁▁▁▇
 ## 
-## ── Variable type:numeric ────────────────────────────────────────────────────────────────
+## ── Variable type:numeric ─────────────────────────────────────────────────────────────────────
 ##  variable missing complete   n mean   sd  p0 p25 p50 p75 p100     hist
 ##     displ       0      234 234 3.47 1.29 1.6 2.4 3.3 4.6    7 ▇▇▅▅▅▃▂▁
 ```
@@ -102,8 +102,8 @@ skim(mpg)
 
 ## Table based
 
-<div id="htmlwidget-ccadcd91e2c5c5066468" style="width:100%;height:302.4px;" class="widgetframe html-widget"></div>
-<script type="application/json" data-for="htmlwidget-ccadcd91e2c5c5066468">{"x":{"url":"07-class_files/figure-html//widgets/widget_unnamed-chunk-4.html","options":{"xdomain":"*","allowfullscreen":false,"lazyload":false}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-383ff24a6d79607f80c5" style="width:100%;height:302.4px;" class="widgetframe html-widget"></div>
+<script type="application/json" data-for="htmlwidget-383ff24a6d79607f80c5">{"x":{"url":"07-class_files/figure-html//widgets/widget_unnamed-chunk-4.html","options":{"xdomain":"*","allowfullscreen":false,"lazyload":false}},"evals":[],"jsHooks":[]}</script>
 
 ---
 
@@ -166,8 +166,8 @@ library(d3heatmap)
 d3heatmap(mtcars, scale = "column", colors = "YlOrRd")
 ```
 
-<div id="htmlwidget-0002cb8e9bb557703d28" style="width:100%;height:302.4px;" class="widgetframe html-widget"></div>
-<script type="application/json" data-for="htmlwidget-0002cb8e9bb557703d28">{"x":{"url":"07-class_files/figure-html//widgets/widget_unnamed-chunk-9.html","options":{"xdomain":"*","allowfullscreen":false,"lazyload":false}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-e26bbfa8cbb97891f11c" style="width:100%;height:302.4px;" class="widgetframe html-widget"></div>
+<script type="application/json" data-for="htmlwidget-e26bbfa8cbb97891f11c">{"x":{"url":"07-class_files/figure-html//widgets/widget_unnamed-chunk-9.html","options":{"xdomain":"*","allowfullscreen":false,"lazyload":false}},"evals":[],"jsHooks":[]}</script>
 
 ---
 
@@ -191,16 +191,16 @@ library(pairsD3)
 pairsD3(iris[,1:4], group=iris[,5])
 ```
 
-<div id="htmlwidget-d0c10234eb501793e6cc" style="width:100%;height:302.4px;" class="widgetframe html-widget"></div>
-<script type="application/json" data-for="htmlwidget-d0c10234eb501793e6cc">{"x":{"url":"07-class_files/figure-html//widgets/widget_unnamed-chunk-13.html","options":{"xdomain":"*","allowfullscreen":false,"lazyload":false}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-f2931885d29ac0dccbd4" style="width:100%;height:302.4px;" class="widgetframe html-widget"></div>
+<script type="application/json" data-for="htmlwidget-f2931885d29ac0dccbd4">{"x":{"url":"07-class_files/figure-html//widgets/widget_unnamed-chunk-13.html","options":{"xdomain":"*","allowfullscreen":false,"lazyload":false}},"evals":[],"jsHooks":[]}</script>
 
 ---
 
-## Parallel coordinates
+## Parallel coordinates: 
 
-&lt;iframe src="../images/slides/07-class/parcoords.html" width="80%" height="80%" frameBorder="0"&gt;&lt;/iframe&gt;
+&lt;iframe src="../images/slides/07-class/parcoords.html" width="100%" height="100%" frameBorder="0"&gt;&lt;/iframe&gt;
 
-See the [`parcoords`](http://www.buildingwidgets.com/blog/2015/1/30/week-04-interactive-parallel-coordinates-1) package for demo
+[`parcoords`](http://www.buildingwidgets.com/blog/2015/1/30/week-04-interactive-parallel-coordinates-1)
 
 ---
 
@@ -282,11 +282,11 @@ There exist many algorithms for projecting n-dimensions to 2D:
 
 ## Principal Components
 
-&lt;img src="../images/slides/07-class/pca.png" width="400px" style="display: block; margin: auto;" /&gt;
+&lt;img src="../images/slides/07-class/pca.png" width="500px" style="display: block; margin: auto;" /&gt;
 
-- PCA introduces a new set of variables (PC's) by **linear combination of the original variables** and standardized (zero mean and unit variance). 
+- Introduces a new set of variables (PC's) by **linear combination of the original variables** and standardized (zero mean and unit variance). 
 
-- The PCs are uncorrelated and ordered so that the first component captures the largest possible amount of variation and subsequent components capture increasingly less. 
+- The PCs are uncorrelated and ordered (first feature most important, etc.)
 
 - Usually, key data features can be seen from first 2-3 PC's.
 

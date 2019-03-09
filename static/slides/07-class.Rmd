@@ -205,11 +205,11 @@ frameWidget(l, width = "100%")
 
 ---
 
-## Parallel coordinates
+## Parallel coordinates: 
 
-<iframe src="../images/slides/07-class/parcoords.html" width="80%" height="80%" frameBorder="0"></iframe>
+<iframe src="../images/slides/07-class/parcoords.html" width="100%" height="100%" frameBorder="0"></iframe>
 
-See the [`parcoords`](http://www.buildingwidgets.com/blog/2015/1/30/week-04-interactive-parallel-coordinates-1) package for demo
+[`parcoords`](http://www.buildingwidgets.com/blog/2015/1/30/week-04-interactive-parallel-coordinates-1)
 
 ---
 
@@ -302,13 +302,13 @@ There exist many algorithms for projecting n-dimensions to 2D:
 
 ## Principal Components
 
-```{r out.width = "400px", fig.align="center", echo=FALSE}
+```{r out.width = "500px", fig.align="center", echo=FALSE}
 knitr::include_graphics("../images/slides/07-class/pca.png")
 ```
 
-- PCA introduces a new set of variables (PC's) by **linear combination of the original variables** and standardized (zero mean and unit variance). 
+- Introduces a new set of variables (PC's) by **linear combination of the original variables** and standardized (zero mean and unit variance). 
 
-- The PCs are uncorrelated and ordered so that the first component captures the largest possible amount of variation and subsequent components capture increasingly less. 
+- The PCs are uncorrelated and ordered (first feature most important, etc.)
 
 - Usually, key data features can be seen from first 2-3 PC's.
 
