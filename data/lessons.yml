@@ -67,12 +67,12 @@ lessons:
 
   - title: "Multidimensional &\nDimensionality Reduction"
     date: "March 11"
-    #reading: "07-reading"
-    #class: "07-class"
+    reading: "07-reading"
+    class: "07-class"
 
   - title: "Text-as-Data"
     date: "March 18"
-    #reading: "08-reading"
+    reading: "08-reading"
     #class: "08-class"
 
   - title: "Design Contest Presentations"

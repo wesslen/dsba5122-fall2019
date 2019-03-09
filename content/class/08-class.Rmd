@@ -19,3 +19,7 @@ editor_options:
 # Links
 
 * [Tidy Text Mining](https://www.tidytextmining.com/) by Julia Silge and David Robinson
+
+* [Intuitive explanation of Dirichlet distribution](https://www.quora.com/What-is-an-intuitive-explanation-of-the-Dirichlet-distribution)
+
+* [Topic modeling](http://topicmodels.west.uni-koblenz.de/#toolbox)

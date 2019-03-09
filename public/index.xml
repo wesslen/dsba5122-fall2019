@@ -74,7 +74,9 @@ Links  Docker and `plumber’
       
       <guid>https://dsba5122-spring2019.netlify.com/class/11-class/</guid>
       <description> Contents  Slides Links   Slides Download the slides from today’s lecture.
-Links  altair / vega editor
+🎅 Major announcement for #rstats shiny addicts🎅:
+Excited to officially introduce RinteRface, a collection of open-source HTML templates for #shiny and more 🦄
+Thanks ??? for joining the project 🔥https://t.co/IAX76FEz1k??? ??? ??? ??? pic.twitter.com/WCvuAxJiI4 — David Granjon (@divadnojnarg) November 28, 2018   Links  altair / vega editor
  dragulaR
   </description>
     </item>
@@ -156,7 +158,10 @@ Welcome  </description>
       
       <guid>https://dsba5122-spring2019.netlify.com/class/08-class/</guid>
       <description> Contents  Slides Links   Slides Download the slides from today’s lecture.
-Links  Tidy Text Mining by Julia Silge and David Robinson  </description>
+Links  Tidy Text Mining by Julia Silge and David Robinson
+ Intuitive explanation of Dirichlet distribution
+ Topic modeling
+  </description>
     </item>
     
     <item>
@@ -187,8 +192,11 @@ Welcome  </description>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/class/07-class/</guid>
-      <description> Contents  Slides Links   Slides Download the slides from today’s lecture.
-Links introducing stat_mds, dimensionality reduction in #ggplot2 using principal components analysis or tSNE https://t.co/HiShktJPjy #rstats #dataviz pic.twitter.com/5cY8315Tjk — Ben Dilday (@BenDilday) September 11, 2018   </description>
+      <description>Contents  Tweet of the day Slides:   Tweet of the day 🍾🍾 New project in the family! 🍾🍾
+-&amp;gt;The https://t.co/tKJaXKC2qm
+A gallery of 200 Simple charts made with d3.js, with reproducible, commented &amp;amp; editable code. #dataviz pic.twitter.com/m19BKxiNe5 — Yan Holtz (@R_Graph_Gallery) February 19, 2019   Slides: full screen / pdf version
+   RStudio, “HTML Widget Gallery”
+  John Coene, “How to build htmlwidgets”</description>
     </item>
     
     <item>
@@ -201,8 +209,8 @@ Links introducing stat_mds, dimensionality reduction in #ggplot2 using principal
 
   Chapter 12: Visualizing associations in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
 
-  Recommended   Kieran Healy, “Two y-axes”
-  Tyler Bradley, “PCA in a tidy(verse) framework”</description>
+  Chapter 4: Multivariate Analysis in Riccardo Mazza, Introduction to Information Visualization
+  Recommended   Kieran Healy, “Two y-axes”</description>
     </item>
     
     <item>
@@ -557,14 +565,14 @@ Questions to reflect on  How do we know what is true? Are facts truth? Why do we
     </item>
     
     <item>
-      <title>Space</title>
+      <title>Networks and Trees</title>
       <link>https://dsba5122-spring2019.netlify.com/reading/10-reading/</link>
       <pubDate>Tue, 06 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/reading/10-reading/</guid>
       <description>Required   Chapter 10 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
-  Chapter 7 in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
-  It looks like this is a lot of reading, but lots of these are short videos or tweets or interactive websites, so don’t worry!</description>
+  Chapters 2-9 in John Coene, Twinetbook  It looks like this is a lot of reading, but lots of these are short videos or tweets or interactive websites, so don’t worry!
+  Why all world maps are wrong  The True Size Of…  Map projections  Gall-Peters Projection  “When Maps Lie”  Animated Mercator distortion  “These Twisted Maps Prove That America Isn’t a Red Country”  “The next great fake news threat?</description>
     </item>
     
     <item>

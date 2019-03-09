@@ -17,3 +17,5 @@ csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
 - <i class="fas fa-external-link-square-alt"></i> [Chapter 6: Basic Regression](https://moderndive.com/6-regression.html) from "ModernDive: An Introduction to Statistical and Data Sciences via R" by Chester Ismay and Albert Y. Kim.^[This is an outstanding new book -- with a free online version -- that will be a big complement to the tidyverse in the future. We could have spent much more time on this book and I encourage anyone interested in applying statistical models to read the later chapters.]
 
 - <i class="fas fa-external-link-square-alt"></i> [Intro to `parsnip` R package](https://tidymodels.github.io/parsnip/articles/parsnip_Intro.html) by Max Kuhn and Davis Vaughn.
+
+- <i class="fas fa-external-link-square-alt"></i> [Working with   `tidymodels`](https://github.com/EmilHvitfeldt/2019-ocrug-tidymodels/raw/master/slides.pdf) by Emil Hvitfeldt.

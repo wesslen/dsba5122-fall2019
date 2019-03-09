@@ -45,7 +45,9 @@ Links  Docker and `plumber’
       
       <guid>https://dsba5122-spring2019.netlify.com/class/11-class/</guid>
       <description> Contents  Slides Links   Slides Download the slides from today’s lecture.
-Links  altair / vega editor
+🎅 Major announcement for #rstats shiny addicts🎅:
+Excited to officially introduce RinteRface, a collection of open-source HTML templates for #shiny and more 🦄
+Thanks ??? for joining the project 🔥https://t.co/IAX76FEz1k??? ??? ??? ??? pic.twitter.com/WCvuAxJiI4 — David Granjon (@divadnojnarg) November 28, 2018   Links  altair / vega editor
  dragulaR
   </description>
     </item>
@@ -76,7 +78,10 @@ Tweet of the day Our lab&#39;s first preprint! Coral: an R shiny and D3.js web a
       
       <guid>https://dsba5122-spring2019.netlify.com/class/08-class/</guid>
       <description> Contents  Slides Links   Slides Download the slides from today’s lecture.
-Links  Tidy Text Mining by Julia Silge and David Robinson  </description>
+Links  Tidy Text Mining by Julia Silge and David Robinson
+ Intuitive explanation of Dirichlet distribution
+ Topic modeling
+  </description>
     </item>
     
     <item>
@@ -85,8 +90,11 @@ Links  Tidy Text Mining by Julia Silge and David Robinson  </description>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/class/07-class/</guid>
-      <description> Contents  Slides Links   Slides Download the slides from today’s lecture.
-Links introducing stat_mds, dimensionality reduction in #ggplot2 using principal components analysis or tSNE https://t.co/HiShktJPjy #rstats #dataviz pic.twitter.com/5cY8315Tjk — Ben Dilday (@BenDilday) September 11, 2018   </description>
+      <description>Contents  Tweet of the day Slides:   Tweet of the day 🍾🍾 New project in the family! 🍾🍾
+-&amp;gt;The https://t.co/tKJaXKC2qm
+A gallery of 200 Simple charts made with d3.js, with reproducible, commented &amp;amp; editable code. #dataviz pic.twitter.com/m19BKxiNe5 — Yan Holtz (@R_Graph_Gallery) February 19, 2019   Slides: full screen / pdf version
+   RStudio, “HTML Widget Gallery”
+  John Coene, “How to build htmlwidgets”</description>
     </item>
     
     <item>
