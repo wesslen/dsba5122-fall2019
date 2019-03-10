@@ -30,3 +30,6 @@ knitr::include_url('../../slides/07-class.html#1')
 
 - <i class="fas fa-external-link-square-alt"></i> John Coene, ["How to build htmlwidgets"](https://john-coene.com/post/how-to-build-htmlwidgets/)
 
+# Lab
+
+- We'll run `htmlwidgets` in [this RStudio.cloud project](https://rstudio.cloud/spaces/7976/project/259799).
