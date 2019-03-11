@@ -15,7 +15,7 @@ editor_options:
 # Tweet of the day
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">🍾🍾 New project in the family! 🍾🍾<br><br>-&gt;The <a href="https://t.co/tKJaXKC2qm">https://t.co/tKJaXKC2qm</a><br><br>A gallery of 200  _Simple_ charts made with d3.js, with reproducible, commented &amp; editable code. <a href="https://twitter.com/hashtag/dataviz?src=hash&amp;ref_src=twsrc%5Etfw">#dataviz</a> <a href="https://t.co/m19BKxiNe5">pic.twitter.com/m19BKxiNe5</a></p>&mdash; Yan Holtz (@R_Graph_Gallery) <a href="https://twitter.com/R_Graph_Gallery/status/1097793810715869185?ref_src=twsrc%5Etfw">February 19, 2019</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>^[Yan has an [*excellent* visualization decision tree](https://www.data-to-viz.com/) along with the [r-graph gallery.com](https://www.r-graph-gallery.com/), [python-graph-gallery.com](https://python-graph-gallery.com/), and even [d3-graph-gallery.com](https://www.d3-graph-gallery.com/).]
 
 
 # Slides:
@@ -26,9 +26,13 @@ editor_options:
 knitr::include_url('../../slides/07-class.html#1')
 ```
 
+- <i class="fas fa-external-link-square-alt"></i> Mike Bostock (bl.ocks.org), ["Nutrient Parallel Coordinates"](http://bl.ocks.org/syntagmatic/3150059)
+
 - <i class="fas fa-external-link-square-alt"></i> RStudio, ["HTML Widget Gallery"](http://gallery.htmlwidgets.org/)
 
 - <i class="fas fa-external-link-square-alt"></i> John Coene, ["How to build htmlwidgets"](https://john-coene.com/post/how-to-build-htmlwidgets/)
+
+- <i class="fas fa-external-link-square-alt"></i> RStudio, ["`r2d3` package"](https://rstudio.github.io/r2d3/) 
 
 # Lab
 
