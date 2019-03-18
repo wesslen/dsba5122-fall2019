@@ -341,7 +341,7 @@ top_terms
 
 ---
 
-```{r}
+```{r echo=F, fig.width=8}
 library(ggthemes)
 
 scale_x_reordered <- function(..., sep = "___") {
@@ -368,6 +368,35 @@ top_terms %>%
   labs(x = "", y = "")
 ```
 
+---
+
+```{r eval=F, fig.width=8}
+# code for topic interpret plot
+library(ggthemes)
+
+scale_x_reordered <- function(..., sep = "___") {
+  reg <- paste0(sep, ".+$")
+  ggplot2::scale_x_discrete(labels = function(x) gsub(reg, "", x), ...)
+}
+
+reorder_within <- function(x, by, within, fun = mean, sep = "___", ...) {
+  new_x <- paste(x, within, sep = sep)
+  stats::reorder(new_x, by, FUN = fun)
+}
+
+top_terms %>%
+  filter(topic %in% 1:9) %>%
+  mutate(term = reorder_within(term, beta, topic),
+         topic = factor(topic)) %>%
+  ggplot(aes(term, beta, fill = topic)) +
+  geom_col(alpha = 0.8, show.legend = FALSE) +
+  facet_wrap(~ topic, ncol = 3, scales = "free_y") +
+  theme_tufte(base_family = "IBMPlexSans", ticks = FALSE) +
+  scale_x_reordered() +
+  theme_bw() +
+  coord_flip() +
+  labs(x = "", y = "")
+```
 
 ---
 
