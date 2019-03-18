@@ -341,7 +341,7 @@ top_terms
 
 ---
 
-```{r echo=F, fig.width=8}
+```{r echo=F, fig.width=8, fig.height=8}
 library(ggthemes)
 
 scale_x_reordered <- function(..., sep = "___") {
