@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DSBA 5122: Visual Analytics</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Ryan Wesslen" />
+    <meta name="date" content="2019-03-18" />
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# DSBA 5122: Visual Analytics
+## Class 8 Lab: Intro to Shiny
+### Ryan Wesslen
+### March 18, 2019
+
+---
+
+
+
+
+## Shiny
+
+A **Shiny** app is a web page (UI) connected to a computer running a live R session (Server)
+
+&lt;img src="../images/slides/08-class/shiny-01.png" width="800px" /&gt;
+
+Users can manipulate the UI, which will cause the server to update the UI's displays (by running R code).
+
+---
+
+&lt;img src="../images/slides/08-class/shiny-02.png" width="800px" /&gt;
+
+---
+
+&lt;img src="../images/slides/08-class/shiny-03.png" width="800px" /&gt;
+
+---
+
+&lt;img src="../images/slides/08-class/shiny-template.png" width="800px" /&gt;
+
+---
+
+## Try This
+
+1. Open a new .R file
+
+2. Type this into the file. (Do you have the shiny package?)
+
+    &lt;img src="../images/slides/08-class/shiny-template2.png" width="600px" /&gt;
+
+3. Click "Run"
+
+---
+
+class: center, middle, inverse
+
+# User Interface: ui() function
+
+---
+
+## `fluidPage()`
+
+&lt;img src="../images/slides/08-class/shiny-04.png" width="800px" /&gt;
+
+---
+
+## Example
+
+&lt;img src="../images/slides/08-class/shiny-input-ex1.png" width="800px" /&gt;
+
+---
+
+## Example
+
+&lt;img src="../images/slides/08-class/shiny-input-ex2.png" width="800px" /&gt;
+
+---
+
+## Input Syntax
+
+&lt;img src="../images/slides/08-class/shiny-inputs-syntax.png" width="800px" /&gt;
+
+---
+
+## Inputs
+
+&lt;img src="../images/slides/08-class/shiny-inputs.png" width="800px" /&gt;
+
+There are multiple common `Input()` functions.
+
+---
+
+## What's in an Input function? HTML
+
+&lt;img src="../images/slides/08-class/shiny-input-ex3.png" width="800px" /&gt;
+
+---
+
+## Output Syntax
+
+&lt;img src="../images/slides/08-class/shiny-outputs-syntax.png" width="800px" /&gt;
+
+---
+
+## Output Options
+
+&lt;img src="../images/slides/08-class/shiny-outputs.png" width="800px" /&gt;
+
+---
+
+## Example
+
+&lt;img src="../images/slides/08-class/shiny-outputs-ex3.png" width="800px" /&gt;
+
+---
+
+## Example
+
+&lt;img src="../images/slides/08-class/shiny-outputs-ex1.png" width="800px" /&gt;
+
+---
+
+## Example
+
+&lt;img src="../images/slides/08-class/shiny-outputs-ex2.png" width="800px" /&gt;
+
+---
+
+## Example
+
+&lt;img src="../images/slides/08-class/shiny-outputs-ex4.png" width="800px" /&gt;
+
+---
+
+## Layouts
+
+&lt;img src="../images/slides/08-class/shiny-layouts.png" width="800px" /&gt;
+
+---
+
+## `sidebarLayout()`
+
+&lt;img src="../images/slides/08-class/shiny-layout1.png" width="800px" /&gt;
+
+---
+
+## `sidebarLayout()`
+
+&lt;img src="../images/slides/08-class/shiny-layout2.png" width="800px" /&gt;
+
+---
+
+## `sidebarLayout()`
+
+&lt;img src="../images/slides/08-class/shiny-layout3.png" width="800px" /&gt;
+
+---
+
+## html tags if you know HTML
+
+&lt;img src="../images/slides/08-class/shiny-tags.png" width="800px" /&gt;
+
+---
+
+# Server: `server()` function
+
+&lt;img src="../images/slides/08-class/shiny-server1.png" width="800px" /&gt;
+
+---
+
+&lt;img src="../images/slides/08-class/shiny-server2.png" width="800px" /&gt;
+
+---
+
+&lt;img src="../images/slides/08-class/shiny-server2a.png" width="800px" /&gt;
+
+---
+
+&lt;img src="../images/slides/08-class/shiny-server2b.png" width="800px" /&gt;
+
+---
+
+&lt;img src="../images/slides/08-class/shiny-server2c.png" width="800px" /&gt;
+
+---
+
+&lt;img src="../images/slides/08-class/shiny-server2d.png" width="800px" /&gt;
+
+---
+
+&lt;img src="../images/slides/08-class/shiny-server3.png" width="800px" /&gt;
+
+---
+
+&lt;img src="../images/slides/08-class/shiny-server4.png" width="800px" /&gt;
+
+---
+
+&lt;img src="../images/slides/08-class/shiny-server5.png" width="800px" /&gt;
+
+---
+
+&lt;img src="../images/slides/08-class/shiny-server6.png" width="800px" /&gt;
+
+---
+
+&lt;img src="../images/slides/08-class/shiny-server-reactivity.png" width="800px" /&gt;
+
+---
+
+## Shiny: Output
+
+&lt;img src="../images/slides/08-class/shiny-server-output.png" width="800px" /&gt;
+
+---
+
+## Server Recap
+
+&lt;img src="../images/slides/08-class/shiny-server-recap.png" width="800px" /&gt;
+
+---
+
+## 15 minute Quick Assignment
+
+Open the `app.R` file ([click here](../files/app.R)).
+
+Try these three tasks:
+
+1. add a new slider that sets the number of breaks for the rnorm() function
+
+2. add a textInput() that sets the name of the plot
+
+3. add a actionButton() that updates the name of the plot (part 2) only when clicking (hint: see ?observeEvent)
+
+---
+
+# Deploying Apps to Shinyapps.io
+
+&lt;img src="../images/slides/08-class/shiny-shinyapps.png" width="800px" /&gt;
+
+---
+
+## Setup connection to ShinyApps.io
+
+&lt;img src="../images/slides/08-class/deploy1.gif" width="700px" /&gt;
+
+---
+
+## Setup connection to ShinyApps.io
+
+&lt;img src="../images/slides/08-class/deploy2.gif" width="700px" /&gt;
+
+---
+
+## Deploy to ShinyApps.io
+
+&lt;img src="../images/slides/08-class/deploy3.gif" width="700px" /&gt;
+
+---
+
+## Deploy to ShinyApps.io
+
+&lt;img src="../images/slides/08-class/deploy4.gif" width="700px" /&gt;
+    </textarea>
+<script src="libs/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"highlightSpans": true
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function() {
+  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})();</script>
+
+<script>
+(function() {
+  var i, text, code, codes = document.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+})();
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

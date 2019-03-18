@@ -72,16 +72,12 @@ Tweet of the day Our lab&#39;s first preprint! Coral: an R shiny and D3.js web a
     </item>
     
     <item>
-      <title>Unstructured Text</title>
+      <title>Text-as-Data</title>
       <link>https://dsba5122-spring2019.netlify.com/class/08-class/</link>
       <pubDate>Mon, 18 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/class/08-class/</guid>
-      <description> Contents  Slides Links   Slides Download the slides from today’s lecture.
-Links  Tidy Text Mining by Julia Silge and David Robinson
- Intuitive explanation of Dirichlet distribution
- Topic modeling
-  </description>
+      <description>Contents  Tweet of the day Slides: Lab   Tweet of the day Text mining: I really like the tidytext book by ??? and ???: https://t.co/zgoHq5jr5v. And I&#39;m increasingly convinced the single best and most comprehensive resource is ???&#39;s quanteda: https://t.co/aVc3N4BCA5. It&#39;s tutorials are esp great: https://t.co/XB5km9OAZm — Mike Kearney📊 (@kearneymw) May 3, 2018   Mike Kearney is an assistant professor of Journalism at the University of Missouri and the author of the rtweet package to pull Twitter data in RStudio.</description>
     </item>
     
     <item>

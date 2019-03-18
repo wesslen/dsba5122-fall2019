@@ -12,23 +12,512 @@
 class: center, middle, inverse, title-slide
 
 # DSBA 5122: Visual Analytics
-## Class 8: Unstructured text
+## Class 8: Text-as-Data
 ### Ryan Wesslen
-### 2019-03-18
+### March 18, 2019
 
 ---
 
 
 
 
-class: center, middle
+class: center, middle, inverse
 
-# Welcome
+# Introduction to Text-as-Data
 
-![](../../static/images/slides/01-class/welcome.gif)
+&lt;img src="../images/slides/08-class/internetlivestats.gif" width="600px" style="display: block; margin: auto;" /&gt;
+
+&lt;http://www.internetlivestats.com/&gt;
+
+---
+
+## High dimensionality of text
+
+&lt;img src="../images/slides/08-class/tweet1.png" width="600px" style="display: block; margin: auto;" /&gt;
+
+---
+
+## High dimensionality of text
+
+&lt;img src="../images/slides/08-class/tweet2.png" width="600px" style="display: block; margin: auto;" /&gt;
+
+---
+
+## High dimensionality of text
+
+&lt;img src="../images/slides/08-class/tweet3.png" width="600px" style="display: block; margin: auto;" /&gt;
+
+---
+
+## High dimensionality of text
+
+&lt;img src="../images/slides/08-class/tweet4.png" width="600px" style="display: block; margin: auto;" /&gt;
+
+`\(# of Combinations = 1000 ^ 30 =~ # of Atoms in the Universe\)`
+
+"A sample of 30-word Twitter messages that use only the 1,000 most common words in the English language ... has roughly as many dimensions as there are **atoms in the universe**."  ["Text as Data", 2017](https://web.stanford.edu/~gentzkow/research/text-as-data.pdf)
+
+---
+
+class: center, middle, inverse
+
+# Weird world of Text: 
+
+&lt;img src="../images/slides/08-class/emojitracker.gif" width="600px" style="display: block; margin: auto;" /&gt;
+
+# Key Properties about Text
+
+http://emojitracker.com/
+
+---
+
+## Zipf's Law
+
+&lt;img src="../images/slides/08-class/zipf.png" width="600px" style="display: block; margin: auto;" /&gt;
+
+[VSauce video on Zipf's Law](https://www.youtube.com/watch?v=fCn8zs912OE)
+
+---
+
+## Bag of Words
+
+&lt;img src="../images/slides/08-class/bow.png" width="600px" style="display: block; margin: auto;" /&gt;
+
+---
+
+## Document Term Matrix
+
+&lt;img src="../images/slides/08-class/dtm.png" width="600px" style="display: block; margin: auto;" /&gt;
+
+---
+
+### Corpus
+
+
+```r
+library(quanteda)
+tweets &lt;- read_csv("../data/CharlotteTweets20Sample.csv")
+
+# create corpus
+twcorpus &lt;- corpus(tweets$body)
+
+summary(twcorpus, n = 10)
+```
+
+```
+## Corpus consisting of 47274 documents, showing 10 documents:
+## 
+##    Text Types Tokens Sentences
+##   text1    22     23         2
+##   text2    14     16         1
+##   text3     2      7         1
+##   text4    20     34         1
+##   text5     9      9         1
+##   text6    25     27         2
+##   text7     8      8         1
+##   text8     3      3         1
+##   text9    18     18         1
+##  text10     6      6         1
+## 
+## Source: /Users/rhymenoceros/Dropbox (UNC Charlotte)/dsba5122-spring2019/static/slides/* on x86_64 by rhymenoceros
+## Created: Sun Mar 17 21:11:08 2019
+## Notes:
+```
+
+---
+
+## Document-Feature Matrix
+
+
+```r
+# additional stop words to remove, unique to Twitter
+stopWords &lt;- c("t.co","https","rt","amp","http","gt","f","u","w")
+# add profile ID
+docvars(twcorpus, "actor.id") &lt;- as.character(tweets$actor.id) 
+
+twdfm &lt;- dfm(twcorpus,
+             remove = c(stopwords("english"), stopWords), 
+             remove_punct = TRUE, 
+             remove_numbers = TRUE, 
+             remove_symbols = TRUE,
+             remove_url = TRUE,
+             ngrams= 1L)
+# remove sparse terms
+twdfm &lt;- dfm_trim(twdfm, min_docfreq = 3)
+
+head(twdfm)
+```
+
+```
+## Document-feature matrix of: 6 documents, 11,767 features (100.0% sparse).
+```
+
+
+---
+
+## Word Clouds
+
+.pull-left[
+##  Raw Weighting
+
+
+```r
+library(RColorBrewer)
+
+textplot_wordcloud(twdfm, 
+                   min_size = .75,
+                   max_size = 3.5,
+                   color = brewer.pal(8, "Dark2"), 
+                   random_order = F, 
+                   rotation = 0.1, 
+                   max_words = 250)
+```
+
+![](08-class_files/figure-html/unnamed-chunk-12-1.png)&lt;!-- --&gt;
+
+]
+.pull-right[
+## TF-IDF Weighting
+
+
+```r
+textplot_wordcloud(dfm_tfidf(twdfm), 
+                   min_size = .75,
+                   max_size = 3.5,
+                   color = brewer.pal(8, "Dark2"), 
+                   random_order = F, 
+                   rotation = 0.1, 
+                   max_words = 250)
+```
+
+![](08-class_files/figure-html/unnamed-chunk-13-1.png)&lt;!-- --&gt;
+]
+
+&lt;https://quanteda.io/articles/pkgdown/examples/plotting.html&gt;
+
+---
+
+## Clustering
+
+.pull-left[
+
+```r
+numWords &lt;- 50
+
+wordDfm &lt;- twdfm %&gt;% 
+  dfm_tfidf() %&gt;% 
+  dfm_sort()
+
+wordDfm &lt;- t(wordDfm)[1:numWords,]  # keep the top numWords words
+wordDistMat &lt;- dist(wordDfm)
+wordCluster &lt;- hclust(wordDistMat)
+# create dendrogram
+ggdendro::ggdendrogram(wordCluster, rotate = TRUE)
+```
+
+]
+.pull-right[
+![](08-class_files/figure-html/unnamed-chunk-15-1.png)&lt;!-- --&gt;
+
+]
+
+---
+
+.pull-left[
+
+```r
+tag_dfm &lt;- dfm_select(twdfm, pattern = ("#*"))
+toptag &lt;- names(topfeatures(tag_dfm, 50))
+head(toptag)
+```
+
+```
+## [1] "#keeppounding" "#charlotte"    "#nc"           "#realestate"  
+## [5] "#clt"          "#traffic"
+```
+
+
+```r
+tag_fcm &lt;- fcm(tag_dfm)
+head(tag_fcm)
+```
+
+```
+## Feature co-occurrence matrix of: 6 by 6 features.
+## 6 x 6 sparse Matrix of class "fcm"
+##             features
+## features     #vsco #vscocam #primus #charlotte #livemusic #lunch
+##   #vsco          0        3       1          1          1      0
+##   #vscocam       0        0       1          1          1      0
+##   #primus        0        0       0          1          1      0
+##   #charlotte     0        0       0          0          5      0
+##   #livemusic     0        0       0          0          0      0
+##   #lunch         0        0       0          0          0      0
+```
+
+
+]
+.pull-right[
+
+```r
+topgat_fcm &lt;- fcm_select(tag_fcm, 
+                         pattern = toptag)
+
+textplot_network(topgat_fcm, 
+                 edge_alpha = 0.3, 
+                 edge_size = 2)
+```
+
+![](08-class_files/figure-html/unnamed-chunk-18-1.png)&lt;!-- --&gt;
+
+]
+
+---
+
+class: center, middle, inverse
+
+# Topic Modeling
+
+&lt;img src="../images/slides/08-class/lda.png" width="600px" style="display: block; margin: auto;" /&gt;
+
+# Latent Dirichlet Allocation
+
+---
+
+## Dimensionality Reduction on DTM
+
+&lt;img src="../images/slides/08-class/dimreduction.png" width="600px" style="display: block; margin: auto;" /&gt;
+
+
+---
+
+## Interpreting Topics
+
+
+```r
+# install.packages("topicmodels")
+library(topicmodels)
+
+# we now export to a format that we can run the topic model with
+dtm &lt;- convert(twdfm, to="topicmodels")
+
+# estimate LDA with K topics
+K &lt;- 20
+lda &lt;- LDA(dtm, k = K, method = "Gibbs", 
+                control = list(verbose=25L, seed = 123, burnin = 100, iter = 500))
+```
+
+```
+## K = 20; V = 11767; M = 44955
+## Sampling 600 iterations!
+## Iteration 25 ...
+## Iteration 50 ...
+## Iteration 75 ...
+## Iteration 100 ...
+## Iteration 125 ...
+## Iteration 150 ...
+## Iteration 175 ...
+## Iteration 200 ...
+## Iteration 225 ...
+## Iteration 250 ...
+## Iteration 275 ...
+## Iteration 300 ...
+## Iteration 325 ...
+## Iteration 350 ...
+## Iteration 375 ...
+## Iteration 400 ...
+## Iteration 425 ...
+## Iteration 450 ...
+## Iteration 475 ...
+## Iteration 500 ...
+## Iteration 525 ...
+## Iteration 550 ...
+## Iteration 575 ...
+## Iteration 600 ...
+## Gibbs sampling completed!
+```
+
+---
+
+## Interpreting Topics
+
+.pull-left[
+
+```r
+# see Ch 6 of tidytext mining
+library(tidytext)
+beta &lt;- tidy(lda, matrix = "beta") %&gt;%
+  arrange(desc(topic), desc(beta))
+
+head(beta, n = 10)
+```
+
+```
+## # A tibble: 10 x 3
+##    topic term         beta
+##    &lt;int&gt; &lt;chr&gt;       &lt;dbl&gt;
+##  1    20 carolina  0.0898 
+##  2    20 north     0.0801 
+##  3    20 good      0.0787 
+##  4    20 charlotte 0.0673 
+##  5    20 morning   0.0272 
+##  6    20 pretty    0.0114 
+##  7    20 news      0.00869
+##  8    20 top       0.00817
+##  9    20 boys      0.00683
+## 10    20 today     0.00654
+```
+]
+.pull-right[
+
+```r
+top_terms &lt;- beta %&gt;%
+  group_by(topic) %&gt;%
+  top_n(8, beta) %&gt;%
+  ungroup() %&gt;%
+  arrange(topic, -beta)
+
+top_terms
+```
+
+```
+## # A tibble: 161 x 3
+##    topic term            beta
+##    &lt;int&gt; &lt;chr&gt;          &lt;dbl&gt;
+##  1     1 today         0.0668
+##  2     1 got           0.0500
+##  3     1 ready         0.0290
+##  4     1 getting       0.0267
+##  5     1 little        0.0239
+##  6     1 done          0.0170
+##  7     1 open          0.0134
+##  8     1 call          0.0119
+##  9     2 #keeppounding 0.0527
+## 10     2 #charlotte    0.0472
+## # … with 151 more rows
+```
+]
+
+---
+
+
+```r
+library(ggthemes)
+
+scale_x_reordered &lt;- function(..., sep = "___") {
+  reg &lt;- paste0(sep, ".+$")
+  ggplot2::scale_x_discrete(labels = function(x) gsub(reg, "", x), ...)
+}
+
+reorder_within &lt;- function(x, by, within, fun = mean, sep = "___", ...) {
+  new_x &lt;- paste(x, within, sep = sep)
+  stats::reorder(new_x, by, FUN = fun)
+}
+
+top_terms %&gt;%
+  filter(topic %in% 1:9) %&gt;%
+  mutate(term = reorder_within(term, beta, topic),
+         topic = factor(topic)) %&gt;%
+  ggplot(aes(term, beta, fill = topic)) +
+  geom_col(alpha = 0.8, show.legend = FALSE) +
+  facet_wrap(~ topic, ncol = 3, scales = "free_y") +
+  theme_tufte(base_family = "IBMPlexSans", ticks = FALSE) +
+  scale_x_reordered() +
+  theme_bw() +
+  coord_flip() +
+  labs(x = "", y = "")
+```
+
+![](08-class_files/figure-html/unnamed-chunk-24-1.png)&lt;!-- --&gt;
+
+
+---
+
+## Retrieving Documents by Topic
+
+.pull-left[
+
+```r
+td_gamma &lt;- tidy(lda, matrix = "gamma") 
+
+head(td_gamma)
+```
+
+```
+## # A tibble: 6 x 3
+##   document topic  gamma
+##   &lt;chr&gt;    &lt;int&gt;  &lt;dbl&gt;
+## 1 text1        1 0.0417
+## 2 text2        1 0.0455
+## 3 text3        1 0.0490
+## 4 text4        1 0.0439
+## 5 text5        1 0.0472
+## 6 text6        1 0.0424
+```
+]
+.pull-right[
+
+```r
+td_gamma %&gt;%
+  filter(topic == 2) %&gt;%
+  arrange(desc(gamma)) %&gt;%
+  head(n=6)
+```
+
+```
+## # A tibble: 6 x 3
+##   document  topic gamma
+##   &lt;chr&gt;     &lt;int&gt; &lt;dbl&gt;
+## 1 text5172      2 0.25 
+## 2 text24680     2 0.246
+## 3 text1337      2 0.242
+## 4 text10525     2 0.227
+## 5 text23298     2 0.223
+## 6 text31622     2 0.214
+```
+]
+---
+
+## Summarizing Topic Models
+
+&lt;img src="../images/slides/08-class/topic-overview.png" width="600px" style="display: block; margin: auto;" /&gt;
+
+For code, see &lt;https://github.com/wesslen/nlp-ryan/blob/master/complaints.R&gt;
+
+---
+
+## Visualizing Topic Models
+
+&lt;img src="../images/slides/08-class/topic-variations.png" width="800px" style="display: block; margin: auto;" /&gt;
+
+---
+
+## Evaluating Topic Models
+
+&lt;img src="../images/slides/08-class/silge.png" width="700px" style="display: block; margin: auto;" /&gt;
+
+&lt;https://juliasilge.com/blog/evaluating-stm/&gt;
+
+---
+
+## Text Workflows
+
+&lt;img src="../images/slides/08-class/tidyflow-ch-6.png" width="600px" style="display: block; margin: auto;" /&gt;
+
+---
+
+## Word Embedding Models
+
+&lt;img src="../images/slides/08-class/embedding.png" width="800px" style="display: block; margin: auto;" /&gt;
+
+&lt;https://projector.tensorflow.org/&gt;
     </textarea>
 <script src="libs/remark-latest.min.js"></script>
-<script>var slideshow = remark.create();
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"highlightSpans": true
+});
 if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
   window.dispatchEvent(new Event('resize'));
 });

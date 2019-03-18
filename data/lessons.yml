@@ -73,7 +73,7 @@ lessons:
   - title: "Text-as-Data"
     date: "March 18"
     reading: "08-reading"
-    #class: "08-class"
+    class: "08-class"
 
   - title: "Design Contest Presentations"
     date: "March 25"
