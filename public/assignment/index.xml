@@ -42,6 +42,23 @@ Download this R Markdown file and place it in your newly-created projectYou’ll
     </item>
     
     <item>
+      <title>Quiz 3</title>
+      <link>https://dsba5122-spring2019.netlify.com/assignment/03-quiz/</link>
+      <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/assignment/03-quiz/</guid>
+      <description>Name: _____________________
+Student ID: _________________________
+This quiz is closed-note. You will have 10 minutes to complete.
+Question 1 Which of the following is not a dimensionality reduction method:
+Multi-Dimensional Scaling (MDS)
+ Principal Components Analysis (PCA)
+ t-Distributed Stochastic Neighbor Embedding (t-SNE)
+ Support Vector Machine (SVM)
+  Question 2 Choose the option that best fills in the blanks to describe the primary purpose of certain multidimensional visualizations. Assume the data is in tidy format.</description>
+    </item>
+    
+    <item>
       <title>Final project</title>
       <link>https://dsba5122-spring2019.netlify.com/assignment/final-project/</link>
       <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
