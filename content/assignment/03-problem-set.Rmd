@@ -13,7 +13,7 @@ Create a new RStudio project somewhere on your computer. Open that new folder in
 
 [Download this R Shiny app template file](/files/app.R) and place it in your newly-created project^[You'll probably have to right click on the link and choose "Save link as…".].
 
-You will also need to download three compressed files
+You will also need to download three compressed files. You can [download the files as a zip file here](/files/prob-set-3-data.zip). You will need to export them into a subfolder in your project called 'data'.
 
 In the end, the structure of your new project directory should look something like this:
 
@@ -62,7 +62,7 @@ Next, you will need to add in six input functions to serve as drop-down selectio
 
 Make sure between each new input you put in a comma or else you'll get error messages!
 
-1. Create a select input with a unique id name, label (i.e., what the user will see), and have it's choices parameter equal `books`. `books` will be a list of names of Shakespeare's three plays.
+1. Create a **select input** with a unique id name, label (i.e., what the user will see), and have it's choices parameter equal `books`. `books` will be a list of names of Shakespeare's three plays.
 
 To set what `books` is, copy and paste this line of code and put it at the top of your app.R file, i.e., below where you call libraries and above (and outside of) the ui function.
 
@@ -73,11 +73,11 @@ books <- list("A Mid Summer Night's Dream" = "summer",
                "Romeo and Juliet" = "romeo")
 ```
 
-2. Create a checkbox input for stemming words. Give it an unique id (e.g., "stem"), an appropriate label, and set its value as FALSE (i.e., `value = FALSE` as your last parameter). This means that the initial value of this input will be FALSE.
+2. Create a **checkbox input** for stemming words. Give it an unique id (e.g., "stem"), an appropriate label, and set its value as FALSE (i.e., `value = FALSE` as your last parameter). This means that the initial value of this input will be FALSE.
 
-3. Create a checkbox input for removing punctuation. Give it an unique id (e.g., "punct"), an appropriate label, and set its value as TRUE (i.e., `value = TRUE` as your last parameter). This means that initially this value will be FALSE.
+3. Create a **checkbox input** for removing punctuation. Give it an unique id (e.g., "punct"), an appropriate label, and set its value as TRUE (i.e., `value = TRUE` as your last parameter). This means that initially this value will be FALSE.
 
-4. Create a radio buttons input for setting n-grams. Give it an unique id (e.g., "ngram"), an appropriate label, and set its choices value to:
+4. Create a **radio buttons** input for setting n-grams. Give it an unique id (e.g., "ngram"), an appropriate label, and set its choices value to:
 
 ```{r eval=F}
 choices = c("Unigrams only" = "unigram",
@@ -87,11 +87,11 @@ choices = c("Unigrams only" = "unigram",
 
 This means the user will see one of three labels ("Unigrams only", "Unigrams & Bigrams", and "Bigrams only") but the value provided in this input will be either "unigram", "both", or "bigram".
 
-5. Create a slide input for setting the minimum frequency of words kept in the pre-processing (sparse term threshold). Give it an unique id (e.g., "freq"), an appropriate label, and set its last three parameters as `min = 1,  max = 50, value = 10`. This sets its initial value as 10 but its minimum and maximum values as 1 and 50 (respectively).
+5. Create a **slider input** for setting the minimum frequency of words kept in the pre-processing (sparse term threshold). Give it an unique id (e.g., "freq"), an appropriate label, and set its last three parameters as `min = 1,  max = 50, value = 10`. This sets its initial value as 10 but its minimum and maximum values as 1 and 50 (respectively).
 
-6. Next, add in a horizontal line by add in `hr()` and (like all previous UI inputs), add a comma behind it.
+6. Next, add in a **horizontal line** by add in `hr()` and (like all previous UI inputs), add a comma behind it.
 
-7. Last, add in an action button with an unique ID and an appropriate label (e.g., "Rerun").
+7. Last, add in an **action button** with an unique ID and an appropriate label (e.g., "Rerun").
 
 Your shiny app should now look like this:
 ![](/images/assignment/prb-set-3-2.png)
@@ -151,11 +151,11 @@ This step only provides initial pre-processing steps (as a function) so it will 
 
 Next, we'll add in reactivity so that the `getDfm` function is run whenever the action button in the sidebarPanel is clicked.
 
-To start,please [read this tutorial on reactivity](https://shiny.rstudio.com/articles/reactivity-overview.html). This will make sure you understand reactivity before proceeding.
+To start, please [read this tutorial on reactivity](https://shiny.rstudio.com/articles/reactivity-overview.html). This will make sure you understand reactivity before proceeding.
 
 For this task, add in a `reactive` function in your server side that includes both `({})` as its inputs and assigns its output as `dfm`.
 
-For the `reactive` function, we want this function to activate when the `actionButton` in the UI is clicked. Since the button is an input, put the first argument of this function as `input$[id of action button]`, where [] is whatever id you gave the `actionButton` in the UI.
+For the `reactive` function, we want this function to activate when the `actionButton` in the UI is clicked. Since the button is an input, put the first argument of this function as `input$[id of action button]`, where `[]` is whatever id you gave the `actionButton` in the UI.
 
 Last, within the reactive function add in this function and replace the "..." with the names of your five inputs from parts 1-5 in Task 2.^[This uses the `isolate` function, which you can learn [more about at this tutorial](https://shiny.rstudio.com/articles/isolation.html).] 
 
@@ -220,7 +220,7 @@ Depending on what shinythemes you selected (e.g., this is "cerulean"), you final
 ![](/images/assignment/prb-set-3-4.png)
 
 
-# Task 6: Deploy to shinyapps.io
+# Task 7: Deploy to shinyapps.io
 
 If you've gotten this far, all that's left is submission.
 

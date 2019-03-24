@@ -23,16 +23,13 @@ These groups were randomly assigned. Please plan to present in 8 minutes with 1-
 | Time    | Item                  |
 |---------|-----------------------|
 | 6:00 PM | Intro / Problem Set 3 |
-|---------|-----------------------|
 | 6:30 PM | Group 10              |
 | 6:40 PM | Group 2               |
 | 6:50 PM | Group 9               |
 | 7:00 PM | Group 1               |
 | 7:10 PM | Group 6               |
 | 7:20 PM | Group 3               |
-|---------|-----------------------|
 | 7:30 PM | 10 min Break          |
-|---------|-----------------------|
 | 7:40 PM | Group 11              |
 | 7:50 PM | Group 4               |
 | 8:00 PM | Group 7               |

@@ -211,7 +211,7 @@ code span.wa { color: #bf0303; } /* Warning */
 <p><a href="/files/app.R">Download this R Shiny app template file</a> and place it in your newly-created project<span><label for="sn-1" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-1" class="margin-toggle"/><span class="sidenote">You’ll probably have to right click on the link and choose “Save link as…”.<br />
 <br />
 </span></span>.</p>
-<p>You will also need to download three compressed files</p>
+<p>You will also need to download three compressed files. You can <a href="/files/prob-set-3-data.zip">download the files as a zip file here</a>. You will need to export them into a subfolder in your project called ‘data’.</p>
 <p>In the end, the structure of your new project directory should look something like this:</p>
 <pre><code>your-project-name/
   app.R
@@ -249,7 +249,7 @@ code span.wa { color: #bf0303; } /* Warning */
 <p>Next, you will need to add in six input functions to serve as drop-down selections for the user. These will be pre-processing steps.</p>
 <p>Make sure between each new input you put in a comma or else you’ll get error messages!</p>
 <ol style="list-style-type: decimal">
-<li>Create a select input with a unique id name, label (i.e., what the user will see), and have it’s choices parameter equal <code>books</code>. <code>books</code> will be a list of names of Shakespeare’s three plays.</li>
+<li>Create a <strong>select input</strong> with a unique id name, label (i.e., what the user will see), and have it’s choices parameter equal <code>books</code>. <code>books</code> will be a list of names of Shakespeare’s three plays.</li>
 </ol>
 <p>To set what <code>books</code> is, copy and paste this line of code and put it at the top of your app.R file, i.e., below where you call libraries and above (and outside of) the ui function.</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb2-1" title="1"><span class="co"># The list of valid books</span></a>
@@ -257,18 +257,18 @@ code span.wa { color: #bf0303; } /* Warning */
 <a class="sourceLine" id="cb2-3" title="3">               <span class="st">&quot;The Merchant of Venice&quot;</span> =<span class="st"> &quot;merchant&quot;</span>,</a>
 <a class="sourceLine" id="cb2-4" title="4">               <span class="st">&quot;Romeo and Juliet&quot;</span> =<span class="st"> &quot;romeo&quot;</span>)</a></code></pre></div>
 <ol start="2" style="list-style-type: decimal">
-<li><p>Create a checkbox input for stemming words. Give it an unique id (e.g., “stem”), an appropriate label, and set its value as FALSE (i.e., <code>value = FALSE</code> as your last parameter). This means that the initial value of this input will be FALSE.</p></li>
-<li><p>Create a checkbox input for removing punctuation. Give it an unique id (e.g., “punct”), an appropriate label, and set its value as TRUE (i.e., <code>value = TRUE</code> as your last parameter). This means that initially this value will be FALSE.</p></li>
-<li><p>Create a radio buttons input for setting n-grams. Give it an unique id (e.g., “ngram”), an appropriate label, and set its choices value to:</p></li>
+<li><p>Create a <strong>checkbox input</strong> for stemming words. Give it an unique id (e.g., “stem”), an appropriate label, and set its value as FALSE (i.e., <code>value = FALSE</code> as your last parameter). This means that the initial value of this input will be FALSE.</p></li>
+<li><p>Create a <strong>checkbox input</strong> for removing punctuation. Give it an unique id (e.g., “punct”), an appropriate label, and set its value as TRUE (i.e., <code>value = TRUE</code> as your last parameter). This means that initially this value will be FALSE.</p></li>
+<li><p>Create a <strong>radio buttons</strong> input for setting n-grams. Give it an unique id (e.g., “ngram”), an appropriate label, and set its choices value to:</p></li>
 </ol>
 <div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb3-1" title="1">choices =<span class="st"> </span><span class="kw">c</span>(<span class="st">&quot;Unigrams only&quot;</span> =<span class="st"> &quot;unigram&quot;</span>,</a>
 <a class="sourceLine" id="cb3-2" title="2">            <span class="st">&quot;Unigrams &amp; Bigrams&quot;</span> =<span class="st"> &quot;both&quot;</span>,</a>
 <a class="sourceLine" id="cb3-3" title="3">            <span class="st">&quot;Bigrams only&quot;</span> =<span class="st"> &quot;bigram&quot;</span>)</a></code></pre></div>
 <p>This means the user will see one of three labels (“Unigrams only”, “Unigrams &amp; Bigrams”, and “Bigrams only”) but the value provided in this input will be either “unigram”, “both”, or “bigram”.</p>
 <ol start="5" style="list-style-type: decimal">
-<li><p>Create a slide input for setting the minimum frequency of words kept in the pre-processing (sparse term threshold). Give it an unique id (e.g., “freq”), an appropriate label, and set its last three parameters as <code>min = 1,  max = 50, value = 10</code>. This sets its initial value as 10 but its minimum and maximum values as 1 and 50 (respectively).</p></li>
-<li><p>Next, add in a horizontal line by add in <code>hr()</code> and (like all previous UI inputs), add a comma behind it.</p></li>
-<li><p>Last, add in an action button with an unique ID and an appropriate label (e.g., “Rerun”).</p></li>
+<li><p>Create a <strong>slider input</strong> for setting the minimum frequency of words kept in the pre-processing (sparse term threshold). Give it an unique id (e.g., “freq”), an appropriate label, and set its last three parameters as <code>min = 1,  max = 50, value = 10</code>. This sets its initial value as 10 but its minimum and maximum values as 1 and 50 (respectively).</p></li>
+<li><p>Next, add in a <strong>horizontal line</strong> by add in <code>hr()</code> and (like all previous UI inputs), add a comma behind it.</p></li>
+<li><p>Last, add in an <strong>action button</strong> with an unique ID and an appropriate label (e.g., “Rerun”).</p></li>
 </ol>
 <p>Your shiny app should now look like this:
 <img src="/images/assignment/prb-set-3-2.png" /></p>
@@ -314,9 +314,9 @@ code span.wa { color: #bf0303; } /* Warning */
 <p>This step only provides initial pre-processing steps (as a function) so it will not change what your Shiny app’s ui looks like.</p>
 <h2 id="task-4-add-in-reactivity-to-update-dfm-based-on-inputs">Task 4: Add in reactivity to update dfm based on inputs</h2>
 <p>Next, we’ll add in reactivity so that the <code>getDfm</code> function is run whenever the action button in the sidebarPanel is clicked.</p>
-<p>To start,please <a href="https://shiny.rstudio.com/articles/reactivity-overview.html">read this tutorial on reactivity</a>. This will make sure you understand reactivity before proceeding.</p>
+<p>To start, please <a href="https://shiny.rstudio.com/articles/reactivity-overview.html">read this tutorial on reactivity</a>. This will make sure you understand reactivity before proceeding.</p>
 <p>For this task, add in a <code>reactive</code> function in your server side that includes both <code>({})</code> as its inputs and assigns its output as <code>dfm</code>.</p>
-<p>For the <code>reactive</code> function, we want this function to activate when the <code>actionButton</code> in the UI is clicked. Since the button is an input, put the first argument of this function as <code>input$[id of action button]</code>, where [] is whatever id you gave the <code>actionButton</code> in the UI.</p>
+<p>For the <code>reactive</code> function, we want this function to activate when the <code>actionButton</code> in the UI is clicked. Since the button is an input, put the first argument of this function as <code>input$[id of action button]</code>, where <code>[]</code> is whatever id you gave the <code>actionButton</code> in the UI.</p>
 <p>Last, within the reactive function add in this function and replace the “…” with the names of your five inputs from parts 1-5 in Task 2.<span><label for="sn-8" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-8" class="margin-toggle"/><span class="sidenote">This uses the <code>isolate</code> function, which you can learn <a href="https://shiny.rstudio.com/articles/isolation.html">more about at this tutorial</a>.<br />
 <br />
 </span></span></p>
@@ -355,7 +355,7 @@ code span.wa { color: #bf0303; } /* Warning */
 </ol>
 <p>Depending on what shinythemes you selected (e.g., this is “cerulean”), you final app should look like this:
 <img src="/images/assignment/prb-set-3-4.png" /></p>
-<h2 id="task-6-deploy-to-shinyapps.io">Task 6: Deploy to shinyapps.io</h2>
+<h2 id="task-7-deploy-to-shinyapps.io">Task 7: Deploy to shinyapps.io</h2>
 <p>If you’ve gotten this far, all that’s left is submission.</p>
 <p>You will need to submit your project’s folder (as a compressed zip file) <strong>and</strong> deploy your app on shinyapps.io.</p>
 <p>Compress your folder as a .zip file and submit it to Canvas by 11:59pm on Monday, April 8, 2019.</p>
