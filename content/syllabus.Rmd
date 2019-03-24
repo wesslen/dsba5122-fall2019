@@ -129,7 +129,7 @@ grading <- tribble(
 ```
 
 ```{r show-assignments-table, echo=FALSE, results="asis"}
-assignments_total <- data_frame(Assignment = "Total",
+assignments_total <- tibble(Assignment = "Total",
                                 Points = sum(assignments$Points))
 
 bind_rows(assignments, assignments_total) %>% 

@@ -206,7 +206,7 @@ At this point, your app should look like this:
 
 ![](/images/assignment/prb-set-3-3.png)
 
-# Task 6: Add in shinythemes, memoise function, and repeatable function
+# Task 6: Add in shinythemes, memoise function, and modify height
 
 Last, we want to make additional changes that improve the look of our app and its performance.
 
