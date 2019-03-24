@@ -1,39 +1,26 @@
-# let's deploy this to shinyapps.io: click the blue button in the top right of this box
-
-# exercise 1: add a new slider that sets the number of breaks for the rnorm() function
-# exercise 2: add a textInput() that sets the name of the plot
-# exercise 3: add a actionButton() that updates the name of the plot (part 2) only when clicking; see ?observeEvent
-
 library(shiny)
 
+# task4: add in getDfm function for pre-processing
+
+# task6: add in shinythemes, memoize function
+
 ui <- fluidPage(
+  titlePanel("Shakespeare's Plays Word Frequencies") # Application title
   
-  sidebarLayout(
-    
-    sidebarPanel(
-      sliderInput(inputId = "num",
-                  label = "Choose a number",
-                  value = 25, min = 1, max = 100),
-      sliderInput(inputId = "breaks",
-                  label = "Choose breaks",
-                  value = 25, min = 1, max = 100),
-      textInput(inputId = "hippo",
-                label = "Enter the title")
-    ),
-    
-    mainPanel(
-      plotOutput("hist")
-    )
-  ) 
+  # task1: add in the sidebarLayout with sidebarPanel and mainPanel
+  
+  # task2: add in the inputs in the sidebarPanel
+  
+  # task1: within the mainPanel, create two tabs (Word Cloud and Frequency)
+  
+  # task3: add in the outputs in the sidebarPanel
+  
+  # task6: and modify your counts output object height to 600px
 )
 
 server <- function(input, output) {
   
-  output$hist <- renderPlot({
-    title <- "100 random normal values"
-    hist(rnorm(input$num), breaks = input$breaks, 
-         main = input$hippo)
-  })
+  # task5: add in reactivity for getDfm function based on inputs
   
 }
 

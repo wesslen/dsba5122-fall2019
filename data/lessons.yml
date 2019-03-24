@@ -77,13 +77,15 @@ lessons:
 
   - title: "Design Contest Presentations"
     date: "March 25"
+    class: "09-class"
   
   - title: "**Problem set 3 (Due Apr 8)**"
     date: "March 25"
+    assignment: "03-problem-set"
     
   - title: "Networks and Trees"
     date: "April 1"
-    #reading: "10-reading"
+    reading: "10-reading"
     #class: "10-class"
     
   - title: "**Final project assigned (Due May 6)**"

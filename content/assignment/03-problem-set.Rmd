@@ -1,7 +1,7 @@
 ---
 title: "Problem set 3"
 date: "2019-03-25"
-due_date: "2019-04-01"
+due_date: "2019-04-08"
 due_time: "11:59 PM"
 editor_options: 
   chunk_output_type: console
@@ -9,28 +9,235 @@ editor_options:
 
 # Task 0: Getting started
 
-Create a new RStudio project somewhere on your computer. Open that new folder in Windows File Explorer or macOS Finder (however you navigate around the files on your computer), and create a subfolder there named `output`.
+Create a new RStudio project somewhere on your computer. Open that new folder in Windows File Explorer or macOS Finder (however you navigate around the files on your computer), and create a subfolder there named `data`.
 
-[Download this R Markdown file](/files/your-name_problem-set-3.Rmd) and place it in your newly-created project^[You'll probably have to right click on the link and choose "Save link as…".] It contains an outline/skeleton of the one task you'll need to do in this problem set. Some of the code is pre-written once again!
+[Download this R Shiny app template file](/files/app.R) and place it in your newly-created project^[You'll probably have to right click on the link and choose "Save link as…".].
+
+You will also need to download three compressed files
 
 In the end, the structure of your new project directory should look something like this:
 
 ```
 your-project-name/
-  your-name_problem-set-3.Rmd
+  app.R
   your-project-name.Rproj
-  output/
-    NOTHING
+  data/
+    merchant.txt
+    romeo.txt
+    summer.txt
 ```
 
-# Task 1: Hans Rosling Redux
+# Objective: Analyzing word counts in Shakepeare's plays.
 
-^[{-} ![Gapminder](https://media.giphy.com/media/18LVVD0nUOn8A/giphy.gif)] For this problem set, you get to be just like [Hans Rosling](https://www.youtube.com/watch?v=jbkSRLYSojo) and play with data on health (life expectancy) and wealth (GDP per capita). 
+^[{-} ![Shakespeare](https://media.giphy.com/media/l4hLAnH7GC9XaQkAo/giphy.gif)] For this problem set, you'll create a Shiny app to explore three of William Shakespeare's plays through simple data visualizations.
 
-The data originally comes from World Bank statistics, but to make life easier, there's an R package called [`gapminder`](https://github.com/jennybc/gapminder) that includes the data, so you don't have to download and clean any CSV or Excel files. If you don't have the package installed, run `install.packages("gapminder")` or use the "Packages" panel in RStudio.
+![](/images/assignment/prb-set-3.gif)
 
-This time around, **please remove and replace the placeholder text I've given you**. Treat this R Markdown file as something you've written.
+To create analyze the text, we'll use the `quanteda` package.^[Read `quanteda`'s [quick start tutorial](https://quanteda.io/articles/quickstart.html) if you have questions or want to learn more. If you have problems installing `quanteda`, please use RStudio.Cloud for this project or google your install errors! The answer is out on the internet, the question is whether you'll put enough effort to find it.]
 
-When you're done, submit a knitted PDF or Word file of your analysis on Learning Suite. 
+I provide the template Shiny app.R file and you need to fill in the rest of the app. There is not a lot to create and you can compete this assignment with just about 100 lines of R code in your app.R file!
 
-Once again, it's best if the final knitted document is clean and free of warnings and messages (so if a chunk is creating messages, like wherever you run `library(tidyverse)`, add `message=FALSE, warning=FALSE` to the chunk options).
+Be sure to read the instructions carefully! If you skip a step, your app may still run, but you may miss some functionality and you will be deducted a point for each item you omit. See the bottom for an overview on grading.
+
+# Task 0: Libraries
+
+To run this problem set, you'll need six CRAN libraries installed on your RStudio session.
+
+You will need: `shiny`, `quanteda`, `wordcloud`, `memoise`, `ggplot2`, `shinythemes`, and `RColorBrewer`.
+
+You can manually install them individually (if you don't have them).^[Or maybe google how to install multiple CRAN libraries at once to save the time of manually typing in each of these...]
+
+# Task 1: Create the ui's layout
+
+First, open your app.R file and add a `sidebarLayout` with a `sidebarPanel` on the left and the `mainPanel` on the right.^[Be sure to add a comma after the `titlePanel` function!]
+
+Next, create two tabs using the `tabsetPanel` nested within the `mainPanel`. The first tab is named "Word Cloud" and the second is named "Counts". You can leave the second argument blank for now (we'll fill this in in the next task.)^[If you have forgotten how to do layouts or tabsets in Shiny, read [this page](https://shiny.rstudio.com/articles/layout-guide.html)].
+
+What your app should look like:
+![](/images/assignment/prb-set-3-1.png)
+
+# Task 2: Add in the ui's inputs
+
+Next, you will need to add in six input functions to serve as drop-down selections for the user. These will be pre-processing steps. 
+
+Make sure between each new input you put in a comma or else you'll get error messages!
+
+1. Create a select input with a unique id name, label (i.e., what the user will see), and have it's choices parameter equal `books`. `books` will be a list of names of Shakespeare's three plays.
+
+To set what `books` is, copy and paste this line of code and put it at the top of your app.R file, i.e., below where you call libraries and above (and outside of) the ui function.
+
+```{r eval=F}
+# The list of valid books
+books <- list("A Mid Summer Night's Dream" = "summer",
+               "The Merchant of Venice" = "merchant",
+               "Romeo and Juliet" = "romeo")
+```
+
+2. Create a checkbox input for stemming words. Give it an unique id (e.g., "stem"), an appropriate label, and set its value as FALSE (i.e., `value = FALSE` as your last parameter). This means that the initial value of this input will be FALSE.
+
+3. Create a checkbox input for removing punctuation. Give it an unique id (e.g., "punct"), an appropriate label, and set its value as TRUE (i.e., `value = TRUE` as your last parameter). This means that initially this value will be FALSE.
+
+4. Create a radio buttons input for setting n-grams. Give it an unique id (e.g., "ngram"), an appropriate label, and set its choices value to:
+
+```{r eval=F}
+choices = c("Unigrams only" = "unigram",
+            "Unigrams & Bigrams" = "both",
+            "Bigrams only" = "bigram")
+```
+
+This means the user will see one of three labels ("Unigrams only", "Unigrams & Bigrams", and "Bigrams only") but the value provided in this input will be either "unigram", "both", or "bigram".
+
+5. Create a slide input for setting the minimum frequency of words kept in the pre-processing (sparse term threshold). Give it an unique id (e.g., "freq"), an appropriate label, and set its last three parameters as `min = 1,  max = 50, value = 10`. This sets its initial value as 10 but its minimum and maximum values as 1 and 50 (respectively).
+
+6. Next, add in a horizontal line by add in `hr()` and (like all previous UI inputs), add a comma behind it.
+
+7. Last, add in an action button with an unique ID and an appropriate label (e.g., "Rerun").
+
+Your shiny app should now look like this:
+![](/images/assignment/prb-set-3-2.png)
+
+# Task 3: Add in your UI outputs
+
+For this step, we'll add in our UI outputs for the two plots we'll have in our app.
+
+Each plot will be on a different tab within our `mainPanel` section.
+
+1. Add in a plotOutput in your "Word Clouds" tab. Name its object "cloud".^[Remember, we have to make sure later on that when we create our wordcloud in the server section to name it as "cloud" so this step will plot the wordcloud in its appropriate tab.] 
+
+2. Add in a plotOutput in your "Counts" tab. Name its object "freq".
+
+Your shiny app will look the same as at the end of Task 3.
+
+# Task 4: Add in your text pre-processing step
+
+Next, let's add in our text pre-processing step using `quanteda`. For this part, we're going to wrap this step as an R function that takes multiple arguments.
+
+This will be what runs when the user clicks the action button with the arguments being filled in based on what the user selects.
+
+Make sure to put it at the top of the code (before UI function but after calling the libraries). Also make sure to add `library(quanteda)` as it depends on functions in the `quanteda` package.
+
+```{r eval=F}
+getDfm <- function(book, minterms, stem, punct, ngrams) {
+  # check that only one of three books is selected
+  if (!(book %in% books))
+    stop("Unknown book")
+  
+  # looks in data sub-folder for the files (e.g., romeo.txt, merchant.txt, summer.txt)
+  text <- readLines(sprintf("./data/%s.txt", book), encoding="UTF-8")
+  
+  # could also pass text column of dataframe instead
+  myCorpus <- corpus(text)
+  
+  # if... else if statement depending on 
+  if(ngrams == "unigram"){
+    ng = 1
+  }else if(ngrams == "both"){
+    ng = 1:2
+  }else if(ngrams == "bigram"){
+    ng = 2
+  }
+  
+  dfm(myCorpus, remove = stopwords('english'), 
+      remove_punct = punct, stem = stem, ngrams = ng) %>%
+    dfm_trim(min_termfreq = minterms, verbose = FALSE)
+}
+```
+
+Test this function out, i.e., run it once in your console and then see if you can provide correct inputs to get it to run. Make sure you have the correct lookup for your data folder (i.e., txt files!). If you set up your project correctly, this shouldn't be a problem. But if not, you'll have lookup errors.
+
+This step only provides initial pre-processing steps (as a function) so it will not change what your Shiny app's ui looks like.
+
+# Task 4: Add in reactivity to update dfm based on inputs
+
+Next, we'll add in reactivity so that the `getDfm` function is run whenever the action button in the sidebarPanel is clicked.
+
+To start,please [read this tutorial on reactivity](https://shiny.rstudio.com/articles/reactivity-overview.html). This will make sure you understand reactivity before proceeding.
+
+For this task, add in a `reactive` function in your server side that includes both `({})` as its inputs and assigns its output as `dfm`.
+
+For the `reactive` function, we want this function to activate when the `actionButton` in the UI is clicked. Since the button is an input, put the first argument of this function as `input$[id of action button]`, where [] is whatever id you gave the `actionButton` in the UI.
+
+Last, within the reactive function add in this function and replace the "..." with the names of your five inputs from parts 1-5 in Task 2.^[This uses the `isolate` function, which you can learn [more about at this tutorial](https://shiny.rstudio.com/articles/isolation.html).] 
+
+```{r eval=F}
+    isolate({ # ...but not for anything else
+      withProgress({
+        setProgress(message = "Processing corpus...")
+        # ... = replace with the five inputs from parts 1-5 in Task 2
+        getDfm(...)
+      })
+    })
+```
+
+This step again will not change the UI.
+
+# Task 5: Add in render functions to complete server-side
+
+For our last two steps, we'll need to set what is in each of the two output plots.
+
+For the wordcloud, we'll use `quanteda`'s `textplot_wordcloud` function.
+
+First, we'll the appropriate render function that aligns with how we specified the wordcloud would appear in the UI (hint: what is the output type in the UI that uses the "cloud" input?). Use that render function and assign it (i.e., `<-`) to the output object named `cloud`.
+
+Within the function's {} brackets, now call the reactive function object. Since this is a reactive object, it's usually best to assign it to a new object (e.g., `v`) but make sure to keep the objects `()` since its a reactive object.^[For more details, look at [this tutorial on Reactivity](https://shiny.rstudio.com/tutorial/written-tutorial/lesson6/), especially the middle section where they discuss calling reactive objects.] 
+
+Within your render function (i.e., still inside {} brackets), add in:
+
+```{r eval=F}
+textplot_wordcloud(v, min_size=0.5, max_size=6, max_words=100, color=brewer.pal(8, "Dark2"))
+```
+
+Since this uses `brewer.pal()` function, be sure to add in `library(RColorBrewer)` to your library calls at the top of your code.
+
+This assumes that you assigned the reactive `dfm` as `v`. All other parameters are values for the wordcloud (e.g., max_size of the words in the word cloud). See `?textplot_wordcloud` for more details about what the parameters mean.
+
+Next, you'll need to create a second render function that assigns the object of the `freq` output object. Like the previous render function, we'll use the reactive `dfm` that you'll need to assign (e.g., can assign `v` again since a different function).
+
+Next, use this snippet of code to extract the word counts for the top 50 words.
+
+```{r eval=F}
+dfm_freq <- textstat_frequency(v, n = 50)
+dfm_freq$feature <- with(dfm_freq, reorder(feature, frequency)) # sort in descending
+```
+
+Last, we'll need to use `dfm_freq` in a ggplot function. Create a `ggplot` function where its data is `dfm_freq`, its x mapping is `feature`, its y mapping is `frequency`, include a scatter plot (i.e., `geom_point()`), a coordinate flip function, and set the font for all text as 18 (i.e., add in `+ theme(text = element_text(size = 18))`)
+
+At this point, your app should look like this:
+
+![](/images/assignment/prb-set-3-3.png)
+
+# Task 6: Add in shinythemes, memoise function, and repeatable function
+
+Last, we want to make additional changes that improve the look of our app and its performance.
+
+1. Shinythemes. Add in the `library(shinythemes)` to your library call and then add in `theme = shinytheme("cerulean")` as . Choose a different `shinythemes` from [this website](https://rstudio.github.io/shinythemes/) (e.g., "cosmo", "united", etc.).
+
+2. Modify the height of the frequency plot. If you look at the "Counts" tab, your plot is likely "squished" vertically. Let's increase the height of this plot by add in the parameter `height = "600px"` in the `plotOutput` function after the `freq` object.
+
+3. Wrap your getDfm function with the function: `memoise()`. (That is, it should now look like `getDfm <- memoise(function(...))` ). This function will cache your dfm so if you select it a second time, it'll already have it cached. While our dataset this isn't too critical, this can be a crucial step for caching if our corpora were very large. 
+
+Depending on what shinythemes you selected (e.g., this is "cerulean"), you final app should look like this:
+![](/images/assignment/prb-set-3-4.png)
+
+
+# Task 6: Deploy to shinyapps.io
+
+If you've gotten this far, all that's left is submission.
+
+You will need to submit your project's folder (as a compressed zip file) **and** deploy your app on shinyapps.io.
+
+Compress your folder as a .zip file and submit it to Canvas by 11:59pm on Monday, April 8, 2019.
+
+Next, deploy your Shiny app to your shinyapps.io account. If you have not already set up your login to shinyapps.io, see [this page for a recount of how to do this](https://shiny.rstudio.com/articles/shinyapps.html).
+
+# Grading
+
+Your five points for this project will be allocated:
+
+- 2 points if successfully submitted shiny app to shinyapps.io
+
+- 3 points if you provide the successful shiny app as a compressed folder to Canvas.
+
+You will get 1 point deductions for incorrect problems on your app (e.g., if you forget to include certain functionality). If your code does not run independently (that is, your zip folder cannot be run independent), you will lose 2 points.
+
+As always, do **not** set your working directory (that's what R projects are for).

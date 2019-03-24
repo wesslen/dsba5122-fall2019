@@ -122,12 +122,25 @@ Tweet of the day Our lab&#39;s first preprint! Coral: an R shiny and D3.js web a
     </item>
     
     <item>
+      <title>Networks and Trees</title>
+      <link>https://dsba5122-spring2019.netlify.com/reading/10-reading/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/reading/10-reading/</guid>
+      <description> Required   Chapter 5: Networks and Hiearchies in Riccardo Mazza, Introduction to Information Visualization
+  Katya Ognyanova, “Static and dynamic network visualization with R”
+  Recommended   Chapters 2-9 in John Coene, Twinetbook  </description>
+    </item>
+    
+    <item>
       <title>Design Contest Presentations</title>
       <link>https://dsba5122-spring2019.netlify.com/class/09-class/</link>
       <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/class/09-class/</guid>
-      <description>Contents  Slides   Slides No lecture/slides today; we’ll have each group present their design contest presentations (10 minutes for each group).</description>
+      <description> Contents  Slides Agenda and layout   Slides No lecture/slides today; we’ll have each group present their design contest presentations (10 minutes for each group).
+Agenda and layout These groups were randomly assigned. Please plan to present in 8 minutes with 1-2 min for questions.
+  Time Item    6:00 PM Intro / Problem Set 3  ——— ———————–  6:30 PM Group 10  6:40 PM Group 2  6:50 PM Group 9  7:00 PM Group 1  7:10 PM Group 6  7:20 PM Group 3  ——— ———————–  7:30 PM 10 min Break  ——— ———————–  7:40 PM Group 11  7:50 PM Group 4  8:00 PM Group 7  8:10 PM Group 12  8:20 PM Group 5  8:30 PM Group 8    </description>
     </item>
     
     <item>
@@ -136,9 +149,7 @@ Tweet of the day Our lab&#39;s first preprint! Coral: an R shiny and D3.js web a
       <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/assignment/03-problem-set/</guid>
-      <description>Task 0: Getting started Create a new RStudio project somewhere on your computer. Open that new folder in Windows File Explorer or macOS Finder (however you navigate around the files on your computer), and create a subfolder there named output.
-Download this R Markdown file and place it in your newly-created projectYou’ll probably have to right click on the link and choose “Save link as…”.
- It contains an outline/skeleton of the one task you’ll need to do in this problem set.</description>
+      <description>a.sourceLine { display: inline-block; line-height: 1.25; } a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; } a.sourceLine:empty { height: 1.2em; } .sourceCode { overflow: visible; } code.sourceCode { white-space: pre; position: relative; } div.sourceCode { margin: 1em 0; } pre.sourceCode { margin: 0; } @media screen { div.sourceCode { overflow: auto; } } @media print { code.sourceCode { white-space: pre-wrap; } a.sourceLine { text-indent: -1em; padding-left: 1em; } } pre.</description>
     </item>
     
     <item>
@@ -575,17 +586,6 @@ Questions to reflect on  How do we know what is true? Are facts truth? Why do we
       <guid>https://dsba5122-spring2019.netlify.com/reading/11-reading/</guid>
       <description>Required   Look through some of the chapters in Julia Silge and David Robinson, Tidy Text MiningJulia Silge and David Robinson, Text Mining with R (Sebastopol, California: O’Reilly Media, 2017), https://www.tidytextmining.com/.
  (but definitely don’t read them all! You just need to get a taste of what modern text analysis looks like.) A bunch of (really) short things:   Julia Silge, “She Giggles, He Gallops”  Abby Ohlheiser, “These are the words most associated with men and women, according to Facebook status updates”  Six Ideas for Displaying Qualitative Data  Word clouds considered harmful  Word clouds cause death… or something  When It’s Ok to Use Word Clouds  The Class of 2011  Every time Ford and Kavanaugh dodged a question, in one chart  Sentiment Analysis of The Book of Mormon  Tweet by @s_soroka   Questions to reflect on  Why is qualitative data difficult to visualize?</description>
-    </item>
-    
-    <item>
-      <title>Networks and Trees</title>
-      <link>https://dsba5122-spring2019.netlify.com/reading/10-reading/</link>
-      <pubDate>Tue, 06 Nov 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-spring2019.netlify.com/reading/10-reading/</guid>
-      <description>Required   Chapter 10 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
-  Chapters 2-9 in John Coene, Twinetbook  It looks like this is a lot of reading, but lots of these are short videos or tweets or interactive websites, so don’t worry!
-  Why all world maps are wrong  The True Size Of…  Map projections  Gall-Peters Projection  “When Maps Lie”  Animated Mercator distortion  “These Twisted Maps Prove That America Isn’t a Red Country”  “The next great fake news threat?</description>
     </item>
     
     <item>
