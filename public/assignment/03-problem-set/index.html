@@ -244,7 +244,9 @@ code span.wa { color: #bf0303; } /* Warning */
 <br />
 </span></span>.</p>
 <p>What your app should look like:
-<img src="/images/assignment/prb-set-3-1.png" /></p>
+<kbd>
+<img src="/images/assignment/prb-set-3-1.png">
+</kbd></p>
 <h2 id="task-2-add-in-the-uis-inputs">Task 2: Add in the ui’s inputs</h2>
 <p>Next, you will need to add in six input functions to serve as drop-down selections for the user. These will be pre-processing steps.</p>
 <p>Make sure between each new input you put in a comma or else you’ll get error messages!</p>
@@ -271,7 +273,9 @@ code span.wa { color: #bf0303; } /* Warning */
 <li><p>Last, add in an <strong>action button</strong> with an unique ID and an appropriate label (e.g., “Rerun”).</p></li>
 </ol>
 <p>Your shiny app should now look like this:
-<img src="/images/assignment/prb-set-3-2.png" /></p>
+<kbd>
+<img src="/images/assignment/prb-set-3-2.png">
+</kbd></p>
 <h2 id="task-3-add-in-your-ui-outputs">Task 3: Add in your UI outputs</h2>
 <p>For this step, we’ll add in our UI outputs for the two plots we’ll have in our app.</p>
 <p>Each plot will be on a different tab within our <code>mainPanel</code> section.</p>
@@ -344,17 +348,21 @@ code span.wa { color: #bf0303; } /* Warning */
 <div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb7-1" title="1">dfm_freq &lt;-<span class="st"> </span><span class="kw">textstat_frequency</span>(v, <span class="dt">n =</span> <span class="dv">50</span>)</a>
 <a class="sourceLine" id="cb7-2" title="2">dfm_freq<span class="op">$</span>feature &lt;-<span class="st"> </span><span class="kw">with</span>(dfm_freq, <span class="kw">reorder</span>(feature, frequency)) <span class="co"># sort in descending</span></a></code></pre></div>
 <p>Last, we’ll need to use <code>dfm_freq</code> in a ggplot function. Create a <code>ggplot</code> function where its data is <code>dfm_freq</code>, its x mapping is <code>feature</code>, its y mapping is <code>frequency</code>, include a scatter plot (i.e., <code>geom_point()</code>), a coordinate flip function, and set the font for all text as 18 (i.e., add in <code>+ theme(text = element_text(size = 18))</code>)</p>
-<p>At this point, your app should look like this:</p>
-<p><img src="/images/assignment/prb-set-3-3.png" /></p>
+<p>At this point, your app should look like this:
+<kbd>
+<img src="/images/assignment/prb-set-3-3.png">
+</kbd></p>
 <h2 id="task-6-add-in-shinythemes-memoise-function-and-modify-height">Task 6: Add in shinythemes, memoise function, and modify height</h2>
 <p>Last, we want to make additional changes that improve the look of our app and its performance.</p>
 <ol style="list-style-type: decimal">
-<li><p>Shinythemes. Add in the <code>library(shinythemes)</code> to your library call and then add in <code>theme = shinytheme(&quot;cerulean&quot;)</code> as . Choose a different <code>shinythemes</code> from <a href="https://rstudio.github.io/shinythemes/">this website</a> (e.g., “cosmo”, “united”, etc.).</p></li>
-<li><p>Modify the height of the frequency plot. If you look at the “Counts” tab, your plot is likely “squished” vertically. Let’s increase the height of this plot by add in the parameter <code>height = &quot;600px&quot;</code> in the <code>plotOutput</code> function after the <code>freq</code> object.</p></li>
+<li><p>Shinythemes. Add in the <code>library(shinythemes)</code> to your library call and then add in <code>theme = shinytheme(&quot;cerulean&quot;)</code> as your first argument to your <code>fluidPage()</code> function in your UI. Choose a different <code>shinythemes</code> than “cerulean” using <a href="https://rstudio.github.io/shinythemes/">this website</a> (e.g., “cosmo”, “united”, etc.).</p></li>
+<li><p>Modify the height of the frequency plot. If you look at the “Counts” tab, your plot is likely “squished” vertically. Let’s increase the height of this plot by add in the parameter <code>height = &quot;600px&quot;</code> in the <code>plotOutput</code> function after the <code>freq</code> object. This is how you manually modify the size of your outputs. The same applies to <code>width</code>. View <code>?plotOutput</code> to see the other parameters you can pass to the function.</p></li>
 <li><p>Wrap your getDfm function with the function: <code>memoise()</code>. (That is, it should now look like <code>getDfm &lt;- memoise(function(...))</code> ). This function will cache your dfm so if you select it a second time, it’ll already have it cached. While our dataset this isn’t too critical, this can be a crucial step for caching if our corpora were very large.</p></li>
 </ol>
-<p>Depending on what shinythemes you selected (e.g., this is “cerulean”), you final app should look like this:
-<img src="/images/assignment/prb-set-3-4.png" /></p>
+<p>Depending on what shinythemes you selected (e.g., this is “cerulean”), your final app should look like this:
+<kbd>
+<img src="/images/assignment/prb-set-3-4.png">
+</kbd></p>
 <h2 id="task-7-deploy-to-shinyapps.io">Task 7: Deploy to shinyapps.io</h2>
 <p>If you’ve gotten this far, all that’s left is submission.</p>
 <p>You will need to submit your project’s folder (as a compressed zip file) <strong>and</strong> deploy your app on shinyapps.io.</p>

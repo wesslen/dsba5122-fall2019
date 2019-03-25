@@ -54,7 +54,9 @@ First, open your app.R file and add a `sidebarLayout` with a `sidebarPanel` on t
 Next, create two tabs using the `tabsetPanel` nested within the `mainPanel`. The first tab is named "Word Cloud" and the second is named "Counts". You can leave the second argument blank for now (we'll fill this in in the next task.)^[If you have forgotten how to do layouts or tabsets in Shiny, read [this page](https://shiny.rstudio.com/articles/layout-guide.html)].
 
 What your app should look like:
-![](/images/assignment/prb-set-3-1.png)
+<kbd>
+  <img src="/images/assignment/prb-set-3-1.png">
+</kbd>
 
 # Task 2: Add in the ui's inputs
 
@@ -94,7 +96,9 @@ This means the user will see one of three labels ("Unigrams only", "Unigrams & B
 7. Last, add in an **action button** with an unique ID and an appropriate label (e.g., "Rerun").
 
 Your shiny app should now look like this:
-![](/images/assignment/prb-set-3-2.png)
+<kbd>
+  <img src="/images/assignment/prb-set-3-2.png">
+</kbd>
 
 # Task 3: Add in your UI outputs
 
@@ -203,21 +207,24 @@ dfm_freq$feature <- with(dfm_freq, reorder(feature, frequency)) # sort in descen
 Last, we'll need to use `dfm_freq` in a ggplot function. Create a `ggplot` function where its data is `dfm_freq`, its x mapping is `feature`, its y mapping is `frequency`, include a scatter plot (i.e., `geom_point()`), a coordinate flip function, and set the font for all text as 18 (i.e., add in `+ theme(text = element_text(size = 18))`)
 
 At this point, your app should look like this:
-
-![](/images/assignment/prb-set-3-3.png)
+<kbd>
+  <img src="/images/assignment/prb-set-3-3.png">
+</kbd>
 
 # Task 6: Add in shinythemes, memoise function, and modify height
 
 Last, we want to make additional changes that improve the look of our app and its performance.
 
-1. Shinythemes. Add in the `library(shinythemes)` to your library call and then add in `theme = shinytheme("cerulean")` as . Choose a different `shinythemes` from [this website](https://rstudio.github.io/shinythemes/) (e.g., "cosmo", "united", etc.).
+1. Shinythemes. Add in the `library(shinythemes)` to your library call and then add in `theme = shinytheme("cerulean")` as your first argument to your `fluidPage()` function in your UI. Choose a different `shinythemes` than "cerulean" using [this website](https://rstudio.github.io/shinythemes/) (e.g., "cosmo", "united", etc.).
 
-2. Modify the height of the frequency plot. If you look at the "Counts" tab, your plot is likely "squished" vertically. Let's increase the height of this plot by add in the parameter `height = "600px"` in the `plotOutput` function after the `freq` object.
+2. Modify the height of the frequency plot. If you look at the "Counts" tab, your plot is likely "squished" vertically. Let's increase the height of this plot by add in the parameter `height = "600px"` in the `plotOutput` function after the `freq` object. This is how you manually modify the size of your outputs. The same applies to `width`. View `?plotOutput` to see the other parameters you can pass to the function.
 
 3. Wrap your getDfm function with the function: `memoise()`. (That is, it should now look like `getDfm <- memoise(function(...))` ). This function will cache your dfm so if you select it a second time, it'll already have it cached. While our dataset this isn't too critical, this can be a crucial step for caching if our corpora were very large. 
 
-Depending on what shinythemes you selected (e.g., this is "cerulean"), you final app should look like this:
-![](/images/assignment/prb-set-3-4.png)
+Depending on what shinythemes you selected (e.g., this is "cerulean"), your final app should look like this:
+<kbd>
+  <img src="/images/assignment/prb-set-3-4.png">
+</kbd>
 
 
 # Task 7: Deploy to shinyapps.io
