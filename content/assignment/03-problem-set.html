@@ -117,7 +117,9 @@ code span.wa { color: #bf0303; } /* Warning */
 <img src="/images/assignment/prb-set-3-1.png">
 </kbd></p>
 <h2 id="task-2-add-in-the-uis-inputs">Task 2: Add in the ui’s inputs</h2>
-<p>Next, you will need to add in six input functions to serve as drop-down selections for the user. These will be pre-processing steps.</p>
+<p>Next, you will need to add in six input functions to serve as drop-down selections for the user. These will be pre-processing steps.<span><label for="sn-7" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-7" class="margin-toggle"/><span class="sidenote">Use the input section of the <a href="https://shiny.rstudio.com/images/shiny-cheatsheet.pdf">shiny cheatsheet</a> to refresh your memory of the different input function types.<br />
+<br />
+</span></span></p>
 <p>Make sure between each new input you put in a comma or else you’ll get error messages!</p>
 <ol style="list-style-type: decimal">
 <li>Create a <strong>select input</strong> with a unique id name, label (i.e., what the user will see), and have it’s choices parameter equal <code>books</code>. <code>books</code> will be a list of names of Shakespeare’s three plays.</li>
@@ -138,7 +140,7 @@ code span.wa { color: #bf0303; } /* Warning */
 <p>This means the user will see one of three labels (“Unigrams only”, “Unigrams &amp; Bigrams”, and “Bigrams only”) but the value provided in this input will be either “unigram”, “both”, or “bigram”.</p>
 <ol start="5" style="list-style-type: decimal">
 <li><p>Create a <strong>slider input</strong> for setting the minimum frequency of words kept in the pre-processing (sparse term threshold). Give it an unique id (e.g., “freq”), an appropriate label, and set its last three parameters as <code>min = 1,  max = 50, value = 10</code>. This sets its initial value as 10 but its minimum and maximum values as 1 and 50 (respectively).</p></li>
-<li><p>Next, add in a <strong>horizontal line</strong> by add in <code>hr()</code> and (like all previous UI inputs), add a comma behind it.</p></li>
+<li><p>Next, add in a <strong>horizontal line</strong> by adding <code>hr()</code> and (like all previous UI inputs), be sure to add a comma after it.</p></li>
 <li><p>Last, add in an <strong>action button</strong> with an unique ID and an appropriate label (e.g., “Rerun”).</p></li>
 </ol>
 <p>Your shiny app should now look like this:
@@ -149,7 +151,7 @@ code span.wa { color: #bf0303; } /* Warning */
 <p>For this step, we’ll add in our UI outputs for the two plots we’ll have in our app.</p>
 <p>Each plot will be on a different tab within our <code>mainPanel</code> section.</p>
 <ol style="list-style-type: decimal">
-<li><p>Add in a plotOutput in your “Word Clouds” tab. Name its object “cloud.”<span><label for="sn-7" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-7" class="margin-toggle"/><span class="sidenote">Remember, we have to make sure later on that when we create our wordcloud in the server section to name it as “cloud” so this step will plot the wordcloud in its appropriate tab.<br />
+<li><p>Add in a plotOutput in your “Word Clouds” tab. Name its object “cloud.”<span><label for="sn-8" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-8" class="margin-toggle"/><span class="sidenote">Remember, we have to make sure later on that when we create our wordcloud in the server section to name it as “cloud” so this step will plot the wordcloud in its appropriate tab.<br />
 <br />
 </span></span></p></li>
 <li><p>Add in a plotOutput in your “Counts” tab. Name its object “freq”.</p></li>
@@ -190,7 +192,7 @@ code span.wa { color: #bf0303; } /* Warning */
 <p>To start, please <a href="https://shiny.rstudio.com/articles/reactivity-overview.html">read this tutorial on reactivity</a>. This will make sure you understand reactivity before proceeding.</p>
 <p>For this task, add in a <code>reactive</code> function in your server side that includes both <code>({})</code> as its inputs and assigns its output as <code>dfm</code>.</p>
 <p>For the <code>reactive</code> function, we want this function to activate when the <code>actionButton</code> in the UI is clicked. Since the button is an input, put the first argument of this function as <code>input$[id of action button]</code>, where <code>[]</code> is whatever id you gave the <code>actionButton</code> in the UI.</p>
-<p>Last, within the reactive function add in this function and replace the “…” with the names of your five inputs from parts 1-5 in Task 2.<span><label for="sn-8" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-8" class="margin-toggle"/><span class="sidenote">This uses the <code>isolate</code> function, which you can learn <a href="https://shiny.rstudio.com/articles/isolation.html">more about at this tutorial</a>.<br />
+<p>Last, within the reactive function add in this function and replace the “…” with the names of your five inputs from parts 1-5 in Task 2.<span><label for="sn-9" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-9" class="margin-toggle"/><span class="sidenote">This uses the <code>isolate</code> function, which you can learn <a href="https://shiny.rstudio.com/articles/isolation.html">more about at this tutorial</a>.<br />
 <br />
 </span></span></p>
 <div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb5-1" title="1">    <span class="kw">isolate</span>({ <span class="co"># ...but not for anything else</span></a>
@@ -204,11 +206,13 @@ code span.wa { color: #bf0303; } /* Warning */
 <h2 id="task-5-add-in-render-functions-to-complete-server-side">Task 5: Add in render functions to complete server-side</h2>
 <p>For our last two steps, we’ll need to set what is in each of the two output plots.</p>
 <p>For the wordcloud, we’ll use <code>quanteda</code>’s <code>textplot_wordcloud</code> function.</p>
-<p>First, we’ll the appropriate render function that aligns with how we specified the wordcloud would appear in the UI (hint: what is the output type in the UI that uses the “cloud” input?). Use that render function and assign it (i.e., <code>&lt;-</code>) to the output object named <code>cloud</code>.</p>
-<p>Within the function’s {} brackets, now call the reactive function object. Since this is a reactive object, it’s usually best to assign it to a new object (e.g., <code>v</code>) but make sure to keep the objects <code>()</code> since its a reactive object.<span><label for="sn-9" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-9" class="margin-toggle"/><span class="sidenote">For more details, look at <a href="https://shiny.rstudio.com/tutorial/written-tutorial/lesson6/">this tutorial on Reactivity</a>, especially the middle section where they discuss calling reactive objects.<br />
+<p>First, we’ll the appropriate render function that aligns with how we specified the wordcloud would appear in the UI (hint: what is the output type in the UI that uses the “cloud” input?). Use that render function and assign it (i.e., <code>&lt;-</code>) to the output object named <code>cloud</code>.<span><label for="sn-10" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-10" class="margin-toggle"/><span class="sidenote">Do you remember how to assign output objects after rendering? Hint: it’ll look like ______$cloud.<br />
 <br />
 </span></span></p>
-<p>Within your render function (i.e., still inside {} brackets), add in:</p>
+<p>Within the function’s <code>{}</code> brackets, now call the reactive function object. Since this is a reactive object, it’s usually best to assign it to a new object (e.g., <code>v</code>) but make sure to keep the objects <code>()</code> since its a reactive object.<span><label for="sn-11" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-11" class="margin-toggle"/><span class="sidenote">For more details, look at <a href="https://shiny.rstudio.com/tutorial/written-tutorial/lesson6/">this tutorial on Reactivity</a>, especially the middle section where they discuss calling reactive objects.<br />
+<br />
+</span></span></p>
+<p>Within your render function (i.e., still inside <code>{}</code> brackets), add in:</p>
 <div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb6-1" title="1"><span class="kw">textplot_wordcloud</span>(v, <span class="dt">min_size=</span><span class="fl">0.5</span>, <span class="dt">max_size=</span><span class="dv">6</span>, <span class="dt">max_words=</span><span class="dv">100</span>, <span class="dt">color=</span><span class="kw">brewer.pal</span>(<span class="dv">8</span>, <span class="st">&quot;Dark2&quot;</span>))</a></code></pre></div>
 <p>Since this uses <code>brewer.pal()</code> function, be sure to add in <code>library(RColorBrewer)</code> to your library calls at the top of your code.</p>
 <p>This assumes that you assigned the reactive <code>dfm</code> as <code>v</code>. All other parameters are values for the wordcloud (e.g., max_size of the words in the word cloud). See <code>?textplot_wordcloud</code> for more details about what the parameters mean.</p>

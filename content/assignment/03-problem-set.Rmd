@@ -60,7 +60,7 @@ What your app should look like:
 
 # Task 2: Add in the ui's inputs
 
-Next, you will need to add in six input functions to serve as drop-down selections for the user. These will be pre-processing steps. 
+Next, you will need to add in six input functions to serve as drop-down selections for the user. These will be pre-processing steps. ^[Use the input section of the [shiny cheatsheet](https://shiny.rstudio.com/images/shiny-cheatsheet.pdf) to refresh your memory of the different input function types.]
 
 Make sure between each new input you put in a comma or else you'll get error messages!
 
@@ -91,7 +91,7 @@ This means the user will see one of three labels ("Unigrams only", "Unigrams & B
 
 5. Create a **slider input** for setting the minimum frequency of words kept in the pre-processing (sparse term threshold). Give it an unique id (e.g., "freq"), an appropriate label, and set its last three parameters as `min = 1,  max = 50, value = 10`. This sets its initial value as 10 but its minimum and maximum values as 1 and 50 (respectively).
 
-6. Next, add in a **horizontal line** by add in `hr()` and (like all previous UI inputs), add a comma behind it.
+6. Next, add in a **horizontal line** by adding `hr()` and (like all previous UI inputs), be sure to add a comma after it.
 
 7. Last, add in an **action button** with an unique ID and an appropriate label (e.g., "Rerun").
 
@@ -181,11 +181,11 @@ For our last two steps, we'll need to set what is in each of the two output plot
 
 For the wordcloud, we'll use `quanteda`'s `textplot_wordcloud` function.
 
-First, we'll the appropriate render function that aligns with how we specified the wordcloud would appear in the UI (hint: what is the output type in the UI that uses the "cloud" input?). Use that render function and assign it (i.e., `<-`) to the output object named `cloud`.
+First, we'll the appropriate render function that aligns with how we specified the wordcloud would appear in the UI (hint: what is the output type in the UI that uses the "cloud" input?). Use that render function and assign it (i.e., `<-`) to the output object named `cloud`. ^[Do you remember how to assign output objects after rendering? Hint: it'll look like ______$cloud.]
 
-Within the function's {} brackets, now call the reactive function object. Since this is a reactive object, it's usually best to assign it to a new object (e.g., `v`) but make sure to keep the objects `()` since its a reactive object.^[For more details, look at [this tutorial on Reactivity](https://shiny.rstudio.com/tutorial/written-tutorial/lesson6/), especially the middle section where they discuss calling reactive objects.] 
+Within the function's `{}` brackets, now call the reactive function object. Since this is a reactive object, it's usually best to assign it to a new object (e.g., `v`) but make sure to keep the objects `()` since its a reactive object.^[For more details, look at [this tutorial on Reactivity](https://shiny.rstudio.com/tutorial/written-tutorial/lesson6/), especially the middle section where they discuss calling reactive objects.] 
 
-Within your render function (i.e., still inside {} brackets), add in:
+Within your render function (i.e., still inside `{}` brackets), add in:
 
 ```{r eval=F}
 textplot_wordcloud(v, min_size=0.5, max_size=6, max_words=100, color=brewer.pal(8, "Dark2"))
