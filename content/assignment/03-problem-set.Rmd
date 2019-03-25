@@ -179,16 +179,20 @@ This step again will not change the UI.
 
 For our last two steps, we'll need to set what is in each of the two output plots.
 
-For the wordcloud, we'll use `quanteda`'s `textplot_wordcloud` function.
+For the wordcloud, we'll use the `textplot_wordcloud` function from the `quanteda` package. ^[FYI, this is a wrapper function from the `wordcloud` package. Therefore, it's really using `wordcloud` but is compatible with `quanteda` data objects like `dfm`.]
 
-First, we'll the appropriate render function that aligns with how we specified the wordcloud would appear in the UI (hint: what is the output type in the UI that uses the "cloud" input?). Use that render function and assign it (i.e., `<-`) to the output object named `cloud`. ^[Do you remember how to assign output objects after rendering? Hint: it'll look like ______$cloud.]
+First, we'll the appropriate render function that aligns with how we specified the wordcloud would appear in the UI (hint: what is the output type in the UI that uses the "cloud" input?). Use that render function and assign it (i.e., `<-`) to the output object named `cloud`. ^[Do you remember how to assign output objects after rendering? Hint: it'll look like ______$cloud. You fill in the blank.]
 
 Within the function's `{}` brackets, now call the reactive function object. Since this is a reactive object, it's usually best to assign it to a new object (e.g., `v`) but make sure to keep the objects `()` since its a reactive object.^[For more details, look at [this tutorial on Reactivity](https://shiny.rstudio.com/tutorial/written-tutorial/lesson6/), especially the middle section where they discuss calling reactive objects.] 
 
 Within your render function (i.e., still inside `{}` brackets), add in:
 
 ```{r eval=F}
-textplot_wordcloud(v, min_size=0.5, max_size=6, max_words=100, color=brewer.pal(8, "Dark2"))
+textplot_wordcloud(v, 
+                   min_size=0.5, 
+                   max_size=6, 
+                   max_words=100, 
+                   color=brewer.pal(8, "Dark2"))
 ```
 
 Since this uses `brewer.pal()` function, be sure to add in `library(RColorBrewer)` to your library calls at the top of your code.
@@ -248,3 +252,25 @@ Your five points for this project will be allocated:
 You will get 1 point deductions for incorrect problems on your app (e.g., if you forget to include certain functionality). If your code does not run independently (that is, your zip folder cannot be run independent), you will lose 2 points.
 
 As always, do **not** set your working directory (that's what R projects are for).
+
+# Help! I got an error.
+
+Three step process:
+
+1. Describe your error message in words, perhaps adding in "shiny". 
+
+2. Copy and paste this into your favorite search engine.
+
+3. Read. Repeat by refining your keyword search.
+
+If this doesn't work, consider these questions:
+
+1. Do you have unique names for your inputs and outputs and are they correctly assigned?
+
+2. Did you call all the libraries mentioned in Task 0?
+
+3. Did you make sure not to include a `install.packages()`? ^[Remember you only need to run these once. No code should have this uncommented.]
+
+4. Work backwards, i.e., can you complete task 1? task 2? task 5? If you can identify which task, this will lead you to figure out where your problem is. Similarly, remove one related function / block of code to determine when your app starts working again.
+
+5. Consider using the `browser()` function. Read this post on [debugging in shiny](https://shiny.rstudio.com/articles/debugging.html).

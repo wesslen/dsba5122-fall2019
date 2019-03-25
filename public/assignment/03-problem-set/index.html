@@ -336,15 +336,21 @@ code span.wa { color: #bf0303; } /* Warning */
 <p>This step again will not change the UI.</p>
 <h2 id="task-5-add-in-render-functions-to-complete-server-side">Task 5: Add in render functions to complete server-side</h2>
 <p>For our last two steps, we’ll need to set what is in each of the two output plots.</p>
-<p>For the wordcloud, we’ll use <code>quanteda</code>’s <code>textplot_wordcloud</code> function.</p>
-<p>First, we’ll the appropriate render function that aligns with how we specified the wordcloud would appear in the UI (hint: what is the output type in the UI that uses the “cloud” input?). Use that render function and assign it (i.e., <code>&lt;-</code>) to the output object named <code>cloud</code>.<span><label for="sn-10" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-10" class="margin-toggle"/><span class="sidenote">Do you remember how to assign output objects after rendering? Hint: it’ll look like ______$cloud.<br />
+<p>For the wordcloud, we’ll use the <code>textplot_wordcloud</code> function from the <code>quanteda</code> package.<span><label for="sn-10" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-10" class="margin-toggle"/><span class="sidenote">FYI, this is a wrapper function from the <code>wordcloud</code> package. Therefore, it’s really using <code>wordcloud</code> but is compatible with <code>quanteda</code> data objects like <code>dfm</code>.<br />
 <br />
 </span></span></p>
-<p>Within the function’s <code>{}</code> brackets, now call the reactive function object. Since this is a reactive object, it’s usually best to assign it to a new object (e.g., <code>v</code>) but make sure to keep the objects <code>()</code> since its a reactive object.<span><label for="sn-11" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-11" class="margin-toggle"/><span class="sidenote">For more details, look at <a href="https://shiny.rstudio.com/tutorial/written-tutorial/lesson6/">this tutorial on Reactivity</a>, especially the middle section where they discuss calling reactive objects.<br />
+<p>First, we’ll the appropriate render function that aligns with how we specified the wordcloud would appear in the UI (hint: what is the output type in the UI that uses the “cloud” input?). Use that render function and assign it (i.e., <code>&lt;-</code>) to the output object named <code>cloud</code>.<span><label for="sn-11" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-11" class="margin-toggle"/><span class="sidenote">Do you remember how to assign output objects after rendering? Hint: it’ll look like ______$cloud. You fill in the blank.<br />
+<br />
+</span></span></p>
+<p>Within the function’s <code>{}</code> brackets, now call the reactive function object. Since this is a reactive object, it’s usually best to assign it to a new object (e.g., <code>v</code>) but make sure to keep the objects <code>()</code> since its a reactive object.<span><label for="sn-12" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-12" class="margin-toggle"/><span class="sidenote">For more details, look at <a href="https://shiny.rstudio.com/tutorial/written-tutorial/lesson6/">this tutorial on Reactivity</a>, especially the middle section where they discuss calling reactive objects.<br />
 <br />
 </span></span></p>
 <p>Within your render function (i.e., still inside <code>{}</code> brackets), add in:</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb6-1" title="1"><span class="kw">textplot_wordcloud</span>(v, <span class="dt">min_size=</span><span class="fl">0.5</span>, <span class="dt">max_size=</span><span class="dv">6</span>, <span class="dt">max_words=</span><span class="dv">100</span>, <span class="dt">color=</span><span class="kw">brewer.pal</span>(<span class="dv">8</span>, <span class="st">&quot;Dark2&quot;</span>))</a></code></pre></div>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb6-1" title="1"><span class="kw">textplot_wordcloud</span>(v, </a>
+<a class="sourceLine" id="cb6-2" title="2">                   <span class="dt">min_size=</span><span class="fl">0.5</span>, </a>
+<a class="sourceLine" id="cb6-3" title="3">                   <span class="dt">max_size=</span><span class="dv">6</span>, </a>
+<a class="sourceLine" id="cb6-4" title="4">                   <span class="dt">max_words=</span><span class="dv">100</span>, </a>
+<a class="sourceLine" id="cb6-5" title="5">                   <span class="dt">color=</span><span class="kw">brewer.pal</span>(<span class="dv">8</span>, <span class="st">&quot;Dark2&quot;</span>))</a></code></pre></div>
 <p>Since this uses <code>brewer.pal()</code> function, be sure to add in <code>library(RColorBrewer)</code> to your library calls at the top of your code.</p>
 <p>This assumes that you assigned the reactive <code>dfm</code> as <code>v</code>. All other parameters are values for the wordcloud (e.g., max_size of the words in the word cloud). See <code>?textplot_wordcloud</code> for more details about what the parameters mean.</p>
 <p>Next, you’ll need to create a second render function that assigns the object of the <code>freq</code> output object. Like the previous render function, we’ll use the reactive <code>dfm</code> that you’ll need to assign (e.g., can assign <code>v</code> again since a different function).</p>
@@ -380,6 +386,23 @@ code span.wa { color: #bf0303; } /* Warning */
 </ul>
 <p>You will get 1 point deductions for incorrect problems on your app (e.g., if you forget to include certain functionality). If your code does not run independently (that is, your zip folder cannot be run independent), you will lose 2 points.</p>
 <p>As always, do <strong>not</strong> set your working directory (that’s what R projects are for).</p>
+<h2 id="help-i-got-an-error.">Help! I got an error.</h2>
+<p>Three step process:</p>
+<ol style="list-style-type: decimal">
+<li><p>Describe your error message in words, perhaps adding in “shiny”.</p></li>
+<li><p>Copy and paste this into your favorite search engine.</p></li>
+<li><p>Read. Repeat by refining your keyword search.</p></li>
+</ol>
+<p>If this doesn’t work, consider these questions:</p>
+<ol style="list-style-type: decimal">
+<li><p>Do you have unique names for your inputs and outputs and are they correctly assigned?</p></li>
+<li><p>Did you call all the libraries mentioned in Task 0?</p></li>
+<li><p>Did you make sure not to include a <code>install.packages()</code>?<span><label for="sn-13" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-13" class="margin-toggle"/><span class="sidenote">Remember you only need to run these once. No code should have this uncommented.<br />
+<br />
+</span></span></p></li>
+<li><p>Work backwards, i.e., can you complete task 1? task 2? task 5? If you can identify which task, this will lead you to figure out where your problem is. Similarly, remove one related function / block of code to determine when your app starts working again.</p></li>
+<li><p>Consider using the <code>browser()</code> function. Read this post on <a href="https://shiny.rstudio.com/articles/debugging.html">debugging in shiny</a>.</p></li>
+</ol>
 
 
     </article>
