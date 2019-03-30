@@ -21,6 +21,8 @@ editor_options:
 
 # Links
 
+- [Kyle Walker](http://personal.tcu.edu/kylewalker/), [Neighborhood Diversity App by ](https://github.com/walkerke/neighborhood_diversity) / [app](https://walkerke.shinyapps.io/neighborhood_diversity/)
+
 - [altair](https://vegawidget.github.io/altair/index.html) / [vega editor](https://vega.github.io/editor/#/)
 
 - [dragulaR](https://github.com/zzawadz/dragulaR)

@@ -86,10 +86,11 @@ lessons:
   - title: "Networks and Trees"
     date: "April 1"
     reading: "10-reading"
-    #class: "10-class"
+    class: "10-class"
     
   - title: "**Final project assigned (Due May 6)**"
     date: "April 1"
+    assignment: "final-project"
     
   - title: "**Datacamp course 4 (Due Apr 16)**"
     date: "April 1"
@@ -100,7 +101,7 @@ lessons:
 
   - title: "Coordinated Multiple Views: Interacting & Brushing"
     date: "April 8"
-    #reading: "11-reading"
+    reading: "11-reading"
     #class: "11-class"
 
   - title: "Deployment, Back-end and Scalability"

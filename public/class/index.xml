@@ -44,12 +44,11 @@ Links  Docker and `plumber’
       <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/class/11-class/</guid>
-      <description> Contents  Slides Links   Slides Download the slides from today’s lecture.
+      <description>Contents  Slides Links   Slides Download the slides from today’s lecture.
 🎅 Major announcement for #rstats shiny addicts🎅:
 Excited to officially introduce RinteRface, a collection of open-source HTML templates for #shiny and more 🦄
-Thanks ??? for joining the project 🔥https://t.co/IAX76FEz1k??? ??? ??? ??? pic.twitter.com/WCvuAxJiI4 — David Granjon (@divadnojnarg) November 28, 2018   Links  altair / vega editor
- dragulaR
-  </description>
+Thanks ??? for joining the project 🔥https://t.co/IAX76FEz1k??? ??? ??? ??? pic.twitter.com/WCvuAxJiI4 — David Granjon (@divadnojnarg) November 28, 2018   Links  Kyle Walker, Neighborhood Diversity App by / app
+ altair / vega editor</description>
     </item>
     
     <item>
@@ -58,8 +57,9 @@ Thanks ??? for joining the project 🔥https://t.co/IAX76FEz1k??? ??? ??? ??? pi
       <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/class/10-class/</guid>
-      <description> Contents  Slides Tweet of the day   Slides Download the slides from today’s lecture.
-Tweet of the day Our lab&#39;s first preprint! Coral: an R shiny and D3.js web app for flexible, interactive, and high-resolution visualization of the human kinome. https://t.co/xD7QUXgjOR pic.twitter.com/1gGy9zzsBT — doug phanstiel (@dphansti) May 25, 2018   </description>
+      <description> Contents  Tweet of the day Slides: Lab: Shiny Reactivity   Tweet of the day Our lab&#39;s first preprint! Coral: an R shiny and D3.js web app for flexible, interactive, and high-resolution visualization of the human kinome. https://t.co/xD7QUXgjOR pic.twitter.com/1gGy9zzsBT — doug phanstiel (@dphansti) May 25, 2018   Slides: full screen / pdf version
+ Lab: Shiny Reactivity Garrett Grohlmund’s Introduction to Reactivity in Shiny
+ RStudio Cloud project for sample Shiny apps  </description>
     </item>
     
     <item>

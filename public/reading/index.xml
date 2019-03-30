@@ -6,10 +6,19 @@
     <description>Recent content in Readings on Visual Analytics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://dsba5122-spring2019.netlify.com/reading/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Coordinated-Multiple Views</title>
+      <link>https://dsba5122-spring2019.netlify.com/reading/11-reading/</link>
+      <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/reading/11-reading/</guid>
+      <description> Required   Chapter 7: Interactions in Riccardo Mazza, Introduction to Information Visualization  </description>
+    </item>
     
     <item>
       <title>Networks and Trees</title>
@@ -153,13 +162,21 @@ Questions to reflect on  How do we know what is true? Are facts truth? Why do we
     </item>
     
     <item>
-      <title>Text</title>
-      <link>https://dsba5122-spring2019.netlify.com/reading/11-reading/</link>
-      <pubDate>Tue, 13 Nov 2018 00:00:00 +0000</pubDate>
+      <title>Annotating and grouping</title>
+      <link>https://dsba5122-spring2019.netlify.com/reading/12-reading.knit/</link>
+      <pubDate>Tue, 27 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://dsba5122-spring2019.netlify.com/reading/11-reading/</guid>
-      <description>Required   Look through some of the chapters in Julia Silge and David Robinson, Tidy Text MiningJulia Silge and David Robinson, Text Mining with R (Sebastopol, California: O’Reilly Media, 2017), https://www.tidytextmining.com/.
- (but definitely don’t read them all! You just need to get a taste of what modern text analysis looks like.) A bunch of (really) short things:   Julia Silge, “She Giggles, He Gallops”  Abby Ohlheiser, “These are the words most associated with men and women, according to Facebook status updates”  Six Ideas for Displaying Qualitative Data  Word clouds considered harmful  Word clouds cause death… or something  When It’s Ok to Use Word Clouds  The Class of 2011  Every time Ford and Kavanaugh dodged a question, in one chart  Sentiment Analysis of The Book of Mormon  Tweet by @s_soroka   Questions to reflect on  Why is qualitative data difficult to visualize?</description>
+      <guid>https://dsba5122-spring2019.netlify.com/reading/12-reading.knit/</guid>
+      <description> Required   Chapter 17 and Chapter 19 in Claus Wilke, Fundamentals of Data Visualization [@Wilke:2018]  Chapter 5 in Kieran Healy, Data Visualization [@Healy:2018] Other readings TBD  Questions to reflect on  Questions TBD  </description>
+    </item>
+    
+    <item>
+      <title>Annotating and grouping</title>
+      <link>https://dsba5122-spring2019.netlify.com/reading/12-reading.utf8/</link>
+      <pubDate>Tue, 27 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/reading/12-reading.utf8/</guid>
+      <description> Required   Chapter 17 and Chapter 19 in Claus Wilke, Fundamentals of Data Visualization [@Wilke:2018]  Chapter 5 in Kieran Healy, Data Visualization [@Healy:2018] Other readings TBD  Questions to reflect on  Questions TBD  </description>
     </item>
     
     <item>

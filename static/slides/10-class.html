@@ -14,21 +14,144 @@ class: center, middle, inverse, title-slide
 # DSBA 5122: Visual Analytics
 ## Class 10: Networks and Trees
 ### Ryan Wesslen
-### 2019-04-01
+### April 1, 2019
 
 ---
 
 
 
 
+class: center, middle, inverse
+
+# Networks and Trees
+
+&lt;img src="../images/slides/10-class/mazzo.png" width="400px" style="display: block; margin: auto;" /&gt;
+
+Read Chapter 5: Networks and Hiearchies of Mazza
+
+---
+
+# Networks (a.k.a. graphs)
+
+&lt;img src="../images/slides/10-class/net1.png" width="600px" style="display: block; margin: auto;" /&gt;
+
+- Graphs are visual representations in which the points, called **nodes** or **vertices**, represent instances of the data.
+
+- Nodes are correlated by connections, called **edges**, which represent relationships between the instances. 
+
+- Possible features of a network: weights, direction, labels.
+
+---
+
 class: center, middle
 
-# Welcome
+.pull-left[
+&lt;img src="../images/slides/10-class/undirected.jpeg" width="400px" style="display: block; margin: auto;" /&gt;
+]
+.pull-right[
+&lt;img src="../images/slides/10-class/directed.jpeg" width="400px" style="display: block; margin: auto;" /&gt;
+]
 
-![](../../static/images/slides/01-class/welcome.gif)
+[Vaidehi Joshi Medium post](https://medium.com/basecs/from-theory-to-practice-representing-graphs-cfd782c5be38)
+
+---
+
+class: middle, center
+
+&lt;img src="../images/slides/10-class/concept1.png" width="600px" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: middle, center
+
+&lt;img src="../images/slides/10-class/concept2.png" width="600px" style="display: block; margin: auto;" /&gt;
+
+[BNOSAC: R NLP packages ecosystem](http://www.bnosac.be/index.php/blog/87-an-overview-of-the-nlp-ecosystem-in-r-nlproc-textasdata)
+
+---
+
+class: middle, center
+
+&lt;img src="../images/slides/10-class/net2.png" width="600px" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: middle, center
+
+&lt;img src="../images/slides/10-class/net3.png" width="600px" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: middle, center
+
+&lt;img src="../images/slides/10-class/net4.png" width="600px" style="display: block; margin: auto;" /&gt;
+
+---
+
+&lt;img src="../images/slides/10-class/tree1.png" width="650px" style="display: block; margin: auto;" /&gt;
+
+- A **tree** (hierarchy) can be represented through a graph with a starting node called root. 
+
+- Each node has zero or more child nodes its ancestor is called the **parent** node. A node has at most one parent.
+
+---
+
+class: middle, center
+
+&lt;img src="../images/slides/10-class/tree2.png" width="600px" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: middle, center
+
+&lt;img src="../images/slides/10-class/tree3.png" width="500px" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: middle, center
+
+&lt;img src="../images/slides/10-class/tree4.png" width="600px" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: middle, center
+
+&lt;img src="../images/slides/10-class/tree5.png" width="600px" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: center, middle, inverse
+
+## Katya Ognyanova's "Network visualization with R."
+
+&lt;img src="../images/slides/10-class/katato.png" width="600px" style="display: block; margin: auto;" /&gt;
+
+http://kateto.net/network-visualization
+
+---
+
+class: center, middle
+
+&lt;img src="../images/slides/10-class/kateto1.png" width="800px" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: center, middle
+
+&lt;img src="../images/slides/10-class/katato2.png" width="800px" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: center, middle
+
+&lt;img src="../images/slides/10-class/katato3.png" width="800px" style="display: block; margin: auto;" /&gt;
     </textarea>
 <script src="libs/remark-latest.min.js"></script>
-<script>var slideshow = remark.create();
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"highlightSpans": true
+});
 if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
   window.dispatchEvent(new Event('resize'));
 });

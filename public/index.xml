@@ -73,12 +73,20 @@ Links  Docker and `plumber’
       <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/class/11-class/</guid>
-      <description> Contents  Slides Links   Slides Download the slides from today’s lecture.
+      <description>Contents  Slides Links   Slides Download the slides from today’s lecture.
 🎅 Major announcement for #rstats shiny addicts🎅:
 Excited to officially introduce RinteRface, a collection of open-source HTML templates for #shiny and more 🦄
-Thanks ??? for joining the project 🔥https://t.co/IAX76FEz1k??? ??? ??? ??? pic.twitter.com/WCvuAxJiI4 — David Granjon (@divadnojnarg) November 28, 2018   Links  altair / vega editor
- dragulaR
-  </description>
+Thanks ??? for joining the project 🔥https://t.co/IAX76FEz1k??? ??? ??? ??? pic.twitter.com/WCvuAxJiI4 — David Granjon (@divadnojnarg) November 28, 2018   Links  Kyle Walker, Neighborhood Diversity App by / app
+ altair / vega editor</description>
+    </item>
+    
+    <item>
+      <title>Coordinated-Multiple Views</title>
+      <link>https://dsba5122-spring2019.netlify.com/reading/11-reading/</link>
+      <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/reading/11-reading/</guid>
+      <description> Required   Chapter 7: Interactions in Riccardo Mazza, Introduction to Information Visualization  </description>
     </item>
     
     <item>
@@ -112,13 +120,26 @@ For this DataCamp course, you’ll learn more about shiny using hands on case st
     </item>
     
     <item>
+      <title>Final project</title>
+      <link>https://dsba5122-spring2019.netlify.com/assignment/final-project/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/assignment/final-project/</guid>
+      <description>Objective:
+Develop a Shiny app based on any data topic.
+Dataset:
+This is up to your group. You may use a dataset from the design contest (the same or a different data set) or select your own. Warning, don’t overthink selecting your dataset. I will request you make a decision on your data set by April 8, 2019 (send me by email). This is the most important step to start with.</description>
+    </item>
+    
+    <item>
       <title>Networks &amp; Trees</title>
       <link>https://dsba5122-spring2019.netlify.com/class/10-class/</link>
       <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/class/10-class/</guid>
-      <description> Contents  Slides Tweet of the day   Slides Download the slides from today’s lecture.
-Tweet of the day Our lab&#39;s first preprint! Coral: an R shiny and D3.js web app for flexible, interactive, and high-resolution visualization of the human kinome. https://t.co/xD7QUXgjOR pic.twitter.com/1gGy9zzsBT — doug phanstiel (@dphansti) May 25, 2018   </description>
+      <description> Contents  Tweet of the day Slides: Lab: Shiny Reactivity   Tweet of the day Our lab&#39;s first preprint! Coral: an R shiny and D3.js web app for flexible, interactive, and high-resolution visualization of the human kinome. https://t.co/xD7QUXgjOR pic.twitter.com/1gGy9zzsBT — doug phanstiel (@dphansti) May 25, 2018   Slides: full screen / pdf version
+ Lab: Shiny Reactivity Garrett Grohlmund’s Introduction to Reactivity in Shiny
+ RStudio Cloud project for sample Shiny apps  </description>
     </item>
     
     <item>
@@ -235,15 +256,6 @@ Slides: full screen / pdf version</description>
 
   Chapter 4: Multivariate Analysis in Riccardo Mazza, Introduction to Information Visualization
   Recommended   Kieran Healy, “Two y-axes”</description>
-    </item>
-    
-    <item>
-      <title>Final project</title>
-      <link>https://dsba5122-spring2019.netlify.com/assignment/final-project/</link>
-      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-spring2019.netlify.com/assignment/final-project/</guid>
-      <description>The instructions for the final project will be posted by the end of February.</description>
     </item>
     
     <item>
@@ -570,22 +582,30 @@ Questions to reflect on  How do we know what is true? Are facts truth? Why do we
     </item>
     
     <item>
+      <title>Annotating and grouping</title>
+      <link>https://dsba5122-spring2019.netlify.com/reading/12-reading.knit/</link>
+      <pubDate>Tue, 27 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/reading/12-reading.knit/</guid>
+      <description> Required   Chapter 17 and Chapter 19 in Claus Wilke, Fundamentals of Data Visualization [@Wilke:2018]  Chapter 5 in Kieran Healy, Data Visualization [@Healy:2018] Other readings TBD  Questions to reflect on  Questions TBD  </description>
+    </item>
+    
+    <item>
+      <title>Annotating and grouping</title>
+      <link>https://dsba5122-spring2019.netlify.com/reading/12-reading.utf8/</link>
+      <pubDate>Tue, 27 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/reading/12-reading.utf8/</guid>
+      <description> Required   Chapter 17 and Chapter 19 in Claus Wilke, Fundamentals of Data Visualization [@Wilke:2018]  Chapter 5 in Kieran Healy, Data Visualization [@Healy:2018] Other readings TBD  Questions to reflect on  Questions TBD  </description>
+    </item>
+    
+    <item>
       <title>Problem set 5</title>
       <link>https://dsba5122-spring2019.netlify.com/assignment/05-problem-set/</link>
       <pubDate>Tue, 13 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/assignment/05-problem-set/</guid>
       <description>The instructions for this problem set will be posted at least one week before it is due.</description>
-    </item>
-    
-    <item>
-      <title>Text</title>
-      <link>https://dsba5122-spring2019.netlify.com/reading/11-reading/</link>
-      <pubDate>Tue, 13 Nov 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-spring2019.netlify.com/reading/11-reading/</guid>
-      <description>Required   Look through some of the chapters in Julia Silge and David Robinson, Tidy Text MiningJulia Silge and David Robinson, Text Mining with R (Sebastopol, California: O’Reilly Media, 2017), https://www.tidytextmining.com/.
- (but definitely don’t read them all! You just need to get a taste of what modern text analysis looks like.) A bunch of (really) short things:   Julia Silge, “She Giggles, He Gallops”  Abby Ohlheiser, “These are the words most associated with men and women, according to Facebook status updates”  Six Ideas for Displaying Qualitative Data  Word clouds considered harmful  Word clouds cause death… or something  When It’s Ok to Use Word Clouds  The Class of 2011  Every time Ford and Kavanaugh dodged a question, in one chart  Sentiment Analysis of The Book of Mormon  Tweet by @s_soroka   Questions to reflect on  Why is qualitative data difficult to visualize?</description>
     </item>
     
     <item>

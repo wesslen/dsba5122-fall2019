@@ -2,7 +2,7 @@
 title: "DSBA 5122: Visual Analytics"
 subtitle: "Class 10: Networks and Trees"  
 author: "Ryan Wesslen"
-date: '2019-04-01'
+date: 'April 1, 2019'
 citeproc: false
 bibliography: ../../static/bib/references.bib
 csl: ../../static/bib/chicago-syllabus-no-bib.csl
@@ -11,16 +11,190 @@ output:
     lib_dir: libs
     css: xaringan-themer.css
     chakra: libs/remark-latest.min.js
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      highlightSpans: true
 ---
 
 ```{r setup, include=FALSE}
+knitr::opts_chunk$set(fig.width=4.2, fig.height=4.2, message=FALSE, warning=FALSE) 
 options(htmltools.dir.version = FALSE)
 library(xaringanthemer)
-mono_accent(base_color = "#046A38")
+library(widgetframe) # needed for html widgets in rmarkdown
+library(tidyverse)
+
+mono_light(
+  base_color = "#046A38",
+  white_color = "#ffffff",
+  text_font_size = "24px",
+  header_h1_font_size = "40px",
+  header_h2_font_size = "35px", 
+  header_h3_font_size = "30px",
+  code_font_size = "11px",
+  header_font_google = google_font("Josefin Sans"),
+  text_font_google   = google_font("Montserrat", "300", "300i"),
+  code_font_google   = google_font("Droid Mono")
+)
 ```
+
+class: center, middle, inverse
+
+# Networks and Trees
+
+```{r out.width = "400px", fig.align="center", echo=FALSE}
+knitr::include_graphics("../images/slides/10-class/mazzo.png")
+```
+
+Read Chapter 5: Networks and Hiearchies of Mazza
+
+---
+
+# Networks (a.k.a. graphs)
+
+```{r out.width = "600px", fig.align="center", echo=FALSE}
+knitr::include_graphics("../images/slides/10-class/net1.png")
+```
+
+- Graphs are visual representations in which the points, called **nodes** or **vertices**, represent instances of the data.
+
+- Nodes are correlated by connections, called **edges**, which represent relationships between the instances. 
+
+- Possible features of a network: weights, direction, labels.
+
+---
 
 class: center, middle
 
-# Welcome
+.pull-left[
+```{r out.width = "400px", fig.align="center", echo=FALSE}
+knitr::include_graphics("../images/slides/10-class/undirected.jpeg")
+```
+]
+.pull-right[
+```{r out.width = "400px", fig.align="center", echo=FALSE}
+knitr::include_graphics("../images/slides/10-class/directed.jpeg")
+```
+]
 
-![](../../static/images/slides/01-class/welcome.gif)
+[Vaidehi Joshi Medium post](https://medium.com/basecs/from-theory-to-practice-representing-graphs-cfd782c5be38)
+
+---
+
+class: middle, center
+
+```{r out.width = "600px", fig.align="center", echo=FALSE}
+knitr::include_graphics("../images/slides/10-class/concept1.png")
+```
+
+---
+
+class: middle, center
+
+```{r out.width = "600px", fig.align="center", echo=FALSE}
+knitr::include_graphics("../images/slides/10-class/concept2.png")
+```
+
+[BNOSAC: R NLP packages ecosystem](http://www.bnosac.be/index.php/blog/87-an-overview-of-the-nlp-ecosystem-in-r-nlproc-textasdata)
+
+---
+
+class: middle, center
+
+```{r out.width = "600px", fig.align="center", echo=FALSE}
+knitr::include_graphics("../images/slides/10-class/net2.png")
+```
+
+---
+
+class: middle, center
+
+```{r out.width = "600px", fig.align="center", echo=FALSE}
+knitr::include_graphics("../images/slides/10-class/net3.png")
+```
+
+---
+
+class: middle, center
+
+```{r out.width = "600px", fig.align="center", echo=FALSE}
+knitr::include_graphics("../images/slides/10-class/net4.png")
+```
+
+---
+
+```{r out.width = "650px", fig.align="center", echo=FALSE}
+knitr::include_graphics("../images/slides/10-class/tree1.png")
+```
+
+- A **tree** (hierarchy) can be represented through a graph with a starting node called root. 
+
+- Each node has zero or more child nodes its ancestor is called the **parent** node. A node has at most one parent.
+
+---
+
+class: middle, center
+
+```{r out.width = "600px", fig.align="center", echo=FALSE}
+knitr::include_graphics("../images/slides/10-class/tree2.png")
+```
+
+---
+
+class: middle, center
+
+```{r out.width = "500px", fig.align="center", echo=FALSE}
+knitr::include_graphics("../images/slides/10-class/tree3.png")
+```
+
+---
+
+class: middle, center
+
+```{r out.width = "600px", fig.align="center", echo=FALSE}
+knitr::include_graphics("../images/slides/10-class/tree4.png")
+```
+
+---
+
+class: middle, center
+
+```{r out.width = "600px", fig.align="center", echo=FALSE}
+knitr::include_graphics("../images/slides/10-class/tree5.png")
+```
+
+---
+
+class: center, middle, inverse
+
+## Katya Ognyanova's "Network visualization with R."
+
+```{r out.width = "600px", fig.align="center", echo=FALSE}
+knitr::include_graphics("../images/slides/10-class/katato.png")
+```
+
+http://kateto.net/network-visualization
+
+---
+
+class: center, middle
+
+```{r out.width = "800px", fig.align="center", echo=FALSE}
+knitr::include_graphics("../images/slides/10-class/kateto1.png")
+```
+
+---
+
+class: center, middle
+
+```{r out.width = "800px", fig.align="center", echo=FALSE}
+knitr::include_graphics("../images/slides/10-class/katato2.png")
+```
+
+---
+
+class: center, middle
+
+```{r out.width = "800px", fig.align="center", echo=FALSE}
+knitr::include_graphics("../images/slides/10-class/katato3.png")
+```
