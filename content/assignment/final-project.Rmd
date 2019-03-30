@@ -7,15 +7,15 @@ editor_options:
   chunk_output_type: console
 ---
 
-Objective:
+## Objective:
 
 Develop a Shiny app based on any data topic. 
 
-Dataset:
+## Dataset:
 
 This is up to your group. You may use a dataset from the design contest (the same or a different data set) or select your own. Warning, don't overthink selecting your dataset. I will request you make a decision on your data set by April 8, 2019 (send me by email). This is the most important step to start with.
 
-Design process:
+## Design process:
 
 Very similar to design contest, answer the following questions in your design process:
 
@@ -35,13 +35,19 @@ However unlike the design contest, the expectation for this system will be a **s
 
 You will have two deliverables:
 
-**Presentation**: Prepare a 7-8 minutes presentation to introduce your dataset, scenario, design process (e.g. your answers to the problems), and your dashboard.
+### Presentation 
+
+Prepare a 7-8 minutes presentation to introduce your dataset, scenario, design process (e.g. your answers to the problems), and your dashboard.
 
 The presentations will be given on May 6 in class. Upload your system to your shinyapps.io account for deployment. 
 
-**Final report**: Prepare a final report to describe your Shiny app.
+### Final Report
 
-This will be written in [Bookdown](https://bookdown.org/home/about/). You can create either an html-based bookdown file that you publish (e.g., <https://rpubs.com>), or upload on Canvas a pdf document. You will need to read [Bookdown output formats](https://bookdown.org/yihui/bookdown/output-formats.html).
+Prepare a final report to outline your Shiny app and its relevant objective (task).
+
+This will be written in [Bookdown](https://bookdown.org/home/about/). You can create either an html-based bookdown file that you publish (e.g., <https://rpubs.com>) or upload on Canvas a pdf document. 
+
+You will need to read [Bookdown output formats](https://bookdown.org/yihui/bookdown/output-formats.html).
 
 The report should have five sections:
 
@@ -57,20 +63,30 @@ The report should have five sections:
 
 Sections 1-4 align with Munzner's paper ^[[“A Nested Model for Visualization Design and Validation”](https://www.cs.ubc.ca/labs/imager/tr/2009/NestedModel/NestedModel.pdf)]. Section five is an outline for how you could (hypothetically) evaluate whether you ^[For this part, be sure to read [Mazza's chapter on evaluating interfaces ](https://github.com/wesslen/dsba5122-spring2019/raw/master/public/readings/Mazza2009_Chapter_Evaluations)]
 
-Grading: The instructor grades the design after your presentation according to the following criteria:
+## Grading: 
 
-Presentation:
+The instructor grades the design after your presentation according to the following criteria:
+
+### Presentation:
+
 - Novelty of your scenario (5 point): explanation of your scenario, task, and why your app will enable users to better complete the task.
+
 - Quality of the presentation (5 points): organized slides that provide a clear overview of the app and surrounding details (5-6 slides given 8 minute presentation).
 
-Reproducibility & Code:
+### Reproducibility & Code:
+
 - Clear, fully reproducible  (5 points): Code is standalone and can be fully reproduced. Better (more organized) code will receive higher points than code that is not organized. GitHub highly recommended. ^[This is an excellent opportunity for you to start your code portfolio. Follow Jenny Bryan's [excellent introduction to Git with R](https://happygitwithr.com/install-intro.html) tutorial.]
+
 - Deployed app (5 points): App is deployed on shinyapps.io. ^[Even better, take this opportunity to create your own blogdown blog using Allison Hill's [great introduction to blogdown](https://alison.rbind.io/talk/blogdown-meetup/) and then write your first post to introduce your app.]
 
-Shiny App:
+### Shiny App:
+
 - Quality of the app (5 points): Usability of the app. Not necessarily most complex -- too much interaction can have costs -- but the one that aids in your task. Great design processes will enable strong apps.
+
 - Algorithmic evaluation (runtime, scale, optimization) (5 points): How you implement your design. Does your app respond well. Points will be removed if the interactions are too complex (too slow) and hurt the users' ability to perform the task. Can this app be scaled if you were provided more data? 
 
-Final Report:
+### Final Report:
+
 - Report contents (5 points): Report is organized, with clear explanations, limited spelling, punctuation, appropriate tables and figures, and explanation for how to reproduce the results (run the code)
+
 - Shiny app evaluation (5 points): describe how you would evaluate your app. Base this on your task and how you would devise an experiment to validate that your shiny app improves your task.

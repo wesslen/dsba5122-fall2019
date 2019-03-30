@@ -125,10 +125,8 @@ For this DataCamp course, you’ll learn more about shiny using hands on case st
       <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/assignment/final-project/</guid>
-      <description>Objective:
-Develop a Shiny app based on any data topic.
-Dataset:
-This is up to your group. You may use a dataset from the design contest (the same or a different data set) or select your own. Warning, don’t overthink selecting your dataset. I will request you make a decision on your data set by April 8, 2019 (send me by email). This is the most important step to start with.</description>
+      <description>Objective: Develop a Shiny app based on any data topic.
+Dataset: This is up to your group. You may use a dataset from the design contest (the same or a different data set) or select your own. Warning, don’t overthink selecting your dataset. I will request you make a decision on your data set by April 8, 2019 (send me by email). This is the most important step to start with.</description>
     </item>
     
     <item>
@@ -579,24 +577,6 @@ Questions to reflect on  How do we know what is true? Are facts truth? Why do we
       <description> Required   Chapter 17 and Chapter 19 in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
   Chapter 5 in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
  Other readings TBD  Questions to reflect on  Questions TBD  </description>
-    </item>
-    
-    <item>
-      <title>Annotating and grouping</title>
-      <link>https://dsba5122-spring2019.netlify.com/reading/12-reading.knit/</link>
-      <pubDate>Tue, 27 Nov 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-spring2019.netlify.com/reading/12-reading.knit/</guid>
-      <description> Required   Chapter 17 and Chapter 19 in Claus Wilke, Fundamentals of Data Visualization [@Wilke:2018]  Chapter 5 in Kieran Healy, Data Visualization [@Healy:2018] Other readings TBD  Questions to reflect on  Questions TBD  </description>
-    </item>
-    
-    <item>
-      <title>Annotating and grouping</title>
-      <link>https://dsba5122-spring2019.netlify.com/reading/12-reading.utf8/</link>
-      <pubDate>Tue, 27 Nov 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-spring2019.netlify.com/reading/12-reading.utf8/</guid>
-      <description> Required   Chapter 17 and Chapter 19 in Claus Wilke, Fundamentals of Data Visualization [@Wilke:2018]  Chapter 5 in Kieran Healy, Data Visualization [@Healy:2018] Other readings TBD  Questions to reflect on  Questions TBD  </description>
     </item>
     
     <item>

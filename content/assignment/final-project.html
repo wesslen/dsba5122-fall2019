@@ -9,11 +9,11 @@ editor_options:
 
 
 
-<p>Objective:</p>
+<h3 id="objective">Objective:</h3>
 <p>Develop a Shiny app based on any data topic.</p>
-<p>Dataset:</p>
+<h3 id="dataset">Dataset:</h3>
 <p>This is up to your group. You may use a dataset from the design contest (the same or a different data set) or select your own. Warning, don’t overthink selecting your dataset. I will request you make a decision on your data set by April 8, 2019 (send me by email). This is the most important step to start with.</p>
-<p>Design process:</p>
+<h3 id="design-process">Design process:</h3>
 <p>Very similar to design contest, answer the following questions in your design process:</p>
 <ul>
 <li><p>What are the data and tasks?</p></li>
@@ -25,10 +25,13 @@ editor_options:
 </ul>
 <p>However unlike the design contest, the expectation for this system will be a <strong>shiny-enabled</strong> app (e.g., could be a shiny app, shinydashboard, flexdashboard with shiny enabled). However, it must have <strong>shiny enabled</strong>.</p>
 <p>You will have two deliverables:</p>
-<p><strong>Presentation</strong>: Prepare a 7-8 minutes presentation to introduce your dataset, scenario, design process (e.g. your answers to the problems), and your dashboard.</p>
+<h4 id="presentation">Presentation</h4>
+<p>Prepare a 7-8 minutes presentation to introduce your dataset, scenario, design process (e.g. your answers to the problems), and your dashboard.</p>
 <p>The presentations will be given on May 6 in class. Upload your system to your shinyapps.io account for deployment.</p>
-<p><strong>Final report</strong>: Prepare a final report to describe your Shiny app.</p>
-<p>This will be written in <a href="https://bookdown.org/home/about/">Bookdown</a>. You can create either an html-based bookdown file that you publish (e.g., <a href="https://rpubs.com" class="uri">https://rpubs.com</a>), or upload on Canvas a pdf document. You will need to read <a href="https://bookdown.org/yihui/bookdown/output-formats.html">Bookdown output formats</a>.</p>
+<h4 id="final-report">Final Report</h4>
+<p>Prepare a final report to outline your Shiny app and its relevant objective (task).</p>
+<p>This will be written in <a href="https://bookdown.org/home/about/">Bookdown</a>. You can create either an html-based bookdown file that you publish (e.g., <a href="https://rpubs.com" class="uri">https://rpubs.com</a>) or upload on Canvas a pdf document.</p>
+<p>You will need to read <a href="https://bookdown.org/yihui/bookdown/output-formats.html">Bookdown output formats</a>.</p>
 <p>The report should have five sections:</p>
 <ol style="list-style-type: decimal">
 <li><p>Introduction: Domain problem characterization</p></li>
@@ -42,20 +45,29 @@ editor_options:
 </span></span> Section five is an outline for how you could (hypothetically) evaluate whether you<span><label for="sn-2" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-2" class="margin-toggle"/><span class="sidenote">For this part, be sure to read <a href="https://github.com/wesslen/dsba5122-spring2019/raw/master/public/readings/Mazza2009_Chapter_Evaluations">Mazza’s chapter on evaluating interfaces</a><br />
 <br />
 </span></span></p>
-<p>Grading: The instructor grades the design after your presentation according to the following criteria:</p>
-<p>Presentation:
-- Novelty of your scenario (5 point): explanation of your scenario, task, and why your app will enable users to better complete the task.
-- Quality of the presentation (5 points): organized slides that provide a clear overview of the app and surrounding details (5-6 slides given 8 minute presentation).</p>
-<p>Reproducibility &amp; Code:
-- Clear, fully reproducible (5 points): Code is standalone and can be fully reproduced. Better (more organized) code will receive higher points than code that is not organized. GitHub highly recommended.<span><label for="sn-3" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-3" class="margin-toggle"/><span class="sidenote">This is an excellent opportunity for you to start your code portfolio. Follow Jenny Bryan’s <a href="https://happygitwithr.com/install-intro.html">excellent introduction to Git with R</a> tutorial.<br />
+<h3 id="grading">Grading:</h3>
+<p>The instructor grades the design after your presentation according to the following criteria:</p>
+<h4 id="presentation-1">Presentation:</h4>
+<ul>
+<li><p>Novelty of your scenario (5 point): explanation of your scenario, task, and why your app will enable users to better complete the task.</p></li>
+<li><p>Quality of the presentation (5 points): organized slides that provide a clear overview of the app and surrounding details (5-6 slides given 8 minute presentation).</p></li>
+</ul>
+<h4 id="reproducibility-code">Reproducibility &amp; Code:</h4>
+<ul>
+<li><p>Clear, fully reproducible (5 points): Code is standalone and can be fully reproduced. Better (more organized) code will receive higher points than code that is not organized. GitHub highly recommended.<span><label for="sn-3" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-3" class="margin-toggle"/><span class="sidenote">This is an excellent opportunity for you to start your code portfolio. Follow Jenny Bryan’s <a href="https://happygitwithr.com/install-intro.html">excellent introduction to Git with R</a> tutorial.<br />
 <br />
-</span></span>
-- Deployed app (5 points): App is deployed on shinyapps.io.<span><label for="sn-4" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-4" class="margin-toggle"/><span class="sidenote">Even better, take this opportunity to create your own blogdown blog using Allison Hill’s <a href="https://alison.rbind.io/talk/blogdown-meetup/">great introduction to blogdown</a> and then write your first post to introduce your app.<br />
+</span></span></p></li>
+<li><p>Deployed app (5 points): App is deployed on shinyapps.io.<span><label for="sn-4" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-4" class="margin-toggle"/><span class="sidenote">Even better, take this opportunity to create your own blogdown blog using Allison Hill’s <a href="https://alison.rbind.io/talk/blogdown-meetup/">great introduction to blogdown</a> and then write your first post to introduce your app.<br />
 <br />
-</span></span></p>
-<p>Shiny App:
-- Quality of the app (5 points): Usability of the app. Not necessarily most complex – too much interaction can have costs – but the one that aids in your task. Great design processes will enable strong apps.
-- Algorithmic evaluation (runtime, scale, optimization) (5 points): How you implement your design. Does your app respond well. Points will be removed if the interactions are too complex (too slow) and hurt the users’ ability to perform the task. Can this app be scaled if you were provided more data?</p>
-<p>Final Report:
-- Report contents (5 points): Report is organized, with clear explanations, limited spelling, punctuation, appropriate tables and figures, and explanation for how to reproduce the results (run the code)
-- Shiny app evaluation (5 points): describe how you would evaluate your app. Base this on your task and how you would devise an experiment to validate that your shiny app improves your task.</p>
+</span></span></p></li>
+</ul>
+<h4 id="shiny-app">Shiny App:</h4>
+<ul>
+<li><p>Quality of the app (5 points): Usability of the app. Not necessarily most complex – too much interaction can have costs – but the one that aids in your task. Great design processes will enable strong apps.</p></li>
+<li><p>Algorithmic evaluation (runtime, scale, optimization) (5 points): How you implement your design. Does your app respond well. Points will be removed if the interactions are too complex (too slow) and hurt the users’ ability to perform the task. Can this app be scaled if you were provided more data?</p></li>
+</ul>
+<h4 id="final-report-1">Final Report:</h4>
+<ul>
+<li><p>Report contents (5 points): Report is organized, with clear explanations, limited spelling, punctuation, appropriate tables and figures, and explanation for how to reproduce the results (run the code)</p></li>
+<li><p>Shiny app evaluation (5 points): describe how you would evaluate your app. Base this on your task and how you would devise an experiment to validate that your shiny app improves your task.</p></li>
+</ul>
