@@ -9,7 +9,7 @@ editor_options:
 
 ## Objective:
 
-Develop a Shiny app based on any data topic. 
+Develop a Shiny app based on any data-related topic. ^[{-} ![himym](https://media.giphy.com/media/pi1u9o9M436Lu/giphy.gif)]
 
 ## Dataset:
 
@@ -31,25 +31,37 @@ Very similar to design contest, answer the following questions in your design pr
 
 - What needs to be visualized and how to best visualize it?
 
-However unlike the design contest, the expectation for this system will be a **shiny-enabled** app (e.g., could be a shiny app, shinydashboard, flexdashboard with shiny enabled). However, it must have **shiny enabled**.
+However unlike the design contest, the expectation for this system will be a **shiny-enabled** app (e.g., could be a shiny app, shinydashboard, flexdashboard with shiny enabled).
 
-You will have two deliverables:
+You will have three deliverables:
+
+### Shiny app
+
+Your app. You can submit it as:
+
+1. Ideal (but not required): a GitHub repo with the shinyapps.io link on the README for the deployed app. Could include a RStudio cloud project too.
+
+2. Alternative: a RStudio cloud project link (submit to me via email or on your slides).
+
+3. Worst case: upload a zip folder on canvas where your shiny app can be fully reproduced! (i.e., self-contained folder that includes any data). 
+
+You do **not** need to deploy your app on shinyapps given some great packages may have issues deploying; however, it is highly recommended to deploy to shinyapps.io.
 
 ### Presentation 
 
-Prepare a 7-8 minutes presentation to introduce your dataset, scenario, design process (e.g. your answers to the problems), and your dashboard.
+Prepare a 7-8 minutes presentation to introduce your dataset, scenario, design process, and your system. 
 
-The presentations will be given on May 6 in class. Upload your system to your shinyapps.io account for deployment. 
+**Highly recommended hands-on demo for your app**.^[{-} ![kid](https://media.giphy.com/media/XreQmk7ETCak0/giphy.gif)] If you used the same data set as the design contest, you can sum up your presentation in 1-2 slides (remind dataset, scenario, and basic design). Then go into a hands-on scenario (e.g., what if scenario) to demonstrate the **value** of your app.
+
+The presentations will be given on May 6 during our final exam period. Teams will be randomly assigned order in presenting. 
 
 ### Final Report
 
 Prepare a final report to outline your Shiny app and its relevant objective (task).
 
-This will be written in [Bookdown](https://bookdown.org/home/about/). You can create either an html-based bookdown file that you publish (e.g., <https://rpubs.com>) or upload on Canvas a pdf document. 
+This will be written in [RMarkdown](https://rmarkdown.rstudio.com/gallery.html). See any of the document formats (html, doc, even tufte style). You're welcome to explore [Bookdown](https://bookdown.org/home/about/) if you want to be adventurous (not required). You can create either an html-based RMarkdown file that you publish (e.g., <https://rpubs.com>) or upload on Canvas a pdf document.
 
-You will need to read [Bookdown output formats](https://bookdown.org/yihui/bookdown/output-formats.html).
-
-The report should have five sections:
+The report should have six sections:
 
 1. Introduction: Domain problem characterization
 
@@ -61,32 +73,64 @@ The report should have five sections:
 
 5. User evaluation
 
-Sections 1-4 align with Munzner's paper ^[[“A Nested Model for Visualization Design and Validation”](https://www.cs.ubc.ca/labs/imager/tr/2009/NestedModel/NestedModel.pdf)]. Section five is an outline for how you could (hypothetically) evaluate whether you ^[For this part, be sure to read [Mazza's chapter on evaluating interfaces ](https://github.com/wesslen/dsba5122-spring2019/raw/master/public/readings/Mazza2009_Chapter_Evaluations)]
+6. Future work
+
+7. Appendix (optional) ^[This is for any exploratory work that didn't make it into your app or process. You can highlight packages you may have tried.]
+
+Sections 1-4 align with Munzner's paper ^[[“A Nested Model for Visualization Design and Validation”](https://www.cs.ubc.ca/labs/imager/tr/2009/NestedModel/NestedModel.pdf)]. 
+
+Section 5 is an outline for how you could (hypothetically) evaluate whether you ^[For this part, be sure to read [Mazza's chapter on evaluating interfaces ](https://github.com/wesslen/dsba5122-spring2019/raw/master/public/readings/Mazza2009_Chapter_Evaluations)]
+
+**Length**: Each section can be about 2-5 paragraphs. Figures are always helpful. Maybe a table or two. When in doubt, put things in the appendix to keep the report concise.
 
 ## Grading: 
 
 The instructor grades the design after your presentation according to the following criteria:
 
-### Presentation:
+### Presentation (10 points):
 
-- Novelty of your scenario (5 point): explanation of your scenario, task, and why your app will enable users to better complete the task.
+- **Novelty of your scenario** (5 point): Explanation of your scenario, task, and why your app will enable users to better complete the task. Provide the scenario and (ideally) a live demo (e.g., on your local machine or RStudio cloud account). 
 
-- Quality of the presentation (5 points): organized slides that provide a clear overview of the app and surrounding details (5-6 slides given 8 minute presentation).
+- **Presentation quality** (5 points): organized presentation that provide a clear overview of the app and surrounding details. Don't make it too overwhelming. Focus on one scenario and explain how your app can answer that question. Also, was it fun? (gifs are highly recommended)
 
-### Reproducibility & Code:
+### Reproducibility & Code (10 points):
 
-- Clear, fully reproducible  (5 points): Code is standalone and can be fully reproduced. Better (more organized) code will receive higher points than code that is not organized. GitHub highly recommended. ^[This is an excellent opportunity for you to start your code portfolio. Follow Jenny Bryan's [excellent introduction to Git with R](https://happygitwithr.com/install-intro.html) tutorial.]
+- **Reproducible code** (5 points): Code is standalone and can be fully reproduced. Better (more organized) code will receive higher points than code that is not organized. GitHub highly recommended ^[This is an excellent opportunity for you to start your code portfolio. Follow Jenny Bryan's [excellent introduction to Git with R](https://happygitwithr.com/install-intro.html) tutorial.]. Or you can create an RStudio cloud project and share with me the link (much easier). 
 
-- Deployed app (5 points): App is deployed on shinyapps.io. ^[Even better, take this opportunity to create your own blogdown blog using Allison Hill's [great introduction to blogdown](https://alison.rbind.io/talk/blogdown-meetup/) and then write your first post to introduce your app.]
+- **Deployed app or RStudio Cloud Project** (5 points): App is either deployed on shinyapps.io OR you provide an RStudio Cloud project link. shinyapps.io are preferred but RStudio Cloud can be helpful if you may have issues deploying. ^[Even better, take this opportunity to create your own blogdown blog using Allison Hill's [great introduction to blogdown](https://alison.rbind.io/talk/blogdown-meetup/) and then write your first post to introduce your app.]
 
-### Shiny App:
+### Shiny App (10 points):
 
-- Quality of the app (5 points): Usability of the app. Not necessarily most complex -- too much interaction can have costs -- but the one that aids in your task. Great design processes will enable strong apps.
+- **App quality** (5 points): Usability of the app. Not necessarily most complex -- too much interaction can have costs -- but the one that aids in your task. Great design processes will enable strong apps. 
 
-- Algorithmic evaluation (runtime, scale, optimization) (5 points): How you implement your design. Does your app respond well. Points will be removed if the interactions are too complex (too slow) and hurt the users' ability to perform the task. Can this app be scaled if you were provided more data? 
+- **Algorithmic evaluation**^[(i.e., runtime, scale, optimization)] (5 points): How you implement your design. Does your app respond well. Points will be removed if the interactions are too complex (too slow) and hurt the users' ability to perform the task. Can this app be scaled if you were provided more data? 
 
-### Final Report:
+### Final Report (10 points):
 
-- Report contents (5 points): Report is organized, with clear explanations, limited spelling, punctuation, appropriate tables and figures, and explanation for how to reproduce the results (run the code)
+- **Report contents** (5 points): Report is organized, with clear explanations, limited spelling, punctuation, appropriate tables and figures, and explanation for how to reproduce the results (run the code).
 
-- Shiny app evaluation (5 points): describe how you would evaluate your app. Base this on your task and how you would devise an experiment to validate that your shiny app improves your task.
+- **Shiny app evaluation** (5 points): describe how you would evaluate your app. Base this on your task and how you would devise an experiment to validate that your shiny app improves your task. This can be what you review for your presentation.
+
+## Bonus Points: Shiny App Awards
+
+Based on class vote, we'll award extra credit for the team voted: ^[{-} ![bis](https://media.giphy.com/media/874M72kPh8wz29f4cB/giphy.gif)]
+
+### 1. Best app (+4 points) 
+
+- Team with the most total votes.
+
+### 2. Best documented (+2 points):
+
+- Reproducible code on GitHub, deployed app, RStudio cloud project, link to your final report, and maybe even [create your own blog](https://alison.rbind.io/talk/blogdown-meetup/) and [write a blog post](http://varianceexplained.org/r/start-blog/) ^[A **must** read blog post for aspiring data scientists by David Robinson. David's actual quote at the end: "if you’re early in your career as a data scientist and you start a data-related blog, tweet me a link at `@drob` and I’ll tweet about your first post". Take him up on the offer (and use #dsba5122)!] to summarize your project.
+
+### 3. Best scenario design / most practical (+2 points):
+
+- Tool that best fits a problem.
+
+### 4. Human-centered machine learning (+2 points)
+
+- Best combination of using machine learning, social networks, text analysis, or statistical model with your visualization. Help the user understand the model to enable an even better human-in-the-loop decision.
+
+### 5. Most creative (+2 points):
+
+- Use flexible like D3 (via `r2d3`), altair, or newer htmlwidgets to develop **creative** ways to visualize the data. 

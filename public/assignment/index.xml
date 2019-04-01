@@ -36,7 +36,7 @@ For this DataCamp course, you’ll learn more about shiny using hands on case st
       <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/assignment/final-project/</guid>
-      <description>Objective: Develop a Shiny app based on any data topic.
+      <description>Objective: Develop a Shiny app based on any data-related topic.&amp;#8853;
 Dataset: This is up to your group. You may use a dataset from the design contest (the same or a different data set) or select your own. Warning, don’t overthink selecting your dataset. I will request you make a decision on your data set by April 8, 2019 (send me by email). This is the most important step to start with.</description>
     </item>
     
@@ -146,15 +146,6 @@ For this DataCamp course, you’ll learn about doing exploratory data analysis, 
 For this DataCamp course, you’ll learn about using tidyverse package from David Robinson, Chief Data Scientist for DataCamp.David is a prolific data scientist and blogger, whose blog “Variance Explained” is one of the most popular data science blogs. He has a great blog post discussing the background of this course.
 
 This course has four chapters:</description>
-    </item>
-    
-    <item>
-      <title>Problem set 5</title>
-      <link>https://dsba5122-spring2019.netlify.com/assignment/05-problem-set/</link>
-      <pubDate>Tue, 13 Nov 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-spring2019.netlify.com/assignment/05-problem-set/</guid>
-      <description>The instructions for this problem set will be posted at least one week before it is due.</description>
     </item>
     
   </channel>

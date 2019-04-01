@@ -141,7 +141,9 @@
 
 
 <h3 id="objective">Objective:</h3>
-<p>Develop a Shiny app based on any data topic.</p>
+<p>Develop a Shiny app based on any data-related topic.<span><label for="sn-1" class="margin-toggle">&#8853;</label><input type="checkbox" id="sn-1" class="margin-toggle"/><span class="marginnote"> <img src="https://media.giphy.com/media/pi1u9o9M436Lu/giphy.gif" alt="himym" /><br />
+<br />
+</span></span></p>
 <h3 id="dataset">Dataset:</h3>
 <p>This is up to your group. You may use a dataset from the design contest (the same or a different data set) or select your own. Warning, don’t overthink selecting your dataset. I will request you make a decision on your data set by April 8, 2019 (send me by email). This is the most important step to start with.</p>
 <h3 id="design-process">Design process:</h3>
@@ -154,53 +156,97 @@
 <li><p>What’s the analysis and interaction flow?</p></li>
 <li><p>What needs to be visualized and how to best visualize it?</p></li>
 </ul>
-<p>However unlike the design contest, the expectation for this system will be a <strong>shiny-enabled</strong> app (e.g., could be a shiny app, shinydashboard, flexdashboard with shiny enabled). However, it must have <strong>shiny enabled</strong>.</p>
-<p>You will have two deliverables:</p>
+<p>However unlike the design contest, the expectation for this system will be a <strong>shiny-enabled</strong> app (e.g., could be a shiny app, shinydashboard, flexdashboard with shiny enabled).</p>
+<p>You will have three deliverables:</p>
+<h4 id="shiny-app">Shiny app</h4>
+<p>Your app. You can submit it as:</p>
+<ol style="list-style-type: decimal">
+<li><p>Ideal (but not required): a GitHub repo with the shinyapps.io link on the README for the deployed app. Could include a RStudio cloud project too.</p></li>
+<li><p>Alternative: a RStudio cloud project link (submit to me via email or on your slides).</p></li>
+<li><p>Worst case: upload a zip folder on canvas where your shiny app can be fully reproduced! (i.e., self-contained folder that includes any data).</p></li>
+</ol>
+<p>You do <strong>not</strong> need to deploy your app on shinyapps given some great packages may have issues deploying; however, it is highly recommended to deploy to shinyapps.io.</p>
 <h4 id="presentation">Presentation</h4>
-<p>Prepare a 7-8 minutes presentation to introduce your dataset, scenario, design process (e.g. your answers to the problems), and your dashboard.</p>
-<p>The presentations will be given on May 6 in class. Upload your system to your shinyapps.io account for deployment.</p>
+<p>Prepare a 7-8 minutes presentation to introduce your dataset, scenario, design process, and your system.</p>
+<p><strong>Highly recommended hands-on demo for your app</strong>.<span><label for="sn-2" class="margin-toggle">&#8853;</label><input type="checkbox" id="sn-2" class="margin-toggle"/><span class="marginnote"> <img src="https://media.giphy.com/media/XreQmk7ETCak0/giphy.gif" alt="kid" /><br />
+<br />
+</span></span> If you used the same data set as the design contest, you can sum up your presentation in 1-2 slides (remind dataset, scenario, and basic design). Then go into a hands-on scenario (e.g., what if scenario) to demonstrate the <strong>value</strong> of your app.</p>
+<p>The presentations will be given on May 6 during our final exam period. Teams will be randomly assigned order in presenting.</p>
 <h4 id="final-report">Final Report</h4>
 <p>Prepare a final report to outline your Shiny app and its relevant objective (task).</p>
-<p>This will be written in <a href="https://bookdown.org/home/about/">Bookdown</a>. You can create either an html-based bookdown file that you publish (e.g., <a href="https://rpubs.com" class="uri">https://rpubs.com</a>) or upload on Canvas a pdf document.</p>
-<p>You will need to read <a href="https://bookdown.org/yihui/bookdown/output-formats.html">Bookdown output formats</a>.</p>
-<p>The report should have five sections:</p>
+<p>This will be written in <a href="https://rmarkdown.rstudio.com/gallery.html">RMarkdown</a>. See any of the document formats (html, doc, even tufte style). You’re welcome to explore <a href="https://bookdown.org/home/about/">Bookdown</a> if you want to be adventurous (not required). You can create either an html-based RMarkdown file that you publish (e.g., <a href="https://rpubs.com" class="uri">https://rpubs.com</a>) or upload on Canvas a pdf document.</p>
+<p>The report should have six sections:</p>
 <ol style="list-style-type: decimal">
 <li><p>Introduction: Domain problem characterization</p></li>
 <li><p>Data/operation abstraction design</p></li>
 <li><p>Encoding/Interaction design</p></li>
 <li><p>Algorithic design</p></li>
 <li><p>User evaluation</p></li>
-</ol>
-<p>Sections 1-4 align with Munzner’s paper.<span><label for="sn-1" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-1" class="margin-toggle"/><span class="sidenote"><a href="https://www.cs.ubc.ca/labs/imager/tr/2009/NestedModel/NestedModel.pdf">“A Nested Model for Visualization Design and Validation”</a><br />
+<li><p>Future work</p></li>
+<li><p>Appendix (optional)<span><label for="sn-3" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-3" class="margin-toggle"/><span class="sidenote">This is for any exploratory work that didn’t make it into your app or process. You can highlight packages you may have tried.<br />
 <br />
-</span></span> Section five is an outline for how you could (hypothetically) evaluate whether you<span><label for="sn-2" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-2" class="margin-toggle"/><span class="sidenote">For this part, be sure to read <a href="https://github.com/wesslen/dsba5122-spring2019/raw/master/public/readings/Mazza2009_Chapter_Evaluations">Mazza’s chapter on evaluating interfaces</a><br />
+</span></span></p></li>
+</ol>
+<p>Sections 1-4 align with Munzner’s paper.<span><label for="sn-4" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-4" class="margin-toggle"/><span class="sidenote"><a href="https://www.cs.ubc.ca/labs/imager/tr/2009/NestedModel/NestedModel.pdf">“A Nested Model for Visualization Design and Validation”</a><br />
 <br />
 </span></span></p>
+<p>Section 5 is an outline for how you could (hypothetically) evaluate whether you<span><label for="sn-5" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-5" class="margin-toggle"/><span class="sidenote">For this part, be sure to read <a href="https://github.com/wesslen/dsba5122-spring2019/raw/master/public/readings/Mazza2009_Chapter_Evaluations">Mazza’s chapter on evaluating interfaces</a><br />
+<br />
+</span></span></p>
+<p><strong>Length</strong>: Each section can be about 2-5 paragraphs. Figures are always helpful. Maybe a table or two. When in doubt, put things in the appendix to keep the report concise.</p>
 <h3 id="grading">Grading:</h3>
 <p>The instructor grades the design after your presentation according to the following criteria:</p>
-<h4 id="presentation-1">Presentation:</h4>
+<h4 id="presentation-10-points">Presentation (10 points):</h4>
 <ul>
-<li><p>Novelty of your scenario (5 point): explanation of your scenario, task, and why your app will enable users to better complete the task.</p></li>
-<li><p>Quality of the presentation (5 points): organized slides that provide a clear overview of the app and surrounding details (5-6 slides given 8 minute presentation).</p></li>
+<li><p><strong>Novelty of your scenario</strong> (5 point): Explanation of your scenario, task, and why your app will enable users to better complete the task. Provide the scenario and (ideally) a live demo (e.g., on your local machine or RStudio cloud account).</p></li>
+<li><p><strong>Presentation quality</strong> (5 points): organized presentation that provide a clear overview of the app and surrounding details. Don’t make it too overwhelming. Focus on one scenario and explain how your app can answer that question. Also, was it fun? (gifs are highly recommended)</p></li>
 </ul>
-<h4 id="reproducibility-code">Reproducibility &amp; Code:</h4>
+<h4 id="reproducibility-code-10-points">Reproducibility &amp; Code (10 points):</h4>
 <ul>
-<li><p>Clear, fully reproducible (5 points): Code is standalone and can be fully reproduced. Better (more organized) code will receive higher points than code that is not organized. GitHub highly recommended.<span><label for="sn-3" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-3" class="margin-toggle"/><span class="sidenote">This is an excellent opportunity for you to start your code portfolio. Follow Jenny Bryan’s <a href="https://happygitwithr.com/install-intro.html">excellent introduction to Git with R</a> tutorial.<br />
+<li><p><strong>Reproducible code</strong> (5 points): Code is standalone and can be fully reproduced. Better (more organized) code will receive higher points than code that is not organized. GitHub highly recommended.<span><label for="sn-6" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-6" class="margin-toggle"/><span class="sidenote">This is an excellent opportunity for you to start your code portfolio. Follow Jenny Bryan’s <a href="https://happygitwithr.com/install-intro.html">excellent introduction to Git with R</a> tutorial.<br />
+<br />
+</span></span> Or you can create an RStudio cloud project and share with me the link (much easier).</p></li>
+<li><p><strong>Deployed app or RStudio Cloud Project</strong> (5 points): App is either deployed on shinyapps.io OR you provide an RStudio Cloud project link. shinyapps.io are preferred but RStudio Cloud can be helpful if you may have issues deploying.<span><label for="sn-7" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-7" class="margin-toggle"/><span class="sidenote">Even better, take this opportunity to create your own blogdown blog using Allison Hill’s <a href="https://alison.rbind.io/talk/blogdown-meetup/">great introduction to blogdown</a> and then write your first post to introduce your app.<br />
 <br />
 </span></span></p></li>
-<li><p>Deployed app (5 points): App is deployed on shinyapps.io.<span><label for="sn-4" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-4" class="margin-toggle"/><span class="sidenote">Even better, take this opportunity to create your own blogdown blog using Allison Hill’s <a href="https://alison.rbind.io/talk/blogdown-meetup/">great introduction to blogdown</a> and then write your first post to introduce your app.<br />
+</ul>
+<h4 id="shiny-app-10-points">Shiny App (10 points):</h4>
+<ul>
+<li><p><strong>App quality</strong> (5 points): Usability of the app. Not necessarily most complex – too much interaction can have costs – but the one that aids in your task. Great design processes will enable strong apps.</p></li>
+<li><p><strong>Algorithmic evaluation</strong><span><label for="sn-8" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-8" class="margin-toggle"/><span class="sidenote">(i.e., runtime, scale, optimization)<br />
 <br />
-</span></span></p></li>
+</span></span> (5 points): How you implement your design. Does your app respond well. Points will be removed if the interactions are too complex (too slow) and hurt the users’ ability to perform the task. Can this app be scaled if you were provided more data?</p></li>
 </ul>
-<h4 id="shiny-app">Shiny App:</h4>
+<h4 id="final-report-10-points">Final Report (10 points):</h4>
 <ul>
-<li><p>Quality of the app (5 points): Usability of the app. Not necessarily most complex – too much interaction can have costs – but the one that aids in your task. Great design processes will enable strong apps.</p></li>
-<li><p>Algorithmic evaluation (runtime, scale, optimization) (5 points): How you implement your design. Does your app respond well. Points will be removed if the interactions are too complex (too slow) and hurt the users’ ability to perform the task. Can this app be scaled if you were provided more data?</p></li>
+<li><p><strong>Report contents</strong> (5 points): Report is organized, with clear explanations, limited spelling, punctuation, appropriate tables and figures, and explanation for how to reproduce the results (run the code).</p></li>
+<li><p><strong>Shiny app evaluation</strong> (5 points): describe how you would evaluate your app. Base this on your task and how you would devise an experiment to validate that your shiny app improves your task. This can be what you review for your presentation.</p></li>
 </ul>
-<h4 id="final-report-1">Final Report:</h4>
+<h3 id="bonus-points-shiny-app-awards">Bonus Points: Shiny App Awards</h3>
+<p>Based on class vote, we’ll award extra credit for the team voted:<span><label for="sn-9" class="margin-toggle">&#8853;</label><input type="checkbox" id="sn-9" class="margin-toggle"/><span class="marginnote"> <img src="https://media.giphy.com/media/874M72kPh8wz29f4cB/giphy.gif" alt="bis" /><br />
+<br />
+</span></span></p>
+<h4 id="best-app-4-points">1. Best app (+4 points)</h4>
 <ul>
-<li><p>Report contents (5 points): Report is organized, with clear explanations, limited spelling, punctuation, appropriate tables and figures, and explanation for how to reproduce the results (run the code)</p></li>
-<li><p>Shiny app evaluation (5 points): describe how you would evaluate your app. Base this on your task and how you would devise an experiment to validate that your shiny app improves your task.</p></li>
+<li>Team with the most total votes.</li>
+</ul>
+<h4 id="best-documented-2-points">2. Best documented (+2 points):</h4>
+<ul>
+<li>Reproducible code on GitHub, deployed app, RStudio cloud project, link to your final report, and maybe even <a href="https://alison.rbind.io/talk/blogdown-meetup/">create your own blog</a> and <a href="http://varianceexplained.org/r/start-blog/">write a blog post</a><span><label for="sn-10" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-10" class="margin-toggle"/><span class="sidenote">A <strong>must</strong> read blog post for aspiring data scientists by David Robinson. David’s actual quote at the end: “if you’re early in your career as a data scientist and you start a data-related blog, tweet me a link at <code>@drob</code> and I’ll tweet about your first post”. Take him up on the offer (and use #dsba5122)!<br />
+<br />
+</span></span> to summarize your project.</li>
+</ul>
+<h4 id="best-scenario-design-most-practical-2-points">3. Best scenario design / most practical (+2 points):</h4>
+<ul>
+<li>Tool that best fits a problem.</li>
+</ul>
+<h4 id="human-centered-machine-learning-2-points">4. Human-centered machine learning (+2 points)</h4>
+<ul>
+<li>Best combination of using machine learning, social networks, text analysis, or statistical model with your visualization. Help the user understand the model to enable an even better human-in-the-loop decision.</li>
+</ul>
+<h4 id="most-creative-2-points">5. Most creative (+2 points):</h4>
+<ul>
+<li>Use flexible like D3 (via <code>r2d3</code>), altair, or newer htmlwidgets to develop <strong>creative</strong> ways to visualize the data.</li>
 </ul>
 
 
