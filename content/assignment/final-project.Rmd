@@ -15,6 +15,8 @@ Develop a Shiny app based on any data-related topic. ^[{-} ![himym](https://medi
 
 This is up to your group. You may use a dataset from the design contest (the same or a different data set) or select your own. Warning, don't overthink selecting your dataset. I will request you make a decision on your data set by April 8, 2019 (send me by email). This is the most important step to start with.
 
+Want ideas? Check out [these resources](https://dsba5122-spring2019.netlify.com/reference/#data).
+
 ## Design process:
 
 Very similar to design contest, answer the following questions in your design process:
