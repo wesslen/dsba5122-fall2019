@@ -48,13 +48,22 @@ Welcome  </description>
       <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/class/12-class/</guid>
-      <description> Contents  Slides Links   Slides Download the slides from today’s lecture.
-Links  Docker and `plumber’
- Profiling a Shiny App
- Persistent storage in Shiny Apps
- Plot caching
- Scaling Shiny Apps with async
- Shiny unit testing with testhat
+      <description> Contents  Slides Links   Slides Scaling Shiny Apps
+Links </description>
+    </item>
+    
+    <item>
+      <title>Deployment, Back-end and Scalability</title>
+      <link>https://dsba5122-spring2019.netlify.com/reading/12-reading/</link>
+      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/reading/12-reading/</guid>
+      <description> Required   Docker and `plumber’
+  Profiling a Shiny App
+  Persistent storage in Shiny Apps / 
+  Plot caching
+  Scaling Shiny Apps with async
+  Shiny unit testing with testhat
   </description>
     </item>
     
@@ -73,11 +82,8 @@ Links  Docker and `plumber’
       <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/class/11-class/</guid>
-      <description>Contents  Slides Links   Slides Download the slides from today’s lecture.
-🎅 Major announcement for #rstats shiny addicts🎅:
-Excited to officially introduce RinteRface, a collection of open-source HTML templates for #shiny and more 🦄
-Thanks ??? for joining the project 🔥https://t.co/IAX76FEz1k??? ??? ??? ??? pic.twitter.com/WCvuAxJiI4 — David Granjon (@divadnojnarg) November 28, 2018   Links  Kyle Walker, Neighborhood Diversity App by / app
- altair / vega editor</description>
+      <description>Contents  Tweet(s) of the day: Slides Hands-on Class   Tweet(s) of the day: Announcing the Winners of the 1st Shiny Contest
+136 submissions, 4 winners, 6 runners-up, and 21 honorable mentions. See some of the great work shared by the #shiny developer community. https://t.co/RJZbZbo2aY pic.twitter.com/EoaK440CQQ — RStudio (@rstudio) April 5, 2019   🎉A first draft of my new book, “Interactive web-based data visualization with R, plotly, and shiny”, is now available!</description>
     </item>
     
     <item>
@@ -97,6 +103,15 @@ Thanks ??? for joining the project 🔥https://t.co/IAX76FEz1k??? ??? ??? ??? pi
       <guid>https://dsba5122-spring2019.netlify.com/slides/11-class/</guid>
       <description> class: center, middle
 Welcome  </description>
+    </item>
+    
+    <item>
+      <title>Quiz 4</title>
+      <link>https://dsba5122-spring2019.netlify.com/assignment/04-quiz/</link>
+      <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/assignment/04-quiz/</guid>
+      <description>a.sourceLine { display: inline-block; line-height: 1.25; } a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; } a.sourceLine:empty { height: 1.2em; } .sourceCode { overflow: visible; } code.sourceCode { white-space: pre; position: relative; } div.sourceCode { margin: 1em 0; } pre.sourceCode { margin: 0; } @media screen { div.sourceCode { overflow: auto; } } @media print { code.sourceCode { white-space: pre-wrap; } a.sourceLine { text-indent: -1em; padding-left: 1em; } } pre.</description>
     </item>
     
     <item>
@@ -569,17 +584,6 @@ Questions to reflect on  How do we know what is true? Are facts truth? Why do we
     </item>
     
     <item>
-      <title>Annotating and grouping</title>
-      <link>https://dsba5122-spring2019.netlify.com/reading/12-reading/</link>
-      <pubDate>Tue, 27 Nov 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-spring2019.netlify.com/reading/12-reading/</guid>
-      <description> Required   Chapter 17 and Chapter 19 in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
-  Chapter 5 in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
- Other readings TBD  Questions to reflect on  Questions TBD  </description>
-    </item>
-    
-    <item>
       <title>Time</title>
       <link>https://dsba5122-spring2019.netlify.com/reading/09-reading/</link>
       <pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate>
@@ -636,7 +640,7 @@ RStudio.cloud R is free, but it can sometimes be a pain to install and configure
       
       <guid>https://dsba5122-spring2019.netlify.com/schedule/</guid>
       <description> Here’s your roadmap for the semester!
-  Readings should be completed before each class session  Assignments are due by 11:59 PM on the day they are due  Class materials (slides, in-class activities, etc.) will be added on the day of class     Information Visualization Reading Assignment Class   January 14 Intro to Visual Analytics      January 14 Datacamp course 1 (Due Jan 29)      January 21 No class (MLK Holiday)      January 28 Visual Representation Basics I      January 28 Problem set 1 (Due Feb 11)      February 4 Visual Representation Basics II      February 4 Datacamp course 2 (Due Feb 19)      February 11 Time &amp;amp; Space      February 18 Distributions &amp;amp; Uncertainty      February 18 Problem set 2 (Due Mar 11)       Interactive Visualizations Reading Assignment Class   February 25 Statistical Models      February 25 Design Contest assigned (Due Mar 25)      February 25 Datacamp course 3 (Due Mar 12)      March 4 No class (Spring Break)      March 11 Multidimensional &amp;amp; Dimensionality Reduction      March 18 Text-as-Data      March 25 Design Contest Presentations      March 25 Problem set 3 (Due Apr 8)      April 1 Networks and Trees      April 1 Final project assigned (Due May 6)      April 1 Datacamp course 4 (Due Apr 16)       Advanced Topics Reading Assignment Class   April 8 Coordinated Multiple Views: Interacting &amp;amp; Brushing      April 15 Deployment, Back-end and Scalability      April 15 Problem set 4 (Due Apr 29)      April 22 Machine Learning      April 29 Wrap-up       Final Reading Assignment Class   May 6 Final project due       </description>
+  Readings should be completed before each class session  Assignments are due by 11:59 PM on the day they are due  Class materials (slides, in-class activities, etc.) will be added on the day of class     Information Visualization Reading Assignment Class   January 14 Intro to Visual Analytics      January 14 Datacamp course 1 (Due Jan 29)      January 21 No class (MLK Holiday)      January 28 Visual Representation Basics I      January 28 Problem set 1 (Due Feb 11)      February 4 Visual Representation Basics II      February 4 Datacamp course 2 (Due Feb 19)      February 11 Time &amp;amp; Space      February 18 Distributions &amp;amp; Uncertainty      February 18 Problem set 2 (Due Mar 11)       Interactive Visualizations Reading Assignment Class   February 25 Statistical Models      February 25 Design Contest assigned (Due Mar 25)      February 25 Datacamp course 3 (Due Mar 12)      March 4 No class (Spring Break)      March 11 Multidimensional &amp;amp; Dimensionality Reduction      March 18 Text-as-Data      March 25 Design Contest Presentations      March 25 Problem set 3 (Due Apr 8)      April 1 Networks and Trees      April 1 Final project assigned (Due May 6)      April 1 Datacamp course 4 (Due Apr 16)       Building Shiny Apps Reading Assignment Class   April 8 Coordinated Multiple Views: Interacting &amp;amp; Brushing      April 15 Deployment, Back-end and Scalability      April 15 Problem set 4 (Due Apr 29)      April 22 Machine Learning      April 29 Wrap-up       Final Reading Assignment Class   May 6 Final project due       </description>
     </item>
     
     <item>

@@ -1,0 +1,106 @@
+---
+title: "Quiz 4"
+date: "2019-04-08"
+due_date: "2019-04-08"
+due_time: "11:59 PM"
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message=FALSE, warning=FALSE)
+```
+
+Name: _____________________
+
+Student ID: _________________________
+
+This quiz is closed-note. You will have 10 minutes to complete.
+
+## Question 1
+
+In a network (or graph), individual data instances (e.g., records/observations) are represented by ____[A]____ while ____[B]____ represent relationships between those instances.
+
+A) [A] = edges, [B] = vertices/nodes
+
+B) [A] = kernels, [B] = mappings
+
+C) [A] = vertices/nodes, [B] = edges
+
+D) [A] = rows, [B] = mappings
+
+## Question 2
+
+All of the following are ways to represent networks as data **except**:
+
+A) Edge list
+
+B) Transformation matrix
+
+C) Adjacency matrix
+
+D) Adjacency list
+
+## For questions 3-4, use this shiny code to fill in the [A] and [B] blanks:
+
+```{r eval=F}
+library(shiny)
+
+ui <- fluidPage(
+  sliderInput(inputId = "num",
+              label = "Choose a number",
+              value = 25, min = 1, max = 100),
+  plotOutput("hist")
+)
+
+server <- function(input, output) {
+
+  data <- reactive({
+    rnorm(___A___)
+  })
+
+  output$hist <- renderPlot({
+    hist(___B___)
+  })
+  
+}
+
+shinyApp(ui = ui, server = server)
+```
+
+
+## Question 3
+
+What should be in place of "___A___" to call the `num` slider object from the UI?
+
+A) `num`
+
+B) `input$num`
+
+C) `"num"`
+
+D) `ui$num`
+
+## Question 4
+
+What should be in place of "___B___" to call the reactive object `data`?
+
+A) `data`
+
+B) `reactive$data`
+
+C) `data()`
+
+D) `output$data`
+
+## Question 5
+
+In shiny, what function helps debugging by allowing you to set a breakpoint anywhere in your code?
+
+A) `server()` function
+
+B) `checkpoint()` function
+
+C) `diagnose()` function
+
+D) `browser()` function

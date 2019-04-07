@@ -6,10 +6,25 @@
     <description>Recent content in Readings on Visual Analytics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 08 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://dsba5122-spring2019.netlify.com/reading/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Deployment, Back-end and Scalability</title>
+      <link>https://dsba5122-spring2019.netlify.com/reading/12-reading/</link>
+      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/reading/12-reading/</guid>
+      <description> Required   Docker and `plumber’
+  Profiling a Shiny App
+  Persistent storage in Shiny Apps / 
+  Plot caching
+  Scaling Shiny Apps with async
+  Shiny unit testing with testhat
+  </description>
+    </item>
     
     <item>
       <title>Coordinated-Multiple Views</title>
@@ -147,17 +162,6 @@ Questions to reflect on  How do we know what is true? Are facts truth? Why do we
       <guid>https://dsba5122-spring2019.netlify.com/reading/13-reading/</guid>
       <description> Required   Chapter 15, Chapter 16, Chapter 18, Chapter 20, and Chapter 21 in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
   Chapter 8 in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
- Other readings TBD  Questions to reflect on  Questions TBD  </description>
-    </item>
-    
-    <item>
-      <title>Annotating and grouping</title>
-      <link>https://dsba5122-spring2019.netlify.com/reading/12-reading/</link>
-      <pubDate>Tue, 27 Nov 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-spring2019.netlify.com/reading/12-reading/</guid>
-      <description> Required   Chapter 17 and Chapter 19 in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
-  Chapter 5 in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
  Other readings TBD  Questions to reflect on  Questions TBD  </description>
     </item>
     

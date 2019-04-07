@@ -28,14 +28,8 @@ Tweet of the day … and that concludes Machine Learning 101. Now, go forth and 
       <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/class/12-class/</guid>
-      <description> Contents  Slides Links   Slides Download the slides from today’s lecture.
-Links  Docker and `plumber’
- Profiling a Shiny App
- Persistent storage in Shiny Apps
- Plot caching
- Scaling Shiny Apps with async
- Shiny unit testing with testhat
-  </description>
+      <description> Contents  Slides Links   Slides Scaling Shiny Apps
+Links </description>
     </item>
     
     <item>
@@ -44,11 +38,8 @@ Links  Docker and `plumber’
       <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/class/11-class/</guid>
-      <description>Contents  Slides Links   Slides Download the slides from today’s lecture.
-🎅 Major announcement for #rstats shiny addicts🎅:
-Excited to officially introduce RinteRface, a collection of open-source HTML templates for #shiny and more 🦄
-Thanks ??? for joining the project 🔥https://t.co/IAX76FEz1k??? ??? ??? ??? pic.twitter.com/WCvuAxJiI4 — David Granjon (@divadnojnarg) November 28, 2018   Links  Kyle Walker, Neighborhood Diversity App by / app
- altair / vega editor</description>
+      <description>Contents  Tweet(s) of the day: Slides Hands-on Class   Tweet(s) of the day: Announcing the Winners of the 1st Shiny Contest
+136 submissions, 4 winners, 6 runners-up, and 21 honorable mentions. See some of the great work shared by the #shiny developer community. https://t.co/RJZbZbo2aY pic.twitter.com/EoaK440CQQ — RStudio (@rstudio) April 5, 2019   🎉A first draft of my new book, “Interactive web-based data visualization with R, plotly, and shiny”, is now available!</description>
     </item>
     
     <item>

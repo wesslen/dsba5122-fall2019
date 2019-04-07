@@ -96,17 +96,17 @@ lessons:
     date: "April 1"
     assignment: "04-datacamp"
 
-  - title: '<span class="fake-header-table">Advanced Topics</span>'
+  - title: '<span class="fake-header-table">Building Shiny Apps</span>'
     header: True
 
   - title: "Coordinated Multiple Views: Interacting & Brushing"
     date: "April 8"
     reading: "11-reading"
-    #class: "11-class"
+    class: "11-class"
 
   - title: "Deployment, Back-end and Scalability"
     date: "April 15"
-    #reading: "12-reading"
+    reading: "12-reading"
     #class: "12-class"
     
   - title: "**Problem set 4 (Due Apr 29)**"

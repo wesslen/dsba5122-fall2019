@@ -12,17 +12,63 @@ editor_options:
   chunk_output_type: console
 ---
 
-# Slides
+# Tweet(s) of the day:
 
-[Download the slides from today's lecture]().
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Announcing the Winners of the 1st Shiny Contest<br>136 submissions, 4 winners, 6 runners-up, and 21 honorable mentions. <br>See some of the great work shared by the <a href="https://twitter.com/hashtag/shiny?src=hash&amp;ref_src=twsrc%5Etfw">#shiny</a> developer community. <a href="https://t.co/RJZbZbo2aY">https://t.co/RJZbZbo2aY</a> <a href="https://t.co/EoaK440CQQ">pic.twitter.com/EoaK440CQQ</a></p>&mdash; RStudio (@rstudio) <a href="https://twitter.com/rstudio/status/1114277437423214594?ref_src=twsrc%5Etfw">April 5, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">🎉A first draft of my new book,  &quot;Interactive web-based data visualization with R, plotly, and shiny&quot;, is now available!  🎉<a href="https://t.co/rCsZgwIo2d">https://t.co/rCsZgwIo2d</a><br><br>For those of you familiar with the plotly book, there is a ton of new content, feedback welcome!<a href="https://t.co/TmS8Tk2Wjn">https://t.co/TmS8Tk2Wjn</a> <a href="https://t.co/1e9hWFsAlU">pic.twitter.com/1e9hWFsAlU</a></p>&mdash; Carson Sievert (@cpsievert) <a href="https://twitter.com/cpsievert/status/1113834019286855692?ref_src=twsrc%5Etfw">April 4, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">🎅 Major announcement for <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> shiny addicts🎅:<br>Excited to officially introduce RinteRface, a collection of open-source HTML templates for <a href="https://twitter.com/hashtag/shiny?src=hash&amp;ref_src=twsrc%5Etfw">#shiny</a> and more 🦄<br>Thanks <a href="https://twitter.com/jdatap?ref_src=twsrc%5Etfw">@jdatap</a> for joining the project 🔥<a href="https://t.co/IAX76FEz1k">https://t.co/IAX76FEz1k</a><a href="https://twitter.com/ZurichRUsers?ref_src=twsrc%5Etfw">@ZurichRUsers</a> <a href="https://twitter.com/dataandme?ref_src=twsrc%5Etfw">@dataandme</a> <a href="https://twitter.com/minebocek?ref_src=twsrc%5Etfw">@minebocek</a> <a href="https://twitter.com/_pvictorr?ref_src=twsrc%5Etfw">@_pvictorr</a> <a href="https://t.co/WCvuAxJiI4">pic.twitter.com/WCvuAxJiI4</a></p>&mdash; David Granjon (@divadnojnarg) <a href="https://twitter.com/divadnojnarg/status/1067804524495192064?ref_src=twsrc%5Etfw">November 28, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-# Links
+# Slides
 
-- [Kyle Walker](http://personal.tcu.edu/kylewalker/), [Neighborhood Diversity App by ](https://github.com/walkerke/neighborhood_diversity) / [app](https://walkerke.shinyapps.io/neighborhood_diversity/)
+- <i class="fas fa-book"></i> [Week 10: Interactions](https://github.com/wesslen/dsba5122-spring2019/raw/master/static/readings/11-Interaction.pdf) and [Week 11: Views](https://github.com/wesslen/dsba5122-spring2019/raw/master/static/readings/11-Interaction.pdf) by Alexander Lex, *CS-5630 / CS-6630 Visualization for Data Science*
 
-- [altair](https://vegawidget.github.io/altair/index.html) / [vega editor](https://vega.github.io/editor/#/)
+# Hands-on Class
 
-- [dragulaR](https://github.com/zzawadz/dragulaR)
+RStudio Cloud project for [sample Shiny apps](https://rstudio.cloud/spaces/7976/project/256282)
+
+1. Review Reactivity: 
+
+- [Reactivity Overview by RStudio](https://shiny.rstudio.com/articles/reactivity-overview.html)
+
+- Garrett Grohlmund's [Introduction to Reactivity in Shiny](https://github.com/wesslen/dsba5122-spring2019/raw/master/public/files/shiny-reactivity.pdf)
+
+2. [Shiny enabled `flexdashboard`](https://rmarkdown.rstudio.com/flexdashboard/shiny.html) ^[Best for only inputs and outputs and not complicated reactive statements. If you do, it's better to use `shinydashboard`]
+
+Example: [Kyle Walker](http://personal.tcu.edu/kylewalker/)'s [Neighborhood Diversity App by ](https://walkerke.shinyapps.io/neighborhood_diversity/) / [GitHub](https://github.com/walkerke/neighborhood_diversity)
+
+- JJ Alaire's [`flexdashboard` shiny-enabled brushing](https://jjallaire.shinyapps.io/shiny-ggplot2-brushing/)
+
+3. Brusing & interaction:
+
+- John Coene's [`echarts4r`](https://echarts4r.john-coene.com/articles/shiny.html)
+
+- [`crosstalk`](https://rstudio.github.io/crosstalk/using.html) ^[`echarts4r` interactivity is based on `crosstalk`, e.g., see [this brushing/slider tutorial](https://echarts4r.john-coene.com/articles/brush.html).]
+
+- [`plotly`](https://plotly-r.com/linking-views-with-shiny.html): Chapter 15-17 of Carson Sievert's book
+
+4. [`shinydashboard`](https://rstudio.github.io/shinydashboard/)
+
+- [Omayma Said's Intro to Shiny Workshop](https://github.com/OmaymaS/intro_to_shiny_workshop/)
+
+See `000c-omaayma-shiny-workshop` folder in our Rstudio cloud shiny project.
+
+5. [RinteRface](https://rinterface.com/)
+
+- [`shinydashboardPlus`](https://github.com/RinteRface/shinydashboardPlus)
+
+- ['bs4Dash`](https://github.com/RinteRface/bs4Dash)
+
+- [`argonDash`](https://rinterface.github.io/argonDash/)
+
+6. Helper functions
+
+- [`dragulaR`](https://github.com/zzawadz/dragulaR)
+
+- [`shinyWidgets`](https://github.com/dreamRs/shinyWidgets) / [shiny demo](http://shinyapps.dreamrs.fr/shinyWidgets/)
+
+- [`waiter`](https://shiny.john-coene.com/waiter/)
