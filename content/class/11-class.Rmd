@@ -37,7 +37,7 @@ We'll heavily use our RStudio Cloud project for [sample Shiny apps](https://rstu
 
   Garrett Grohlmund's [Introduction to Reactivity in Shiny](https://github.com/wesslen/dsba5122-spring2019/raw/master/public/files/shiny-reactivity.pdf)
 
-2. [Shiny enabled `flexdashboard`](https://rmarkdown.rstudio.com/flexdashboard/shiny.html) ^[Best for only inputs and outputs and not complicated reactive statements. If you do, it's better to use `shinydashboard`]^[{-} ![dashboard](/images/class/dashboard.png)]
+2. [Shiny enabled `flexdashboard`](https://rmarkdown.rstudio.com/flexdashboard/shiny.html) ^[{-} ![dashboard](/images/class/dashboard.png)]
 
   Example: [Kyle Walker](http://personal.tcu.edu/kylewalker/)'s [Neighborhood Diversity App by ](https://walkerke.shinyapps.io/neighborhood_diversity/) / [GitHub](https://github.com/walkerke/neighborhood_diversity)
 
