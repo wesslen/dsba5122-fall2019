@@ -20,8 +20,12 @@ editor_options:
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">🎉A first draft of my new book,  &quot;Interactive web-based data visualization with R, plotly, and shiny&quot;, is now available!  🎉<a href="https://t.co/rCsZgwIo2d">https://t.co/rCsZgwIo2d</a><br><br>For those of you familiar with the plotly book, there is a ton of new content, feedback welcome!<a href="https://t.co/TmS8Tk2Wjn">https://t.co/TmS8Tk2Wjn</a> <a href="https://t.co/1e9hWFsAlU">pic.twitter.com/1e9hWFsAlU</a></p>&mdash; Carson Sievert (@cpsievert) <a href="https://twitter.com/cpsievert/status/1113834019286855692?ref_src=twsrc%5Etfw">April 4, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+^[This is an excellent resource if you decide to use plotly for your project!]
+
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">🎅 Major announcement for <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> shiny addicts🎅:<br>Excited to officially introduce RinteRface, a collection of open-source HTML templates for <a href="https://twitter.com/hashtag/shiny?src=hash&amp;ref_src=twsrc%5Etfw">#shiny</a> and more 🦄<br>Thanks <a href="https://twitter.com/jdatap?ref_src=twsrc%5Etfw">@jdatap</a> for joining the project 🔥<a href="https://t.co/IAX76FEz1k">https://t.co/IAX76FEz1k</a><a href="https://twitter.com/ZurichRUsers?ref_src=twsrc%5Etfw">@ZurichRUsers</a> <a href="https://twitter.com/dataandme?ref_src=twsrc%5Etfw">@dataandme</a> <a href="https://twitter.com/minebocek?ref_src=twsrc%5Etfw">@minebocek</a> <a href="https://twitter.com/_pvictorr?ref_src=twsrc%5Etfw">@_pvictorr</a> <a href="https://t.co/WCvuAxJiI4">pic.twitter.com/WCvuAxJiI4</a></p>&mdash; David Granjon (@divadnojnarg) <a href="https://twitter.com/divadnojnarg/status/1067804524495192064?ref_src=twsrc%5Etfw">November 28, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+^[[RinteRface](https://rinterface.com/) includes several web frameworks as R packages including: [`shinydashboardPlus`](https://github.com/RinteRface/shinydashboardPlus),  [`bs4Dash`](https://github.com/RinteRface/bs4Dash),  [`argonDash`](https://rinterface.github.io/argonDash/).]
 
 # Slides
 
@@ -49,6 +53,4 @@ We'll heavily use our RStudio Cloud project for [sample Shiny apps](https://rstu
 
 - [Omayma Said's Intro to Shiny Workshop](https://github.com/OmaymaS/intro_to_shiny_workshop/) ^[See `000c-omaayma-shiny-workshop` folder in our Rstudio cloud shiny project.]
 
-5. [RinteRface](https://rinterface.com/): packages like [`shinydashboardPlus`](https://github.com/RinteRface/shinydashboardPlus),  [`bs4Dash`](https://github.com/RinteRface/bs4Dash),  [`argonDash`](https://rinterface.github.io/argonDash/)
-
-6. Helper functions: [`dragulaR`](https://github.com/zzawadz/dragulaR),  [`shinyWidgets`](https://github.com/dreamRs/shinyWidgets) / [shiny demo](http://shinyapps.dreamrs.fr/shinyWidgets/), and [`waiter`](https://shiny.john-coene.com/waiter/)
+5. Helper functions: [`dragulaR`](https://github.com/zzawadz/dragulaR),  [`shinyWidgets`](https://github.com/dreamRs/shinyWidgets) / [shiny demo](http://shinyapps.dreamrs.fr/shinyWidgets/), and [`waiter`](https://shiny.john-coene.com/waiter/)
