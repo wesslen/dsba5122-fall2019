@@ -6,10 +6,19 @@
     <description>Recent content in Readings on Visual Analytics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://dsba5122-spring2019.netlify.com/reading/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Machine Learning</title>
+      <link>https://dsba5122-spring2019.netlify.com/reading/13-reading/</link>
+      <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-spring2019.netlify.com/reading/13-reading/</guid>
+      <description> Required   Chapter 1 and Chapter 2 in Christoph Molnar, Interpretable Machine Learning: A Guide for Making Black Box Models Explainable.  Recommended   Chapter 5 in Christoph Molnar, Interpretable Machine Learning: A Guide for Making Black Box Models Explainable.  </description>
+    </item>
     
     <item>
       <title>Deployment, Back-end and Scalability</title>
@@ -152,17 +161,6 @@ Questions to reflect on  How do we know what is true? Are facts truth? Why do we
       <description> Required   Chapter 12 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
   Chapter 24 in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
   Ben Wellington, “Making data mean more through storytelling”  Jonathan Schwabish, “Better Data Communication,” National Bureau of Economic Research  Why People Make Bad Charts (and What to Do When it Happens)  Questions to reflect on  Questions TBD  </description>
-    </item>
-    
-    <item>
-      <title>Enhancing graphics</title>
-      <link>https://dsba5122-spring2019.netlify.com/reading/13-reading/</link>
-      <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-spring2019.netlify.com/reading/13-reading/</guid>
-      <description> Required   Chapter 15, Chapter 16, Chapter 18, Chapter 20, and Chapter 21 in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
-  Chapter 8 in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
- Other readings TBD  Questions to reflect on  Questions TBD  </description>
     </item>
     
     <item>

@@ -1,10 +1,61 @@
 ---
 title: "Problem set 4"
-date: "2019-04-15"
-due_date: "2019-04-22"
+date: "2019-04-22"
+due_date: "2019-05-06"
 due_time: "11:59 PM"
 editor_options: 
   chunk_output_type: console
 ---
 
-The instructions for this problem set will be posted at least one week before it is due.
+# Task 0: Getting started
+
+For this problem set, you'll learn `blogdown`, an R package that enables building websites through [Hugo](https://gohugo.io/getting-started/), a web framework. Like shiny, `blogdown` enable you to use a more complex framework (i.e., Hugo) but through R functions and syntax that you've been learning about all semester.
+
+I recommend running this exercise on your personal laptop, mainly so you'll have this blog site already saved on your own personal computer.
+
+To begin, it would be helpful to familarize yourself with three great resources:
+
+- [`blogdown` book](https://bookdown.org/yihui/blogdown/)
+
+- Amber Thomas' [Making a Website Using Blogdown, Hugo, and GitHub pages.](http://amber.rbind.io/blog/2016/12/19/creatingsite/) ^[This is a great overview of using blogdown, hugo, and GitHub; however, this post is from December 2016 and may not be 100% up-to-date with recent changes to packages. Therefore, you may have issues if you implement but the general descriptions are a great overview.]
+
+- Garrick Aden-Buie's [A Blogdown New Post Workflow with Github and Netlify](https://www.garrickadenbuie.com/blog/blogdown-netlify-new-post-workflow/)
+
+# Task 1: Allison Hill's Blogdown Workshop Slides
+
+You will develop your own blog using Allison Hill's [Blogdown Workshop Slides](https://alison.rbind.io/slides/blogdown-workshop-slides.html#1).
+
+For this example, you will create a blogdown site and do eight items.
+
+1. Adding a logo
+
+2. Updating the about page
+
+3. Enabling emojis
+
+4. Changing the navigation bar
+
+5. Customizing the CSS
+
+6. Adding font awesome icons to site, and to navigation bar
+
+7. Making a new home page
+
+8. Moving posts around
+
+
+# Task 2: Deploy to Netlify (with drag and drop)
+
+https://alison.rbind.io/post/2019-03-04-hugo-troubleshooting/#netlify-drag-and-drop
+
+# Task 2 Alternative (+2 Bonus Points): Deploy to Netlify via GitHub
+
+For this task, you'll need to learn GitHub. You'll first need to create your own GitHub account as well as follow additional steps.
+
+One key point: learning GitHub can be challenging at first. This is why if you decide to do this task, be prepared to work with someone who can help you.
+
+https://apreshill.rbind.io/post/up-and-running-with-blogdown/
+
+# Help
+
+If you're having issues with Netlify, check out Allison's recent [blog post](https://alison.rbind.io/post/2019-03-04-hugo-troubleshooting/) on 

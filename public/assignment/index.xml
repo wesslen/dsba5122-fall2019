@@ -6,7 +6,7 @@
     <description>Recent content in Assignments on Visual Analytics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://dsba5122-spring2019.netlify.com/assignment/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,10 +14,11 @@
     <item>
       <title>Problem set 4</title>
       <link>https://dsba5122-spring2019.netlify.com/assignment/04-problem-set/</link>
-      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/assignment/04-problem-set/</guid>
-      <description>The instructions for this problem set will be posted at least one week before it is due.</description>
+      <description>Task 0: Getting started For this problem set, you’ll learn blogdown, an R package that enables building websites through Hugo, a web framework. Like shiny, blogdown enable you to use a more complex framework (i.e., Hugo) but through R functions and syntax that you’ve been learning about all semester.
+I recommend running this exercise on your personal laptop, mainly so you’ll have this blog site already saved on your own personal computer.</description>
     </item>
     
     <item>

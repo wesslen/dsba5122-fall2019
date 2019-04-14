@@ -21,12 +21,14 @@ editor_options:
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">… and that concludes Machine Learning 101. Now, go forth and apply what you&#39;ve learned to real data! <a href="http://t.co/D6wSKgdjeM">pic.twitter.com/D6wSKgdjeM</a></p>&mdash; ML Hipster (@ML_Hipster) <a href="https://twitter.com/ML_Hipster/status/633954383542128640?ref_src=twsrc%5Etfw">August 19, 2015</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+# Slides
+
+- [Interpreting Machine Learning Models](https://speakerdeck.com/omaymas/interpreting-machine-learning-models-why-and-how) by Omayma Said / [Shiny App](https://omaymas.shinyapps.io/lime_explainer/) / [GitHub for Shiny App](https://github.com/OmaymaS/lime_explainer)
+
 # Links
 
 - [Galit Shumuel's "To Explain or To Predict?"](http://www.galitshmueli.com/content/explain-or-predict)
 
 - [Enterprise Web Services with Neural Networks Using R and TensorFlow](https://opensource.t-mobile.com/blog/posts/r-tensorflow-api/)
-
-- [LIME Explainer]() by Omayma Said / [GitHub](https://github.com/OmaymaS/lime_explainer)
 
 - [altair](https://vegawidget.github.io/altair/index.html) / [vega editor](https://vega.github.io/editor/#/)

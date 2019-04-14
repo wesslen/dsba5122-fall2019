@@ -13,6 +13,16 @@
   </url>
   
   <url>
+    <loc>https://dsba5122-spring2019.netlify.com/reading/13-reading/</loc>
+    <lastmod>2019-04-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dsba5122-spring2019.netlify.com/assignment/04-problem-set/</loc>
+    <lastmod>2019-04-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://dsba5122-spring2019.netlify.com/slides/12-class/</loc>
     <lastmod>2019-04-15T00:00:00+00:00</lastmod>
   </url>
@@ -24,11 +34,6 @@
   
   <url>
     <loc>https://dsba5122-spring2019.netlify.com/reading/12-reading/</loc>
-    <lastmod>2019-04-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dsba5122-spring2019.netlify.com/assignment/04-problem-set/</loc>
     <lastmod>2019-04-15T00:00:00+00:00</lastmod>
   </url>
   
@@ -258,11 +263,6 @@
   </url>
   
   <url>
-    <loc>https://dsba5122-spring2019.netlify.com/reading/13-reading/</loc>
-    <lastmod>2018-12-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://dsba5122-spring2019.netlify.com/reading/09-reading/</loc>
     <lastmod>2018-10-30T00:00:00+00:00</lastmod>
   </url>
@@ -299,7 +299,7 @@
   
   <url>
     <loc>https://dsba5122-spring2019.netlify.com/assignment/</loc>
-    <lastmod>2019-04-15T00:00:00+00:00</lastmod>
+    <lastmod>2019-04-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -328,7 +328,7 @@
   
   <url>
     <loc>https://dsba5122-spring2019.netlify.com/reading/</loc>
-    <lastmod>2019-04-15T00:00:00+00:00</lastmod>
+    <lastmod>2019-04-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
