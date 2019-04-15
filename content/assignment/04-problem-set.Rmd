@@ -1,7 +1,7 @@
 ---
 title: "Problem set 4"
-date: "2019-04-22"
-due_date: "2019-05-06"
+date: "2019-04-18"
+due_date: "2019-05-01"
 due_time: "11:59 PM"
 editor_options: 
   chunk_output_type: console
@@ -15,7 +15,7 @@ I recommend running this exercise on your personal laptop, mainly so you'll have
 
 To begin, it would be helpful to familarize yourself with three great resources:
 
-- [`blogdown` book](https://bookdown.org/yihui/blogdown/)
+- [`blogdown` book](https://bookdown.org/yihui/blogdown/). This is a long book and should be used as more of a reference than read from beginning to end. Familarize yourself with the chapters in case you have questions when you run this problem set.
 
 - Amber Thomas' [Making a Website Using Blogdown, Hugo, and GitHub pages.](http://amber.rbind.io/blog/2016/12/19/creatingsite/) ^[This is a great overview of using blogdown, hugo, and GitHub; however, this post is from December 2016 and may not be 100% up-to-date with recent changes to packages. Therefore, you may have issues if you implement but the general descriptions are a great overview.]
 
@@ -43,8 +43,11 @@ For this example, you will create a blogdown site and do eight items.
 
 8. Moving posts around
 
+You will be graded for 0.5 points for each of the eight items. 
 
 # Task 2: Deploy to Netlify (with drag and drop)
+
+Next, you'll need to use netlify to deploy your website. 
 
 https://alison.rbind.io/post/2019-03-04-hugo-troubleshooting/#netlify-drag-and-drop
 

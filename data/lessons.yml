@@ -108,14 +108,14 @@ lessons:
     date: "April 15"
     reading: "12-reading"
     class: "12-class"
+    
+  - title: "**Problem set 4 (Due May 2)**"
+    date: "April 19"
 
   - title: "Machine Learning"
     date: "April 22"
     reading: "13-reading"
     #class: "13-class"
-    
-  - title: "**Problem set 4 (Due May 6)**"
-    date: "April 22"
 
   - title: "Human-in-the-loop"
     date: "April 29"

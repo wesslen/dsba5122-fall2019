@@ -115,7 +115,7 @@ The instructor grades the design after your presentation according to the follow
 
 ## Example
 
-Here's a perfect example of a great shiny app ([cranwhale](https://github.com/rstudio/cranwhales)) by Joe Cheng. ^[Granted, Joe did create shiny.] It shows how you don't need the most interactive features - an excellent (narrow) question and task can enable a simple interface, a clear user task, which then enable clear user testing for deployment ^[Be sure to see the async versions which are optimized for performance. ]
+Here's a perfect example of a great shiny app ([cranwhale](https://github.com/rstudio/cranwhales)) by Joe Cheng. ^[Granted, Joe did create shiny.] It shows how you don't need the most interactive features - an excellent (narrow) question and task can enable a simple interface, a clear user task, which then enable clear user testing for deployment ^[Be sure to see the async versions which are optimized for performance.]
 
 ## Bonus Points: Shiny App Awards
 
