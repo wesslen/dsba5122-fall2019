@@ -113,6 +113,10 @@ The instructor grades the design after your presentation according to the follow
 
 - **Shiny app evaluation** (5 points): describe how you would evaluate your app. Base this on your task and how you would devise an experiment to validate that your shiny app improves your task. This can be what you review for your presentation.
 
+## Example
+
+Here's a perfect example of a great shiny app ([cranwhale](https://github.com/rstudio/cranwhales)) by Joe Cheng. ^[Granted, Joe did create shiny.] It shows how you don't need the most interactive features - an excellent (narrow) question and task can enable a simple interface, a clear user task, which then enable clear user testing for deployment ^[Be sure to see the async versions which are optimized for performance. ]
+
 ## Bonus Points: Shiny App Awards
 
 Based on class vote, we'll award extra credit for the team voted: ^[{-} ![bis](https://media.giphy.com/media/874M72kPh8wz29f4cB/giphy.gif)]
