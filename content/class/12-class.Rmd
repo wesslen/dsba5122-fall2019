@@ -31,15 +31,13 @@ We'll heavily use our RStudio Cloud project for [sample Shiny apps](https://rstu
 
 2. John Coene's [`echarts4r`](https://echarts4r.john-coene.com/articles/shiny.html)
 
-### Optional:
-
 3. [`crosstalk`](https://rstudio.github.io/crosstalk/using.html), ^[`echarts4r` interactivity is based on `crosstalk`, e.g., see [this brushing/slider tutorial](https://echarts4r.john-coene.com/articles/brush.html).] 
 
 4. [`plotly`](https://plotly-r.com/linking-views-with-shiny.html) ^[Specifically see Chapter 15-17 of Carson Sievert's book.]
 
 ## Shiny in Production:
 
-Joe Cheng's [Shiny in Production](https://speakerdeck.com/jcheng5/shiny-in-production) ^[Alternatively, you can watch Joe's talk from RStudio::Conf 2019 [here](https://resources.rstudio.com/rstudio-conf-2019/shiny-in-production-principles-practices-and-tools-joe-cheng).]
+- Joe Cheng's [Shiny in Production](https://speakerdeck.com/jcheng5/shiny-in-production) ^[Alternatively, you can watch Joe's talk from RStudio::Conf 2019 [here](https://resources.rstudio.com/rstudio-conf-2019/shiny-in-production-principles-practices-and-tools-joe-cheng). It's also important to see [`shinyloadtest`](https://rstudio.github.io/shinyloadtest/) for instructions on how to install as it can be a bit tricky.]
 
 # Recommended
 

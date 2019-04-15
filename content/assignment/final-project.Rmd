@@ -81,7 +81,7 @@ The report should have six sections:
 
 Sections 1-4 align with Munzner's paper ^[[“A Nested Model for Visualization Design and Validation”](https://www.cs.ubc.ca/labs/imager/tr/2009/NestedModel/NestedModel.pdf)]. 
 
-Section 5 is an outline for how you could (hypothetically) evaluate whether you ^[For this part, be sure to read [Mazza's chapter on evaluating interfaces ](https://github.com/wesslen/dsba5122-spring2019/raw/master/public/readings/Mazza2009_Chapter_Evaluations)]
+Section 5 is an outline for how you could (hypothetically) evaluate whether you ^[For this part, be sure to read [Mazza's chapter on evaluating interfaces ](https://github.com/wesslen/dsba5122-spring2019/raw/master/public/readings/Mazza2009_Chapter_Evaluations.pdf)]
 
 **Length**: Each section can be about 2-5 paragraphs. Figures are always helpful. Maybe a table or two. When in doubt, put things in the appendix to keep the report concise.
 
@@ -127,7 +127,7 @@ Based on class vote, we'll award extra credit for the team voted: ^[{-} ![bis](h
 
 ### 3. Best scenario design / most practical (+2 points):
 
-- Tool that best fits a problem.
+- Tool that best fits a problem. This shiny app is most ready for production (e.g., [`shinyloadtest`](https://rstudio.github.io/shinyloadtest/) to show the given task can scale to X users.)
 
 ### 4. Human-centered machine learning (+2 points)
 
