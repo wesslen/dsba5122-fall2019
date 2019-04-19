@@ -1,7 +1,7 @@
 ---
 title: "Problem set 4"
 date: "2019-04-18"
-due_date: "2019-05-01"
+due_date: "2019-05-02"
 due_time: "11:59 PM"
 editor_options: 
   chunk_output_type: console
@@ -13,9 +13,7 @@ For this problem set, you'll learn `blogdown`, an R package that enables buildin
 
 I recommend running this exercise on your personal laptop, mainly so you'll have this blog site already saved on your own personal computer.
 
-To begin, it would be helpful to familarize yourself with three great resources:
-
-- [`blogdown` book](https://bookdown.org/yihui/blogdown/). This is a long book and should be used as more of a reference than read from beginning to end. We'll review the first few chapter's through the problem set.
+For this assignment, we'll primarily be using Xie, Thomas, and Hill's [`blogdown` book](https://bookdown.org/yihui/blogdown/). This is a long book and should be used as more of a reference than read from beginning to end.
 
 # Task 1: Read Chapter 1
 
@@ -91,7 +89,9 @@ Next, read through the rest of Chapter 2, especially [section 2.7 on static file
 
 The simplest way to deploy your website is to put it on Netlify through drag and droping the contents of your `/public` folder.
 
-To do this follow [these steps](https://alison.rbind.io/post/2019-03-04-hugo-troubleshooting/#netlify-drag-and-drop)
+To do this follow Allison Hill's [Hugo Troubleshooting steps](https://alison.rbind.io/post/2019-03-04-hugo-troubleshooting/#netlify-drag-and-drop).
+
+![](/images/assignment/hill-deploy.gif)
 
 # Task 7 (alternate): Deploy to Netlify via GitHub (option 2: 3 points)
 
