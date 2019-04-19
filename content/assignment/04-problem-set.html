@@ -14,32 +14,70 @@ editor_options:
 <p>I recommend running this exercise on your personal laptop, mainly so you’ll have this blog site already saved on your own personal computer.</p>
 <p>To begin, it would be helpful to familarize yourself with three great resources:</p>
 <ul>
-<li><p><a href="https://bookdown.org/yihui/blogdown/"><code>blogdown</code> book</a>. This is a long book and should be used as more of a reference than read from beginning to end. Familarize yourself with the chapters in case you have questions when you run this problem set.</p></li>
-<li><p>Amber Thomas’ <a href="http://amber.rbind.io/blog/2016/12/19/creatingsite/">Making a Website Using Blogdown, Hugo, and GitHub pages.</a><span><label for="sn-1" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-1" class="margin-toggle"/><span class="sidenote">This is a great overview of using blogdown, hugo, and GitHub; however, this post is from December 2016 and may not be 100% up-to-date with recent changes to packages. Therefore, you may have issues if you implement but the general descriptions are a great overview.<br />
+<li><a href="https://bookdown.org/yihui/blogdown/"><code>blogdown</code> book</a>. This is a long book and should be used as more of a reference than read from beginning to end. We’ll review the first few chapter’s through the problem set.</li>
+</ul>
+<h2 id="task-1-read-chapter-1">Task 1: Read Chapter 1</h2>
+<p>First, read <a href="https://bookdown.org/yihui/blogdown/get-started.html">Chapter 1 from Xie, Thomas, and Hill</a>’s Blogdown book.</p>
+<h2 id="task-2-build-your-site-1-point">Task 2: Build your site (1 Point)</h2>
+<p>Following <a href="https://bookdown.org/yihui/blogdown/get-started.html">Section 1.7</a>, we’ll build a website:</p>
+<ol style="list-style-type: decimal">
+<li><p>Create a new R Project.</p></li>
+<li><p>install the <code>blogdown</code> package.</p></li>
+<li><p>Run <code>blogdown::install_hugo()</code> to install Hugo, which is the complementary web framework.</p></li>
+<li><p>Check that Hugo was correctly installed by running <code>blogdown::hugo_version()</code>, where you should get <code>‘0.55.1’</code>.</p></li>
+<li><p>Go to Tools &gt; Project Options and select:</p></li>
+</ol>
+<p><img src="/images/assignment/rstudio-project-options.png" /></p>
+<ol start="6" style="list-style-type: decimal">
+<li><p>Select a <a href="http://themes.gohugo.io">Hugo theme</a></p></li>
+<li><p>Build your website with the code: <code>blogdown::new_site(theme = 'user/repo')</code></p></li>
+</ol>
+<p>This will likely create a file pop up. Save that file as a template. It should be saved in the <code>content/post</code> folder.</p>
+<h2 id="task-3-modify-the-config.toml-file-1-point">Task 3: Modify the <code>config.toml</code> file (1 Point)</h2>
+<p>In Hugo, the most important file is the configuration file: <code>config.toml</code>.</p>
+<p>Read Chapters 2.1-2.2 to understand the basics of the file structures.</p>
+<p>You should now see these files. Open <code>config.toml</code>.</p>
+<p><img src="/images/assignment/blogdown-1.png" /></p>
+<ol style="list-style-type: decimal">
+<li>Change the title,<span><label for="sn-1" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-1" class="margin-toggle"/><span class="sidenote">Think of a creative title name or just say “My Blog”. You can always edit it later.<br />
+<br />
+</span></span> author name, color, homeSubtitle, and modify the social network (free feel to remove, add, or modify). Provide whatever names you want.</li>
+</ol>
+<h2 id="task-4-create-content-and-write-your-first-post-1-points">Task 4: Create content and write your first post (1 Points)</h2>
+<p>To create new pages, you’ll use RMarkdown. The key is the location of the files.</p>
+<p>Create a new post by clicking on the <code>Addins</code> button:</p>
+<p><img src="/images/assignment/blogdown-2.png" /></p>
+<p>and choose “New Post”.</p>
+<p>Give your post a title, your name, and fill in tags (what can be searched) or other fields. Keep the subdirectory to “post”, this is where the file will be created.</p>
+<p><img src="/images/assignment/blogdown-3.png" /></p>
+<p>Modify the file to a .Rmd file at the bottom before creating the file.<span><label for="sn-2" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-2" class="margin-toggle"/><span class="sidenote">This <a href="https://bookdown.org/yihui/blogdown/output-format.html">chapter</a> describes the difference between a markdown and Rmarkdown file.<br />
+<br />
+</span></span></p>
+<p>Now open that new .Rmd file in RStudio to modify.</p>
+<p>To finish, add in whatever you want! Code, data, plots, whatever. Simply write at least 100 lines of content.</p>
+<h2 id="task-5-serve-your-site">Task 5: Serve your site</h2>
+<p>You’ll need to serve your site by updating it. Think of this as Knitting all possible files.</p>
+<p>To do this, you’ll need to click “Addins” again and click “Serve Site”.</p>
+<p>To learn more, see the <a href="https://bookdown.org/yihui/blogdown/workflow.html">2nd section of this chapter</a>.</p>
+<h2 id="task-6-read-through-chapter-2">Task 6: Read through Chapter 2</h2>
+<p>Next, read through the rest of Chapter 2, especially <a href="https://bookdown.org/yihui/blogdown/static-files.html">section 2.7 on static files</a>. This is the location where you can put files (e.g., images, pdf, gifs).</p>
+<h2 id="task-7-deploy-to-netlify-option-1-1-point">Task 7: Deploy to Netlify (option 1: 1 point)</h2>
+<p>The simplest way to deploy your website is to put it on Netlify through drag and droping the contents of your <code>/public</code> folder.</p>
+<p>To do this follow <a href="https://alison.rbind.io/post/2019-03-04-hugo-troubleshooting/#netlify-drag-and-drop">these steps</a></p>
+<h2 id="task-7-alternate-deploy-to-netlify-via-github-option-2-3-points">Task 7 (alternate): Deploy to Netlify via GitHub (option 2: 3 points)</h2>
+<p>For this task, you’ll need to learn GitHub. You’ll first need to create your own GitHub account as well as follow additional steps.</p>
+<p>Follow the instructions by Allison Hill in her post: <a href="https://apreshill.rbind.io/post/up-and-running-with-blogdown/">Up and Running with <code>blogdown</code></a>.</p>
+<p><strong>Note!</strong> Her blog is assuming using a Mac. While Windows users are welcome to try, the problem comes in with terminal (UNIX command line).</p>
+<p>I’d highly recommend Jenny Bryan’s <a href="https://happygitwithr.com/install-intro.html">Happy Git With R</a>. But remember, learning GitHub can be challenging at first. This is why if you decide to do this task, be prepared to work with someone who can help you.</p>
+<h2 id="what-to-provide-for-credit">What to provide for credit</h2>
+<p>To complete the assignment, simply provide the URL for your website on netlify on <a href="https://uncc.instructure.com/courses/100065/assignments/516674">Canvas</a> by 11:59pm on Thursday, May 2, 2019.</p>
+<h2 id="help">Help</h2>
+<p>For further help, check out these posts:</p>
+<ul>
+<li><p>Amber Thomas’ <a href="http://amber.rbind.io/blog/2016/12/19/creatingsite/">Making a Website Using Blogdown, Hugo, and GitHub pages.</a><span><label for="sn-3" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-3" class="margin-toggle"/><span class="sidenote">This is a great overview of using blogdown, hugo, and GitHub; however, this post is from December 2016 and may not be 100% up-to-date with recent changes to packages. Therefore, you may have issues if you implement but the general descriptions are a great overview.<br />
 <br />
 </span></span></p></li>
 <li><p>Garrick Aden-Buie’s <a href="https://www.garrickadenbuie.com/blog/blogdown-netlify-new-post-workflow/">A Blogdown New Post Workflow with Github and Netlify</a></p></li>
+<li><p>Allison Hill’s <a href="https://alison.rbind.io/slides/blogdown-workshop-slides.html#1">Blogdown Workshop Slides</a>.</p></li>
 </ul>
-<h2 id="task-1-allison-hills-blogdown-workshop-slides">Task 1: Allison Hill’s Blogdown Workshop Slides</h2>
-<p>You will develop your own blog using Allison Hill’s <a href="https://alison.rbind.io/slides/blogdown-workshop-slides.html#1">Blogdown Workshop Slides</a>.</p>
-<p>For this example, you will create a blogdown site and do eight items.</p>
-<ol style="list-style-type: decimal">
-<li><p>Adding a logo</p></li>
-<li><p>Updating the about page</p></li>
-<li><p>Enabling emojis</p></li>
-<li><p>Changing the navigation bar</p></li>
-<li><p>Customizing the CSS</p></li>
-<li><p>Adding font awesome icons to site, and to navigation bar</p></li>
-<li><p>Making a new home page</p></li>
-<li><p>Moving posts around</p></li>
-</ol>
-<p>You will be graded for 0.5 points for each of the eight items.</p>
-<h2 id="task-2-deploy-to-netlify-with-drag-and-drop">Task 2: Deploy to Netlify (with drag and drop)</h2>
-<p>Next, you’ll need to use netlify to deploy your website.</p>
-<p><a href="https://alison.rbind.io/post/2019-03-04-hugo-troubleshooting/#netlify-drag-and-drop" class="uri">https://alison.rbind.io/post/2019-03-04-hugo-troubleshooting/#netlify-drag-and-drop</a></p>
-<h2 id="task-2-alternative-2-bonus-points-deploy-to-netlify-via-github">Task 2 Alternative (+2 Bonus Points): Deploy to Netlify via GitHub</h2>
-<p>For this task, you’ll need to learn GitHub. You’ll first need to create your own GitHub account as well as follow additional steps.</p>
-<p>One key point: learning GitHub can be challenging at first. This is why if you decide to do this task, be prepared to work with someone who can help you.</p>
-<p><a href="https://apreshill.rbind.io/post/up-and-running-with-blogdown/" class="uri">https://apreshill.rbind.io/post/up-and-running-with-blogdown/</a></p>
-<h2 id="help">Help</h2>
-<p>If you’re having issues with Netlify, check out Allison’s recent <a href="https://alison.rbind.io/post/2019-03-04-hugo-troubleshooting/">blog post</a> on</p>
+<p>If you’re having issues with Netlify, check out Allison’s recent <a href="https://alison.rbind.io/post/2019-03-04-hugo-troubleshooting/">blog post</a>.</p>

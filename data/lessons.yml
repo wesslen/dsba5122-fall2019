@@ -111,13 +111,14 @@ lessons:
     
   - title: "**Problem set 4 (Due May 2)**"
     date: "April 19"
+    assignment: "04-problem-set"
 
-  - title: "Machine Learning"
+  - title: "Human-Centered Machine Learning"
     date: "April 22"
     reading: "13-reading"
     #class: "13-class"
 
-  - title: "Human-in-the-loop"
+  - title: "TBD"
     date: "April 29"
     #reading: "14-reading"
     #class: "14-class"
