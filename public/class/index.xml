@@ -12,17 +12,18 @@
     
     
     <item>
-      <title>Machine Learning</title>
+      <title>Human-Centered Machine Learning</title>
       <link>https://dsba5122-spring2019.netlify.com/class/13-class/</link>
       <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-spring2019.netlify.com/class/13-class/</guid>
-      <description>Contents  Slides Tweet of the day Slides Links   Slides Download the slides from today’s lecture.
-Tweet of the day … and that concludes Machine Learning 101. Now, go forth and apply what you&#39;ve learned to real data! pic.twitter.com/D6wSKgdjeM — ML Hipster (@ML_Hipster) August 19, 2015   Slides  Interpreting Machine Learning Models by Omayma Said / Shiny App / GitHub for Shiny App  Links  Galit Shumuel’s “To Explain or To Predict?</description>
+      <description>Contents  Tweet of the day Slides Links   Tweet of the day … and that concludes Machine Learning 101. Now, go forth and apply what you&#39;ve learned to real data! pic.twitter.com/D6wSKgdjeM — ML Hipster (@ML_Hipster) August 19, 2015   Slides full screen / pdf version
+Links  TensorFlow’s Neural Network Playground Demo
+ Interpreting Machine Learning Models by Omayma Said / Shiny App / GitHub for Shiny App</description>
     </item>
     
     <item>
-      <title>Deployment, Back-end and Scalability</title>
+      <title>In Production: Deployment, Back-end and Scalability</title>
       <link>https://dsba5122-spring2019.netlify.com/class/12-class/</link>
       <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
       
@@ -48,7 +49,7 @@ Tweet of the day … and that concludes Machine Learning 101. Now, go forth and 
       
       <guid>https://dsba5122-spring2019.netlify.com/class/10-class/</guid>
       <description> Contents  Tweet of the day Slides: Lab: Shiny Reactivity   Tweet of the day Our lab&#39;s first preprint! Coral: an R shiny and D3.js web app for flexible, interactive, and high-resolution visualization of the human kinome. https://t.co/xD7QUXgjOR pic.twitter.com/1gGy9zzsBT — doug phanstiel (@dphansti) May 25, 2018   Slides: full screen / pdf version
- Lab: Shiny Reactivity Garrett Grohlmund’s Introduction to Reactivity in Shiny
+Lab: Shiny Reactivity Garrett Grohlmund’s Introduction to Reactivity in Shiny
  RStudio Cloud project for sample Shiny apps  </description>
     </item>
     
@@ -112,7 +113,7 @@ Slides: full screen / pdf version</description>
       <guid>https://dsba5122-spring2019.netlify.com/class/04-class/</guid>
       <description>Contents  Tweet of the day Slides Links Lab 4: gganimate and Draw Maps in ggplot2   Tweet of the day Rumour has it ??? killed his talk last night…
 ⏰ “Time series &amp;amp; financial analysis in the tidyverse” 📽 https://t.co/h2jGX0fZ38 #rstats * feat. ???&#39;s {tsibble}, ??? 📦s, and {rsample} pic.twitter.com/fYrC1hoHLB — Mara Averick (@dataandme) September 26, 2018   Slides full screen / pdf version
- Links  Make your own animated plots with gganimate</description>
+Links  Make your own animated plots with gganimate</description>
     </item>
     
     <item>

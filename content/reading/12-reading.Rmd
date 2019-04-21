@@ -12,7 +12,7 @@ csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
 
 - <i class="fas fa-external-link-square-alt"></i> [Profiling a Shiny App](https://rstudio.github.io/profvis/examples.html#example-3---profiling-a-shiny-application)
 
-- <i class="fas fa-external-link-square-alt"></i> [Persistent storage in Shiny Apps](https://daattali.com/shiny/persistent-data-storage/) / [](https://shiny.rstudio.com/articles/persistent-data-storage.html)
+- <i class="fas fa-external-link-square-alt"></i> [Persistent storage in Shiny Apps](https://daattali.com/shiny/persistent-data-storage/) / [RStudio blog post on persistent storage](https://shiny.rstudio.com/articles/persistent-data-storage.html)
 
 - <i class="fas fa-external-link-square-alt"></i> [Plot caching](https://blog.rstudio.com/2018/11/13/shiny-1-2-0/)
 

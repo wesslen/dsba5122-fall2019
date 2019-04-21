@@ -29,7 +29,7 @@ editor_options:
 
 # Slides
 
-- <i class="fas fa-book"></i> [Week 10: Interactions](https://github.com/wesslen/dsba5122-spring2019/raw/master/static/readings/11-Interaction.pdf) and [Week 11: Views](https://github.com/wesslen/dsba5122-spring2019/raw/master/static/readings/11-Interaction.pdf) by Alexander Lex, *CS-5630 / CS-6630 Visualization for Data Science*
+- <i class="fas fa-book"></i> [Week 10: Interactions](https://github.com/wesslen/dsba5122-spring2019/raw/master/static/readings/10-Interaction.pdf) and [Week 11: Views](https://github.com/wesslen/dsba5122-spring2019/raw/master/static/readings/11-Views.pdf) by Alexander Lex, *CS-5630 / CS-6630 Visualization for Data Science*
 
 # Hands-on Class
 

@@ -1,5 +1,5 @@
 ---
-title: "Machine Learning"
+title: "Human-Centered Machine Learning"
 date: "2019-04-22"
 citeproc: false
 bibliography: ../../static/bib/references.bib
@@ -12,10 +12,6 @@ editor_options:
   chunk_output_type: console
 ---
 
-# Slides
-
-[Download the slides from today's lecture]().
-
 # Tweet of the day
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">… and that concludes Machine Learning 101. Now, go forth and apply what you&#39;ve learned to real data! <a href="http://t.co/D6wSKgdjeM">pic.twitter.com/D6wSKgdjeM</a></p>&mdash; ML Hipster (@ML_Hipster) <a href="https://twitter.com/ML_Hipster/status/633954383542128640?ref_src=twsrc%5Etfw">August 19, 2015</a></blockquote>
@@ -23,12 +19,16 @@ editor_options:
 
 # Slides
 
-- [Interpreting Machine Learning Models](https://speakerdeck.com/omaymas/interpreting-machine-learning-models-why-and-how) by Omayma Said / [Shiny App](https://omaymas.shinyapps.io/lime_explainer/) / [GitHub for Shiny App](https://github.com/OmaymaS/lime_explainer)
+[full screen](../../slides/13-class.html#1) / [pdf version](https://github.com/wesslen/dsba5122-spring2019/raw/master/public/files/dsba5122-spring2019-13-class.pdf)
+
+```{r echo=FALSE}
+knitr::include_url('../../slides/13-class.html#1')
+```
 
 # Links
 
-- [Galit Shumuel's "To Explain or To Predict?"](http://www.galitshmueli.com/content/explain-or-predict)
+- [TensorFlow's Neural Network Playground Demo](https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.11311&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false)
+
+- [Interpreting Machine Learning Models](https://speakerdeck.com/omaymas/interpreting-machine-learning-models-why-and-how) by Omayma Said / [Shiny App](https://omaymas.shinyapps.io/lime_explainer/) / [GitHub for Shiny App](https://github.com/OmaymaS/lime_explainer)
 
 - [Enterprise Web Services with Neural Networks Using R and TensorFlow](https://opensource.t-mobile.com/blog/posts/r-tensorflow-api/)
-
-- [altair](https://vegawidget.github.io/altair/index.html) / [vega editor](https://vega.github.io/editor/#/)

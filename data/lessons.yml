@@ -116,9 +116,9 @@ lessons:
   - title: "Human-Centered Machine Learning"
     date: "April 22"
     reading: "13-reading"
-    #class: "13-class"
+    class: "13-class"
 
-  - title: "TBD"
+  - title: "Wrap Up"
     date: "April 29"
     #reading: "14-reading"
     #class: "14-class"
@@ -128,4 +128,4 @@ lessons:
 
   - title: "**Final project due**"
     date: "May 6"
-    #assignment: "final-project"
+    #assignment: "final-project-info"

@@ -28,7 +28,7 @@
       <guid>https://dsba5122-spring2019.netlify.com/reading/12-reading/</guid>
       <description> Required   Docker and `plumber’
   Profiling a Shiny App
-  Persistent storage in Shiny Apps / 
+  Persistent storage in Shiny Apps / RStudio blog post on persistent storage
   Plot caching
   Scaling Shiny Apps with async
   Shiny unit testing with testhat
