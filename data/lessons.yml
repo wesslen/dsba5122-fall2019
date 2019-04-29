@@ -118,10 +118,10 @@ lessons:
     reading: "13-reading"
     class: "13-class"
 
-  - title: "Wrap Up"
+  - title: "Python"
     date: "April 29"
     #reading: "14-reading"
-    #class: "14-class"
+    class: "14-class"
 
   - title: '<span class="fake-header-table">Final</span>'
     header: True

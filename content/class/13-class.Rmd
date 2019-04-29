@@ -31,4 +31,4 @@ knitr::include_url('../../slides/13-class.html#1')
 
 - [Interpreting Machine Learning Models](https://speakerdeck.com/omaymas/interpreting-machine-learning-models-why-and-how) by Omayma Said / [Shiny App](https://omaymas.shinyapps.io/lime_explainer/) / [GitHub for Shiny App](https://github.com/OmaymaS/lime_explainer)
 
-- [Enterprise Web Services with Neural Networks Using R and TensorFlow](https://opensource.t-mobile.com/blog/posts/r-tensorflow-api/)
+- Case Study: [T-Mobile's Enterprise Web Services with Neural Networks Using R and TensorFlow](https://opensource.t-mobile.com/blog/posts/r-tensorflow-api/)

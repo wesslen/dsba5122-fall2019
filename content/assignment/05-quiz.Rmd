@@ -1,0 +1,106 @@
+---
+title: "Quiz 5"
+date: "2019-04-22"
+due_date: "2019-04-22"
+due_time: "11:59 PM"
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message=FALSE, warning=FALSE)
+```
+
+Name: _____________________
+
+Student ID: _________________________
+
+This quiz is closed-note. You will have 10 minutes to complete.
+
+## Question 1
+
+If your Shiny App is taking a long time to load initially, what could you do to improve your run time?
+
+A) Remove slow pre-processing steps by loading post-processing flat file(s) (e.g., .csv, .rds) instead.
+
+B) Remove all libraries from your Shiny App.
+
+C) Run your Shiny app as a `flexdashboard` or `shinydashboard` app.
+
+D) Run your Shiny app from the command line instead of RStudio.
+
+## Question 2
+
+The `profvis` package enables R programmers to:
+
+A) visualize the reactive links between Shiny inputs and outputs.
+
+B) save what packages are used in an R script.
+
+C) view what geoms are available in ggplot2.
+
+D) identify what part of their code is slowest to run in R.
+
+## Question 3
+
+In Shiny, plot caching is when we temporarily save a copy of a plot called (e.g., ggplot2). Which situation will improve Shiny performance (faster updates) if we use plot caching?
+
+A) If the Shiny App is connected to a database. 
+
+B) If we expect many users to view similar plots many times.
+
+C) If the Shiny App has many ggplot2 graphs that are rarely used.
+
+D) If the Shiny App includes many `htmlwidget` packages.
+
+## For questions 4-5, use this Shiny code:
+
+```{r eval=F}
+library(shiny)
+
+ui <- fluidPage(
+  sliderInput(inputId = "num",
+              label = "Choose a number",
+              value = 25, min = 1, max = 100),
+  plotOutput("hist"),
+  printOutput("plot_click_info")
+)
+
+server <- function(input, output) {
+
+  output$hist <- renderPlot({
+    hist(rnorm(input$num))
+  })
+  
+  output$plot_clickinfo <- renderPrint({
+    str(___[A]___) # str() converts obj. to a string
+  })
+  
+}
+
+shinyApp(ui = ui, server = server)
+```
+
+## Question 4
+
+How could we track where the user clicked in the plot `hist`?
+
+A) Add in the `plotOutput()` the `click =` parameter with a unique object name (e.g., "plot_click").
+
+B) Add in a `plotClick(hist)` function as an output in our server.
+
+C) Add in a `plot_click(hist)` function as an output in our server.
+
+D) Add in the `hist()` the `click =` parameter with a unique object name (e.g., "plot_click").
+
+## Question 5
+
+If we called our click object "plot_click" in Question 4, how would we call it in [A]?
+
+A) `output$plot_click`
+
+B) `input$plot_click`
+
+C) `plot_click`
+
+D) `hist$plot_click`

@@ -12,7 +12,6 @@ editor_options:
   chunk_output_type: console
 ---
 
-
 # Tweet of the day
 
 <blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">Text mining: I really like the tidytext book by <a href="https://twitter.com/juliasilge?ref_src=twsrc%5Etfw">@juliasilge</a> and <a href="https://twitter.com/drob?ref_src=twsrc%5Etfw">@drob</a>: <a href="https://t.co/zgoHq5jr5v">https://t.co/zgoHq5jr5v</a>. And I&#39;m increasingly convinced the single best and most comprehensive resource is <a href="https://twitter.com/kenbenoit?ref_src=twsrc%5Etfw">@kenbenoit</a>&#39;s quanteda: <a href="https://t.co/aVc3N4BCA5">https://t.co/aVc3N4BCA5</a>. It&#39;s tutorials are esp great: <a href="https://t.co/XB5km9OAZm">https://t.co/XB5km9OAZm</a></p>&mdash; Mike Kearney📊 (@kearneymw) <a href="https://twitter.com/kearneymw/status/991861570174058497?ref_src=twsrc%5Etfw">May 3, 2018</a></blockquote>
