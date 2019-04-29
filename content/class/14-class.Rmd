@@ -34,7 +34,7 @@ editor_options:
 docker run -e PASSWORD=[create_a_pwd] -p 8787:8787 rocker/ml
 ```
 
-![play-with-docker.com option](https://raw.githubusercontent.com/wesslen/dsba5122-spring2019/master/static/images/class/play-with-docker.png)
+^[{-} ![play-with-docker.com option](https://raw.githubusercontent.com/wesslen/dsba5122-spring2019/master/static/images/class/play-with-docker.png)]
 
 ## 3. Open RStudio via port 8787 
 
