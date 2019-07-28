@@ -1,4 +1,4 @@
-baseURL: "https://dsba5122-spring2019.netlify.com"
+baseURL: "https://dsba5122-fall2019.netlify.com"
 languageCode: en-us
 title: Visual Analytics
 theme: "ath-tufte-hugo_18-19"
@@ -28,16 +28,16 @@ menu:
       url: /reference/
       weight: 8
     - name: Canvas
-      url: "https://uncc.instructure.com/courses/100065"
+      url: "https://uncc.instructure.com/courses/xxxx"
       weight: 4
     - name: RStudio.cloud
-      url: "https://rstudio.cloud/spaces/7976/"
+      url: "https://rstudio.cloud/spaces/xxxx/"
       weight: 5
     - name: Class Slack
-      url: "https://unccdsba5122s2019.slack.com"
+      url: "https://dsba5122fall2019.slack.com"
       weight: 6
     - name: DataCamp
-      url: "https://www.datacamp.com/groups/dsba5122-visual-analytics-58036aae-d5c5-424e-aa2a-eab645c8a12a"
+      url: "https://www.datacamp.com/groups/xxxx"
       weight: 7
 # Disable taxonomies
 taxonomies:
@@ -56,14 +56,14 @@ params:
     office: CenterCity
   course:
     number: DSBA 5122
-    semester: Spring 2019
+    semester: Fall 2019
     days: "Mondays"
     time: "6:00–8:45 PM"
-    location: "Room 110M: Packard Place"
+    location: "CenterCity 905"
     twitter: ryanwesslen
-    dates: "January 14 – May 6, 2019"
-    github: "wesslen/dsba5122-spring2019"
-    slack: "https://unccdsba5122s2019.slack.com"
+    dates: "August 19 – May 6, 2019"
+    github: "wesslen/dsba5122-fall2019"
+    slack: "https://dsba5122fall2019.slack.com"
     copyrightYear: "2019"
     contactDetails: >-
       [Office Hours via Calendly](https://calendly.com/rwesslen/15min/)

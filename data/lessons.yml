@@ -3,123 +3,123 @@ lessons:
     header: True
 
   - title: "Intro to Visual Analytics"
-    date: "January 14"
+    date: "August 19"
     reading: "01-reading"
     class: "01-class"
     
-  - title: "**Datacamp course 1 (Due Jan 29)**"
-    date: "January 14"
+  - title: "**Datacamp course 1 (Due Sept 3)**"
+    date: "August 19"
     assignment: "01-datacamp"
     
-  - title: "No class (MLK Holiday)"
-    date: "January 21"
-
   - title: "Visual Representation Basics I"
-    date: "January 28"
+    date: "August 26"
     reading: "02-reading"
     class: "02-class"
     
-  - title: "**Problem set 1 (Due Feb 11)**"
-    date: "January 28"
+  - title: "**Problem set 1 (Due Sept 9)**"
+    date: "August 26"
     assignment: "01-problem-set"
+    
+  - title: "No class (MLK Holiday)"
+    date: "September 2"
 
   - title: "Visual Representation Basics II"
-    date: "February 4"
+    date: "September 9"
     reading: "03-reading"
     class: "03-class"
     
-  - title: "**Datacamp course 2 (Due Feb 19)**"
-    date: "February 4"
+  - title: "**Datacamp course 2 (Due Sept 23)**"
+    date: "September 9"
     assignment: "02-datacamp"
     
   - title: "Time & Space"
-    date: "February 11"
+    date: "September 16"
     reading: "04-reading"
     class: "04-class"
 
   - title: "Distributions & Uncertainty"
-    date: "February 18"
+    date: "September 23"
     reading: "05-reading"
     class: "05-class"
     
-  - title: "**Problem set 2 (Due Mar 11)**"
-    date: "February 18"
+  - title: "**Problem set 2 (Due Oct 7)**"
+    date: "September 23"
     assignment: "02-problem-set"
 
   - title: '<span class="fake-header-table">Interactive Visualizations</span>'
     header: True
 
   - title: "Statistical Models"
-    date: "February 25"
+    date: "September 30"
     reading: "06-reading"
     class: "06-class"
     
-  - title: "**Design Contest assigned (Due Mar 25)**"
-    date: "February 25"
+  - title: "**Design Contest assigned (Due Oct 28)**"
+    date: "September 30"
     assignment: "design-contest"
     
   - title: "**Datacamp course 3 (Due Mar 12)**"
-    date: "February 25"
+    date: "September 30"
     assignment: "03-datacamp"
     
-  - title: "No class (Spring Break)"
-    date: "March 4"
+  - title: "No class (Fall Break)"
+    date: "October 7"
 
   - title: "Multidimensional &\nDimensionality Reduction"
-    date: "March 11"
+    date: "October 14"
     reading: "07-reading"
     class: "07-class"
 
   - title: "Text-as-Data"
-    date: "March 18"
+    date: "October 21"
     reading: "08-reading"
     class: "08-class"
 
   - title: "Design Contest Presentations"
-    date: "March 25"
+    date: "October 28"
     class: "09-class"
   
-  - title: "**Problem set 3 (Due Apr 8)**"
-    date: "March 25"
+  - title: "**Problem set 3 (Due Nov 11)**"
+    date: "October 28"
     assignment: "03-problem-set"
     
   - title: "Networks and Trees"
-    date: "April 1"
+    date: "November 4"
     reading: "10-reading"
     class: "10-class"
     
-  - title: "**Final project assigned (Due May 6)**"
-    date: "April 1"
+  - title: "**Final project assigned (Due Dec 9)**"
+    date: "November 4"
     assignment: "final-project"
     
-  - title: "**Datacamp course 4 (Due Apr 16)**"
-    date: "April 1"
+  - title: "**Datacamp course 4 (Due Nov 19)**"
+    date: "November 4"
     assignment: "04-datacamp"
 
   - title: '<span class="fake-header-table">Building Shiny Apps</span>'
     header: True
 
   - title: "Coordinated Multiple Views: Interacting & Brushing"
-    date: "April 8"
+    date: "November 11"
     reading: "11-reading"
     class: "11-class"
 
   - title: "In Production: Deployment, Back-end, & Scalability"
-    date: "April 15"
+    date: "November 18"
     reading: "12-reading"
     class: "12-class"
     
-  - title: "**Problem set 4 (Due May 2)**"
-    date: "April 19"
+  - title: "**Problem set 4 (Due Dec 2)**"
+    date: "November 18"
     assignment: "04-problem-set"
 
   - title: "Human-Centered Machine Learning"
-    date: "April 22"
+    date: "November 25"
     reading: "13-reading"
     class: "13-class"
 
   - title: "Python"
-    date: "April 29"
+    date: "December 2"
     #reading: "14-reading"
     class: "14-class"
 
@@ -127,5 +127,5 @@ lessons:
     header: True
 
   - title: "**Final project due**"
-    date: "May 6"
+    date: "December 9"
     #assignment: "final-project-info"

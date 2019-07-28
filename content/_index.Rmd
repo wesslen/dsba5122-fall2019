@@ -3,7 +3,7 @@ title: "Data visualization"
 author: "Ryan Wesslen"
 ---
 
-^[{-} `r blogdown::shortcode("courseinfo")`] <span class="newthought">This site contains</span> the syllabus, schedule, and assignments for DSBA5122: Visual Analytics, held during Spring 2019 at University of North Carolina at Charlotte.
+^[{-} `r blogdown::shortcode("courseinfo")`] <span class="newthought">This site contains</span> the syllabus, schedule, and assignments for DSBA5122: Visual Analytics, held during Fall 2019 at University of North Carolina at Charlotte.
 
 By the end of this course, you will become: 
 

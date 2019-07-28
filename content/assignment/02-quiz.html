@@ -96,7 +96,7 @@ code span.wa { color: #bf0303; } /* Warning */
 </ol>
 <h3 id="use-this-dataset-for-questions-3-4-and-5">Use this dataset for Questions 3, 4 and 5</h3>
 <p>This dataset includes hourly weather updates for New York City’s JFK airport for 2013.</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" title="1"><span class="kw">head</span>(jfkWeather, <span class="dt">n =</span> <span class="dv">5</span>)</a></code></pre></div>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">head</span>(jfkWeather, <span class="dt">n =</span> <span class="dv">5</span>)</code></pre>
 <pre><code>## # A tibble: 5 x 9
 ##   month      day  hour  temp  dewp humid wind_dir wind_speed precip
 ##   &lt;fct&gt;    &lt;int&gt; &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;    &lt;dbl&gt;      &lt;dbl&gt;  &lt;dbl&gt;
@@ -106,79 +106,79 @@ code span.wa { color: #bf0303; } /* Warning */
 ## 4 Jan 2013     1     4  39.9  28.0  62.2      250       17.3      0
 ## 5 Jan 2013     1     5  39.0  27.0  61.6      260       15.0      0</code></pre>
 <p>We will use two libraries.</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb3-1" title="1"><span class="kw">library</span>(tidyverse)</a>
-<a class="sourceLine" id="cb3-2" title="2"><span class="kw">library</span>(ggridges)</a></code></pre></div>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(tidyverse)
+<span class="kw">library</span>(ggridges)</code></pre>
 <h3 id="question-3">Question 3</h3>
 <p>Which code produces this plot:</p>
 <p><img src="/assignment/02-quiz_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
 <ol style="list-style-type: upper-alpha">
 <li></li>
 </ol>
-<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb4-1" title="1">jfkWeather <span class="op">%&gt;%</span></a>
-<a class="sourceLine" id="cb4-2" title="2"><span class="st">  </span><span class="kw">ggplot</span>(<span class="dt">x =</span> temp, <span class="dt">y =</span> density, <span class="dt">fill =</span> month) <span class="op">+</span></a>
-<a class="sourceLine" id="cb4-3" title="3"><span class="st">  </span><span class="kw">geom_density</span>(<span class="dt">alpha =</span> <span class="fl">0.4</span>)</a></code></pre></div>
+<pre class="sourceCode r"><code class="sourceCode r">jfkWeather <span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">ggplot</span>(<span class="dt">x =</span> temp, <span class="dt">y =</span> density, <span class="dt">fill =</span> month) <span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_density</span>(<span class="dt">alpha =</span> <span class="fl">0.4</span>)</code></pre>
 <ol start="2" style="list-style-type: upper-alpha">
 <li></li>
 </ol>
-<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb5-1" title="1"><span class="kw">ggplot</span>(jfkWeather, <span class="kw">aes</span>(<span class="dt">x =</span> temp, <span class="dt">y =</span> density, <span class="dt">color =</span> month)) <span class="op">+</span></a>
-<a class="sourceLine" id="cb5-2" title="2"><span class="st">  </span><span class="kw">geom_distribution</span>(<span class="dt">alpha =</span> <span class="fl">0.4</span>)</a></code></pre></div>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">ggplot</span>(jfkWeather, <span class="kw">aes</span>(<span class="dt">x =</span> temp, <span class="dt">y =</span> density, <span class="dt">color =</span> month)) <span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_distribution</span>(<span class="dt">alpha =</span> <span class="fl">0.4</span>)</code></pre>
 <ol start="3" style="list-style-type: upper-alpha">
 <li></li>
 </ol>
-<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb6-1" title="1">jfkWeather <span class="op">%&gt;%</span></a>
-<a class="sourceLine" id="cb6-2" title="2"><span class="st">  </span><span class="kw">ggplot</span>(<span class="kw">aes</span>(<span class="dt">x =</span> temp, <span class="dt">fill =</span> month)) <span class="op">+</span></a>
-<a class="sourceLine" id="cb6-3" title="3"><span class="st">  </span><span class="kw">geom_density</span>(<span class="dt">alpha =</span> <span class="fl">0.4</span>)</a></code></pre></div>
+<pre class="sourceCode r"><code class="sourceCode r">jfkWeather <span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">ggplot</span>(<span class="kw">aes</span>(<span class="dt">x =</span> temp, <span class="dt">fill =</span> month)) <span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_density</span>(<span class="dt">alpha =</span> <span class="fl">0.4</span>)</code></pre>
 <ol start="4" style="list-style-type: upper-alpha">
 <li></li>
 </ol>
-<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb7-1" title="1">jfkWeather <span class="op">%&gt;%</span></a>
-<a class="sourceLine" id="cb7-2" title="2"><span class="st">  </span><span class="kw">ggplot</span>(<span class="kw">aes</span>(<span class="dt">x =</span> temp, <span class="dt">color =</span> month)) <span class="op">+</span></a>
-<a class="sourceLine" id="cb7-3" title="3"><span class="st">  </span><span class="kw">geom_kernel</span>(<span class="dt">alpha =</span> <span class="fl">0.4</span>)</a></code></pre></div>
+<pre class="sourceCode r"><code class="sourceCode r">jfkWeather <span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">ggplot</span>(<span class="kw">aes</span>(<span class="dt">x =</span> temp, <span class="dt">color =</span> month)) <span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_kernel</span>(<span class="dt">alpha =</span> <span class="fl">0.4</span>)</code></pre>
 <h3 id="question-4">Question 4</h3>
 <p>Which code (using <code>ggridges</code>) produces this plot:</p>
 <p><img src="/assignment/02-quiz_files/figure-html/unnamed-chunk-8-1.png" width="672" /></p>
 <ol style="list-style-type: upper-alpha">
 <li></li>
 </ol>
-<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb8-1" title="1">jfkWeather <span class="op">%&gt;%</span></a>
-<a class="sourceLine" id="cb8-2" title="2"><span class="st">  </span><span class="kw">ggplot</span>(<span class="kw">aes</span>(<span class="dt">x =</span> temp, <span class="dt">y =</span> month, <span class="dt">color =</span> month)) <span class="op">+</span></a>
-<a class="sourceLine" id="cb8-3" title="3"><span class="st">  </span><span class="kw">geom_density</span>(<span class="dt">alpha =</span> <span class="fl">0.4</span>) <span class="op">+</span><span class="st"> </span></a>
-<a class="sourceLine" id="cb8-4" title="4"><span class="st">  </span><span class="kw">theme_bw</span>() <span class="op">+</span></a>
-<a class="sourceLine" id="cb8-5" title="5"><span class="st">  </span><span class="kw">theme</span>(<span class="dt">legend.position =</span> <span class="st">&quot;none&quot;</span>)</a></code></pre></div>
+<pre class="sourceCode r"><code class="sourceCode r">jfkWeather <span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">ggplot</span>(<span class="kw">aes</span>(<span class="dt">x =</span> temp, <span class="dt">y =</span> month, <span class="dt">color =</span> month)) <span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_density</span>(<span class="dt">alpha =</span> <span class="fl">0.4</span>) <span class="op">+</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">theme_bw</span>() <span class="op">+</span>
+<span class="st">  </span><span class="kw">theme</span>(<span class="dt">legend.position =</span> <span class="st">&quot;none&quot;</span>)</code></pre>
 <ol start="2" style="list-style-type: upper-alpha">
 <li></li>
 </ol>
-<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb9-1" title="1">jfkWeather <span class="op">%&gt;%</span></a>
-<a class="sourceLine" id="cb9-2" title="2"><span class="st">  </span><span class="kw">ggplot</span>(<span class="kw">aes</span>(<span class="dt">x =</span> temp, <span class="dt">y =</span> month, <span class="dt">fill =</span> month)) <span class="op">+</span></a>
-<a class="sourceLine" id="cb9-3" title="3"><span class="st">  </span><span class="kw">geom_kernel</span>(<span class="dt">adjust =</span> <span class="fl">0.4</span>) <span class="op">+</span><span class="st"> </span></a>
-<a class="sourceLine" id="cb9-4" title="4"><span class="st">  </span><span class="kw">theme_bw</span>(<span class="dt">legend.position =</span> <span class="st">&quot;none&quot;</span>)</a></code></pre></div>
+<pre class="sourceCode r"><code class="sourceCode r">jfkWeather <span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">ggplot</span>(<span class="kw">aes</span>(<span class="dt">x =</span> temp, <span class="dt">y =</span> month, <span class="dt">fill =</span> month)) <span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_kernel</span>(<span class="dt">adjust =</span> <span class="fl">0.4</span>) <span class="op">+</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">theme_bw</span>(<span class="dt">legend.position =</span> <span class="st">&quot;none&quot;</span>)</code></pre>
 <ol start="3" style="list-style-type: upper-alpha">
 <li></li>
 </ol>
-<div class="sourceCode" id="cb10"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb10-1" title="1">jfkWeather <span class="op">%&gt;%</span></a>
-<a class="sourceLine" id="cb10-2" title="2"><span class="st">  </span><span class="kw">ggplot</span>(<span class="dt">x =</span> temp, <span class="dt">y =</span> year, <span class="dt">color =</span> year) <span class="op">+</span></a>
-<a class="sourceLine" id="cb10-3" title="3"><span class="st">  </span><span class="kw">geom_density</span>(<span class="dt">adjust =</span> <span class="fl">0.4</span>) <span class="op">+</span><span class="st"> </span></a>
-<a class="sourceLine" id="cb10-4" title="4"><span class="st">  </span><span class="kw">theme_bw</span>() <span class="op">+</span></a>
-<a class="sourceLine" id="cb10-5" title="5"><span class="st">  </span><span class="kw">theme</span>(<span class="dt">legend.position =</span> <span class="st">&quot;none&quot;</span>)</a></code></pre></div>
+<pre class="sourceCode r"><code class="sourceCode r">jfkWeather <span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">ggplot</span>(<span class="dt">x =</span> temp, <span class="dt">y =</span> year, <span class="dt">color =</span> year) <span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_density</span>(<span class="dt">adjust =</span> <span class="fl">0.4</span>) <span class="op">+</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">theme_bw</span>() <span class="op">+</span>
+<span class="st">  </span><span class="kw">theme</span>(<span class="dt">legend.position =</span> <span class="st">&quot;none&quot;</span>)</code></pre>
 <ol start="4" style="list-style-type: upper-alpha">
 <li></li>
 </ol>
-<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb11-1" title="1">jfkWeather <span class="op">%&gt;%</span></a>
-<a class="sourceLine" id="cb11-2" title="2"><span class="st">  </span><span class="kw">ggplot</span>(<span class="kw">aes</span>(<span class="dt">x =</span> temp, <span class="dt">y =</span> month, <span class="dt">fill =</span> month)) <span class="op">+</span></a>
-<a class="sourceLine" id="cb11-3" title="3"><span class="st">  </span><span class="kw">geom_density_ridges</span>(<span class="dt">alpha =</span> <span class="fl">0.4</span>) <span class="op">+</span><span class="st"> </span></a>
-<a class="sourceLine" id="cb11-4" title="4"><span class="st">  </span><span class="kw">theme_bw</span>() <span class="op">+</span></a>
-<a class="sourceLine" id="cb11-5" title="5"><span class="st">  </span><span class="kw">theme</span>(<span class="dt">legend.position =</span> <span class="st">&quot;none&quot;</span>)</a></code></pre></div>
+<pre class="sourceCode r"><code class="sourceCode r">jfkWeather <span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">ggplot</span>(<span class="kw">aes</span>(<span class="dt">x =</span> temp, <span class="dt">y =</span> month, <span class="dt">fill =</span> month)) <span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_density_ridges</span>(<span class="dt">alpha =</span> <span class="fl">0.4</span>) <span class="op">+</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">theme_bw</span>() <span class="op">+</span>
+<span class="st">  </span><span class="kw">theme</span>(<span class="dt">legend.position =</span> <span class="st">&quot;none&quot;</span>)</code></pre>
 <h3 id="question-5">Question 5</h3>
 <p>The following plot provides the average hourly temperature at JFK airport for Jan - Mar 2013 with bootstrapped 95 percent confidence intervals using error bars.</p>
-<div class="sourceCode" id="cb12"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb12-1" title="1">jfkWeather <span class="op">%&gt;%</span></a>
-<a class="sourceLine" id="cb12-2" title="2"><span class="st">  </span><span class="kw">filter</span>(month <span class="op">%in%</span><span class="st"> </span><span class="kw">c</span>(<span class="st">&quot;Jan 2013&quot;</span>,<span class="st">&quot;Feb 2013&quot;</span>,<span class="st">&quot;Mar 2013&quot;</span>)) <span class="op">%&gt;%</span></a>
-<a class="sourceLine" id="cb12-3" title="3"><span class="st">  </span><span class="kw">ggplot</span>(<span class="kw">aes</span>(<span class="dt">x =</span> month, <span class="dt">y =</span> temp)) <span class="op">+</span></a>
-<a class="sourceLine" id="cb12-4" title="4"><span class="st">  </span><span class="kw">stat_summary</span>(<span class="dt">fun.y =</span> mean, <span class="dt">geom =</span> <span class="st">&quot;point&quot;</span>) <span class="op">+</span><span class="st"> </span></a>
-<a class="sourceLine" id="cb12-5" title="5"><span class="st">  </span><span class="kw">stat_summary</span>(<span class="dt">fun.data =</span> mean_cl_boot, <span class="dt">geom =</span> <span class="st">&quot;errorbar&quot;</span>, <span class="dt">fun.args=</span><span class="kw">list</span>(<span class="dt">conf.int =</span> <span class="fl">.95</span>) ) <span class="op">+</span><span class="st"> </span></a>
-<a class="sourceLine" id="cb12-6" title="6"><span class="st">  </span><span class="kw">theme_bw</span>() <span class="op">+</span></a>
-<a class="sourceLine" id="cb12-7" title="7"><span class="st">  </span><span class="kw">coord_flip</span>() <span class="op">+</span></a>
-<a class="sourceLine" id="cb12-8" title="8"><span class="st">  </span><span class="kw">scale_y_continuous</span>(<span class="dt">breaks=</span> <span class="kw">seq</span>(<span class="dv">32</span>,<span class="dv">40</span>,<span class="dt">by=</span><span class="fl">0.5</span>)) <span class="op">+</span></a>
-<a class="sourceLine" id="cb12-9" title="9"><span class="st">  </span><span class="kw">labs</span>(<span class="dt">x =</span> <span class="st">&quot; &quot;</span>, <span class="dt">y =</span> <span class="st">&quot;Hourly Temperature&quot;</span>)</a></code></pre></div>
+<pre class="sourceCode r"><code class="sourceCode r">jfkWeather <span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">filter</span>(month <span class="op">%in%</span><span class="st"> </span><span class="kw">c</span>(<span class="st">&quot;Jan 2013&quot;</span>,<span class="st">&quot;Feb 2013&quot;</span>,<span class="st">&quot;Mar 2013&quot;</span>)) <span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">ggplot</span>(<span class="kw">aes</span>(<span class="dt">x =</span> month, <span class="dt">y =</span> temp)) <span class="op">+</span>
+<span class="st">  </span><span class="kw">stat_summary</span>(<span class="dt">fun.y =</span> mean, <span class="dt">geom =</span> <span class="st">&quot;point&quot;</span>) <span class="op">+</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">stat_summary</span>(<span class="dt">fun.data =</span> mean_cl_boot, <span class="dt">geom =</span> <span class="st">&quot;errorbar&quot;</span>, <span class="dt">fun.args=</span><span class="kw">list</span>(<span class="dt">conf.int =</span> <span class="fl">.95</span>) ) <span class="op">+</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">theme_bw</span>() <span class="op">+</span>
+<span class="st">  </span><span class="kw">coord_flip</span>() <span class="op">+</span>
+<span class="st">  </span><span class="kw">scale_y_continuous</span>(<span class="dt">breaks=</span> <span class="kw">seq</span>(<span class="dv">32</span>,<span class="dv">40</span>,<span class="dt">by=</span><span class="fl">0.5</span>)) <span class="op">+</span>
+<span class="st">  </span><span class="kw">labs</span>(<span class="dt">x =</span> <span class="st">&quot; &quot;</span>, <span class="dt">y =</span> <span class="st">&quot;Hourly Temperature&quot;</span>)</code></pre>
 <p><img src="/assignment/02-quiz_files/figure-html/unnamed-chunk-13-1.png" width="576" /></p>
 <p>What is the correct interpretation of the bootstrapped confidence intervals in this plot?</p>
 <ol style="list-style-type: upper-alpha">

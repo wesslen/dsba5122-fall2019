@@ -2,78 +2,78 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Assignments on Visual Analytics</title>
-    <link>https://dsba5122-spring2019.netlify.com/assignment/</link>
+    <link>https://dsba5122-fall2019.netlify.com/assignment/</link>
     <description>Recent content in Assignments on Visual Analytics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 22 Apr 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://dsba5122-spring2019.netlify.com/assignment/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://dsba5122-fall2019.netlify.com/assignment/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Quiz 5</title>
-      <link>https://dsba5122-spring2019.netlify.com/assignment/05-quiz/</link>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/05-quiz/</link>
       <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dsba5122-spring2019.netlify.com/assignment/05-quiz/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/05-quiz/</guid>
       <description>a.sourceLine { display: inline-block; line-height: 1.25; } a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; } a.sourceLine:empty { height: 1.2em; } .sourceCode { overflow: visible; } code.sourceCode { white-space: pre; position: relative; } div.sourceCode { margin: 1em 0; } pre.sourceCode { margin: 0; } @media screen { div.sourceCode { overflow: auto; } } @media print { code.sourceCode { white-space: pre-wrap; } a.sourceLine { text-indent: -1em; padding-left: 1em; } } pre.</description>
     </item>
     
     <item>
       <title>Problem set 4</title>
-      <link>https://dsba5122-spring2019.netlify.com/assignment/04-problem-set/</link>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/04-problem-set/</link>
       <pubDate>Thu, 18 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dsba5122-spring2019.netlify.com/assignment/04-problem-set/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/04-problem-set/</guid>
       <description>Task 0: Getting started For this problem set, you’ll learn blogdown, an R package that enables building websites through Hugo, a web framework. Like shiny, blogdown enable you to use a more complex framework (i.e., Hugo) but through R functions and syntax that you’ve been learning about all semester.
 I recommend running this exercise on your personal laptop, mainly so you’ll have this blog site already saved on your own personal computer.</description>
     </item>
     
     <item>
       <title>Quiz 4</title>
-      <link>https://dsba5122-spring2019.netlify.com/assignment/04-quiz/</link>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/04-quiz/</link>
       <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dsba5122-spring2019.netlify.com/assignment/04-quiz/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/04-quiz/</guid>
       <description>a.sourceLine { display: inline-block; line-height: 1.25; } a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; } a.sourceLine:empty { height: 1.2em; } .sourceCode { overflow: visible; } code.sourceCode { white-space: pre; position: relative; } div.sourceCode { margin: 1em 0; } pre.sourceCode { margin: 0; } @media screen { div.sourceCode { overflow: auto; } } @media print { code.sourceCode { white-space: pre-wrap; } a.sourceLine { text-indent: -1em; padding-left: 1em; } } pre.</description>
     </item>
     
     <item>
       <title>Datacamp Course 4</title>
-      <link>https://dsba5122-spring2019.netlify.com/assignment/04-datacamp/</link>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/04-datacamp/</link>
       <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dsba5122-spring2019.netlify.com/assignment/04-datacamp/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/04-datacamp/</guid>
       <description>DataCamp Course: Building Web Applications in R with Shiny: Case Studies by Dean Attali Here is the link to the assigned course.
 For this DataCamp course, you’ll learn more about shiny using hands on case studies. The instructor for this course is a shiny expert who’s shinyjs package helps blend JavaScript code snippets within Shiny. He also has a great advanced shiny blog post that provides a lot of great tips for more customized functionality.</description>
     </item>
     
     <item>
       <title>Final project</title>
-      <link>https://dsba5122-spring2019.netlify.com/assignment/final-project/</link>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/final-project/</link>
       <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dsba5122-spring2019.netlify.com/assignment/final-project/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/final-project/</guid>
       <description>Objective: Develop a Shiny app based on any data-related topic.&amp;#8853;
 Dataset: This is up to your group. You may use a dataset from the design contest (the same or a different data set) or select your own. Warning, don’t overthink selecting your dataset. I will request you make a decision on your data set by April 8, 2019 (send me by email). This is the most important step to start with.</description>
     </item>
     
     <item>
       <title>Problem set 3</title>
-      <link>https://dsba5122-spring2019.netlify.com/assignment/03-problem-set/</link>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/03-problem-set/</link>
       <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dsba5122-spring2019.netlify.com/assignment/03-problem-set/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/03-problem-set/</guid>
       <description>a.sourceLine { display: inline-block; line-height: 1.25; } a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; } a.sourceLine:empty { height: 1.2em; } .sourceCode { overflow: visible; } code.sourceCode { white-space: pre; position: relative; } div.sourceCode { margin: 1em 0; } pre.sourceCode { margin: 0; } @media screen { div.sourceCode { overflow: auto; } } @media print { code.sourceCode { white-space: pre-wrap; } a.sourceLine { text-indent: -1em; padding-left: 1em; } } pre.</description>
     </item>
     
     <item>
       <title>Quiz 3</title>
-      <link>https://dsba5122-spring2019.netlify.com/assignment/03-quiz/</link>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/03-quiz/</link>
       <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dsba5122-spring2019.netlify.com/assignment/03-quiz/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/03-quiz/</guid>
       <description>Name: _____________________
 Student ID: _________________________
 This quiz is closed-note. You will have 10 minutes to complete.
@@ -87,20 +87,20 @@ Multi-Dimensional Scaling (MDS)
     
     <item>
       <title>Datacamp Course 3</title>
-      <link>https://dsba5122-spring2019.netlify.com/assignment/03-datacamp/</link>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/03-datacamp/</link>
       <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dsba5122-spring2019.netlify.com/assignment/03-datacamp/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/03-datacamp/</guid>
       <description>DataCamp Course: Building Web Applications in R with Shiny by Mine Cetinkaya-Rundel Here is the link to the assigned course.
 For this DataCamp course, you’ll learn about shiny, the framework for developing html-based interactive visualizations without requiring HTML, CSS, or JavaScript experiment (though it will help tremendously if you have a background).</description>
     </item>
     
     <item>
       <title>Design contest</title>
-      <link>https://dsba5122-spring2019.netlify.com/assignment/design-contest/</link>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/design-contest/</link>
       <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dsba5122-spring2019.netlify.com/assignment/design-contest/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/design-contest/</guid>
       <description>Datasets:
 Choose from one of four datasets.
 babynames: US baby name data for each year from 1880 to 2013, the number of children of each sex given each name. All names used 5 or more times are included. 1,792,091 rows, 5 columns (year, sex, name, n, prop). (Source: Social security administration).
@@ -109,19 +109,19 @@ babynames: US baby name data for each year from 1880 to 2013, the number of chil
     
     <item>
       <title>Quiz 2</title>
-      <link>https://dsba5122-spring2019.netlify.com/assignment/02-quiz/</link>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/02-quiz/</link>
       <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dsba5122-spring2019.netlify.com/assignment/02-quiz/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/02-quiz/</guid>
       <description>a.sourceLine { display: inline-block; line-height: 1.25; } a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; } a.sourceLine:empty { height: 1.2em; } .sourceCode { overflow: visible; } code.sourceCode { white-space: pre; position: relative; } div.sourceCode { margin: 1em 0; } pre.sourceCode { margin: 0; } @media screen { div.sourceCode { overflow: auto; } } @media print { code.sourceCode { white-space: pre-wrap; } a.sourceLine { text-indent: -1em; padding-left: 1em; } } pre.</description>
     </item>
     
     <item>
       <title>Problem set 2</title>
-      <link>https://dsba5122-spring2019.netlify.com/assignment/02-problem-set/</link>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/02-problem-set/</link>
       <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dsba5122-spring2019.netlify.com/assignment/02-problem-set/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/02-problem-set/</guid>
       <description>Task 0: Getting started Create a new RStudio project somewhere on your computer.&amp;#8853;Remember, in RStudio, “File &amp;gt; New Project ..”)
  Open that new folder in Windows Explorer or macOS Finder (however you navigate around the files on your computer), and create a subfolder there named data.
 Download the file below and place it in your new data/ folder.&amp;#8853;You’ll probably need to right click on each and choose “Save link as…”.</description>
@@ -129,38 +129,38 @@ Download the file below and place it in your new data/ folder.&amp;#8853;You’l
     
     <item>
       <title>Datacamp Course 2</title>
-      <link>https://dsba5122-spring2019.netlify.com/assignment/02-datacamp/</link>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/02-datacamp/</link>
       <pubDate>Mon, 04 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dsba5122-spring2019.netlify.com/assignment/02-datacamp/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/02-datacamp/</guid>
       <description>DataCamp Course: Exploratory Data Analysis in R by David Robinson Here is the link to the assigned course.
 For this DataCamp course, you’ll learn about doing exploratory data analysis, focusing on ggplot2 and the related tidyverse packages (e.g., dplyr, broom).</description>
     </item>
     
     <item>
       <title>Quiz 1</title>
-      <link>https://dsba5122-spring2019.netlify.com/assignment/01-quiz/</link>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/01-quiz/</link>
       <pubDate>Mon, 04 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dsba5122-spring2019.netlify.com/assignment/01-quiz/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/01-quiz/</guid>
       <description>a.sourceLine { display: inline-block; line-height: 1.25; } a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; } a.sourceLine:empty { height: 1.2em; } .sourceCode { overflow: visible; } code.sourceCode { white-space: pre; position: relative; } div.sourceCode { margin: 1em 0; } pre.sourceCode { margin: 0; } @media screen { div.sourceCode { overflow: auto; } } @media print { code.sourceCode { white-space: pre-wrap; } a.sourceLine { text-indent: -1em; padding-left: 1em; } } pre.</description>
     </item>
     
     <item>
       <title>Problem set 1</title>
-      <link>https://dsba5122-spring2019.netlify.com/assignment/01-problem-set/</link>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/01-problem-set/</link>
       <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dsba5122-spring2019.netlify.com/assignment/01-problem-set/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/01-problem-set/</guid>
       <description>a.sourceLine { display: inline-block; line-height: 1.25; } a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; } a.sourceLine:empty { height: 1.2em; } .sourceCode { overflow: visible; } code.sourceCode { white-space: pre; position: relative; } div.sourceCode { margin: 1em 0; } pre.sourceCode { margin: 0; } @media screen { div.sourceCode { overflow: auto; } } @media print { code.sourceCode { white-space: pre-wrap; } a.sourceLine { text-indent: -1em; padding-left: 1em; } } pre.</description>
     </item>
     
     <item>
       <title>Datacamp Course 1</title>
-      <link>https://dsba5122-spring2019.netlify.com/assignment/01-datacamp/</link>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/01-datacamp/</link>
       <pubDate>Mon, 14 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dsba5122-spring2019.netlify.com/assignment/01-datacamp/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/01-datacamp/</guid>
       <description>DataCamp Course: Introduction to the Tidyverse by David Robinson Here is the link to the assigned course.
 For this DataCamp course, you’ll learn about using tidyverse package from David Robinson, Chief Data Scientist for DataCamp.David is a prolific data scientist and blogger, whose blog “Variance Explained” is one of the most popular data science blogs. He has a great blog post discussing the background of this course.
 
