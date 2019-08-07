@@ -1,6 +1,6 @@
 ---
 title: "Intro to Visual Analytics"
-date: "2019-01-14"
+date: "2019-08-19"
 citeproc: false
 bibliography: ../../static/bib/references.bib
 csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
@@ -8,12 +8,4 @@ csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
 
 # Required
 
-Given this is the first class, there are no required readings.
-
-# Questions to reflect on
-
-- How do we know what is true?
-- Are facts truth?
-- Why do we visualize data?
-- What makes a great visualization?
-- How do you choose which kind of visualization to use?
+There are no required readings for the first class.

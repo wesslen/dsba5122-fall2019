@@ -6,10 +6,29 @@
     <description>Recent content in Readings on Visual Analytics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 22 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Aug 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://dsba5122-fall2019.netlify.com/reading/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Visual Representation Basics I</title>
+      <link>https://dsba5122-fall2019.netlify.com/reading/02-reading/</link>
+      <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-fall2019.netlify.com/reading/02-reading/</guid>
+      <description>Required   Chapter 3: Data visualization and Chapter 5: Data transformation in Garrett Grolemund and Hadley Wickham, R for Data ScienceHadley Wickham and Garrett Grolemund, R for Data Science: Import, Tidy, Transform, Visualize, and Model Data (Sebastopol, California: O’Reilly Media, 2017), http://r4ds.had.co.nz/.
+  Recommended   Chapter 2: Aesthetic mapping in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.</description>
+    </item>
+    
+    <item>
+      <title>Intro to Visual Analytics</title>
+      <link>https://dsba5122-fall2019.netlify.com/reading/01-reading/</link>
+      <pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-fall2019.netlify.com/reading/01-reading/</guid>
+      <description>Required There are no required readings for the first class.</description>
+    </item>
     
     <item>
       <title>Machine Learning</title>
@@ -117,42 +136,6 @@
     </item>
     
     <item>
-      <title>Visual Representation Basics II</title>
-      <link>https://dsba5122-fall2019.netlify.com/reading/03-reading/</link>
-      <pubDate>Mon, 04 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-fall2019.netlify.com/reading/03-reading/</guid>
-      <description>Required   Chapter 6: “Exploring Data with Simple Charts” in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
-
-  Chapter 4: Show the right numbers in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
-
-  Recommended   Chapter 5: Directory of visualizations and Chapter 22: Image file formats in Claus Wilke, Fundamentals of Data VisualizationClaus E.</description>
-    </item>
-    
-    <item>
-      <title>Visual Representation Basics I</title>
-      <link>https://dsba5122-fall2019.netlify.com/reading/02-reading/</link>
-      <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-fall2019.netlify.com/reading/02-reading/</guid>
-      <description>Required   Chapter 3: “Truth Continuum” and Chapter 5: “Basic Principles of Visualization” in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
-
-  Chapter 1: Look at data in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
-
-  Recommended   Chapter 2: Aesthetic mapping in Claus Wilke, Fundamentals of Data VisualizationClaus E.</description>
-    </item>
-    
-    <item>
-      <title>Intro to Visual Analytics</title>
-      <link>https://dsba5122-fall2019.netlify.com/reading/01-reading/</link>
-      <pubDate>Mon, 14 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-fall2019.netlify.com/reading/01-reading/</guid>
-      <description> Required Given this is the first class, there are no required readings.
-Questions to reflect on  How do we know what is true? Are facts truth? Why do we visualize data? What makes a great visualization? How do you choose which kind of visualization to use?  </description>
-    </item>
-    
-    <item>
       <title>Truth, beauty, and data revisited</title>
       <link>https://dsba5122-fall2019.netlify.com/reading/14-reading/</link>
       <pubDate>Tue, 11 Dec 2018 00:00:00 +0000</pubDate>
@@ -171,6 +154,18 @@ Questions to reflect on  How do we know what is true? Are facts truth? Why do we
       <guid>https://dsba5122-fall2019.netlify.com/reading/09-reading/</guid>
       <description>Required   Chapter 8 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
   The Nuclear Threat—The Shadow Peace, part 1  11 Ways to Visualize Changes Over Time – A Guide A bunch of (really) short blog posts:   Streamgraphs: Economic trade flows with R  A century of ocean shipping animated  What is seasonal adjustment and why is it used?</description>
+    </item>
+    
+    <item>
+      <title>Visual Representation Basics II</title>
+      <link>https://dsba5122-fall2019.netlify.com/reading/03-reading/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-fall2019.netlify.com/reading/03-reading/</guid>
+      <description>Required   Chapter 4: Show the right numbers in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
+  Recommended   Chapter 5: Directory of visualizations and Chapter 22: Image file formats in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
+
+  Chapter 7: Exploratory data analysis in Garrett Grolemund and Hadley Wickham, R for Data ScienceHadley Wickham and Garrett Grolemund, R for Data Science: Import, Tidy, Transform, Visualize, and Model Data (Sebastopol, California: O’Reilly Media, 2017), http://r4ds.</description>
     </item>
     
   </channel>

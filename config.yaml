@@ -28,16 +28,16 @@ menu:
       url: /reference/
       weight: 8
     - name: Canvas
-      url: "https://uncc.instructure.com/courses/xxxx"
+      url: "https://uncc.instructure.com/courses/110218"
       weight: 4
     - name: RStudio.cloud
-      url: "https://rstudio.cloud/spaces/xxxx/"
+      url: "https://rstudio.cloud/spaces/22733/"
       weight: 5
     - name: Class Slack
       url: "https://dsba5122fall2019.slack.com"
       weight: 6
     - name: DataCamp
-      url: "https://www.datacamp.com/groups/xxxx"
+      url: "https://www.datacamp.com/groups/dsba5122-visual-analytics-c9a5d247-7ed7-44d0-bed6-e8d85e26b19e"
       weight: 7
 # Disable taxonomies
 taxonomies:

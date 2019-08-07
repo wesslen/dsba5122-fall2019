@@ -6,10 +6,56 @@
     <description>Recent content in Data visualization on Visual Analytics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://dsba5122-fall2019.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Visual Representation Basics II</title>
+      <link>https://dsba5122-fall2019.netlify.com/class/03-class/</link>
+      <pubDate>Wed, 04 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-fall2019.netlify.com/class/03-class/</guid>
+      <description>Contents  Tweet of the Day Slides Links Lab 3: Make a plot (ggplot2)   Tweet of the Day 🌟 guide to visual encoding types from ???&#39;s “Visualization &amp;amp; Journalism” https://t.co/A2x96QYNoL #dataviz #infovis pic.twitter.com/2FIyXeWk4h — Mara Averick (@dataandme) October 17, 2018   Tamara Munzner is one of the most influential data visualization researchers. Her textbook “Visualization Analysis and Design” is one of the most popular data viz books and some of her former students are now leaders in data viz (e.</description>
+    </item>
+    
+    <item>
+      <title>Visual Representation Basics I</title>
+      <link>https://dsba5122-fall2019.netlify.com/class/02-class/</link>
+      <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-fall2019.netlify.com/class/02-class/</guid>
+      <description>Contents  Tweet of the day Slides Helpful Materials esquisse: ggplot2 add-in   Tweet of the day Visual encoding is itself a data transformation, often applied after a chain of other transformations. This is “first week of class”, table stakes stuff. Sad if true that we don’t internalize this! — Jeffrey Heer (@jeffrey_heer) August 11, 2018   Enrico Bertini is a data visualization researcher at NYU who co-hosts (with Moritz Stefaner) the podcast “Data Stories”, which I highly recommend.</description>
+    </item>
+    
+    <item>
+      <title>Visual Representation Basics I</title>
+      <link>https://dsba5122-fall2019.netlify.com/reading/02-reading/</link>
+      <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-fall2019.netlify.com/reading/02-reading/</guid>
+      <description>Required   Chapter 3: Data visualization and Chapter 5: Data transformation in Garrett Grolemund and Hadley Wickham, R for Data ScienceHadley Wickham and Garrett Grolemund, R for Data Science: Import, Tidy, Transform, Visualize, and Model Data (Sebastopol, California: O’Reilly Media, 2017), http://r4ds.had.co.nz/.
+  Recommended   Chapter 2: Aesthetic mapping in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.</description>
+    </item>
+    
+    <item>
+      <title>Intro to Visual Analytics</title>
+      <link>https://dsba5122-fall2019.netlify.com/reading/01-reading/</link>
+      <pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-fall2019.netlify.com/reading/01-reading/</guid>
+      <description>Required There are no required readings for the first class.</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Visual Analytics</title>
+      <link>https://dsba5122-fall2019.netlify.com/class/01-class/</link>
+      <pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-fall2019.netlify.com/class/01-class/</guid>
+      <description>Contents  Tweet of the day: Slides &amp;amp; Lab   Tweet of the day: Any time I have been struggling to learn a new tool/technology/software … I go back to this short clip I cut out of ???&#39;s 2014 ??? tutorial on Dplyr to motivate myself to keep pushing through … learning new tools is hard for everyone at the beginning! pic.twitter.com/RevpkSJqWc — Aliakbar Akbaritabar (Ali) (@Akbaritabar) July 25, 2018   Hadley Wickham is the R guru amongst gurus.</description>
+    </item>
     
     <item>
       <title>Python</title>
@@ -472,28 +518,6 @@ For this DataCamp course, you’ll learn about doing exploratory data analysis, 
     </item>
     
     <item>
-      <title>Visual Representation Basics II</title>
-      <link>https://dsba5122-fall2019.netlify.com/class/03-class/</link>
-      <pubDate>Mon, 04 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-fall2019.netlify.com/class/03-class/</guid>
-      <description>Contents  Tweet of the Day Slides Links Lab 3: Make a plot (ggplot2)   Tweet of the Day 🌟 guide to visual encoding types from ???&#39;s “Visualization &amp;amp; Journalism” https://t.co/A2x96QYNoL #dataviz #infovis pic.twitter.com/2FIyXeWk4h — Mara Averick (@dataandme) October 17, 2018   Tamara Munzner is one of the most influential data visualization researchers. Her textbook “Visualization Analysis and Design” is one of the most popular data viz books and some of her former students are now leaders in data viz (e.</description>
-    </item>
-    
-    <item>
-      <title>Visual Representation Basics II</title>
-      <link>https://dsba5122-fall2019.netlify.com/reading/03-reading/</link>
-      <pubDate>Mon, 04 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-fall2019.netlify.com/reading/03-reading/</guid>
-      <description>Required   Chapter 6: “Exploring Data with Simple Charts” in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
-
-  Chapter 4: Show the right numbers in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
-
-  Recommended   Chapter 5: Directory of visualizations and Chapter 22: Image file formats in Claus Wilke, Fundamentals of Data VisualizationClaus E.</description>
-    </item>
-    
-    <item>
       <title>DSBA 5122: Visual Analytics</title>
       <link>https://dsba5122-fall2019.netlify.com/slides/02-class/</link>
       <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
@@ -523,28 +547,6 @@ class: center, middle
     </item>
     
     <item>
-      <title>Visual Representation Basics I</title>
-      <link>https://dsba5122-fall2019.netlify.com/class/02-class/</link>
-      <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-fall2019.netlify.com/class/02-class/</guid>
-      <description>Contents  Tweet of the day Slides Helpful Materials esquisse: ggplot2 add-in   Tweet of the day Visual encoding is itself a data transformation, often applied after a chain of other transformations. This is “first week of class”, table stakes stuff. Sad if true that we don’t internalize this! — Jeffrey Heer (@jeffrey_heer) August 11, 2018   Enrico Bertini is a data visualization researcher at NYU who co-hosts (with Moritz Stefaner) the podcast “Data Stories”, which I highly recommend.</description>
-    </item>
-    
-    <item>
-      <title>Visual Representation Basics I</title>
-      <link>https://dsba5122-fall2019.netlify.com/reading/02-reading/</link>
-      <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-fall2019.netlify.com/reading/02-reading/</guid>
-      <description>Required   Chapter 3: “Truth Continuum” and Chapter 5: “Basic Principles of Visualization” in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
-
-  Chapter 1: Look at data in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
-
-  Recommended   Chapter 2: Aesthetic mapping in Claus Wilke, Fundamentals of Data VisualizationClaus E.</description>
-    </item>
-    
-    <item>
       <title>DSBA 5122: Visual Analytics</title>
       <link>https://dsba5122-fall2019.netlify.com/slides/01-class/</link>
       <pubDate>Mon, 14 Jan 2019 00:00:00 +0000</pubDate>
@@ -568,25 +570,6 @@ Welcome  Introduce yourself  Name
 For this DataCamp course, you’ll learn about using tidyverse package from David Robinson, Chief Data Scientist for DataCamp.David is a prolific data scientist and blogger, whose blog “Variance Explained” is one of the most popular data science blogs. He has a great blog post discussing the background of this course.
 
 This course has four chapters:</description>
-    </item>
-    
-    <item>
-      <title>Intro to Visual Analytics</title>
-      <link>https://dsba5122-fall2019.netlify.com/reading/01-reading/</link>
-      <pubDate>Mon, 14 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-fall2019.netlify.com/reading/01-reading/</guid>
-      <description> Required Given this is the first class, there are no required readings.
-Questions to reflect on  How do we know what is true? Are facts truth? Why do we visualize data? What makes a great visualization? How do you choose which kind of visualization to use?  </description>
-    </item>
-    
-    <item>
-      <title>Introduction to Visual Analytics</title>
-      <link>https://dsba5122-fall2019.netlify.com/class/01-class/</link>
-      <pubDate>Mon, 14 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-fall2019.netlify.com/class/01-class/</guid>
-      <description>Contents  Tweet of the day: Slides &amp;amp; Lab   Tweet of the day: Any time I have been struggling to learn a new tool/technology/software … I go back to this short clip I cut out of ???&#39;s 2014 ??? tutorial on Dplyr to motivate myself to keep pushing through … learning new tools is hard for everyone at the beginning! pic.twitter.com/RevpkSJqWc — Aliakbar Akbaritabar (Ali) (@Akbaritabar) July 25, 2018   Hadley Wickham is the R guru amongst gurus.</description>
     </item>
     
     <item>
@@ -616,9 +599,9 @@ Questions to reflect on  How do we know what is true? Are facts truth? Why do we
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-fall2019.netlify.com/assignments/</guid>
-      <description>DataCamp Courses You will need to complete four DataCamp courses, each is 2.5 points. Points will be allocated for all (2.5 points) for completion or 0 points (not completed) by the assigned date. These will be assigned on DataCamp and are intended to reinforce the programming assignments and material.
-About half-way through the semester (February-March), additional DataCamp courses may be provided for extra credit points.
-Problem sets To practice working with RStudio and making data-based graphics, you will complete a series of 4 problem sets.</description>
+      <description>Attendance &amp;amp; Participation You are expected to attend class and actively participate (e.g., ask questions, provide your perspective).
+You are permitted to miss to have two (2) unexcused absences. Excused absences must be approved before the class.
+DataCamp Courses You will need to complete four DataCamp courses. Points will be allocated for all (2.5 points) for completion or 0 points (not completed) by the assigned date. These will be assigned on DataCamp and are intended to reinforce the programming assignments and material.</description>
     </item>
     
     <item>
@@ -680,6 +663,18 @@ Course
  Slack
  By itself, the facts contained in raw data are difficult to understand, and in the absence of beauty and order, it is impossible to understand the truth that the data shows.
 In this class, you’ll learn how to use industry-standard graphic and data design techniques to create beautiful, understandable visualizations and uncover truth in data.</description>
+    </item>
+    
+    <item>
+      <title>Visual Representation Basics II</title>
+      <link>https://dsba5122-fall2019.netlify.com/reading/03-reading/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-fall2019.netlify.com/reading/03-reading/</guid>
+      <description>Required   Chapter 4: Show the right numbers in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
+  Recommended   Chapter 5: Directory of visualizations and Chapter 22: Image file formats in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
+
+  Chapter 7: Exploratory data analysis in Garrett Grolemund and Hadley Wickham, R for Data ScienceHadley Wickham and Garrett Grolemund, R for Data Science: Import, Tidy, Transform, Visualize, and Model Data (Sebastopol, California: O’Reilly Media, 2017), http://r4ds.</description>
     </item>
     
   </channel>

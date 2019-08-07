@@ -6,10 +6,37 @@
     <description>Recent content in Classes on Visual Analytics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://dsba5122-fall2019.netlify.com/class/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Visual Representation Basics II</title>
+      <link>https://dsba5122-fall2019.netlify.com/class/03-class/</link>
+      <pubDate>Wed, 04 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-fall2019.netlify.com/class/03-class/</guid>
+      <description>Contents  Tweet of the Day Slides Links Lab 3: Make a plot (ggplot2)   Tweet of the Day 🌟 guide to visual encoding types from ???&#39;s “Visualization &amp;amp; Journalism” https://t.co/A2x96QYNoL #dataviz #infovis pic.twitter.com/2FIyXeWk4h — Mara Averick (@dataandme) October 17, 2018   Tamara Munzner is one of the most influential data visualization researchers. Her textbook “Visualization Analysis and Design” is one of the most popular data viz books and some of her former students are now leaders in data viz (e.</description>
+    </item>
+    
+    <item>
+      <title>Visual Representation Basics I</title>
+      <link>https://dsba5122-fall2019.netlify.com/class/02-class/</link>
+      <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-fall2019.netlify.com/class/02-class/</guid>
+      <description>Contents  Tweet of the day Slides Helpful Materials esquisse: ggplot2 add-in   Tweet of the day Visual encoding is itself a data transformation, often applied after a chain of other transformations. This is “first week of class”, table stakes stuff. Sad if true that we don’t internalize this! — Jeffrey Heer (@jeffrey_heer) August 11, 2018   Enrico Bertini is a data visualization researcher at NYU who co-hosts (with Moritz Stefaner) the podcast “Data Stories”, which I highly recommend.</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Visual Analytics</title>
+      <link>https://dsba5122-fall2019.netlify.com/class/01-class/</link>
+      <pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-fall2019.netlify.com/class/01-class/</guid>
+      <description>Contents  Tweet of the day: Slides &amp;amp; Lab   Tweet of the day: Any time I have been struggling to learn a new tool/technology/software … I go back to this short clip I cut out of ???&#39;s 2014 ??? tutorial on Dplyr to motivate myself to keep pushing through … learning new tools is hard for everyone at the beginning! pic.twitter.com/RevpkSJqWc — Aliakbar Akbaritabar (Ali) (@Akbaritabar) July 25, 2018   Hadley Wickham is the R guru amongst gurus.</description>
+    </item>
     
     <item>
       <title>Python</title>
@@ -123,33 +150,6 @@ Slides: full screen / pdf version</description>
       <description>Contents  Tweet of the day Slides Links Lab 4: gganimate and Draw Maps in ggplot2   Tweet of the day Rumour has it ??? killed his talk last night…
 ⏰ “Time series &amp;amp; financial analysis in the tidyverse” 📽 https://t.co/h2jGX0fZ38 #rstats * feat. ???&#39;s {tsibble}, ??? 📦s, and {rsample} pic.twitter.com/fYrC1hoHLB — Mara Averick (@dataandme) September 26, 2018   Slides full screen / pdf version
  Links  Make your own animated plots with gganimate</description>
-    </item>
-    
-    <item>
-      <title>Visual Representation Basics II</title>
-      <link>https://dsba5122-fall2019.netlify.com/class/03-class/</link>
-      <pubDate>Mon, 04 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-fall2019.netlify.com/class/03-class/</guid>
-      <description>Contents  Tweet of the Day Slides Links Lab 3: Make a plot (ggplot2)   Tweet of the Day 🌟 guide to visual encoding types from ???&#39;s “Visualization &amp;amp; Journalism” https://t.co/A2x96QYNoL #dataviz #infovis pic.twitter.com/2FIyXeWk4h — Mara Averick (@dataandme) October 17, 2018   Tamara Munzner is one of the most influential data visualization researchers. Her textbook “Visualization Analysis and Design” is one of the most popular data viz books and some of her former students are now leaders in data viz (e.</description>
-    </item>
-    
-    <item>
-      <title>Visual Representation Basics I</title>
-      <link>https://dsba5122-fall2019.netlify.com/class/02-class/</link>
-      <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-fall2019.netlify.com/class/02-class/</guid>
-      <description>Contents  Tweet of the day Slides Helpful Materials esquisse: ggplot2 add-in   Tweet of the day Visual encoding is itself a data transformation, often applied after a chain of other transformations. This is “first week of class”, table stakes stuff. Sad if true that we don’t internalize this! — Jeffrey Heer (@jeffrey_heer) August 11, 2018   Enrico Bertini is a data visualization researcher at NYU who co-hosts (with Moritz Stefaner) the podcast “Data Stories”, which I highly recommend.</description>
-    </item>
-    
-    <item>
-      <title>Introduction to Visual Analytics</title>
-      <link>https://dsba5122-fall2019.netlify.com/class/01-class/</link>
-      <pubDate>Mon, 14 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-fall2019.netlify.com/class/01-class/</guid>
-      <description>Contents  Tweet of the day: Slides &amp;amp; Lab   Tweet of the day: Any time I have been struggling to learn a new tool/technology/software … I go back to this short clip I cut out of ???&#39;s 2014 ??? tutorial on Dplyr to motivate myself to keep pushing through … learning new tools is hard for everyone at the beginning! pic.twitter.com/RevpkSJqWc — Aliakbar Akbaritabar (Ali) (@Akbaritabar) July 25, 2018   Hadley Wickham is the R guru amongst gurus.</description>
     </item>
     
   </channel>

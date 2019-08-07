@@ -1,14 +1,12 @@
 ---
 title: "Visual Representation Basics II"
-date: "2019-02-04"
+date: "2019-09-9"
 citeproc: false
 bibliography: ../../static/bib/references.bib
 csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
 ---
 
 # Required
-
-- <i class="fas fa-book"></i> Chapter 6: "Exploring Data with Simple Charts" in Alberto Cairo, *The Truthful Art* [@Cairo:2016]
 
 - <i class="fas fa-book"></i> [Chapter 4: Show the right numbers](http://socviz.co/groupfacettx.html) in Kieran Healy, *Data Visualization* [@Healy:2018]
 
@@ -17,8 +15,6 @@ csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
 - <i class="fas fa-book"></i> [Chapter 5: Directory of visualizations](https://serialmentor.com/dataviz/directory-of-visualizations.html) and [Chapter 22: Image file formats](https://serialmentor.com/dataviz/image-file-formats.html) in Claus Wilke, *Fundamentals of Data Visualization* [@Wilke:2018]
 
 - <i class="fas fa-book"></i> [Chapter 7: Exploratory data analysis](https://r4ds.had.co.nz/exploratory-data-analysis.html) in Garrett Grolemund and Hadley Wickham, *R for Data Science* [@WickhamGrolemund:2017]
-
-<!-- - <i class="fab fa-youtube"></i> Hans Rosling, ["200 Countries, 200 Years, 4 Minutes"](https://www.youtube.com/watch?v=jbkSRLYSojo) -->
 
 - <i class="fas fa-external-link-square-alt"></i> [How do we know when a visualization is good? Perspectives from a cognitive scientist](https://medium.com/multiple-views-visualization-research-explained/how-do-we-know-when-a-visualization-is-good-c894b5194b62) by Lace Padilla (Multiple Views Blog)
 

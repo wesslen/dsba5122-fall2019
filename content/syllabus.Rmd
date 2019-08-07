@@ -30,29 +30,23 @@ In this class, you'll learn how to use industry-standard graphic and data design
 - Share data and graphics in open forums
 - Be curious and confident in consuming and producing data
 
-<!-- Given these objectives, this course fulfills two of the four learning outcomes for BYU's [Master of Public Administration (MPA)](https://marriottschool.byu.edu/mpa/) program:  -->
-
-<!-- - **Quantitative Analysis**: BYU MPA graduates are skilled at evaluating programs and policies. They know how to gather data, correctly analyze it, and employ the analysis to recommend policy and programmatic action in public service organizations. -->
-
-<!-- - **Communications**: BYU MPA graduates effectively convey verbal and written information with the polish and professionalism appropriate for the public service context. They listen to and promote understanding among people with diverse viewpoints. -->
-
 ## Syllabus Subject to Change
 
 The standards and requirements set forth in this syllabus may be modified by the course instructor. Notice of such changes will be made in advance and by announcement in class.
 
 # Course materials
 
-<span class="newthought">The course **requires** one textbook and **recommends** three books</span>, where each recommended book also has free online versions as alternatives to purchasing the books.^[Although I'd still highly recommend buying physical copies (but it's completely optional).] 
+<span class="newthought">The course books are **optional** as the core materials are available online. **requires** one textbook and **recommends** three books</span>, where each recommended book also has free online versions as alternatives to purchasing the books.^[Although I'd still highly recommend buying physical copies (but it's completely optional).] 
 
-The **required** textbook is:
+The recommended books are:^[Fun fact: all of these books were written in R using [Bookdown](https://bookdown.org/)! Don't believe, here's their code [Healy](https://github.com/kjhealy/socviz), [Wilke](https://github.com/clauswilke/dataviz), and [Wickham](https://github.com/hadley/r4ds).]
 
-- [@Cairo:2016] [$36 used, $38 new at [Amazon](https://www.amazon.com/Truthful-Art-Data-Charts-Communication/dp/0321934075)]
+- [@Healy:2018] [**FREE** online; $30.62 new at [Amazon](https://www.amazon.com/Data-Visualization-Introduction-Kieran-Healy/dp/0691181624/)]
+- [@Wilke:2018] [**FREE** online; $36.94 new at [Amazon](https://www.amazon.com/Fundamentals-Data-Visualization-Informative-Compelling/dp/1492031089)]
+- [@WickhamGrolemund:2017] [**FREE** online; $18.17 new at [Amazon](https://www.amazon.com/R-Data-Science-Hadley-Wickham/dp/1491910399/)]
 
-The three recommended books are:^[Fun fact: all of these books were written in R using [Bookdown](https://bookdown.org/)! Don't believe, here's their code [Healy](https://github.com/kjhealy/socviz), [Wilke](https://github.com/clauswilke/dataviz), and [Wickham](https://github.com/hadley/r4ds).]
+We'll also use a book in development for Shiny.^[Unfortunately, there is not a good standard textbook for R Shiny yet; this book will likely become that but is still a year away from completion.]
 
-- [@Healy:2018] [**FREE** online; $40 new at [Amazon](https://www.amazon.com/Data-Visualization-Introduction-Kieran-Healy/dp/0691181624/)]
-- [@Wilke:2018] [**FREE** online; $50 new at [Amazon](https://www.amazon.com/Fundamentals-Data-Visualization-Informative-Compelling/dp/1492031089)]
-- [@WickhamGrolemund:2017] [**FREE** online; $16 used, $18 new at [Amazon](https://www.amazon.com/R-Data-Science-Hadley-Wickham/dp/1491910399/)]
+- [@Chang:2020] [Online version](https://mastering-shiny.org/)
 
 There will also occasionally be additional articles and videos to read and watch. When this happens, links to these other resources will be included on the reading page for that week.
 
@@ -76,7 +70,7 @@ Fortunately there are tons of online resources to help you with this. Two of the
 
 Searching for help with R on Google can be tricky because the language is, um, a single letter. Try searching for "rstats" instead. If you use Twitter, post R-related questions and content with [#rstats](https://twitter.com/search?q=%23rstats). If you post something related to our class, consider using the hashtag [#dsba5122](https://twitter.com/search?q=%23dsba5122).
 
-Additionally, we have a class chatroom at [Slack](https://unccdsba5122s2019.slack.com) where anyone in the class can ask questions and anyone can answer. Ask questions about the readings, problem sets, and projects [in the class Slack workspace](https://unccdsba5122s2019.slack.com). I will monitor Slack regularly, and you should also all do so as well. You'll likely have similar questions as your peers, and you'll likely be able to answer other peoples' questions too.
+Additionally, we have a class chatroom at [Slack](https://dsba5122fall2019.slack.com) where anyone in the class can ask questions and anyone can answer. Ask questions about the readings, problem sets, and projects [in the class Slack workspace](https://dsba5122fall2019.slack.com). I will monitor Slack regularly, and you should also all do so as well. You'll likely have similar questions as your peers, and you'll likely be able to answer other peoples' questions too.
 
 # Classroom policies
 
@@ -103,28 +97,27 @@ Faculty may ask students to produce identification at examinations and may requi
 
 # Assignments and grades
 
-<span class="newthought">You can find descriptions</span> for all the assignments on the [assignments page](/assignments/).^[There were be extra credit opportunities like additional DataCamp courses. I'll announce them as they become available (likely starting around mid-to-late February.)]
+<span class="newthought">You can find descriptions</span> for all the assignments on the [assignments page](/assignments/).^[There may be extra credit opportunities.]
 
 ```{r assignments-grades, include=FALSE}
 assignments <- tribble(
   ~Points,  ~Assignment,
-  4 * 5 , "Quizzes (4 × 5 points)*",
-  4 * 5 , "Problem sets (4 × 5 points)",
-  4 * 2.5 , "Datacamp courses (4 x 2.5 points)",
-  10     , "Design Contest",
-  20     , "Group project final presentation + demo",
-  20     , "Group project final report"
+  10 , "Attendance & Participation",
+  10 , "4 Datacamp courses",
+  20 , "4 Problem sets",
+  20 , "4 Out-of-Class Online Quizzes",
+  10 , "Group: Design Contest",
+  30 , "Group: Final Project"
 ) %>%
   mutate(Percent = Points / sum(Points)
          )
 
 grading <- tribble(
   ~Grade, ~Range,
-  "A (Excellent)",  "90.00–100.00 pts", 
-  "B (Good)",  "80.00–89.99 pts", 
-  "C (Fair)",  "70.00-79.99 pts",
-  "D (Passing)",  "60.00-69.99 pts", 
-  "U (Failing)",  "< 60.00 pts" 
+  "A (Comendable)",  "90% - 100%", 
+  "B (Satisfactory)",  "80% – 89.99%", 
+  "C (Marginal)",  "70% - 79.99%",
+  "U (Unsatisfactory)",  "< 70%"
 )
 ```
 
@@ -140,8 +133,6 @@ bind_rows(assignments, assignments_total) %>%
 ```{r show-grades-table, echo=FALSE, results="asis"}
 knitr::kable(grading, "markdown", align = "cc")
 ```
-
-* We'll have five in-class quizzes, and the lowest will be dropped. So if you miss one or do bad on it, no worries, just focus on the next ones.
 
 # Let's have fun and explore!
 

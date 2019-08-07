@@ -109,7 +109,7 @@ p <- make_hexsticker(bg = "#046A38", border = "#000000", family = "Avenir Heavy"
                      pkg = "DSBA 5122", pkg_size = 20, pkg_color = "#000000", pkg_y = -.29,
                      icon = "📊", fa="Font Awesome 5 Free Solid",
                      icon_color = "#000000", icon_size = 40, icon_y = .275,
-                     url = "bitly.com/dsba5122", url_color = "#000000",
+                     url = "dsba5122.com", url_color = "#000000",
                      url_size = 8, url_x = .38, url_y = -.67)
 
 p + ggsave("~/Downloads/dsba5122.png", width = (1.73/2) * 8,

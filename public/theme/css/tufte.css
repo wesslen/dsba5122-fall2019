@@ -46,13 +46,13 @@ body {
   html {
     font-size: 18px; } }*/
 .wrap {
-  width: 87.5%;
+  width: 90.0%;
   margin-left: auto;
   margin-right: auto;
   padding: 0% 5%;
   /*font-family: et-bembo, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;*/
   font-family: "Roboto", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   background-color: #ffffff;
   color: #000000;
   max-width: 1400px;
