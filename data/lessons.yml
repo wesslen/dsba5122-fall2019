@@ -28,7 +28,7 @@ lessons:
     reading: "03-reading"
     class: "03-class"
     
-  - title: "**Datacamp course 2 (Due Sept 23)**"
+  - title: "**Datacamp course 2 (Due Sept 24)**"
     date: "September 9"
     assignment: "02-datacamp"
     
@@ -36,15 +36,15 @@ lessons:
     date: "September 16"
     reading: "04-reading"
     class: "04-class"
+    
+  - title: "**Problem set 2 (Due Sept 30)**"
+    date: "September 16"
+    assignment: "02-problem-set"
 
   - title: "Distributions & Uncertainty"
     date: "September 23"
     reading: "05-reading"
     class: "05-class"
-    
-  - title: "**Problem set 2 (Due Oct 7)**"
-    date: "September 23"
-    assignment: "02-problem-set"
 
   - title: '<span class="fake-header-table">Interactive Visualizations</span>'
     header: True
@@ -58,32 +58,35 @@ lessons:
     date: "September 30"
     assignment: "design-contest"
     
-  - title: "**Datacamp course 3 (Due Mar 12)**"
+  - title: "**Datacamp course 3 (Due Oct 22)**"
     date: "September 30"
     assignment: "03-datacamp"
+
+  - title: "Multidimensional &\nDimensionality Reduction"
+    date: "October 7"
+    reading: "07-reading"
+    class: "07-class"
     
   - title: "No class (Fall Break)"
     date: "October 7"
 
-  - title: "Multidimensional &\nDimensionality Reduction"
+  - title: "Networks and Trees"
     date: "October 14"
-    reading: "07-reading"
-    class: "07-class"
-
-  - title: "Text-as-Data"
-    date: "October 21"
     reading: "08-reading"
     class: "08-class"
-
-  - title: "Design Contest Presentations"
-    date: "October 28"
-    class: "09-class"
-  
-  - title: "**Problem set 3 (Due Nov 11)**"
-    date: "October 28"
-    assignment: "03-problem-set"
     
-  - title: "Networks and Trees"
+  - title: "Design Contest Presentations"
+    date: "October 21"
+    class: "09-class"
+    
+  - title: "**Problem set 3 (Due Nov 4)**"
+    date: "October 21"
+    assignment: "03-problem-set"
+
+  - title: '<span class="fake-header-table">Building Shiny Apps</span>'
+    header: True
+    
+  - title: "Intro to Interaction (Shiny)"
     date: "November 4"
     reading: "10-reading"
     class: "10-class"
@@ -96,29 +99,26 @@ lessons:
     date: "November 4"
     assignment: "04-datacamp"
 
-  - title: '<span class="fake-header-table">Building Shiny Apps</span>'
-    header: True
-
-  - title: "Coordinated Multiple Views: Interacting & Brushing"
+  - title: "Interacting & Brushing"
     date: "November 11"
     reading: "11-reading"
     class: "11-class"
+    
+  - title: "**Problem set 4 (Due Nov 25)**"
+    date: "November 11"
+    assignment: "04-problem-set"
 
   - title: "In Production: Deployment, Back-end, & Scalability"
     date: "November 18"
     reading: "12-reading"
     class: "12-class"
-    
-  - title: "**Problem set 4 (Due Dec 2)**"
-    date: "November 18"
-    assignment: "04-problem-set"
 
-  - title: "Human-Centered Machine Learning"
+  - title: "Human Factors"
     date: "November 25"
     reading: "13-reading"
     class: "13-class"
 
-  - title: "Python"
+  - title: "TBD"
     date: "December 2"
     #reading: "14-reading"
     class: "14-class"

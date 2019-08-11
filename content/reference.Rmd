@@ -19,12 +19,25 @@ library(emo)
 [^bibtex]: {-} You can open the file in [BibDesk on macOS](http://bibdesk.sourceforge.net/), [JabRef on Windows](http://www.jabref.org/), or [Zotero](https://www.zotero.org/) or [Mendeley](https://www.mendeley.com/) online.
 
 
+# Information Visualization & Visual Analytics Courses
+
+- [**CSE 512**](https://courses.cs.washington.edu/courses/cse512/19sp/index.html): [Dr. Jeff Heer](http://jheer.org/)'s University of Washington's graduate Data Visualization course. 
+
+- [**CS 7450**](https://www.cc.gatech.edu/~stasko/7450/): [Dr. John Stasko](https://www.cc.gatech.edu/~john.stasko/)'s Georgia Tech graduate Information Visualization course.
+
+- [**CS 4460**](https://www.cc.gatech.edu/~john.stasko/4460/schedule.html): [Dr. John Stasko](https://www.cc.gatech.edu/~john.stasko/)'s Georgia Tech's undergraduate Information Visualization course.
+
+- [**CS 4460**](http://va.gatech.edu/courses/cs4460/): [Dr. Alex Endert](www.endert.org)'s Georgia Tech undergraduate Information Visualization course.
+
+- [**CS 5630** / **CS 6630**](http://dataviscourse.net/2018/index.html): [Dr. Alexander Lex](http://vdl.sci.utah.edu/team/lex/) at Utah University's undergraduate and graduate Visualization for Data Science course.
+
+- [**INLS 641**](https://ils.unc.edu/courses/2017_fall/inls641_001/index.html): [Dr. David Gotz](https://sils.unc.edu/people/faculty/profiles/David-Gotz) at UNC Chapel Hill's graduate course on Visual Analytics
+
 # Interesting and excellent real world examples
 
 - [The Stories Behind a Line](http://www.storiesbehindaline.com/)
 - [Australia as 100 people](https://flowingdata.com/2017/06/28/australia-as-100-people/)^[{-} You can make something like this with d3 and the [potato project](https://github.com/civisanalytics/potato).]
 - [Marrying Later, Staying Single Longer](https://flowingdata.com/2017/07/17/marrying-age-over-the-past-century/)
-
 
 # How to select the appropriate chart type
 
@@ -71,19 +84,6 @@ library(emo)
 # Visualization in Tableau
 
 Because it is focused entirely on visualization (and because it's a well-supported commercial product), Tableau has a [phenomenal library of tutorials and training videos](https://www.tableau.com/learn/training). There's [a helpful collections of videos here](https://www.quora.com/What-are-some-good-video-tutorials-for-learning-Tableau), as well.
-
-# Information Visualization & Visual Analytics Courses
-
-- [**CS 7450**](https://www.cc.gatech.edu/~stasko/7450/): [Dr. John Stasko](https://www.cc.gatech.edu/~john.stasko/)'s Georgia Tech graduate Information Visualization course.
-
-- [**CS 4460**](https://www.cc.gatech.edu/~john.stasko/4460/schedule.html): [Dr. John Stasko](https://www.cc.gatech.edu/~john.stasko/)'s Georgia Tech's undergraduate Information Visualization course.
-
-- [**CS 4460**](http://va.gatech.edu/courses/cs4460/): [Dr. Alex Endert](www.endert.org)'s Georgia Tech undergraduate Information Visualization course.
-
-- [**CS 5630** / **CS 6630**](http://dataviscourse.net/2018/index.html): [Dr. Alexander Lex](http://vdl.sci.utah.edu/team/lex/) at Utah University's undergraduate and graduate Visualization for Data Science course.
-
-- [**INLS 641**](https://ils.unc.edu/courses/2017_fall/inls641_001/index.html): [Dr. David Gotz](https://sils.unc.edu/people/faculty/profiles/David-Gotz) at UNC Chapel Hill's graduate course on Visual Analytics
-
 
 # Working with R and ggplot2
 

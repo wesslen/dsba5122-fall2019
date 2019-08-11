@@ -3,6 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://dsba5122-fall2019.netlify.com/assignment/01-extra-credit/</loc>
+    <lastmod>2019-11-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dsba5122-fall2019.netlify.com/assignment/04-problem-set/</loc>
+    <lastmod>2019-11-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dsba5122-fall2019.netlify.com/assignment/04-datacamp/</loc>
+    <lastmod>2019-11-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dsba5122-fall2019.netlify.com/assignment/03-datacamp/</loc>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dsba5122-fall2019.netlify.com/assignment/02-datacamp/</loc>
+    <lastmod>2019-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://dsba5122-fall2019.netlify.com/class/03-class/</loc>
     <lastmod>2019-09-04T00:00:00+00:00</lastmod>
   </url>
@@ -15,6 +40,11 @@
   <url>
     <loc>https://dsba5122-fall2019.netlify.com/reading/02-reading/</loc>
     <lastmod>2019-08-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dsba5122-fall2019.netlify.com/assignment/01-datacamp/</loc>
+    <lastmod>2019-08-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -50,11 +80,6 @@
   <url>
     <loc>https://dsba5122-fall2019.netlify.com/assignment/05-quiz/</loc>
     <lastmod>2019-04-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dsba5122-fall2019.netlify.com/assignment/04-problem-set/</loc>
-    <lastmod>2019-04-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -94,11 +119,6 @@
   
   <url>
     <loc>https://dsba5122-fall2019.netlify.com/slides/10-class/</loc>
-    <lastmod>2019-04-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dsba5122-fall2019.netlify.com/assignment/04-datacamp/</loc>
     <lastmod>2019-04-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -168,11 +188,6 @@
   </url>
   
   <url>
-    <loc>https://dsba5122-fall2019.netlify.com/assignment/03-datacamp/</loc>
-    <lastmod>2019-02-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://dsba5122-fall2019.netlify.com/assignment/design-contest/</loc>
     <lastmod>2019-02-25T00:00:00+00:00</lastmod>
   </url>
@@ -233,11 +248,6 @@
   </url>
   
   <url>
-    <loc>https://dsba5122-fall2019.netlify.com/assignment/02-datacamp/</loc>
-    <lastmod>2019-02-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://dsba5122-fall2019.netlify.com/assignment/01-quiz/</loc>
     <lastmod>2019-02-04T00:00:00+00:00</lastmod>
   </url>
@@ -254,11 +264,6 @@
   
   <url>
     <loc>https://dsba5122-fall2019.netlify.com/slides/01-class/</loc>
-    <lastmod>2019-01-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dsba5122-fall2019.netlify.com/assignment/01-datacamp/</loc>
     <lastmod>2019-01-14T00:00:00+00:00</lastmod>
   </url>
   
@@ -304,7 +309,7 @@
   
   <url>
     <loc>https://dsba5122-fall2019.netlify.com/assignment/</loc>
-    <lastmod>2019-04-22T00:00:00+00:00</lastmod>
+    <lastmod>2019-11-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -320,7 +325,7 @@
   
   <url>
     <loc>https://dsba5122-fall2019.netlify.com/</loc>
-    <lastmod>2019-09-04T00:00:00+00:00</lastmod>
+    <lastmod>2019-11-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>

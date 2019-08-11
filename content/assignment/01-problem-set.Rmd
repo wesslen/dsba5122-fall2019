@@ -7,7 +7,7 @@ editor_options:
   chunk_output_type: console
 ---
 
-*Note*: to complete this task, you **MUST** submit your final folder (compressed as a zip file) through [here to Canvas](https://uncc.instructure.com/courses/100065/assignments/516650) by 11:59pm on February 11, 2018. Each person needs to submit their own folder! So if you work in pairs, both individuals have to submit a folder.
+*Note*: to complete this task, you **MUST** submit your final folder (compressed as a zip file) through [here to Canvas](https://uncc.instructure.com/courses/100065/assignments/516650) by 11:59pm on August 11, 2019. Each person needs to submit their own folder! So if you work in pairs, both individuals have to submit a folder.
 
 # Task 0
 

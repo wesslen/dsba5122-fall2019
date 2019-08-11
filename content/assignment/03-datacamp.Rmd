@@ -1,7 +1,7 @@
 ---
 title: "Datacamp Course 3"
-date: "2019-02-25"
-due_date: "2019-03-12"
+date: "2019-09-30"
+due_date: "2019-10-22"
 due_time: "11:59 PM"
 editor_options: 
   chunk_output_type: console
@@ -14,6 +14,6 @@ editor_options:
 knitr::include_graphics("https://assets.datacamp.com/production/course_4850/shields/original/shield_image_course_4850_20180726-12-1fhhz6t?1532614699")
 ```
 
-Here is the [link to the assigned course](https://www.datacamp.com/enterprise/dsba5122-visual-analytics-58036aae-d5c5-424e-aa2a-eab645c8a12a/assignments/42166).
+Here is the [link to the assigned course](https://www.datacamp.com/enterprise/dsba5122-visual-analytics-c9a5d247-7ed7-44d0-bed6-e8d85e26b19e/assignments/55382).
 
 For this DataCamp course, you'll learn about `shiny`, the framework for developing html-based interactive visualizations without requiring HTML, CSS, or JavaScript experiment (though it will help tremendously if you have a background).

@@ -1,7 +1,7 @@
 ---
 title: "Datacamp Course 2"
-date: "2019-02-04"
-due_date: "2019-02-19"
+date: "2019-09-09"
+due_date: "2019-09-24"
 due_time: "11:59 PM"
 editor_options: 
   chunk_output_type: console
@@ -9,11 +9,10 @@ editor_options:
 
 # DataCamp Course: Exploratory Data Analysis in R by David Robinson
 
-
 ```{r out.width = "300px", echo=FALSE}
 knitr::include_graphics("https://assets.datacamp.com/production/course_1414/shields/original/shield_image_course_1414_20171103-211-2zvp9s?1509673388")
 ```
 
-Here is the [link to the assigned course](https://www.datacamp.com/enterprise/dsba5122-visual-analytics-58036aae-d5c5-424e-aa2a-eab645c8a12a/assignments/40874).
+Here is the [link to the assigned course](https://www.datacamp.com/enterprise/dsba5122-visual-analytics-c9a5d247-7ed7-44d0-bed6-e8d85e26b19e/assignments/55381).
 
 For this DataCamp course, you'll learn about doing exploratory data analysis, focusing on `ggplot2` and the related `tidyverse` packages (e.g., `dplyr`, `broom`).

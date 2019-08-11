@@ -1,7 +1,7 @@
 ---
 title: "Datacamp Course 1"
-date: "2019-01-14"
-due_date: "2019-01-29"
+date: "2019-08-19"
+due_date: "2019-09-03"
 due_time: "11:59 PM"
 editor_options: 
   chunk_output_type: console
@@ -13,7 +13,7 @@ editor_options:
 knitr::include_graphics("https://assets.datacamp.com/production/course_4914/shields/original/shield_image_course_4914_20180824-15-gt3h0p?1535132842")
 ```
 
-Here is the [link to the assigned course](https://www.datacamp.com/enterprise/dsba5122-visual-analytics-58036aae-d5c5-424e-aa2a-eab645c8a12a/assignments/40873).
+Here is the [link to the assigned course](https://www.datacamp.com/enterprise/dsba5122-visual-analytics-c9a5d247-7ed7-44d0-bed6-e8d85e26b19e/assignments/55380).
 
 For this DataCamp course, you'll learn about using `tidyverse` package from David Robinson, Chief Data Scientist for DataCamp.^[David is a prolific data scientist and blogger, whose blog ["Variance Explained"](http://varianceexplained.org/) is one of the most popular data science blogs. He has a great [blog post](http://varianceexplained.org/r/intro-tidyverse/) discussing the background of this course.]
 
@@ -29,4 +29,4 @@ This course has four chapters:
 
 This will give you hands on experience using the `gapminder` dataset and focusing on `dplyr` and `ggplot2`.
 
-This assignment is worth 2.5 points and **must** be completed (in full, i.e., all four chapters) by the deadline for full credit.^[This course also has a companion mobile version! If you install the datacamp app, you can go through examples and practice on your phone. No need to complete that course but feel free to play around.]
+This assignment **must** be completed (in full, i.e., all four chapters) by the deadline for full credit.^[This course also has a companion mobile version! If you install the datacamp app, you can go through examples and practice on your phone. No need to complete that course but feel free to play around.]
