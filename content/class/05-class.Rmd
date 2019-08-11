@@ -1,6 +1,6 @@
 ---
 title: "Distributions & Uncertainty"
-date: "2019-02-18"
+date: "2019-09-27"
 citeproc: false
 bibliography: ../../static/bib/references.bib
 csl: ../../static/bib/chicago-syllabus-no-bib.csl
@@ -29,6 +29,12 @@ knitr::include_url('../../slides/05-class.html#1')
 Matthew Kay's [Tidy data and Bayesian analysis
 make uncertainty visualization fun](http://www.mjskay.com/presentations/openvisconf2018-bayes-uncertainty-2.pdf)
 
+# Lab 5:
+
+For the lab session, we'll use the same [`gganimate` project](https://rstudio.cloud/spaces/7976/project/211237) from last week that's on our RStudio.cloud workspace.
+
+If we have time, I also included Matthew Kay's [Uncertainty visualization examples](https://github.com/mjskay/uncertainty-examples) in the RStudio.cloud project (see uncertainty-examples folder).
+
 # Links:
 
 Kristoffer Magnusson's visualization demos:
@@ -40,12 +46,3 @@ Kristoffer Magnusson's visualization demos:
 StackOverflow: [Difference between Bayesian and Boostrapping](https://stats.stackexchange.com/questions/25286/when-to-use-bootstrap-vs-bayesian-technique)^[Or if you want even more technical, see the [Wikipedia page on Expected Loss](https://en.wikipedia.org/wiki/Loss_function#Expected_loss). This gets at the core difference between Bayesian and Frequentist schools of thought.]
 
 Pierre Dragicevic's ["Fair statistical communication in HCI"](../../readings/dragicevic-fair-reporting.pdf) paper.^[This paper is an excellent guide for ways to appropriately communicate statistical models and uncertainty. This provides a good background on why overemphasis on p-values and dichotomous testing can go wrong and miss important perspectives when doing hypothesis testing.]
-
-# Lab:
-
-Claus Wilke's 2019 RStudio::Conf talk on [Visualizing uncertainty with hypothetical outcome plots (HOPs)
-](https://docs.google.com/presentation/d/1zMuBSADaxdFnosOPWJNA10DaxGEheW6gDxqEPYAuado/edit#slide=id.p1) / [GitHub Code](https://gist.github.com/clauswilke/423644418adfe83ad7f07cdc384cb17b) / [`ungeviz` package](https://wilkelab.org/ungeviz/)^[You can watch Claus' talk [here](https://resources.rstudio.com/rstudio-conf-2019/visualizing-uncertainty-with-hypothetical-outcomes-plots)!]
-
-For the lab session, update [last week's `gganimate` folder](https://rstudio.cloud/spaces/7976/project/211237) on our RStudio.cloud course page.
-
-If we have time, I also included Matthew Kay's [Uncertainty visualization examples](https://github.com/mjskay/uncertainty-examples) in the RStudio.cloud project (see uncertainty-examples folder).

@@ -30,17 +30,3 @@ knitr::include_url('../../slides/02-class.html#1')
 
 * Omayma Said's [Intro to the Tidyverse: Data Manipulation using dplyr](https://speakerdeck.com/omaymas/data-manipulation-with-dplyr-first-steps)
 
-* Garrick Aden Buie's [A Gentle Guide to the Grammar of Graphics
-with ggplot2](https://pkg.garrickadenbuie.com/gentle-ggplot2)
-
-```{r echo=FALSE}
-knitr::include_url('https://pkg.garrickadenbuie.com/gentle-ggplot2')
-```
-
-# esquisse: ggplot2 add-in
-
-![](https://raw.githubusercontent.com/wesslen/dsba5122-spring2019/master/static/images/class/esquisse.gif)
-
-[esquisse](https://github.com/dreamRs/esquisse)
-
-

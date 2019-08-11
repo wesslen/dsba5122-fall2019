@@ -1,6 +1,6 @@
 ---
 title: "Statistical Models"
-date: "2019-02-25"
+date: "2019-09-30"
 citeproc: false
 bibliography: ../../static/bib/references.bib
 csl: ../../static/bib/chicago-syllabus-no-bib.csl
@@ -25,12 +25,10 @@ No slides for today's class.
 - [Design contest assignment](../../assignment/design-contest/). Presentations will be in class on March 25.
 
 - [`flexdashboard` overview](https://rmarkdown.rstudio.com/flexdashboard/) / [intro pdf slides](https://github.com/wesslen/iviz-rstudio-workshop/raw/master/slides/flexdashboard.pdf) 
-
 For this part, we'll use [this RStudio.Cloud project](https://rstudio.cloud/spaces/7976/project/231799) on our class workspace.
-
 
 # Lab 6: Work with models in ggplot2
 
-- Go to our [healy-dataviz](https://rstudio.cloud/spaces/7976/project/160035) project and open "06_models.Rmd".
+- Go to our [healy-dataviz](https://rstudio.cloud/spaces/22733/project/160035) project and open "06_models.Rmd".
 
 - This covers [Chapter 6: Work with Models](https://socviz.co/modeling.html#modeling) in Healy

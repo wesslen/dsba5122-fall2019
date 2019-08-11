@@ -5,13 +5,15 @@ author: "Ryan Wesslen"
 
 ^[{-} `r blogdown::shortcode("courseinfo")`] <span class="newthought">This site contains</span> the syllabus, schedule, and assignments for DSBA5122: Visual Analytics, held during Fall 2019 at University of North Carolina at Charlotte.
 
-By the end of this course, you will become: 
+In this course you will:
 
-1. literate in data and graphic design principles;
+1. Evaluate and critique visualization designs;
 
-2. an ethical data communicator;
+2. Learn visualization techniques & theory; 
 
-3. a collaborative sharer by producing beautiful, powerful, and clear visualizations of your own data.
+3. Implement interactive data visualizations; 
+
+4. Develop a substantial visualization project.
 
 <figure>
 [![](/images/pederson.gif)](/images/pederson.gif)

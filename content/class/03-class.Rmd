@@ -25,16 +25,27 @@ editor_options:
 knitr::include_url('../../slides/03-class.html#1')
 ```
 
-- [Aesthetics specifications for `ggplot2`](https://ggplot2.tidyverse.org/articles/ggplot2-specs.html)
+* Garrick Aden Buie's [A Gentle Guide to the Grammar of Graphics
+with ggplot2](https://pkg.garrickadenbuie.com/gentle-ggplot2)
+
+```{r echo=FALSE}
+knitr::include_url('https://pkg.garrickadenbuie.com/gentle-ggplot2')
+```
+
+# Lab 3: Make a plot (ggplot2)
+
+- Go to our [healy-dataviz](https://rstudio.cloud/spaces/22733/project/160035) project and open "03_make_a_plot.Rmd".
+
+- This covers [Chapter 3: Make a Plot](http://socviz.co/makeplot.html#makeplot) in Healy. 
 
 # Links
+
+- [Aesthetics specifications for `ggplot2`](https://ggplot2.tidyverse.org/articles/ggplot2-specs.html)
 
 - Jenny Bryan's [ggplot2 tutorial GitHub](https://github.com/jennybc/ggplot2-tutorial) / [slides](https://speakerdeck.com/jennybc/ggplot2-tutorial)
 
 - Allison Hill's [Data Visualization in the Tidyverse The Great Tidy Plot Off](https://alison.netlify.com/uo-tidy-bakeoff/)
 
-# Lab 3: Make a plot (ggplot2)
+[esquisse](https://github.com/dreamRs/esquisse)
 
-- Go to our [healy-dataviz](https://rstudio.cloud/spaces/7976/project/160035) project and open "03_make_a_plot.Rmd".
-
-- This covers [Chapter 3: Make a Plot](http://socviz.co/makeplot.html#makeplot) in Healy. 
+![](https://raw.githubusercontent.com/wesslen/dsba5122-spring2019/master/static/images/class/esquisse.gif)

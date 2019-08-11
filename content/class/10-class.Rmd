@@ -1,6 +1,6 @@
 ---
-title: "Networks & Trees"
-date: "2019-04-01"
+title: "Intro to Shiny"
+date: "2019-11-04"
 citeproc: false
 bibliography: ../../static/bib/references.bib
 csl: ../../static/bib/chicago-syllabus-no-bib.csl

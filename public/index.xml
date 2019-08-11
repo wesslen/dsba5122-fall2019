@@ -42,6 +42,52 @@ For this DataCamp course, you’ll learn more about shiny using hands on case st
     </item>
     
     <item>
+      <title>Intro to Shiny</title>
+      <link>https://dsba5122-fall2019.netlify.com/class/10-class/</link>
+      <pubDate>Mon, 04 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-fall2019.netlify.com/class/10-class/</guid>
+      <description> Contents  Tweet of the day Slides: Lab: Shiny Reactivity   Tweet of the day Our lab&#39;s first preprint! Coral: an R shiny and D3.js web app for flexible, interactive, and high-resolution visualization of the human kinome. https://t.co/xD7QUXgjOR pic.twitter.com/1gGy9zzsBT — doug phanstiel (@dphansti) May 25, 2018   Slides: full screen / pdf version
+ Lab: Shiny Reactivity Garrett Grohlmund’s Introduction to Reactivity in Shiny
+ RStudio Cloud project for sample Shiny apps  </description>
+    </item>
+    
+    <item>
+      <title>Design Contest Presentations</title>
+      <link>https://dsba5122-fall2019.netlify.com/class/09-class/</link>
+      <pubDate>Mon, 21 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-fall2019.netlify.com/class/09-class/</guid>
+      <description> Contents  Slides Agenda and layout   Slides No lecture/slides today. We’ll have each group present their design contest presentations (10 minutes for each group).
+Agenda and layout These groups were randomly assigned. Please plan to present in 8 minutes with 1-2 min for questions.
+  Time Item    6:00 PM Intro  6:20 PM Group X  6:30 PM Group X  6:40 PM Group X  6:50 PM Group X  7:00 PM Group X  7:10 PM Group X  7:20 PM Group X  7:30 PM 10 min Break  7:40 PM Group X  7:50 PM Group X  8:00 PM Group X  8:10 PM Group X  8:20 PM Group X  8:30 PM Group X    </description>
+    </item>
+    
+    <item>
+      <title>Networks &amp; Trees</title>
+      <link>https://dsba5122-fall2019.netlify.com/class/08-class/</link>
+      <pubDate>Mon, 14 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-fall2019.netlify.com/class/08-class/</guid>
+      <description> Contents  Tweet of the day Slides: Lab: Shiny Reactivity   Tweet of the day Our lab&#39;s first preprint! Coral: an R shiny and D3.js web app for flexible, interactive, and high-resolution visualization of the human kinome. https://t.co/xD7QUXgjOR pic.twitter.com/1gGy9zzsBT — doug phanstiel (@dphansti) May 25, 2018   Slides: full screen / pdf version
+ Lab: Shiny Reactivity Garrett Grohlmund’s Introduction to Reactivity in Shiny
+ RStudio Cloud project for sample Shiny apps  </description>
+    </item>
+    
+    <item>
+      <title>Multidimensional &amp; Dimensionality Reduction</title>
+      <link>https://dsba5122-fall2019.netlify.com/class/07-class/</link>
+      <pubDate>Mon, 07 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-fall2019.netlify.com/class/07-class/</guid>
+      <description>Contents  Tweet of the day Slides: Lab   Tweet of the day 🍾🍾 New project in the family! 🍾🍾
+-&amp;gt;The https://t.co/tKJaXKC2qm
+A gallery of 200 Simple charts made with d3.js, with reproducible, commented &amp;amp; editable code. #dataviz pic.twitter.com/m19BKxiNe5 — Yan Holtz (@R_Graph_Gallery) February 19, 2019   Yan has an excellent visualization decision tree along with the r-graph gallery.com, python-graph-gallery.com, and even d3-graph-gallery.com.
+
+Slides: full screen / pdf version</description>
+    </item>
+    
+    <item>
       <title>Datacamp Course 3</title>
       <link>https://dsba5122-fall2019.netlify.com/assignment/03-datacamp/</link>
       <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
@@ -49,6 +95,37 @@ For this DataCamp course, you’ll learn more about shiny using hands on case st
       <guid>https://dsba5122-fall2019.netlify.com/assignment/03-datacamp/</guid>
       <description>DataCamp Course: Building Web Applications in R with Shiny by Mine Cetinkaya-Rundel Here is the link to the assigned course.
 For this DataCamp course, you’ll learn about shiny, the framework for developing html-based interactive visualizations without requiring HTML, CSS, or JavaScript experiment (though it will help tremendously if you have a background).</description>
+    </item>
+    
+    <item>
+      <title>Statistical Models</title>
+      <link>https://dsba5122-fall2019.netlify.com/class/06-class/</link>
+      <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-fall2019.netlify.com/class/06-class/</guid>
+      <description>Contents  Tweet of the day Overview Lab 6: Work with models in ggplot2   Tweet of the day At long last, the parsnip package is on CRAN. parsnip is a unified R interface to models. The first of two blog posts about the package is at https://t.co/PXgFJ8eucM #rstats #tidyverse pic.twitter.com/BmuA9exckK — Max Kuhn (@topepos) November 28, 2018   Overview No slides for today’s class.
+ Design contest assignment.</description>
+    </item>
+    
+    <item>
+      <title>Distributions &amp; Uncertainty</title>
+      <link>https://dsba5122-fall2019.netlify.com/class/05-class/</link>
+      <pubDate>Fri, 27 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-fall2019.netlify.com/class/05-class/</guid>
+      <description>Contents  Tweet of the Day: Slides: Lab 5: Links:   Tweet of the Day: My ??? talk is now in video form: A biased tour of the uncertainty visualization zoo. If you liked the version with just slides, you&#39;ll love (?) the version with me talking over slides :) https://t.co/hSdczZlgKW — Matthew Kay (@mjskay) December 7, 2018   Matthew Kay is an assistant professor of Information at the University of Michigan School of Information.</description>
+    </item>
+    
+    <item>
+      <title>Time &amp; Space</title>
+      <link>https://dsba5122-fall2019.netlify.com/class/04-class/</link>
+      <pubDate>Wed, 18 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-fall2019.netlify.com/class/04-class/</guid>
+      <description>Contents  Tweet of the day Slides Links Lab 4: gganimate Optional (likely won’t have time):    Tweet of the day 👌 Dead-simple 3D surface plotting in the next version of rayshader! Apply your hillshade (or any image) to a 3D surface map. Video preview with rayshader&#39;s built-in palettes. #rstats
+Code:
+elmat %&amp;gt;%
+sphere_shade() %&amp;gt;% add_shadow(ray_shade(elmat)) %&amp;gt;% plot_3d(elmat) pic.twitter.com/FCKQ9OSKpj — Tyler Morgan-Wall (@tylermorganwall) July 2, 2018   Slides full screen / pdf version</description>
     </item>
     
     <item>
@@ -67,7 +144,7 @@ For this DataCamp course, you’ll learn about doing exploratory data analysis, 
       <pubDate>Wed, 04 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-fall2019.netlify.com/class/03-class/</guid>
-      <description>Contents  Tweet of the Day Slides Links Lab 3: Make a plot (ggplot2)   Tweet of the Day 🌟 guide to visual encoding types from ???&#39;s “Visualization &amp;amp; Journalism” https://t.co/A2x96QYNoL #dataviz #infovis pic.twitter.com/2FIyXeWk4h — Mara Averick (@dataandme) October 17, 2018   Tamara Munzner is one of the most influential data visualization researchers. Her textbook “Visualization Analysis and Design” is one of the most popular data viz books and some of her former students are now leaders in data viz (e.</description>
+      <description>Contents  Tweet of the Day Slides Lab 3: Make a plot (ggplot2) Links   Tweet of the Day 🌟 guide to visual encoding types from ???&#39;s “Visualization &amp;amp; Journalism” https://t.co/A2x96QYNoL #dataviz #infovis pic.twitter.com/2FIyXeWk4h — Mara Averick (@dataandme) October 17, 2018   Tamara Munzner is one of the most influential data visualization researchers. Her textbook “Visualization Analysis and Design” is one of the most popular data viz books and some of her former students are now leaders in data viz (e.</description>
     </item>
     
     <item>
@@ -76,7 +153,7 @@ For this DataCamp course, you’ll learn about doing exploratory data analysis, 
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-fall2019.netlify.com/class/02-class/</guid>
-      <description>Contents  Tweet of the day Slides Helpful Materials esquisse: ggplot2 add-in   Tweet of the day Visual encoding is itself a data transformation, often applied after a chain of other transformations. This is “first week of class”, table stakes stuff. Sad if true that we don’t internalize this! — Jeffrey Heer (@jeffrey_heer) August 11, 2018   Enrico Bertini is a data visualization researcher at NYU who co-hosts (with Moritz Stefaner) the podcast “Data Stories”, which I highly recommend.</description>
+      <description>Contents  Tweet of the day Slides Helpful Materials   Tweet of the day Visual encoding is itself a data transformation, often applied after a chain of other transformations. This is “first week of class”, table stakes stuff. Sad if true that we don’t internalize this! — Jeffrey Heer (@jeffrey_heer) August 11, 2018   Enrico Bertini is a data visualization researcher at NYU who co-hosts (with Moritz Stefaner) the podcast “Data Stories”, which I highly recommend.</description>
     </item>
     
     <item>
@@ -261,17 +338,6 @@ Dataset: This is up to your group. You may use a dataset from the design contest
     </item>
     
     <item>
-      <title>Networks &amp; Trees</title>
-      <link>https://dsba5122-fall2019.netlify.com/class/10-class/</link>
-      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-fall2019.netlify.com/class/10-class/</guid>
-      <description> Contents  Tweet of the day Slides: Lab: Shiny Reactivity   Tweet of the day Our lab&#39;s first preprint! Coral: an R shiny and D3.js web app for flexible, interactive, and high-resolution visualization of the human kinome. https://t.co/xD7QUXgjOR pic.twitter.com/1gGy9zzsBT — doug phanstiel (@dphansti) May 25, 2018   Slides: full screen / pdf version
- Lab: Shiny Reactivity Garrett Grohlmund’s Introduction to Reactivity in Shiny
- RStudio Cloud project for sample Shiny apps  </description>
-    </item>
-    
-    <item>
       <title>Networks and Trees</title>
       <link>https://dsba5122-fall2019.netlify.com/reading/10-reading/</link>
       <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
@@ -280,17 +346,6 @@ Dataset: This is up to your group. You may use a dataset from the design contest
       <description> Required   Chapter 5: Networks and Hiearchies in Riccardo Mazza, Introduction to Information Visualization
   Katya Ognyanova, “Static and dynamic network visualization with R”
   Recommended   Chapters 2-9 in John Coene, Twinetbook  </description>
-    </item>
-    
-    <item>
-      <title>Design Contest Presentations</title>
-      <link>https://dsba5122-fall2019.netlify.com/class/09-class/</link>
-      <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-fall2019.netlify.com/class/09-class/</guid>
-      <description> Contents  Slides Agenda and layout   Slides No lecture/slides today; we’ll have each group present their design contest presentations (10 minutes for each group).
-Agenda and layout These groups were randomly assigned. Please plan to present in 8 minutes with 1-2 min for questions.
-  Time Item    6:00 PM Intro / Problem Set 3  6:30 PM Group 10  6:40 PM Group 2  6:50 PM Group 9  7:00 PM Group 1  7:10 PM Group 6  7:20 PM Group 3  7:30 PM 10 min Break  7:40 PM Group 11  7:50 PM Group 4  8:00 PM Group 7  8:10 PM Group 12  8:20 PM Group 5  8:30 PM Group 8    </description>
     </item>
     
     <item>
@@ -330,15 +385,6 @@ Welcome  </description>
     </item>
     
     <item>
-      <title>Text-as-Data</title>
-      <link>https://dsba5122-fall2019.netlify.com/class/08-class/</link>
-      <pubDate>Mon, 18 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-fall2019.netlify.com/class/08-class/</guid>
-      <description>Contents  Tweet of the day Slides: Lab   Tweet of the day Text mining: I really like the tidytext book by ??? and ???: https://t.co/zgoHq5jr5v. And I&#39;m increasingly convinced the single best and most comprehensive resource is ???&#39;s quanteda: https://t.co/aVc3N4BCA5. It&#39;s tutorials are esp great: https://t.co/XB5km9OAZm — Mike Kearney📊 (@kearneymw) May 3, 2018   Mike Kearney is an assistant professor of Journalism at the University of Missouri and the author of the rtweet package to pull Twitter data in RStudio.</description>
-    </item>
-    
-    <item>
       <title>Unstructured text</title>
       <link>https://dsba5122-fall2019.netlify.com/reading/08-reading/</link>
       <pubDate>Mon, 18 Mar 2019 00:00:00 +0000</pubDate>
@@ -358,19 +404,6 @@ Welcome  </description>
       <guid>https://dsba5122-fall2019.netlify.com/slides/07-class/</guid>
       <description> class: center, middle
 Welcome  </description>
-    </item>
-    
-    <item>
-      <title>Multidimensional &amp; Dimensionality Reduction</title>
-      <link>https://dsba5122-fall2019.netlify.com/class/07-class/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-fall2019.netlify.com/class/07-class/</guid>
-      <description>Contents  Tweet of the day Slides: Lab   Tweet of the day 🍾🍾 New project in the family! 🍾🍾
--&amp;gt;The https://t.co/tKJaXKC2qm
-A gallery of 200 Simple charts made with d3.js, with reproducible, commented &amp;amp; editable code. #dataviz pic.twitter.com/m19BKxiNe5 — Yan Holtz (@R_Graph_Gallery) February 19, 2019   Yan has an excellent visualization decision tree along with the r-graph gallery.com, python-graph-gallery.com, and even d3-graph-gallery.com.
-
-Slides: full screen / pdf version</description>
     </item>
     
     <item>
@@ -420,16 +453,6 @@ babynames: US baby name data for each year from 1880 to 2013, the number of chil
     
     <item>
       <title>Statistical Models</title>
-      <link>https://dsba5122-fall2019.netlify.com/class/06-class/</link>
-      <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-fall2019.netlify.com/class/06-class/</guid>
-      <description>Contents  Tweet of the day Overview Lab 6: Work with models in ggplot2   Tweet of the day At long last, the parsnip package is on CRAN. parsnip is a unified R interface to models. The first of two blog posts about the package is at https://t.co/PXgFJ8eucM #rstats #tidyverse pic.twitter.com/BmuA9exckK — Max Kuhn (@topepos) November 28, 2018   Overview No slides for today’s class.
- Design contest assignment.</description>
-    </item>
-    
-    <item>
-      <title>Statistical Models</title>
       <link>https://dsba5122-fall2019.netlify.com/reading/06-reading/</link>
       <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
       
@@ -453,15 +476,6 @@ class: middle, center, inverse
  Safari example  Overview  Set-up: We’re on safari in South Africa and we want to see the lions.
  Problem: We’re uncertain to the lions’ location.
  Application: How can we design a visualization tool to aid our driver to help find the lions?</description>
-    </item>
-    
-    <item>
-      <title>Distributions &amp; Uncertainty</title>
-      <link>https://dsba5122-fall2019.netlify.com/class/05-class/</link>
-      <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-fall2019.netlify.com/class/05-class/</guid>
-      <description>Contents  Tweet of the Day: Slides: Links: Lab:   Tweet of the Day: My ??? talk is now in video form: A biased tour of the uncertainty visualization zoo. If you liked the version with just slides, you&#39;ll love (?) the version with me talking over slides :) https://t.co/hSdczZlgKW — Matthew Kay (@mjskay) December 7, 2018   Matthew Kay is an assistant professor of Information at the University of Michigan School of Information.</description>
     </item>
     
     <item>
@@ -494,17 +508,6 @@ Download the file below and place it in your new data/ folder.&amp;#8853;You’l
       <guid>https://dsba5122-fall2019.netlify.com/slides/04-class/</guid>
       <description> class: center, middle
 Welcome  </description>
-    </item>
-    
-    <item>
-      <title>Time &amp; Space</title>
-      <link>https://dsba5122-fall2019.netlify.com/class/04-class/</link>
-      <pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-fall2019.netlify.com/class/04-class/</guid>
-      <description>Contents  Tweet of the day Slides Links Lab 4: gganimate and Draw Maps in ggplot2   Tweet of the day Rumour has it ??? killed his talk last night…
-⏰ “Time series &amp;amp; financial analysis in the tidyverse” 📽 https://t.co/h2jGX0fZ38 #rstats * feat. ???&#39;s {tsibble}, ??? 📦s, and {rsample} pic.twitter.com/fYrC1hoHLB — Mara Averick (@dataandme) September 26, 2018   Slides full screen / pdf version
- Links  Make your own animated plots with gganimate</description>
     </item>
     
     <item>
@@ -650,7 +653,7 @@ RStudio.cloud R is free, but it can sometimes be a pain to install and configure
       
       <guid>https://dsba5122-fall2019.netlify.com/schedule/</guid>
       <description> Here’s your roadmap for the semester!
-  Readings should be completed before each class session  Assignments are due by 11:59 PM on the day they are due  Class materials (slides, in-class activities, etc.) will be added on the day of class     Information Visualization Reading Assignment Class   August 19 Intro to Visual Analytics      August 19 Datacamp course 1 (Due Sept 3)      August 26 Visual Representation Basics I      August 26 Problem set 1 (Due Sept 9)      September 2 No class (MLK Holiday)      September 9 Visual Representation Basics II      September 9 Datacamp course 2 (Due Sept 24)      September 16 Time &amp;amp; Space      September 16 Problem set 2 (Due Sept 30)      September 23 Distributions &amp;amp; Uncertainty       Interactive Visualizations Reading Assignment Class   September 30 Statistical Models      September 30 Design Contest assigned (Due Oct 28)      September 30 Datacamp course 3 (Due Oct 22)      October 7 Multidimensional &amp;amp; Dimensionality Reduction      October 7 No class (Fall Break)      October 14 Networks and Trees      October 21 Design Contest Presentations      October 21 Problem set 3 (Due Nov 4)       Building Shiny Apps Reading Assignment Class   November 4 Intro to Interaction (Shiny)      November 4 Final project assigned (Due Dec 9)      November 4 Datacamp course 4 (Due Nov 19)      November 11 Interacting &amp;amp; Brushing      November 11 Problem set 4 (Due Nov 25)      November 18 In Production: Deployment, Back-end, &amp;amp; Scalability      November 25 Human Factors      December 2 TBD       Final Reading Assignment Class   December 9 Final project due       </description>
+  Readings should be completed before each class session  Assignments are due by 11:59 PM on the day they are due  Class materials (slides, in-class activities, etc.) will be added on the day of class     Information Visualization Reading Assignment Class   August 19 Intro to Visual Analytics      August 19 Datacamp course 1 (Due Sept 3)      August 26 Visual Representation Basics I      August 26 Problem set 1 (Due Sept 9)      September 2 No class (MLK Holiday)      September 9 Visual Representation Basics II      September 9 Datacamp course 2 (Due Sept 24)      September 16 Time &amp;amp; Space      September 16 Problem set 2 (Due Sept 30)      September 23 Distributions &amp;amp; Uncertainty       Interactive Visualizations Reading Assignment Class   September 30 Statistical Models      September 30 Design Contest assigned (Due Oct 28)      September 30 Datacamp course 3 (Due Oct 22)      October 7 Multidimensional &amp;amp; Dimensionality Reduction      October 7 No class (Fall Break)      October 14 Networks and Trees      October 21 Design Contest Presentations      October 21 Problem set 3 (Due Nov 4)       Building Shiny Apps Reading Assignment Class   November 4 Intro to Shiny      November 4 Final project assigned (Due Dec 9)      November 4 Datacamp course 4 (Due Nov 19)      November 11 Interacting &amp;amp; Brushing      November 11 Problem set 4 (Due Nov 25)      November 18 In Production: Deployment, Back-end, &amp;amp; Scalability      November 25 Human Factors      December 2 TBD       Final Reading Assignment Class   December 9 Final project due       </description>
     </item>
     
     <item>

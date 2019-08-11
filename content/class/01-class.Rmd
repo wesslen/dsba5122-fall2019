@@ -33,11 +33,9 @@ knitr::include_url('../../slides/01-class.html#1')
 
 - Create a RStudio.Cloud account [rstudio.cloud](http://rstudio.cloud/).
 
-- Go to our class' [RStudio.Cloud workspace](https://rstudio.cloud/spaces/xxxx/projects).
+- Go to [healy-dataviz](https://rstudio.cloud/spaces/22733/project/160035) in our class RStudio Workplace.
 
-- Open [healy-dataviz](https://rstudio.cloud/spaces/xxxx/project/xxxxxx).
-
-Our first exercise will be running [Chapter 2: Get started](http://socviz.co/gettingstarted.html) in Healy.
+Our first exercise will be running [Chapter 2: Get started](http://socviz.co/gettingstarted.html) in Healy (02_get_started.Rmd).
 
 The great thing with RStudio.Cloud, is that I already installed all of the packages. 
 

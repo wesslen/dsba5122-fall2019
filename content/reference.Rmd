@@ -21,7 +21,9 @@ library(emo)
 
 # Information Visualization & Visual Analytics Courses
 
-- [**CSE 512**](https://courses.cs.washington.edu/courses/cse512/19sp/index.html): [Dr. Jeff Heer](http://jheer.org/)'s University of Washington's graduate Data Visualization course. 
+- [**CSE 512**](https://courses.cs.washington.edu/courses/cse512/19sp/index.html): [Dr. Jeff Heer](http://jheer.org/)'s University of Washington's graduate Data Visualization course.
+
+- [**PSYC 6135**](http://euclid.psych.yorku.ca/www/psy6135/): [Dr. Michael Friendly](http://www.datavis.ca)'s University of York graduate course in the Psychology of Data Visualization.
 
 - [**CS 7450**](https://www.cc.gatech.edu/~stasko/7450/): [Dr. John Stasko](https://www.cc.gatech.edu/~john.stasko/)'s Georgia Tech graduate Information Visualization course.
 

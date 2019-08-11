@@ -1,6 +1,6 @@
 ---
-title: "Text-as-Data"
-date: "2019-03-18"
+title: "Networks & Trees"
+date: "2019-10-14"
 citeproc: false
 bibliography: ../../static/bib/references.bib
 csl: ../../static/bib/chicago-syllabus-no-bib.csl
@@ -14,32 +14,19 @@ editor_options:
 
 # Tweet of the day
 
-<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">Text mining: I really like the tidytext book by <a href="https://twitter.com/juliasilge?ref_src=twsrc%5Etfw">@juliasilge</a> and <a href="https://twitter.com/drob?ref_src=twsrc%5Etfw">@drob</a>: <a href="https://t.co/zgoHq5jr5v">https://t.co/zgoHq5jr5v</a>. And I&#39;m increasingly convinced the single best and most comprehensive resource is <a href="https://twitter.com/kenbenoit?ref_src=twsrc%5Etfw">@kenbenoit</a>&#39;s quanteda: <a href="https://t.co/aVc3N4BCA5">https://t.co/aVc3N4BCA5</a>. It&#39;s tutorials are esp great: <a href="https://t.co/XB5km9OAZm">https://t.co/XB5km9OAZm</a></p>&mdash; Mike Kearney📊 (@kearneymw) <a href="https://twitter.com/kearneymw/status/991861570174058497?ref_src=twsrc%5Etfw">May 3, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>^[[Mike Kearney](https://mikewk.com/) is an assistant professor of Journalism at the University of Missouri and the author of the [`rtweet`](https://rtweet.info/) package to pull Twitter data in RStudio.]
-
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Our lab&#39;s first preprint!  Coral: an R shiny and D3.js web app for flexible, interactive, and high-resolution visualization of the human kinome. <a href="https://t.co/xD7QUXgjOR">https://t.co/xD7QUXgjOR</a> <a href="https://t.co/1gGy9zzsBT">pic.twitter.com/1gGy9zzsBT</a></p>&mdash; doug phanstiel (@dphansti) <a href="https://twitter.com/dphansti/status/1000074434982699009?ref_src=twsrc%5Etfw">May 25, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 # Slides:
 
-[full screen](../../slides/08-class.html#1) / [pdf version](https://github.com/wesslen/dsba5122-spring2019/raw/master/public/files/dsba5122-spring2019-08-class.pdf)
+[full screen](../../slides/10-class.html#1) / [pdf version](https://github.com/wesslen/dsba5122-spring2019/raw/master/public/files/dsba5122-spring2019-10-class.pdf)
 
 ```{r echo=FALSE}
-knitr::include_url('../../slides/08-class.html#1')
+knitr::include_url('../../slides/10-class.html#1')
 ```
 
-- <i class="fas fa-book"></i> Julia Silge and David Robinson, ["Tidy Text Mining"](https://www.tidytextmining.com/)
+# Lab: Shiny Reactivity
 
-- <i class="fas fa-external-link-square-alt"></i> Ken Benoit and the Quanteda Institute, ["quanteda: Quantitative Analysis of Textual Data"](https://quanteda.io/)
+Garrett Grohlmund's [Introduction to Reactivity in Shiny](https://github.com/wesslen/dsba5122-spring2019/raw/master/public/files/shiny-reactivity.pdf)
 
-- <i class="fas fa-external-link-square-alt"></i> University of Koblanz, ["Workshop on Topic modeling"](http://topicmodels.west.uni-koblenz.de/#toolbox)
-
-- <i class="fas fa-external-link-square-alt"></i> Matthew Gentzkow, Bryan T. Kelly, and Matt Taddy, ["Text-as-Data"](https://web.stanford.edu/~gentzkow/research/text-as-data.pdf)
-
-# Lab
-
-[full screen](../../slides/08-lab.html#1) / [pdf version](https://github.com/wesslen/dsba5122-spring2019/raw/master/public/files/dsba5122-spring2019-08-lab.pdf)
-
-```{r echo=FALSE}
-knitr::include_url('../../slides/08-lab.html#1')
-```
-
-RStudio Cloud project for [sample Shiny apps](https://rstudio.cloud/spaces/7976/project/256282)
+- RStudio Cloud project for [sample Shiny apps](https://rstudio.cloud/spaces/7976/project/256282)

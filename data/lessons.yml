@@ -86,7 +86,7 @@ lessons:
   - title: '<span class="fake-header-table">Building Shiny Apps</span>'
     header: True
     
-  - title: "Intro to Interaction (Shiny)"
+  - title: "Intro to Shiny"
     date: "November 4"
     reading: "10-reading"
     class: "10-class"

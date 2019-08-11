@@ -22,7 +22,7 @@ In this class, you'll learn how to use industry-standard graphic and data design
 
 # Course objectives
 
-<span class="newthought">By the end of this course,</span> you will (1) evaluate and critique visualization designs, (2) learn visualization techniques & theory, (3) mplement interactive data visualizations, and (4) develop a substantial visualization project. 
+<span class="newthought">In this course,</span> you will (1) evaluate and critique visualization designs, (2) learn visualization techniques & theory, (3) implement interactive data visualizations, and (4) develop a substantial visualization project. 
 
 Specifically, you should:
 
@@ -38,7 +38,7 @@ The standards and requirements set forth in this syllabus may be modified by the
 
 # Course materials
 
-<span class="newthought">The course books are **optional** as the core materials are available online. **requires** one textbook and **recommends** three books</span>, where each recommended book also has free online versions as alternatives to purchasing the books.^[Although I'd still highly recommend buying physical copies (but it's completely optional).] 
+<span class="newthought">The course books are **optional** to purchase as the textbooks have free online versions available.</span> Although, I'd still highly recommend buying physical copies (but it's completely optional).
 
 The recommended books are:^[Fun fact: all of these books were written in R using [Bookdown](https://bookdown.org/)! Don't believe, here's their code [Healy](https://github.com/kjhealy/socviz), [Wilke](https://github.com/clauswilke/dataviz), and [Wickham](https://github.com/hadley/r4ds).]
 
@@ -103,32 +103,27 @@ Faculty may ask students to produce identification at examinations and may requi
 
 ```{r assignments-grades, include=FALSE}
 assignments <- tribble(
-  ~Points,  ~Assignment,
-  10 , "Attendance & Participation",
-  10 , "4 Datacamp courses",
-  20 , "4 Problem sets",
-  20 , "4 Out-of-Class Online Quizzes",
-  10 , "Group: Design Contest",
-  30 , "Group: Final Project"
-) %>%
-  mutate(Percent = Points / sum(Points)
-         )
+  ~Percent,  ~Assignment,
+  "10%" , "Attendance & Participation",
+  "10%" , "4 Datacamp courses",
+  "20%" , "4 Problem sets",
+  "20%" , "4 Out-of-Class Online Quizzes",
+  "10%" , "Group: Design Contest",
+  "30%" , "Group: Final Project"
+) 
 
 grading <- tribble(
   ~Grade, ~Range,
-  "A (Comendable)",  "90% - 100%", 
+  "A (Comendable)",  "90% – 100%", 
   "B (Satisfactory)",  "80% – 89.99%", 
-  "C (Marginal)",  "70% - 79.99%",
+  "C (Marginal)",  "70% – 79.99%",
   "U (Unsatisfactory)",  "< 70%"
 )
 ```
 
 ```{r show-assignments-table, echo=FALSE, results="asis"}
-assignments_total <- tibble(Assignment = "Total",
-                                Points = sum(assignments$Points))
-
-bind_rows(assignments, assignments_total) %>% 
-  select(Assignment, Points) %>%
+assignments %>% 
+  select(Assignment, Percent) %>%
   knitr::kable("markdown", align = "cc")
 ```
 

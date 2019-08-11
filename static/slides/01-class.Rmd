@@ -67,7 +67,7 @@ To do by next class: Send me an introduction email <rwesslen@uncc.edu> answering
 
 ---
 
-Two objectives:
+# Two objectives:
 
 .pull-left[
 ## Visualization Theory & Concepts
@@ -94,34 +94,33 @@ Two objectives:
 
 ```{r assignments-grades, include=FALSE}
 assignments <- tribble(
-  ~Points,  ~Assignment,
-  10 , "Attendance & Participation",
-  10 , "4 Datacamp courses",
-  20 , "4 Problem sets",
-  20 , "4 Out-of-Class Online Quizzes",
-  10 , "Group: Design Contest",
-  30 , "Group: Final Project"
-) %>%
-  mutate(Percent = Points / sum(Points)
-         )
+  ~Percent,  ~Assignment,
+  "10%" , "Attendance & Participation",
+  "10%" , "4 Datacamp courses",
+  "20%" , "4 Problem sets",
+  "20%" , "4 Out-of-Class Online Quizzes",
+  "10%" , "Group: Design Contest",
+  "30%" , "Group: Final Project"
+) 
 
 grading <- tribble(
   ~Grade, ~Range,
-  "A (Comendable)",  "90% - 100%", 
+  "A (Comendable)",  "90% – 100%", 
   "B (Satisfactory)",  "80% – 89.99%", 
-  "C (Marginal)",  "70% - 79.99%",
+  "C (Marginal)",  "70% – 79.99%",
   "U (Unsatisfactory)",  "< 70%"
 )
 ```
 
 ```{r show-assignments-table, echo=FALSE, results="asis"}
-assignments_total <- tibble(Assignment = "Total",
-                                Points = sum(assignments$Points))
-
-bind_rows(assignments, assignments_total) %>% 
-  select(Assignment, Points) %>%
+assignments %>% 
+  select(Assignment, Percent) %>%
   knitr::kable("markdown", align = "cc")
 ```
+
+---
+
+# Grading
 
 ```{r show-grades-table, echo=FALSE, results="asis"}
 knitr::kable(grading, "markdown", align = "cc")
@@ -131,11 +130,11 @@ knitr::kable(grading, "markdown", align = "cc")
 
 # Policies:
 
-* No latework accepted. None. None.
+* No latework accepted. None.
 
-* Formal announcements will be sent through email.
+* Formal announcements sent thru email.
 
-  - Informal announcements will be through Slack.
+  - Informal announcements sent thru Slack.
   
   - Canvas will only be for assignment submission and tracking grades.
 
@@ -155,13 +154,17 @@ knitr::kable(grading, "markdown", align = "cc")
 
 ## Course Communication
 
-For many students, a lot of the course material may be very new. Early on, many students first reaction when they get their first R error message or question on programming is to email me.
+For many students, a lot of the course material may be very new. 
 
-**Email to me should be a last purpose!**
+Many students' first reaction when get first R error message or question on programming is to email me.
 
---
+**Emailing me should be a last resort!**
 
-When you have questions:
+---
+
+## Course Communication: Material Questions
+
+When you have questions R/running things:
 
 1. Google it! If that doesn't work, then...
 
@@ -169,7 +172,7 @@ When you have questions:
 
 3. Post your question on the course Slack channel. If that doesn't work, then...
 
-4. Email the TA. Be clear and concise with your question. If that doesn't work, then...
+4. Email the TA, Tarun Sharma. Be clear and concise with your question. If that doesn't work, then...
 
 5. Email me at last resort.
 
