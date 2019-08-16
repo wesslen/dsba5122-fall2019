@@ -7,7 +7,11 @@ slug: assignments
 
 You are expected to attend class and actively participate (e.g., ask questions, provide your perspective). 
 
-You are permitted to miss to have two (2) unexcused absences. Excused absences must be approved before the class.
+You are permitted to miss to have two (2) unexcused absences. Excused absences must be approved before the class and can only be approved for medical issues (with a doctor's note) or work-travel related.
+
+Attendance will be **taken during break on a written sheet of paper**. Each unexcused absences after your first two unexcused absences will decrease your Attendance grade by **10%**.
+
+For example, if you have four unexcused absences and perfect participation, your Attendance grade will be 80% as first two unexcused absences will not have an effect.
 
 # DataCamp Courses
 
@@ -39,7 +43,7 @@ The goal of this project is to give you practice to design visualization solutio
 
 Feel free to start thinking about ideas (datasets, research questions) now. This will be in groups of no more than 3 students per group.
 
-This project is worth 10% of your final grade. You will have an in-class, 10 minute presentation on **October 28th** and submit your materials in Canvas.
+This project is worth **10%** of your final course grade. You will have an in-class, 10 minute presentation on **October 28th** and submit your materials in Canvas.
 
 # Final project
 

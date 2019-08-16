@@ -1,7 +1,7 @@
 ---
 title: "Quiz 1"
-date: "2019-02-04"
-due_date: "2019-02-04"
+date: "2019-09-09"
+due_date: "2019-09-16"
 due_time: "11:59 PM"
 editor_options: 
   chunk_output_type: console
@@ -12,148 +12,22 @@ knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
 ```
 
-Name: _____________________
+Quiz 1 can be taken starting on September 10th.
 
-Student ID: _________________________
+This quiz will consist of 10 multiple choice questions.
 
-This quiz is closed-note. You will have 10 minutes to complete.
+Quiz 1 will cover:
 
+1. Week 1 Slides: "Introduction to Visualization" (slide X, X, X, X, X, X, X, X)
 
-## Question 1
+2. Week 2 Slides: "Graphical Perception" (slide X, X, X, X, X, X, X, X)
 
-What are the three disciplines of data visualizations?
+3. Week 3 Slides: "Bertin to ggplot2" (slide X, X, X, X, X, X, X, X)
 
-A) Information graphics, scientific graphics, graphic analytics
+Readings from:
 
-B) Grammar of graphics, exploratory analysis, confirmatory analysis
+- Week 1: 
 
-C) Information visualization, visual analytics, scientific visualization
+- Week 2: 
 
-D) Computer graphics, human-computer interaction, spatial mapping
-
-## Question 2
-
-According to "The Truthful Art", the five qualities of a great visualization are:
-
-A) Truthful, functional, beautiful, insightful, enlightening
-
-B) Labeled, framed, attractive, clear, correct
-
-C) Intuitive, functional, clear, enlightening, correct
-
-D) Truthful, framed, attractive, beautiful, insightful
-
-## Question 3
-
-According to "The Truthful Art", which perceptual task (or channel) enables the most accurate estimates:
-
-A) Area
-
-B) Shading
-
-C) Color/Hue
-
-D) Position along a common axis
-
-##  Use this dataset for Question 4 and 5
-
-```{r}
-head(mpg, n = 5)
-```
-
-## Question 4
-
-Which code produces the **average** `mpg` and **count** for **Volkswagen** manufactured cars by the car's cylinder (`cyl`):
-
-```{r echo=FALSE}
-mpg %>%
-  filter(manufacturer == "volkswagen") %>%
-  group_by(cyl) %>%
-  summarise(avgHwy=mean(hwy), count=n())
-```
-
-A)
-
-```{r eval=FALSE}
-mpg %>%
-  filter(manufacturer == "volkswagen") %>%
-  group_by(cyl) %>%
-  summarise(avgHwy=mean(hwy), count=n())
-```
-
-B)
-
-```{r eval=FALSE}
-mpg %>%
-  where(manufacturer == "volkswagen") %>%
-  select(cyl) %>%
-  summarise(avgHwy=mean(hwy), count=n())
-```
-
-C)
-
-```{r eval=FALSE}
-mpg %>%
-  group_by(cyl) %>%
-  summarise(avgHwy=mean(hwy), count=n()) %>%
-  filter(manufacturer == "volkswagen")
-```
-
-D)
-
-```{r eval=FALSE}
-mpg ->
-  group_by(cyl) ->
-  average(avgHwy=m(hwy)) ->
-  count(count=n()) ->
-  filter(manufacturer == "volkswagen")  
-```
-
-## Question 5
-
-What code replicates this plot:
-
-```{r echo=FALSE,fig.height=4,fig.width=5}
-ggplot(mpg, aes(x = cty, y = hwy, color = class)) +
-  geom_point() +
-  facet_wrap(year~.) +
-  theme_bw() +
-  theme(legend.position = "bottom")
-```
-
-
-A)
-
-```{r eval=FALSE}
-ggplot(mpg, aes(x = cty, y = hwy, color = class)) +
-  geom_point() +
-  facet_grid(year~.)
-```
-
-B)
-
-```{r eval=FALSE}
-ggplot(mpg, aes(x = cty, y = hwy, color = class)) +
-  geom_scatter() +
-  facet_wrap(year~.) +
-  theme(legend.position = "bottom")
-```
-
-C)
-
-```{r eval=FALSE}
-ggplot(mpg, aes(x = cty, y = hwy, color = class)) +
-  geom_point(year) +
-  theme_bw(legend.position = "bottom") +
-  coords(facet_grid)
-```
-
-D)
-
-```{r eval=FALSE}
-ggplot(mpg, aes(x = cty, y = hwy, color = class)) +
-  geom_point() +
-  facet_wrap(year~.) +
-  theme_bw() +
-  theme(legend.position = "bottom")
-```
+- Week 3: 

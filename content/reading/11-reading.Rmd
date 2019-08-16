@@ -1,5 +1,5 @@
 ---
-title: "Coordinated-Multiple Views"
+title: "Interacting & Brushing"
 date: "2019-04-08"
 citeproc: false
 bibliography: ../../static/bib/references.bib
@@ -8,4 +8,7 @@ csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
 
 # Required
 
-- <i class="fas fa-book"></i> [Chapter 7: Interactions](https://github.com/wesslen/dsba5122-spring2019/raw/master/static/readings/Mazza2009_Chapter_Interactions.pdf) in Riccardo Mazza, *Introduction to Information Visualization* 
+- <i class="fas fa-book"></i> [Interactive Dynamics for
+Visual Analysis](../../readings/heer-shneiderman.pdf) by Jeff Heer and Ben Shneiderman
+
+- <i class="fas fa-book"></i> [Chapter 7: Interactions](../../readings/Mazza2009_Chapter_Interactions.pdf) in Riccardo Mazza, *Introduction to Information Visualization* 

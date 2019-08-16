@@ -1,0 +1,251 @@
+---
+title: "Problem set 1"
+author: "YOUR NAME HERE"
+date: "DATE HERE"
+---
+
+# Details
+
+- Who did you collaborate with: xxxxx
+- Approximately how much time did you spend on this problem set: xxxxx
+- What, if anything, gave you the most trouble: xxxx
+
+## Instructions
+
+For this problem set, you'll have three possible things to do.
+
+- "**Question #:**" / "xxxxx" = Write your response to each question by replacing the "xxxx. 1-2 sentences is fine.
+
+- "**Code**" = Write R code in the chunk corresponding to the instructions.
+
+- "**Google**" = Google (or use a different search engine of your choice) the answer to this question.
+
+# Task 1
+
+Answer the following questions about RMarkdown from the short lessons.
+
+## Question 1:
+
+What three (3) characters start and end the YAML information for an RMarkdown file?
+
+xxxxx
+
+## Question 2:
+
+What does the code chunk parameter `echo = FALSE` do?
+
+xxxxx
+
+## Question 3:
+
+How do you change the output type for an RMarkdown file?
+
+xxxxx
+
+
+# Task 2
+
+## Exploratory Data Analysis
+
+**Code**: load the `tidyverse` package.
+
+```{r load-packages, warning=FALSE, message=FALSE}
+# Notice the warning=FALSE and message=FALSE in the chunk options. R spits out 
+# a lot of messages when you load tidyverse and we don't want those in the 
+# final document.
+```
+
+### Question 4:
+
+What packages are loaded when you load `tidyverse`?
+
+xxxxx
+
+**Code**: read in the `rickmorty_char.csv` file and assign it to `rm_df`.
+
+```{r load-data-1}
+# load in the file './data/rickmorty_char.csv' and assign it to rm_df
+# hint: use the read_csv function from the readr (tidyverse) package
+#read_csv("/data/rickmorty_char.csv")
+```
+
+**Code**: Run `nrow()` and `ncol()` on the data to determine the number of rows and columns of the data frame.
+
+```{r row-col}
+# run nrow() and ncol()
+```
+
+### Question 4:
+
+How many rows and columns does the data frame include?
+
+xxxxx
+
+**Code**: Run the `glimpse()` function on the data to explore the column formats.
+
+```{r glimpse}
+# run the glimpse() function
+```
+
+### Question 5:
+
+Which column appears to have missing data (as represented as "" for some values)?
+
+xxxxx
+
+**Code**: Run the `head()` function. Change the parameter `n` to equal 10.
+
+```{r head, eval=F}
+head(rm_df, n = 10)
+```
+
+
+## Character Species
+
+Let's try to understand the range of character species in the show.
+
+**Code**: Using `dplyr` and piping (`%>%`), count the number of characters by species and assign it to the dataframe `species_count`. After running it, print it to the console by simply writing the name of the data frame.
+
+```{r species-count-1, eval=F}
+# hint: assign species_count through a group_by and summarise
+# name your count variable `count` - if you don't you'll get an 
+species_count <- rm_df %>%
+  group_by(species) %>%
+  summarise(count=n())
+
+# print to console by simply writing species_count
+species_count
+```
+
+### Question 6:
+
+How many [Cronenberg](https://rickandmorty.fandom.com/wiki/Cronenbergs)] characters are in  the show?
+
+xxxxx
+
+**Code**: Create a bar chart with `geom_col()` and choosing the aesthetics mappings as `species` for `x` and `count` for `y`.
+
+```{r species-count-2, eval=F}
+species_count %>%
+  ggplot(aes(x = species, y = count)) +
+  geom_col()
+```
+
+As you may notice, there are multiple problems with this plot like: 
+
+- catgories (species) are not ordered;
+
+- labels on the x-axis are difficult to read.
+
+Let's address these problems.
+
+## Re-design our plot
+
+First, let's reorder the categories. To do this, we need to convert the `species` field to a factor. 
+
+**Code**: Rerun the `geom_col()` function by converting `species` to a factor and using the `forcats` funtion `fct_reorder()`:
+
+Hint: to learn how to use `fct_reorder()`, read [this chapter of R4DS](https://r4ds.had.co.nz/factors.html#modifying-factor-order).
+
+```{r species-count-3, eval=F}
+library(forcats) # to use the fct_reorder function
+
+# convert species to a factor using the mutate function
+# then use fct_reorder to reorder species by the count field
+species_count %>%
+  mutate(species = factor(species)) %>%
+  ggplot(aes(x = fct_reorder(species, count), y = count)) +
+  geom_col()
+```
+
+Next, let's flip the coordinates. This is where `ggplot2` shines. It's one simple function.
+
+**Google**: Search online (google or another search engine) for what `ggplot2` function will flip the coordinates. 
+
+### Question 7:
+
+What are three words you used to search?
+
+xxxxx
+
+**Code**: Rerun the plot 
+
+```{r eval=F}
+# coord_flip
+species_count %>%
+  mutate(species = factor(species)) %>%
+  ggplot(aes(x = forcats::fct_reorder(species, count), y = count)) +
+  geom_col() +
+  coord_flip()
+```
+
+
+
+```{r eval=F}
+g <- species_count %>%
+  mutate(species = factor(species)) %>%
+  ggplot(aes(x = forcats::fct_reorder(species, count), y = count, fill = species)) +
+  geom_col() +
+  coord_flip() +
+  labs(x = "", 
+       y = "",
+       title = "Rick and Morty Character",
+       subtitle = "Number of Characters by Species"
+  )
+
+g
+```
+
+
+```{r eval=F}
+#install.packages('ggsci')
+rm_colors = ggsci::pal_rickandmorty("schwifty")(12)
+
+g +
+  theme_minimal() +
+  theme(
+    panel.grid = element_blank(),
+    panel.grid.major.x = element_line(color = "white"),
+    panel.ontop = TRUE,
+    legend.position = "none"
+  ) + 
+  scale_y_continuous(position = "bottom") +
+  scale_fill_manual(values=rm_colors)
+
+```
+```{r eval=F}
+#devtools::install_github("clauswilke/ggtext")
+library(ggtext)
+
+getImage <- function(url, species){
+  paste0("<img src='",url,"'\n width = '100' /><br>*",species,"*")
+}
+
+samp <- char %>%
+  group_by(species) %>%
+  sample_n(size = 1) %>%
+  select(image, species) %>%
+  ungroup() %>%
+  mutate(link = getImage(image, species))
+
+labels = as.character(samp$link)
+names(labels) = samp$species
+
+g +
+  theme_minimal() +
+  scale_x_discrete(
+    name = NULL,
+    labels = labels
+  ) +
+  scale_y_continuous(position = "bottom") +
+  scale_fill_manual(values=rm_colors) +
+  theme(
+    panel.grid = element_blank(),
+    panel.grid.major.x = element_line(color = "white"),
+    panel.ontop = TRUE,
+    legend.position = "none",
+    axis.text.x = element_markdown(color = "black", size = 11)
+  ) 
+```
+
+

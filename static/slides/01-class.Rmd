@@ -63,11 +63,11 @@ To do by next class: Send me an introduction email <rwesslen@uncc.edu> answering
 
 ![https://dsba5122-fall2019.netlify.com](../images/slides/01-class/course-site.png)
 
-<https://dsba5122.com>
+<https://dsba5122.com>: Review the syllabus, schedule, and assignments.
 
 ---
 
-# Two objectives:
+# Two course objectives:
 
 .pull-left[
 ## Visualization Theory & Concepts
@@ -76,7 +76,7 @@ To do by next class: Send me an introduction email <rwesslen@uncc.edu> answering
 
 - What are the best visualization tools for your problem?
 
-- What human factors are important to implement your visualization?
+- What human factors are important to consider in designing visualizations?
 ]
 .pull-right[
 ## Data Visualization in Practice
@@ -188,6 +188,8 @@ class: center, middle
 
 # Let's get started!
 
-![](https://media.giphy.com/media/1BVuXduUzNros/giphy.gif)
+```{r out.width = "600px", fig.align="center", echo=FALSE}
+knitr::include_graphics("https://media.giphy.com/media/1BVuXduUzNros/giphy.gif")
+```
 
 

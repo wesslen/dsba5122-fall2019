@@ -48,7 +48,7 @@ The recommended books are:^[Fun fact: all of these books were written in R using
 
 We'll also use a book in development for Shiny.^[Unfortunately, there is not a good standard textbook for R Shiny yet; this book will likely become that but is still a year away from completion.]
 
-- [@Chang:2020] [Online version](https://mastering-shiny.org/)
+- [@Wickham:2020] [Online version](https://mastering-shiny.org/)
 
 There will also occasionally be additional articles and videos to read and watch. When this happens, links to these other resources will be included on the reading page for that week.
 

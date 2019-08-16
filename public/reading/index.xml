@@ -6,10 +6,22 @@
     <description>Recent content in Readings on Visual Analytics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://dsba5122-fall2019.netlify.com/reading/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Visual Representation Basics II</title>
+      <link>https://dsba5122-fall2019.netlify.com/reading/03-reading/</link>
+      <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-fall2019.netlify.com/reading/03-reading/</guid>
+      <description>Required   Chapter 4: Show the right numbers in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
+  Recommended   Chapter 5: Directory of visualizations and Chapter 22: Image file formats in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
+
+  Chapter 7: Exploratory data analysis in Garrett Grolemund and Hadley Wickham, R for Data ScienceHadley Wickham and Garrett Grolemund, R for Data Science: Import, Tidy, Transform, Visualize, and Model Data (Sebastopol, California: O’Reilly Media, 2017), http://r4ds.</description>
+    </item>
     
     <item>
       <title>Visual Representation Basics I</title>
@@ -55,12 +67,14 @@
     </item>
     
     <item>
-      <title>Coordinated-Multiple Views</title>
+      <title>Interacting &amp; Brushing</title>
       <link>https://dsba5122-fall2019.netlify.com/reading/11-reading/</link>
       <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-fall2019.netlify.com/reading/11-reading/</guid>
-      <description> Required   Chapter 7: Interactions in Riccardo Mazza, Introduction to Information Visualization  </description>
+      <description> Required   Interactive Dynamics for Visual Analysis by Jeff Heer and Ben Shneiderman
+  Chapter 7: Interactions in Riccardo Mazza, Introduction to Information Visualization
+  </description>
     </item>
     
     <item>
@@ -154,18 +168,6 @@
       <guid>https://dsba5122-fall2019.netlify.com/reading/09-reading/</guid>
       <description>Required   Chapter 8 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
   The Nuclear Threat—The Shadow Peace, part 1  11 Ways to Visualize Changes Over Time – A Guide A bunch of (really) short blog posts:   Streamgraphs: Economic trade flows with R  A century of ocean shipping animated  What is seasonal adjustment and why is it used?</description>
-    </item>
-    
-    <item>
-      <title>Visual Representation Basics II</title>
-      <link>https://dsba5122-fall2019.netlify.com/reading/03-reading/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-fall2019.netlify.com/reading/03-reading/</guid>
-      <description>Required   Chapter 4: Show the right numbers in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
-  Recommended   Chapter 5: Directory of visualizations and Chapter 22: Image file formats in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
-
-  Chapter 7: Exploratory data analysis in Garrett Grolemund and Hadley Wickham, R for Data ScienceHadley Wickham and Garrett Grolemund, R for Data Science: Import, Tidy, Transform, Visualize, and Model Data (Sebastopol, California: O’Reilly Media, 2017), http://r4ds.</description>
     </item>
     
   </channel>

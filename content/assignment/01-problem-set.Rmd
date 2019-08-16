@@ -1,29 +1,31 @@
 ---
 title: "Problem set 1"
-date: "2019-01-28"
-due_date: "2019-02-11"
+date: "2019-08-26"
+due_date: "2019-09-09"
 due_time: "11:59 PM"
 editor_options: 
   chunk_output_type: console
 ---
 
-*Note*: to complete this task, you **MUST** submit your final folder (compressed as a zip file) through [here to Canvas](https://uncc.instructure.com/courses/100065/assignments/516650) by 11:59pm on August 11, 2019. Each person needs to submit their own folder! So if you work in pairs, both individuals have to submit a folder.
+*Note*: to complete this task, you **MUST** submit your final folder (compressed as a zip file) through [here to Canvas](https://uncc.instructure.com/courses/110218/assignments/651583) by 11:59pm on September 9, 2019. Each person needs to submit their own folder! So if you work in pairs, both individuals have to submit a folder.
 
 # Task 0
 
 Create a [new R project as a "New Directory" (folder)](https://r4ds.had.co.nz/workflow-projects.html#rstudio-projects).
 
-Within your new project folder, [download this R Markdown file](/files/your-name_problem-set-1.Rmd).^[Your browser might show the file instead of downloading it. If that's the case, you can copy/paste the code from the browser to RStudio. In RStudio, go to "File" > "New" > "New R Markdown…", click "OK" with the default options, delete all the placeholder code/text in the new file, and paste the example code in the now-blank file.] It contains an outline/skeleton of what you'll need to do in this problem set, and it includes lots of the code prewritten just for you!
+Within your new project folder, [download this R Markdown file](/files/yourlastname-problem-set-1.Rmd).^[Your browser might show the file instead of downloading it. If that's the case, you can copy/paste the code from the browser to RStudio. In RStudio, go to "File" > "New" > "New R Markdown…", click "OK" with the default options, delete all the placeholder code/text in the new file, and paste the example code in the now-blank file.] It contains an outline/skeleton of what you'll need to do in this problem set, and it includes lots of the code prewritten just for you!
 
-Make sure you install R and RStudio and tidyverse first.^[Follow [these instructions](/install/) and install R, RStudio, and all the tidyverse packages. If you have any questions, don't hesitate to ask me or your classmates for help!] 
+Make sure you install R and RStudio and tidyverse first.^[Follow [these instructions](/install/) and install R, RStudio, and all the tidyverse packages. If you have any questions, send a message on the class' Slack!] 
 
 Complete the three tasks below and type your answers in that downloaded file. When you're done, knit the document as a html file with the "Knit" button at the top of the script editing pane.^[![Knit button](/images/assignment/knit-button.png)]
 
-# Task 1: Become familiar with RStudio and R Markdown
+# Task 1: Become familiar with RStudio and RMarkdown
 
 In Task 2, you'll play with actual R commands and create graphics. Before we get there, you need to familiarize yourself with RStudio. Go through [this short tutorial](http://stat545.com/block002_hello-r-workspace-wd-project.html).
 
-Finally, you will write future memos and problems sets in R Markdown instead of Word. RStudio has [a helpful tutorial and a short video about R Markdown](http://rmarkdown.rstudio.com/lesson-1.html). Go through these short lessons:
+Finally, you will write future memos and problems sets in RMarkdown instead of Word. RStudio has [a helpful tutorial and a short video about R Markdown](http://rmarkdown.rstudio.com/lesson-1.html). 
+
+Go through these short lessons:
 
 - [Introduction](http://rmarkdown.rstudio.com/lesson-1.html)
 - [How it Works](http://rmarkdown.rstudio.com/lesson-2.html)
@@ -32,11 +34,11 @@ Finally, you will write future memos and problems sets in R Markdown instead of 
 - [Markdown Basics](http://rmarkdown.rstudio.com/lesson-8.html) ^[{-} The [R Markdown Reference Guide](https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf) is super useful here.]
 - [Output Formats](http://rmarkdown.rstudio.com/lesson-9.html)
 
-Before doing these R Markdown tutorials, you'll need to install a couple more R packages. Use RStudio's "Packages" panel to install `rmarkdown` and `viridis`. Alternatively, paste these commands in the RStudio Console: `install.packages("rmarkdown")` and `install.packages("viridis")`. You can also type `install.packages(c("rmarkdown", "viridis"))` to install both at the same time.
+Before doing these R Markdown tutorials, you'll need to install a couple more R packages. Use RStudio's "Packages" panel to install `rmarkdown` and `viridis`. Alternatively, paste these commands in the RStudio Console: `install.packages("rmarkdown")` and `install.packages("viridis")`. ^[You can also type `install.packages(c("rmarkdown", "viridis"))` to install both at the same time.]
 
-Don't worry if you don't completely understand R Markdown!^[See [R4DS Chapter 27](https://r4ds.had.co.nz/r-markdown.html) if you need some help.] Try your hardest and play around with it.
+Don't worry if you don't completely understand RMarkdown!^[See [R4DS Chapter 27](https://r4ds.had.co.nz/r-markdown.html) if you need some help.] Try your hardest and play around with it.
 
-Also, (**optional**) if you want to convert R Markdown files to PDF instead of just Word or HTML, you'll need to install LaTeX, which is a fancy scientific typesetting program. You don't need to know how it works—it just has to be installed for R to use it.
+^[{-} Also, (**optional**) if you want to convert R Markdown files to PDF instead of just Word or HTML, you'll need to install LaTeX, which is a fancy scientific typesetting program. You don't need to know how it works—it just has to be installed for R to use it.
 
 The easiest way to install it is with the **tinytex** R package. Run these two lines in your R console to install a smaller version of LaTeX that should work great for this class:
 
@@ -47,35 +49,35 @@ tinytex::install_tinytex()
 
 If you want to use a full-blown LaTeX installation, install one of these. But note that *you don't need to do this!*
 
-- LaTeX for macOS: [MacTeX](https://www.tug.org/mactex/) ^[{-} For whatever reason, LaTeX is astoundingly huge and it will feel like you're downloading the entire internet when you install it. Be patient :)]
-- LaTeX for Windows: [MiKTeX](https://miktex.org/howto/install-miktex)
-
-When you're done with everything in Task 1, type something in the R Markdown skeleton file you downloaded at the beginning. You should see a `# Task 1` heading. Type it under that.
+- LaTeX for macOS: [MacTeX](https://www.tug.org/mactex/). For whatever reason, LaTeX is astoundingly huge and it will feel like you're downloading the entire internet when you install it. Be patient :).
+- LaTeX for Windows: [MiKTeX](https://miktex.org/howto/install-miktex)]
 
 
-# Task 2: Playing with R
+# Task 2: Analyzing Rick and Morty Characters with R
 
-This example uses data from the [Gapminder project](https://www.gapminder.org/).[^gapminder] You'll need to install the `gapminder` R package first. Install it either with the "Packages" panel in RStudio or by typing `install.packages("gapminder")` in the R console.
+As a fun starter, we'll analyze Rick and Morty Characters.^[{-} ![](https://media.giphy.com/media/i2dE5VvBNxBw4/giphy.gif)]
 
-[^gapminder]: {-}
-  You may have seen Hans Rosling's [delightful TED talk](https://www.ted.com/talks/hans_rosling_shows_the_best_stats_you_ve_ever_seen) showing how global health and wealth have been increasing. If you haven't, you should watch it. Sadly, Hans died in February 2017.
+In the end, the structure of your new project directory should look like this:
 
-For this task, you won't do any actual coding. The skeleton R Markdown file has all the code you need for this task. Download it, open it in RStudio, and walk through the examples in RStudio on your computer. If you place your cursor on some R code and press "⌘ + enter" (for macOS users) or "ctrl + enter" (for Windows users), RStudio will send that line to the console and run it.
+```
+problem-set-1-yourlastname\
+  yourlastname-problem-set-1.Rmd
+  problem-set-1-yourlastname.Rproj
+  data\
+    rickmorty_char.csv
+    rickmorty_episodes.csv
+```
 
-There are a few questions that you'll need to answer, but that's all. Those are marked with "TYPE YOUR ANSWER HERE."
+Follow the instructions in the file. For this problem set, you'll have three possible things to do.
 
+- "xxxxx" = Write, in complete English sentences, your response to questions. 1-2 sentences is sufficient.
 
-# Task 3: R and ggplot2
+- "**Code**" = Write R code in the chunk corresponding to the instructions.
 
-Read [Chapter 3 of R for Data Science](http://r4ds.had.co.nz/data-visualisation.html) and complete the following exercises:
-
-- [3.2.4](http://r4ds.had.co.nz/data-visualisation.html#exercises): Questions 1–5
-- [3.3.1](http://r4ds.had.co.nz/data-visualisation.html#exercises-1): Questions 1–5
-- [3.5.1](http://r4ds.had.co.nz/data-visualisation.html#exercises-2): Questions 1–4
-- [3.6.1](http://r4ds.had.co.nz/data-visualisation.html#exercises-3): Questions 1–5 (\#6 if you're feeling adventurous)
-- [3.8.1](http://r4ds.had.co.nz/data-visualisation.html#exercises-5): Questions 1 and 2 
-
+- "**Google**" = Google (or use a different search engine of your choice) the answer to this question.
 
 # All done!
 
-Knit the completed R Markdown file as a html (use the "Knit" button at the top of the script editor window) and compress the entire folder (including the html document, RStudio Project, any respective data, and the R Markdown file). To complete the assignment, [upload here to Canvas](https://uncc.instructure.com/courses/100065/assignments/516650) by 11:59pm on February 11, 2018. Each person needs to submit their own folder. (Example: if you work with someone else, you both have to submit a folder!)
+Knit the completed R Markdown file as a **html** (use the "Knit" button at the top of the script editor window) and **compress** the entire folder as a zip file (including the html document, RStudio Project, any respective data, and the R Markdown file). 
+
+To complete the assignment, [upload here to Canvas](https://uncc.instructure.com/courses/100065/assignments/516650) by 11:59pm on September 9, 2019. Each person needs to submit their own folder (zip file). (Example: if you work with someone else, you each have to submit your own zip file!)

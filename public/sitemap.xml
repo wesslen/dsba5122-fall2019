@@ -63,8 +63,23 @@
   </url>
   
   <url>
+    <loc>https://dsba5122-fall2019.netlify.com/assignment/01-quiz/</loc>
+    <lastmod>2019-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dsba5122-fall2019.netlify.com/reading/03-reading/</loc>
+    <lastmod>2019-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://dsba5122-fall2019.netlify.com/class/03-class/</loc>
     <lastmod>2019-09-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dsba5122-fall2019.netlify.com/assignment/01-problem-set/</loc>
+    <lastmod>2019-08-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -138,12 +153,12 @@
   </url>
   
   <url>
-    <loc>https://dsba5122-fall2019.netlify.com/reading/11-reading/</loc>
+    <loc>https://dsba5122-fall2019.netlify.com/slides/11-class/</loc>
     <lastmod>2019-04-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dsba5122-fall2019.netlify.com/slides/11-class/</loc>
+    <loc>https://dsba5122-fall2019.netlify.com/reading/11-reading/</loc>
     <lastmod>2019-04-08T00:00:00+00:00</lastmod>
   </url>
   
@@ -248,17 +263,7 @@
   </url>
   
   <url>
-    <loc>https://dsba5122-fall2019.netlify.com/assignment/01-quiz/</loc>
-    <lastmod>2019-02-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://dsba5122-fall2019.netlify.com/slides/02-class/</loc>
-    <lastmod>2019-01-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dsba5122-fall2019.netlify.com/assignment/01-problem-set/</loc>
     <lastmod>2019-01-28T00:00:00+00:00</lastmod>
   </url>
   
@@ -338,7 +343,7 @@
   
   <url>
     <loc>https://dsba5122-fall2019.netlify.com/reading/</loc>
-    <lastmod>2019-08-26T00:00:00+00:00</lastmod>
+    <lastmod>2019-09-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -358,10 +363,6 @@
   
   <url>
     <loc>https://dsba5122-fall2019.netlify.com/syllabus/</loc>
-  </url>
-  
-  <url>
-    <loc>https://dsba5122-fall2019.netlify.com/reading/03-reading/</loc>
   </url>
   
 </urlset>

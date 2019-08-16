@@ -27,7 +27,11 @@ knitr::include_url('../../slides/01-class.html#1')
 
 [Click here and press F for full screen](../../slides/01-class.html#1).
 
-2. Michael Friendly's Psych 6135: Psychology of Data Visualization  [Introduction and Overview](http://euclid.psych.yorku.ca/www/psy6135/lectures/Overview.pdf)
+2. Michael Friendly's Psych 6135: Psychology of Data Visualization  [Introduction and Overview](../../files/Overview-modified-rw.pdf)^[These slides were modified for this class.]
+
+```{r echo=FALSE}
+knitr::include_url('../../files/Overview-modified-rw.pdf')
+```
 
 3. Lab: Intro to R/RStudio and RMarkdown
 
