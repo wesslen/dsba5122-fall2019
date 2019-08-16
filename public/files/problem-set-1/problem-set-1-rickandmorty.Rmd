@@ -49,10 +49,9 @@ xxxxx
 
 **Code**: load the `tidyverse` package.
 
-```{r load-packages, warning=FALSE, message=FALSE}
-# Notice the warning=FALSE and message=FALSE in the chunk options. R spits out 
-# a lot of messages when you load tidyverse and we don't want those in the 
-# final document.
+```{r load-packages}
+# make sure you have tidyverse already installed! (hint: install.packages())
+
 ```
 
 ### Question 4:
@@ -66,7 +65,6 @@ xxxxx
 ```{r load-data-1}
 # load in the file './data/rickmorty_char.csv' and assign it to rm_df
 # hint: use the read_csv function from the readr (tidyverse) package
-#read_csv("/data/rickmorty_char.csv")
 ```
 
 **Code**: Run `nrow()` and `ncol()` on the data to determine the number of rows and columns of the data frame.
@@ -168,7 +166,7 @@ What are three words you used to search?
 
 xxxxx
 
-**Code**: Rerun the plot 
+**Code**: Rerun the plot with the coordinates flipped (y axis is character label, x axis is the number of characters).
 
 ```{r eval=F}
 # coord_flip
@@ -179,9 +177,34 @@ species_count %>%
   coord_flip()
 ```
 
+Next, let's put labels into our plot. For this, we'll use the `labs()` function, which is an additional layer we can add to our plot.
 
+**Code**: Add the `labs()` function with the following four arguments:
+
+* `x = ""`
+* `y = ""`
+* `title = "Rick and Morty Characters"`,
+* `subtitle = "Number of Characters by Species"`
 
 ```{r eval=F}
+species_count %>%
+  mutate(species = factor(species)) %>%
+  ggplot(aes(x = forcats::fct_reorder(species, count), y = count, fill = species)) +
+  geom_col() +
+  coord_flip() +
+  labs(x = "", 
+       y = "",
+       title = "Rick and Morty Characters",
+       subtitle = "Number of Characters by Species"
+  )
+```
+
+Let's save this plot as a new R object called `g`. For this, you'll simply assign the function to `g`. But note, when you do this, the plot won't automatically run. Therefore, you'll need to call `g` on its own to run the plot.
+
+**Code**: Assign the ggplot from the previous part to `g` and then run `g` on its within the chunk.
+
+```{r eval=F}
+# assign plot to g
 g <- species_count %>%
   mutate(species = factor(species)) %>%
   ggplot(aes(x = forcats::fct_reorder(species, count), y = count, fill = species)) +
@@ -189,19 +212,35 @@ g <- species_count %>%
   coord_flip() +
   labs(x = "", 
        y = "",
-       title = "Rick and Morty Character",
+       title = "Rick and Morty Characters",
        subtitle = "Number of Characters by Species"
   )
 
+# simply put "g" to view the plot
 g
 ```
 
+Last, by default, `ggplot2` will use its generic list of colors. However, let's replace the color palette with a palette unique to Rick and Morty.
+
+For this, we'll need to install an additional R CRAN library called `ggsci`.
+
+First, you'll need to install the `ggsci` package.
 
 ```{r eval=F}
+# install the ggsci package
 #install.packages('ggsci')
+# create a vector called rm_colors using ggsci::pal_rickandmorty("schifty")(12)
 rm_colors = ggsci::pal_rickandmorty("schwifty")(12)
 
+# using g from the previous chunk, add in 
+g + scale_fill_manual(values=rm_colors)
+```
+
+Next, since we're 
+
+```{r eval=F}
 g +
+  scale_fill_manual(values=rm_colors) +
   theme_minimal() +
   theme(
     panel.grid = element_blank(),
@@ -211,8 +250,18 @@ g +
   ) + 
   scale_y_continuous(position = "bottom") +
   scale_fill_manual(values=rm_colors)
-
 ```
+
+### Question 8:
+
+When is it easier to assign a ggplot object to a unique object (e.g., like `g` instead of running the entire plot)?
+
+xxxxx
+
+
+Finally, we'll need to save this ggplot to a file.
+
+
 ```{r eval=F}
 #devtools::install_github("clauswilke/ggtext")
 library(ggtext)

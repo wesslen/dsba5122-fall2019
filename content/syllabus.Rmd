@@ -107,7 +107,7 @@ assignments <- tribble(
   "10%" , "Attendance & Participation",
   "10%" , "4 Datacamp courses",
   "20%" , "4 Problem sets",
-  "20%" , "4 Out-of-Class Online Quizzes",
+  "20%" , "4 Online Quizzes",
   "10%" , "Group: Design Contest",
   "30%" , "Group: Final Project"
 ) 

@@ -18,9 +18,9 @@ lessons:
     
   - title: "**Problem set 1 (Due Sept 9)**"
     date: "August 26"
-    assignment: "01-problem-set"
+    #assignment: "01-problem-set"
     
-  - title: "No class (MLK Holiday)"
+  - title: "No class (Labor Day)"
     date: "September 2"
 
   - title: "Visual Representation Basics II"

@@ -18,7 +18,7 @@ library(xaringanthemer)
 mono_light(
   base_color = "#046A38",
   white_color = "#ffffff",
-  text_font_size = "28px",
+  text_font_size = "26px",
   header_h1_font_size = "40px",
   header_h2_font_size = "35px", 
   header_h3_font_size = "30px",
@@ -39,7 +39,7 @@ class: center, middle
 
 # About Me
 
-- Adjunct Faculty Member in UNCC's DSBA Program
+- Associate Faculty Member in UNCC's DSBA Program
 
 - PhD Candidate in Computing & Information Systems
 
@@ -66,8 +66,6 @@ To do by next class: Send me an introduction email <rwesslen@uncc.edu> answering
 <https://dsba5122.com>: Review the syllabus, schedule, and assignments.
 
 ---
-
-# Two course objectives:
 
 .pull-left[
 ## Visualization Theory & Concepts
@@ -98,7 +96,7 @@ assignments <- tribble(
   "10%" , "Attendance & Participation",
   "10%" , "4 Datacamp courses",
   "20%" , "4 Problem sets",
-  "20%" , "4 Out-of-Class Online Quizzes",
+  "20%" , "4 Online Quizzes",
   "10%" , "Group: Design Contest",
   "30%" , "Group: Final Project"
 ) 
@@ -130,19 +128,25 @@ knitr::kable(grading, "markdown", align = "cc")
 
 # Policies:
 
-* No latework accepted. None.
+* Quizzes **cannot** be turned in late.
+
+  - DataCamp and Problem Sets get **50%** penalty 1 day. 0% credit longer.
 
 * Formal announcements sent thru email.
 
   - Informal announcements sent thru Slack.
   
   - Canvas will only be for assignment submission and tracking grades.
+  
+---
 
-* Collaboration is encouraged (if allowed)
+# Policies
+
+* Collaboration is encouraged (except quizzes)
   
   - Projects in groups of 3 (you select).
   
-  - Problem sets can work with 1 other student.
+  - Problem sets can work in pairs.
   
   - Cannot work together on quizzes.
   
@@ -158,29 +162,31 @@ For many students, a lot of the course material may be very new.
 
 Many students' first reaction when get first R error message or question on programming is to email me.
 
-**Emailing me should be a last resort!**
-
 ---
 
-## Course Communication: Material Questions
+## When you have R/run questions:
 
-When you have questions R/running things:
+1. Google it!
 
-1. Google it! If that doesn't work, then...
+2. Ask a classmate.
 
-2. Ask a classmate. If that doesn't work, then...
+3. Post your question on the course Slack channel. I'll likely answer it.
 
-3. Post your question on the course Slack channel. If that doesn't work, then...
-
-4. Email the TA, Tarun Sharma. Be clear and concise with your question. If that doesn't work, then...
+4. Email the TA, Tarun Sharma. Be clear and concise with your question.
 
 5. Email me at last resort.
 
 --
 
-> Do not use the excuse 'I'm not a programmer/computer scientist/etc., therefore...'
+> Avoid saying: "I'm not a programmer/computer scientist/etc., therefore..."
 
 Data Scientist Creed: If you don't know it, learn it.
+
+---
+
+## Course Material
+
+If you have course or personal questions (excuse absences, personal issues, etc.), that's when to email me. 
 
 ---
 

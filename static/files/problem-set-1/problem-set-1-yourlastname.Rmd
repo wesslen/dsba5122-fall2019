@@ -1,0 +1,316 @@
+---
+title: "Problem set 1"
+author: "YOUR NAME HERE"
+date: "DATE HERE"
+---
+
+# Details
+
+- Who did you collaborate with: xxxxx
+- Approximately how much time did you spend on this problem set: xxxxx
+- What, if anything, gave you the most trouble: xxxx
+
+## Instructions
+
+For this problem set, you'll have three possible things to do.
+
+- "**Question #:**" / "xxxxx" = Write your response to each question by replacing the "xxxx. 1-2 sentences is fine.
+
+- "**Code**" = Write R code in the chunk corresponding to the instructions.
+
+- "**Google**" = Google (or use a different search engine of your choice) the answer to this question.
+
+# Task 1
+
+Answer the following questions about RMarkdown from the short lessons.
+
+## Question 1:
+
+What three (3) characters start and end the YAML information for an RMarkdown file?
+
+xxxxx
+
+## Question 2:
+
+What does the code chunk parameter `echo = FALSE` do?
+
+xxxxx
+
+## Question 3:
+
+How do you change the output type for an RMarkdown file?
+
+xxxxx
+
+# Task 2
+
+**Code**: load the `tidyverse` package.
+
+```{r load-packages}
+# make sure you have tidyverse already installed! (hint: install.packages())
+library(tidyverse)
+```
+
+### Question 4:
+
+What packages are loaded when you call `tidyverse`?
+
+xxxxx
+
+**Code**: read in the `corrupt.csv` file and assign it to `corrupt`.
+
+```{r load-data-1}
+# load in the file 'data/corrupt.csv' and assign it to corrupt
+# hint: use the read_csv function from the readr (tidyverse) package
+
+corrupt <- read_csv("data/corrupt.csv")
+```
+
+
+**Code**: Run the `glimpse()` function on the data to explore the column formats.
+
+```{r glimpse}
+# run the glimpse() function
+glimpse(corrupt)
+```
+
+### Question 4:
+
+How many rows and columns does the data frame include?
+
+xxxxx
+
+However, it's not clear if there are duplicated records by year (i.e., this is panel data (record and time oriented)).
+
+**Code**: Run the `count()` function on `corrupt` and use `year` as the 2nd parameter. This will count how many records by each unique category in `year` (that is, each year)
+
+```{r eval=F}
+count(corrupt, year)
+```
+
+### Question 5:
+
+How many different years does the dataset include?
+
+xxxxx
+
+For simplicity, let's only keep 2015 records.
+
+```{r filter-2015, eval=F}
+corrupt <- corrupt %>%
+  filter(year == 2015) %>% 
+  na.omit()
+```
+
+Let's revise our existing `region` field. This will help us later on.
+
+```{r region, eval=F}
+corrupt <- corrupt %>%
+  mutate(region = case_when(
+    region == "Middle East and North Africa" ~ "Middle East\nand North Africa",
+    region == "Europe and Central Asia" ~ "Europe and\nCentral Asia",
+    region == "Sub Saharan Africa" ~ "Sub-Saharan\nAfrica",
+    TRUE ~ region)
+    )
+```
+
+Let's now see how many countries we have for each region.
+
+**Code**: Using `dplyr` and piping (`%>%`), count the number of countries by region and assign it to the dataframe `region_count`. After running it, print it to the console by simply writing the name of the data frame.
+
+```{r region-count-1, eval=F}
+# hint: assign region_count through a group_by and summarise
+# name your count variable `count` - if you don't you'll get an 
+region_count <- corrupt %>%
+  group_by(region) %>%
+  summarise(count=n())
+
+# print to console by simply writing region_count
+region_count
+```
+
+
+### Question 6:
+
+How many total countries are in the "Asia Pacific" region?
+
+xxxxx
+
+**Code**: Create a bar chart with `geom_col()` and choosing the aesthetics mappings as `species` for `x` and `count` for `y`.
+
+```{r species-count-2, eval=F}
+ggplot(corrupt, aes(cpi, hdi, color = region)) +
+  geom_point()
+```
+
+### Question 7:
+
+What are three problems with this graph (or ways you could improve this graph)?
+
+1. xxxxx
+
+2. xxxxx
+
+3. xxxxx
+
+## Redesigning the graph
+
+First, let's reshape each point.
+
+**Code**: Within your `geom_point` function, add in the following fixed parameters? 
+
+1. **size** to 2.5
+
+2. **alpha** to 0.5
+
+3. **shape** to 21
+
+hint: since these three values are fixed, should the be inside or outside the aesthetics (`aes()`) function?
+
+```{r eval=F}
+ggplot(corrupt, aes(cpi, hdi)) +
+  geom_point(
+    aes(color = region, fill = region),
+    size = 2.5, alpha = 0.5, shape = 21
+  )
+```
+
+### Question 8:
+
+What does the **alpha** parameter do?
+
+xxxxx
+
+**Code**: Assign the ggplot from the previous part to `g` and then run `g` on its within the chunk.
+
+```{r eval=F}
+# assign plot to g
+g <- ggplot(corrupt, aes(cpi, hdi)) +
+  geom_point(
+    aes(color = region, fill = region),
+    size = 2.5, alpha = 0.5, shape = 21
+  )
+
+# simply put "g" to view the plot
+g
+```
+
+
+# Part 2: Re-designing
+
+Let's first focus on color.
+
+For this, we'll need two packages: `cowplot` and `colorspace`
+
+```{r eval=F}
+# devtools::install_github("wilkelab/cowplot")
+
+library(cowplot) # for theme_minimal_hgrid()
+library(colorspace) # for darken()
+# Okabe Ito colors
+region_cols <- c("#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#999999")
+```
+
+
+Basic styling: point colors and theme.
+
+```{r eval=F, message = FALSE}
+g <- g +
+  scale_color_manual(
+    values = darken(region_cols, 0.3)
+  ) +
+  scale_fill_manual(
+    values = region_cols
+  ) +
+  theme_minimal_hgrid(12, rel_small = 1) # font size 12 pt throughout
+
+g
+```
+
+Add smoothing line.
+
+```{r eval=F}
+g <- g +
+  geom_smooth(
+    aes(color = "y ~ log(x)", fill = "y ~ log(x)"),
+    method = 'lm', formula = y~log(x), se = FALSE, fullrange = TRUE
+  )
+
+g
+```
+
+Override legend aesthetics.
+
+```{r eval=F}
+g <- g +
+  guides(
+    color = guide_legend(
+      nrow = 1,
+      override.aes = list(
+        linetype = c(rep(0, 5), 1),
+        shape = c(rep(21, 5), NA)
+      )
+    )
+  ) 
+
+g
+```
+
+Set x and y scales, move legend on top.
+```{r eval=F}
+g <- g +
+  scale_x_continuous(
+    name = "Corruption Perceptions Index, 2015 (100 = least corrupt)",
+    limits = c(10, 95),
+    breaks = c(20, 40, 60, 80, 100),
+    expand = c(0, 0)
+  ) +
+  scale_y_continuous(
+    name = "Human Development Index, 2015\n(1.0 = most developed)",
+    limits = c(0.3, 1.05),
+    breaks = c(0.2, 0.4, 0.6, 0.8, 1.0),
+    expand = c(0, 0)
+  ) +
+  theme(
+    legend.position = "top",
+    legend.justification = "right",
+    legend.text = element_text(size = 9),
+    legend.box.spacing = unit(0, "pt")
+  )
+
+g
+```
+
+Highlight select countries.
+
+```{r eval=F}
+library(ggrepel)
+
+country_highlight <- c("Germany", "Norway", "United States", "Greece", "Singapore", "Rwanda", "Russia", "Venezuela", "Sudan", "Iraq", "Ghana", "Niger", "Chad", "Kuwait", "Qatar", "Myanmar", "Nepal", "Chile", "Argentina", "Japan", "China")
+
+corrupt <- corrupt %>%
+  mutate(
+    label = ifelse(country %in% country_highlight, country, "")
+  )
+
+# wow: https://stackoverflow.com/questions/29336964/changing-the-dataset-of-a-ggplot-object
+g <- g %+% 
+  corrupt +
+  geom_text_repel(
+    aes(label = label),
+    color = "black",
+    size = 9/.pt, # font size 9 pt
+    point.padding = 0.1, 
+    box.padding = .6,
+    min.segment.length = 0,
+    seed = 7654
+  ) 
+
+g
+```
+
+```{r eval=F}
+g + ggsave("corrupt.pdf", width = 8, height = 5)
+```
+
+

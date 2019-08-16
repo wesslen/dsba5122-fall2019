@@ -414,151 +414,224 @@ $(document).ready(function () {
 </div>
 <div id="task-2" class="section level1">
 <h1>Task 2</h1>
-<div id="exploratory-data-analysis" class="section level2">
-<h2>Exploratory Data Analysis</h2>
 <p><strong>Code</strong>: load the <code>tidyverse</code> package.</p>
-<pre class="r"><code># Notice the warning=FALSE and message=FALSE in the chunk options. R spits out 
-# a lot of messages when you load tidyverse and we don&#39;t want those in the 
-# final document.</code></pre>
+<pre class="r"><code># make sure you have tidyverse already installed! (hint: install.packages())
+library(tidyverse)</code></pre>
+<pre><code>## ── Attaching packages ─────────────────────────────── tidyverse 1.2.1 ──</code></pre>
+<pre><code>## ✔ ggplot2 3.2.1     ✔ purrr   0.3.2
+## ✔ tibble  2.1.3     ✔ dplyr   0.8.3
+## ✔ tidyr   0.8.3     ✔ stringr 1.4.0
+## ✔ readr   1.3.1     ✔ forcats 0.3.0</code></pre>
+<pre><code>## Warning: package &#39;ggplot2&#39; was built under R version 3.5.2</code></pre>
+<pre><code>## Warning: package &#39;tibble&#39; was built under R version 3.5.2</code></pre>
+<pre><code>## Warning: package &#39;tidyr&#39; was built under R version 3.5.2</code></pre>
+<pre><code>## Warning: package &#39;purrr&#39; was built under R version 3.5.2</code></pre>
+<pre><code>## Warning: package &#39;dplyr&#39; was built under R version 3.5.2</code></pre>
+<pre><code>## Warning: package &#39;stringr&#39; was built under R version 3.5.2</code></pre>
+<pre><code>## ── Conflicts ────────────────────────────────── tidyverse_conflicts() ──
+## ✖ dplyr::filter() masks stats::filter()
+## ✖ dplyr::lag()    masks stats::lag()</code></pre>
 <div id="question-4" class="section level3">
 <h3>Question 4:</h3>
-<p>What packages are loaded when you load <code>tidyverse</code>?</p>
+<p>What packages are loaded when you call <code>tidyverse</code>?</p>
 <p>xxxxx</p>
-<p><strong>Code</strong>: read in the <code>rickmorty_char.csv</code> file and assign it to <code>rm_df</code>.</p>
-<pre class="r"><code># load in the file &#39;./data/rickmorty_char.csv&#39; and assign it to rm_df
+<p><strong>Code</strong>: read in the <code>corrupt.csv</code> file and assign it to <code>corrupt</code>.</p>
+<pre class="r"><code># load in the file &#39;data/corrupt.csv&#39; and assign it to corrupt
 # hint: use the read_csv function from the readr (tidyverse) package
-#read_csv(&quot;/data/rickmorty_char.csv&quot;)</code></pre>
-<p><strong>Code</strong>: Run <code>nrow()</code> and <code>ncol()</code> on the data to determine the number of rows and columns of the data frame.</p>
-<pre class="r"><code># run nrow() and ncol()</code></pre>
+
+corrupt &lt;- read_csv(&quot;data/corrupt.csv&quot;)</code></pre>
+<pre><code>## Parsed with column specification:
+## cols(
+##   country = col_character(),
+##   region = col_character(),
+##   year = col_double(),
+##   cpi = col_double(),
+##   hdi = col_double()
+## )</code></pre>
+<p><strong>Code</strong>: Run the <code>glimpse()</code> function on the data to explore the column formats.</p>
+<pre class="r"><code># run the glimpse() function
+glimpse(corrupt)</code></pre>
+<pre><code>## Observations: 704
+## Variables: 5
+## $ country &lt;chr&gt; &quot;Denmark&quot;, &quot;New Zealand&quot;, &quot;Finland&quot;, &quot;Sweden&quot;, &quot;Switzerl…
+## $ region  &lt;chr&gt; &quot;Europe and Central Asia&quot;, &quot;Asia Pacific&quot;, &quot;Europe and C…
+## $ year    &lt;dbl&gt; 2015, 2015, 2015, 2015, 2015, 2015, 2015, 2015, 2015, 20…
+## $ cpi     &lt;dbl&gt; 91, 91, 90, 89, 86, 88, 85, 84, 83, 81, 85, 81, 79, 79, …
+## $ hdi     &lt;dbl&gt; 0.925, 0.915, 0.895, 0.913, 0.939, 0.949, 0.925, 0.924, …</code></pre>
 </div>
 <div id="question-4-1" class="section level3">
 <h3>Question 4:</h3>
 <p>How many rows and columns does the data frame include?</p>
 <p>xxxxx</p>
-<p><strong>Code</strong>: Run the <code>glimpse()</code> function on the data to explore the column formats.</p>
-<pre class="r"><code># run the glimpse() function</code></pre>
+<p>However, it’s not clear if there are duplicated records by year (i.e., this is panel data (record and time oriented)).</p>
+<p><strong>Code</strong>: Run the <code>count()</code> function on <code>corrupt</code> and use <code>year</code> as the 2nd parameter. This will count how many records by each unique category in <code>year</code> (that is, each year)</p>
+<pre class="r"><code>count(corrupt, year)</code></pre>
 </div>
 <div id="question-5" class="section level3">
 <h3>Question 5:</h3>
-<p>Which column appears to have missing data (as represented as &quot;&quot; for some values)?</p>
+<p>How many different years does the dataset include?</p>
 <p>xxxxx</p>
-<p><strong>Code</strong>: Run the <code>head()</code> function. Change the parameter <code>n</code> to equal 10.</p>
-<pre class="r"><code>head(rm_df, n = 10)</code></pre>
-</div>
-</div>
-<div id="character-species" class="section level2">
-<h2>Character Species</h2>
-<p>Let’s try to understand the range of character species in the show.</p>
-<p><strong>Code</strong>: Using <code>dplyr</code> and piping (<code>%&gt;%</code>), count the number of characters by species and assign it to the dataframe <code>species_count</code>. After running it, print it to the console by simply writing the name of the data frame.</p>
-<pre class="r"><code># hint: assign species_count through a group_by and summarise
+<p>For simplicity, let’s only keep 2015 records.</p>
+<pre class="r"><code>corrupt &lt;- corrupt %&gt;%
+  filter(year == 2015) %&gt;% 
+  na.omit()</code></pre>
+<p>Let’s revise our existing <code>region</code> field. This will help us later on.</p>
+<pre class="r"><code>corrupt &lt;- corrupt %&gt;%
+  mutate(region = case_when(
+    region == &quot;Middle East and North Africa&quot; ~ &quot;Middle East\nand North Africa&quot;,
+    region == &quot;Europe and Central Asia&quot; ~ &quot;Europe and\nCentral Asia&quot;,
+    region == &quot;Sub Saharan Africa&quot; ~ &quot;Sub-Saharan\nAfrica&quot;,
+    TRUE ~ region)
+    )</code></pre>
+<p>Let’s now see how many countries we have for each region.</p>
+<p><strong>Code</strong>: Using <code>dplyr</code> and piping (<code>%&gt;%</code>), count the number of countries by region and assign it to the dataframe <code>region_count</code>. After running it, print it to the console by simply writing the name of the data frame.</p>
+<pre class="r"><code># hint: assign region_count through a group_by and summarise
 # name your count variable `count` - if you don&#39;t you&#39;ll get an 
-species_count &lt;- rm_df %&gt;%
-  group_by(species) %&gt;%
+region_count &lt;- corrupt %&gt;%
+  group_by(region) %&gt;%
   summarise(count=n())
 
-# print to console by simply writing species_count
-species_count</code></pre>
+# print to console by simply writing region_count
+region_count</code></pre>
+</div>
 <div id="question-6" class="section level3">
 <h3>Question 6:</h3>
-<p>How many <a href="https://rickandmorty.fandom.com/wiki/Cronenbergs">Cronenberg</a>] characters are in the show?</p>
+<p>How many total countries are in the “Asia Pacific” region?</p>
 <p>xxxxx</p>
 <p><strong>Code</strong>: Create a bar chart with <code>geom_col()</code> and choosing the aesthetics mappings as <code>species</code> for <code>x</code> and <code>count</code> for <code>y</code>.</p>
-<pre class="r"><code>species_count %&gt;%
-  ggplot(aes(x = species, y = count)) +
-  geom_col()</code></pre>
-<p>As you may notice, there are multiple problems with this plot like:</p>
-<ul>
-<li><p>catgories (species) are not ordered;</p></li>
-<li><p>labels on the x-axis are difficult to read.</p></li>
-</ul>
-<p>Let’s address these problems.</p>
+<pre class="r"><code>ggplot(corrupt, aes(cpi, hdi, color = region)) +
+  geom_point()</code></pre>
 </div>
-</div>
-<div id="re-design-our-plot" class="section level2">
-<h2>Re-design our plot</h2>
-<p>First, let’s reorder the categories. To do this, we need to convert the <code>species</code> field to a factor.</p>
-<p><strong>Code</strong>: Rerun the <code>geom_col()</code> function by converting <code>species</code> to a factor and using the <code>forcats</code> funtion <code>fct_reorder()</code>:</p>
-<p>Hint: to learn how to use <code>fct_reorder()</code>, read <a href="https://r4ds.had.co.nz/factors.html#modifying-factor-order">this chapter of R4DS</a>.</p>
-<pre class="r"><code>library(forcats) # to use the fct_reorder function
-
-# convert species to a factor using the mutate function
-# then use fct_reorder to reorder species by the count field
-species_count %&gt;%
-  mutate(species = factor(species)) %&gt;%
-  ggplot(aes(x = fct_reorder(species, count), y = count)) +
-  geom_col()</code></pre>
-<p>Next, let’s flip the coordinates. This is where <code>ggplot2</code> shines. It’s one simple function.</p>
-<p><strong>Google</strong>: Search online (google or another search engine) for what <code>ggplot2</code> function will flip the coordinates.</p>
 <div id="question-7" class="section level3">
 <h3>Question 7:</h3>
-<p>What are three words you used to search?</p>
+<p>What are three problems with this graph (or ways you could improve this graph)?</p>
+<ol style="list-style-type: decimal">
+<li><p>xxxxx</p></li>
+<li><p>xxxxx</p></li>
+<li><p>xxxxx</p></li>
+</ol>
+</div>
+<div id="redesigning-the-graph" class="section level2">
+<h2>Redesigning the graph</h2>
+<p>First, let’s reshape each point.</p>
+<p><strong>Code</strong>: Within your <code>geom_point</code> function, add in the following fixed parameters?</p>
+<ol style="list-style-type: decimal">
+<li><p><strong>size</strong> to 2.5</p></li>
+<li><p><strong>alpha</strong> to 0.5</p></li>
+<li><p><strong>shape</strong> to 21</p></li>
+</ol>
+<p>hint: since these three values are fixed, should the be inside or outside the aesthetics (<code>aes()</code>) function?</p>
+<pre class="r"><code>ggplot(corrupt, aes(cpi, hdi)) +
+  geom_point(
+    aes(color = region, fill = region),
+    size = 2.5, alpha = 0.5, shape = 21
+  )</code></pre>
+<div id="question-8" class="section level3">
+<h3>Question 8:</h3>
+<p>What does the <strong>alpha</strong> parameter do?</p>
 <p>xxxxx</p>
-<p><strong>Code</strong>: Rerun the plot</p>
-<pre class="r"><code># coord_flip
-species_count %&gt;%
-  mutate(species = factor(species)) %&gt;%
-  ggplot(aes(x = forcats::fct_reorder(species, count), y = count)) +
-  geom_col() +
-  coord_flip()</code></pre>
-<pre class="r"><code>g &lt;- species_count %&gt;%
-  mutate(species = factor(species)) %&gt;%
-  ggplot(aes(x = forcats::fct_reorder(species, count), y = count, fill = species)) +
-  geom_col() +
-  coord_flip() +
-  labs(x = &quot;&quot;, 
-       y = &quot;&quot;,
-       title = &quot;Rick and Morty Character&quot;,
-       subtitle = &quot;Number of Characters by Species&quot;
+<p><strong>Code</strong>: Assign the ggplot from the previous part to <code>g</code> and then run <code>g</code> on its within the chunk.</p>
+<pre class="r"><code># assign plot to g
+g &lt;- ggplot(corrupt, aes(cpi, hdi)) +
+  geom_point(
+    aes(color = region, fill = region),
+    size = 2.5, alpha = 0.5, shape = 21
+  )
+
+# simply put &quot;g&quot; to view the plot
+g</code></pre>
+</div>
+</div>
+</div>
+<div id="part-2-re-designing" class="section level1">
+<h1>Part 2: Re-designing</h1>
+<p>Let’s first focus on color.</p>
+<p>For this, we’ll need two packages: <code>cowplot</code> and <code>colorspace</code></p>
+<pre class="r"><code># devtools::install_github(&quot;wilkelab/cowplot&quot;)
+
+library(cowplot) # for theme_minimal_hgrid()
+library(colorspace) # for darken()
+# Okabe Ito colors
+region_cols &lt;- c(&quot;#E69F00&quot;, &quot;#56B4E9&quot;, &quot;#009E73&quot;, &quot;#F0E442&quot;, &quot;#0072B2&quot;, &quot;#999999&quot;)</code></pre>
+<p>Basic styling: point colors and theme.</p>
+<pre class="r"><code>g &lt;- g +
+  scale_color_manual(
+    values = darken(region_cols, 0.3)
+  ) +
+  scale_fill_manual(
+    values = region_cols
+  ) +
+  theme_minimal_hgrid(12, rel_small = 1) # font size 12 pt throughout
+
+g</code></pre>
+<p>Add smoothing line.</p>
+<pre class="r"><code>g &lt;- g +
+  geom_smooth(
+    aes(color = &quot;y ~ log(x)&quot;, fill = &quot;y ~ log(x)&quot;),
+    method = &#39;lm&#39;, formula = y~log(x), se = FALSE, fullrange = TRUE
   )
 
 g</code></pre>
-<pre class="r"><code>#install.packages(&#39;ggsci&#39;)
-rm_colors = ggsci::pal_rickandmorty(&quot;schwifty&quot;)(12)
+<p>Override legend aesthetics.</p>
+<pre class="r"><code>g &lt;- g +
+  guides(
+    color = guide_legend(
+      nrow = 1,
+      override.aes = list(
+        linetype = c(rep(0, 5), 1),
+        shape = c(rep(21, 5), NA)
+      )
+    )
+  ) 
 
-g +
-  theme_minimal() +
-  theme(
-    panel.grid = element_blank(),
-    panel.grid.major.x = element_line(color = &quot;white&quot;),
-    panel.ontop = TRUE,
-    legend.position = &quot;none&quot;
-  ) + 
-  scale_y_continuous(position = &quot;bottom&quot;) +
-  scale_fill_manual(values=rm_colors)</code></pre>
-<pre class="r"><code>#devtools::install_github(&quot;clauswilke/ggtext&quot;)
-library(ggtext)
-
-getImage &lt;- function(url, species){
-  paste0(&quot;&lt;img src=&#39;&quot;,url,&quot;&#39;\n width = &#39;100&#39; /&gt;&lt;br&gt;*&quot;,species,&quot;*&quot;)
-}
-
-samp &lt;- char %&gt;%
-  group_by(species) %&gt;%
-  sample_n(size = 1) %&gt;%
-  select(image, species) %&gt;%
-  ungroup() %&gt;%
-  mutate(link = getImage(image, species))
-
-labels = as.character(samp$link)
-names(labels) = samp$species
-
-g +
-  theme_minimal() +
-  scale_x_discrete(
-    name = NULL,
-    labels = labels
+g</code></pre>
+<p>Set x and y scales, move legend on top.</p>
+<pre class="r"><code>g &lt;- g +
+  scale_x_continuous(
+    name = &quot;Corruption Perceptions Index, 2015 (100 = least corrupt)&quot;,
+    limits = c(10, 95),
+    breaks = c(20, 40, 60, 80, 100),
+    expand = c(0, 0)
   ) +
-  scale_y_continuous(position = &quot;bottom&quot;) +
-  scale_fill_manual(values=rm_colors) +
+  scale_y_continuous(
+    name = &quot;Human Development Index, 2015\n(1.0 = most developed)&quot;,
+    limits = c(0.3, 1.05),
+    breaks = c(0.2, 0.4, 0.6, 0.8, 1.0),
+    expand = c(0, 0)
+  ) +
   theme(
-    panel.grid = element_blank(),
-    panel.grid.major.x = element_line(color = &quot;white&quot;),
-    panel.ontop = TRUE,
-    legend.position = &quot;none&quot;,
-    axis.text.x = element_markdown(color = &quot;black&quot;, size = 11)
-  ) </code></pre>
-</div>
-</div>
+    legend.position = &quot;top&quot;,
+    legend.justification = &quot;right&quot;,
+    legend.text = element_text(size = 9),
+    legend.box.spacing = unit(0, &quot;pt&quot;)
+  )
+
+g</code></pre>
+<p>Highlight select countries.</p>
+<pre class="r"><code>library(ggrepel)
+
+country_highlight &lt;- c(&quot;Germany&quot;, &quot;Norway&quot;, &quot;United States&quot;, &quot;Greece&quot;, &quot;Singapore&quot;, &quot;Rwanda&quot;, &quot;Russia&quot;, &quot;Venezuela&quot;, &quot;Sudan&quot;, &quot;Iraq&quot;, &quot;Ghana&quot;, &quot;Niger&quot;, &quot;Chad&quot;, &quot;Kuwait&quot;, &quot;Qatar&quot;, &quot;Myanmar&quot;, &quot;Nepal&quot;, &quot;Chile&quot;, &quot;Argentina&quot;, &quot;Japan&quot;, &quot;China&quot;)
+
+corrupt &lt;- corrupt %&gt;%
+  mutate(
+    label = ifelse(country %in% country_highlight, country, &quot;&quot;)
+  )
+
+# wow: https://stackoverflow.com/questions/29336964/changing-the-dataset-of-a-ggplot-object
+g &lt;- g %+% 
+  corrupt +
+  geom_text_repel(
+    aes(label = label),
+    color = &quot;black&quot;,
+    size = 9/.pt, # font size 9 pt
+    point.padding = 0.1, 
+    box.padding = .6,
+    min.segment.length = 0,
+    seed = 7654
+  ) 
+
+g</code></pre>
+<pre class="r"><code>g + ggsave(&quot;corrupt.pdf&quot;, width = 8, height = 5)</code></pre>
 </div>
 
 

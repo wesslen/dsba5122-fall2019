@@ -77,14 +77,21 @@ code span.wa { color: #bf0303; } /* Warning */
 
 <p><em>Note</em>: to complete this task, you <strong>MUST</strong> submit your final folder (compressed as a zip file) through <a href="https://uncc.instructure.com/courses/110218/assignments/651583">here to Canvas</a> by 11:59pm on September 9, 2019. Each person needs to submit their own folder! So if you work in pairs, both individuals have to submit a folder.</p>
 <h2 id="task-0">Task 0</h2>
-<p>Create a <a href="https://r4ds.had.co.nz/workflow-projects.html#rstudio-projects">new R project as a “New Directory” (folder)</a>.</p>
-<p>Within your new project folder, <a href="/files/yourlastname-problem-set-1.Rmd">download this R Markdown file</a>.<span><label for="sn-1" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-1" class="margin-toggle"/><span class="sidenote">Your browser might show the file instead of downloading it. If that’s the case, you can copy/paste the code from the browser to RStudio. In RStudio, go to “File” &gt; “New” &gt; “New R Markdown…”, click “OK” with the default options, delete all the placeholder code/text in the new file, and paste the example code in the now-blank file.<br />
-<br />
-</span></span> It contains an outline/skeleton of what you’ll need to do in this problem set, and it includes lots of the code prewritten just for you!</p>
-<p>Make sure you install R and RStudio and tidyverse first.<span><label for="sn-2" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-2" class="margin-toggle"/><span class="sidenote">Follow <a href="/install/">these instructions</a> and install R, RStudio, and all the tidyverse packages. If you have any questions, send a message on the class’ Slack!<br />
+<p>Make sure you install R and RStudio and tidyverse first.<span><label for="sn-1" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-1" class="margin-toggle"/><span class="sidenote">Follow <a href="/install/">these instructions</a> and install R, RStudio, and all the tidyverse packages. If you have any questions, send a message on the class’ Slack!<br />
 <br />
 </span></span></p>
-<p>Complete the three tasks below and type your answers in that downloaded file. When you’re done, knit the document as a html file with the “Knit” button at the top of the script editing pane.<span><label for="sn-3" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-3" class="margin-toggle"/><span class="sidenote"><img src="/images/assignment/knit-button.png" alt="Knit button" /><br />
+<p>Create a <a href="https://r4ds.had.co.nz/workflow-projects.html#rstudio-projects">new R project as a “New Directory” (folder)</a>. You should call your name project “problem-set-1-[yourlastname]”, where [yourlastname] is your last name.</p>
+<p>Within your new project folder, <a href="/files/problem-set-1/problem-set-1-yourlastname.Rmd">download this R Markdown file</a>.<span><label for="sn-2" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-2" class="margin-toggle"/><span class="sidenote">Your browser might show the file instead of downloading it. If that’s the case, you can copy/paste the code from the browser to RStudio. In RStudio, go to “File” &gt; “New” &gt; “New R Markdown…”, click “OK” with the default options, delete all the placeholder code/text in the new file, and paste the example code in the now-blank file.<br />
+<br />
+</span></span> It contains an outline/skeleton of what you’ll need to do in this problem set, and it includes lots of the code prewritten just for you! Make sure to **change the</p>
+<p>Next, you’ll need to download the csv file we’ll be working with. <a href="/files/problem-set-1/data/rickmorty_char.csv">Click this link and “Save as”</a> and put it into a folder within your new project called “/data/”.</p>
+<p>In the end, the structure of your new project directory should look like this:</p>
+<pre><code>problem-set-1-yourlastname\
+  problem-set-1-yourlastname.Rmd
+  problem-set-1-yourlastname.Rproj
+  data\
+    rickmorty_char.csv</code></pre>
+<p>Complete the two tasks below and type your answers in that downloaded file. When you’re done, knit the document as a html file with the “Knit” button at the top of the script editing pane.<span><label for="sn-3" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-3" class="margin-toggle"/><span class="sidenote"><img src="/images/assignment/knit-button.png" alt="Knit button" /><br />
 <br />
 </span></span></p>
 <h2 id="task-1-become-familiar-with-rstudio-and-rmarkdown">Task 1: Become familiar with RStudio and RMarkdown</h2>
@@ -116,23 +123,18 @@ tinytex<span class="op">::</span><span class="kw">install_tinytex</span>()</code
 <li>LaTeX for macOS: <a href="https://www.tug.org/mactex/">MacTeX</a>. For whatever reason, LaTeX is astoundingly huge and it will feel like you’re downloading the entire internet when you install it. Be patient :).</li>
 <li>LaTeX for Windows: <a href="https://miktex.org/howto/install-miktex">MiKTeX</a>]</li>
 </ul>
+<p>For this task, there are three questions you will need to answer. They can be answered in the .Rmd file within your project (“problem-set-1-yourlastname.Rmd”).</p>
 <h2 id="task-2-analyzing-rick-and-morty-characters-with-r">Task 2: Analyzing Rick and Morty Characters with R</h2>
-<p>As a fun starter, we’ll analyze Rick and Morty Characters.<span><label for="sn-7" class="margin-toggle">&#8853;</label><input type="checkbox" id="sn-7" class="margin-toggle"/><span class="marginnote"> <img src="https://media.giphy.com/media/i2dE5VvBNxBw4/giphy.gif" /><br />
+<p>As a fun starter, we’ll analyze the different characters in the show “Rick and Morty.”<span><label for="sn-7" class="margin-toggle">&#8853;</label><input type="checkbox" id="sn-7" class="margin-toggle"/><span class="marginnote"> <img src="https://media.giphy.com/media/i2dE5VvBNxBw4/giphy.gif" /><br />
 <br />
 </span></span></p>
-<p>In the end, the structure of your new project directory should look like this:</p>
-<pre><code>problem-set-1-yourlastname\
-  yourlastname-problem-set-1.Rmd
-  problem-set-1-yourlastname.Rproj
-  data\
-    rickmorty_char.csv
-    rickmorty_episodes.csv</code></pre>
-<p>Follow the instructions in the file. For this problem set, you’ll have three possible things to do.</p>
+<p>You’ll use the same .Rmd file you previously used and have three different types of tasks to do.</p>
 <ul>
 <li><p>“xxxxx” = Write, in complete English sentences, your response to questions. 1-2 sentences is sufficient.</p></li>
 <li><p>“<strong>Code</strong>” = Write R code in the chunk corresponding to the instructions.</p></li>
 <li><p>“<strong>Google</strong>” = Google (or use a different search engine of your choice) the answer to this question.</p></li>
 </ul>
+<p>In total there are</p>
 <h2 id="all-done">All done!</h2>
 <p>Knit the completed R Markdown file as a <strong>html</strong> (use the “Knit” button at the top of the script editor window) and <strong>compress</strong> the entire folder as a zip file (including the html document, RStudio Project, any respective data, and the R Markdown file).</p>
 <p>To complete the assignment, <a href="https://uncc.instructure.com/courses/100065/assignments/516650">upload here to Canvas</a> by 11:59pm on September 9, 2019. Each person needs to submit their own folder (zip file). (Example: if you work with someone else, you each have to submit your own zip file!)</p>
