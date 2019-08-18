@@ -35,19 +35,19 @@ Answer the following questions about RMarkdown from the short lessons.
 
 - What three (3) characters start and end the YAML information for an RMarkdown file?
 
-xxxxx
+"---"
 
 ### Question 2
 
 - What does the code chunk parameter `echo = FALSE` do?
 
-xxxxx
+If FALSE, knitr will not display the code in the code chunk above it’s results in the final document.
 
 ### Question 3
 
 - How do you change the output type for an RMarkdown file?
 
-xxxxx
+Modify the object in the YAML parameter `output:` (e.g., html_document, pdf_document, word_document.)
 
 ## Task 2: Creating baseline plot
 
@@ -57,15 +57,14 @@ Load the `tidyverse` package.
 
 ```{r load-packages, message=F, warning=F}
 # make sure you have tidyverse already installed! (hint: install.packages())
-
-
+library(tidyverse)
 ```
 
 ### Question 4
 
 - What packages are loaded when you call `tidyverse`?
 
-xxxxx
+`ggplot2`, `tibble`, `tidyr`, `readr`, `purrr`, `dplyr`, `stringr`, and `forcats` (older versions of `tidyverse` may only read some of these)
 
 ***
 
@@ -77,7 +76,7 @@ Read in the `corrupt.csv` file and assign it to `corrupt`.
 # load in the file 'data/corrupt.csv' and assign it to corrupt
 # hint: use the read_csv function from the readr (tidyverse) package
 
-
+corrupt <- read_csv("data/corrupt.csv")
 ```
 
 ***
@@ -88,8 +87,7 @@ Run the `glimpse()` function on the data to explore the column formats.
 
 ```{r glimpse}
 # run the glimpse() function
-
-
+glimpse(corrupt)
 ```
 
 ***
@@ -98,7 +96,7 @@ Run the `glimpse()` function on the data to explore the column formats.
 
 - How many rows (observations) and columns (variables) does the data frame include?
 
-xxxxx
+704 rows (observations) and 5 columns (variables)
 
 ***
 
@@ -108,9 +106,8 @@ However, it's not clear if there are duplicated records by year (i.e., this is p
 
 Run the `count()` function on `corrupt` and use `year` as the 2nd parameter. This will count how many records by each unique category in `year` (that is, each year)
 
-```{r count}
-
-
+```{r count,eval=T}
+count(corrupt, year)
 ```
 
 ***
@@ -119,32 +116,28 @@ Run the `count()` function on `corrupt` and use `year` as the 2nd parameter. Thi
 
 - How many different years does the dataset include?
 
-xxxxx
+4 years
 
 ***
 
 For simplicity, let's only keep 2015 records.
 
-```{r filter-2015}
-# uncomment out the lines below
-
-# corrupt <- corrupt %>%
-#   filter(year == 2015) %>% 
-#   na.omit()
+```{r filter-2015, eval=T}
+corrupt <- corrupt %>%
+  filter(year == 2015) %>% 
+  na.omit()
 ```
 
 Let's revise our existing `region` field. This will help us later on.
 
-```{r region}
-# uncomment out the lines below
-
-# corrupt <- corrupt %>%
-#   mutate(region = case_when(
-#     region == "Middle East and North Africa" ~ "Middle East\nand North Africa",
-#     region == "Europe and Central Asia" ~ "Europe and\nCentral Asia",
-#     region == "Sub Saharan Africa" ~ "Sub-Saharan\nAfrica",
-#     TRUE ~ region)
-#     )
+```{r region, eval=T}
+corrupt <- corrupt %>%
+  mutate(region = case_when(
+    region == "Middle East and North Africa" ~ "Middle East\nand North Africa",
+    region == "Europe and Central Asia" ~ "Europe and\nCentral Asia",
+    region == "Sub Saharan Africa" ~ "Sub-Saharan\nAfrica",
+    TRUE ~ region)
+    )
 ```
 
 Let's now see how many countries we have for each region.
@@ -153,10 +146,12 @@ Let's now see how many countries we have for each region.
 
 Using `dplyr` and piping (`%>%`), count the number of countries by region and assign it to the dataframe `region_count`. After running it, print it to the console by simply writing the name of the data frame.
 
-```{r region-count-1, eval=F}
+```{r region-count-1, eval=T}
 # hint: assign region_count through a group_by and summarise
 # name your count variable `count` - if you don't you'll get an error later on
-
+region_count <- corrupt %>%
+  group_by(region) %>%
+  summarise(count=n())
 
 # print to console by simply writing region_count
 region_count
@@ -168,7 +163,7 @@ region_count
 
 - How many total countries are in the "Asia Pacific" region?
 
-xxxxx
+21 countries
 
 ***
 
@@ -176,9 +171,9 @@ xxxxx
 
 Create a scatterplot with the dataframe `corrupt` in which `cpi` is on the x axis, `hdi` is on the y axis, and the color of the points is `region`:
 
-```{r species-count-2, eval=F}
-# simple ggplot of geom_point()
-
+```{r species-count-2, eval=T}
+ggplot(corrupt, aes(cpi, hdi, color = region)) +
+  geom_point()
 ```
 
 ***
@@ -187,11 +182,17 @@ Create a scatterplot with the dataframe `corrupt` in which `cpi` is on the x axi
 
 - What are three problems with this graph (or ways you could improve this graph)?
 
-1. xxxxx
+Open to interpretations so almost any three responses are good (so long as they're thought out). Some ideas can include (only need 3 of these): 
 
-2. xxxxx
+1. Need better x/y/title labels
 
-3. xxxxx
+2. Poor color scheme/background color
+
+3. Could highlight individual labels (e.g., point out which country is which)
+
+4. Could add in a "trend/regression" line
+
+5. Modify the x and/or y scales (e.g., start y axis at 0 and go to 1, etc.)
 
 ***
 
@@ -211,8 +212,11 @@ Within your `geom_point` function, add in the following fixed parameters:
 
 hint: since these three values are fixed, should the be inside or outside the aesthetics (`aes()`) function?
 
-```{r graph-1,eval=F}
-# modify the geom_point parameters
+```{r eval=T}
+ggplot(corrupt, aes(cpi, hdi, color = region)) +
+  geom_point(
+    size = 2.5, alpha = 0.5, shape = 21
+  )
 ```
 
 ***
@@ -221,7 +225,7 @@ hint: since these three values are fixed, should the be inside or outside the ae
 
 - What does the `alpha` parameter do?
 
-xxxxx
+Transparency of the point.
 
 ***
 
@@ -239,9 +243,12 @@ Put these two parameters explicitly in the `aes()` function of the `geom_point()
 
 Also, make sure to remove any mention of color or fill in the `aes()` of your main `ggplot()` function.
 
-```{r graph-2,eval=F}
-# modify the ggplot function
-
+```{r eval=T}
+ggplot(corrupt, aes(cpi, hdi)) +
+  geom_point(
+    aes(color = region, fill = region),
+    size = 2.5, alpha = 0.5, shape = 21
+  )
 ```
 
 ***
@@ -252,12 +259,16 @@ Last, let's temporarily save this graph as an object `g`. We can use the same `<
 
 Assign the ggplot from the previous part to `g` and then run `g` on its within the chunk.
 
-```{r assign-g,eval=F}
+```{r eval=T}
 # assign plot to g
-
+g <- ggplot(corrupt, aes(cpi, hdi)) +
+  geom_point(
+    aes(color = region, fill = region),
+    size = 2.5, alpha = 0.5, shape = 21
+  )
 
 # simply put "g" to view the plot
-
+g
 ```
 
 ***
@@ -268,7 +279,7 @@ In this part, you'll add additional layers to our plot to re-design it.
 
 This part is much more complicated, so your job will be easier: 
 
-1. Remove the `eval=F` parameter from each chunk to run each chunk when `knit` your output.
+1. Remove the `eval=T` parameter from each chunk to run each chunk when `knit` your output.
 
 2. Answer questions on interpreting what's going on.
 
@@ -280,9 +291,9 @@ Installing packages from GitHub is relatively straight-forward. But you need an 
 
 ### Code 10
 
-Install `cowplot` and `colorspace` and call these libraries. Also, remove the `eval=F` parameter from each chunk to run each chunk when `knit` your output. (hint: you can do this for all parts via Edit > Replace and Find or CTRL + F)
+Install `cowplot` and `colorspace` and call these libraries. Also, remove the `eval=T` parameter from each chunk to run each chunk when `knit` your output. (hint: you can do this for all parts via Edit > Replace and Find or CTRL + F)
 
-```{r libraries,eval=F,warning=F,message=F}
+```{r libraries,eval=T,warning=F,message=F}
 # devtools::install_github("wilkelab/cowplot") # do you have devtools installed?
 
 library(cowplot) # for theme_minimal_hgrid()
@@ -295,7 +306,9 @@ library(colorspace) # for darken()
 
 - What does the parameters `warning=F` and `message=F` do within the code chunk?
 
-xxxxx
+`warning=F` : If FALSE, knitr will not display any warning messages generated by the code.
+
+`message=F` : If FALSE, knitr will not display any messages generated by the code
 
 ***
 
@@ -305,7 +318,7 @@ Modifying themes are very common in ggplot. There are a range of packages to cha
 
 For this plot, we'll use a theme built within the `cowplot` package that is a minimal background with a horizontal grid.
 
-```{r import-theme,eval=F}
+```{r import-theme,eval=T}
 g <- g +
   cowplot::theme_minimal_hgrid(12, rel_small = 1) # font size 12 pt throughout
 
@@ -316,7 +329,7 @@ g
 
 - What does the `cowplot::` pre-fix for `theme_minimal_hgrid()` mean? When would it be necessary?
 
-xxxxx
+`cowplot::` directly calls the function from the package `cowplot`. The `::` leaves calling the library (`library(cowplot)`) as optional. Since we previously called `library(cowplot)`, it's not necessary but okay to plot to explicitly show where the function `theme_minimal_hgrid` is from the `cowplot` package. It would be necessary if we didn't call `cowplot` library explicitly and if we thought we'd only need to use one function from this library.
 
 ***
 
@@ -326,7 +339,7 @@ Next, let's modify the color scheme. Colors can be represented by [hex colors](h
 
 Sometimes, color palettes come in as R packages (e.g., [`RColorBrewer`](https://cran.r-project.org/web/packages/RColorBrewer/index.html)). However, for this plot we'll manuall load up the colors.
 
-```{r modify-color,eval=F, message = FALSE}
+```{r modify-color,eval=T, message = FALSE}
 # Okabe Ito colors
 region_cols <- c("#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#999999")
 
@@ -342,7 +355,7 @@ g
 
 We can also darken the color scheme automatically through `colorspace`'s `darken()` function. 
 
-```{r darken-color,eval=F}
+```{r darken-color,eval=T}
 g <- g +
   scale_color_manual(
     values = colorspace::darken(region_cols, 0.3)
@@ -357,7 +370,7 @@ Let's now overlay a basic regression, using the `geom_smooth()` function.
 
 For this, we'll make the function a log transformation of x.
 
-```{r smooth,eval=F}
+```{r smooth,eval=T}
 g <- g +
   geom_smooth(
     aes(color = "y ~ log(x)", fill = "y ~ log(x)"),
@@ -371,7 +384,7 @@ g
 
 - What would be the difference in the plot if our smoothed function was `y~x` instead of `y~log(x)`?
 
-xxxxx
+`y~x` assumes a standard linear regression, i.e., the change between a unit of the x variable is the same for all values of x. This would prevent any curvature in our regression line. (Any answer close to this is okay)
 
 ***
 
@@ -379,7 +392,7 @@ xxxxx
 
 Let's now modify our scales, add scale labels, and modify the legend.
 
-```{r set-scales,eval=F}
+```{r set-scales,eval=T}
 g <- g +
   scale_x_continuous(
     name = "Corruption Perceptions Index, 2015 (100 = least corrupt)",
@@ -418,7 +431,7 @@ Last, let's add labels to highlight the countries.
 
 We can use the `ggrepel` package that includes the `geom_text_repel()` function that makes sure not to overlap labels.
 
-```{r highlight-busy,eval=F}
+```{r highlight-busy,eval=T}
 library(ggrepel)
 
 # don't assign this to g
@@ -439,7 +452,7 @@ Obviously, this is too busy. We have too many labels.
 
 Let's instead create a vector of countries we want to plot. We can the add in a new column that has the country name only if we want to plot it and nothing ("") otherwise.
 
-```{r highlight, eval=F}
+```{r highlight, eval=T}
 country_highlight <- c("Germany", "Norway", "United States", "Greece", "Singapore", "Rwanda", "Russia", "Venezuela", "Sudan", "Iraq", "Ghana", "Niger", "Chad", "Kuwait", "Qatar", "Myanmar", "Nepal", "Chile", "Argentina", "Japan", "China")
 
 corrupt <- corrupt %>%
@@ -469,13 +482,13 @@ g
 
 - What do you think the `%+%` operator does (see the StackOverflow link)? Why is it necessary in this context?
 
-xxxxx
+The `%+%` will replace the underlying dataframe in the ggplot object `g`. This necessary since we modified the underlying dataframe `corrupt` to add in the new column `label`, i.e., if we didn't replace the dataframe, the ggplot would not find the new column `label` we created.
 
 ***
 
 #### Save as a pdf file
 
-```{r save-plot,eval=F}
+```{r save-plot,eval=T}
 g + ggsave("corrupt.pdf", width = 8, height = 5)
 ```
 
@@ -485,7 +498,7 @@ You now have a pdf saved as this plot. By setting the width and height, it'll ma
 
 - From this graph, how would you interpret countries that are above the regression line versus countries that are below?
 
-xxxxx
+For a given level of perceived corruption (x value), countries above the regression line have a *higher* HDI than expected for its level of perceived corruption. Alternatively, countries below the regression line have a *lower* HDI than expected for its level of perceived corruption. (Something similar is okay)
 
 ***
 
@@ -493,6 +506,6 @@ xxxxx
 
  - What role does region have in the relationship between Corruption (Perception) and HDI?
 
-xxxxx
+Open to many answers. So long as it's thoughtful, it's okay.
 
 ***

@@ -2,14 +2,16 @@
 
 This repository contains the code for generating [dsba5122-fall2019.netlify.com](https://dsba5122-fall2019.netlify.com).
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/7a1409eb-ca6e-4c8f-a05f-2045a1191feb/deploy-status)](https://app.netlify.com/sites/dsba5122-fall2019/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1aceb238-33ec-4eb1-804e-c88a15596263/deploy-status)](https://app.netlify.com/sites/dsba5122-fall2019/deploys)
 
 ## Attribution
 
 This course was originally forked from Andrew Heiss' [MPA 635 Data Visualization](https://github.com/andrewheiss/datavizf18.classes.andrewheiss.com). A previous version of this course was taught in [Spring 2019](https://dsba5122-spring2019.netlify.com).Many of the resources were used (and many added too) and like Andrew's repo, this course is provided under CC BY-NC-SA 4.0.
 
 Much thanks goes to the many open source contributors of the course materials (directly or inspired by their work):
+
 * [Andrew Heiss](https://www.andrewheiss.com/) 
+* [Michael Friendly](http://datavis.ca/)
 * [Allison Hill](https://alison.rbind.io/)
 * [Thomas Lin Pedersen](https://www.data-imaginist.com/)
 * [Jenny Bryan](https://jennybryan.org/)

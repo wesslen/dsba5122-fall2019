@@ -2,150 +2,190 @@
 title: "Problem set 1"
 author: "YOUR NAME HERE"
 date: "DATE HERE"
+output:
+  html_document:
+    toc: true
+    toc_depth: 2
+    theme: united
 ---
 
-# Details
+## Details
 
 - Who did you collaborate with: xxxxx
 - Approximately how much time did you spend on this problem set: xxxxx
 - What, if anything, gave you the most trouble: xxxx
 
-## Instructions
+### Instructions
 
 For this problem set, you'll have three possible things to do.
 
-- "**Question #:**" / "xxxxx" = Write your response to each question by replacing the "xxxx. 1-2 sentences is fine.
+- "### Question #" / "xxxxx" = Write your response to each question by replacing the "xxxx. 1-2 sentences is fine.
 
-- "**Code**" = Write R code in the chunk corresponding to the instructions.
+- "### Code #" = Write R code in the chunk corresponding to the instructions.
 
-- "**Google**" = Google (or use a different search engine of your choice) the answer to this question.
+For this problem set, there are **15 questions** and **10 code** parts. If you get one wrong, it will be -3 points. 
 
-# Task 1
+Additional points will be deducted for problems with the formatting as outlined by the problem set 1 instructions (e.g., do not provide .html output, put data into data folder, etc.).
+
+## Task 1
 
 Answer the following questions about RMarkdown from the short lessons.
 
-## Question 1:
+### Question 1
 
-What three (3) characters start and end the YAML information for an RMarkdown file?
-
-xxxxx
-
-## Question 2:
-
-What does the code chunk parameter `echo = FALSE` do?
+- What three (3) characters start and end the YAML information for an RMarkdown file?
 
 xxxxx
 
-## Question 3:
+### Question 2
 
-How do you change the output type for an RMarkdown file?
+- What does the code chunk parameter `echo = FALSE` do?
 
 xxxxx
 
-# Task 2
+### Question 3
 
-**Code**: load the `tidyverse` package.
+- How do you change the output type for an RMarkdown file?
 
-```{r load-packages}
+xxxxx
+
+## Task 2: Creating baseline plot
+
+### Code 1
+
+Load the `tidyverse` package.
+
+```{r load-packages, message=F, warning=F}
 # make sure you have tidyverse already installed! (hint: install.packages())
-library(tidyverse)
+
+
 ```
 
-### Question 4:
+### Question 4
 
-What packages are loaded when you call `tidyverse`?
+- What packages are loaded when you call `tidyverse`?
 
 xxxxx
 
-**Code**: read in the `corrupt.csv` file and assign it to `corrupt`.
+***
+
+### Code 2 
+
+Read in the `corrupt.csv` file and assign it to `corrupt`.
 
 ```{r load-data-1}
 # load in the file 'data/corrupt.csv' and assign it to corrupt
 # hint: use the read_csv function from the readr (tidyverse) package
 
-corrupt <- read_csv("data/corrupt.csv")
+
 ```
 
+***
 
-**Code**: Run the `glimpse()` function on the data to explore the column formats.
+### Code 3
+
+Run the `glimpse()` function on the data to explore the column formats.
 
 ```{r glimpse}
 # run the glimpse() function
-glimpse(corrupt)
+
+
 ```
 
-### Question 4:
+***
 
-How many rows and columns does the data frame include?
+### Question 5
+
+- How many rows (observations) and columns (variables) does the data frame include?
 
 xxxxx
+
+***
 
 However, it's not clear if there are duplicated records by year (i.e., this is panel data (record and time oriented)).
 
-**Code**: Run the `count()` function on `corrupt` and use `year` as the 2nd parameter. This will count how many records by each unique category in `year` (that is, each year)
+### Code 4
 
-```{r eval=F}
-count(corrupt, year)
+Run the `count()` function on `corrupt` and use `year` as the 2nd parameter. This will count how many records by each unique category in `year` (that is, each year)
+
+```{r count}
+
+
 ```
 
-### Question 5:
+***
 
-How many different years does the dataset include?
+### Question 6
+
+- How many different years does the dataset include?
 
 xxxxx
 
+***
+
 For simplicity, let's only keep 2015 records.
 
-```{r filter-2015, eval=F}
-corrupt <- corrupt %>%
-  filter(year == 2015) %>% 
-  na.omit()
+```{r filter-2015}
+# uncomment out the lines below
+
+# corrupt <- corrupt %>%
+#   filter(year == 2015) %>% 
+#   na.omit()
 ```
 
 Let's revise our existing `region` field. This will help us later on.
 
-```{r region, eval=F}
-corrupt <- corrupt %>%
-  mutate(region = case_when(
-    region == "Middle East and North Africa" ~ "Middle East\nand North Africa",
-    region == "Europe and Central Asia" ~ "Europe and\nCentral Asia",
-    region == "Sub Saharan Africa" ~ "Sub-Saharan\nAfrica",
-    TRUE ~ region)
-    )
+```{r region}
+# uncomment out the lines below
+
+# corrupt <- corrupt %>%
+#   mutate(region = case_when(
+#     region == "Middle East and North Africa" ~ "Middle East\nand North Africa",
+#     region == "Europe and Central Asia" ~ "Europe and\nCentral Asia",
+#     region == "Sub Saharan Africa" ~ "Sub-Saharan\nAfrica",
+#     TRUE ~ region)
+#     )
 ```
 
 Let's now see how many countries we have for each region.
 
-**Code**: Using `dplyr` and piping (`%>%`), count the number of countries by region and assign it to the dataframe `region_count`. After running it, print it to the console by simply writing the name of the data frame.
+### Code 5
+
+Using `dplyr` and piping (`%>%`), count the number of countries by region and assign it to the dataframe `region_count`. After running it, print it to the console by simply writing the name of the data frame.
 
 ```{r region-count-1, eval=F}
 # hint: assign region_count through a group_by and summarise
-# name your count variable `count` - if you don't you'll get an 
-region_count <- corrupt %>%
-  group_by(region) %>%
-  summarise(count=n())
+# name your count variable `count` - if you don't you'll get an error later on
+
 
 # print to console by simply writing region_count
 region_count
 ```
 
+***
 
-### Question 6:
+### Question 7
 
-How many total countries are in the "Asia Pacific" region?
+- How many total countries are in the "Asia Pacific" region?
 
 xxxxx
 
-**Code**: Create a bar chart with `geom_col()` and choosing the aesthetics mappings as `species` for `x` and `count` for `y`.
+***
+
+### Code 6
+
+Create a scatterplot with the dataframe `corrupt` in which `cpi` is on the x axis, `hdi` is on the y axis, and the color of the points is `region`:
 
 ```{r species-count-2, eval=F}
-ggplot(corrupt, aes(cpi, hdi, color = region)) +
-  geom_point()
+# simple ggplot of geom_point()
+
 ```
 
-### Question 7:
+***
 
-What are three problems with this graph (or ways you could improve this graph)?
+### Question 8
+
+- What are three problems with this graph (or ways you could improve this graph)?
 
 1. xxxxx
 
@@ -153,11 +193,15 @@ What are three problems with this graph (or ways you could improve this graph)?
 
 3. xxxxx
 
-## Redesigning the graph
+***
+
+Now, let's modify our points.
 
 First, let's reshape each point.
 
-**Code**: Within your `geom_point` function, add in the following fixed parameters? 
+### Code 7
+
+Within your `geom_point` function, add in the following fixed parameters: 
 
 1. **size** to 2.5
 
@@ -167,69 +211,153 @@ First, let's reshape each point.
 
 hint: since these three values are fixed, should the be inside or outside the aesthetics (`aes()`) function?
 
-```{r eval=F}
-ggplot(corrupt, aes(cpi, hdi)) +
-  geom_point(
-    aes(color = region, fill = region),
-    size = 2.5, alpha = 0.5, shape = 21
-  )
+```{r graph-1,eval=F}
+# modify the geom_point parameters
 ```
 
-### Question 8:
+***
 
-What does the **alpha** parameter do?
+### Question 9
+
+- What does the `alpha` parameter do?
 
 xxxxx
 
-**Code**: Assign the ggplot from the previous part to `g` and then run `g` on its within the chunk.
+***
 
-```{r eval=F}
-# assign plot to g
-g <- ggplot(corrupt, aes(cpi, hdi)) +
-  geom_point(
-    aes(color = region, fill = region),
-    size = 2.5, alpha = 0.5, shape = 21
-  )
+The plot is too transparent. The issue is the parameter `color` encodes the color of the border, not the color of the point.
 
-# simply put "g" to view the plot
-g
+That's where we'll need the `fill` parameter.
+
+### Code 8
+
+Put these two parameters explicitly in the `aes()` function of the `geom_point()`:
+
+1. `color = region`
+
+2. `fill = region`
+
+Also, make sure to remove any mention of color or fill in the `aes()` of your main `ggplot()` function.
+
+```{r graph-2,eval=F}
+# modify the ggplot function
+
 ```
 
+***
 
-# Part 2: Re-designing
+Last, let's temporarily save this graph as an object `g`. We can use the same `<-` (gets arrow) assignment operator. This will enable us to view the object or we can use it to build additional layers (Task 2).
 
-Let's first focus on color.
+### Code 9
 
-For this, we'll need two packages: `cowplot` and `colorspace`
+Assign the ggplot from the previous part to `g` and then run `g` on its within the chunk.
 
-```{r eval=F}
-# devtools::install_github("wilkelab/cowplot")
+```{r assign-g,eval=F}
+# assign plot to g
+
+
+# simply put "g" to view the plot
+
+```
+
+***
+
+## Part 2: Re-designing
+
+In this part, you'll add additional layers to our plot to re-design it.
+
+This part is much more complicated, so your job will be easier: 
+
+1. Remove the `eval=F` parameter from each chunk to run each chunk when `knit` your output.
+
+2. Answer questions on interpreting what's going on.
+
+For this, we'll use the same `g` object you created in the last chunk and slowly add more layers to the plot.
+
+Before starting, we'll need two packages: `cowplot` and `colorspace`. You can install `colorspace` from CRAN (remember how to?). For `cowlplot`, you need the most recent version which is on GitHub.
+
+Installing packages from GitHub is relatively straight-forward. But you need an additional package: `devtools`. You can then run the line below to install it.
+
+### Code 10
+
+Install `cowplot` and `colorspace` and call these libraries. Also, remove the `eval=F` parameter from each chunk to run each chunk when `knit` your output. (hint: you can do this for all parts via Edit > Replace and Find or CTRL + F)
+
+```{r libraries,eval=F,warning=F,message=F}
+# devtools::install_github("wilkelab/cowplot") # do you have devtools installed?
 
 library(cowplot) # for theme_minimal_hgrid()
 library(colorspace) # for darken()
-# Okabe Ito colors
-region_cols <- c("#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#999999")
 ```
 
+***
 
-Basic styling: point colors and theme.
+### Question 10
 
-```{r eval=F, message = FALSE}
+- What does the parameters `warning=F` and `message=F` do within the code chunk?
+
+xxxxx
+
+***
+
+#### Import unique theme and font size
+
+Modifying themes are very common in ggplot. There are a range of packages to change plot themes like [`ggtheme`](https://ggplot2.tidyverse.org/reference/ggtheme.html).
+
+For this plot, we'll use a theme built within the `cowplot` package that is a minimal background with a horizontal grid.
+
+```{r import-theme,eval=F}
 g <- g +
-  scale_color_manual(
-    values = darken(region_cols, 0.3)
-  ) +
-  scale_fill_manual(
-    values = region_cols
-  ) +
-  theme_minimal_hgrid(12, rel_small = 1) # font size 12 pt throughout
+  cowplot::theme_minimal_hgrid(12, rel_small = 1) # font size 12 pt throughout
 
 g
 ```
 
-Add smoothing line.
+### Question 11
 
-```{r eval=F}
+- What does the `cowplot::` pre-fix for `theme_minimal_hgrid()` mean? When would it be necessary?
+
+xxxxx
+
+***
+
+#### Modify color scheme
+
+Next, let's modify the color scheme. Colors can be represented by [hex colors](https://www.color-hex.com/).
+
+Sometimes, color palettes come in as R packages (e.g., [`RColorBrewer`](https://cran.r-project.org/web/packages/RColorBrewer/index.html)). However, for this plot we'll manuall load up the colors.
+
+```{r modify-color,eval=F, message = FALSE}
+# Okabe Ito colors
+region_cols <- c("#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#999999")
+
+g <- g +
+  scale_fill_manual(
+    values = region_cols
+  ) 
+
+g
+```
+
+#### Darken colors by 30%
+
+We can also darken the color scheme automatically through `colorspace`'s `darken()` function. 
+
+```{r darken-color,eval=F}
+g <- g +
+  scale_color_manual(
+    values = colorspace::darken(region_cols, 0.3)
+  ) 
+
+g
+```
+
+#### Add smoothing line.
+
+Let's now overlay a basic regression, using the `geom_smooth()` function.
+
+For this, we'll make the function a log transformation of x.
+
+```{r smooth,eval=F}
 g <- g +
   geom_smooth(
     aes(color = "y ~ log(x)", fill = "y ~ log(x)"),
@@ -239,25 +367,19 @@ g <- g +
 g
 ```
 
-Override legend aesthetics.
+### Question 12
 
-```{r eval=F}
-g <- g +
-  guides(
-    color = guide_legend(
-      nrow = 1,
-      override.aes = list(
-        linetype = c(rep(0, 5), 1),
-        shape = c(rep(21, 5), NA)
-      )
-    )
-  ) 
+- What would be the difference in the plot if our smoothed function was `y~x` instead of `y~log(x)`?
 
-g
-```
+xxxxx
 
-Set x and y scales, move legend on top.
-```{r eval=F}
+***
+
+#### Set x and y scales, move legend on top.
+
+Let's now modify our scales, add scale labels, and modify the legend.
+
+```{r set-scales,eval=F}
 g <- g +
   scale_x_continuous(
     name = "Corruption Perceptions Index, 2015 (100 = least corrupt)",
@@ -276,24 +398,58 @@ g <- g +
     legend.justification = "right",
     legend.text = element_text(size = 9),
     legend.box.spacing = unit(0, "pt")
+  ) +
+  guides(
+    fill = guide_legend(
+      nrow = 1,
+      override.aes = list(
+        linetype = c(rep(0, 5), 1),
+        shape = c(rep(21, 5), NA)
+      )
+    )
   )
 
 g
 ```
 
-Highlight select countries.
+#### Highlight select countries.
 
-```{r eval=F}
+Last, let's add labels to highlight the countries.
+
+We can use the `ggrepel` package that includes the `geom_text_repel()` function that makes sure not to overlap labels.
+
+```{r highlight-busy,eval=F}
 library(ggrepel)
 
+# don't assign this to g
+# if you do, then simply recreate g by running the "Run All Chunks Above" button
+g +
+  geom_text_repel(
+    aes(label = country),
+    color = "black",
+    size = 9/.pt, # font size 9 pt
+    point.padding = 0.1, 
+    box.padding = .6,
+    min.segment.length = 0,
+    seed = 7654
+  ) 
+```
+
+Obviously, this is too busy. We have too many labels. 
+
+Let's instead create a vector of countries we want to plot. We can the add in a new column that has the country name only if we want to plot it and nothing ("") otherwise.
+
+```{r highlight, eval=F}
 country_highlight <- c("Germany", "Norway", "United States", "Greece", "Singapore", "Rwanda", "Russia", "Venezuela", "Sudan", "Iraq", "Ghana", "Niger", "Chad", "Kuwait", "Qatar", "Myanmar", "Nepal", "Chile", "Argentina", "Japan", "China")
 
 corrupt <- corrupt %>%
   mutate(
-    label = ifelse(country %in% country_highlight, country, "")
+    label = if_else(country %in% country_highlight, country, "")
   )
 
-# wow: https://stackoverflow.com/questions/29336964/changing-the-dataset-of-a-ggplot-object
+# wow: %+%
+# https://stackoverflow.com/questions/29336964/changing-the-dataset-of-a-ggplot-object
+
 g <- g %+% 
   corrupt +
   geom_text_repel(
@@ -309,8 +465,34 @@ g <- g %+%
 g
 ```
 
-```{r eval=F}
+### Question 13
+
+- What do you think the `%+%` operator does (see the StackOverflow link)? Why is it necessary in this context?
+
+xxxxx
+
+***
+
+#### Save as a pdf file
+
+```{r save-plot,eval=F}
 g + ggsave("corrupt.pdf", width = 8, height = 5)
 ```
 
+You now have a pdf saved as this plot. By setting the width and height, it'll make your life so much easier if you need to reproduce this plot (very likely).
 
+### Question 14
+
+- From this graph, how would you interpret countries that are above the regression line versus countries that are below?
+
+xxxxx
+
+***
+
+### Question 15
+
+ - What role does region have in the relationship between Corruption (Perception) and HDI?
+
+xxxxx
+
+***
