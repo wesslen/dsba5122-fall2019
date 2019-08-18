@@ -15,7 +15,7 @@ Make sure you install R and RStudio and tidyverse first.^[Follow [these instruct
 
 Create a [new R project as a "New Directory" (folder)](https://r4ds.had.co.nz/workflow-projects.html#rstudio-projects). You should call your name project "problem-set-1-[yourlastname]", where [yourlastname] is your last name.
 
-Within your new project folder, [download this R Markdown file](/files/problem-set-1/problem-set-1-yourlastname.Rmd).^[Your browser might show the file instead of downloading it. If that's the case, you can copy/paste the code from the browser to RStudio. In RStudio, go to "File" > "New" > "New R Markdown…", click "OK" with the default options, delete all the placeholder code/text in the new file, and paste the example code in the now-blank file.] It contains an outline/skeleton of what you'll need to do in this problem set, and it includes lots of the code prewritten just for you! Make sure to **change the 
+Within your new project folder, [download this R Markdown file](/files/problem-set-1/problem-set-1-yourlastname.Rmd).^[Your browser might show the file instead of downloading it. If that's the case, you can copy/paste the code from the browser to RStudio. In RStudio, go to "File" > "New" > "New R Markdown…", click "OK" with the default options, delete all the placeholder code/text in the new file, and paste the example code in the now-blank file.] It contains an outline/skeleton of what you'll need to do in this problem set, and it includes lots of the code prewritten just for you!
 
 Next, you'll need to download the csv file we'll be working with. [Click this link and "Save as"](/files/problem-set-1/data/corrupt.csv) and put it into a folder within your new project called "/data/".
 
@@ -50,7 +50,7 @@ Before doing these R Markdown tutorials, you'll need to install a couple more R 
 
 Don't worry if you don't completely understand RMarkdown!^[See [R4DS Chapter 27](https://r4ds.had.co.nz/r-markdown.html) if you need some help.] Try your hardest and play around with it.
 
-^[{-} Also, (**optional**) if you want to convert R Markdown files to PDF instead of just Word or HTML, you'll need to install LaTeX, which is a fancy scientific typesetting program. You don't need to know how it works—it just has to be installed for R to use it.
+^[Also, (**optional**) if you want to convert R Markdown files to PDF instead of just Word or HTML, you'll need to install LaTeX, which is a fancy scientific typesetting program. You don't need to know how it works—it just has to be installed for R to use it.
 
 The easiest way to install it is with the **tinytex** R package. Run these two lines in your R console to install a smaller version of LaTeX that should work great for this class:
 
@@ -64,29 +64,30 @@ If you want to use a full-blown LaTeX installation, install one of these. But no
 - LaTeX for macOS: [MacTeX](https://www.tug.org/mactex/). For whatever reason, LaTeX is astoundingly huge and it will feel like you're downloading the entire internet when you install it. Be patient :).
 - LaTeX for Windows: [MiKTeX](https://miktex.org/howto/install-miktex)]
 
-For this task, there are three questions you will need to answer. They can be answered in the .Rmd file within your project ("problem-set-1-yourlastname.Rmd").
-
+For this task, there are three questions you will need to answer. They can be answered in the .Rmd file within your project ("problem-set-1-yourlastname.Rmd"). Like the similar questions, write your answer where the "xxxxx" placeholders are.
 
 # Task 2: Analyzing Country-level Corruption vs. Human Development
 
 We'll look at country-level data in 2015 to explore the relationship between perceived corruption (CPI, where 100 = least corrupt, 0 = most corrupt) and country development (HDI, where 1 = developed country, 0 = developing).
 
-For this task, your job will be to create this plot!
+For this task, your job will be to create this plot.
 
-![](../../files/problem-set-1/corrupt.pdf)
+```{r out.width = "300px", fig.align="center", echo=FALSE}
+knitr::include_graphics("../../files/problem-set-1/corrupt.pdf")
+```
 
 We'll start slow and then later on I'll provide you the code to run.
 
-You'll use the same .Rmd file you previously used and have three different types of tasks to do.
+You'll use the same .Rmd file you previously used and have two different types of tasks to do.
 
-- "xxxxx" = Write, in complete English sentences, your response to questions. 1-2 sentences is sufficient.
+- "### Question / xxxxx" = Write, in complete English sentences, your response to questions. 1-2 sentences is sufficient.
 
-- "**Code**" = Write R code in the chunk corresponding to the instructions.
+- "### Code " = Write R code in the chunk corresponding to the instructions.
 
-In this 
+In total, there are *15* Questions and *10* Code chunks.
 
 # All done!
 
 Knit the completed R Markdown file as a **html** (use the "Knit" button at the top of the script editor window) and **compress** the entire folder as a zip file (including the html document, RStudio Project, any respective data, and the R Markdown file). 
 
-To complete the assignment, [upload your zip file of the folder to Canvas](https://uncc.instructure.com/courses/100065/assignments/516650) by 11:59pm on September 9, 2019. Each person needs to submit their own folder (zip file). (Example: if you work with someone else, you each have to submit your own zip file!)
+To complete the assignment, [upload your zip file of the folder to Canvas](https://uncc.instructure.com/courses/110218/assignments/651583) by 11:59pm on September 9, 2019. Each person needs to submit their own folder (zip file). (Example: if you work with someone else, you each have to submit your own zip file!)
