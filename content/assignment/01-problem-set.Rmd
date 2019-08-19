@@ -7,11 +7,11 @@ editor_options:
   chunk_output_type: console
 ---
 
-*Note*: to complete this task, you **MUST** submit your final folder (compressed as a zip file) through [here to Canvas](https://uncc.instructure.com/courses/110218/assignments/651583) by 11:59pm on September 9, 2019. Each person needs to submit their own folder! So if you work in pairs, both individuals have to submit a folder.
+To complete this task, you **MUST** submit your final folder (compressed as a zip file) through [here to Canvas](https://uncc.instructure.com/courses/110218/assignments/651583) by 11:59pm on September 9, 2019. Each person needs to submit their own folder! So if you work in pairs, both individuals have to submit a folder.
 
 # Task 0
 
-Make sure you install R and RStudio and tidyverse first.^[Follow [these instructions](/install/) and install R, RStudio, and all the tidyverse packages. If you have any questions, send a message on the class' Slack!] 
+Either use RStudio.Cloud or make sure you install R and RStudio and `tidyverse` first.^[Follow [these instructions](/install/) and install R, RStudio, and all the tidyverse packages. If you have any questions, send a message on the class' Slack!] 
 
 Create a [new R project as a "New Directory" (folder)](https://r4ds.had.co.nz/workflow-projects.html#rstudio-projects). You should call your name project "problem-set-1-[yourlastname]", where [yourlastname] is your last name.
 
@@ -22,10 +22,10 @@ Next, you'll need to download the csv file we'll be working with. [Click this li
 In the end, the structure of your new project directory should look like this:
 
 ```
-problem-set-1-yourlastname\
+problem-set-1-yourlastname/
   problem-set-1-yourlastname.Rmd
   problem-set-1-yourlastname.Rproj
-  data\
+  data/
     corrupt.csv
 ```
 
@@ -54,10 +54,8 @@ Don't worry if you don't completely understand RMarkdown!^[See [R4DS Chapter 27]
 
 The easiest way to install it is with the **tinytex** R package. Run these two lines in your R console to install a smaller version of LaTeX that should work great for this class:
 
-```{r install-tinytex, eval=FALSE}
-install.packages('tinytex')
-tinytex::install_tinytex()
-```
+`install.packages('tinytex')
+tinytex::install_tinytex()`
 
 If you want to use a full-blown LaTeX installation, install one of these. But note that *you don't need to do this!*
 

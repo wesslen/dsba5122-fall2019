@@ -81,7 +81,8 @@ Slides from Week 1:   Friendly’s “Introduction to Visualization” (slides X
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-fall2019.netlify.com/assignment/01-problem-set/</guid>
-      <description>a.sourceLine { display: inline-block; line-height: 1.25; } a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; } a.sourceLine:empty { height: 1.2em; } .sourceCode { overflow: visible; } code.sourceCode { white-space: pre; position: relative; } div.sourceCode { margin: 1em 0; } pre.sourceCode { margin: 0; } @media screen { div.sourceCode { overflow: auto; } } @media print { code.sourceCode { white-space: pre-wrap; } a.sourceLine { text-indent: -1em; padding-left: 1em; } } pre.</description>
+      <description>To complete this task, you MUST submit your final folder (compressed as a zip file) through here to Canvas by 11:59pm on September 9, 2019. Each person needs to submit their own folder! So if you work in pairs, both individuals have to submit a folder.
+Task 0 Either use RStudio.Cloud or make sure you install R and RStudio and tidyverse first.Follow these instructions and install R, RStudio, and all the tidyverse packages.</description>
     </item>
     
     <item>

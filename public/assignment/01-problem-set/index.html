@@ -138,77 +138,11 @@
     
     
     
-<style type="text/css">
-a.sourceLine { display: inline-block; line-height: 1.25; }
-a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
-a.sourceLine:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode { white-space: pre; position: relative; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-code.sourceCode { white-space: pre-wrap; }
-a.sourceLine { text-indent: -1em; padding-left: 1em; }
-}
-pre.numberSource a.sourceLine
-  { position: relative; left: -4em; }
-pre.numberSource a.sourceLine::before
-  { content: attr(title);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; pointer-events: all; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-    background-color: #ffffff;
-    color: #a0a0a0;
-  }
-pre.numberSource { margin-left: 3em; border-left: 1px solid #a0a0a0;  padding-left: 4px; }
-div.sourceCode
-  { color: #1f1c1b; background-color: #ffffff; }
-@media screen {
-a.sourceLine::before { text-decoration: underline; }
-}
-code span. { color: #1f1c1b; } /* Normal */
-code span.al { color: #bf0303; background-color: #f7e6e6; font-weight: bold; } /* Alert */
-code span.an { color: #ca60ca; } /* Annotation */
-code span.at { color: #0057ae; } /* Attribute */
-code span.bn { color: #b08000; } /* BaseN */
-code span.bu { color: #644a9b; font-weight: bold; } /* BuiltIn */
-code span.cf { color: #1f1c1b; font-weight: bold; } /* ControlFlow */
-code span.ch { color: #924c9d; } /* Char */
-code span.cn { color: #aa5500; } /* Constant */
-code span.co { color: #898887; } /* Comment */
-code span.cv { color: #0095ff; } /* CommentVar */
-code span.do { color: #607880; } /* Documentation */
-code span.dt { color: #0057ae; } /* DataType */
-code span.dv { color: #b08000; } /* DecVal */
-code span.er { color: #bf0303; text-decoration: underline; } /* Error */
-code span.ex { color: #0095ff; font-weight: bold; } /* Extension */
-code span.fl { color: #b08000; } /* Float */
-code span.fu { color: #644a9b; } /* Function */
-code span.im { color: #ff5500; } /* Import */
-code span.in { color: #b08000; } /* Information */
-code span.kw { color: #1f1c1b; font-weight: bold; } /* Keyword */
-code span.op { color: #1f1c1b; } /* Operator */
-code span.ot { color: #006e28; } /* Other */
-code span.pp { color: #006e28; } /* Preprocessor */
-code span.re { color: #0057ae; background-color: #e0e9f8; } /* RegionMarker */
-code span.sc { color: #3daee9; } /* SpecialChar */
-code span.ss { color: #ff5500; } /* SpecialString */
-code span.st { color: #bf0303; } /* String */
-code span.va { color: #0057ae; } /* Variable */
-code span.vs { color: #bf0303; } /* VerbatimString */
-code span.wa { color: #bf0303; } /* Warning */
-</style>
 
 
-<p><em>Note</em>: to complete this task, you <strong>MUST</strong> submit your final folder (compressed as a zip file) through <a href="https://uncc.instructure.com/courses/110218/assignments/651583">here to Canvas</a> by 11:59pm on September 9, 2019. Each person needs to submit their own folder! So if you work in pairs, both individuals have to submit a folder.</p>
+<p>To complete this task, you <strong>MUST</strong> submit your final folder (compressed as a zip file) through <a href="https://uncc.instructure.com/courses/110218/assignments/651583">here to Canvas</a> by 11:59pm on September 9, 2019. Each person needs to submit their own folder! So if you work in pairs, both individuals have to submit a folder.</p>
 <h2 id="task-0">Task 0</h2>
-<p>Make sure you install R and RStudio and tidyverse first.<span><label for="sn-1" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-1" class="margin-toggle"/><span class="sidenote">Follow <a href="/install/">these instructions</a> and install R, RStudio, and all the tidyverse packages. If you have any questions, send a message on the class’ Slack!<br />
+<p>Either use RStudio.Cloud or make sure you install R and RStudio and <code>tidyverse</code> first.<span><label for="sn-1" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-1" class="margin-toggle"/><span class="sidenote">Follow <a href="/install/">these instructions</a> and install R, RStudio, and all the tidyverse packages. If you have any questions, send a message on the class’ Slack!<br />
 <br />
 </span></span></p>
 <p>Create a <a href="https://r4ds.had.co.nz/workflow-projects.html#rstudio-projects">new R project as a “New Directory” (folder)</a>. You should call your name project “problem-set-1-[yourlastname]”, where [yourlastname] is your last name.</p>
@@ -217,10 +151,10 @@ code span.wa { color: #bf0303; } /* Warning */
 </span></span> It contains an outline/skeleton of what you’ll need to do in this problem set, and it includes lots of the code prewritten just for you!</p>
 <p>Next, you’ll need to download the csv file we’ll be working with. <a href="/files/problem-set-1/data/corrupt.csv">Click this link and “Save as”</a> and put it into a folder within your new project called “/data/”.</p>
 <p>In the end, the structure of your new project directory should look like this:</p>
-<pre><code>problem-set-1-yourlastname\
+<pre><code>problem-set-1-yourlastname/
   problem-set-1-yourlastname.Rmd
   problem-set-1-yourlastname.Rproj
-  data\
+  data/
     corrupt.csv</code></pre>
 <p>Complete the two tasks below and type your answers in that downloaded file. When you’re done, knit the document as a html file with the “Knit” button at the top of the script editing pane.<span><label for="sn-3" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-3" class="margin-toggle"/><span class="sidenote"><img src="/images/assignment/knit-button.png" alt="Knit button" /><br />
 <br />
@@ -247,8 +181,7 @@ code span.wa { color: #bf0303; } /* Warning */
 </span></span> Try your hardest and play around with it.</p>
 <p>^[Also, (<strong>optional</strong>) if you want to convert R Markdown files to PDF instead of just Word or HTML, you’ll need to install LaTeX, which is a fancy scientific typesetting program. You don’t need to know how it works—it just has to be installed for R to use it.</p>
 <p>The easiest way to install it is with the <strong>tinytex</strong> R package. Run these two lines in your R console to install a smaller version of LaTeX that should work great for this class:</p>
-<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">install.packages</span>(<span class="st">&#39;tinytex&#39;</span>)
-tinytex<span class="op">::</span><span class="kw">install_tinytex</span>()</code></pre>
+<p><code>install.packages('tinytex') tinytex::install_tinytex()</code></p>
 <p>If you want to use a full-blown LaTeX installation, install one of these. But note that <em>you don’t need to do this!</em></p>
 <ul>
 <li>LaTeX for macOS: <a href="https://www.tug.org/mactex/">MacTeX</a>. For whatever reason, LaTeX is astoundingly huge and it will feel like you’re downloading the entire internet when you install it. Be patient :).</li>
@@ -327,17 +260,6 @@ tinytex<span class="op">::</span><span class="kw">install_tinytex</span>()</code
     </footer>
 
     
-    <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-      tex2jax: {
-        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
-      }
-    });
-    </script>
-    <script async type="text/javascript"
-      src="https://cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML">
-    </script>
-
 
 </div>
 </body>
