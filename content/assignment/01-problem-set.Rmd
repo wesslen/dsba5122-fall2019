@@ -48,19 +48,8 @@ Go through these short lessons:
 
 Before doing these R Markdown tutorials, you'll need to install a couple more R packages. Use RStudio's "Packages" panel to install `rmarkdown` and `viridis`. Alternatively, paste these commands in the RStudio Console: `install.packages("rmarkdown")` and `install.packages("viridis")`. ^[You can also type `install.packages(c("rmarkdown", "viridis"))` to install both at the same time.]
 
-Don't worry if you don't completely understand RMarkdown!^[See [R4DS Chapter 27](https://r4ds.had.co.nz/r-markdown.html) if you need some help.] Try your hardest and play around with it.
-
-^[Also, (**optional**) if you want to convert R Markdown files to PDF instead of just Word or HTML, you'll need to install LaTeX, which is a fancy scientific typesetting program. You don't need to know how it works—it just has to be installed for R to use it.
-
-The easiest way to install it is with the **tinytex** R package. Run these two lines in your R console to install a smaller version of LaTeX that should work great for this class:
-
-`install.packages('tinytex')
-tinytex::install_tinytex()`
-
-If you want to use a full-blown LaTeX installation, install one of these. But note that *you don't need to do this!*
-
-- LaTeX for macOS: [MacTeX](https://www.tug.org/mactex/). For whatever reason, LaTeX is astoundingly huge and it will feel like you're downloading the entire internet when you install it. Be patient :).
-- LaTeX for Windows: [MiKTeX](https://miktex.org/howto/install-miktex)]
+Don't worry if you don't completely understand RMarkdown!^[See [R4DS Chapter 27](https://r4ds.had.co.nz/r-markdown.html) if you need some help.] Try your hardest and play around with it.^[Also, (**optional**) if you want to convert R Markdown files to PDF instead of just Word or HTML, you'll need to install LaTeX, which is a fancy scientific typesetting program. You don't need to know how it works—it just has to be installed for R to use it. The easiest way to install it is with the **tinytex** R package. Run these two lines: `install.packages('tinytex')` then `tinytex::install_tinytex()`
+]
 
 For this task, there are three questions you will need to answer. They can be answered in the .Rmd file within your project ("problem-set-1-yourlastname.Rmd"). Like the similar questions, write your answer where the "xxxxx" placeholders are.
 
