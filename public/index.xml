@@ -145,12 +145,11 @@ For this DataCamp course, you’ll learn about doing exploratory data analysis, 
       
       <guid>https://dsba5122-fall2019.netlify.com/assignment/01-quiz/</guid>
       <description>Quiz 1 can be taken starting on September 10th.
+You will have one week to complete (that is, the quiz must be completed by 11:59pm on September 16, 2019).
 This quiz will consist of 10 multiple choice questions.
+You will have 15 minute to complete the quiz.
 Quiz 1 will cover:
-Week 1 Slides: “Introduction to Visualization” (slide X, X, X, X, X, X, X, X)
- Week 2 Slides: “Graphical Perception” (slide X, X, X, X, X, X, X, X)
- Week 3 Slides: “Bertin to ggplot2” (slide X, X, X, X, X, X, X, X)
-  Readings from:</description>
+Slides from Week 1:   Friendly’s “Introduction to Visualization” (slides X, X, X, X, X, X, X, X)  Week 2:   Friendly’s: “Graphical Perception” (slides X, X, X, X, X, X, X, X)  Week 3:   Friendly’s: “Bertin to ggplot2” (slides X, X, X, X, X, X, X, X)  Required readings from:  Week 2:</description>
     </item>
     
     <item>
@@ -159,7 +158,7 @@ Week 1 Slides: “Introduction to Visualization” (slide X, X, X, X, X, X, X, X
       <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-fall2019.netlify.com/reading/03-reading/</guid>
-      <description>Required   Chapter 4: Show the right numbers in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
+      <description>Required   Chapter 3: Make a Plot and Chapter 4: Show the right numbers in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
   Recommended   Chapter 5: Directory of visualizations and Chapter 22: Image file formats in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
 
   Chapter 7: Exploratory data analysis in Garrett Grolemund and Hadley Wickham, R for Data ScienceHadley Wickham and Garrett Grolemund, R for Data Science: Import, Tidy, Transform, Visualize, and Model Data (Sebastopol, California: O’Reilly Media, 2017), http://r4ds.</description>
@@ -189,7 +188,7 @@ Week 1 Slides: “Introduction to Visualization” (slide X, X, X, X, X, X, X, X
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-fall2019.netlify.com/class/02-class/</guid>
-      <description>Contents  Tweet of the day Slides Helpful Materials   Tweet of the day Visual encoding is itself a data transformation, often applied after a chain of other transformations. This is “first week of class”, table stakes stuff. Sad if true that we don’t internalize this! — Jeffrey Heer (@jeffrey_heer) August 11, 2018   Enrico Bertini is a data visualization researcher at NYU who co-hosts (with Moritz Stefaner) the podcast “Data Stories”, which I highly recommend.</description>
+      <description>Contents  Tweet of the day Slides   Tweet of the day Visual encoding is itself a data transformation, often applied after a chain of other transformations. This is “first week of class”, table stakes stuff. Sad if true that we don’t internalize this! — Jeffrey Heer (@jeffrey_heer) August 11, 2018   Enrico Bertini is a data visualization researcher at NYU who co-hosts (with Moritz Stefaner) the podcast “Data Stories”, which I highly recommend.</description>
     </item>
     
     <item>
@@ -199,7 +198,8 @@ Week 1 Slides: “Introduction to Visualization” (slide X, X, X, X, X, X, X, X
       
       <guid>https://dsba5122-fall2019.netlify.com/reading/02-reading/</guid>
       <description>Required   Chapter 3: Data visualization and Chapter 5: Data transformation in Garrett Grolemund and Hadley Wickham, R for Data ScienceHadley Wickham and Garrett Grolemund, R for Data Science: Import, Tidy, Transform, Visualize, and Model Data (Sebastopol, California: O’Reilly Media, 2017), http://r4ds.had.co.nz/.
-  Recommended   Chapter 2: Aesthetic mapping in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.</description>
+
+  Chapter 2: Aesthetic mapping, Chapter 3: Coordinate systems and axes, Chapter 4: Color scales, and Chapter 19: Common pitfalls of color use in Claus Wilke, Fundamentals of Data VisualizationClaus E.</description>
     </item>
     
     <item>

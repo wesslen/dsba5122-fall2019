@@ -20,13 +20,17 @@ editor_options:
 
 # Slides
 
-[full screen](../../slides/02-class.html#1) / [pdf version](https://github.com/wesslen/dsba5122-fall2019/raw/master/public/files/dsba5122-fall2019-02-class.pdf)
+1. Michael Friendly's Psych 6135: Psychology of Data Visualization [Graphical Perception](../../files/GraphPerception-modified-rw.pdf)^[These slides were modified for this class.]
 
 ```{r echo=FALSE}
-knitr::include_url('../../slides/02-class.html#1')
+knitr::include_url('../../files/GraphPerception-modified-rw.pdf')
 ```
 
-# Helpful Materials
+2. Omayma Said's [Intro to the Tidyverse: Data Manipulation using dplyr](https://speakerdeck.com/omaymas/data-manipulation-with-dplyr-first-steps)
 
-* Omayma Said's [Intro to the Tidyverse: Data Manipulation using dplyr](https://speakerdeck.com/omaymas/data-manipulation-with-dplyr-first-steps)
+3. Lab: Healy [Chapter 3: "Make a Plot"](http://socviz.co/makeplot.html#makeplot)
+
+- Go to [healy-dataviz](https://rstudio.cloud/spaces/22733/project/160035) in our class RStudio Workplace.
+
+- Open `03_make_a_plot.Rmd`.
 

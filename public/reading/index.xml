@@ -17,7 +17,7 @@
       <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-fall2019.netlify.com/reading/03-reading/</guid>
-      <description>Required   Chapter 4: Show the right numbers in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
+      <description>Required   Chapter 3: Make a Plot and Chapter 4: Show the right numbers in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
   Recommended   Chapter 5: Directory of visualizations and Chapter 22: Image file formats in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
 
   Chapter 7: Exploratory data analysis in Garrett Grolemund and Hadley Wickham, R for Data ScienceHadley Wickham and Garrett Grolemund, R for Data Science: Import, Tidy, Transform, Visualize, and Model Data (Sebastopol, California: O’Reilly Media, 2017), http://r4ds.</description>
@@ -30,7 +30,8 @@
       
       <guid>https://dsba5122-fall2019.netlify.com/reading/02-reading/</guid>
       <description>Required   Chapter 3: Data visualization and Chapter 5: Data transformation in Garrett Grolemund and Hadley Wickham, R for Data ScienceHadley Wickham and Garrett Grolemund, R for Data Science: Import, Tidy, Transform, Visualize, and Model Data (Sebastopol, California: O’Reilly Media, 2017), http://r4ds.had.co.nz/.
-  Recommended   Chapter 2: Aesthetic mapping in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.</description>
+
+  Chapter 2: Aesthetic mapping, Chapter 3: Coordinate systems and axes, Chapter 4: Color scales, and Chapter 19: Common pitfalls of color use in Claus Wilke, Fundamentals of Data VisualizationClaus E.</description>
     </item>
     
     <item>
