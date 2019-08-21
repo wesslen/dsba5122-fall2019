@@ -13,7 +13,7 @@ editor_options:
 knitr::include_graphics("https://assets.datacamp.com/production/course_4914/shields/original/shield_image_course_4914_20180824-15-gt3h0p?1535132842")
 ```
 
-Here is the [link to the assigned course](https://www.datacamp.com/enterprise/dsba5122-visual-analytics-c9a5d247-7ed7-44d0-bed6-e8d85e26b19e/assignments/55380).
+Here is the [link to the assigned course](https://www.datacamp.com/enterprise/dsba5122-visual-analytics-fa267ad4-0a1d-4968-9620-e4f183402adf/assignments/56589).
 
 For this DataCamp course, you'll learn about using `tidyverse` package from David Robinson, Chief Data Scientist for DataCamp.^[David is a prolific data scientist and blogger, whose blog ["Variance Explained"](http://varianceexplained.org/) is one of the most popular data science blogs. He has a great [blog post](http://varianceexplained.org/r/intro-tidyverse/) discussing the background of this course.]
 
