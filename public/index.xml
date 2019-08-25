@@ -93,8 +93,11 @@ Slides: full screen / pdf version</description>
       <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-fall2019.netlify.com/assignment/03-datacamp/</guid>
-      <description>DataCamp Course: Building Web Applications in R with Shiny by Mine Cetinkaya-Rundel Here is the link to the assigned course.
-For this DataCamp course, you’ll learn about shiny, the framework for developing html-based interactive visualizations without requiring HTML, CSS, or JavaScript experiment (though it will help tremendously if you have a background).</description>
+      <description>DataCamp Course: (Modified for this assignment) DataCamp no longer offers their “Intro to Shiny”.
+Instead, you have two options:
+Watch a 2.5 hour introduction to Shiny training video.
+ Go through and read RStudio’s Shiny Introduction Article Series
+  Since I can’t verify your completion, to complete this assignment you must submit on Canvas this statement: “On my honor, I have completed option X for DataCamp course 3.” (where you state whether you did #1 or #2 in place of X).</description>
     </item>
     
     <item>
@@ -179,7 +182,7 @@ Slides from Week 1:   Friendly’s “Introduction to Visualization” (slides X
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-fall2019.netlify.com/assignment/01-problem-set/</guid>
-      <description>To complete this task, you MUST submit your final folder (compressed as a zip file) through here to Canvas by 11:59pm on September 9, 2019. Each person needs to submit their own folder! So if you work in pairs, both individuals have to submit a folder.
+      <description>To complete this task, you MUST submit your final folder (compressed as a zip file) through here to Canvas by 11:59pm on September 16, 2019. Each person needs to submit their own folder! So if you work in pairs, both individuals have to submit a folder.
 Task 0 Either use RStudio.Cloud or make sure you install R and RStudio and tidyverse first.Follow these instructions and install R, RStudio, and all the tidyverse packages.</description>
     </item>
     
@@ -189,7 +192,7 @@ Task 0 Either use RStudio.Cloud or make sure you install R and RStudio and tidyv
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-fall2019.netlify.com/class/02-class/</guid>
-      <description>Contents  Tweet of the day Slides   Tweet of the day Visual encoding is itself a data transformation, often applied after a chain of other transformations. This is “first week of class”, table stakes stuff. Sad if true that we don’t internalize this! — Jeffrey Heer (@jeffrey_heer) August 11, 2018   Enrico Bertini is a data visualization researcher at NYU who co-hosts (with Moritz Stefaner) the podcast “Data Stories”, which I highly recommend.</description>
+      <description>Contents  Tweet of the day Announcements Slides   Tweet of the day Visual encoding is itself a data transformation, often applied after a chain of other transformations. This is “first week of class”, table stakes stuff. Sad if true that we don’t internalize this! — Jeffrey Heer (@jeffrey_heer) August 11, 2018   Enrico Bertini is a data visualization researcher at NYU who co-hosts (with Moritz Stefaner) the podcast “Data Stories”, which I highly recommend.</description>
     </item>
     
     <item>
@@ -674,7 +677,7 @@ RStudio.cloud R is free, but it can sometimes be a pain to install and configure
       
       <guid>https://dsba5122-fall2019.netlify.com/schedule/</guid>
       <description> Here’s your roadmap for the semester!
-  Readings should be completed before each class session  Assignments are due by 11:59 PM on the day they are due  Class materials (slides, in-class activities, etc.) will be added on the day of class     Information Visualization Reading Assignment Class   August 19 Intro to Visual Analytics      August 19 Datacamp course 1 (Due Sept 3)      August 26 Visual Representation Basics I      August 26 Problem set 1 (Due Sept 9)      September 2 No class (Labor Day)      September 9 Visual Representation Basics II      September 9 Quiz 1 (Due Sept 16)      September 9 Datacamp course 2 (Due Sept 24)      September 16 Time &amp;amp; Space      September 16 Problem set 2 (Due Sept 30)      September 23 Distributions &amp;amp; Uncertainty       Interactive Visualizations Reading Assignment Class   September 30 Statistical Models      September 30 Design Contest assigned (Due Oct 28)      September 30 Datacamp course 3 (Due Oct 22)      October 7 Multidimensional Data &amp;amp; Dimensionality Reduction      October 14 No class (Fall Break)      October 21 Networks and Trees      October 21 Problem set 3 (Due Nov 4)      October 28 Design Contest Presentations       Building Shiny Apps Reading Assignment Class   November 4 Intro to Shiny      November 4 Final project assigned (Due Dec 9)      November 4 Datacamp course 4 (Due Nov 19)      November 11 Interacting &amp;amp; Brushing      November 11 Problem set 4 (Due Nov 25)      November 18 In Production: Deployment, Back-end, &amp;amp; Scalability      November 25 Human Factors      December 2 TBD       Final Reading Assignment Class   December 9 Final project due       </description>
+  Readings should be completed before each class session  Assignments are due by 11:59 PM on the day they are due  Class materials (slides, in-class activities, etc.) will be added on the day of class     Information Visualization Reading Assignment Class   August 19 Intro to Visual Analytics      August 19 Datacamp course 1 (Due Sept 3)      August 26 Visual Representation Basics I      August 26 Problem set 1 (Due Sept 16)      September 2 No class (Labor Day)      September 9 Visual Representation Basics II      September 9 Quiz 1 (Due Sept 16)      September 9 Datacamp course 2 (Due Sept 24)      September 16 Time &amp;amp; Space      September 16 Problem set 2 (Due Sept 30)      September 23 Distributions &amp;amp; Uncertainty       Interactive Visualizations Reading Assignment Class   September 30 Statistical Models      September 30 Design Contest assigned (Due Oct 28)      September 30 Datacamp course 3 (Due Oct 22)      October 7 Multidimensional Data &amp;amp; Dimensionality Reduction      October 14 No class (Fall Break)      October 21 Networks and Trees      October 21 Problem set 3 (Due Nov 4)      October 28 Design Contest Presentations       Building Shiny Apps Reading Assignment Class   November 4 Intro to Shiny      November 4 Final project assigned (Due Dec 9)      November 4 Datacamp course 4 (Due Nov 19)      November 11 Interacting &amp;amp; Brushing      November 11 Problem set 4 (Due Nov 25)      November 18 In Production: Deployment, Back-end, &amp;amp; Scalability      November 25 Human Factors      December 2 TBD       Final Reading Assignment Class   December 9 Final project due       </description>
     </item>
     
     <item>

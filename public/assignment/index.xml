@@ -47,8 +47,11 @@ For this DataCamp course, you’ll learn more about shiny using hands on case st
       <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-fall2019.netlify.com/assignment/03-datacamp/</guid>
-      <description>DataCamp Course: Building Web Applications in R with Shiny by Mine Cetinkaya-Rundel Here is the link to the assigned course.
-For this DataCamp course, you’ll learn about shiny, the framework for developing html-based interactive visualizations without requiring HTML, CSS, or JavaScript experiment (though it will help tremendously if you have a background).</description>
+      <description>DataCamp Course: (Modified for this assignment) DataCamp no longer offers their “Intro to Shiny”.
+Instead, you have two options:
+Watch a 2.5 hour introduction to Shiny training video.
+ Go through and read RStudio’s Shiny Introduction Article Series
+  Since I can’t verify your completion, to complete this assignment you must submit on Canvas this statement: “On my honor, I have completed option X for DataCamp course 3.” (where you state whether you did #1 or #2 in place of X).</description>
     </item>
     
     <item>
@@ -81,7 +84,7 @@ Slides from Week 1:   Friendly’s “Introduction to Visualization” (slides X
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-fall2019.netlify.com/assignment/01-problem-set/</guid>
-      <description>To complete this task, you MUST submit your final folder (compressed as a zip file) through here to Canvas by 11:59pm on September 9, 2019. Each person needs to submit their own folder! So if you work in pairs, both individuals have to submit a folder.
+      <description>To complete this task, you MUST submit your final folder (compressed as a zip file) through here to Canvas by 11:59pm on September 16, 2019. Each person needs to submit their own folder! So if you work in pairs, both individuals have to submit a folder.
 Task 0 Either use RStudio.Cloud or make sure you install R and RStudio and tidyverse first.Follow these instructions and install R, RStudio, and all the tidyverse packages.</description>
     </item>
     

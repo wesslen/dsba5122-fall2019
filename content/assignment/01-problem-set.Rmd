@@ -1,13 +1,13 @@
 ---
 title: "Problem set 1"
 date: "2019-08-26"
-due_date: "2019-09-09"
+due_date: "2019-09-16"
 due_time: "11:59 PM"
 editor_options: 
   chunk_output_type: console
 ---
 
-To complete this task, you **MUST** submit your final folder (compressed as a zip file) through [here to Canvas](https://uncc.instructure.com/courses/110218/assignments/651583) by 11:59pm on September 9, 2019. Each person needs to submit their own folder! So if you work in pairs, both individuals have to submit a folder.
+To complete this task, you **MUST** submit your final folder (compressed as a zip file) through [here to Canvas](https://uncc.instructure.com/courses/110218/assignments/651583) by 11:59pm on September 16, 2019. Each person needs to submit their own folder! So if you work in pairs, both individuals have to submit a folder.
 
 # Task 0
 
@@ -75,4 +75,4 @@ In total, there are *15 Questions* and *10 Code chunks*.
 
 Knit the completed R Markdown file as a **html** (use the "Knit" button at the top of the script editor window) and **compress** the entire folder as a zip file (including the html document, RStudio Project, any respective data, and the R Markdown file). 
 
-To complete the assignment, [upload your zip file of the folder to Canvas](https://uncc.instructure.com/courses/110218/assignments/651583) by 11:59pm on September 9, 2019. Each person needs to submit their own folder (zip file). (Example: if you work with someone else, you each have to submit your own zip file!)
+To complete the assignment, [upload your zip file of the folder to Canvas](https://uncc.instructure.com/courses/110218/assignments/651583) by 11:59pm on September 16, 2019. Each person needs to submit their own folder (zip file). (Example: if you work with someone else, you each have to submit your own zip file!)

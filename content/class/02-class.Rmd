@@ -17,6 +17,18 @@ editor_options:
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Visual encoding is itself a data transformation, often applied after a chain of other transformations. This is “first week of class”, table stakes stuff. Sad if true that we don’t internalize this!</p>&mdash; Jeffrey Heer (@jeffrey_heer) <a href="https://twitter.com/jeffrey_heer/status/1028353025889333248?ref_src=twsrc%5Etfw">August 11, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>^[[Enrico Bertini](http://enrico.bertini.io/) is a data visualization researcher at NYU who co-hosts (with [Moritz Stefaner](http://truth-and-beauty.net/)) the podcast ["Data Stories"](http://datastori.es/), which I highly recommend.] ,^[[Jeff Heer](https://homes.cs.washington.edu/~jheer/) is a leading researcher in data visualization; he helped develop [D3](https://d3js.org/), [Trifacta](https://www.trifacta.com/), [Vega](https://vega.github.io/vega/), and has had countless other publications. My personal favorite is his already classic 2009 ["Brief History of Data Visualization"](https://www.youtube.com/watch?v=N00g9Q9stBo) talk on YouTube.]
 
+# Announcements
+
+1. Make sure your signed-up for RStudio, DataCamp, and Slack. See your emails for class links.
+
+2. [DataCamp 1](../../assignment/01-datacamp.html) is due next by 11:59pm, Tuesday, Sept 3rd. Need to complete the entire course. No late submissions.
+
+3. [Problem Set 1](../../assignment/01-problem-set.html) is delayed one week - now due Monday, Sept 9th. 
+
+4. [DataCamp 3](../../assignment/03-datacamp.html) will change. DataCamp no longer offers Intro to Shiny. New instructions are posted on the page.
+
+5. A few **optional** DataCamp courses were provided. These are to help students who are brand new to R and data importing, cleaning, and manipulation. They will not be graded.
+
 
 # Slides
 
@@ -26,11 +38,20 @@ editor_options:
 knitr::include_url('../../files/GraphPerception-modified-rw.pdf')
 ```
 
-2. Omayma Said's [Intro to the Tidyverse: Data Manipulation using dplyr](https://speakerdeck.com/omaymas/data-manipulation-with-dplyr-first-steps)
+2. Why R/Studio and the `tidyverse`
 
-3. Lab: Healy [Chapter 3: "Make a Plot"](http://socviz.co/makeplot.html#makeplot)
+[full screen](../../slides/02-class.html#1) / [pdf version](../../files/dsba5122-fall2019-02-class.pdf)
+
+```{r echo=FALSE}
+knitr::include_url('../../slides/02-class.html#1')
+```
+
+3. Omayma Said's [Intro to the Tidyverse: Data Manipulation using dplyr](https://speakerdeck.com/omaymas/data-manipulation-with-dplyr-first-steps)
+
+4. Lab: Healy [Chapter 3: "Make a Plot"](http://socviz.co/makeplot.html#makeplot)
 
 - Go to [healy-dataviz](https://rstudio.cloud/spaces/22733/project/160035) in our class RStudio Workplace.
 
 - Open `03_make_a_plot.Rmd`.
 
+- We won't go through all of this chapter. We'll continue again in next class (Sept 3rd).
