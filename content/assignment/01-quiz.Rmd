@@ -14,31 +14,29 @@ library(tidyverse)
 
 Quiz 1 can be taken starting on September 10th. 
 
-You will have one week to complete the quiz (that is, the quiz must be completed by 5:59pm on September 16, 2019). Note this is not by midnight, but before the next class.
+- You will have one week to complete the quiz (that is, the quiz must be completed by 5:59pm on September 16, 2019). Note this is not by midnight, but before the next class.
 
-This quiz will consist of 10 multiple choice questions. You will have 15 minute to complete the quiz. You may only take the quiz once. Grades will not be available until the completion date.
+- This quiz will consist of 10 multiple choice questions. You will have **15 minutes** to complete the quiz. You may only take the quiz once. Grades will not be available until the quiz closes.
 
-You will be required to use in-browser locking to prevent you from having other materials open.
+- You will be required to use in-browser locking to prevent you from having other materials open.
 
-Per the syllabus, you are not allowed to use any resources (slides, notes, other people, etc.) when taking this quiz. By taking the quiz, you pledge **on your honor** that you did not use any unauthorized resource.
+- Per the syllabus, you are **not allowed to use any resources** (slides, notes, other people, etc.) when taking this quiz. By taking the quiz, you pledge **on your honor** that you did not use any unauthorized resource.
+
+- **No late quizzes accepted**. If you do not complete the quiz in time, you will receive 0% grade.
 
 Quiz 1 will cover week 1 and 2 reading/lecture materials.
 
-### Slides:
-
-1. Week 1: 
+- Week 1 Slides: 
 
   * Friendly's ["Introduction to Visualization"](../../files/Overview-modified-rw.pdf) (slides 7-13, 18-24, 40-45)^[Be sure to use slide #'s based on the pdf, not the bottom right! For Friendly's slides, I wasn't able to modify his bottom-right slide #'s.] 
 
-2. Week 2: 
+- Week 2 Slides: 
 
   * Friendly's: ["Graphical Perception"](../../files/Overview-modified-rw.pdf) (slides 2-3, 13-24, 27-31, 45-50)
   
 Although we weren't able to cover it in class, you may also find ["Omayma Said’s Intro to the Tidyverse: Data Manipulation using dplyr"](https://speakerdeck.com/omaymas/data-manipulation-with-dplyr-first-steps) to be helpful in `dplyr`.
 
-### Required readings:
-
-- Week 2: 
+- Week 2 Required Readings: 
 
   * R4DS: [Chapter 3: Data visualization](https://r4ds.had.co.nz/data-visualisation.html) and [Chapter 5: Data transformation](https://r4ds.had.co.nz/transform.html)
   

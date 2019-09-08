@@ -2,50 +2,50 @@ lessons:
   - title: '<span class="fake-header-table">Information Visualization</span>'
     header: True
 
-  - title: "Intro to Visual Analytics"
+  - title: "Class 1: Intro to Visual Analytics"
     date: "August 19"
     reading: "01-reading"
     class: "01-class"
     
-  - title: "**Datacamp course 1 (Due Sept 3)**"
+  - title: "Datacamp course 1 (Due Sept 3)"
     date: "August 19"
     assignment: "01-datacamp"
     
-  - title: "Visual Representations I"
+  - title: "Class 2: Visual Representations I"
     date: "August 26"
     reading: "02-reading"
     class: "02-class"
     
-  - title: "**Problem set 1 (Due Sept 16)**"
+  - title: "Problem set 1 (Due Sept 16)"
     date: "August 26"
     assignment: "01-problem-set"
     
   - title: "No class (Labor Day)"
     date: "September 2"
 
-  - title: "Visual Representations II"
+  - title: "Class 3: Visual Representations II"
     date: "September 9"
     reading: "03-reading"
     class: "03-class"
     
-  - title: "**Quiz 1 (Due Sept 16)**"
+  - title: "Quiz 1 (Due Sept 16)"
     date: "September 9"
     assignment: "01-quiz"
     
-  - title: "*Datacamp course 2 (Due Sept 24)*"
+  - title: "Datacamp course 2 (Due Sept 24)"
     date: "September 9"
     assignment: "02-datacamp"
     
-  - title: "Time & Space"
+  - title: "Class 4: Time & Space"
     date: "September 16"
     reading: "04-reading"
     #class: "04-class"
     
-  - title: "**Problem set 2 (Due Sept 30)**"
+  - title: "Problem set 2 (Due Sept 30)"
     date: "September 16"
     #assignment: "02-problem-set"
 
-  - title: "Distributions & Uncertainty"
+  - title: "Class 5: Distributions & Uncertainty"
     date: "September 23"
     #reading: "05-reading"
     #class: "05-class"
@@ -53,7 +53,7 @@ lessons:
   - title: '<span class="fake-header-table">Interactive Visualizations</span>'
     header: True
 
-  - title: "Statistical Models"
+  - title: "Class 6: Statistical Models"
     date: "September 30"
     #reading: "06-reading"
     #class: "06-class"
@@ -70,7 +70,7 @@ lessons:
     date: "September 30"
     assignment: "03-datacamp"
 
-  - title: "Multidimensional Data &\nDimensionality Reduction"
+  - title: "Class 7: Multidimensional Data"
     date: "October 7"
     #reading: "07-reading"
     #class: "07-class"
@@ -78,7 +78,7 @@ lessons:
   - title: "No class (Fall Break)"
     date: "October 14"
 
-  - title: "Networks and Trees"
+  - title: "Class 8: Networks and Trees"
     date: "October 21"
     #reading: "08-reading"
     #class: "08-class"
@@ -87,7 +87,7 @@ lessons:
     date: "October 21"
     #assignment: "03-problem-set"
     
-  - title: "Design Contest Presentations"
+  - title: "Class 9: Design Contest Presentations"
     date: "October 28"
     #class: "09-class"
     
@@ -98,12 +98,12 @@ lessons:
   - title: '<span class="fake-header-table">Building Shiny Apps</span>'
     header: True
     
-  - title: "Intro to Shiny"
+  - title: "Class 10: Intro to Shiny"
     date: "November 4"
     #reading: "10-reading"
     #class: "10-class"
     
-  - title: "**Final project assigned (Due Dec 9)**"
+  - title: "Final project assigned (Due Dec 9)"
     date: "November 4"
     #assignment: "final-project"
     
@@ -111,7 +111,7 @@ lessons:
     date: "November 4"
     assignment: "04-datacamp"
 
-  - title: "Interacting & Brushing"
+  - title: "Class 11: Interacting & Brushing"
     date: "November 11"
     #reading: "11-reading"
     #class: "11-class"
@@ -120,12 +120,12 @@ lessons:
     date: "November 11"
     #assignment: "04-problem-set"
 
-  - title: "In Production: Deployment, Back-end, & Scalability"
+  - title: "Class 12: Shiny in Production"
     date: "November 18"
     #reading: "12-reading"
     #class: "12-class"
 
-  - title: "Human Factors"
+  - title: "Class 13: Human Factors"
     date: "November 25"
     #reading: "13-reading"
     #class: "13-class"
@@ -134,7 +134,7 @@ lessons:
     date: "November 25"
     #assignment: "04-quiz"
 
-  - title: "TBD"
+  - title: "Class 14: TBD"
     date: "December 2"
     #reading: "14-reading"
     #class: "14-class"
