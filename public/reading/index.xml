@@ -6,25 +6,39 @@
     <description>Recent content in Readings on Visual Analytics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://dsba5122-fall2019.netlify.com/reading/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Visual Representation Basics II</title>
+      <title>Time &amp; Space</title>
+      <link>https://dsba5122-fall2019.netlify.com/reading/04-reading/</link>
+      <pubDate>Mon, 16 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-fall2019.netlify.com/reading/04-reading/</guid>
+      <description>Required   Chapter 7: Maps in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
+
+  Chapter 13: Visualizing time series, Chapter 14: Visualizing trends and Chapter 15: Visualizing geospatial trends in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
+
+  Chapter 16: Dates and times in Garrett Grolemund and Hadley Wickham, R for Data ScienceHadley Wickham and Garrett Grolemund, R for Data Science: Import, Tidy, Transform, Visualize, and Model Data (Sebastopol, California: O’Reilly Media, 2017), http://r4ds.</description>
+    </item>
+    
+    <item>
+      <title>Visual Representations II</title>
       <link>https://dsba5122-fall2019.netlify.com/reading/03-reading/</link>
       <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-fall2019.netlify.com/reading/03-reading/</guid>
       <description>Required   Chapter 3: Make a Plot and Chapter 4: Show the right numbers in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
-  Recommended   Chapter 5: Directory of visualizations and Chapter 22: Image file formats in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
 
-  Chapter 7: Exploratory data analysis in Garrett Grolemund and Hadley Wickham, R for Data ScienceHadley Wickham and Garrett Grolemund, R for Data Science: Import, Tidy, Transform, Visualize, and Model Data (Sebastopol, California: O’Reilly Media, 2017), http://r4ds.</description>
+  Chapter 5: Directory of Visualization and Chapter 6: Visualizing Amounts in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
+
+  A Layered Grammar of Graphics by Hadley Wickham</description>
     </item>
     
     <item>
-      <title>Visual Representation Basics I</title>
+      <title>Visual Representations I</title>
       <link>https://dsba5122-fall2019.netlify.com/reading/02-reading/</link>
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
       
@@ -135,19 +149,6 @@
       <description>Required   Chapters 7 and 11 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
 
   Chapter 7: Histograms and density plots, Chapter 8: Empirical cumulative distribution functions, Chapter 9: Visualizing many distributions at once and Chapter 16: Visualizing uncertanity in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.</description>
-    </item>
-    
-    <item>
-      <title>Time &amp; Space</title>
-      <link>https://dsba5122-fall2019.netlify.com/reading/04-reading/</link>
-      <pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-fall2019.netlify.com/reading/04-reading/</guid>
-      <description>Required   Chapter 8: “Revealing Change” and Chapter 10: “Mapping Data” in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
-
-  Chapter 7: Maps in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
-
-  Chapter 13: Visualizing time series and Chapter 14: Visualizing trends in Claus Wilke, Fundamentals of Data VisualizationClaus E.</description>
     </item>
     
     <item>

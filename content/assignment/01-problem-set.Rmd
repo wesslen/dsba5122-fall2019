@@ -11,7 +11,7 @@ To complete this task, you **MUST** submit your final folder (compressed as a zi
 
 # Task 0
 
-Either use RStudio.Cloud or make sure you install R and RStudio and `tidyverse` first.^[Follow [these instructions](/install/) and install R, RStudio, and all the tidyverse packages. If you have any questions, send a message on the class' Slack!] 
+Either use RStudio.Cloud^[If you need help, see RStudio.Cloud's [primer](https://rstudio.cloud/learn/guide) or Primers like [R Programming Basics](https://rstudio.cloud/learn/primers/1.2) or [Working with Data](https://rstudio.cloud/learn/primers).] or make sure you install R and RStudio and `tidyverse` first.^[Follow [these instructions](/install/) and install R, RStudio, and all the tidyverse packages. If you have any questions, send a message on the class' Slack!] 
 
 Create a [new R project as a "New Directory" (folder)](https://r4ds.had.co.nz/workflow-projects.html#rstudio-projects). You should call your name project "problem-set-1-[yourlastname]", where [yourlastname] is your last name.
 

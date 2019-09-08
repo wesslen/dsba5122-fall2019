@@ -1,6 +1,6 @@
 ---
 title: "Time & Space"
-date: "2019-02-11"
+date: "2019-09-16"
 citeproc: false
 bibliography: ../../static/bib/references.bib
 csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
@@ -8,16 +8,12 @@ csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
 
 # Required
 
-- <i class="fas fa-book"></i> Chapter 8: "Revealing Change" and Chapter 10: "Mapping Data" in Alberto Cairo, *The Truthful Art* [@Cairo:2016]
-
 - <i class="fas fa-book"></i> [Chapter 7: Maps](http://socviz.co/maps.html) in Kieran Healy, *Data Visualization* [@Healy:2018]
 
-- <i class="fas fa-book"></i> [Chapter 13: Visualizing time series](https://serialmentor.com/dataviz/time-series.html) and [Chapter 14: Visualizing trends](https://serialmentor.com/dataviz/visualizing-trends.html) in Claus Wilke, *Fundamentals of Data Visualization* [@Wilke:2018]
+- <i class="fas fa-book"></i> [Chapter 13: Visualizing time series](https://serialmentor.com/dataviz/time-series.html), [Chapter 14: Visualizing trends](https://serialmentor.com/dataviz/visualizing-trends.html) and [Chapter 15: Visualizing geospatial trends](https://serialmentor.com/dataviz/geospatial-data.html) in Claus Wilke, *Fundamentals of Data Visualization* [@Wilke:2018]
+
+- <i class="fas fa-book"></i> [Chapter 16: Dates and times](https://r4ds.had.co.nz/dates-and-times.html) in Garrett Grolemund and Hadley Wickham, *R for Data Science* [@WickhamGrolemund:2017]
 
 # Recommended
 
 - <i class="fas fa-external-link-square-alt"></i> [ggplot2 trial and error - US trade data](https://www.hvitfeldt.me/blog/ggplot2-trial-and-error-us-trade-data/) by Emil Hvitfeldt
-
-- <i class="fas fa-book"></i> [Chapter 15: Visualizing geospatial trends](https://serialmentor.com/dataviz/geospatial-data.html) in Claus Wilke, *Fundamentals of Data Visualization* [@Wilke:2018]
-
-- <i class="fas fa-book"></i> [Chapter 16: Dates and times](https://r4ds.had.co.nz/dates-and-times.html) in Garrett Grolemund and Hadley Wickham, *R for Data Science* [@WickhamGrolemund:2017]

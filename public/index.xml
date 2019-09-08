@@ -132,6 +132,19 @@ sphere_shade() %&amp;gt;% add_shadow(ray_shade(elmat)) %&amp;gt;% plot_3d(elmat)
     </item>
     
     <item>
+      <title>Time &amp; Space</title>
+      <link>https://dsba5122-fall2019.netlify.com/reading/04-reading/</link>
+      <pubDate>Mon, 16 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-fall2019.netlify.com/reading/04-reading/</guid>
+      <description>Required   Chapter 7: Maps in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
+
+  Chapter 13: Visualizing time series, Chapter 14: Visualizing trends and Chapter 15: Visualizing geospatial trends in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
+
+  Chapter 16: Dates and times in Garrett Grolemund and Hadley Wickham, R for Data ScienceHadley Wickham and Garrett Grolemund, R for Data Science: Import, Tidy, Transform, Visualize, and Model Data (Sebastopol, California: O’Reilly Media, 2017), http://r4ds.</description>
+    </item>
+    
+    <item>
       <title>Datacamp Course 2</title>
       <link>https://dsba5122-fall2019.netlify.com/assignment/02-datacamp/</link>
       <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
@@ -148,32 +161,30 @@ For this DataCamp course, you’ll learn about doing exploratory data analysis, 
       
       <guid>https://dsba5122-fall2019.netlify.com/assignment/01-quiz/</guid>
       <description>Quiz 1 can be taken starting on September 10th.
-You will have one week to complete (that is, the quiz must be completed by 11:59pm on September 16, 2019).
-This quiz will consist of 10 multiple choice questions.
-You will have 15 minute to complete the quiz.
-Quiz 1 will cover:
-Slides from Week 1:   Friendly’s “Introduction to Visualization” (slides X, X, X, X, X, X, X, X)  Week 2:   Friendly’s: “Graphical Perception” (slides X, X, X, X, X, X, X, X)  Week 3:   Friendly’s: “Bertin to ggplot2” (slides X, X, X, X, X, X, X, X)  Required readings from:  Week 2:</description>
+You will have one week to complete the quiz (that is, the quiz must be completed by 5:59pm on September 16, 2019). Note this is not by midnight, but before the next class.
+This quiz will consist of 10 multiple choice questions. You will have 15 minute to complete the quiz. You may only take the quiz once. Grades will not be available until the completion date.</description>
     </item>
     
     <item>
-      <title>Visual Representation Basics II</title>
+      <title>Visual Representations II</title>
       <link>https://dsba5122-fall2019.netlify.com/reading/03-reading/</link>
       <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-fall2019.netlify.com/reading/03-reading/</guid>
       <description>Required   Chapter 3: Make a Plot and Chapter 4: Show the right numbers in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
-  Recommended   Chapter 5: Directory of visualizations and Chapter 22: Image file formats in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
 
-  Chapter 7: Exploratory data analysis in Garrett Grolemund and Hadley Wickham, R for Data ScienceHadley Wickham and Garrett Grolemund, R for Data Science: Import, Tidy, Transform, Visualize, and Model Data (Sebastopol, California: O’Reilly Media, 2017), http://r4ds.</description>
+  Chapter 5: Directory of Visualization and Chapter 6: Visualizing Amounts in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
+
+  A Layered Grammar of Graphics by Hadley Wickham</description>
     </item>
     
     <item>
-      <title>Visual Representation Basics II</title>
+      <title>Visual Representations II</title>
       <link>https://dsba5122-fall2019.netlify.com/class/03-class/</link>
       <pubDate>Wed, 04 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-fall2019.netlify.com/class/03-class/</guid>
-      <description>Contents  Tweet of the Day Slides Lab 3: Make a plot (ggplot2) Links   Tweet of the Day 🌟 guide to visual encoding types from ???&#39;s “Visualization &amp;amp; Journalism” https://t.co/A2x96QYNoL #dataviz #infovis pic.twitter.com/2FIyXeWk4h — Mara Averick (@dataandme) October 17, 2018   Tamara Munzner is one of the most influential data visualization researchers. Her textbook “Visualization Analysis and Design” is one of the most popular data viz books and some of her former students are now leaders in data viz (e.</description>
+      <description>Contents  Tweet of the Day Announcements Slides Lab 3: Make a plot (ggplot2) Helpful Links   Tweet of the Day 🌟 guide to visual encoding types from ???&#39;s “Visualization &amp;amp; Journalism” https://t.co/A2x96QYNoL #dataviz #infovis pic.twitter.com/2FIyXeWk4h — Mara Averick (@dataandme) October 17, 2018   Tamara Munzner is one of the most influential data visualization researchers. Her textbook “Visualization Analysis and Design” is one of the most popular data viz books and some of her former students are now leaders in data viz (e.</description>
     </item>
     
     <item>
@@ -183,11 +194,12 @@ Slides from Week 1:   Friendly’s “Introduction to Visualization” (slides X
       
       <guid>https://dsba5122-fall2019.netlify.com/assignment/01-problem-set/</guid>
       <description>To complete this task, you MUST submit your final folder (compressed as a zip file) through here to Canvas by 11:59pm on September 16, 2019. Each person needs to submit their own folder! So if you work in pairs, both individuals have to submit a folder.
-Task 0 Either use RStudio.Cloud or make sure you install R and RStudio and tidyverse first.Follow these instructions and install R, RStudio, and all the tidyverse packages.</description>
+Task 0 Either use RStudio.CloudIf you need help, see RStudio.Cloud’s primer or Primers like R Programming Basics or Working with Data.
+ or make sure you install R and RStudio and tidyverse first.</description>
     </item>
     
     <item>
-      <title>Visual Representation Basics I</title>
+      <title>Visual Representations I</title>
       <link>https://dsba5122-fall2019.netlify.com/class/02-class/</link>
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
       
@@ -196,7 +208,7 @@ Task 0 Either use RStudio.Cloud or make sure you install R and RStudio and tidyv
     </item>
     
     <item>
-      <title>Visual Representation Basics I</title>
+      <title>Visual Representations I</title>
       <link>https://dsba5122-fall2019.netlify.com/reading/02-reading/</link>
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
       
@@ -553,19 +565,6 @@ Welcome  </description>
     </item>
     
     <item>
-      <title>Time &amp; Space</title>
-      <link>https://dsba5122-fall2019.netlify.com/reading/04-reading/</link>
-      <pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-fall2019.netlify.com/reading/04-reading/</guid>
-      <description>Required   Chapter 8: “Revealing Change” and Chapter 10: “Mapping Data” in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
-
-  Chapter 7: Maps in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
-
-  Chapter 13: Visualizing time series and Chapter 14: Visualizing trends in Claus Wilke, Fundamentals of Data VisualizationClaus E.</description>
-    </item>
-    
-    <item>
       <title>DSBA 5122: Visual Analytics</title>
       <link>https://dsba5122-fall2019.netlify.com/slides/03-class/</link>
       <pubDate>Mon, 04 Feb 2019 00:00:00 +0000</pubDate>
@@ -677,7 +676,7 @@ RStudio.cloud R is free, but it can sometimes be a pain to install and configure
       
       <guid>https://dsba5122-fall2019.netlify.com/schedule/</guid>
       <description> Here’s your roadmap for the semester!
-  Readings should be completed before each class session  Assignments are due by 11:59 PM on the day they are due  Class materials (slides, in-class activities, etc.) will be added on the day of class     Information Visualization Reading Assignment Class   August 19 Intro to Visual Analytics      August 19 Datacamp course 1 (Due Sept 3)      August 26 Visual Representation Basics I      August 26 Problem set 1 (Due Sept 16)      September 2 No class (Labor Day)      September 9 Visual Representation Basics II      September 9 Quiz 1 (Due Sept 16)      September 9 Datacamp course 2 (Due Sept 24)      September 16 Time &amp;amp; Space      September 16 Problem set 2 (Due Sept 30)      September 23 Distributions &amp;amp; Uncertainty       Interactive Visualizations Reading Assignment Class   September 30 Statistical Models      September 30 Design Contest assigned (Due Oct 28)      September 30 Datacamp course 3 (Due Oct 22)      October 7 Multidimensional Data &amp;amp; Dimensionality Reduction      October 14 No class (Fall Break)      October 21 Networks and Trees      October 21 Problem set 3 (Due Nov 4)      October 28 Design Contest Presentations       Building Shiny Apps Reading Assignment Class   November 4 Intro to Shiny      November 4 Final project assigned (Due Dec 9)      November 4 Datacamp course 4 (Due Nov 19)      November 11 Interacting &amp;amp; Brushing      November 11 Problem set 4 (Due Nov 25)      November 18 In Production: Deployment, Back-end, &amp;amp; Scalability      November 25 Human Factors      December 2 TBD       Final Reading Assignment Class   December 9 Final project due       </description>
+  Readings should be completed before each class session  Assignments are due by 11:59 PM on the day they are due  Class materials (slides, in-class activities, etc.) will be added on the day of class     Information Visualization Reading Assignment Class   August 19 Intro to Visual Analytics      August 19 Datacamp course 1 (Due Sept 3)      August 26 Visual Representations I      August 26 Problem set 1 (Due Sept 16)      September 2 No class (Labor Day)      September 9 Visual Representations II      September 9 Quiz 1 (Due Sept 16)      September 9 Datacamp course 2 (Due Sept 24)      September 16 Time &amp;amp; Space      September 16 Problem set 2 (Due Sept 30)      September 23 Distributions &amp;amp; Uncertainty       Interactive Visualizations Reading Assignment Class   September 30 Statistical Models      September 30 Quiz 2 (Due Oct 7)      September 30 Design Contest assigned (Due Oct 28)      September 30 Datacamp course 3 (Due Oct 22)      October 7 Multidimensional Data &amp;amp; Dimensionality Reduction      October 14 No class (Fall Break)      October 21 Networks and Trees      October 21 Problem set 3 (Due Nov 4)      October 28 Design Contest Presentations      October 28 Quiz 3 (Due Nov 4)       Building Shiny Apps Reading Assignment Class   November 4 Intro to Shiny      November 4 Final project assigned (Due Dec 9)      November 4 Datacamp course 4 (Due Nov 19)      November 11 Interacting &amp;amp; Brushing      November 11 Problem set 4 (Due Nov 25)      November 18 In Production: Deployment, Back-end, &amp;amp; Scalability      November 25 Human Factors      November 25 Quiz 4 (Due Dec 2)      December 2 TBD       Final Reading Assignment Class   December 9 Final project due       </description>
     </item>
     
     <item>
@@ -694,7 +693,7 @@ rwesslen@uncc.edu
  Office Hours via Calendly
 Course
  Mondays
- August 19 – May 6, 2019
+ August 19 – Dec. 9, 2019
  6:00–8:45 PM
  CenterCity 904
  Slack

@@ -1,6 +1,6 @@
 ---
 title: "DSBA 5122: Visual Analytics"
-subtitle: "Class 3: Visual Representations Basics II"  
+subtitle: "Class 3: Visual Representations II"  
 author: "Ryan Wesslen"
 date: 'September 4, 2019'
 citeproc: false
@@ -22,6 +22,7 @@ knitr::opts_chunk$set(fig.width=4.2, fig.height=4.2, message=FALSE, warning=FALS
 options(htmltools.dir.version = FALSE)
 library(xaringanthemer)
 library(gapminder)
+library(cowplot)
 
 mono_light(
   base_color = "#046A38",
@@ -148,13 +149,15 @@ knitr::include_graphics("../images/slides/03-class/amounts-1.png")
 .pull-left[
 ```{r eval=FALSE}
 ggplot(mpg, aes(x = class)) +
-  geom_bar()
+  geom_bar() +
+  cowplot::theme_cowplot()
 ```
 ]
 .pull-right[
 ```{r echo=FALSE}
 ggplot(mpg, aes(x = class)) +
-  geom_bar()
+  geom_bar() +
+  cowplot::theme_cowplot()
 ```
 ]
 
@@ -168,22 +171,33 @@ knitr::include_graphics("../images/slides/03-class/amounts-1.png")
 
 .pull-left[
 ```{r eval=FALSE}
-ggplot(mpg, aes(x = class, `fill = class`)) +
+okabe_cols <- c("#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#999999")
+
+ggplot(mpg, aes(x = class, fill = class)) +
   geom_bar() +
-  `coord_flip() +`
-  labs(x = " ", y = "Car count",
-       title = "Cars by type") +
-  `theme(legend.position = "none")`
+  coord_flip() +
+  labs(x = " ", y = "Car count", title = "Cars by type") +
+  cowplot::theme_cowplot() +
+  scale_fill_manual(
+    values = okabe_cols
+  ) +
+  theme(legend.position = "none")
 ```
 
 ]
 .pull-right[
 ```{r echo=FALSE}
+okabe_cols <- c("#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#999999")
+
 ggplot(mpg, aes(x = class, fill = class)) +
   geom_bar() +
   coord_flip() +
   labs(x = " ", y = "Car count", title = "Cars by type") +
-  theme(legend.position = "none")
+  theme(legend.position = "none") +
+  cowplot::theme_cowplot() +
+  scale_fill_manual(
+    values = okabe_cols
+  ) 
 ```
 ]
 
@@ -197,6 +211,7 @@ knitr::include_graphics("../images/slides/03-class/amounts-1.png")
 
 .pull-left[
 ```{r eval=FALSE}
+# this is the order you want
 l <- c("2seater","minivan","pickup",
        "subcompact","midsize","compact","suv")
 
@@ -205,13 +220,21 @@ mpg %>%
   ggplot(aes(x = class, fill = class)) +
   geom_bar() +
   coord_flip() +
-  labs(x = " ", y = "Car count",
-       title = "Cars by type") +
-  theme(legend.position = "none")
+  labs(
+    x = " ", 
+    y = "Car count",
+    title = "Cars by type"
+      ) +
+  theme(legend.position = "none") +
+  cowplot::theme_cowplot() +
+  scale_fill_manual(
+    values = okabe_cols
+  ) 
 ```
 ]
 .pull-right[
 ```{r echo=FALSE}
+# this is the order you want
 l <- c("2seater","minivan","pickup",
        "subcompact","midsize","compact","suv")
 
@@ -220,9 +243,12 @@ mpg %>%
   ggplot(aes(x = class, fill = class)) +
   geom_bar() +
   coord_flip() +
-  labs(x = " ", y = "Car count",
-       title = "Cars by type") +
-  theme(legend.position = "none")
+  labs(x = " ", y = "Car count", title = "Cars by type") +
+  cowplot::theme_cowplot() +
+  theme(legend.position = "none") +
+  scale_fill_manual(
+    values = okabe_cols
+  ) 
 ```
 ]
 

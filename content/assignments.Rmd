@@ -15,7 +15,11 @@ For example, if you have four unexcused absences and perfect participation, your
 
 # DataCamp Courses
 
-<span class="newthought">To reinforce programming concepts, </span> you will need to complete **four** DataCamp courses. Credit will either be granted for completion on time or no credit. These will be assigned on DataCamp and are intended to reinforce the programming assignments and material. **No partial credit will be granted or any late work accepted.**
+<span class="newthought">To reinforce programming concepts, </span> you will need to complete **four** DataCamp courses. Credit will either be granted for completion on time or no credit. These will be assigned on DataCamp and are intended to reinforce the programming assignments and material. 
+
+**No partial credit (only complete X chapters) will be granted.** You either completed the course or not.
+
+**50%** penalty 1 day late. Longer than 1 day will receive 0% credit. 
 
 All four DataCamp courses are available at the beginning of the course. Therefore, you can begin DataCamp courses before we cover the related material.
 
@@ -29,11 +33,15 @@ All four DataCamp courses are available at the beginning of the course. Therefor
 
 You may (and should!) work with one other person on the problem sets, but you **must** turn in your own answers. You cannot work in groups of more than **two** people, and you must note who you worked with on your assignment.
 
+**50%** penalty 1 day late. Longer than 1 day will receive 0% credit. 
+
 # Quizzes
 
 <span class="newthought">Quizzes</span> are intended to reinforce the lectures and course reading materials. Quizzes will be given out-of-class through Canvas. Each quiz will consist of ten (10) multiple choice questions for each quiz. Quizzes will be closed-book, i.e., you **cannot use any other resource** (no phones, laptops, books, etc.).
 
 I will try to review each quiz in the following class to provide feedback on each quiz. Your grades will be posted on Canvas.
+
+**No late submissions**. After the deadline, if you did not complete your quiz, you will receive a 0% grade. 
 
 # Design Contest / Mini-Project
 

@@ -71,11 +71,8 @@ For this DataCamp course, you’ll learn about doing exploratory data analysis, 
       
       <guid>https://dsba5122-fall2019.netlify.com/assignment/01-quiz/</guid>
       <description>Quiz 1 can be taken starting on September 10th.
-You will have one week to complete (that is, the quiz must be completed by 11:59pm on September 16, 2019).
-This quiz will consist of 10 multiple choice questions.
-You will have 15 minute to complete the quiz.
-Quiz 1 will cover:
-Slides from Week 1:   Friendly’s “Introduction to Visualization” (slides X, X, X, X, X, X, X, X)  Week 2:   Friendly’s: “Graphical Perception” (slides X, X, X, X, X, X, X, X)  Week 3:   Friendly’s: “Bertin to ggplot2” (slides X, X, X, X, X, X, X, X)  Required readings from:  Week 2:</description>
+You will have one week to complete the quiz (that is, the quiz must be completed by 5:59pm on September 16, 2019). Note this is not by midnight, but before the next class.
+This quiz will consist of 10 multiple choice questions. You will have 15 minute to complete the quiz. You may only take the quiz once. Grades will not be available until the completion date.</description>
     </item>
     
     <item>
@@ -85,7 +82,8 @@ Slides from Week 1:   Friendly’s “Introduction to Visualization” (slides X
       
       <guid>https://dsba5122-fall2019.netlify.com/assignment/01-problem-set/</guid>
       <description>To complete this task, you MUST submit your final folder (compressed as a zip file) through here to Canvas by 11:59pm on September 16, 2019. Each person needs to submit their own folder! So if you work in pairs, both individuals have to submit a folder.
-Task 0 Either use RStudio.Cloud or make sure you install R and RStudio and tidyverse first.Follow these instructions and install R, RStudio, and all the tidyverse packages.</description>
+Task 0 Either use RStudio.CloudIf you need help, see RStudio.Cloud’s primer or Primers like R Programming Basics or Working with Data.
+ or make sure you install R and RStudio and tidyverse first.</description>
     </item>
     
     <item>

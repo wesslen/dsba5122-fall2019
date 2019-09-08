@@ -58,6 +58,11 @@
   </url>
   
   <url>
+    <loc>https://dsba5122-fall2019.netlify.com/reading/04-reading/</loc>
+    <lastmod>2019-09-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://dsba5122-fall2019.netlify.com/assignment/02-datacamp/</loc>
     <lastmod>2019-09-09T00:00:00+00:00</lastmod>
   </url>
@@ -253,11 +258,6 @@
   </url>
   
   <url>
-    <loc>https://dsba5122-fall2019.netlify.com/reading/04-reading/</loc>
-    <lastmod>2019-02-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://dsba5122-fall2019.netlify.com/slides/03-class/</loc>
     <lastmod>2019-02-04T00:00:00+00:00</lastmod>
   </url>
@@ -343,7 +343,7 @@
   
   <url>
     <loc>https://dsba5122-fall2019.netlify.com/reading/</loc>
-    <lastmod>2019-09-09T00:00:00+00:00</lastmod>
+    <lastmod>2019-09-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

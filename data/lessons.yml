@@ -11,7 +11,7 @@ lessons:
     date: "August 19"
     assignment: "01-datacamp"
     
-  - title: "Visual Representation Basics I"
+  - title: "Visual Representations I"
     date: "August 26"
     reading: "02-reading"
     class: "02-class"
@@ -23,22 +23,22 @@ lessons:
   - title: "No class (Labor Day)"
     date: "September 2"
 
-  - title: "Visual Representation Basics II"
+  - title: "Visual Representations II"
     date: "September 9"
-    #reading: "03-reading"
-    #class: "03-class"
+    reading: "03-reading"
+    class: "03-class"
     
   - title: "**Quiz 1 (Due Sept 16)**"
     date: "September 9"
-    #assignment: "01-quiz"
+    assignment: "01-quiz"
     
-  - title: "**Datacamp course 2 (Due Sept 24)**"
+  - title: "*Datacamp course 2 (Due Sept 24)*"
     date: "September 9"
     assignment: "02-datacamp"
     
   - title: "Time & Space"
     date: "September 16"
-    #reading: "04-reading"
+    reading: "04-reading"
     #class: "04-class"
     
   - title: "**Problem set 2 (Due Sept 30)**"
@@ -58,7 +58,11 @@ lessons:
     #reading: "06-reading"
     #class: "06-class"
     
-  - title: "**Design Contest assigned (Due Oct 28)**"
+  - title: "**Quiz 2 (Due Oct 7)**"
+    date: "September 30"
+    #assignment: "02-quiz"
+    
+  - title: "Design Contest assigned (Due Oct 28)"
     date: "September 30"
     #assignment: "design-contest"
     
@@ -86,6 +90,10 @@ lessons:
   - title: "Design Contest Presentations"
     date: "October 28"
     #class: "09-class"
+    
+  - title: "**Quiz 3 (Due Nov 4)**"
+    date: "October 28"
+    #assignment: "03-quiz"
 
   - title: '<span class="fake-header-table">Building Shiny Apps</span>'
     header: True
@@ -121,6 +129,10 @@ lessons:
     date: "November 25"
     #reading: "13-reading"
     #class: "13-class"
+    
+  - title: "**Quiz 4 (Due Dec 2)**"
+    date: "November 25"
+    #assignment: "04-quiz"
 
   - title: "TBD"
     date: "December 2"

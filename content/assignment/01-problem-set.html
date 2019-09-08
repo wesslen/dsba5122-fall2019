@@ -11,11 +11,13 @@ editor_options:
 
 <p>To complete this task, you <strong>MUST</strong> submit your final folder (compressed as a zip file) through <a href="https://uncc.instructure.com/courses/110218/assignments/651583">here to Canvas</a> by 11:59pm on September 16, 2019. Each person needs to submit their own folder! So if you work in pairs, both individuals have to submit a folder.</p>
 <h2 id="task-0">Task 0</h2>
-<p>Either use RStudio.Cloud or make sure you install R and RStudio and <code>tidyverse</code> first.<span><label for="sn-1" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-1" class="margin-toggle"/><span class="sidenote">Follow <a href="/install/">these instructions</a> and install R, RStudio, and all the tidyverse packages. If you have any questions, send a message on the class’ Slack!<br />
+<p>Either use RStudio.Cloud<span><label for="sn-1" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-1" class="margin-toggle"/><span class="sidenote">If you need help, see RStudio.Cloud’s <a href="https://rstudio.cloud/learn/guide">primer</a> or Primers like <a href="https://rstudio.cloud/learn/primers/1.2">R Programming Basics</a> or <a href="https://rstudio.cloud/learn/primers">Working with Data</a>.<br />
+<br />
+</span></span> or make sure you install R and RStudio and <code>tidyverse</code> first.<span><label for="sn-2" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-2" class="margin-toggle"/><span class="sidenote">Follow <a href="/install/">these instructions</a> and install R, RStudio, and all the tidyverse packages. If you have any questions, send a message on the class’ Slack!<br />
 <br />
 </span></span></p>
 <p>Create a <a href="https://r4ds.had.co.nz/workflow-projects.html#rstudio-projects">new R project as a “New Directory” (folder)</a>. You should call your name project “problem-set-1-[yourlastname]”, where [yourlastname] is your last name.</p>
-<p>Within your new project folder, <a href="/files/problem-set-1/problem-set-1-yourlastname.Rmd">download this R Markdown file</a>.<span><label for="sn-2" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-2" class="margin-toggle"/><span class="sidenote">Your browser might show the file instead of downloading it. If that’s the case, you can copy/paste the code from the browser to RStudio. In RStudio, go to “File” &gt; “New” &gt; “New R Markdown…”, click “OK” with the default options, delete all the placeholder code/text in the new file, and paste the example code in the now-blank file.<br />
+<p>Within your new project folder, <a href="/files/problem-set-1/problem-set-1-yourlastname.Rmd">download this R Markdown file</a>.<span><label for="sn-3" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-3" class="margin-toggle"/><span class="sidenote">Your browser might show the file instead of downloading it. If that’s the case, you can copy/paste the code from the browser to RStudio. In RStudio, go to “File” &gt; “New” &gt; “New R Markdown…”, click “OK” with the default options, delete all the placeholder code/text in the new file, and paste the example code in the now-blank file.<br />
 <br />
 </span></span> It contains an outline/skeleton of what you’ll need to do in this problem set, and it includes lots of the code prewritten just for you!</p>
 <p>Next, you’ll need to download the csv file we’ll be working with. <a href="/files/problem-set-1/data/corrupt.csv">Click this link and “Save as”</a> and put it into a folder within your new project called “/data/”.</p>
@@ -25,7 +27,7 @@ editor_options:
   problem-set-1-yourlastname.Rproj
   data/
     corrupt.csv</code></pre>
-<p>Complete the two tasks below and type your answers in that downloaded file. When you’re done, knit the document as a html file with the “Knit” button at the top of the script editing pane.<span><label for="sn-3" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-3" class="margin-toggle"/><span class="sidenote"><img src="/images/assignment/knit-button.png" alt="Knit button" /><br />
+<p>Complete the two tasks below and type your answers in that downloaded file. When you’re done, knit the document as a html file with the “Knit” button at the top of the script editing pane.<span><label for="sn-4" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-4" class="margin-toggle"/><span class="sidenote"><img src="/images/assignment/knit-button.png" alt="Knit button" /><br />
 <br />
 </span></span></p>
 <h2 id="task-1-become-familiar-with-rstudio-and-rmarkdown">Task 1: Become familiar with RStudio and RMarkdown</h2>
@@ -37,17 +39,17 @@ editor_options:
 <li><a href="http://rmarkdown.rstudio.com/lesson-2.html">How it Works</a></li>
 <li><a href="http://rmarkdown.rstudio.com/lesson-3.html">Code Chunks</a></li>
 <li><a href="http://rmarkdown.rstudio.com/lesson-4.html">Inline Code</a></li>
-<li><a href="http://rmarkdown.rstudio.com/lesson-8.html">Markdown Basics</a><span><label for="sn-4" class="margin-toggle">&#8853;</label><input type="checkbox" id="sn-4" class="margin-toggle"/><span class="marginnote"> The <a href="https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf">R Markdown Reference Guide</a> is super useful here.<br />
+<li><a href="http://rmarkdown.rstudio.com/lesson-8.html">Markdown Basics</a><span><label for="sn-5" class="margin-toggle">&#8853;</label><input type="checkbox" id="sn-5" class="margin-toggle"/><span class="marginnote"> The <a href="https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf">R Markdown Reference Guide</a> is super useful here.<br />
 <br />
 </span></span></li>
 <li><a href="http://rmarkdown.rstudio.com/lesson-9.html">Output Formats</a></li>
 </ul>
-<p>Before doing these R Markdown tutorials, you’ll need to install a couple more R packages. Use RStudio’s “Packages” panel to install <code>rmarkdown</code> and <code>viridis</code>. Alternatively, paste these commands in the RStudio Console: <code>install.packages(&quot;rmarkdown&quot;)</code> and <code>install.packages(&quot;viridis&quot;)</code>.<span><label for="sn-5" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-5" class="margin-toggle"/><span class="sidenote">You can also type <code>install.packages(c(&quot;rmarkdown&quot;, &quot;viridis&quot;))</code> to install both at the same time.<br />
+<p>Before doing these R Markdown tutorials, you’ll need to install a couple more R packages. Use RStudio’s “Packages” panel to install <code>rmarkdown</code> and <code>viridis</code>. Alternatively, paste these commands in the RStudio Console: <code>install.packages(&quot;rmarkdown&quot;)</code> and <code>install.packages(&quot;viridis&quot;)</code>.<span><label for="sn-6" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-6" class="margin-toggle"/><span class="sidenote">You can also type <code>install.packages(c(&quot;rmarkdown&quot;, &quot;viridis&quot;))</code> to install both at the same time.<br />
 <br />
 </span></span></p>
-<p>Don’t worry if you don’t completely understand RMarkdown!<span><label for="sn-6" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-6" class="margin-toggle"/><span class="sidenote">See <a href="https://r4ds.had.co.nz/r-markdown.html">R4DS Chapter 27</a> if you need some help.<br />
+<p>Don’t worry if you don’t completely understand RMarkdown!<span><label for="sn-7" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-7" class="margin-toggle"/><span class="sidenote">See <a href="https://r4ds.had.co.nz/r-markdown.html">R4DS Chapter 27</a> if you need some help.<br />
 <br />
-</span></span> Try your hardest and play around with it.<span><label for="sn-7" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-7" class="margin-toggle"/><span class="sidenote">Also, (<strong>optional</strong>) if you want to convert R Markdown files to PDF instead of just Word or HTML, you’ll need to install LaTeX, which is a fancy scientific typesetting program. You don’t need to know how it works—it just has to be installed for R to use it. The easiest way to install it is with the <strong>tinytex</strong> R package. Run these two lines: <code>install.packages('tinytex')</code> then <code>tinytex::install_tinytex()</code><br />
+</span></span> Try your hardest and play around with it.<span><label for="sn-8" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-8" class="margin-toggle"/><span class="sidenote">Also, (<strong>optional</strong>) if you want to convert R Markdown files to PDF instead of just Word or HTML, you’ll need to install LaTeX, which is a fancy scientific typesetting program. You don’t need to know how it works—it just has to be installed for R to use it. The easiest way to install it is with the <strong>tinytex</strong> R package. Run these two lines: <code>install.packages('tinytex')</code> then <code>tinytex::install_tinytex()</code><br />
 <br />
 </span></span></p>
 <p>For this task, there are three questions you will need to answer. They can be answered in the .Rmd file within your project (“problem-set-1-yourlastname.Rmd”). Like the similar questions, write your answer where the “xxxxx” placeholders are.</p>

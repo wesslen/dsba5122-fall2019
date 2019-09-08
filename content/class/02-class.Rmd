@@ -1,5 +1,5 @@
 ---
-title: "Visual Representation Basics I"
+title: "Visual Representations I"
 date: "2019-08-26"
 citeproc: false
 bibliography: ../../static/bib/references.bib
@@ -19,13 +19,13 @@ editor_options:
 
 # Announcements
 
-1. Make sure your signed-up for RStudio, DataCamp, and Slack. See your emails for class links.
+1. Make sure you're signed-up for RStudio, DataCamp, and Slack. See your emails for class links -- you need to use email links to sign up, not the links on this course website!
 
-2. [DataCamp 1](../../assignment/01-datacamp.html) is due next by 11:59pm, Tuesday, Sept 3rd. Need to complete the entire course. No late submissions.
+2. [DataCamp 1](../../assignment/01-datacamp.html) is due next Tuesday, Sept 3rd by 11:59pm that night. You need to complete the entire course for credit. You do not need to submit anything by Canvas. I can see when you complete the entire course and will manually update your grade on Canvas. Per course syllabus, **50% credit** if late within 24 hours. **0% credit** if late after 24 hours.
 
-3. [Problem Set 1](../../assignment/01-problem-set.html) is delayed one week - now due Monday, Sept 9th. 
+3. [Problem Set 1](../../assignment/01-problem-set.html) is delayed one week - now due Monday, Sept 16th. Bring questions to next class Monday, Sept 9th (no class next week due to Labor Day).
 
-4. [DataCamp 3](../../assignment/03-datacamp.html) will change. DataCamp no longer offers Intro to Shiny. New instructions are posted on the page.
+4. [DataCamp 3](../../assignment/03-datacamp.html) changed. DataCamp no longer offers Intro to Shiny. New instructions are posted on the assignment page.
 
 5. A few **optional** DataCamp courses were provided. These are to help students who are brand new to R and data importing, cleaning, and manipulation. They will not be graded.
 

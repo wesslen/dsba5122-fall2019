@@ -89,16 +89,16 @@ sphere_shade() %&amp;gt;% add_shadow(ray_shade(elmat)) %&amp;gt;% plot_3d(elmat)
     </item>
     
     <item>
-      <title>Visual Representation Basics II</title>
+      <title>Visual Representations II</title>
       <link>https://dsba5122-fall2019.netlify.com/class/03-class/</link>
       <pubDate>Wed, 04 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-fall2019.netlify.com/class/03-class/</guid>
-      <description>Contents  Tweet of the Day Slides Lab 3: Make a plot (ggplot2) Links   Tweet of the Day 🌟 guide to visual encoding types from ???&#39;s “Visualization &amp;amp; Journalism” https://t.co/A2x96QYNoL #dataviz #infovis pic.twitter.com/2FIyXeWk4h — Mara Averick (@dataandme) October 17, 2018   Tamara Munzner is one of the most influential data visualization researchers. Her textbook “Visualization Analysis and Design” is one of the most popular data viz books and some of her former students are now leaders in data viz (e.</description>
+      <description>Contents  Tweet of the Day Announcements Slides Lab 3: Make a plot (ggplot2) Helpful Links   Tweet of the Day 🌟 guide to visual encoding types from ???&#39;s “Visualization &amp;amp; Journalism” https://t.co/A2x96QYNoL #dataviz #infovis pic.twitter.com/2FIyXeWk4h — Mara Averick (@dataandme) October 17, 2018   Tamara Munzner is one of the most influential data visualization researchers. Her textbook “Visualization Analysis and Design” is one of the most popular data viz books and some of her former students are now leaders in data viz (e.</description>
     </item>
     
     <item>
-      <title>Visual Representation Basics I</title>
+      <title>Visual Representations I</title>
       <link>https://dsba5122-fall2019.netlify.com/class/02-class/</link>
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
       

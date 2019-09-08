@@ -1,5 +1,5 @@
 ---
-title: "Visual Representation Basics II"
+title: "Visual Representations II"
 date: "2019-09-09"
 citeproc: false
 bibliography: ../../static/bib/references.bib
@@ -10,11 +10,15 @@ csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
 
 - <i class="fas fa-book"></i> [Chapter 3: Make a Plot](http://socviz.co/makeplot.html#makeplot) and [Chapter 4: Show the right numbers](http://socviz.co/groupfacettx.html) in Kieran Healy, *Data Visualization* [@Healy:2018]
 
+- <i class="fas fa-book"></i> [Chapter 5: Directory of Visualization ](https://serialmentor.com/dataviz/directory-of-visualizations.html) and [Chapter 6: Visualizing Amounts](https://serialmentor.com/dataviz/visualizing-amounts.html) in Claus Wilke, *Fundamentals of Data Visualization* [@Wilke:2018]
+
+- <i class="fas fa-external-link-square-alt"></i> [A Layered Grammar of Graphics](http://vita.had.co.nz/papers/layered-grammar.pdf) by Hadley Wickham
+
 # Recommended
 
-- <i class="fas fa-book"></i> [Chapter 5: Directory of visualizations](https://serialmentor.com/dataviz/directory-of-visualizations.html) and [Chapter 22: Image file formats](https://serialmentor.com/dataviz/image-file-formats.html) in Claus Wilke, *Fundamentals of Data Visualization* [@Wilke:2018]
-
 - <i class="fas fa-book"></i> [Chapter 7: Exploratory data analysis](https://r4ds.had.co.nz/exploratory-data-analysis.html) in Garrett Grolemund and Hadley Wickham, *R for Data Science* [@WickhamGrolemund:2017]
+
+- <i class="fas fa-book"></i> [Chapter 22: Image file formats](https://serialmentor.com/dataviz/image-file-formats.html) in Claus Wilke, *Fundamentals of Data Visualization* [@Wilke:2018]
 
 - <i class="fas fa-external-link-square-alt"></i> [How do we know when a visualization is good? Perspectives from a cognitive scientist](https://medium.com/multiple-views-visualization-research-explained/how-do-we-know-when-a-visualization-is-good-c894b5194b62) by Lace Padilla (Multiple Views Blog)
 

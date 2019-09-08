@@ -2,7 +2,7 @@
 title: "Quiz 1"
 date: "2019-09-09"
 due_date: "2019-09-16"
-due_time: "11:59 PM"
+due_time: "5:59 PM"
 editor_options: 
   chunk_output_type: console
 ---
@@ -14,46 +14,33 @@ library(tidyverse)
 
 Quiz 1 can be taken starting on September 10th. 
 
-You will have one week to complete (that is, the quiz must be completed by 11:59pm on September 16, 2019).
+You will have one week to complete the quiz (that is, the quiz must be completed by 5:59pm on September 16, 2019). Note this is not by midnight, but before the next class.
 
-This quiz will consist of 10 multiple choice questions. 
+This quiz will consist of 10 multiple choice questions. You will have 15 minute to complete the quiz. You may only take the quiz once. Grades will not be available until the completion date.
 
-You will have 15 minute to complete the quiz.
+You will be required to use in-browser locking to prevent you from having other materials open.
 
-Quiz 1 will cover:
+Per the syllabus, you are not allowed to use any resources (slides, notes, other people, etc.) when taking this quiz. By taking the quiz, you pledge **on your honor** that you did not use any unauthorized resource.
 
-### Slides from
+Quiz 1 will cover week 1 and 2 reading/lecture materials.
+
+### Slides:
 
 1. Week 1: 
 
-  * Friendly's ["Introduction to Visualization"](../../files/Overview-modified-rw.pdf) (slides X, X, X, X, X, X, X, X)
+  * Friendly's ["Introduction to Visualization"](../../files/Overview-modified-rw.pdf) (slides 7-13, 18-24, 40-45)^[Be sure to use slide #'s based on the pdf, not the bottom right! For Friendly's slides, I wasn't able to modify his bottom-right slide #'s.] 
 
 2. Week 2: 
 
-  * Friendly's: ["Graphical Perception"](../../files/Overview-modified-rw.pdf) (slides X, X, X, X, X, X, X, X)
+  * Friendly's: ["Graphical Perception"](../../files/Overview-modified-rw.pdf) (slides 2-3, 13-24, 27-31, 45-50)
+  
+Although we weren't able to cover it in class, you may also find ["Omayma Said’s Intro to the Tidyverse: Data Manipulation using dplyr"](https://speakerdeck.com/omaymas/data-manipulation-with-dplyr-first-steps) to be helpful in `dplyr`.
 
-3. Week 3: 
-
-  * Friendly's: ["Bertin to ggplot2"]() (slides X, X, X, X, X, X, X, X)
-
-### Required readings from:
+### Required readings:
 
 - Week 2: 
 
-  * R4DS: [Chapter 3: Data visualization](https://r4ds.had.co.nz/data-visualisation.html) 
+  * R4DS: [Chapter 3: Data visualization](https://r4ds.had.co.nz/data-visualisation.html) and [Chapter 5: Data transformation](https://r4ds.had.co.nz/transform.html)
   
-  * R4DS: [Chapter 5: Data transformation](https://r4ds.had.co.nz/transform.html)
+  * Wilke: [Chapter 2: Aesthetic mapping](https://serialmentor.com/dataviz/aesthetic-mapping.html), [Chapter 3: Coordinate systems and axes](https://serialmentor.com/dataviz/coordinate-systems-axes.html), [Chapter 4: Color scales](https://serialmentor.com/dataviz/color-basics.html) and [Chapter 19: Common pitfalls of color use](https://serialmentor.com/dataviz/color-pitfalls.html) 
   
-  * Wilke: [Chapter 2: Aesthetic mapping](https://serialmentor.com/dataviz/aesthetic-mapping.html)
-  
-  * Wilke: [Chapter 3: Coordinate systems and axes](https://serialmentor.com/dataviz/coordinate-systems-axes.html)
-  
-  * Wilke: [Chapter 4: Color scales](https://serialmentor.com/dataviz/color-basics.html)
-  
-  * Wilke: [Chapter 19: Common pitfalls of color use](https://serialmentor.com/dataviz/color-pitfalls.html) 
-
-- Week 3: 
-
-  * Healy: [Chapter 3: Make a Plot](http://socviz.co/makeplot.html#makeplot)
-  
-  * Healy: [Chapter 4: Show the right numbers](http://socviz.co/groupfacettx.html) 

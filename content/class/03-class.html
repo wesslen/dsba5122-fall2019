@@ -1,5 +1,5 @@
 ---
-title: "Visual Representation Basics II"
+title: "Visual Representations II"
 date: "2019-09-04"
 citeproc: false
 bibliography: ../../static/bib/references.bib
@@ -19,14 +19,15 @@ editor_options:
 <div id="TOC">
 <ul>
 <li><a href="#tweet-of-the-day">Tweet of the Day</a></li>
+<li><a href="#announcements">Announcements</a></li>
 <li><a href="#slides">Slides</a></li>
 <li><a href="#lab-3-make-a-plot-ggplot2">Lab 3: Make a plot (ggplot2)</a></li>
-<li><a href="#links">Links</a></li>
+<li><a href="#helpful-links">Helpful Links</a></li>
 </ul>
 </div>
 
 <h2 id="tweet-of-the-day">Tweet of the Day</h2>
-<blockquote class="twitter-tweet" data-lang="en">
+<blockquote class="twitter-tweet">
 <p lang="en" dir="ltr">
 🌟 guide to visual encoding types from <a href="https://twitter.com/tamaramunzner?ref_src=twsrc%5Etfw"><span class="citation"><span class="citeproc-not-found" data-reference-id="tamaramunzner"><strong>???</strong></span></span></a>'s “Visualization &amp; Journalism” <a href="https://t.co/A2x96QYNoL">https://t.co/A2x96QYNoL</a> <a href="https://twitter.com/hashtag/dataviz?src=hash&amp;ref_src=twsrc%5Etfw">#dataviz</a> <a href="https://twitter.com/hashtag/infovis?src=hash&amp;ref_src=twsrc%5Etfw">#infovis</a> <a href="https://t.co/2FIyXeWk4h">pic.twitter.com/2FIyXeWk4h</a>
 </p>
@@ -38,14 +39,29 @@ editor_options:
 </span></span> ,<span><label for="sn-2" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-2" class="margin-toggle"/><span class="sidenote"><a href="https://twitter.com/dataandme">Mara Averick</a> is RStudio’s <code>tidyverse</code> developer advocate, which essentially means she’s one of the most influential champions of all things <code>tidyverse</code>. She is an absolute <a href="https://twitter.com/edwin_thoen/status/901740217987719170">must-follow on Twitter</a> and noted “data sciolist” who excels at commmunicating the technical issues of <code>tidyverse</code> in a non-technical way, e.g., <a href="https://www.rstudio.com/resources/videos/phrasing-communicating-data-science-through-tweets-gifs-and-classic-misdirection/">her 2018 RStudio::conf talk</a>. <br />
 <br />
 </span></span></p>
+<h2 id="announcements">Announcements</h2>
+<ol style="list-style-type: decimal">
+<li><p><a href="../../assignment/01-problem-set.html">Problem Set 1</a> is due Monday, Sept 16th. You will need to submit your zip file (of your RStudio Project) on Canvas by 11:59pm next Monday, Sept 16. Recall 50% penalty 24 hours late, 0% credit 24+ hours late.<span><label for="sn-3" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-3" class="margin-toggle"/><span class="sidenote">Read Healy’s <a href="http://socviz.co/gettingstarted.html#work-in-plain-text-using-rmarkdown">Chapter 1</a> if you’re having problems learning RMarkdown/basics of R or his <a href="http://socviz.co/appendix.html#managing-projects-and-files">Appendix chapter</a> if you’re having problems with RStudio projects.<br />
+<br />
+</span></span></p></li>
+<li><p><a href="../../assignment/01-quiz.html">Quiz 1</a> will be available 11:59pm, Monday Sept 9th. It is an online (Canvas), take home quiz. Please carefully read the instructions. It must be completed <strong>before class on Monday, Sept 16 (5:59pm)</strong>. There are no makeups or quizzes that can be turned in late (if you don’t complete it in time, you get 0% credit).<span><label for="sn-4" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-4" class="margin-toggle"/><span class="sidenote">One way to prepare for the quiz is use DataCamp’s Practice mode for DataCamp 1: Intro to tidyverse. You can either connect via a browser or download <a href="https://www.datacamp.com/mobile/">DataCamp’s mobile app</a>.<br />
+<br />
+</span></span></p></li>
+<li><p><a href="../../assignment/02-datacamp.html">DataCamp 2</a> is due Tuesday, Sept 24th by 11:59pm that night. Same policies as DataCamp 1.</p></li>
+<li><p>Reminder that there are a few <strong>optional</strong> DataCamp courses. These are to help students who are brand new to R and data importing, cleaning, and manipulation. They will not be graded.</p></li>
+</ol>
 <h2 id="slides">Slides</h2>
-<p><a href="../../slides/03-class.html#1">full screen</a> / <a href="https://github.com/wesslen/dsba5122-spring2019/raw/master/public/files/dsba5122-spring2019-03-class.pdf">pdf version</a></p>
-<iframe src="../../slides/03-class.html#1" width="672" height="400px">
+<ol style="list-style-type: decimal">
+<li>Michael Friendly’s Psych 6135: Psychology of Data Visualization <a href="../../files/LanguageOfGraphics-rw.pdf">Language of Graphics: Bertin to GoG to <code>ggplot2</code></a><span><label for="sn-5" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-5" class="margin-toggle"/><span class="sidenote">These slides were modified for this class.<br />
+<br />
+</span></span></li>
+</ol>
+<iframe src="../../files/LanguageOfGraphics-rw.pdf" width="672" height="400px">
 </iframe>
-<ul>
+<ol start="2" style="list-style-type: decimal">
 <li>Garrick Aden Buie’s <a href="https://pkg.garrickadenbuie.com/gentle-ggplot2">A Gentle Guide to the Grammar of Graphics
 with ggplot2</a></li>
-</ul>
+</ol>
 <iframe src="https://pkg.garrickadenbuie.com/gentle-ggplot2" width="672" height="400px">
 </iframe>
 <h2 id="lab-3-make-a-plot-ggplot2">Lab 3: Make a plot (ggplot2)</h2>
@@ -53,11 +69,13 @@ with ggplot2</a></li>
 <li><p>Go to our <a href="https://rstudio.cloud/spaces/22733/project/160035">healy-dataviz</a> project and open “03_make_a_plot.Rmd”.</p></li>
 <li><p>This covers <a href="http://socviz.co/makeplot.html#makeplot">Chapter 3: Make a Plot</a> in Healy.</p></li>
 </ul>
-<h2 id="links">Links</h2>
+<h2 id="helpful-links">Helpful Links</h2>
 <ul>
 <li><p><a href="https://ggplot2.tidyverse.org/articles/ggplot2-specs.html">Aesthetics specifications for <code>ggplot2</code></a></p></li>
 <li><p>Jenny Bryan’s <a href="https://github.com/jennybc/ggplot2-tutorial">ggplot2 tutorial GitHub</a> / <a href="https://speakerdeck.com/jennybc/ggplot2-tutorial">slides</a></p></li>
 <li><p>Allison Hill’s <a href="https://alison.netlify.com/uo-tidy-bakeoff/">Data Visualization in the Tidyverse The Great Tidy Plot Off</a></p></li>
 </ul>
-<p><a href="https://github.com/dreamRs/esquisse">esquisse</a></p>
-<p><img src="https://raw.githubusercontent.com/wesslen/dsba5122-spring2019/master/static/images/class/esquisse.gif" /></p>
+<p><a href="https://github.com/dreamRs/esquisse">esquisse</a><span><label for="sn-6" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-6" class="margin-toggle"/><span class="sidenote"><code>esquisse</code> is a helpful way to learn <code>ggplot2</code>. You can install it like a normal R CRAN package. I <strong>highly recommend</strong> it if you need help.<br />
+<br />
+</span></span></p>
+<p><img src="https://raw.githubusercontent.com/wesslen/dsba5122-fall2019/master/static/images/class/esquisse.gif" /></p>
