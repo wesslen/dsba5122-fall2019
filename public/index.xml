@@ -120,15 +120,25 @@ Watch a 2.5 hour introduction to Shiny training video.
     </item>
     
     <item>
+      <title>Problem set 2</title>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/02-problem-set/</link>
+      <pubDate>Mon, 16 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/02-problem-set/</guid>
+      <description>Task 0: Getting started Create a new RStudio project somewhere on your computer.&amp;#8853;Remember, in RStudio, “File &amp;gt; New Project ..”)
+ Open that new folder in Windows Explorer or macOS Finder (however you navigate around the files on your computer), and create a subfolder there named data.
+Download the file below and place it in your new data/ folder.&amp;#8853;You’ll probably need to right click on each and choose “Save link as…”.</description>
+    </item>
+    
+    <item>
       <title>Time &amp; Space</title>
       <link>https://dsba5122-fall2019.netlify.com/class/04-class/</link>
-      <pubDate>Wed, 18 Sep 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 16 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-fall2019.netlify.com/class/04-class/</guid>
-      <description>Contents  Tweet of the day Slides Links Lab 4: gganimate Optional (likely won’t have time):    Tweet of the day 👌 Dead-simple 3D surface plotting in the next version of rayshader! Apply your hillshade (or any image) to a 3D surface map. Video preview with rayshader&#39;s built-in palettes. #rstats
-Code:
-elmat %&amp;gt;%
-sphere_shade() %&amp;gt;% add_shadow(ray_shade(elmat)) %&amp;gt;% plot_3d(elmat) pic.twitter.com/FCKQ9OSKpj — Tyler Morgan-Wall (@tylermorganwall) July 2, 2018   Slides full screen / pdf version</description>
+      <description>Contents  Announcements Tweet of the day Lab 4: Ch. 5 and Ch. 7 of Healy Slides Links: For deeper dives into time/spatial data   Announcements Problem Set 1 is due tonight by 11:59pm Monday, Sept 16th. 50% penalty if turned in within 24 hours of deadline. 0% credit if turned in 24+ hours of deadline.
+ Quiz 1 has closed. We will review answers in class.
+ DataCamp 2 is due by 11:59pm Tuesday, Sept 24th.</description>
     </item>
     
     <item>
@@ -167,6 +177,16 @@ For this DataCamp course, you’ll learn about doing exploratory data analysis, 
     
     <item>
       <title>Visual Representations II</title>
+      <link>https://dsba5122-fall2019.netlify.com/class/03-class/</link>
+      <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-fall2019.netlify.com/class/03-class/</guid>
+      <description>Contents  Tweet of the Day Announcements Slides Lab 3: Make a plot (ggplot2) Helpful Links   Tweet of the Day 🌟 guide to visual encoding types from @tamaramunzner&amp;#39;s &amp;quot;Visualization &amp;amp; Journalism&amp;quot; https://t.co/A2x96QYNoL #dataviz #infovis pic.twitter.com/2FIyXeWk4h
+&amp;mdash; Mara Averick (@dataandme) October 17, 2018  Tamara Munzner is one of the most influential data visualization researchers. Her textbook “Visualization Analysis and Design” is one of the most popular data viz books and some of her former students are now leaders in data viz (e.</description>
+    </item>
+    
+    <item>
+      <title>Visual Representations II</title>
       <link>https://dsba5122-fall2019.netlify.com/reading/03-reading/</link>
       <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
       
@@ -176,16 +196,6 @@ For this DataCamp course, you’ll learn about doing exploratory data analysis, 
   Chapter 5: Directory of Visualization and Chapter 6: Visualizing Amounts in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
 
   A Layered Grammar of Graphics by Hadley Wickham</description>
-    </item>
-    
-    <item>
-      <title>Visual Representations II</title>
-      <link>https://dsba5122-fall2019.netlify.com/class/03-class/</link>
-      <pubDate>Wed, 04 Sep 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-fall2019.netlify.com/class/03-class/</guid>
-      <description>Contents  Tweet of the Day Announcements Slides Lab 3: Make a plot (ggplot2) Helpful Links   Tweet of the Day 🌟 guide to visual encoding types from @tamaramunzner&amp;#39;s &amp;quot;Visualization &amp;amp; Journalism&amp;quot; https://t.co/A2x96QYNoL #dataviz #infovis pic.twitter.com/2FIyXeWk4h
-&amp;mdash; Mara Averick (@dataandme) October 17, 2018  About Tamara and Mara:Tamara Munzner is one of the most influential data visualization researchers. Her textbook “Visualization Analysis and Design” is one of the most popular data viz books and some of her former students are now leaders in data viz (e.</description>
     </item>
     
     <item>
@@ -539,20 +549,9 @@ class: middle, center, inverse
       <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-fall2019.netlify.com/reading/05-reading/</guid>
-      <description>Required   Chapters 7 and 11 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
-
-  Chapter 7: Histograms and density plots, Chapter 8: Empirical cumulative distribution functions, Chapter 9: Visualizing many distributions at once and Chapter 16: Visualizing uncertanity in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.</description>
-    </item>
-    
-    <item>
-      <title>Problem set 2</title>
-      <link>https://dsba5122-fall2019.netlify.com/assignment/02-problem-set/</link>
-      <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-fall2019.netlify.com/assignment/02-problem-set/</guid>
-      <description>Task 0: Getting started Create a new RStudio project somewhere on your computer.&amp;#8853;Remember, in RStudio, “File &amp;gt; New Project ..”)
- Open that new folder in Windows Explorer or macOS Finder (however you navigate around the files on your computer), and create a subfolder there named data.
-Download the file below and place it in your new data/ folder.&amp;#8853;You’ll probably need to right click on each and choose “Save link as…”.</description>
+      <description>Required   Chapter 7: Histograms and density plots, Chapter 8: Empirical cumulative distribution functions, Chapter 9: Visualizing many distributions at once and Chapter 16: Visualizing uncertainty in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
+  Recommended   Why It’s So Hard for Us to Visualize Uncertainty
+  Showing uncertainty during the live election forecast &amp;amp; Trolling the uncertainty dial&amp;#8853;Figure 2 from Ivelina Momcheva and Erik Tollerud, “Software Use in Astronomy: An Informal Survey,” July 14, 2015, https://arxiv.</description>
     </item>
     
     <item>
@@ -677,7 +676,7 @@ RStudio.cloud R is free, but it can sometimes be a pain to install and configure
       
       <guid>https://dsba5122-fall2019.netlify.com/schedule/</guid>
       <description> Here’s your roadmap for the semester!
-  Readings should be completed before each class session  Assignments are due by 11:59 PM on the day they are due  Class materials (slides, in-class activities, etc.) will be added on the day of class     Information Visualization Reading Assignment Class   August 19 Class 1: Intro to Visual Analytics      August 19 Datacamp course 1 (Due Sept 3)      August 26 Class 2: Visual Representations I      August 26 Problem set 1 (Due Sept 16)      September 2 No class (Labor Day)      September 9 Class 3: Visual Representations II      September 9 Quiz 1 (Due Sept 16)      September 9 Datacamp course 2 (Due Sept 24)      September 16 Class 4: Time &amp;amp; Space      September 16 Problem set 2 (Due Sept 30)      September 23 Class 5: Distributions &amp;amp; Uncertainty       Interactive Visualizations Reading Assignment Class   September 30 Class 6: Statistical Models      September 30 Quiz 2 (Due Oct 7)      September 30 Design Contest assigned (Due Oct 28)      September 30 Datacamp course 3 (Due Oct 22)      October 7 Class 7: Multidimensional Data      October 14 No class (Fall Break)      October 21 Class 8: Networks and Trees      October 21 Problem set 3 (Due Nov 4)      October 28 Class 9: Design Contest Presentations      October 28 Quiz 3 (Due Nov 4)       Building Shiny Apps Reading Assignment Class   November 4 Class 10: Intro to Shiny      November 4 Final project assigned (Due Dec 9)      November 4 Datacamp course 4 (Due Nov 19)      November 11 Class 11: Interacting &amp;amp; Brushing      November 11 Problem set 4 (Due Nov 25)      November 18 Class 12: Shiny in Production      November 25 Class 13: Human Factors      November 25 Quiz 4 (Due Dec 2)      December 2 Class 14: TBD       Final Reading Assignment Class   December 9 Final project due       </description>
+  Readings should be completed before each class session  Assignments are due by 11:59 PM on the day they are due  Class materials (slides, in-class activities, etc.) will be added on the day of class     Information Visualization Reading Assignment Class   August 19 Class 1: Intro to Visual Analytics      August 19 Datacamp course 1 (Due Sept 3)      August 26 Class 2: Visual Representations I      August 26 Problem set 1 (Due Sept 16)      September 2 No class (Labor Day)      September 9 Class 3: Visual Representations II      September 9 Quiz 1 (Due Sept 16)      September 9 Datacamp course 2 (Due Sept 24)      September 16 Class 4: Time &amp;amp; Space      September 16 Problem set 2 (Due Oct 7)      September 23 Class 5: Distributions &amp;amp; Uncertainty       Interactive Visualizations Reading Assignment Class   September 30 Class 6: Statistical Models      September 30 Quiz 2 (Due Oct 14)      September 30 Design Contest assigned (Due Oct 28)      September 30 Datacamp course 3 (Due Oct 22)      October 7 No class (Fall Break)      October 14 Class 7: Multidimensional Data      October 21 Class 8: Networks and Trees      October 21 Problem set 3 (Due Nov 4)      October 28 Class 9: Design Contest Presentations      October 28 Quiz 3 (Due Nov 4)       Building Shiny Apps Reading Assignment Class   November 4 Class 10: Intro to Shiny      November 4 Final project assigned (Due Dec 9)      November 4 Datacamp course 4 (Due Nov 19)      November 11 Class 11: Interacting &amp;amp; Brushing      November 11 Problem set 4 (Due Nov 25)      November 18 Class 12: Shiny in Production      November 25 Class 13: Human Factors      November 25 Quiz 4 (Due Dec 2)      December 2 Class 14: TBD       Final Reading Assignment Class   December 9 Final project due       </description>
     </item>
     
     <item>

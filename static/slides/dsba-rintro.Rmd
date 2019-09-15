@@ -2,17 +2,25 @@
 title: "DSBA 5122: Visual Analytics"
 subtitle: "Why R (and RStudio)?"  
 author: "Ryan Wesslen"
-date: 'January 28, 2019'
+date: 'September 9, 2019'
 citeproc: false
 bibliography: ../../10bib/references.bib
 csl: ../../10bib/chicago-syllabus-no-bib.csl
 output:
   xaringan::moon_reader:
+    lib_dir: libs
+    css: [xaringan-themer.css,custom.css]
+    chakra: libs/remark-latest.min.js
     nature: 
       beforeInit: "https://platform.twitter.com/widgets.js"
-    lib_dir: libs
-    css: xaringan-themer.css
-    chakra: libs/remark-latest.min.js
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>`
 ---
 
 ```{r setup, include=FALSE}
@@ -21,15 +29,74 @@ library(xaringanthemer); library(tidyverse)
 mono_light(
   base_color = "#046A38",
   white_color = "#ffffff",
-  text_font_size = "28px",
-  header_h1_font_size = "40px",
-  header_h2_font_size = "35px", 
-  header_h3_font_size = "30px",
-  code_font_size = "14px",
+  text_font_size = "24px",
+  header_h1_font_size = "36px",
+  header_h2_font_size = "26px", 
+  header_h3_font_size = "22px",
+  code_font_size = "11px",
   header_font_google = google_font("Josefin Sans"),
   text_font_google   = google_font("Montserrat", "300", "300i"),
   code_font_google   = google_font("Droid Mono")
 )
+
+#  display: block;
+#  margin-left: auto;
+#  margin-right: auto;
+
+extra_css <- list(
+  ".verysmall" = list(
+    "font-size" = "80%"
+  ),
+  ".center2" = list(
+    "margin" = "auto",
+    "top" = "30%",
+    "width" = "110%"
+  ),
+  ".sbig .remark-code" = list(
+    "font-size" = "60%"
+  ),
+  ".big .remark-code" = list(
+    "font-size" = "75%"
+  ),
+  ".little .remark-code" = list(
+    "font-size" = "40%"
+  ),
+  ".center3" = list(
+    "margin" = "0",
+    "top" = "20%",
+    "width" = "90%"
+  ),
+  ".full-width" = list(
+    "display" = "flex",
+    "width"   = "100%",
+    "flex"    = "1 1 auto"
+  ),
+  ".right-column2" = list(
+    "width" = "60%",
+    "float" = "right",
+    "padding-top" = "1em"
+  ),
+  ".bg-text" = list(
+    "position" = "absolute",
+    "top" = "50%",
+    "left" = "10%",
+    "text-align" = "left"
+  ),
+  ".remark-slide-content:after" = list(
+    "content" = "'u.go/ryan-viz'",
+    "position" = "absolute",
+    "bottom" = "5px",
+    "right" = "10px",
+    "height" = "40px",
+    "width" = "250px"
+  ),
+  ".remark-slide-number" = list(
+    "color" = "#FFFFFF", 
+    "opacity" = "1" 
+  )
+)
+
+write_extra_css(css = extra_css, outfile = "xaringan-themer.css")
 ```
 
 class: center, middle
@@ -60,7 +127,25 @@ It's free, as in ... free beer?
 
 ---
 
-# 2. Why R / RStudio?
+# 2. Hanging with the big kids.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Well then. Another take on programming language popularity just published by IEEE Spectrum has <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> at 5, edging out JavaScript. <a href="https://t.co/aH2nZSdf2i">https://t.co/aH2nZSdf2i</a> an incredible result for a DSL.</p>&mdash; Miles McBain (@MilesMcBain) <a href="https://twitter.com/MilesMcBain/status/1170536600113049600?ref_src=twsrc%5Etfw">September 8, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+---
+
+# 3. R open source community makes it fun!
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Did you know <a href="https://twitter.com/hashtag/rayshader?src=hash&amp;ref_src=twsrc%5Etfw">#rayshader</a> comes with a function that can detect bodies of water directly from the elevation data? `detect_water()` looks for large contiguous flat regions of a user-defined minimum size and &quot;flatness.&quot; Use `add_water()` to layer it on the map. <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> <a href="https://t.co/kBEltc98OH">pic.twitter.com/kBEltc98OH</a></p>&mdash; Tyler Morgan-Wall (@tylermorganwall) <a href="https://twitter.com/tylermorganwall/status/1166338131257438210?ref_src=twsrc%5Etfw">August 27, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+---
+
+# 3. R open source community makes it fun!
+
+<blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr">And here&#39;s a gist showing how to make the above &quot;jumping River Derwent&quot; visualization:<a href="https://t.co/jerTnLn1W6">https://t.co/jerTnLn1W6</a></p>&mdash; Tyler Morgan-Wall (@tylermorganwall) <a href="https://twitter.com/tylermorganwall/status/1166342757952237568?ref_src=twsrc%5Etfw">August 27, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+---
+
+# 4. Why R / RStudio?
 
 <blockquote class="twitter-tweet tw-align-center" width="50%" data-lang="en"><p lang="en" dir="ltr">well this R=Batman, Python=Superman apparently showed up in a vendor pitch to one of my colleagues. That must make it official. <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> <a href="https://twitter.com/hashtag/python?src=hash&amp;ref_src=twsrc%5Etfw">#python</a> <a href="https://t.co/pkKGB8EOHj">pic.twitter.com/pkKGB8EOHj</a></p>&mdash; JD Long (@CMastication) <a href="https://twitter.com/CMastication/status/1037486624500854784?ref_src=twsrc%5Etfw">September 5, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -107,77 +192,18 @@ knitr::include_graphics("../../images/slides/dsba-rintro/r6.png")
 knitr::include_graphics("../../images/slides/dsba-rintro/r7.png")
 ```
 
+
 ---
 
-# 3. Why R / RStudio?
+class: inverse, middle, center
 
-The [`#rstats`](https://twitter.com/search?q=%23rstats) community (h/t [`@hrbrmstr`](https://rud.is/books/21-recipes/visualizing-a-graph-of-retweet-relationships.html))
+# R / RStudio to the rescue
 
-```{r eval=FALSE}
-library(rtweet)
-library(igraph)
-library(ggraph)
-library(tidyverse)
-
-rt_g <- search_tweets("#rstats", n=3200) %>%    # twitter api
-  filter(retweet_count > 0) %>%                 # keep tweets with RT's
-  select(screen_name, mentions_screen_name) %>% # select column from/to
-  unnest(mentions_screen_name) %>%              # unnest json
-  filter(!is.na(mentions_screen_name)) %>%      # include mentions
-  graph_from_data_frame()                       # convert to ggraph format
+```{r out.width = "500px", fig.align="center", echo=FALSE}
+knitr::include_graphics("../../images/slides/dsba-rintro/welcome_to_rstats_twitter.png")
 ```
 
----
-
-# 3. Why R / RStudio?
-
-The [`#rstats`](https://twitter.com/search?q=%23rstats) community (h/t [`@hrbrmstr`](https://rud.is/books/21-recipes/visualizing-a-graph-of-retweet-relationships.html))
-
-```{r eval=FALSE}
-# ggplot inspired networks: ggraph
-ggraph(rt_g, layout = 'linear', circular = TRUE) + 
-  geom_edge_arc(edge_width=0.125, aes(alpha=..index..)) +
-  geom_node_label(aes(label=node_label, size=node_size),
-                  label.size=0, fill="#ffffff66", segment.colour="springgreen",
-                  color="slateblue", repel=TRUE, fontface="bold") +
-  coord_fixed() +
-  scale_size_area(trans="sqrt") +
-  labs(title="Retweet Relationships", 
-       subtitle= subt) +
-  theme_graph() +
-  theme(legend.position="none")
-```
-
----
-
-class: middle, center
-
-```{r echo=FALSE}
-knitr::include_graphics("../../images/slides/dsba-rintro/r9.png")
-```
-
----
-# And it's just fun!
-
-<blockquote class="twitter-tweet tw-align-center" width="45%" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">I can and it&#39;s HORRIFYING😬😬😬😬 <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> <a href="https://t.co/aMQiwva7fr">pic.twitter.com/aMQiwva7fr</a></p>&mdash; Tyler Morgan-Wall (@tylermorganwall) <a href="https://twitter.com/tylermorganwall/status/1088978382195437568?ref_src=twsrc%5Etfw">January 26, 2019</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
----
-
-class: middle
-
-<blockquote class="twitter-tweet tw-align-center" data-conversation="none" data-lang="en"><p lang="und" dir="ltr"> <a href="https://t.co/BhS5yaeMbk">pic.twitter.com/BhS5yaeMbk</a></p>&mdash; David Schoppik (@schoppik) <a href="https://twitter.com/schoppik/status/1088983406220886016?ref_src=twsrc%5Etfw">January 26, 2019</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
----
-
-class: middle, center
-
-# tidyverse
-
-```{r echo=FALSE, out.width = '60%'}
-knitr::include_graphics("../../images/slides/dsba-rintro/r8.png")
-```
+Artwork by @allison_horst
 
 ---
 
@@ -251,83 +277,633 @@ knitr::include_graphics("../../images/slides/dsba-rintro/r17.png")
 
 ---
 
-# Data science workflow
+# RStudio Visualization Ecosystem
 
-```{r echo=FALSE, out.width = '100%'}
-knitr::include_graphics("../../images/slides/dsba-rintro/r18.png")
+.left-column[
+
+# **`tidyverse`**
+
+]
+
+.right-column2[
+
+```{r fig.align="center", echo=FALSE}
+knitr::include_graphics("../../images/slides/dsba-rintro/tidy.png")
+```
+
+[tidyverse.org](https://www.tidyverse.org/)
+
+]
+
+---
+
+# RStudio Visualization Ecosystem
+
+.left-column[
+
+# `tidyverse`
+
+# **`rmarkdown`**
+
+]
+
+.right-column2[
+
+Analyze. Share. Reproduce.
+
+```{r out.width = "350px", fig.align="center", echo=FALSE}
+knitr::include_graphics("../../images/slides/dsba-rintro/rmarkdown.png")
+```
+
+[rmarkdown.rstudio.com](https://rmarkdown.rstudio.com/)
+]
+---
+
+# RStudio Visualization Ecosystem
+
+.left-column[
+
+# `tidyverse`
+
+# `rmarkdown`
+
+# **`htmlwidgets`**
+]
+
+.right-column2[
+JavaScript libraries as R packages! [htmlwidgets.org](http://www.htmlwidgets.org/)
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(networkD3)
+data(MisLinks, MisNodes)
+forceNetwork(Links = MisLinks, Nodes = MisNodes, Source = "source",
+             Target = "target", Value = "value", NodeID = "name",
+             Group = "group", opacity = 0.9)
+```
+]
+---
+
+# RStudio Visualization Ecosystem
+
+.left-column[
+
+# `tidyverse`
+
+# `rmarkdown`
+
+# `htmlwidgets`
+
+# **`shiny`**
+
+]
+
+.right-column2[
+
+![](../../images/slides/dsba-rintro/shiny-intro.png)
+
+[shiny.rstudio.com/](https://shiny.rstudio.com/)
+
+]
+
+---
+
+# RStudio Visualization Ecosystem
+
+.left-column[
+
+# `tidyverse`
+
+# `rmarkdown`
+
+# `htmlwidgets`
+
+# `shiny`
+
+# **`r2d3`**
+
+]
+
+.right-column2[
+
+```{r out.width = "450px", fig.align="center", echo=FALSE}
+knitr::include_graphics("../../images/slides/dsba-rintro/d3.png")
+```
+
+[d3js.org](https://d3js.org/) and [r2d3 package](https://rstudio.github.io/r2d3/)
+]
+
+---
+
+# tidyverse: Data science process <img src="https://www.rstudio.com/wp-content/uploads/2014/04/tidyverse.png" width="70px" align="right" />
+
+```{r out.width = "800px", fig.align="center", echo=FALSE}
+knitr::include_graphics("../../images/slides/dsba-rintro/tidyverse.png")
 ```
 
 ---
 
-# tidy data
+# tidyverse: dplyr + piping <img src="https://www.rstudio.com/wp-content/uploads/2014/04/readr.png" width="70px" align="right" />
 
-```{r echo=FALSE, out.width = '100%'}
-knitr::include_graphics("../../images/slides/dsba-rintro/r19.png")
-```
+US Unemployment rate
 
-> “Tidy datasets are all alike but every messy dataset is messy in its own way.” – Hadley Wickham
-
----
-
-# tidy data: "pivoting"
-
-```{r echo=FALSE, out.width = '100%'}
-knitr::include_graphics("../../images/slides/dsba-rintro/r20.png")
-```
-
----
-
-# Core packages: dplyr, ggplot2, piping
-
-```{r echo=FALSE, out.width = '90%', fig.align='center'}
-knitr::include_graphics("../../images/slides/dsba-rintro/r21.png")
-```
----
-
-# Core packages: dplyr, ggplot2, piping
-
-```{r echo=FALSE, out.width = '90%', fig.align='center'}
-knitr::include_graphics("../../images/slides/dsba-rintro/r22.png")
-```
-
----
-
-# Core packages: dplyr, ggplot2, piping
-
-What are the top 3 most popular years for males born "Taylor"?
-
+.big[
 ```{r message=FALSE, warning=FALSE, echo=TRUE}
-# Load the data
-library(babynames)
-data(babynames)
+library(tidyverse)
+
+# read in using readr's read_csv function
+df <- read_csv("dsba-rintro_files/us-unemployment.csv", 
+    col_types = cols(
+      date = col_date(),            # read in as date
+      unemployment = col_double()   # read in as double
+    )
+  ) 
+
+# view the data via dplyr's glimpse
+glimpse(df)
 ```
+]
+
+---
+
+# tidyverse: dplyr + piping <img src="https://www.rstudio.com/wp-content/uploads/2014/04/dplyr.png" width="70px" align="right" />
+
+What are the years with the hightest unemployment rate in December?
+
+.big[
+```{r warning = FALSE, message = FALSE}
+library(lubridate) # non-standard tidyverse for dates/times
+
+df %>%           
+  mutate(month = month(date)) %>% # create new column for month
+  filter(month == 12) %>%         # filter for only December values
+  arrange(desc(unemployment)) %>% # order by unemployment rate
+  head(n = 6)                     # show top five
+```
+]
+
+---
+
+# tidyverse: dplyr + piping + ggplot2 <img src="https://www.rstudio.com/wp-content/uploads/2014/04/ggplot2.png" width="70px" align="right" />
+
+```{r eval=FALSE}
+df %>%
+  ggplot(aes(x = date, y = unemployment)) +
+  geom_line() +
+  coord_cartesian(ylim = c(0, .11), expand = FALSE),
+  scale_y_continuous(labels = scales::percent) +
+  labs(x = NULL, y = NULL, subtitle = "US unemployment over time")
+```
+
+```{r fig.height=4, echo=FALSE}
+knitr::include_graphics("../../images/slides/dsba-rintro/ggplot-unemploy.png")
+```
+
+---
+
+# ggplot2 extensions <img src="https://www.rstudio.com/wp-content/uploads/2014/04/ggplot2.png" width="70px" align="right" />
+
+.center2[
+```{r out.width = "800px", fig.align="center", echo=FALSE}
+knitr::include_graphics("../../images/slides/dsba-rintro/kay0.png")
+```
+]
+
+Source: [Matthew Kay](https://github.com/mjskay/uncertainty-examples/blob/master/us-unemployment.md)
+
+???
+
+Could use a "predictive bar" for the most likely path (draw) and uncertainty around it... fixes the reader to whatever arbitrary interval (95%) the visualization designer chose to display.
+
+---
+
+# ggplot2 extensions <img src="https://www.rstudio.com/wp-content/uploads/2014/04/ggplot2.png" width="70px" align="right" />
+
+.center2[
+```{r out.width = "800px", fig.align="center", echo=FALSE}
+knitr::include_graphics("../../images/slides/dsba-rintro/kay0b.png")
+```
+]
+
+Source: [Matthew Kay](https://github.com/mjskay/uncertainty-examples/blob/master/us-unemployment.md)
+
+???
+
+By showing multiple intervals, we can distinguish between different intervals of uncertainty...
+
+---
+
+# ggplot2 extensions <img src="https://www.rstudio.com/wp-content/uploads/2014/04/ggplot2.png" width="70px" align="right" />
+
+.center2[
+```{r out.width = "800px", fig.align="center", echo=FALSE}
+knitr::include_graphics("../../images/slides/dsba-rintro/kay0c.png")
+```
+]
+
+Source: [Matthew Kay](https://github.com/mjskay/uncertainty-examples/blob/master/us-unemployment.md)
+
+---
+
+# ggplot2 extensions <img src="https://www.rstudio.com/wp-content/uploads/2014/04/ggplot2.png" width="70px" align="right" />
+
+.center2[
+```{r out.width = "800px", fig.align="center", echo=FALSE}
+knitr::include_graphics("../../images/slides/dsba-rintro/kay1.png")
+```
+]
+
+Source: [Matthew Kay](https://github.com/mjskay/uncertainty-examples/blob/master/us-unemployment.md)
+
+---
+
+# ggplot2 extensions: gganimate <img src="../../images/slides/dsba-rintro/gganimate.png" width="70px" align="right" />
+
+.center2[
+```{r out.width = "800px", fig.align="center", echo=FALSE}
+knitr::include_graphics("../../images/slides/dsba-rintro/kay1.gif")
+```
+]
+
+[Hypothetical Outcome Plots (HOP)](https://medium.com/hci-design-at-uw/hypothetical-outcomes-plots-experiencing-the-uncertain-b9ea60d7c740): [`tidybayes`](https://mjskay.github.io/tidybayes/) & [`gganimate`](https://gganimate.com/)
+
+---
+
+# Rmarkdown: reproducibility <img src="https://www.rstudio.com/wp-content/uploads/2015/12/RStudio_Hex_rmarkdown.png" width="70px" align="right" />
+
+[RStudio RMarkdown documentation](https://rmarkdown.rstudio.com/)
+
+.center2[
+```{r out.width = "750px", fig.align="center", echo=FALSE}
+knitr::include_graphics("../../images/slides/dsba-rintro/code-1-options.png")
+```
+]
+
+---
+
+# rmarkdown: word doc's <img src="https://www.rstudio.com/wp-content/uploads/2015/12/RStudio_Hex_rmarkdown.png" width="70px" align="right" />
+
+```{r out.width = "1000px", fig.align="center", echo=FALSE}
+knitr::include_graphics("../../images/slides/dsba-rintro/rmarkdown2.gif")
+```
+
+---
+
+# Even more of rmarkdown <img src="https://www.rstudio.com/wp-content/uploads/2015/12/RStudio_Hex_rmarkdown.png" width="70px" align="right" />
 
 .pull-left[
-```{r fig.height=3}
-df <- filter(babynames, sex=="M")
-df <- filter(df, name=="Taylor") 
-df <- arrange(df, desc(n))
-df <- select(df, year, n, prop)
+```{r echo=FALSE}
+knitr::include_graphics("../../images/slides/dsba-rintro/bookdown.png")
+```
+.verysmall[
+- ["Data Visualization: A Practical Introduction](https://socviz.co/) by Kieran Healy
 
-head(df, n=3)
-```
+- ["Fundamentals of Data Visualization"](https://serialmentor.com/dataviz/) by Claus Wilke
+
+- ["R for Data Science"](https://r4ds.had.co.nz/index.html) by Garrett Grolemund and Hadley Wickham
 ]
+
+]
+--
 .pull-right[
-```{r fig.height=3}
-babynames %>%
-  filter(sex=="M") %>%
-  filter(name=="Taylor") %>%
-  arrange(desc(n)) %>%
-  select(year, n, prop) %>%
-  head(n=3)
+```{r echo=FALSE}
+knitr::include_graphics("../../images/slides/dsba-rintro/blogdown.png")
 ```
+.verysmall[
+My blogdown website (all materials public) for my DSBA 5122: Visual Analytics course: [dsba5122.com](https://dsba5122.com)
+]
+
 ]
 
 ---
 
-class: middle, center
+# What if you need JavaScript libraries?
+
+```{r out.width = "580px", fig.align="center", echo=FALSE}
+knitr::include_graphics("../../images/slides/dsba-rintro/leaflet.png")
+```
+
+---
+
+# htmlwidgets: JavaScript Packages in R
+
+
+```{r out.width = "700px", fig.align="center", echo=FALSE}
+knitr::include_graphics("../../images/slides/dsba-rintro/htmlwidgets.png")
+```
+
+---
+
+# htmlwidgets: leaflet + rtweet
+
+.big[
+```{r eval=FALSE}
+library(tidyverse)
+library(leaflet) # htmlwidget for leaflet
+library(rtweet)  # see rtweet.info
+    
+tweets <- search_tweets(
+  {{q = "beer",}}                   # query term
+  {{geocode = "35.23,-80.84,20mi",}}# geolocation: charlotte + 20mi
+  n = 3200) %>%             # max tweets via public api
+    lat_lng() %>%           # convert lng/lat to dataframe
+    filter(!is.na(lng))     # remove records missing lng/lat
+
+tweets %>%            # tweets data frame
+  leaflet() %>%       # pass to leaflet
+  addTiles() %>%      # add tiles
+  addCircleMarkers(
+   {{lng=tweets$lng,}}      # latitude
+   {{lat=tweets$lat,}}      # longitude
+   {{popup = tweets$text,}} # add tweet text
+    clusterOptions = markerClusterOptions()
+  ) 
+```
+]
+---
+
+# htmlwidgets: leaflet
+
+```{r out.width='100%', fig.height=7, eval=require('leaflet'), message = FALSE, echo = FALSE}
+tweets <- rtweet::read_twitter_csv("dsba-rintro_files/tweets.csv")
+
+tweets %>%
+  leaflet() %>%
+  addTiles() %>%
+  addCircleMarkers(
+    lng=tweets$lng, 
+    lat=tweets$lat,
+    popup = tweets$text, 
+    clusterOptions = markerClusterOptions()
+  )
+```
+
+---
+
+# htmlwidgets: JavaScript's DT (DataTable)
+
+```{r eval=require('DT'), tidy=FALSE, echo=FALSE}
+DT::datatable(
+  select(tweets, source, text) %>% dplyr::sample_n(size = 15),
+  fillContainer = FALSE, 
+  rownames = FALSE,
+  options=list(
+    dom = "tip",
+    pageLength = 3,
+    initComplete = DT::JS(
+        "function(settings, json) {",
+        "$(this.api().table()).css({'font-size': '40%', 'background-color': '#fff', 'color': '#000'});",
+        "}"))
+)
+```
+
+
+---
+
+# Shiny <img src="https://ericrayanderson.github.io/shinymaterial/img/shinyLogo.png" width="70px" align="right" />
+
+A Shiny app is a web page (UI) connected to a computer running a live R session (Server).
+
+```{r out.width = "1000px", fig.align="center", echo=FALSE}
+knitr::include_graphics("../../images/slides/dsba-rintro/shiny.png")
+```
+
+Users can manipulate the UI, which will cause the server to update the UI's displays (by running R code).
+
+---
+
+# Shiny <img src="https://ericrayanderson.github.io/shinymaterial/img/shinyLogo.png" width="70px" align="right" />
+
+.pull-left[
+.sbig[
+```{r eval=FALSE}
+library(shiny)
+
+ui <- fluidPage()
+
+server <- function(input, output) {}
+
+shinyApp(ui = ui, server = server)
+```
+]
+]
+.pull-right[
+![](../../images/slides/dsba-rintro/shiny1.png)
+]
+---
+
+# Shiny <img src="https://ericrayanderson.github.io/shinymaterial/img/shinyLogo.png" width="70px" align="right" />
+
+.pull-left[
+.sbig[
+```{r eval=FALSE}
+library(shiny)
+
+ui <- fluidPage(
+  sliderInput(inputId = "num",
+    label = "Choose a number",
+    value = 25, min = 1, max = 100)
+)
+
+server <- function(input, output) {
+  
+}
+
+shinyApp(ui = ui, server = server)
+```
+]
+]
+.pull-right[
+![](../../images/slides/dsba-rintro/shiny2.png)
+]
+---
+
+# Shiny <img src="https://ericrayanderson.github.io/shinymaterial/img/shinyLogo.png" width="70px" align="right" />
+
+.pull-left[
+.sbig[
+```{r eval=FALSE}
+library(shiny)
+
+ui <- fluidPage(
+  sliderInput(inputId = "num",
+    label = "Choose a number",
+    value = 25, min = 1, max = 100),
+  {{plotOutput("hist")}}
+)
+
+server <- function(input, output) {
+
+}
+
+shinyApp(ui = ui, server = server)
+```
+]
+]
+.pull-right[
+![](../../images/slides/dsba-rintro/shiny3.png)
+]
+---
+
+# Shiny <img src="https://ericrayanderson.github.io/shinymaterial/img/shinyLogo.png" width="70px" align="right" />
+
+.pull-left[
+.sbig[
+```{r eval=FALSE}
+library(shiny)
+
+ui <- fluidPage(
+  {{sliderInput(inputId = "num",}}
+    label = "Choose a number",
+    value = 25, min = 1, max = 100),
+  {{plotOutput("hist")}}
+)
+
+server <- function(input, output) {
+  output$hist <- renderPlot({
+    {{hist(rnorm(input$num))}}
+  })
+}
+
+shinyApp(ui = ui, server = server)
+```
+]
+]
+.pull-right[
+```{r echo=FALSE}
+knitr::include_graphics("../../images/slides/dsba-rintro/shiny4.gif")
+```
+]
+---
+
+# RStudio's Shiny Gallery <img src="https://ericrayanderson.github.io/shinymaterial/img/shinyLogo.png" width="70px" align="right" />
+
+```{r out.width = "750px", fig.align="center", echo=FALSE}
+knitr::include_graphics("../../images/slides/dsba-rintro/shiny-demo.png")
+```
+
+<https://shiny.rstudio.com/gallery/>
+
+---
+
+# Can we do more?
+
+.left-column[
+## More flexibility?
+
+## Interactivity?
+
+## Best in class?
+]
+
+--
+.right-column2[
+# Use D3 in R: r2d3.
+
+```{r out.width = "500px", fig.align="center", echo=FALSE}
+knitr::include_graphics("../../images/slides/dsba-rintro/d3.gif")
+```
+
+<https://bl.ocks.org/mbostock/1256572>
+]
+
+
+---
+
+# `r2d3` <img src="https://rstudio.github.io/r2d3/tools/README/r2d3-hex.png" width="70px" align="right" />
+
+.pull-left[
+.little[
+```{js eval=FALSE}
+
+// baranims.js saved locally
+var barHeight = Math.floor(height / data.length);
+
+var bars = r2d3.svg.selectAll('rect')
+    .data(r2d3.data);
+    
+bars.enter()
+    .append('rect')
+      .attr('width', function(d) { return d * width; })
+      .attr('height', barHeight)
+      .attr('y', function(d, i) { return i * barHeight; })
+      .attr('fill', 'steelblue');
+
+bars.exit().remove();
+
+bars.transition()
+  .duration(100)
+  .attr("width", function(d) { return d * width; });
+```
+]
+]
+
+.pull-right[
+.little[
+```{r eval=FALSE}
+# shiny code with r2d3
+library(shiny)
+library(r2d3)
+
+ui <- fluidPage(
+  inputPanel(
+    sliderInput(
+      "bar_max", label = "Max:",
+      min = 0.1, max = 1.0, value = 0.2, step = 0.1)
+  ),
+  d3Output("d3")
+)
+
+server <- function(input, output) {
+  output$d3 <- renderD3({
+    r2d3(
+      runif(5, 0, input$bar_max),
+      {{script = "baranims.js"}} # see left
+    )
+  })
+}
+
+shinyApp(ui = ui, server = server)
+```
+]
+]
+
+```{r out.width = "600px", fig.align="center", echo=FALSE}
+knitr::include_graphics("../../images/slides/dsba-rintro/baranim-1.gif")
+```
+
+---
+
+# Takeaways
+
+## R/RStudio is not your old base R tools.
+
+### - Tidyverse, shiny, RMarkdown, etc.
+
+--
+
+## Choose the best tool for the job, maybe Excel or Tableau.
+
+### - But if its a data science pipeline + data visualizations: R is hard to compete with.
+
+--
+
+## A lot of times, don't need to choose R vs. Python, C++, JS.
+
+### - Take the best of each and make it into an R package.
+
+--
+
+## Data visualization is part art and science (and design!). 
+
+### - The best way to learn: do it, get feedback, iterate.
+
+---
 
 # Happy R programming!
 
-<iframe src="https://giphy.com/embed/JIX9t2j0ZTN9S" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/JIX9t2j0ZTN9S"></a></p>
+
+```{r out.width = "400px", fig.align="center", echo=FALSE}
+knitr::include_graphics("../../images/slides/dsba-rintro/r_first_then.png")
+```
+
+Artwork by [@allison_horst](https://github.com/allisonhorst/stats-illustrations)
 

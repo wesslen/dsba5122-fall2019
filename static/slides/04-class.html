@@ -21,34 +21,43 @@ class: center, middle, inverse, title-slide
 
 
 
+# In class assignment: 30 minutes
+
+.pull-left[
+## Create new RStudio Cloud Project
+1. Pair up with person next to you.
+
+2. Create a new RStudio.Cloud Project. Share that workspace with your partner.
+
+3. Install `devtools` and `socviz` by running:
+
+```r
+install.packages('devtools') # install devtools
+devtools::install_github("kjhealy/socviz")
+```
+
+4. Create a new .Rmd project. Load `socviz` and `tidyverse`. Look at the data frame `organdata`.
+
+]
+.pull-right[
+## Bootstrapped Mean C.I.'s
+
+1. Read the first examples of this page: [`stat_summary`](https://ggplot2.tidyverse.org/reference/stat_summary.html). 
+
+2. (Optional) Read up on why bootstrapping works [StackExchange](https://stats.stackexchange.com/questions/26088/explaining-to-laypeople-why-bootstrapping-works)
+
+3. Change "05-tables-and-labels-14" plot in  [`05_tables_and_labels.Rmd`](https://rstudio.cloud/spaces/22733/project/160035) to a bootstrapped mean 95% confidence interval. Modify parameters by looking at [`?geom_pointrange`](https://ggplot2.tidyverse.org/reference/geom_linerange.html).
+
+4. (Bonus): Google "tidy bootstrapping". Is there a better (tidy) way to do it?
+]
+
+---
+
 class: center, middle, inverse
 
-# Time and space
+# Time: Wilke Chapters 13-14
 
-&lt;img src="../images/slides/04-class/2chainz.gif" width="600px" style="display: block; margin: auto;" /&gt;
-
----
-
-# Time and Space - why?
-
-&lt;img src="../images/slides/04-class/why.png" width="700px" style="display: block; margin: auto;" /&gt;
-
----
-
-class: center, middle, inverse
-
-# Time: Cairo Chapter 8 and Wilke Chapters 13-14
-
-&lt;blockquote class="twitter-tweet tw-align-center" width="70%" data-lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;Visualisation of the streamflow across the &lt;a href="https://twitter.com/hashtag/Alps?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#Alps&lt;/a&gt; during today’s &lt;a href="https://twitter.com/hashtag/Foehn?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#Foehn&lt;/a&gt; event. Uplift and resulting snowfall on the windward side (right) and strong Foehn winds down the lee slopes (centre). Explanations: see below. Made with &lt;a href="https://twitter.com/hashtag/ggplot2?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#ggplot2&lt;/a&gt; and &lt;a href="https://twitter.com/hashtag/gganimate?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#gganimate&lt;/a&gt;. &lt;a href="https://t.co/goPW9H0zhO"&gt;pic.twitter.com/goPW9H0zhO&lt;/a&gt;&lt;/p&gt;&amp;mdash; myweather.ch (@myweather_ch) &lt;a href="https://twitter.com/myweather_ch/status/1091426853393518592?ref_src=twsrc%5Etfw"&gt;February 1, 2019&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-
----
-
-class: center, middle
-
-# Trend + Seasonal + Noise
-
-&lt;img src="../images/slides/04-class/trends.png" width="400px" style="display: block; margin: auto;" /&gt;
+&lt;blockquote class="twitter-tweet tw-align-center" width="50%"&gt;&lt;p lang="en" dir="ltr"&gt;In this week&amp;#39;s &lt;a href="https://twitter.com/hashtag/tidytuesday?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#tidytuesday&lt;/a&gt; screencast, I analyze and predict trends in US dairy consumption over time&lt;br&gt;&lt;br&gt;In the process I learn to do tidy forecasting with the sweep and timetk packages from &lt;a href="https://twitter.com/bizScienc?ref_src=twsrc%5Etfw"&gt;@bizscienc&lt;/a&gt; 📈 📉&lt;a href="https://t.co/RyS50Ss6Vx"&gt;https://t.co/RyS50Ss6Vx&lt;/a&gt; &lt;a href="https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#rstats&lt;/a&gt; &lt;a href="https://t.co/Qlf5nfJx1u"&gt;pic.twitter.com/Qlf5nfJx1u&lt;/a&gt;&lt;/p&gt;&amp;mdash; David Robinson (@drob) &lt;a href="https://twitter.com/drob/status/1090336749778337792?ref_src=twsrc%5Etfw"&gt;January 29, 2019&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
 
 ---
 
@@ -94,7 +103,7 @@ class: center, middle
 
 class: center, middle
 
-# Visualizing Indexes
+# Visualizing Indexes: Detrending
 
 &lt;img src="../images/slides/04-class/index2.png" width="700px" style="display: block; margin: auto;" /&gt;
 
@@ -116,7 +125,17 @@ class: center, middle
 
 ---
 
-class: center, middle
+# Keeling Curve: What do you notice?
+
+&lt;img src="../images/slides/04-class/keeling-curve-1.png" width="700px" style="display: block; margin: auto;" /&gt;
+
+---
+
+# Trend + Seasonal + Noise
+
+&lt;img src="../images/slides/04-class/keeling-curve-decomposition-1.png" width="600px" style="display: block; margin: auto;" /&gt;
+
+---
 
 # Ratios to log
 
@@ -124,51 +143,19 @@ class: center, middle
 
 ---
 
-class: center, middle
-
 # Ratios to log
 
 &lt;img src="../images/slides/04-class/log.png" width="700px" style="display: block; margin: auto;" /&gt;
 
 ---
 
-class: center, middle
-
-# Mix effects
-
-&lt;img src="../images/slides/04-class/mix.png" width="700px" style="display: block; margin: auto;" /&gt;
-
----
-
-class: center, middle
-
-# Timelines storyteller
-
-&lt;img src="../images/slides/04-class/dailyroutines.gif" width="700px" style="display: block; margin: auto;" /&gt;
-
-&lt;https://timelinestoryteller.com/&gt;
-
----
-
-class: center, middle
-
-# Example: Charlotte Protest Tweets
-
-&lt;img src="../images/slides/04-class/charlotteprotest.png" width="700px" style="display: block; margin: auto;" /&gt;
-
----
-
 class: middle, inverse, center
 
-# Spatial/Maps: Cairo Chap. 10 and Wilke Chap. 15
+# Spatial/Maps: Wilke Chap. 15 and Healy Chap. 7
 
-&lt;blockquote class="twitter-tweet tw-align-center" width="60%" data-lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;A nice example of projection distortion! How big is Alaska really? &lt;a href="https://t.co/37I6wre2dM"&gt;https://t.co/37I6wre2dM&lt;/a&gt;&lt;/p&gt;&amp;mdash; TimSalabim (@TimSalabim3) &lt;a href="https://twitter.com/TimSalabim3/status/1026193095568838657?ref_src=twsrc%5Etfw"&gt;August 5, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-
+&lt;blockquote class="twitter-tweet tw-align-center" width="50%"&gt;&lt;p lang="en" dir="ltr"&gt;Putting Hawaii and Alaska into their place. &lt;a href="https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#rstats&lt;/a&gt; &lt;a href="https://twitter.com/hashtag/dataviz?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#dataviz&lt;/a&gt; &lt;a href="https://twitter.com/hashtag/gganimate?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#gganimate&lt;/a&gt; &lt;a href="https://t.co/JOMWlVv3A9"&gt;pic.twitter.com/JOMWlVv3A9&lt;/a&gt;&lt;/p&gt;&amp;mdash; Claus Wilke (@ClausWilke) &lt;a href="https://twitter.com/ClausWilke/status/1026190740370731009?ref_src=twsrc%5Etfw"&gt;August 5, 2018&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
 
 ---
-
-class: center, middle
 
 # Scale
 
@@ -176,23 +163,29 @@ class: center, middle
 
 ---
 
-class: center, middle
+# Scale
 
-# Projections
-
-&lt;img src="../images/slides/04-class/projection.png" width="700px" style="display: block; margin: auto;" /&gt;
+&lt;img src="../images/slides/04-class/scale-2.png" width="600px" style="display: block; margin: auto;" /&gt;
 
 ---
 
-class: center, middle
-
 # Projections
 
-&lt;img src="../images/slides/04-class/projection2.png" width="700px" style="display: block; margin: auto;" /&gt;
+&lt;img src="../images/slides/04-class/projection.png" width="550px" style="display: block; margin: auto;" /&gt;
 
 ---
 
-class: center, middle
+# Projections
+
+&lt;img src="../images/slides/04-class/projection2.png" width="600px" style="display: block; margin: auto;" /&gt;
+
+---
+
+# Projections
+
+&lt;img src="../images/slides/04-class/projection3.png" width="700px" style="display: block; margin: auto;" /&gt;
+
+---
 
 # Map encoding
 
@@ -200,17 +193,13 @@ class: center, middle
 
 ---
 
-class: center, middle
-
 # UVA's Racial Dot Map
 
-&lt;img src="../images/slides/04-class/dotmap.png" width="500px" style="display: block; margin: auto;" /&gt;
+&lt;img src="../images/slides/04-class/dotmap.png" width="450px" style="display: block; margin: auto;" /&gt;
 
 &lt;https://demographics.virginia.edu/DotMap/index.html&gt;
 
 ---
-
-class: center, middle
 
 # Chloropleths
 
@@ -222,113 +211,35 @@ class: center, middle
 
 &lt;img src="../images/slides/04-class/chloropleth2.png" width="600px" style="display: block; margin: auto;" /&gt;
 
---
+---
+
+# Chloropleths
 
 &lt;img src="../images/slides/04-class/chloropleth3.png" width="600px" style="display: block; margin: auto;" /&gt;
 
 ---
 
-class: center, middle
+# Chloropleths
 
-&lt;img src="../images/slides/04-class/chloropleth4.png" width="700px" style="display: block; margin: auto;" /&gt;
-
----
-
-class: center, middle
-
-&lt;img src="../images/slides/04-class/chloropleth5.png" width="700px" style="display: block; margin: auto;" /&gt;
+&lt;img src="../images/slides/04-class/chloropleth4.png" width="600px" style="display: block; margin: auto;" /&gt;
 
 ---
 
-class: center, middle
+# Cartograms
 
-&lt;img src="../images/slides/04-class/chloropleth6.png" width="700px" style="display: block; margin: auto;" /&gt;
-
----
-
-class: center, middle
-
-&lt;img src="../images/slides/04-class/chloropleth7.png" width="700px" style="display: block; margin: auto;" /&gt;
+&lt;img src="../images/slides/04-class/chloropleth5.png" width="600px" style="display: block; margin: auto;" /&gt;
 
 ---
 
-class: center, middle
+# Cartograms
 
-# kernel density
-
-&lt;img src="../images/slides/04-class/kernel.png" width="600px" style="display: block; margin: auto;" /&gt;
+&lt;img src="../images/slides/04-class/chloropleth6.png" width="600px" style="display: block; margin: auto;" /&gt;
 
 ---
 
-class: center, middle
+# Small multiples: Time &amp; Space
 
-# hexabin
-
-&lt;img src="../images/slides/04-class/hex.png" width="600px" style="display: block; margin: auto;" /&gt;
-
----
-
-class: center, middle
-
-# 3d height
-
-&lt;img src="../images/slides/04-class/3d.png" width="600px" style="display: block; margin: auto;" /&gt;
-
----
-
-class: center, middle
-
-# Voronoi of Airport locations
-
-&lt;img src="../images/slides/04-class/voronoi1.png" width="600px" style="display: block; margin: auto;" /&gt;
-
----
-
-class: center, middle
-
-# 3D Voronoi of Airport locations
-
-&lt;img src="../images/slides/04-class/voronoi2.png" width="600px" style="display: block; margin: auto;" /&gt;
-
----
-
-Example: `ggvoronoi` ([vignette](https://cran.r-project.org/web/packages/ggvoronoi/vignettes/ggvoronoi.html))
-
-
-
-
-```r
-library(ggvoronoi)
-
-head(points, n = 2)
-```
-
-```
-##     x   y  distance
-## 1 152  43  77.15569
-## 2  14 188 123.04471
-```
-.pull-left[
-
-```r
-ggplot(points) +
-  geom_point(aes(x,y,color=distance)) +
-  geom_path(data=circle,aes(x,y,group=group))
-```
-
-![](04-class_files/figure-html/ggvoronoi2-1.png)&lt;!-- --&gt;
-]
-.pull-right[
-
-```r
-ggplot(points, aes(x,y,fill=distance)) +
-  geom_voronoi() +
-  stat_voronoi(geom="path") +
-  geom_point()
-```
-
-![](04-class_files/figure-html/voronoi3-1.png)&lt;!-- --&gt;
-]
+&lt;img src="../images/slides/04-class/chloropleth7.png" width="600px" style="display: block; margin: auto;" /&gt;
     </textarea>
 <script src="libs/remark-latest.min.js"></script>
 <script src="https://platform.twitter.com/widgets.js"></script>

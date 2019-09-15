@@ -79,23 +79,22 @@ Slides: full screen / pdf version</description>
     <item>
       <title>Time &amp; Space</title>
       <link>https://dsba5122-fall2019.netlify.com/class/04-class/</link>
-      <pubDate>Wed, 18 Sep 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 16 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-fall2019.netlify.com/class/04-class/</guid>
-      <description>Contents  Tweet of the day Slides Links Lab 4: gganimate Optional (likely won’t have time):    Tweet of the day 👌 Dead-simple 3D surface plotting in the next version of rayshader! Apply your hillshade (or any image) to a 3D surface map. Video preview with rayshader&#39;s built-in palettes. #rstats
-Code:
-elmat %&amp;gt;%
-sphere_shade() %&amp;gt;% add_shadow(ray_shade(elmat)) %&amp;gt;% plot_3d(elmat) pic.twitter.com/FCKQ9OSKpj — Tyler Morgan-Wall (@tylermorganwall) July 2, 2018   Slides full screen / pdf version</description>
+      <description>Contents  Announcements Tweet of the day Lab 4: Ch. 5 and Ch. 7 of Healy Slides Links: For deeper dives into time/spatial data   Announcements Problem Set 1 is due tonight by 11:59pm Monday, Sept 16th. 50% penalty if turned in within 24 hours of deadline. 0% credit if turned in 24+ hours of deadline.
+ Quiz 1 has closed. We will review answers in class.
+ DataCamp 2 is due by 11:59pm Tuesday, Sept 24th.</description>
     </item>
     
     <item>
       <title>Visual Representations II</title>
       <link>https://dsba5122-fall2019.netlify.com/class/03-class/</link>
-      <pubDate>Wed, 04 Sep 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-fall2019.netlify.com/class/03-class/</guid>
       <description>Contents  Tweet of the Day Announcements Slides Lab 3: Make a plot (ggplot2) Helpful Links   Tweet of the Day 🌟 guide to visual encoding types from @tamaramunzner&amp;#39;s &amp;quot;Visualization &amp;amp; Journalism&amp;quot; https://t.co/A2x96QYNoL #dataviz #infovis pic.twitter.com/2FIyXeWk4h
-&amp;mdash; Mara Averick (@dataandme) October 17, 2018  About Tamara and Mara:Tamara Munzner is one of the most influential data visualization researchers. Her textbook “Visualization Analysis and Design” is one of the most popular data viz books and some of her former students are now leaders in data viz (e.</description>
+&amp;mdash; Mara Averick (@dataandme) October 17, 2018  Tamara Munzner is one of the most influential data visualization researchers. Her textbook “Visualization Analysis and Design” is one of the most popular data viz books and some of her former students are now leaders in data viz (e.</description>
     </item>
     
     <item>

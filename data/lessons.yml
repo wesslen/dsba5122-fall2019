@@ -39,15 +39,15 @@ lessons:
   - title: "Class 4: Time & Space"
     date: "September 16"
     reading: "04-reading"
-    #class: "04-class"
+    class: "04-class"
     
-  - title: "Problem set 2 (Due Sept 30)"
+  - title: "Problem set 2 (Due Oct 7)"
     date: "September 16"
-    #assignment: "02-problem-set"
+    assignment: "02-problem-set"
 
   - title: "Class 5: Distributions & Uncertainty"
     date: "September 23"
-    #reading: "05-reading"
+    reading: "05-reading"
     #class: "05-class"
 
   - title: '<span class="fake-header-table">Interactive Visualizations</span>'
@@ -58,7 +58,7 @@ lessons:
     #reading: "06-reading"
     #class: "06-class"
     
-  - title: "**Quiz 2 (Due Oct 7)**"
+  - title: "**Quiz 2 (Due Oct 14)**"
     date: "September 30"
     #assignment: "02-quiz"
     
@@ -69,14 +69,14 @@ lessons:
   - title: "**Datacamp course 3 (Due Oct 22)**"
     date: "September 30"
     assignment: "03-datacamp"
-
-  - title: "Class 7: Multidimensional Data"
-    date: "October 7"
-    #reading: "07-reading"
-    #class: "07-class"
     
   - title: "No class (Fall Break)"
+    date: "October 7"
+
+  - title: "Class 7: Multidimensional Data"
     date: "October 14"
+    #reading: "07-reading"
+    #class: "07-class"
 
   - title: "Class 8: Networks and Trees"
     date: "October 21"

@@ -4,8 +4,32 @@
     <title>DSBA 5122: Visual Analytics</title>
     <meta charset="utf-8">
     <meta name="author" content="Ryan Wesslen" />
-    <meta name="date" content="2019-01-28" />
+    <meta name="date" content="2019-09-09" />
+    <script src="libs/htmlwidgets/htmlwidgets.js"></script>
+    <script src="libs/d3/d3.min.js"></script>
+    <script src="libs/forceNetwork-binding/forceNetwork.js"></script>
+    <script src="libs/jquery/jquery.min.js"></script>
+    <link href="libs/leaflet/leaflet.css" rel="stylesheet" />
+    <script src="libs/leaflet/leaflet.js"></script>
+    <link href="libs/leafletfix/leafletfix.css" rel="stylesheet" />
+    <script src="libs/Proj4Leaflet/proj4-compressed.js"></script>
+    <script src="libs/Proj4Leaflet/proj4leaflet.js"></script>
+    <link href="libs/rstudio_leaflet/rstudio_leaflet.css" rel="stylesheet" />
+    <script src="libs/leaflet-binding/leaflet.js"></script>
+    <link href="libs/leaflet-markercluster/MarkerCluster.css" rel="stylesheet" />
+    <link href="libs/leaflet-markercluster/MarkerCluster.Default.css" rel="stylesheet" />
+    <script src="libs/leaflet-markercluster/leaflet.markercluster.js"></script>
+    <script src="libs/leaflet-markercluster/leaflet.markercluster.freezable.js"></script>
+    <script src="libs/leaflet-markercluster/leaflet.markercluster.layersupport.js"></script>
+    <link href="libs/datatables-css/datatables-crosstalk.css" rel="stylesheet" />
+    <script src="libs/datatables-binding/datatables.js"></script>
+    <link href="libs/dt-core/css/jquery.dataTables.min.css" rel="stylesheet" />
+    <link href="libs/dt-core/css/jquery.dataTables.extra.css" rel="stylesheet" />
+    <script src="libs/dt-core/js/jquery.dataTables.min.js"></script>
+    <link href="libs/crosstalk/css/crosstalk.css" rel="stylesheet" />
+    <script src="libs/crosstalk/js/crosstalk.min.js"></script>
     <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+    <link rel="stylesheet" href="custom.css" type="text/css" />
   </head>
   <body>
     <textarea id="source">
@@ -14,7 +38,7 @@ class: center, middle, inverse, title-slide
 # DSBA 5122: Visual Analytics
 ## Why R (and RStudio)?
 ### Ryan Wesslen
-### January 28, 2019
+### September 9, 2019
 
 ---
 
@@ -47,7 +71,25 @@ It's free, as in ... free beer?
 
 ---
 
-# 2. Why R / RStudio?
+# 2. Hanging with the big kids.
+
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;Well then. Another take on programming language popularity just published by IEEE Spectrum has &lt;a href="https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#rstats&lt;/a&gt; at 5, edging out JavaScript. &lt;a href="https://t.co/aH2nZSdf2i"&gt;https://t.co/aH2nZSdf2i&lt;/a&gt; an incredible result for a DSL.&lt;/p&gt;&amp;mdash; Miles McBain (@MilesMcBain) &lt;a href="https://twitter.com/MilesMcBain/status/1170536600113049600?ref_src=twsrc%5Etfw"&gt;September 8, 2019&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+
+---
+
+# 3. R open source community makes it fun!
+
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;Did you know &lt;a href="https://twitter.com/hashtag/rayshader?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#rayshader&lt;/a&gt; comes with a function that can detect bodies of water directly from the elevation data? `detect_water()` looks for large contiguous flat regions of a user-defined minimum size and &amp;quot;flatness.&amp;quot; Use `add_water()` to layer it on the map. &lt;a href="https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#rstats&lt;/a&gt; &lt;a href="https://t.co/kBEltc98OH"&gt;pic.twitter.com/kBEltc98OH&lt;/a&gt;&lt;/p&gt;&amp;mdash; Tyler Morgan-Wall (@tylermorganwall) &lt;a href="https://twitter.com/tylermorganwall/status/1166338131257438210?ref_src=twsrc%5Etfw"&gt;August 27, 2019&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+
+---
+
+# 3. R open source community makes it fun!
+
+&lt;blockquote class="twitter-tweet" data-conversation="none"&gt;&lt;p lang="en" dir="ltr"&gt;And here&amp;#39;s a gist showing how to make the above &amp;quot;jumping River Derwent&amp;quot; visualization:&lt;a href="https://t.co/jerTnLn1W6"&gt;https://t.co/jerTnLn1W6&lt;/a&gt;&lt;/p&gt;&amp;mdash; Tyler Morgan-Wall (@tylermorganwall) &lt;a href="https://twitter.com/tylermorganwall/status/1166342757952237568?ref_src=twsrc%5Etfw"&gt;August 27, 2019&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+
+---
+
+# 4. Why R / RStudio?
 
 &lt;blockquote class="twitter-tweet tw-align-center" width="50%" data-lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;well this R=Batman, Python=Superman apparently showed up in a vendor pitch to one of my colleagues. That must make it official. &lt;a href="https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#rstats&lt;/a&gt; &lt;a href="https://twitter.com/hashtag/python?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#python&lt;/a&gt; &lt;a href="https://t.co/pkKGB8EOHj"&gt;pic.twitter.com/pkKGB8EOHj&lt;/a&gt;&lt;/p&gt;&amp;mdash; JD Long (@CMastication) &lt;a href="https://twitter.com/CMastication/status/1037486624500854784?ref_src=twsrc%5Etfw"&gt;September 5, 2018&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
@@ -80,75 +122,16 @@ It's free, as in ... free beer?
 
 &lt;img src="../../images/slides/dsba-rintro/r7.png" style="display: block; margin: auto;" /&gt;
 
----
-
-# 3. Why R / RStudio?
-
-The [`#rstats`](https://twitter.com/search?q=%23rstats) community (h/t [`@hrbrmstr`](https://rud.is/books/21-recipes/visualizing-a-graph-of-retweet-relationships.html))
-
-
-```r
-library(rtweet)
-library(igraph)
-library(ggraph)
-library(tidyverse)
-
-rt_g &lt;- search_tweets("#rstats", n=3200) %&gt;%    # twitter api
-  filter(retweet_count &gt; 0) %&gt;%                 # keep tweets with RT's
-  select(screen_name, mentions_screen_name) %&gt;% # select column from/to
-  unnest(mentions_screen_name) %&gt;%              # unnest json
-  filter(!is.na(mentions_screen_name)) %&gt;%      # include mentions
-  graph_from_data_frame()                       # convert to ggraph format
-```
 
 ---
 
-# 3. Why R / RStudio?
+class: inverse, middle, center
 
-The [`#rstats`](https://twitter.com/search?q=%23rstats) community (h/t [`@hrbrmstr`](https://rud.is/books/21-recipes/visualizing-a-graph-of-retweet-relationships.html))
+# R / RStudio to the rescue
 
+&lt;img src="../../images/slides/dsba-rintro/welcome_to_rstats_twitter.png" width="500px" style="display: block; margin: auto;" /&gt;
 
-```r
-# ggplot inspired networks: ggraph
-ggraph(rt_g, layout = 'linear', circular = TRUE) + 
-  geom_edge_arc(edge_width=0.125, aes(alpha=..index..)) +
-  geom_node_label(aes(label=node_label, size=node_size),
-                  label.size=0, fill="#ffffff66", segment.colour="springgreen",
-                  color="slateblue", repel=TRUE, fontface="bold") +
-  coord_fixed() +
-  scale_size_area(trans="sqrt") +
-  labs(title="Retweet Relationships", 
-       subtitle= subt) +
-  theme_graph() +
-  theme(legend.position="none")
-```
-
----
-
-class: middle, center
-
-![](../../images/slides/dsba-rintro/r9.png)&lt;!-- --&gt;
-
----
-# And it's just fun!
-
-&lt;blockquote class="twitter-tweet tw-align-center" width="45%" data-conversation="none" data-lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;I can and it&amp;#39;s HORRIFYING😬😬😬😬 &lt;a href="https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#rstats&lt;/a&gt; &lt;a href="https://t.co/aMQiwva7fr"&gt;pic.twitter.com/aMQiwva7fr&lt;/a&gt;&lt;/p&gt;&amp;mdash; Tyler Morgan-Wall (@tylermorganwall) &lt;a href="https://twitter.com/tylermorganwall/status/1088978382195437568?ref_src=twsrc%5Etfw"&gt;January 26, 2019&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-
----
-
-class: middle
-
-&lt;blockquote class="twitter-tweet tw-align-center" data-conversation="none" data-lang="en"&gt;&lt;p lang="und" dir="ltr"&gt; &lt;a href="https://t.co/BhS5yaeMbk"&gt;pic.twitter.com/BhS5yaeMbk&lt;/a&gt;&lt;/p&gt;&amp;mdash; David Schoppik (@schoppik) &lt;a href="https://twitter.com/schoppik/status/1088983406220886016?ref_src=twsrc%5Etfw"&gt;January 26, 2019&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-
----
-
-class: middle, center
-
-# tidyverse
-
-&lt;img src="../../images/slides/dsba-rintro/r8.png" width="60%" /&gt;
+Artwork by @allison_horst
 
 ---
 
@@ -204,100 +187,601 @@ class: middle, center
 
 ---
 
-# Data science workflow
+# RStudio Visualization Ecosystem
 
-&lt;img src="../../images/slides/dsba-rintro/r18.png" width="100%" /&gt;
+.left-column[
 
----
+# **`tidyverse`**
 
-# tidy data
+]
 
-&lt;img src="../../images/slides/dsba-rintro/r19.png" width="100%" /&gt;
+.right-column2[
 
-&gt; “Tidy datasets are all alike but every messy dataset is messy in its own way.” – Hadley Wickham
+&lt;img src="../../images/slides/dsba-rintro/tidy.png" style="display: block; margin: auto;" /&gt;
 
----
+[tidyverse.org](https://www.tidyverse.org/)
 
-# tidy data: "pivoting"
-
-&lt;img src="../../images/slides/dsba-rintro/r20.png" width="100%" /&gt;
+]
 
 ---
 
-# Core packages: dplyr, ggplot2, piping
+# RStudio Visualization Ecosystem
 
-&lt;img src="../../images/slides/dsba-rintro/r21.png" width="90%" style="display: block; margin: auto;" /&gt;
+.left-column[
+
+# `tidyverse`
+
+# **`rmarkdown`**
+
+]
+
+.right-column2[
+
+Analyze. Share. Reproduce.
+
+&lt;img src="../../images/slides/dsba-rintro/rmarkdown.png" width="350px" style="display: block; margin: auto;" /&gt;
+
+[rmarkdown.rstudio.com](https://rmarkdown.rstudio.com/)
+]
 ---
 
-# Core packages: dplyr, ggplot2, piping
+# RStudio Visualization Ecosystem
 
-&lt;img src="../../images/slides/dsba-rintro/r22.png" width="90%" style="display: block; margin: auto;" /&gt;
+.left-column[
+
+# `tidyverse`
+
+# `rmarkdown`
+
+# **`htmlwidgets`**
+]
+
+.right-column2[
+JavaScript libraries as R packages! [htmlwidgets.org](http://www.htmlwidgets.org/)
+<div id="htmlwidget-7da0a1e9e8ce11f5a4ae" style="width:504px;height:504px;" class="forceNetwork html-widget"></div>
+<script type="application/json" data-for="htmlwidget-7da0a1e9e8ce11f5a4ae">{"x":{"links":{"source":[1,2,3,3,4,5,6,7,8,9,11,11,11,11,12,13,14,15,17,18,18,19,19,19,20,20,20,20,21,21,21,21,21,22,22,22,22,22,22,23,23,23,23,23,23,23,23,23,24,24,25,25,25,26,26,26,26,27,27,27,27,27,28,28,29,29,29,30,31,31,31,31,32,33,33,34,34,35,35,35,36,36,36,36,37,37,37,37,37,38,38,38,38,38,38,39,40,41,41,42,42,42,43,43,43,44,44,45,47,48,48,48,48,49,49,50,50,51,51,51,52,52,53,54,54,54,55,55,55,55,55,55,55,55,55,55,56,56,57,57,57,58,58,58,58,58,59,59,59,59,60,60,60,61,61,61,61,61,61,62,62,62,62,62,62,62,62,63,63,63,63,63,63,63,63,64,64,64,64,64,64,64,64,64,64,65,65,65,65,65,65,65,65,65,65,66,66,66,66,66,66,66,66,66,67,68,68,68,68,68,68,69,69,69,69,69,69,69,70,70,70,70,70,70,70,70,71,71,71,71,71,71,71,71,72,72,72,73,74,74,75,75,75,75,75,75,75,76,76,76,76,76,76,76],"target":[0,0,0,2,0,0,0,0,0,0,10,3,2,0,11,11,11,11,16,16,17,16,17,18,16,17,18,19,16,17,18,19,20,16,17,18,19,20,21,16,17,18,19,20,21,22,12,11,23,11,24,23,11,24,11,16,25,11,23,25,24,26,11,27,23,27,11,23,30,11,23,27,11,11,27,11,29,11,34,29,34,35,11,29,34,35,36,11,29,34,35,36,37,11,29,25,25,24,25,41,25,24,11,26,27,28,11,28,46,47,25,27,11,26,11,49,24,49,26,11,51,39,51,51,49,26,51,49,39,54,26,11,16,25,41,48,49,55,55,41,48,55,48,27,57,11,58,55,48,57,48,58,59,48,58,60,59,57,55,55,58,59,48,57,41,61,60,59,48,62,57,58,61,60,55,55,62,48,63,58,61,60,59,57,11,63,64,48,62,58,61,60,59,57,55,64,58,59,62,65,48,63,61,60,57,25,11,24,27,48,41,25,68,11,24,27,48,41,25,69,68,11,24,27,41,58,27,69,68,70,11,48,41,25,26,27,11,48,48,73,69,68,25,48,41,70,71,64,65,66,63,62,48,58],"value":[1,8,10,6,1,1,1,1,2,1,1,3,3,5,1,1,1,1,4,4,4,4,4,4,3,3,3,4,3,3,3,3,5,3,3,3,3,4,4,3,3,3,3,4,4,4,2,9,2,7,13,1,12,4,31,1,1,17,5,5,1,1,8,1,1,1,2,1,2,3,2,1,1,2,1,3,2,3,3,2,2,2,2,1,2,2,2,2,1,2,2,2,2,2,1,1,1,2,3,2,2,1,3,1,1,3,1,2,1,2,1,1,1,3,2,1,1,9,2,2,1,1,1,2,1,1,6,12,1,1,21,19,1,2,5,4,1,1,1,1,1,7,7,6,1,4,15,5,6,2,1,4,2,2,6,2,5,1,1,9,17,13,7,2,1,6,3,5,5,6,2,4,3,2,1,5,12,5,4,10,6,2,9,1,1,5,7,3,5,5,5,2,5,1,2,3,3,1,2,2,1,1,1,1,3,5,1,1,1,1,1,6,6,1,1,2,1,1,4,4,4,1,1,1,1,1,1,2,2,2,1,1,1,1,2,1,1,2,2,3,3,3,3,1,1,1,1,1,1,1,1,1,1,1],"colour":["#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666"]},"nodes":{"name":["Myriel","Napoleon","Mlle.Baptistine","Mme.Magloire","CountessdeLo","Geborand","Champtercier","Cravatte","Count","OldMan","Labarre","Valjean","Marguerite","Mme.deR","Isabeau","Gervais","Tholomyes","Listolier","Fameuil","Blacheville","Favourite","Dahlia","Zephine","Fantine","Mme.Thenardier","Thenardier","Cosette","Javert","Fauchelevent","Bamatabois","Perpetue","Simplice","Scaufflaire","Woman1","Judge","Champmathieu","Brevet","Chenildieu","Cochepaille","Pontmercy","Boulatruelle","Eponine","Anzelma","Woman2","MotherInnocent","Gribier","Jondrette","Mme.Burgon","Gavroche","Gillenormand","Magnon","Mlle.Gillenormand","Mme.Pontmercy","Mlle.Vaubois","Lt.Gillenormand","Marius","BaronessT","Mabeuf","Enjolras","Combeferre","Prouvaire","Feuilly","Courfeyrac","Bahorel","Bossuet","Joly","Grantaire","MotherPlutarch","Gueulemer","Babet","Claquesous","Montparnasse","Toussaint","Child1","Child2","Brujon","Mme.Hucheloup"],"group":[1,1,1,1,1,1,1,1,1,1,2,2,3,2,2,2,3,3,3,3,3,3,3,3,4,4,5,4,0,2,3,2,2,2,2,2,2,2,2,4,6,4,4,5,0,0,7,7,8,5,5,5,5,5,5,8,5,8,8,8,8,8,8,8,8,8,8,9,4,4,4,4,5,10,10,4,8]},"options":{"NodeID":"name","Group":"group","colourScale":"d3.scaleOrdinal(d3.schemeCategory20);","fontSize":7,"fontFamily":"serif","clickTextSize":17.5,"linkDistance":50,"linkWidth":"function(d) { return Math.sqrt(d.value); }","charge":-30,"opacity":0.9,"zoom":false,"legend":false,"arrows":false,"nodesize":false,"radiusCalculation":" Math.sqrt(d.nodesize)+6","bounded":false,"opacityNoHover":0,"clickAction":null}},"evals":[],"jsHooks":[]}</script>
+]
+---
+
+# RStudio Visualization Ecosystem
+
+.left-column[
+
+# `tidyverse`
+
+# `rmarkdown`
+
+# `htmlwidgets`
+
+# **`shiny`**
+
+]
+
+.right-column2[
+
+![](../../images/slides/dsba-rintro/shiny-intro.png)
+
+[shiny.rstudio.com/](https://shiny.rstudio.com/)
+
+]
 
 ---
 
-# Core packages: dplyr, ggplot2, piping
+# RStudio Visualization Ecosystem
 
-What are the top 3 most popular years for males born "Taylor"?
+.left-column[
+
+# `tidyverse`
+
+# `rmarkdown`
+
+# `htmlwidgets`
+
+# `shiny`
+
+# **`r2d3`**
+
+]
+
+.right-column2[
+
+&lt;img src="../../images/slides/dsba-rintro/d3.png" width="450px" style="display: block; margin: auto;" /&gt;
+
+[d3js.org](https://d3js.org/) and [r2d3 package](https://rstudio.github.io/r2d3/)
+]
+
+---
+
+# tidyverse: Data science process &lt;img src="https://www.rstudio.com/wp-content/uploads/2014/04/tidyverse.png" width="70px" align="right" /&gt;
+
+&lt;img src="../../images/slides/dsba-rintro/tidyverse.png" width="800px" style="display: block; margin: auto;" /&gt;
+
+---
+
+# tidyverse: dplyr + piping &lt;img src="https://www.rstudio.com/wp-content/uploads/2014/04/readr.png" width="70px" align="right" /&gt;
+
+US Unemployment rate
+
+.big[
+
+```r
+library(tidyverse)
+
+# read in using readr's read_csv function
+df &lt;- read_csv("dsba-rintro_files/us-unemployment.csv", 
+    col_types = cols(
+      date = col_date(),            # read in as date
+      unemployment = col_double()   # read in as double
+    )
+  ) 
+
+# view the data via dplyr's glimpse
+glimpse(df)
+```
+
+```
+## Observations: 853
+## Variables: 2
+## $ date         &lt;date&gt; 1948-01-01, 1948-02-01, 1948-03-01, 1948-04-01, 19…
+## $ unemployment &lt;dbl&gt; 3.4, 3.8, 4.0, 3.9, 3.5, 3.6, 3.6, 3.9, 3.8, 3.7, 3…
+```
+]
+
+---
+
+# tidyverse: dplyr + piping &lt;img src="https://www.rstudio.com/wp-content/uploads/2014/04/dplyr.png" width="70px" align="right" /&gt;
+
+What are the years with the hightest unemployment rate in December?
+
+.big[
+
+```r
+library(lubridate) # non-standard tidyverse for dates/times
+
+df %&gt;%           
+  mutate(month = month(date)) %&gt;% # create new column for month
+  filter(month == 12) %&gt;%         # filter for only December values
+  arrange(desc(unemployment)) %&gt;% # order by unemployment rate
+  head(n = 6)                     # show top five
+```
+
+```
+## # A tibble: 6 x 3
+##   date       unemployment month
+##   &lt;date&gt;            &lt;dbl&gt; &lt;dbl&gt;
+## 1 1982-12-01         10.8    12
+## 2 2009-12-01          9.9    12
+## 3 2010-12-01          9.3    12
+## 4 1981-12-01          8.5    12
+## 5 2011-12-01          8.5    12
+## 6 1983-12-01          8.3    12
+```
+]
+
+---
+
+# tidyverse: dplyr + piping + ggplot2 &lt;img src="https://www.rstudio.com/wp-content/uploads/2014/04/ggplot2.png" width="70px" align="right" /&gt;
 
 
 ```r
-# Load the data
-library(babynames)
-data(babynames)
+df %&gt;%
+  ggplot(aes(x = date, y = unemployment)) +
+  geom_line() +
+  coord_cartesian(ylim = c(0, .11), expand = FALSE),
+  scale_y_continuous(labels = scales::percent) +
+  labs(x = NULL, y = NULL, subtitle = "US unemployment over time")
 ```
+
+![](../../images/slides/dsba-rintro/ggplot-unemploy.png)&lt;!-- --&gt;
+
+---
+
+# ggplot2 extensions &lt;img src="https://www.rstudio.com/wp-content/uploads/2014/04/ggplot2.png" width="70px" align="right" /&gt;
+
+.center2[
+&lt;img src="../../images/slides/dsba-rintro/kay0.png" width="800px" style="display: block; margin: auto;" /&gt;
+]
+
+Source: [Matthew Kay](https://github.com/mjskay/uncertainty-examples/blob/master/us-unemployment.md)
+
+???
+
+Could use a "predictive bar" for the most likely path (draw) and uncertainty around it... fixes the reader to whatever arbitrary interval (95%) the visualization designer chose to display.
+
+---
+
+# ggplot2 extensions &lt;img src="https://www.rstudio.com/wp-content/uploads/2014/04/ggplot2.png" width="70px" align="right" /&gt;
+
+.center2[
+&lt;img src="../../images/slides/dsba-rintro/kay0b.png" width="800px" style="display: block; margin: auto;" /&gt;
+]
+
+Source: [Matthew Kay](https://github.com/mjskay/uncertainty-examples/blob/master/us-unemployment.md)
+
+???
+
+By showing multiple intervals, we can distinguish between different intervals of uncertainty...
+
+---
+
+# ggplot2 extensions &lt;img src="https://www.rstudio.com/wp-content/uploads/2014/04/ggplot2.png" width="70px" align="right" /&gt;
+
+.center2[
+&lt;img src="../../images/slides/dsba-rintro/kay0c.png" width="800px" style="display: block; margin: auto;" /&gt;
+]
+
+Source: [Matthew Kay](https://github.com/mjskay/uncertainty-examples/blob/master/us-unemployment.md)
+
+---
+
+# ggplot2 extensions &lt;img src="https://www.rstudio.com/wp-content/uploads/2014/04/ggplot2.png" width="70px" align="right" /&gt;
+
+.center2[
+&lt;img src="../../images/slides/dsba-rintro/kay1.png" width="800px" style="display: block; margin: auto;" /&gt;
+]
+
+Source: [Matthew Kay](https://github.com/mjskay/uncertainty-examples/blob/master/us-unemployment.md)
+
+---
+
+# ggplot2 extensions: gganimate &lt;img src="../../images/slides/dsba-rintro/gganimate.png" width="70px" align="right" /&gt;
+
+.center2[
+&lt;img src="../../images/slides/dsba-rintro/kay1.gif" width="800px" style="display: block; margin: auto;" /&gt;
+]
+
+[Hypothetical Outcome Plots (HOP)](https://medium.com/hci-design-at-uw/hypothetical-outcomes-plots-experiencing-the-uncertain-b9ea60d7c740): [`tidybayes`](https://mjskay.github.io/tidybayes/) &amp; [`gganimate`](https://gganimate.com/)
+
+---
+
+# Rmarkdown: reproducibility &lt;img src="https://www.rstudio.com/wp-content/uploads/2015/12/RStudio_Hex_rmarkdown.png" width="70px" align="right" /&gt;
+
+[RStudio RMarkdown documentation](https://rmarkdown.rstudio.com/)
+
+.center2[
+&lt;img src="../../images/slides/dsba-rintro/code-1-options.png" width="750px" style="display: block; margin: auto;" /&gt;
+]
+
+---
+
+# rmarkdown: word doc's &lt;img src="https://www.rstudio.com/wp-content/uploads/2015/12/RStudio_Hex_rmarkdown.png" width="70px" align="right" /&gt;
+
+&lt;img src="../../images/slides/dsba-rintro/rmarkdown2.gif" width="1000px" style="display: block; margin: auto;" /&gt;
+
+---
+
+# Even more of rmarkdown &lt;img src="https://www.rstudio.com/wp-content/uploads/2015/12/RStudio_Hex_rmarkdown.png" width="70px" align="right" /&gt;
 
 .pull-left[
+![](../../images/slides/dsba-rintro/bookdown.png)&lt;!-- --&gt;
+.verysmall[
+- ["Data Visualization: A Practical Introduction](https://socviz.co/) by Kieran Healy
 
-```r
-df &lt;- filter(babynames, sex=="M")
-df &lt;- filter(df, name=="Taylor") 
-df &lt;- arrange(df, desc(n))
-df &lt;- select(df, year, n, prop)
+- ["Fundamentals of Data Visualization"](https://serialmentor.com/dataviz/) by Claus Wilke
 
-head(df, n=3)
-```
-
-```
-## # A tibble: 3 x 3
-##    year     n    prop
-##   &lt;dbl&gt; &lt;int&gt;   &lt;dbl&gt;
-## 1  1992  8240 0.00393
-## 2  1991  7967 0.00376
-## 3  1993  7688 0.00372
-```
+- ["R for Data Science"](https://r4ds.had.co.nz/index.html) by Garrett Grolemund and Hadley Wickham
 ]
+
+]
+--
 .pull-right[
+![](../../images/slides/dsba-rintro/blogdown.png)&lt;!-- --&gt;
+.verysmall[
+My blogdown website (all materials public) for my DSBA 5122: Visual Analytics course: [dsba5122.com](https://dsba5122.com)
+]
 
-```r
-babynames %&gt;%
-  filter(sex=="M") %&gt;%
-  filter(name=="Taylor") %&gt;%
-  arrange(desc(n)) %&gt;%
-  select(year, n, prop) %&gt;%
-  head(n=3)
-```
-
-```
-## # A tibble: 3 x 3
-##    year     n    prop
-##   &lt;dbl&gt; &lt;int&gt;   &lt;dbl&gt;
-## 1  1992  8240 0.00393
-## 2  1991  7967 0.00376
-## 3  1993  7688 0.00372
-```
 ]
 
 ---
 
-class: middle, center
+# What if you need JavaScript libraries?
+
+&lt;img src="../../images/slides/dsba-rintro/leaflet.png" width="580px" style="display: block; margin: auto;" /&gt;
+
+---
+
+# htmlwidgets: JavaScript Packages in R
+
+
+&lt;img src="../../images/slides/dsba-rintro/htmlwidgets.png" width="700px" style="display: block; margin: auto;" /&gt;
+
+---
+
+# htmlwidgets: leaflet + rtweet
+
+.big[
+
+```r
+library(tidyverse)
+library(leaflet) # htmlwidget for leaflet
+library(rtweet)  # see rtweet.info
+    
+tweets &lt;- search_tweets(
+*  q = "beer",                   # query term
+*  geocode = "35.23,-80.84,20mi",# geolocation: charlotte + 20mi
+  n = 3200) %&gt;%             # max tweets via public api
+    lat_lng() %&gt;%           # convert lng/lat to dataframe
+    filter(!is.na(lng))     # remove records missing lng/lat
+
+tweets %&gt;%            # tweets data frame
+  leaflet() %&gt;%       # pass to leaflet
+  addTiles() %&gt;%      # add tiles
+  addCircleMarkers(
+*   lng=tweets$lng,      # latitude
+*   lat=tweets$lat,      # longitude
+*   popup = tweets$text, # add tweet text
+    clusterOptions = markerClusterOptions()
+  ) 
+```
+]
+---
+
+# htmlwidgets: leaflet
+
+<div id="htmlwidget-76705a8e7ef654686758" style="width:100%;height:504px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-76705a8e7ef654686758">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addCircleMarkers","args":[[35.025,35.025,35.025,35.025,35.025,35.025,35.025,35.025,35.025,35.0538,35.025,35.025,35.025,35.0538,35.025,35.025,35.025,35.025,35.4104,35.4101,35.4104,35.4104,35.4151,35.4321,35.0377,35.0377,35.3167,35.3167,35.0377,35.4151,35.1717,35.3167,35.4598,35.4104,35.4104,35.0377,35.1717,35.3167,35.4151,35.4104,35.4101,35.4104,35.1717,35.4647,35.4598,35.3167,35.4104,35.4101,35.107,35.4104,35.3167,35.0377,35.4104,35.3167,34.9976,34.9976,34.9976,34.9976,35.4423,35.209059,35.0643236,35.0274,35.209059,35.356506,35.382,35.382,35.382,35.382,35.2513,35.209059,35.4151,35.4151,35.4151,35.209059,35.2479,35.2479,35.2497,35.0091,35.2497,35.22694444,35.22583333,35.2346,35.1699,35.2106,35.2104,35.209059,35.2125,35.056,35.1198,35.1167,35.1223,35.1168,35.1167,35.2497,35.3411,35.4151,35.4151,35.3844,35.2708,35.4151,35.209059,35.209059,35.209059,35.209059,35.209059,35.2131403,35.41564,35.41515,35.415085,35.41515,35.209059,35.209059,35.209059,35.209059,35.2974,35.2974,35.2974,35.2974,35.2974,35.2974,35.2974,35.2005,35.2005,35.2011,34.9994,35.1401,35.1874,35.2011,35.1945,35.1828,35.2011,34.9965,34.9965,35.2074,35.4151,35.4151,35.2513,35.2309,35.4009,35.4009,35.4142464596599,35.41889,35.48054,35.23465,35.23465,35.2635,35.2478,35.2129,35.2479,35.2453,35.2193,35.2453,35.2257,35.2479,35.2129,35.2479,35.2193,35.2193,35.4019815,35.0967,35.4102,35.0967,35.4151,35.2211,35.0967,35.3274,35.4151,35.4104,35.4151,35.0967,35.4142,35.3251,35.3251,35.3251,35.2497,35.3251,35.3251,35.3265,35.3265,35.3251,35.0091,35.3209,35.3209,35.3265,35.3251,35.3209,35.2497,35.0382,35.0382,35.0382,35.0382,35.0022135,35.22694444,35.2242,35.2406,35.4826,35.4826,35.3265,35.3265,35.3209,35.4457,35.4402342452589,35.0893,35.1367,35.0893,35.2085,35.2085,35.2242,35.0893,35.2085,35.0893,35.246959,35.209059,35.209059,35.2326781,35.23249,35.4019815,34.9956213,35.4019815,35.209059,35.22694444,35.24872081,35.24872081,35.24872081,35.0525255,35.1359,35.1359,35.2407188,35.2407188,35.083442,35.209059,35.209059,35.209059,35.222473,35.24707,35.46078,35.25157,35.21051,35.0076011,35.209059,35.2253,35.4809955,35.2479,35.2497,35.2497,35.209059,35.209059,35.2723434340645,35.2513,35.209059,35.209059,35.4836,35.209059,35.2264115,35.2264115,35.24762287,35.2257793033012,35.2271,34.9991,35.0357,34.9991,35.209059,35.2258,35.2272,35.2272,34.9771,35.209059,35.209059,35.209059,35.3104,35.3104,35.209059],[-80.8046,-80.8046,-80.8046,-80.8046,-80.8046,-80.8046,-80.8046,-80.8046,-80.8046,-80.7736,-80.8046,-80.8046,-80.8046,-80.7736,-80.8046,-80.8046,-80.8046,-80.8046,-80.5806,-80.5808,-80.5806,-80.5806,-80.5772,-80.6045,-81.0135,-81.0135,-80.7406,-80.7406,-81.0135,-80.5772,-80.8493,-80.7406,-80.585,-80.5806,-80.5806,-81.0135,-80.8493,-80.7406,-80.5772,-80.5806,-80.5808,-80.5806,-80.8493,-80.5919,-80.585,-80.7406,-80.5806,-80.5808,-81.0406,-80.5806,-80.7406,-81.0135,-80.5806,-80.7406,-80.968,-80.968,-80.968,-80.968,-80.9968,-80.8467855,-80.649824,-80.9816,-80.8467855,-80.8551388,-80.9183,-80.9183,-80.9183,-80.9183,-80.8126,-80.8467855,-80.5772,-80.5772,-80.5772,-80.8467855,-80.8041,-80.8041,-80.8342,-80.854,-80.8342,-80.84333333,-80.85277778,-80.8267,-80.9049,-80.8634,-80.8633,-80.8467855,-80.8172,-80.8528,-80.7186,-80.7192,-80.6545,-80.7193099,-80.7192,-80.8342,-80.8046,-80.5772,-80.5772,-80.7861,-81.0052,-80.5772,-80.8467855,-80.8467855,-80.8467855,-80.8467855,-80.8467855,-80.85941792,-80.6768,-80.57723,-80.57734,-80.57723,-80.8467855,-80.8467855,-80.8467855,-80.8467855,-80.6604,-80.6604,-80.6604,-80.6604,-80.6604,-80.6604,-80.6604,-80.8659,-80.8659,-80.8693,-80.9103,-80.7354,-80.8815,-80.8693,-80.8749,-80.8801,-80.8693,-80.9189,-80.9189,-80.8531,-80.5772,-80.5772,-80.8126,-80.8265,-80.7598,-80.7598,-80.6033157106892,-80.83376,-80.86,-81.16902,-81.16902,-81.1833,-80.804,-80.8593,-80.8041,-80.8095,-80.8492,-80.8095,-80.8468,-80.8041,-80.8593,-80.8041,-80.8492,-80.8492,-80.6311314,-81.1174,-80.581,-81.1174,-80.5772,-80.8155,-81.1174,-80.7116,-80.5772,-80.5806,-80.5772,-81.1174,-80.6033,-80.7381,-80.7381,-80.7381,-80.8342,-80.7381,-80.7381,-80.6467,-80.6467,-80.7381,-80.854,-80.6509,-80.6509,-80.6467,-80.7381,-80.6509,-80.8342,-80.8517,-80.8517,-80.8517,-80.8517,-80.89735,-80.84333333,-80.9405,-80.8452,-80.9954,-80.9954,-80.6467,-80.6467,-80.6509,-80.8792,-80.8451199425573,-80.8857,-80.9319,-80.8857,-80.8652,-80.8652,-80.9405,-80.8857,-80.8652,-80.8857,-80.805993,-80.8467855,-80.8467855,-80.8460822,-80.814,-80.6311314,-80.676074,-80.6311314,-80.8467855,-80.84333333,-81.07060432,-81.07060432,-81.07060432,-80.8481126,-80.9401,-80.9401,-80.8450012,-80.8450012,-80.733071,-80.8467855,-80.8467855,-80.8467855,-80.94763,-80.80624,-80.84711,-80.812472,-80.86347,-80.9440553,-80.8467855,-80.8432,-80.81504675,-80.8041,-80.8342,-80.8342,-80.8467855,-80.8467855,-81.0052764415741,-80.8126,-80.8467855,-80.8467855,-80.8684,-80.8467855,-81.0378265,-81.0378265,-80.83310731,-80.8528518676758,-80.8431,-80.9294,-80.9143,-80.9294,-80.8467855,-80.8529,-80.8463,-80.8463,-80.9901,-80.8467855,-80.8467855,-80.8467855,-80.7492,-80.7492,-80.8467855],10,null,null,{"interactive":true,"className":"","stroke":true,"color":"#03F","weight":5,"opacity":0.5,"fill":true,"fillColor":"#03F","fillOpacity":0.2},{"showCoverageOnHover":true,"zoomToBoundsOnClick":true,"spiderfyOnMaxZoom":true,"removeOutsideVisibleBounds":true,"spiderLegPolylineOptions":{"weight":1.5,"color":"#222","opacity":0.5},"freezeAtZoom":false},null,["The OG.  The best. - Drinking a Citraquench'l by @HeistBrewery @ Savage House  — https://t.co/o1I8RFeYNO","Drinking a Freshtoberfest by @unknownbrewing @ Savage House — https://t.co/TZrjLdRApz","Drinking a FestBrook by @westbrookbeer @ Savage House — https://t.co/cuUT4pxOV2","Drinking a Culture Keeper's Festbier by @burialbeer/@creaturebeer @ Savage House — https://t.co/HEwXkTzFdy","On the sweeter, boozier side.  Decent hop finish. - Drinking a FestBrook by @westbrookbeer @ Savage House  — https://t.co/P2BfmlmigU","Very bitter.  Nice change up for a NEIPA.  Can feel the 7.5% abv as well.  Not as sneaky as some of the “softer” hazies. - Drinking a Powder Dreams (Amarillo Lupulin Powder, Azaca, Ella Hops by @cptlawrencebeer @ Savage House  — https://t.co/0gnfqVhfe2","Drinking a Blurred Is the Word by @HeistBrewery @ Savage House — https://t.co/iFJE3KxGZh","Drinking a Mama Ain't Home by @HeistBrewery @ Savage House — https://t.co/ULXQKKwyUF","Drinking a Photo Prop IPA by @CasitaTweets @ Savage House — https://t.co/kA4aoYKaEu","Drinking a Paper Roses IPA by @CasitaTweets @ Duckworth’s Grill &amp; Taphouse — https://t.co/DTAnSnTXkp","Drinking a Pinky Ring Bling by @Southern_Range @ Savage House — https://t.co/B1EphZrPZi","Drinking a Radio Haze by @nodabrewing @ Savage House — https://t.co/awP08A2abZ","Drinking a Citraquench'l by @HeistBrewery @ Savage House — https://t.co/mXiB4xrVKB","Drinking an EMO-J by @HeistBrewery @ Duckworth’s Grill &amp; Taphouse — https://t.co/st9aA4ZGR4","Drinking a Fake Plastic Trees Hazy IPA by @BirdsongBrewing @ Savage House — https://t.co/bBvDRiEdCZ","Drinking a Hop, Drop ‘n Roll by @nodabrewing @ Savage House — https://t.co/eWboGHDDxb","Drinking a Game Winner IPA by @BirdsongBrewing @ Savage House — https://t.co/Z1QdGXwsxE","Drinking a Clt Brew’d Hazy Daze IPA by @stbcbeer @ Savage House — https://t.co/CdMi4FvXGw","Drinking a Ridge Red by Morgan Ridge Railwalk Brewery &amp; Eatery at @justgoodbeer — https://t.co/jb6q4mLyK0","Drinking a Best Brown Ale by @BellsBrewery @ Lil' Robert's Place — https://t.co/GQe2krcmsP","Drinking a Ridge Red by Morgan Ridge Railwalk Brewery &amp; Eatery at @justgoodbeer — https://t.co/63cL0kRAmC","Drinking a Rye And Hops And You by Red Hill Brewing Company at @justgoodbeer — https://t.co/lSCXEuE89q","Drinking a Cherry Lemon by @Southern_Strain at @Southern_Strain — https://t.co/LA1y1SqY1p","Drinking a Samuel Adams OctoberFest by @SamuelAdamsBeer at @applebees — https://t.co/u6H7S9mXo0","Drinking a Guayabera by @CigarCityBeer @ Lake Wylie - York County — https://t.co/QT1S8zWtck","Drinking a Guayabera by @CigarCityBeer @ Lake Wylie - York County — https://t.co/bw7jzCnwMm","Drinking a Roaring Riot by @nodabrewing at @flyingsaucercha — https://t.co/xarOGjSaK0","Drinking an Oktoberfest by @FoothillsBeer at @flyingsaucercha — https://t.co/cnv1bHdD2R","Drinking a Guayabera by @CigarCityBeer @ Lake Wylie - York County — https://t.co/zLcO07JlO7","Pretty good for a sour. Little bit of sweet mixed with some tart. Good punch of cherry! - Drinking a Cherry Lemon by @Southern_Strain at @Southern_Strain  — https://t.co/cwPKhC8PNG","Drinking a Pre-Game by @unknownbrewing at @librettosclt — https://t.co/4Fbd5CBOih","Drinking a Lagerfest by @mjlagerco at @flyingsaucercha — https://t.co/h6RdsJzQKJ","Drinking a Copperfield Cream Ale by @commonersbrewco @ Commoners Brewing Company — https://t.co/if6Qs2rFsg","Drinking a Rye And Hops And You by Red Hill Brewing Company at @justgoodbeer — https://t.co/KZur3EBFM0","Drinking a Rye And Hops And You by Red Hill Brewing Company at @justgoodbeer — https://t.co/lcIR4B8kkQ","Drinking a Guayabera by @CigarCityBeer @ Lake Wylie - York County — https://t.co/WaAqfyaLCa","Drinking a Pre-Game by @unknownbrewing at @librettosclt — https://t.co/BpPidt2yhh","Drinking a Watermelon Dragonfruit Burst by @wickedweedbeer at @flyingsaucercha — https://t.co/Mgq5bIxm2Z","Drinking a Hop Helix by @Southern_Strain at @Southern_Strain — https://t.co/ypdFYVpEuT","Drinking a Rye And Hops And You by Red Hill Brewing Company at @justgoodbeer — https://t.co/MaiMCQ50kj","Drinking a Samuel Adams OctoberFest by @SamuelAdamsBeer @ Lil' Robert's Place — https://t.co/wms70dWdRN","Drinking a Rye And Hops And You by Red Hill Brewing Company at @justgoodbeer — https://t.co/iFLoXev3uA","Drinking a Landshark Lager by Margaritaville Brewing Co. at @librettosclt — https://t.co/K75bfFp5Gg","Drinking a Mountain Candy® IPA by @SycamoreBrewing at @eastcoastwings — https://t.co/LLUqh38Mpd","Drinking a Bo's Black IPA by @commonersbrewco @ Commoners Brewing Company — https://t.co/dN41cdOoxT","Drinking an Oktoberfest by @GLBC_Cleveland at @flyingsaucercha — https://t.co/K6J3xyRmsC","Drinking a Rye And Hops And You by Red Hill Brewing Company at @justgoodbeer — https://t.co/WQNlvkuts8","Drinking a Samuel Adams OctoberFest by @SamuelAdamsBeer @ Lil' Robert's Place — https://t.co/klfliAw0lz","Drinking a Maduro Brown Ale by @CigarCityBeer @ Papa Doc's Shore Club — https://t.co/xeBIlDx5Cg","Drinking a Ridge Red by Morgan Ridge Railwalk Brewery &amp; Eatery at @justgoodbeer — https://t.co/PGPolA9rJB","Drinking a Can-O-Bliss Tropical IPA by @oskarblues at @flyingsaucercha — https://t.co/yepDpwtIv5","Drinking a Guayabera by @CigarCityBeer @ Lake Wylie - York County — https://t.co/j1GohkhxVE","Drinking a Ridge Red by Morgan Ridge Railwalk Brewery &amp; Eatery at @justgoodbeer — https://t.co/qdxKmkS2nB","Drinking an Oktoberfest by @TripleCBrew at @flyingsaucercha — https://t.co/k3zAa9WqKh","Drinking a Swell Rider Tangerine Session Ale by @D9Brewing @ Cascades At River Crossing Pool — https://t.co/XbdAmO0hnn","Drinking a Pink Blazer Hefeweizen by @BlueBlazeBrew @ Cascades At River Crossing Pool — https://t.co/3hkfzVEH8N","Drinking a Swell Rider Tangerine Session Ale by @D9Brewing @ Cascades At River Crossing Pool — https://t.co/6lNliRAjWi","Drinking a Cherry Bobbin' Trolls by @RedClayCider @ Cascades At River Crossing Pool — https://t.co/4PNlM4LVw9","Drinking an Old Tuffy by @newbelgium @ Sports Page Denver — https://t.co/Z61DT6Zt5S","@jennabretz Wait... beer isnt dinner?","@kelc_mae That was my last night but with beer","On da front porch with a stick &amp; a brew with my laptop in my lap since I gotta werk. Might as well make it enjoyable. #CraftBeer ♥️it @15.2% - Drinking a Bourbon County Brand Stout (2018) 15.2% by @GooseIsland @ The Allen Brew House  — https://t.co/ABETtMpAoN","Middle aged beer belly men stepping to pro athletes with fist ... bc ? https://t.co/1g4uo1R3Ii","My beer bottle opener is better than yours! https://t.co/47cjA7Zk4d","Spooky scary silicon cup full of bee juice 🐝 - Drinking a Honey Badgerita by @CraftedMead @ riley`s room o fun  — https://t.co/m254tXh4n6","Iv had like seven of these — Drinking a Natural Light Aloha Beaches @ riley`s room o fun — https://t.co/cgvwC664I2","Taste more like a soda than a seltzer. - Drinking a Natural Light Aloha Beaches by @AnheuserBusch @ riley`s room o fun  — https://t.co/bq0TgeqH9F","BIg Fan - Drinking a Brizo - Raspberry Lemon Seltzer by @nodabrewing @ riley`s room o fun  — https://t.co/Czsy4WAvp0","Free beer for running a race - Drinking a Jogger Lager by @nodabrewing @ NoDa Brewing Company North End  — https://t.co/jxLjRDq5S3","Are you following us on @instagram?\n\nEvery Sunday, we #giveaway some pretty sweet beer and fitness #swag! \n\nWe can’t wait for you to see what we’re giving away today: https://t.co/HYqZTGMY8S https://t.co/X85u5q77l4","So unique I can't get enough - Drinking a Maltøl by @Southern_Strain at @Southern_Strain  — https://t.co/Z8CMTAQmOi","My jam - Drinking a Double Helix by @Southern_Strain at @Southern_Strain  — https://t.co/UxhaJoyl8h","This brewery is unreal. Can't believe this is in my hometown and right down the road from me. - Drinking an Out To Pasteur by @Southern_Strain at @Southern_Strain  — https://t.co/5qMJyGLFcv","Trying to figure out what to do at halftime: Another beer or fire up the coffee pot.","Drinking a Mortal Beauty by @ResidentCulture at @SaludNODA — https://t.co/wRwg5dU1AQ","Drinking a Karate Chimp by @Prairieales at @SaludNODA — https://t.co/tIEKszCdhe","Drinking an Isle of Tortuga by @HeistBrewery at @heistbrewery — https://t.co/lnbOABc87S","Wow - Drinking an Above the Clouds by @eqbrewery at @southernspiritz  — https://t.co/Y9wTYhrNmz","Drinking a Blurred Is the Word by @HeistBrewery at @heistbrewery — https://t.co/5oEm193FSP","Exactly how I’m going to sleep tonight after the day I’ve had.\nDead Sleep S’mores Stout\nBrewed and conditioned with graham, marshmallow, and chocolate 8% @dg_beer @ Charlotte, North Carolina https://t.co/tXCjsM4jc5","Football is back, hope your ready for these Sunday Selfies for the next few months 😂\n🏈\n🏈\n#craftbeer #beer #juice #juicebomb #juicy #ipa #beerporn #beerstagram  #instabeer #beergeek #beertrade… https://t.co/oIlKfNFIXp","Checking out Optimist Hall for lunch!! - Drinking a Culture Keeper's Festbier by @burialbeer/@creaturebeer @ Optimist Hall  — https://t.co/O0fmXhwP8M","Wee bit too bourbony &amp; way too little vanilla smoked porterish, paired with a Drew Estate Kentucky Fire Cured cigar! - Drinking a Bourbon Barrel Vanilla Smoked Porter by @BreweryOmmegang @ Charlotte Party Bus  — https://t.co/YWtN6sglic","First Mectoberfest of the season with my CoE!! #DrinkLocal!! - Drinking a Mecktoberfest by @oldemeckbrew @ Bang Bang Burgers Southend  — https://t.co/KPSwJpMblL","My first Harvest Time of the season, been forever since I have had this beer! - Drinking a Harvest Time by @bigbossbeer at @commonmarket  — https://t.co/0QSv32kc96","@Vordb “$40 to record the album? Fuck that, buy beer and we’ll just release everything we’ve made so far”","Drinking a Juicy Jay Pineapple by @LegionBrewing at @bangbangburgers — https://t.co/wOYoPvEivF","oh so good - Drinking a Marshal Zhukov's Penultimate Push by @CigarCityBeer at @duckworthsnc  — https://t.co/0y2YOZ2twB","Drinking an 3rd Floor Tripel by Munkle Brewing Co. @ The Loyalist Market — https://t.co/E2yi8tvTP2","paired with Tempesta Coppa Picante - Drinking a Dawn Speak by @mikkellersd/@TarantulaHill at @ncbeertemple  — https://t.co/LNOvXllxAB","Drinking a Clt Brew’d Hazy Daze IPA by @stbcbeer @ Moochies Tavern — https://t.co/skarJzUXcb","fancy beers and fancy meats @ Carolina Beer Temple https://t.co/9jdF0Yx0OJ","wish it was imperial 🤣 paired with Finochiona - Drinking a Nitro Merlin by @FirestoneWalker at @ncbeertemple  — https://t.co/NcyfnU9UwX","Mmmm. Check off another 1 - Drinking a Citraquench'l by @HeistBrewery at @heistbrewery  — https://t.co/3fnCjoU1qB","Drinking a Mai Concerto by @twistedbinebeer @ Earmarket — https://t.co/0AfyMDAaQx","Two fifty six - Drinking a Local Vein by @Southern_Strain at @Southern_Strain  — https://t.co/ij7DZyeUyw","That’s quite good - Drinking an Out To Pasteur by @Southern_Strain at @Southern_Strain  — https://t.co/TGbJCLEHcd","Drinking a Reptar Juice by @26AcresBrewing @ Que Onda — https://t.co/pM7juyrnYR","Drinking a Juicy Jay by @LegionBrewing @ USNWC Trail Head — https://t.co/OzM24HrTeS","Hey that’s rf good - Drinking a Mello’ Mornin’ by @Southern_Strain at @Southern_Strain  — https://t.co/YnUPJgtpHR","@LewisFranck @DullesDistrict  My first take as an old marketer was the Italian GP should be sponsored by an Italian wine, not by a Dutch beer!🙄 https://t.co/bCbpkGQ9Gz","The first day back after a long weekend can be rough. Take the edge off at Beer&amp; Hops tonight! Try (4) 5 oz pours of different single-hop beers, then enjoy a full pour of your favorite! https://t.co/QGo6gchxYq\n#cltbeer #ncbeer #hops https://t.co/casp8Kv4Fu","Are you excited for our Konrad Kölsch #beer release today?","Tell all your furry friends! We’re hosting a Yappy Hour on Monday, 9/16 with our new neighbors down the street at Queen City Animal Hospital. \n\nTreats for the doggos, beer for you!https://t.co/IkZhHMZ6mj\n#cltevents #dogs #cltbeer https://t.co/Mit1i8upH9","Meet Konrad: a traditional German beer with an American twist (tapping tomorrow at 3pm)! This 5.5% ABV Kölsch shows off aromas of lemongrass and floral notes followed by a gentle bready malt base and soft fruity esters. A real crusher with a crisp, clean finish. #cltbeer https://t.co/qhiFUQHM9O","It’s game day!! Our hometown @panthers are starting off the season at 1pm today.\n\nWe are opening an hour early at 11am!\n\nStop in and grab some great craft beer for tailgating or stay and watch the game WITH sound 🔊… https://t.co/S24udA9uBT","Got our foodie on at 44_mills tonight. Pork chop and salmon and craft cider and beer. #feedwell @ 44 Mills Kitchen &amp; Tap https://t.co/6T9dIqSkzl","Brew and Feed paid a visit to @Southern_Strain for their opening weekend. Smooth work folks. Great space and good beer. #brewstrong @ Southern Strain Brewing Company https://t.co/WHUwHiZwgB",".@Southern_Strain #GrandOpening #local #beer #concord #northcarolina #southernstrainbrewing #southernstraingang #thankyou https://t.co/rcZr1T4mJh","crosspost: @Southern_Strain #local #craft #beer #recommended #concord #northcarolina #new #business #cherry #lemon #sour #hophelix #grandopening #congratulations #southernstraingang @ Southern Strain Brewing Company https://t.co/WCfV2yA1a3","shout out to @SpitTinRivers for the big weekend ahead! looking forward to seeing and tasting all the things!! #southernstrainbrewing #local #nc #beer #grandopening #getup #getout #getsomething","dear #NorthCarolina,\n\nif you're into #local #craft #beer then it's highly #recommended to go check out #concord's latest #new #business @Southern_Strain \n\nthe #cherry #lemon #sour is out of this world. and for the #hop heads, don't hesitate when going for the #hophelix\n\nlove,\n\n-n","Literally the only 2 places open for breakfast are Smash Burger and the NODA Brewing Company.\n\nCan...can I have a burger and beer for breakfast???","Men’s groupchats are like:\n\n“Beer?”\n“Maybe”\n“What time?”\n“Idk”\n“Lemme know”\n[four days of silence]\n“Sports news”\n“Oh wow”\n[six days of silence]\n“Beer?”","Drinking a Pumking (2019) by @stbcbeer @ Kdogg's Mancave — https://t.co/aqbLnLnirq","Drinking a Dreamsicle IPA by @nodabrewing @ Kdogg's Mancave — https://t.co/j4Y5vQ2Qgs","The more I drink the more I like this! - Drinking a Dreamsicle IPA by @nodabrewing @ Kdogg's Mancave  — https://t.co/GLY4lONRyd","Drinking a Dreamsicle IPA by @nodabrewing @ Kdogg's Mancave — https://t.co/MHrEy7dQN9","Drinking a Pumking (2019) by @stbcbeer @ Kdogg's Mancave — https://t.co/F3d125OrGe","Drinking a Pumking (2019) by @stbcbeer @ Kdogg's Mancave — https://t.co/4m5jtrlMBK","Drinking a Pumking (2019) by @stbcbeer @ Kdogg's Mancave — https://t.co/QiuSM0Hitg","Good pineapple flavor and not sweet on the back end.  #CLTBeer #NCBeer #CraftBeer - Drinking a Juicy Jay Pineapple by @LegionBrewing @ Bar At Harris Teeter  — https://t.co/qbIk5xeIfj","#CLTBeer #NCBeer #CraftBeer - Drinking a Radio Haze by @nodabrewing @ Bar At Harris Teeter  — https://t.co/FxZfVKjPl6","A tasty example of the style.  #CLTBeer #NCBeer #CraftBeer - Drinking an Oktoberfest by @TripleCBrew at @triplecbrew  — https://t.co/o7eEIpDdhb","Drinking a Clawhammer Oktoberfest by @highlandbrews @ Lakebridge — https://t.co/iR6Gter33E","Drinking a Dos Equis Ambar by Cervecería Cuauhtémoc Moctezuma S.A. de C.V. @ Mi Pueblo Mexican Grill — https://t.co/6sTDJIBz65","Yum. - Drinking a Mecktoberfest by @oldemeckbrew at @oldemeckbrew  — https://t.co/mtk4mfwwRz","Roasty. Great malt backbone. - Drinking an Aaaahhhhhhhhhhhhhhhhhhhhhhhhkkkkkkkkktoberfest by @TripleCBrew at @triplecbrew  — https://t.co/pnvPKTkqE5","It’s back! — Drinking a Chai-Jacked by @RedClayCider at @redclaycider  — https://t.co/S73kTCYTl8 #photo","Light. Refreshing. Nice coconut flavor. - Drinking a Three Hour Tour by Lower Left Brewing Co. @ Lower Left Brewing Co.  — https://t.co/nzMlozJEId","Not too tart. Nice hint of strawberry. - Drinking a Strawberry Margarita Gose by @TripleCBrew at @triplecbrew  — https://t.co/oEV7Nj1njp","Decent beer. - Drinking a Miracle Worker Tripel by @yellowhammerale @ Brew House 160 (homebrew)  — https://t.co/JYAJIFF6De","Thanks @jmarcosreyes for introducing me to this beer. - Drinking a Pay It Forward Cocoa Porter by @westsixth @ Brew House 160 (homebrew)  — https://t.co/VOlBGCpODn","Drinking a Mythos by Olympic Brewery @ Yiasou Greek Festival — https://t.co/Ut9QFmtV3w #photo","Drinking a Cherry Lemon by @Southern_Strain at @Southern_Strain — https://t.co/pxdMzAKO05","Drinking an Out To Pasteur by @Southern_Strain at @Southern_Strain — https://t.co/5uV1jdJaxA","First one this season! - Drinking a Gordgeous by @nodabrewing @ NoDa Brewing Company North End  — https://t.co/5JS1DGlxS7","Drinking a Game Winner IPA by @BirdsongBrewing at @BirdsongBrewing — https://t.co/eaRdO3bOVi","Drinking an 420 Strain G13 IPA by @SweetWaterBrew @ Hop &amp; Vine — https://t.co/aBvDbk54FY","Drinking a Barn Beer by Plan Bee Farm Brewery @ Hop &amp; Vine — https://t.co/QsGzanwyxW","Mmmmmmmm beer https://t.co/uCbDG9U1X4","Dont forget to join us tomorrow for The Food Truck Invitational from 12-8pm! Beer, vendors, food and more! Make sure you stop by and see us under The Big Yellow Tent!! @ Yappy Hour Bakery https://t.co/LQv1bvtX0Y","Food trucks,  vendors, beer and more!! Stop by and see us, grab some treats for yourself and your pup! @ Oak Street Mill https://t.co/V67KcQyZCz","TODAY!! LIVE ROLLER DERBY!! \nHUDSON LOCATION!! \nDoors open at 7p.  Bout Whistle at 7:30p\n🍺BEER WILL BE SOLD 🍺\nFull Concession Open ✅\nFULL SERVICE PRO SHOP OPEN! ✅✅\nAdults $12   Kids $7 Jungle Gym $2\n\n⭐️ Our Hudson… https://t.co/ITjOeH34nW","LIVE ROLLER DERBY!! \nThis Saturday at our HUDSON LOCATION!! \nDoors open at 7p.  Bout Whistle at 7:30p\n🍺BEER WILL BE SOLD 🍺\nFull Concession Open ✅\nFULL SERVICE PRO SHOP OPEN! ✅✅\nAdults $12   Kids $7 Jungle Gym $2\n\n⭐️… https://t.co/bnyUf4xD90","Drinking a Grimes Mill Hazy IPA by New Sarum Salisbury Brewing Co @ Freeman's Pub — https://t.co/fY6y9i510M","Drinking an Alma De Madera by @saludcerveceria at @saludcerveceria — https://t.co/wejYibGMpU","Thanks for the hospitality @Hunt_Meister! - Drinking a Paw Paw Gose by @FontaFloraBrew at @popthetopclt  — https://t.co/gRvOZE1Jjz","Drinking a Stangebier by @CWBrewCo at @SaludNODA — https://t.co/pm30lBPMqI","Drinking a Carolime by @HeistBrewery at @HeistBrewery — https://t.co/pJm2tmx6X2","Drinking a Pop! by Ancillary* Fermentation @ Camden Grandview Apartments — https://t.co/5GTD6Ic7wr","Cody O. This ones for Joe - Drinking a Druid Pils by @HeistBrewery at @HeistBrewery  — https://t.co/7bsum9HAPX","Drinking a Pink Blazer Hefeweizen by @BlueBlazeBrew @ Queen City Bites and Crafts — https://t.co/dBMCHhp36n","Drinking a Whippoorwill by @FontaFloraBrew at @SaludNODA — https://t.co/5tTJX1tfsf","Drinking a Blackberry Bake Shop by @HeistBrewery at @popthetopclt — https://t.co/cccl0CrZka","Drinking a Just Too Likeable Lemongrass Miso Gose by @OozlefinchBeers at @SaludNODA — https://t.co/cXWDL7tpdc","Similar fruit forward taste to a New England IPA. But with a clearer complexion and lighter mouth feel - Drinking a Paper Roses IPA by @CasitaTweets @ Camden Grandview Apartments  — https://t.co/v9yZx24GDv","Drinking a Break of Moon by @FontaFloraBrew @ Camden Grandview Apartments — https://t.co/rmBcQ6AuRr","Ricky Bobby: “How bout we go get kicked out of an Applebees?”\nMike Harmon: “Hold my beer” https://t.co/3tJifc5baQ","Sniff test is lemony. Taste is light, crisp &amp; refreshing with that hint of lemon &amp; hop goodness. Perfect with nachos. - Drinking a Helles In the Tropics by @SierraNevada @ Broken H Oasis &amp; Spa (A Subdivision of Chucks MHP)  — https://t.co/GVmL4KBNwG","Sniff test is very aromatic with tropical and citrus. Taste is a juice bomb with a... (Jade IPA) https://t.co/XQbvOFo2cg #photo","Drinking a Pernicious IPA by @wickedweedbeer @ Broken H Oasis &amp; Spa (A Subdivision of Chucks MHP) — https://t.co/tJImxPVP2T","Sniff test is piney and a little funky. Taste is also piney with bitterness and dankness. Solid west coast IPA. - Drinking a Hop Helix by @Southern_Strain at @Southern_Strain  — https://t.co/Vm7oLeYN2a","Sniff test is apple and/or pear with yeastiness. Taste is light &amp; refreshing with flavors of pear, peppercorn along with some graininess. - Drinking an ExBEERimental: Casey's Saison W/ Belgian Ardennes Yeast by @pilotbrewing @ Pilot Brewing Company  — https://t.co/yVgaOqmqJv","Sniff test is orange. Taste is orange peel along with some grassiness. - Drinking a Sidecar Orange IPA by @SierraNevada @ Broken H Oasis &amp; Spa (A Subdivision of Chucks MHP)  — https://t.co/a4Dhbe2li5","Sniff test from the bottle is like any other American IPA.  The taste, however, is entirely different with flavors of mango and papaya. - Drinking a Tropical Torpedo by @SierraNevada at @livenationncsc  — https://t.co/lMsAEn2SB3","Sniff test is mostly coffee with a hint of chocolate. Taste is just phenomenal with a blend of chocolate and coffee and silky, smooth feel. - Drinking a Mello’ Mornin’ by @Southern_Strain at @Southern_Strain  — https://t.co/5UF8FeT2L5","Sniff is light with a hint of citrus. Taste is more malty with some citrus.... (Murph IPA) https://t.co/dhRHgpLpZr #photo","Sniff test is piney with some citrus. Taste is also piney with much less bitterness than Hop Helix. This Imperial version is outstanding. - Drinking a Double Helix by @Southern_Strain at @Southern_Strain  — https://t.co/DVIQJExJlF","No way I have 0 check ins on this beer!  Anyway it’s strong orange peel on the nose w/ sweet grain aroma. Taste is orange peel with... - Drinking a Pale Ale by @SierraNevada @ Broken H Oasis &amp; Spa (A Subdivision of Chucks MHP)  — https://t.co/7bnxkqyRJs","Sniff test is mostly malt with a hint of pine. Taste is piney with some bitterness but with enough malt bill to balance it out. - Drinking a Rocky River IPA by @cabarrusbrewco @ Cabarrus Brewing Co.  — https://t.co/LBs9362hdQ","I didn’t get any orange cream flavor - Drinking an Orange Cream Lager by Nimble Hill Brewing @ Gizmo’s Crib  — https://t.co/yeHid5tAVD","👍🏽 - Drinking a Hedge Maze by @henhousebrewing @ Gizmo’s Crib  — https://t.co/r1AxbnpuUf","Yummmm! galaxy💕 — Drinking a Phosphorescent by @freethoughtbeer @ Gizmo’s Crib  — https://t.co/t7K56cAmw6 #photo","Yum! - Drinking an EMO-J by @HeistBrewery at @heistbrewery  — https://t.co/HNdctge57r","I had to pic the girl can😂 - Drinking a Photo Prop IPA by @CasitaTweets @ Gizmo’s Crib  — https://t.co/f62JkEEVLy","Drinking  The Incredible by @henhousebrewing @ Gizmo’s Crib — https://t.co/Jgi3IzNBte","Drinking a kum &amp; Go (Cinnamon Kumquat) by Percent Tap House @ Percent Tap House — https://t.co/pXYRpFhaF9","Drinking a POCO PICANTE STOUT by @AssClownBrewing @ Percent Tap House — https://t.co/79sABZDNvh","Drinking a Dystopian Galaxy by Abomination Brewing Company @ Gizmo’s Crib — https://t.co/NZNhBIh6F1 #photo","Drinking a Dragon Drink by @westbrookbeer at @southernspiritz — https://t.co/ZUAyuDuoGT","Drinking a Push Ups, Pogs &amp; Posers by @DivineBarrelCLT @ Lowes Foods #210 - Harrisburg — https://t.co/otgt2UD8EI","Drinking a Sour Blackberry Raspberry by @eobrewingco @ Lowes Foods #210 - Harrisburg — https://t.co/C07grXhmCS","Yummy! Perfect summer-meets-fall beer🍺 - Drinking a kum &amp; Go (Cinnamon Kumquat) by Percent Tap House @ Percent Tap House  — https://t.co/uWcgqjhJim","I need to stop trying Lagers... even if they have guava😞 - Drinking a Grab Ya’ By the Guava by @TripleCBrew @ Gizmo’s Crib  — https://t.co/3JqsoEhznH","Drinking a Neon Distraction by @DivineBarrelCLT @ Lowes Foods #210 - Harrisburg — https://t.co/glaXrGN9N2","Drinking an Apricot Pickin' by @HeistBrewery at @heistbrewery — https://t.co/64usunpIKw","Drinking a Complentation IPA 2019 by Campanology Brewing @ Bexley Crossings at Providence — https://t.co/Rjeoq9JAqo","Drinking a Gordgeous by @nodabrewing @ Bexley Crossings at Providence — https://t.co/plsqhoU87P","Drinking a Game Winner IPA by @BirdsongBrewing @ Bexley Crossings at Providence — https://t.co/7JEP8Z2QuE","Drinking a Gourd Rocker Imperial Pumpkin Porter by @doublebarley @ Bexley Crossings at Providence — https://t.co/gyBT8FdsR7","@TheKurb @SaraCivian Any slur that’s used to demean or insult is uncalled for.  It may not bother you or me, but if the intent is to insult someone, then it’s wrong.  Period.  It’s either wrong or it’s not.  Now back to my regularly scheduled beer and Braves.","@HopFlyBrewCo Sandsport. Review up tomorrow on Best Beer Blog. https://t.co/L92JmdWQf8. #beer #craftbeer #beergeek #tastgeek #outdoors #humpday🐪 #wednesday #grillingout #local #hopflybrewing #sandsport #rockymount… https://t.co/lLYXBoPhHO","Wherever you are tonight, make it a party!... (HopFish India Pale Ale (IPA)) https://t.co/rLe31d9kr5 #photo","Drinking an Over Soul by @ResidentCulture at @VBGBuptown — https://t.co/d1eHe0E4Mk","Drinking an ORANGE CITRUS IPA by @AssClownBrewing @ joeys Fine Food &amp; Spirits — https://t.co/RwEfq4n0v3","Drinking a Citropica IPA by @SycamoreBrewing @ joeys Fine Food &amp; Spirits — https://t.co/aBTaPlbj5m","Drinking a Coterie by Percent Tap House @ Percent Tap House — https://t.co/a6u6V56v1M","Lovely taste - Drinking a Shploing!! by @Omnipollo @ Percent Tap House  — https://t.co/FQOpyDijub","Enjoy after work while getting groceries porter - Drinking a Chocolate Coconut Porter by @elevenlakesbrew @ Lowes Foods #210 - Harrisburg  — https://t.co/AJ94u3oZbY","Drinking a Jade IPA by @FoothillsBeer @ Corkscrew — https://t.co/JwMW1hL8EV","@cvs What's with the cashier giving me attitude about wanting an actual person to check me out? I was buying beer! Do you really not want people to be carded for beer?","Drinking a Fly Kid by Middle James Brewing Company @ Middle James Brewing Company — https://t.co/MPXnCkKud5","Drinking a Psychedelic Flow by @SycamoreBrewing @ Tru by Hilton Charlotte Ayrsley — https://t.co/8P7TStfCl1","Drinking a Hour Mark by Middle James Brewing Company @ Middle James Brewing Company — https://t.co/ieKC0eGvyX","Drinking a Booty Call by @lennyboybrew at @LennyBoyBrew — https://t.co/BL5VQb8Md2","Drinking a Name Drop Guava Milkshake IPA by @lennyboybrew at @LennyBoyBrew — https://t.co/iYL9krTUX8","Drinking a Copper by @oldemeckbrew @ Explorer Lounge — https://t.co/CPGY38D2zB","Drinking a Mike's Nightmare by Middle James Brewing Company @ Middle James Brewing Company — https://t.co/DtFDDsaFcK","Drinking a Mirage by @lennyboybrew at @LennyBoyBrew — https://t.co/OcRwDP59y2","Drinking a Squatch Berry by Middle James Brewing Company @ Middle James Brewing Company — https://t.co/sVPiMnnIO7","Made it to @protagonistbeer and this place is beautiful, the beer is tasty, and the staff is Cicerone-level educated. 10/10; highly recommend. https://t.co/Zd8sIOE8F8","If you want hear my terrible beer takes &amp; opinions before I tweet them, you gotta join the FF. https://t.co/itWrdtk7bM","Just wrapped up facilitating my first ever design sprint this week @PassportHQ. After a thousand stickie notes and a lot of work I’m ready a beer 🍻 https://t.co/BptwuhzndT","It’s FIFTH STREET FRIDAY!!!-\n$8.99 burger with ANY DRAFT BEER ALL DAY TIL 9pm!! 🍔🍺. -\n-$5 WELLS - $3 SPIKED SELTZERS - $3 JELLO SHOTS ALL DAY &amp; NIGHT!!! djtrife is on from 10-2am tonight with the best tunes in the… https://t.co/bryXI0nGlI","I’m officially #inthebuilding ... #espressomule #gingerbeer Everything’s better with ginger beer!!!🥰😋👩🏽‍💻🙋🏽‍♀️ @ Queen's Coffee Bar https://t.co/eI6J52mpzg","Beer in the fridge. NFL is back. Full iPhone battery. \n\nLet’s have some fun Twitter. https://t.co/2uwTGft318","Finally been working out how I want to the past few weeks and it feels amazing. Gotta say though, I’ll cut soft drinks and tea but ya boy is not cutting tacos, margaritas, and good beer. The Dad Bod will always stay. #NoShame","Me joking to my dad two months ago: haha let’s hope we don’t have another big hurricane this year \n\nHurricane season: hold my beer","@ed_bRAYn Lol this is why it’s a one beer limit at work functions","One of our favorite ways to experience plaza_midwood is people-watching from the beer garden at @workmansfriend ... a close second to exploring the neighborhood with guests on our Old Favorites, New Flavors Tour… https://t.co/OwX3rU8An7","@carolinasmash1 tonight!\nKick the Keg specials on \nPublic Access Suspended Disbelief\nTown Pucker Your Axes\nWooden Robot Desserted Island\nCider Boys Peach County\nThey won't last long! @ District 8 Beer Company https://t.co/xoplTrgNF9","Football Season is almost here. Remember we'll have Sunday Draft Kings Leagues! #nflsundayticket #sundayticket @ District 8 Beer Company https://t.co/cHn1CSxtcz","@TheHillbillyPh1 tonight and NFL season begins. Game with sound, we'll stay open as long as there's a crowd. @ District 8 Beer Company https://t.co/qKK8rrN1pA","Raise your hand if you love a give-a-way?! We’re raffling off a swag filled cooler THIS SUNDAY at JJs Ballantyne! Join us for #nfl opening Sunday for $.50 wings / $3 drafts / $2 featured beer: #labattblue @ JJ's Red… https://t.co/6VvCQhfooT","Drinking a Flat Brim by @TripleCBrew at @macsstc — https://t.co/d7ebbJeNy6","Drinking a Game Winner IPA by @BirdsongBrewing at @macsstc — https://t.co/q8ehXcBJkY","NEW AT VBGB SUNDAYS!  Mimosa Flights &amp; Build your own Blood Mary bar! Get creative! New brunch menu too @ VBGB Beer Hall &amp; Garden https://t.co/RA7EvqMYxS","BLOODY MARY &amp; MIMOSA LOVERS listen up!! Build your own bloody Mary. Mimosa Flights. EVERY SUNDAY! New brunch menu too @ VBGB Beer Hall &amp; Garden https://t.co/Qz2TUKX9bY","Wondering minds want to know. Where can I get the best Wings..And a little voice says @thebellegrille.  What?...@thebellegrille Wonder no longer and head on over and get you some.  Coming soon...Craft Beer and… https://t.co/ZmSsiC5Bgd","@CBJspanberg @Panthers @SeatGeek @Bojangles1977 Hard to compete with food courts with unobstructed views of the field, real beer gardens,  sideline standing sections &amp; modern in game experiences that new stadiums have. Especially when you baking in the stands like last weeks college game or getting rained on like fanfest.","@JCobb40 Smokin’ Pig for BBQ...Rick Erwins for upscale dining...Pixie &amp; Bills for prime rib....ESSO Club for cold beer and good times. Enjoy your trip.","@krismbright Hello! \nWe have a beer finder on our website, but the biggest help is asking for us. Let your favorite spots know that you’re looking for @GLBC_Cleveland! We’ll do our best to get it stocked on our end. Thank you for being a #glbcsnob and #glbcfamily! \nhttps://t.co/KgdF32rXsr!","Our last @woodyandwilcox Beer Club at @NoDaBrewing was a HUGE success!! The winner of our #GreatAmericanBeerFestival tickets was so excited to hear his name called!! Thanks to everyone who came out and we’ll see you again soon!! 😎🍻 https://t.co/tG5AQNMohh","Class is in session 🍻 \nThis week’s Beer&amp; series is Beer &amp; Hops, an  interesting way to identify different hop varietals in beer. @ Protagonist https://t.co/BQX4ddGIM3","Tuesday night Yoga &amp; Beer 7pm at #D9BrewingCompany\n#D9BrewingCompany\n@d9brewing &amp; @Vinyasa_Arts_NC only $10 for the best brew &amp; Yoga in Town! #Vinyasaartslkn #AndyTotman #vinyasaarts #brewga #yogaontap #funyoga… https://t.co/iGjeQd72ZG","Somebody wins a trip to #Denver for the #GreatAmericanBeerFestival TONIGHT at NoDa Brewing!! It’s #WWBeerClub 5-7p. Even if you’ve never been to Beer Club u can win by showing up. MUST BE PRESENT TO WIN @ NoDa… https://t.co/UZzdF2XH8G","Get ready, South End!  This Friday we're celebrating a whole year back in the neighborhood!  Free beer and wine tasting at 6 pm with Live Music by the Common Market All Stars.  Break Dance Battle starts at 8 and… https://t.co/1P6n2Ds1uh","🍻BEER COLLAB DAY!🍻 Yesterday, our Head Brewer @thebrewedabides spent the day with our dear friends at @AmorBrewing in South Carolina for a brew day!  They cooked up a Rosé-style Sour Ale made with 100% Carolina and… https://t.co/zOMykpngOd","I’ve been buying beer out the store since i was 16 - 17 years old ... s/o out to lucky 7 them niggas was letting me have my way","Drinking an Amber Ale by Cooper Island Brewing Company at @carolinalehouse — https://t.co/qnCIDuabW2","*gets unknown beer in north carolina* *its from a michigan brewery* waddaya know","Cool and refreshing! - Drinking a Cryo Room by @mikkellersd at @SaludNODA  — https://t.co/lHiGZeMZgC","So good 😊 - Drinking a Florence by @HillFarmstead at @heistbrewery  — https://t.co/4dPn9JicRU","It’s poppin! - Drinking a Casey Family Preserves: Peach &amp; Nectarine (Anglo &amp; Fantasia 10/3/18) by @CaseyBrewing at @heistbrewery  — https://t.co/8zZjoJEqyO","@ChrisMillerWFAE @NoDaBrewing @CLTPodcast He was drinking the 1775 beer. I didn’t need to go into the Meck Dec, but...","Three hour layover at Charlotte has just turned into four and a half hours. I may cry into my locally brewed amber beer.","My Labor Day: drinking beer, watching other people whitewater rafting, reading about dependency injection in #dotnetcore. This is as good as it gets. #LaborDay2019 https://t.co/oSTD1vKgJp","Drinking a NoDajito by @nodabrewing @ NoDa Brewing Company North End — https://t.co/9pHM6sif8S","Beer at a football game, and the earth remains firmly upon its axis.  https://t.co/VHyJ1ypHRx","Gas station just told me I cant purchase beer until 10 o'clock. Looks like I'm finding another gas station","Drinking a Mind Haze by @FirestoneWalker @ Saeed's Bar &amp; Deli — https://t.co/8aDI5Zwbyv","Should probably serve beer in Willy B this year","@ESPNMcGee Meet up tomorrow for a sorrowful beer in Charlotte before watching Southern 500?","@ESPNMcGee I’ve got unlimited beer, multiple TVs, slot car race track, a box of tissues, treehouse, and several pints of ice cream @ESPNMcGee  Also a “Butch Please” t-shirt that can be burned to get the evening underway. Let’s do this https://t.co/eddy4LVF7d","Can’t wait to run on I-277 tomorrow in the @ATC10K and love the beer cans from nodabrewing @ Camp North End https://t.co/vvp6q6wO7Q","Free food and beer taste so much better 😛😛😛","Drinking an Around the Crown - ATC 10k by @nodabrewing @ Camp North End — https://t.co/LDRrxT8jlO","Gettin bombed - Drinking a DDH Simcoe Bomb by @sloopbrewing @ The Furry Pit  — https://t.co/gPAokGpxua","Hydration. - Drinking a Natural Light by @AnheuserBusch @ Anne Springs Close Greenway (Adventure Rd)  — https://t.co/TGLtgBz7eL","I'm seeing double here... FOUR hearts??! - Drinking a Double Two Hearted Ale by @BellsBrewery @ The Furry Pit  — https://t.co/6IAwlKzreb","I haven't shot a collage game In so long I forgot how lit they are. Everybody smell like beer.","Drinking  The BIG O by @sugarcreekbrew @ Bank of America Stadium — https://t.co/AhTGXzEAE7","Drinking a Jam Session by @nodabrewing at @inknivyclt — https://t.co/9IVVFGbePy","Drinking a Juicy Jay by @LegionBrewing at @inknivyclt — https://t.co/KyVMVrbFCa","Drinking a Wolf Pup Session IPA by @goldenroadbrew at @outback — https://t.co/Fm2Yf1Hg8k","I ain’t never drunk so much beer in my life 🥵","I appreciate having friends who just want to play Crash Team Racing, drink beer, and bake cookies on a Friday night. https://t.co/h1zexaHChv","@Mother_of_Woody About being left out of the beer drop? Maybe.","Drinking a Citra Acid Test by @TripleCBrew @ The Wine Vault — https://t.co/qgfYQu1d1J","Ok. Different - Drinking an Owyhee by @revisionbrewing/@KoholaBrewery @ The Wine Vault  — https://t.co/sMXOwUGZmt","On the list of “once in a lifetime” beers, the “ finished painting the baby’s nursery” beer ranks pretty high up there"],null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[34.9771,35.4836],"lng":[-81.1833,-80.5772]}},"evals":[],"jsHooks":[]}</script>
+
+---
+
+# htmlwidgets: JavaScript's DT (DataTable)
+
+<div id="htmlwidget-986e90078e6ff145c05d" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-986e90078e6ff145c05d">{"x":{"filter":"none","fillContainer":false,"data":[["Untappd","Untappd","Untappd","Twitter for iPhone","Untappd","Instagram","Untappd","Twitter for iPhone","Untappd","Untappd","Untappd","Untappd","Untappd","Instagram","Untappd"],["Drinking a Mythos by Olympic Brewery @ Yiasou Greek Festival — https://t.co/Ut9QFmtV3w #photo","Sniff test is mostly malt with a hint of pine. Taste is piney with some bitterness but with enough malt bill to balance it out. - Drinking a Rocky River IPA by @cabarrusbrewco @ Cabarrus Brewing Co.  — https://t.co/LBs9362hdQ","No way I have 0 check ins on this beer!  Anyway it’s strong orange peel on the nose w/ sweet grain aroma. Taste is orange peel with... - Drinking a Pale Ale by @SierraNevada @ Broken H Oasis &amp;amp; Spa (A Subdivision of Chucks MHP)  — https://t.co/7bnxkqyRJs","@ChrisMillerWFAE @NoDaBrewing @CLTPodcast He was drinking the 1775 beer. I didn’t need to go into the Meck Dec, but...","So good 😊 - Drinking a Florence by @HillFarmstead at @heistbrewery  — https://t.co/4dPn9JicRU","I’m officially #inthebuilding ... #espressomule #gingerbeer Everything’s better with ginger beer!!!🥰😋👩🏽‍💻🙋🏽‍♀️ @ Queen's Coffee Bar https://t.co/eI6J52mpzg","Drinking a Ridge Red by Morgan Ridge Railwalk Brewery &amp;amp; Eatery at @justgoodbeer — https://t.co/jb6q4mLyK0","@ESPNMcGee I’ve got unlimited beer, multiple TVs, slot car race track, a box of tissues, treehouse, and several pints of ice cream @ESPNMcGee  Also a “Butch Please” t-shirt that can be burned to get the evening underway. Let’s do this https://t.co/eddy4LVF7d","Drinking a Citra Acid Test by @TripleCBrew @ The Wine Vault — https://t.co/qgfYQu1d1J","Drinking a Dystopian Galaxy by Abomination Brewing Company @ Gizmo’s Crib — https://t.co/NZNhBIh6F1 #photo","Good pineapple flavor and not sweet on the back end.  #CLTBeer #NCBeer #CraftBeer - Drinking a Juicy Jay Pineapple by @LegionBrewing @ Bar At Harris Teeter  — https://t.co/qbIk5xeIfj","Drinking a Dreamsicle IPA by @nodabrewing @ Kdogg's Mancave — https://t.co/j4Y5vQ2Qgs","wish it was imperial 🤣 paired with Finochiona - Drinking a Nitro Merlin by @FirestoneWalker at @ncbeertemple  — https://t.co/NcyfnU9UwX","TODAY!! LIVE ROLLER DERBY!! \nHUDSON LOCATION!! \nDoors open at 7p.  Bout Whistle at 7:30p\n🍺BEER WILL BE SOLD 🍺\nFull Concession Open ✅\nFULL SERVICE PRO SHOP OPEN! ✅✅\nAdults $12   Kids $7 Jungle Gym $2\n\n⭐️ Our Hudson… https://t.co/ITjOeH34nW","Roasty. Great malt backbone. - Drinking an Aaaahhhhhhhhhhhhhhhhhhhhhhhhkkkkkkkkktoberfest by @TripleCBrew at @triplecbrew  — https://t.co/pnvPKTkqE5"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>source<\/th>\n      <th>text<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"dom":"tip","pageLength":3,"initComplete":"function(settings, json) {\n$(this.api().table()).css({'font-size': '40%', 'background-color': '#fff', 'color': '#000'});\n}","order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[3,10,25,50,100]}},"evals":["options.initComplete"],"jsHooks":[]}</script>
+
+
+---
+
+# Shiny &lt;img src="https://ericrayanderson.github.io/shinymaterial/img/shinyLogo.png" width="70px" align="right" /&gt;
+
+A Shiny app is a web page (UI) connected to a computer running a live R session (Server).
+
+&lt;img src="../../images/slides/dsba-rintro/shiny.png" width="1000px" style="display: block; margin: auto;" /&gt;
+
+Users can manipulate the UI, which will cause the server to update the UI's displays (by running R code).
+
+---
+
+# Shiny &lt;img src="https://ericrayanderson.github.io/shinymaterial/img/shinyLogo.png" width="70px" align="right" /&gt;
+
+.pull-left[
+.sbig[
+
+```r
+library(shiny)
+
+ui &lt;- fluidPage()
+
+server &lt;- function(input, output) {}
+
+shinyApp(ui = ui, server = server)
+```
+]
+]
+.pull-right[
+![](../../images/slides/dsba-rintro/shiny1.png)
+]
+---
+
+# Shiny &lt;img src="https://ericrayanderson.github.io/shinymaterial/img/shinyLogo.png" width="70px" align="right" /&gt;
+
+.pull-left[
+.sbig[
+
+```r
+library(shiny)
+
+ui &lt;- fluidPage(
+  sliderInput(inputId = "num",
+    label = "Choose a number",
+    value = 25, min = 1, max = 100)
+)
+
+server &lt;- function(input, output) {
+  
+}
+
+shinyApp(ui = ui, server = server)
+```
+]
+]
+.pull-right[
+![](../../images/slides/dsba-rintro/shiny2.png)
+]
+---
+
+# Shiny &lt;img src="https://ericrayanderson.github.io/shinymaterial/img/shinyLogo.png" width="70px" align="right" /&gt;
+
+.pull-left[
+.sbig[
+
+```r
+library(shiny)
+
+ui &lt;- fluidPage(
+  sliderInput(inputId = "num",
+    label = "Choose a number",
+    value = 25, min = 1, max = 100),
+*  plotOutput("hist")
+)
+
+server &lt;- function(input, output) {
+
+}
+
+shinyApp(ui = ui, server = server)
+```
+]
+]
+.pull-right[
+![](../../images/slides/dsba-rintro/shiny3.png)
+]
+---
+
+# Shiny &lt;img src="https://ericrayanderson.github.io/shinymaterial/img/shinyLogo.png" width="70px" align="right" /&gt;
+
+.pull-left[
+.sbig[
+
+```r
+library(shiny)
+
+ui &lt;- fluidPage(
+*  sliderInput(inputId = "num",
+    label = "Choose a number",
+    value = 25, min = 1, max = 100),
+*  plotOutput("hist")
+)
+
+server &lt;- function(input, output) {
+  output$hist &lt;- renderPlot({
+*    hist(rnorm(input$num))
+  })
+}
+
+shinyApp(ui = ui, server = server)
+```
+]
+]
+.pull-right[
+![](../../images/slides/dsba-rintro/shiny4.gif)&lt;!-- --&gt;
+]
+---
+
+# RStudio's Shiny Gallery &lt;img src="https://ericrayanderson.github.io/shinymaterial/img/shinyLogo.png" width="70px" align="right" /&gt;
+
+&lt;img src="../../images/slides/dsba-rintro/shiny-demo.png" width="750px" style="display: block; margin: auto;" /&gt;
+
+&lt;https://shiny.rstudio.com/gallery/&gt;
+
+---
+
+# Can we do more?
+
+.left-column[
+## More flexibility?
+
+## Interactivity?
+
+## Best in class?
+]
+
+--
+.right-column2[
+# Use D3 in R: r2d3.
+
+&lt;img src="../../images/slides/dsba-rintro/d3.gif" width="500px" style="display: block; margin: auto;" /&gt;
+
+&lt;https://bl.ocks.org/mbostock/1256572&gt;
+]
+
+
+---
+
+# `r2d3` &lt;img src="https://rstudio.github.io/r2d3/tools/README/r2d3-hex.png" width="70px" align="right" /&gt;
+
+.pull-left[
+.little[
+
+```js
+
+// baranims.js saved locally
+var barHeight = Math.floor(height / data.length);
+
+var bars = r2d3.svg.selectAll('rect')
+    .data(r2d3.data);
+    
+bars.enter()
+    .append('rect')
+      .attr('width', function(d) { return d * width; })
+      .attr('height', barHeight)
+      .attr('y', function(d, i) { return i * barHeight; })
+      .attr('fill', 'steelblue');
+
+bars.exit().remove();
+
+bars.transition()
+  .duration(100)
+  .attr("width", function(d) { return d * width; });
+```
+]
+]
+
+.pull-right[
+.little[
+
+```r
+# shiny code with r2d3
+library(shiny)
+library(r2d3)
+
+ui &lt;- fluidPage(
+  inputPanel(
+    sliderInput(
+      "bar_max", label = "Max:",
+      min = 0.1, max = 1.0, value = 0.2, step = 0.1)
+  ),
+  d3Output("d3")
+)
+
+server &lt;- function(input, output) {
+  output$d3 &lt;- renderD3({
+    r2d3(
+      runif(5, 0, input$bar_max),
+*      script = "baranims.js" # see left
+    )
+  })
+}
+
+shinyApp(ui = ui, server = server)
+```
+]
+]
+
+&lt;img src="../../images/slides/dsba-rintro/baranim-1.gif" width="600px" style="display: block; margin: auto;" /&gt;
+
+---
+
+# Takeaways
+
+## R/RStudio is not your old base R tools.
+
+### - Tidyverse, shiny, RMarkdown, etc.
+
+--
+
+## Choose the best tool for the job, maybe Excel or Tableau.
+
+### - But if its a data science pipeline + data visualizations: R is hard to compete with.
+
+--
+
+## A lot of times, don't need to choose R vs. Python, C++, JS.
+
+### - Take the best of each and make it into an R package.
+
+--
+
+## Data visualization is part art and science (and design!). 
+
+### - The best way to learn: do it, get feedback, iterate.
+
+---
 
 # Happy R programming!
 
-&lt;iframe src="https://giphy.com/embed/JIX9t2j0ZTN9S" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen&gt;&lt;/iframe&gt;&lt;p&gt;&lt;a href="https://giphy.com/gifs/JIX9t2j0ZTN9S"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;img src="../../images/slides/dsba-rintro/r_first_then.png" width="400px" style="display: block; margin: auto;" /&gt;
+
+Artwork by [@allison_horst](https://github.com/allisonhorst/stats-illustrations)
     </textarea>
 <script src="libs/remark-latest.min.js"></script>
 <script src="https://platform.twitter.com/widgets.js"></script>
-<script>var slideshow = remark.create();
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"slideNumberFormat": "<div class=\"progress-bar-container\">   <div class=\"progress-bar\" style=\"width: calc(%current% / %total% * 100%);\">   </div> </div>`"
+});
 if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
   window.dispatchEvent(new Event('resize'));
 });

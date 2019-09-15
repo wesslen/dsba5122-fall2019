@@ -1,0 +1,50 @@
+
+
+/* Extra CSS */
+.red {
+  color: red;
+}
+.small {
+  font-size: 90%;
+}
+.large {
+  font-size: 150%;
+}
+.xlarge {
+  font-size: 250%;
+}
+.full-width {
+  display: flex;
+  width: 100%;
+  flex: 1 1 auto;
+}
+.remark-slide-content:after {
+  content: "bit.ly/dsbaRintro";
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+  height: 40px;
+  width: 250px;
+}
+.remark-slide-number {
+  color: #FFFFFF;
+  opacity: 1;
+}
+.remark-slide-number {
+  position: inherit;
+}
+
+
+.remark-slide-number .progress-bar-container {
+  position: absolute;
+  bottom: 0;
+  height: 4px;
+  display: block;
+  left: 0;
+  right: 0;
+}
+
+.remark-slide-number .progress-bar {
+  height: 100%;
+  background-color: red;
+}

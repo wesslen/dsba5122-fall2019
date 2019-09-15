@@ -55,6 +55,17 @@ Watch a 2.5 hour introduction to Shiny training video.
     </item>
     
     <item>
+      <title>Problem set 2</title>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/02-problem-set/</link>
+      <pubDate>Mon, 16 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/02-problem-set/</guid>
+      <description>Task 0: Getting started Create a new RStudio project somewhere on your computer.&amp;#8853;Remember, in RStudio, “File &amp;gt; New Project ..”)
+ Open that new folder in Windows Explorer or macOS Finder (however you navigate around the files on your computer), and create a subfolder there named data.
+Download the file below and place it in your new data/ folder.&amp;#8853;You’ll probably need to right click on each and choose “Save link as…”.</description>
+    </item>
+    
+    <item>
       <title>Datacamp Course 2</title>
       <link>https://dsba5122-fall2019.netlify.com/assignment/02-datacamp/</link>
       <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
@@ -171,17 +182,6 @@ babynames: US baby name data for each year from 1880 to 2013, the number of chil
       
       <guid>https://dsba5122-fall2019.netlify.com/assignment/02-quiz/</guid>
       <description>a.sourceLine { display: inline-block; line-height: 1.25; } a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; } a.sourceLine:empty { height: 1.2em; } .sourceCode { overflow: visible; } code.sourceCode { white-space: pre; position: relative; } div.sourceCode { margin: 1em 0; } pre.sourceCode { margin: 0; } @media screen { div.sourceCode { overflow: auto; } } @media print { code.sourceCode { white-space: pre-wrap; } a.sourceLine { text-indent: -1em; padding-left: 1em; } } pre.</description>
-    </item>
-    
-    <item>
-      <title>Problem set 2</title>
-      <link>https://dsba5122-fall2019.netlify.com/assignment/02-problem-set/</link>
-      <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-fall2019.netlify.com/assignment/02-problem-set/</guid>
-      <description>Task 0: Getting started Create a new RStudio project somewhere on your computer.&amp;#8853;Remember, in RStudio, “File &amp;gt; New Project ..”)
- Open that new folder in Windows Explorer or macOS Finder (however you navigate around the files on your computer), and create a subfolder there named data.
-Download the file below and place it in your new data/ folder.&amp;#8853;You’ll probably need to right click on each and choose “Save link as…”.</description>
     </item>
     
   </channel>

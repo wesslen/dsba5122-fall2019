@@ -53,8 +53,13 @@
   </url>
   
   <url>
+    <loc>https://dsba5122-fall2019.netlify.com/assignment/02-problem-set/</loc>
+    <lastmod>2019-09-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://dsba5122-fall2019.netlify.com/class/04-class/</loc>
-    <lastmod>2019-09-18T00:00:00+00:00</lastmod>
+    <lastmod>2019-09-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -73,13 +78,13 @@
   </url>
   
   <url>
-    <loc>https://dsba5122-fall2019.netlify.com/reading/03-reading/</loc>
+    <loc>https://dsba5122-fall2019.netlify.com/class/03-class/</loc>
     <lastmod>2019-09-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dsba5122-fall2019.netlify.com/class/03-class/</loc>
-    <lastmod>2019-09-04T00:00:00+00:00</lastmod>
+    <loc>https://dsba5122-fall2019.netlify.com/reading/03-reading/</loc>
+    <lastmod>2019-09-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -244,11 +249,6 @@
   
   <url>
     <loc>https://dsba5122-fall2019.netlify.com/reading/05-reading/</loc>
-    <lastmod>2019-02-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dsba5122-fall2019.netlify.com/assignment/02-problem-set/</loc>
     <lastmod>2019-02-18T00:00:00+00:00</lastmod>
   </url>
   

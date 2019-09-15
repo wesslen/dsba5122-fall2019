@@ -1,6 +1,6 @@
 ---
 title: "Visual Representations II"
-date: "2019-09-04"
+date: "2019-09-09"
 citeproc: false
 bibliography: ../../static/bib/references.bib
 csl: ../../static/bib/chicago-syllabus-no-bib.csl
@@ -18,15 +18,15 @@ editor_options:
 blogdown::shortcode('tweet','1052631850273918977')
 ```
 
-About Tamara and Mara: ^[[Tamara Munzner](https://www.cs.ubc.ca/~tmm/) is one of the most influential data visualization researchers. Her textbook ["Visualization Analysis and Design"](https://www.amazon.com/Visualization-Analysis-Design-AK-Peters-dp-1466508914/dp/1466508914/ref=mt_hardcover?_encoding=UTF8&me=&qid=) is one of the most popular data viz books and some of her former students are now leaders in data viz (e.g., [Matt Brehmer](https://mattbrehmer.github.io/), [Melanie Tory](https://www.melanietory.com/), [Michael Seldmair](https://homepage.univie.ac.at/michael.sedlmair/), and [Miriah Meyer](https://www.cs.utah.edu/~miriah/)).] , ^[[Mara Averick](https://twitter.com/dataandme) is RStudio's `tidyverse` developer advocate, which essentially means she's one of the most influential champions of all things `tidyverse`. She is an absolute [must-follow on Twitter](https://twitter.com/edwin_thoen/status/901740217987719170) and noted "data sciolist" who excels at commmunicating the technical issues of `tidyverse` in a non-technical way, e.g., [her 2018 RStudio::conf talk](https://www.rstudio.com/resources/videos/phrasing-communicating-data-science-through-tweets-gifs-and-classic-misdirection/). ]
+^[[Tamara Munzner](https://www.cs.ubc.ca/~tmm/) is one of the most influential data visualization researchers. Her textbook ["Visualization Analysis and Design"](https://www.amazon.com/Visualization-Analysis-Design-AK-Peters-dp-1466508914/dp/1466508914/ref=mt_hardcover?_encoding=UTF8&me=&qid=) is one of the most popular data viz books and some of her former students are now leaders in data viz (e.g., [Matt Brehmer](https://mattbrehmer.github.io/), [Melanie Tory](https://www.melanietory.com/), [Michael Seldmair](https://homepage.univie.ac.at/michael.sedlmair/), and [Miriah Meyer](https://www.cs.utah.edu/~miriah/)).] , ^[[Mara Averick](https://twitter.com/dataandme) is RStudio's `tidyverse` developer advocate, which essentially means she's one of the most influential champions of all things `tidyverse`. She is an absolute [must-follow on Twitter](https://twitter.com/edwin_thoen/status/901740217987719170) and noted "data sciolist" who excels at commmunicating the technical issues of `tidyverse` in a non-technical way, e.g., [her 2018 RStudio::conf talk](https://www.rstudio.com/resources/videos/phrasing-communicating-data-science-through-tweets-gifs-and-classic-misdirection/). ]
 
 # Announcements
 
-1. [Problem Set 1](../../assignment/01-problem-set.html) is due Monday, Sept 16th. You will need to submit your zip file (of your RStudio Project) on Canvas by 11:59pm next Monday, Sept 16. Recall 50% penalty 24 hours late, 0% credit 24+ hours late.^[Read Healy's [Chapter 1](http://socviz.co/gettingstarted.html#work-in-plain-text-using-rmarkdown) if you're having problems learning RMarkdown/basics of R or his [Appendix chapter](http://socviz.co/appendix.html#managing-projects-and-files) if you're having problems with RStudio projects.]
+1. [Problem Set 1](../../assignment/01-problem-set.html) is due Monday, Sept 16th. You will need to submit your zip file (of your RStudio Project) on Canvas by 11:59pm next Monday, Sept 16. You can work in pairs but each person has to submit. 50% penalty 24 hours late, 0% credit 24+ hours late.^[Read Healy's [Chapter 1](http://socviz.co/gettingstarted.html#work-in-plain-text-using-rmarkdown) if you're having problems learning RMarkdown/basics of R or his [Appendix chapter](http://socviz.co/appendix.html#managing-projects-and-files) if you're having problems with RStudio projects.]
 
 2. [Quiz 1](../../assignment/01-quiz.html) will be available 11:59pm, Monday Sept 9th. It is an online (Canvas), take home quiz. Please carefully read the instructions. It must be completed **before class on Monday, Sept 16 (5:59pm)**. There are no makeups or quizzes that can be turned in late (if you don't complete it in time, you get 0% credit).^[One way to prepare for the quiz is use DataCamp's Practice mode for DataCamp 1: Intro to tidyverse. You can either connect via a browser or download [DataCamp's mobile app](https://www.datacamp.com/mobile/).]
 
-3. [DataCamp 2](../../assignment/02-datacamp.html) is due Tuesday, Sept 24th by 11:59pm that night. Same policies as DataCamp 1.
+3. [DataCamp 2](../../assignment/02-datacamp.html) is due by 11:59pm Tuesday, Sept 24th. Same policies as DataCamp 1.
 
 4. Reminder that there are a few **optional** DataCamp courses. These are to help students who are brand new to R and data importing, cleaning, and manipulation. They will not be graded.
 
