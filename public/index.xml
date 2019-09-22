@@ -106,17 +106,31 @@ Watch a 2.5 hour introduction to Shiny training video.
       <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-fall2019.netlify.com/class/06-class/</guid>
-      <description>Contents  Tweet of the day Overview Lab 6: Work with models in ggplot2   Tweet of the day At long last, the parsnip package is on CRAN. parsnip is a unified R interface to models. The first of two blog posts about the package is at https://t.co/PXgFJ8eucM #rstats #tidyverse pic.twitter.com/BmuA9exckK — Max Kuhn (@topepos) November 28, 2018   Overview No slides for today’s class.
- Design contest assignment.</description>
+      <description>Contents  Tweet of the day Overview Lab 6: Work with models in ggplot2   Tweet of the day At long last, the parsnip package is on CRAN. parsnip is a unified R interface to models. The first of two blog posts about the package is at https://t.co/PXgFJ8eucM #rstats #tidyverse pic.twitter.com/BmuA9exckK — Max Kuhn (@topepos) November 28, 2018   Overview Matthew Kay’s Tidy data and Bayesian analysis make uncertainty visualization fun</description>
+    </item>
+    
+    <item>
+      <title>Distributions &amp; Uncertainty</title>
+      <link>https://dsba5122-fall2019.netlify.com/reading/05-reading/</link>
+      <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-fall2019.netlify.com/reading/05-reading/</guid>
+      <description>Required   Chapter 7: Histograms and density plots, Chapter 8: Empirical cumulative distribution functions, Chapter 9: Visualizing many distributions at once and Chapter 16: Visualizing uncertainty in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
+
+  Multiple Views Blog: Uncertainty Visualizations Explained by Jessica Hullman and Matthew Kay
+  Recommended   Why It’s So Hard for Us to Visualize Uncertainty</description>
     </item>
     
     <item>
       <title>Distributions &amp; Uncertainty</title>
       <link>https://dsba5122-fall2019.netlify.com/class/05-class/</link>
-      <pubDate>Fri, 27 Sep 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 23 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-fall2019.netlify.com/class/05-class/</guid>
-      <description>Contents  Tweet of the Day: Slides: Lab 5: Links:   Tweet of the Day: My ??? talk is now in video form: A biased tour of the uncertainty visualization zoo. If you liked the version with just slides, you&#39;ll love (?) the version with me talking over slides :) https://t.co/hSdczZlgKW — Matthew Kay (@mjskay) December 7, 2018   Matthew Kay is an assistant professor of Information at the University of Michigan School of Information.</description>
+      <description>Contents  Annoucements Tweet of the Day: Slides: Lab 5: Links:   Annoucements DataCamp 2 is due by 11:59pm Tuesday, Sept 24th.
+ Reminder that Problem Set 2 is due by 11:59pm Monday, Oct 7th (during Fall Break).
+ Next week Quiz 3 will be assigned. Focus will be on readings since Quiz 2 and ggplot2.
+  Tweet of the Day: My ??? talk is now in video form: A biased tour of the uncertainty visualization zoo.</description>
     </item>
     
     <item>
@@ -541,17 +555,6 @@ class: middle, center, inverse
  Safari example  Overview  Set-up: We’re on safari in South Africa and we want to see the lions.
  Problem: We’re uncertain to the lions’ location.
  Application: How can we design a visualization tool to aid our driver to help find the lions?</description>
-    </item>
-    
-    <item>
-      <title>Distributions &amp; Uncertainty</title>
-      <link>https://dsba5122-fall2019.netlify.com/reading/05-reading/</link>
-      <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-fall2019.netlify.com/reading/05-reading/</guid>
-      <description>Required   Chapter 7: Histograms and density plots, Chapter 8: Empirical cumulative distribution functions, Chapter 9: Visualizing many distributions at once and Chapter 16: Visualizing uncertainty in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
-  Recommended   Why It’s So Hard for Us to Visualize Uncertainty
-  Showing uncertainty during the live election forecast &amp;amp; Trolling the uncertainty dial&amp;#8853;Figure 2 from Ivelina Momcheva and Erik Tollerud, “Software Use in Astronomy: An Informal Survey,” July 14, 2015, https://arxiv.</description>
     </item>
     
     <item>

@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en-us"
+      xmlns:og="http://ogp.me/ns#"
+      xmlns:fb="https://www.facebook.com/2008/fbml">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Ryan Wesslen">
+    <meta name="description" content="Communicate science and statistics with beautiful graphics">
+
+    <meta name="twitter:card" value="summary_large_image">
+    <meta name="twitter:site" content="@ryanwesslen">
+    <meta name="twitter:title" content="Final project | DSBA 5122: Visual Analytics">
+    <meta name="twitter:creator" content="@ryanwesslen">
+    <meta name="twitter:image" content="/images/dsba5122.png">
+    <meta name="twitter:description" content="Communicate science and statistics with beautiful graphics" />
+
+    <meta property="og:site_name" content="DSBA 5122: Visual Analytics"/>
+    <meta property="og:title" content="Final project | DSBA 5122: Visual Analytics">
+    <meta property="og:type" content="article" />
+    <meta property="article:author" content="" />
+    <meta property="og:url" content="/" />
+    <meta property="og:image" content="/images/dsba5122.png">
+    <meta property="og:description" content="Communicate science and statistics with beautiful graphics" />
+
+    <meta name="generator" content="Hugo 0.51" />    
+
+    <title>Final project | DSBA 5122: Visual Analytics</title>
+    <link rel="canonical" href="/assignment/final-project.utf8/">
+    <link href="/theme/css/tufte.css" rel="stylesheet">
+    <link href="/theme/css/latex.css" rel="stylesheet">
+    <link href="/theme/css/custom.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style type="text/css">
+        .wrap a, .wrap a:visited {
+            color: #046A38;
+        }
+
+        .wrap a:hover {
+            color: #B9975B;
+        }
+
+        .wrap p > a {
+            color: #046A38;
+        }
+
+        article .sidenote-number:after, article .sidenote:before {
+            color: #046A38;
+        }
+
+        article .sidenote:before {
+            color: #046A38;
+        }
+
+        @media (max-width: 760px) {
+            label.margin-toggle:not(.sidenote-number) {
+                color: #046A38;
+            }
+        }
+
+        .contrast a, .contrast a:visited {
+            color: #046A38; 
+        }
+
+        header > nav a {
+            color: #046A38;
+        }
+
+        .credits a {
+            color: #046A38;
+        }
+
+        .wrap .tag {
+            background: #046A38;
+        }
+    </style>
+
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/images/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/images/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/images/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16" />
+    <meta name="application-name" content="DSBA 5122: Visual Analytics"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="/images/mstile-144x144.png" />
+
+    
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,600|Roboto:300,400" rel="stylesheet"> 
+<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+<div class="wrap">
+    <header>
+        <nav class="group logo-wrap">
+            <a href="/" class="logo"><img src="/images/dsba5122.png" alt="Visual Analytics"></a>
+            <h1 class="websitetitle"><a href="/">DSBA 5122: Visual Analytics</a></h1>
+        </nav>
+        <nav class="bottom-group">
+            
+            <a href="/syllabus/">Syllabus</a>
+            
+            <a href="/schedule/">Schedule</a>
+            
+            <a href="/assignments/">Assignments</a>
+            
+            <a href="https://uncc.instructure.com/courses/110218">Canvas</a>
+            
+            <a href="https://rstudio.cloud/spaces/22733/">RStudio.cloud</a>
+            
+            <a href="https://dsba5122fall2019.slack.com">Class Slack</a>
+            
+            <a href="https://www.datacamp.com/groups/dsba5122-visual-analytics-c9a5d247-7ed7-44d0-bed6-e8d85e26b19e">DataCamp</a>
+            
+            <a href="/reference/">Reference</a>
+            
+        </nav>
+    </header>
+
+
+    <article class="group">
+    <h1>Final project</h1>
+
+    
+    <p class="page-date">Due by <strong>6:00 PM</strong> on Monday, May 6, 2019</p>
+    
+    
+    
+
+<h2 id="objective">Objective:</h2>
+
+<p>Develop a Shiny app based on any data-related topic. <sup class="footnote-ref" id="fnref:himym-https-medi"><a href="#fn:himym-https-medi">1</a></sup></p>
+
+<h2 id="dataset">Dataset:</h2>
+
+<p>This is up to your group. You may use a dataset from the design contest (the same or a different data set) or select your own. Warning, don&rsquo;t overthink selecting your dataset. I will request you make a decision on your data set by April 8, 2019 (send me by email). This is the most important step to start with.</p>
+
+<p>Want ideas? Check out <a href="https://dsba5122-spring2019.netlify.com/reference/#data">these resources</a>.</p>
+
+<h2 id="design-process">Design process:</h2>
+
+<p>Very similar to design contest, answer the following questions in your design process:</p>
+
+<ul>
+<li><p>What are the data and tasks?</p></li>
+
+<li><p>What can/must be done using data analysis?</p></li>
+
+<li><p>What needs to be done interactively?</p></li>
+
+<li><p>How to best support the user in conducting the tasks?</p></li>
+
+<li><p>What’s the analysis and interaction flow?</p></li>
+
+<li><p>What needs to be visualized and how to best visualize it?</p></li>
+</ul>
+
+<p>However unlike the design contest, the expectation for this system will be a <strong>shiny-enabled</strong> app (e.g., could be a shiny app, shinydashboard, flexdashboard with shiny enabled).</p>
+
+<p>You will have three deliverables:</p>
+
+<h3 id="shiny-app">Shiny app</h3>
+
+<p>Your app. You can submit it as:</p>
+
+<ol>
+<li><p>Ideal (but not required): a GitHub repo with the shinyapps.io link on the README for the deployed app. Could include a RStudio cloud project too.</p></li>
+
+<li><p>Alternative: a RStudio cloud project link (submit to me via email or on your slides).</p></li>
+
+<li><p>Worst case: upload a zip folder on canvas where your shiny app can be fully reproduced! (i.e., self-contained folder that includes any data).</p></li>
+</ol>
+
+<p>You do <strong>not</strong> need to deploy your app on shinyapps given some great packages may have issues deploying; however, it is highly recommended to deploy to shinyapps.io.</p>
+
+<h3 id="presentation">Presentation</h3>
+
+<p>Prepare a 7-8 minutes presentation to introduce your dataset, scenario, design process, and your system.</p>
+
+<p><strong>Highly recommended hands-on demo for your app</strong>.<sup class="footnote-ref" id="fnref:kid-https-media"><a href="#fn:kid-https-media">2</a></sup> If you used the same data set as the design contest, you can sum up your presentation in 1-2 slides (remind dataset, scenario, and basic design). Then go into a hands-on scenario (e.g., what if scenario) to demonstrate the <strong>value</strong> of your app.</p>
+
+<p>The presentations will be given on May 6 during our final exam period. Teams will be randomly assigned order in presenting.</p>
+
+<h3 id="final-report">Final Report</h3>
+
+<p>Prepare a final report to outline your Shiny app and its relevant objective (task).</p>
+
+<p>This will be written in <a href="https://rmarkdown.rstudio.com/gallery.html">RMarkdown</a>. See any of the document formats (html, doc, even tufte style). You&rsquo;re welcome to explore <a href="https://bookdown.org/home/about/">Bookdown</a> if you want to be adventurous (not required). You can create either an html-based RMarkdown file that you publish (e.g., <a href="https://rpubs.com">https://rpubs.com</a>) or upload on Canvas a pdf document.</p>
+
+<p>The report should have six sections:</p>
+
+<ol>
+<li><p>Introduction: Domain problem characterization</p></li>
+
+<li><p>Data/operation abstraction design</p></li>
+
+<li><p>Encoding/Interaction design</p></li>
+
+<li><p>Algorithic design</p></li>
+
+<li><p>User evaluation</p></li>
+
+<li><p>Future work</p></li>
+
+<li><p>Appendix (optional) <sup class="footnote-ref" id="fnref:This-is-for-any"><a href="#fn:This-is-for-any">3</a></sup></p></li>
+</ol>
+
+<p>Sections 1-4 align with Munzner&rsquo;s paper <sup class="footnote-ref" id="fnref:A-Nested-Model-f"><a href="#fn:A-Nested-Model-f">4</a></sup>.</p>
+
+<p>Section 5 is an outline for how you could (hypothetically) evaluate whether you <sup class="footnote-ref" id="fnref:For-this-part-be"><a href="#fn:For-this-part-be">5</a></sup></p>
+
+<p><strong>Length</strong>: Each section can be about 2-5 paragraphs. Figures are always helpful. Maybe a table or two. When in doubt, put things in the appendix to keep the report concise.</p>
+
+<h2 id="grading">Grading:</h2>
+
+<p>The instructor grades the design after your presentation according to the following criteria:</p>
+
+<h3 id="presentation-10-points">Presentation (10 points):</h3>
+
+<ul>
+<li><p><strong>Novelty of your scenario</strong> (5 point): Explanation of your scenario, task, and why your app will enable users to better complete the task. Provide the scenario and (ideally) a live demo (e.g., on your local machine or RStudio cloud account).</p></li>
+
+<li><p><strong>Presentation quality</strong> (5 points): organized presentation that provide a clear overview of the app and surrounding details. Don&rsquo;t make it too overwhelming. Focus on one scenario and explain how your app can answer that question. Also, was it fun? (gifs are highly recommended)</p></li>
+</ul>
+
+<h3 id="reproducibility-code-10-points">Reproducibility &amp; Code (10 points):</h3>
+
+<ul>
+<li><p><strong>Reproducible code</strong> (5 points): Code is standalone and can be fully reproduced. Better (more organized) code will receive higher points than code that is not organized. GitHub highly recommended <sup class="footnote-ref" id="fnref:This-is-an-excel"><a href="#fn:This-is-an-excel">6</a></sup>. Or you can create an RStudio cloud project and share with me the link (much easier).</p></li>
+
+<li><p><strong>Deployed app or RStudio Cloud Project</strong> (5 points): App is either deployed on shinyapps.io OR you provide an RStudio Cloud project link. shinyapps.io are preferred but RStudio Cloud can be helpful if you may have issues deploying. <sup class="footnote-ref" id="fnref:Even-better-take"><a href="#fn:Even-better-take">7</a></sup></p></li>
+</ul>
+
+<h3 id="shiny-app-10-points">Shiny App (10 points):</h3>
+
+<ul>
+<li><p><strong>App quality</strong> (5 points): Usability of the app. Not necessarily most complex &ndash; too much interaction can have costs &ndash; but the one that aids in your task. Great design processes will enable strong apps.</p></li>
+
+<li><p><strong>Algorithmic evaluation</strong><sup class="footnote-ref" id="fnref:5-points"><a href="#fn:5-points">0</a></sup>: How you implement your design. Does your app respond well. Points will be removed if the interactions are too complex (too slow) and hurt the users&rsquo; ability to perform the task. Can this app be scaled if you were provided more data?</p></li>
+</ul>
+
+<h3 id="final-report-10-points">Final Report (10 points):</h3>
+
+<ul>
+<li><p><strong>Report contents</strong> (5 points): Report is organized, with clear explanations, limited spelling, punctuation, appropriate tables and figures, and explanation for how to reproduce the results (run the code).</p></li>
+
+<li><p><strong>Shiny app evaluation</strong> (5 points): describe how you would evaluate your app. Base this on your task and how you would devise an experiment to validate that your shiny app improves your task. This can be what you review for your presentation.</p></li>
+</ul>
+
+<h2 id="example">Example</h2>
+
+<p>Here&rsquo;s a perfect example of a great shiny app (<a href="https://github.com/rstudio/cranwhales">cranwhale</a>) by Joe Cheng. <sup class="footnote-ref" id="fnref:Granted-Joe-did"><a href="#fn:Granted-Joe-did">8</a></sup> It shows how you don&rsquo;t need the most interactive features - an excellent (narrow) question and task can enable a simple interface, a clear user task, which then enable clear user testing for deployment <sup class="footnote-ref" id="fnref:Be-sure-to-see-t"><a href="#fn:Be-sure-to-see-t">9</a></sup></p>
+
+<h2 id="bonus-points-shiny-app-awards">Bonus Points: Shiny App Awards</h2>
+
+<p>Based on class vote, we&rsquo;ll award extra credit for the team voted: <sup class="footnote-ref" id="fnref:bis-https-media"><a href="#fn:bis-https-media">10</a></sup></p>
+
+<h3 id="1-best-app-4-points">1. Best app (+4 points)</h3>
+
+<ul>
+<li>Team with the most total votes.</li>
+</ul>
+
+<h3 id="2-best-documented-2-points">2. Best documented (+2 points):</h3>
+
+<ul>
+<li>Reproducible code on GitHub, deployed app, RStudio cloud project, link to your final report, and maybe even <a href="https://alison.rbind.io/talk/blogdown-meetup/">create your own blog</a> and <a href="http://varianceexplained.org/r/start-blog/">write a blog post</a> <sup class="footnote-ref" id="fnref:A-must-read-blog"><a href="#fn:A-must-read-blog">11</a></sup> to summarize your project.</li>
+</ul>
+
+<h3 id="3-best-scenario-design-most-practical-2-points">3. Best scenario design / most practical (+2 points):</h3>
+
+<ul>
+<li>Tool that best fits a problem. This shiny app is most ready for production (e.g., <a href="https://rstudio.github.io/shinyloadtest/"><code>shinyloadtest</code></a> to show the given task can scale to X users.)</li>
+</ul>
+
+<h3 id="4-human-centered-machine-learning-2-points">4. Human-centered machine learning (+2 points)</h3>
+
+<ul>
+<li>Best combination of using machine learning, social networks, text analysis, or statistical model with your visualization. Help the user understand the model to enable an even better human-in-the-loop decision.</li>
+</ul>
+
+<h3 id="5-most-creative-2-points">5. Most creative (+2 points):</h3>
+
+<ul>
+<li>Use flexible like D3 (via <code>r2d3</code>), altair, or newer htmlwidgets to develop <strong>creative</strong> ways to visualize the data.</li>
+</ul>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:himym-https-medi">{-} <img src="https://media.giphy.com/media/pi1u9o9M436Lu/giphy.gif" alt="himym" /> <a class="footnote-return" href="#fnref:himym-https-medi"><sup>[return]</sup></a></li>
+<li id="fn:kid-https-media">{-} <img src="https://media.giphy.com/media/XreQmk7ETCak0/giphy.gif" alt="kid" /> <a class="footnote-return" href="#fnref:kid-https-media"><sup>[return]</sup></a></li>
+<li id="fn:This-is-for-any">This is for any exploratory work that didn&rsquo;t make it into your app or process. You can highlight packages you may have tried. <a class="footnote-return" href="#fnref:This-is-for-any"><sup>[return]</sup></a></li>
+<li id="fn:A-Nested-Model-f"><a href="https://www.cs.ubc.ca/labs/imager/tr/2009/NestedModel/NestedModel.pdf">“A Nested Model for Visualization Design and Validation”</a> <a class="footnote-return" href="#fnref:A-Nested-Model-f"><sup>[return]</sup></a></li>
+<li id="fn:For-this-part-be">For this part, be sure to read <a href="https://github.com/wesslen/dsba5122-spring2019/raw/master/public/readings/Mazza2009_Chapter_Evaluations.pdf">Mazza&rsquo;s chapter on evaluating interfaces </a> <a class="footnote-return" href="#fnref:For-this-part-be"><sup>[return]</sup></a></li>
+<li id="fn:This-is-an-excel">This is an excellent opportunity for you to start your code portfolio. Follow Jenny Bryan&rsquo;s <a href="https://happygitwithr.com/install-intro.html">excellent introduction to Git with R</a> tutorial. <a class="footnote-return" href="#fnref:This-is-an-excel"><sup>[return]</sup></a></li>
+<li id="fn:Even-better-take">Even better, take this opportunity to create your own blogdown blog using Allison Hill&rsquo;s <a href="https://alison.rbind.io/talk/blogdown-meetup/">great introduction to blogdown</a> and then write your first post to introduce your app. <a class="footnote-return" href="#fnref:Even-better-take"><sup>[return]</sup></a></li>
+<li id="fn:Granted-Joe-did">Granted, Joe did create shiny. <a class="footnote-return" href="#fnref:Granted-Joe-did"><sup>[return]</sup></a></li>
+<li id="fn:Be-sure-to-see-t">Be sure to see the async versions which are optimized for performance. <a class="footnote-return" href="#fnref:Be-sure-to-see-t"><sup>[return]</sup></a></li>
+<li id="fn:bis-https-media">{-} <img src="https://media.giphy.com/media/874M72kPh8wz29f4cB/giphy.gif" alt="bis" /> <a class="footnote-return" href="#fnref:bis-https-media"><sup>[return]</sup></a></li>
+<li id="fn:A-must-read-blog">A <strong>must</strong> read blog post for aspiring data scientists by David Robinson. David&rsquo;s actual quote at the end: &ldquo;if you’re early in your career as a data scientist and you start a data-related blog, tweet me a link at <code>@drob</code> and I’ll tweet about your first post&rdquo;. Take him up on the offer (and use #dsba5122)! <a class="footnote-return" href="#fnref:A-must-read-blog"><sup>[return]</sup></a></li>
+</ol>
+</div>
+
+
+    </article>
+
+    <footer>
+        <hr class="slender">
+
+        <div class="course-info">
+        <span class="course-name">
+            DSBA 5122: Visual Analytics (Fall 2019)
+        </span><br>
+        <span>
+            <a href="https://www.uncc.edu">University of North Carolina at Charlotte</a> | 
+            <a href="https://dsba.uncc.edu/">Data Science &amp; Business Analytics Program</a>
+        </span>
+        </div>
+
+        <ul class="footer-links">
+            <li>
+            <a href="https://wesslen.netlify.com"><i class="fas fa-user"></i> Ryan Wesslen</a>
+            </li>
+
+            <li>
+            <a href="mailto:rwesslen@uncc.edu"><i class="fas fa-envelope"></i> rwesslen@uncc.edu</a>
+            </li>
+
+            <li>
+            <i class="far fa-calendar-alt"></i> Mondays
+            </li>
+
+            <li>
+            <i class="far fa-clock"></i> 6:00–8:45 PM
+            </li>
+
+            <li>
+            <i class="fas fa-university"></i> CenterCity 904
+            </li>
+
+            <li>
+            <a href="https://twitter.com/ryanwesslen"><i class="fab fa-twitter"></i></a>
+            </li>
+
+            <li>
+            <a href="https://github.com/wesslen/dsba5122-fall2019"><i class="fab fa-github"></i></a>
+            </li>
+        </ul>
+
+        <div class="credits">
+        <span class="credit">All content licensed under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.</span><br>
+
+        <span class="credit">Content <i class="fab fa-creative-commons"></i> 2019 <a href="https://wesslen.netlify.com">Ryan Wesslen</a></span><br>
+        <span class="credit">Original <a href="https://datavizf18.classes.andrewheiss.com/">website</a> by <a href="https://www.andrewheiss.com/">Andrew Heiss</a>.</span><br>
+
+        <span class="credit">This site created with the <a href="https://github.com/andrewheiss/ath-tufte-hugo_18-19">ath-tufte-hugo theme</a> in <a href="https://bookdown.org/yihui/blogdown/">blogdown</a> and <a href="https://gohugo.io/">Hugo</a>.</span>
+        </div>
+    </footer>
+
+    
+
+</div>
+</body>
+</html>
+

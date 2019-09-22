@@ -20,7 +20,8 @@ editor_options:
 
 # Overview
 
-No slides for today's class.
+Matthew Kay's [Tidy data and Bayesian analysis
+make uncertainty visualization fun](http://www.mjskay.com/presentations/openvisconf2018-bayes-uncertainty-2.pdf)
 
 - [Design contest assignment](../../assignment/design-contest/). Presentations will be in class on March 25.
 

@@ -6,10 +6,22 @@
     <description>Recent content in Readings on Visual Analytics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://dsba5122-fall2019.netlify.com/reading/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Distributions &amp; Uncertainty</title>
+      <link>https://dsba5122-fall2019.netlify.com/reading/05-reading/</link>
+      <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-fall2019.netlify.com/reading/05-reading/</guid>
+      <description>Required   Chapter 7: Histograms and density plots, Chapter 8: Empirical cumulative distribution functions, Chapter 9: Visualizing many distributions at once and Chapter 16: Visualizing uncertainty in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
+
+  Multiple Views Blog: Uncertainty Visualizations Explained by Jessica Hullman and Matthew Kay
+  Recommended   Why It’s So Hard for Us to Visualize Uncertainty</description>
+    </item>
     
     <item>
       <title>Time &amp; Space</title>
@@ -138,17 +150,6 @@
       <description>Required   Chapter 6: Work with Models in Healy.
   Chapter 22: Model introduction and Chapter 23: Model basics in Wickham/Grolemund.
   Recommended   Chapter 6: Basic Regression from “ModernDive: An Introduction to Statistical and Data Sciences via R” by Chester Ismay and Albert Y. Kim.This is an outstanding new book – with a free online version – that will be a big complement to the tidyverse in the future.</description>
-    </item>
-    
-    <item>
-      <title>Distributions &amp; Uncertainty</title>
-      <link>https://dsba5122-fall2019.netlify.com/reading/05-reading/</link>
-      <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-fall2019.netlify.com/reading/05-reading/</guid>
-      <description>Required   Chapter 7: Histograms and density plots, Chapter 8: Empirical cumulative distribution functions, Chapter 9: Visualizing many distributions at once and Chapter 16: Visualizing uncertainty in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
-  Recommended   Why It’s So Hard for Us to Visualize Uncertainty
-  Showing uncertainty during the live election forecast &amp;amp; Trolling the uncertainty dial&amp;#8853;Figure 2 from Ivelina Momcheva and Erik Tollerud, “Software Use in Astronomy: An Informal Survey,” July 14, 2015, https://arxiv.</description>
     </item>
     
     <item>

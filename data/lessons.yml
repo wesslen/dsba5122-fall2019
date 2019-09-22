@@ -48,14 +48,14 @@ lessons:
   - title: "Class 5: Distributions & Uncertainty"
     date: "September 23"
     reading: "05-reading"
-    #class: "05-class"
+    class: "05-class"
 
   - title: '<span class="fake-header-table">Interactive Visualizations</span>'
     header: True
 
   - title: "Class 6: Statistical Models"
     date: "September 30"
-    #reading: "06-reading"
+    reading: "06-reading"
     #class: "06-class"
     
   - title: "**Quiz 2 (Due Oct 14)**"

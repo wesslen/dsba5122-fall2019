@@ -13,7 +13,7 @@ Create a new RStudio project somewhere on your computer.^[{-} Remember, in RStud
 
 Download the file below and place it in your new `data/` folder.^[{-} You'll probably need to right click on each and choose "Save link as…".]
 
-- <i class="fas fa-table"></i> [Officer_Traffic_Stops.csv](http://clt-charlotte.opendata.arcgis.com/datasets/c458bca429b542bbb31130c23510628a_7.csv)
+- <i class="fas fa-table"></i> [Officer_Traffic_Stops.csv](/files/data/Officer_Traffic_Stops.csv)
 
 - <i class="fas fa-table"></i> [CMPD Division shape file](http://clt-charlotte.opendata.arcgis.com/datasets/47167ee6d69248acbd825f2859c68dbf_5.zip)
 

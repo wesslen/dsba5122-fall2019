@@ -1,6 +1,6 @@
 ---
 title: "Distributions & Uncertainty"
-date: "2019-02-18"
+date: "2019-09-24"
 citeproc: false
 bibliography: ../../static/bib/references.bib
 csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
@@ -9,6 +9,8 @@ csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
 # Required
 
 - <i class="fas fa-book"></i> [Chapter 7: Histograms and density plots](https://serialmentor.com/dataviz/histograms-density-plots.html), [Chapter 8: Empirical cumulative distribution functions](https://serialmentor.com/dataviz/ecdf-qq.html), [Chapter 9: Visualizing many distributions at once](https://serialmentor.com/dataviz/boxplots-violins.html) and [Chapter 16: Visualizing uncertainty](https://serialmentor.com/dataviz/visualizing-uncertainty.html) in Claus Wilke, *Fundamentals of Data Visualization* [@Wilke:2018]
+
+- <i class="fas fa-external-link-square-alt"></i> [Multiple Views Blog: Uncertainty Visualizations Explained](https://medium.com/multiple-views-visualization-research-explained/uncertainty-visualization-explained-67e7a73f031b) by Jessica Hullman and Matthew Kay
 
 # Recommended
 

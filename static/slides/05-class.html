@@ -4,8 +4,9 @@
     <title>DSBA 5122: Visual Analytics</title>
     <meta charset="utf-8">
     <meta name="author" content="Ryan Wesslen" />
-    <meta name="date" content="2019-02-18" />
+    <meta name="date" content="2019-09-23" />
     <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+    <link rel="stylesheet" href="custom-class.css" type="text/css" />
   </head>
   <body>
     <textarea id="source">
@@ -14,7 +15,7 @@ class: center, middle, inverse, title-slide
 # DSBA 5122: Visual Analytics
 ## Class 5: Distributions and Uncertainty
 ### Ryan Wesslen
-### February 18, 2019
+### September 23, 2019
 
 ---
 
@@ -86,12 +87,6 @@ class: center, middle
 class: center, middle
 
 &lt;img src="../images/slides/05-class/wilke7.png" width="500px" style="display: block; margin: auto;" /&gt;
-
----
-
-class: center, middle
-
-&lt;img src="../images/slides/05-class/wilke8.png" width="700px" style="display: block; margin: auto;" /&gt;
 
 ---
 
@@ -179,6 +174,152 @@ class: center, middle
 
 ---
 
+## Bootstrapping: Within ggplot2
+
+
+```r
+organdata %&gt;% 
+  ggplot(aes(x = country, y = donors)) +
+  stat_summary(fun.y = mean, geom = "point", size = 3) + 
+  stat_summary(fun.data = mean_cl_boot, geom = "errorbar", width = 0.5) +
+  coord_flip() +
+  cowplot::theme_cowplot() +
+  labs(x = " ", 
+       y = "Organ Donations in 000's", 
+       title = "Avg Organ Donations (000s) by Country")
+```
+
+![](05-class_files/figure-html/unnamed-chunk-26-1.png)&lt;!-- --&gt;
+
+&lt;https://rstudio.cloud/spaces/22733/project/527500&gt;
+
+---
+
+## Bootstrapping: Outside ggplot2
+
+
+```r
+organdata %&gt;%
+  group_by(country) %&gt;%
+  do(as_tibble(bind_rows(Hmisc::smean.cl.boot(.$donors)))) %&gt;%
+  ggplot(aes(x = reorder(country, Mean), y = Mean)) +
+  geom_point(size = 3) +
+  geom_errorbar(aes(ymin = Lower, ymax = Upper), width = 0.5) +
+  coord_flip() +
+  cowplot::theme_cowplot() +
+  labs(x = " ", y = "Organ Donations in 000's", title = "Avg Organ Donations (000s) by Country")
+```
+
+![](05-class_files/figure-html/unnamed-chunk-28-1.png)&lt;!-- --&gt;
+
+&lt;https://rstudio.cloud/spaces/22733/project/527500&gt;
+
+---
+
+# Bootstrapping with HOPs + `gganimate`
+
+![](../../images/slides/05-class/bootstrap-demo-1.gif)&lt;!-- --&gt;
+
+[`ungeviz` package by Claus Wilke](https://wilkelab.org/ungeviz/articles/sampling-bootstrapping.html)
+---
+
+# Unemployment Rate
+
+
+```r
+df %&gt;%
+  ggplot(aes(x = date, y = unemployment)) +
+  geom_line() +
+  coord_cartesian(ylim = c(0, .11), expand = FALSE),
+  scale_y_continuous(labels = scales::percent) +
+  labs(x = NULL, y = NULL, subtitle = "US unemployment over time")
+```
+
+![](../../images/slides/05-class/ggplot-unemploy.png)&lt;!-- --&gt;
+
+---
+
+# Unemployment Rate
+
+.center2[
+&lt;img src="../../images/slides/05-class/01-unemp-blog.png" width="800px" style="display: block; margin: auto;" /&gt;
+]
+
+[Kay and Hullman Multiple Views Blog 1](https://medium.com/multiple-views-visualization-research-explained/uncertainty-visualization-explained-67e7a73f031b)
+
+---
+
+# Unemployment Rate
+
+.center2[
+&lt;img src="../../images/slides/05-class/02-unemp-blog.png" width="800px" style="display: block; margin: auto;" /&gt;
+]
+.center2[
+&lt;img src="../../images/slides/05-class/03-unemp-blog.png" width="800px" style="display: block; margin: auto;" /&gt;
+]
+
+[Kay and Hullman Multiple Views Blog 1](https://medium.com/multiple-views-visualization-research-explained/uncertainty-visualization-explained-67e7a73f031b)
+
+---
+
+# Unemployment Rate
+
+.center2[
+&lt;img src="../../images/slides/05-class/kay0.png" width="800px" style="display: block; margin: auto;" /&gt;
+]
+
+Source: [Matthew Kay](https://github.com/mjskay/uncertainty-examples/blob/master/us-unemployment.md)
+
+???
+
+Could use a "predictive bar" for the most likely path (draw) and uncertainty around it... fixes the reader to whatever arbitrary interval (95%) the visualization designer chose to display.
+
+---
+
+# Unemployment Rate
+
+.center2[
+&lt;img src="../../images/slides/05-class/kay0b.png" width="800px" style="display: block; margin: auto;" /&gt;
+]
+
+Source: [Matthew Kay](https://github.com/mjskay/uncertainty-examples/blob/master/us-unemployment.md)
+
+???
+
+By showing multiple intervals, we can distinguish between different intervals of uncertainty...
+
+---
+
+# Unemployment Rate
+
+.center2[
+&lt;img src="../../images/slides/05-class/kay0c.png" width="800px" style="display: block; margin: auto;" /&gt;
+]
+
+Source: [Matthew Kay](https://github.com/mjskay/uncertainty-examples/blob/master/us-unemployment.md)
+
+---
+
+# Unemployment Rate
+
+.center2[
+&lt;img src="../../images/slides/05-class/kay1.png" width="800px" style="display: block; margin: auto;" /&gt;
+]
+
+Source: [Matthew Kay](https://github.com/mjskay/uncertainty-examples/blob/master/us-unemployment.md)
+
+---
+
+# Unemployment Rate
+
+.center2[
+&lt;img src="../../images/slides/05-class/kay1.gif" width="800px" style="display: block; margin: auto;" /&gt;
+]
+
+[Hypothetical Outcome Plots (HOP)](https://medium.com/hci-design-at-uw/hypothetical-outcomes-plots-experiencing-the-uncertain-b9ea60d7c740): [`tidybayes`](https://mjskay.github.io/tidybayes/) &amp; [`gganimate`](https://gganimate.com/)
+
+---
+
 ## Why is visualizing uncertainty hard?
 
 - Efficient encodings for uncertainty can be hard to find.
@@ -195,38 +336,6 @@ class: center, middle
 - Plus, you still have to actually build it!
 
 [Matthew Kay](https://mjskay.github.io/uncertainty-vis-book/ch-why-hard.html)
-
----
-
-class: center, middle
-
-&lt;img src="../images/slides/05-class/wilke15.png" width="700px" style="display: block; margin: auto;" /&gt;
-
----
-
-class: center, middle
-
-&lt;img src="../images/slides/05-class/wilke16.png" width="700px" style="display: block; margin: auto;" /&gt;
-
----
-
-class: center, middle
-
-&lt;img src="../images/slides/05-class/wilke17.png" width="700px" style="display: block; margin: auto;" /&gt;
-
----
-
-class: center, middle
-
-&lt;img src="../images/slides/05-class/wilke18.png" width="700px" style="display: block; margin: auto;" /&gt;
-
----
-
-class: center, middle
-
-&lt;img src="../images/slides/05-class/wilke19.png" width="600px" style="display: block; margin: auto;" /&gt;
-
-&lt;img src="../images/slides/05-class/wilke20.png" width="600px" style="display: block; margin: auto;" /&gt;
     </textarea>
 <script src="libs/remark-latest.min.js"></script>
 <script src="https://platform.twitter.com/widgets.js"></script>
