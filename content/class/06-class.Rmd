@@ -12,24 +12,57 @@ editor_options:
   chunk_output_type: console
 ---
 
+# Announcements
+
+1. Problem Set 1 has been graded.
+
+```{r echo=F, message=F, warning=F}
+library(tidyverse)
+df <- read_csv("../../static/files/problem-set-1-results.csv") 
+```
+
+```{r fig.height=3,fig.width=6, message=F, warning=F, echo=F}
+df %>%
+  ggplot(aes(x = Grade)) +
+  geom_dotplot() +
+  cowplot::theme_cowplot() +
+  scale_y_continuous(NULL, breaks = NULL) + # y axis not meaningful; ignore it
+  labs(title = "Problem Set 1 Grades")
+```
+^[This plot does not include 7 submissions (grades 65, 70, 82, 95, 97, 97, 100) that did not provide time to complete.]
+
+```{r fig.height=6,fig.width=6, message=F, warning=F, echo=F}
+p <- filter(df, Time != ".") %>% 
+  mutate(Time = as.integer(Time)) %>% 
+  ggplot(aes(x = Time, y = Grade, id = Issues)) + 
+  geom_jitter(width = 0.1, height = 0.1) + 
+  geom_rug(alpha = 1/2, position = "jitter") +
+  geom_smooth(aes(x = Time, y = Grade), method = "lm", inherit.aes = FALSE) + 
+  cowplot::theme_cowplot() +
+  labs(x = "Time to Complete (in Hours)", y = "Grade", title = "Time to Complete vs. Grade")
+
+plotly::ggplotly(p)
+```
+
+2. [Design contest assignment](../../assignment/design-contest/). Presentations will be in class on October 28.
+
+3. [Problem Set 2](../../assignment/02-problem-set/) is due by 11:59pm Monday, Oct 7th (during Fall Break). Please use Slack for questions.
+
+4. [Extra Credit Policy](https://dsba5122.com/assignments/#Extra%Credit). For this semester, you can receive up to **5%** extra credit added to your final grade. 
+
+5. Quiz 2 has been postponed. It will be provided next Class (Oct 14) and due the following Monday, Oct 21.
+
 # Tweet of the day
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">At long last, the parsnip package is on CRAN. parsnip is a unified R interface to models. The first of two blog posts about the package is at <a href="https://t.co/PXgFJ8eucM">https://t.co/PXgFJ8eucM</a> <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> <a href="https://twitter.com/hashtag/tidyverse?src=hash&amp;ref_src=twsrc%5Etfw">#tidyverse</a> <a href="https://t.co/BmuA9exckK">pic.twitter.com/BmuA9exckK</a></p>&mdash; Max Kuhn (@topepos) <a href="https://twitter.com/topepos/status/1067779199119867909?ref_src=twsrc%5Etfw">November 28, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-# Overview
-
-Matthew Kay's [Tidy data and Bayesian analysis
-make uncertainty visualization fun](http://www.mjskay.com/presentations/openvisconf2018-bayes-uncertainty-2.pdf)
-
-- [Design contest assignment](../../assignment/design-contest/). Presentations will be in class on March 25.
-
-- [`flexdashboard` overview](https://rmarkdown.rstudio.com/flexdashboard/) / [intro pdf slides](https://github.com/wesslen/iviz-rstudio-workshop/raw/master/slides/flexdashboard.pdf) 
-For this part, we'll use [this RStudio.Cloud project](https://rstudio.cloud/spaces/7976/project/231799) on our class workspace.
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Nice update on the current state of <a href="https://twitter.com/hashtag/tidymodels?src=hash&amp;ref_src=twsrc%5Etfw">#tidymodels</a> with Max Kuhn, author of the <a href="https://twitter.com/hashtag/caret?src=hash&amp;ref_src=twsrc%5Etfw">#caret</a> package. <a href="https://t.co/cGXmjQcXWN">https://t.co/cGXmjQcXWN</a> <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> See more at <a href="https://t.co/HoY49HfmI9">https://t.co/HoY49HfmI9</a></p>&mdash; Ewan Carr (@ewancarr) <a href="https://twitter.com/ewancarr/status/1104383421177040896?ref_src=twsrc%5Etfw">March 9, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 # Lab 6: Work with models in ggplot2
 
-- Go to our [healy-dataviz](https://rstudio.cloud/spaces/22733/project/160035) project and open "06_models.Rmd".
+- Go to our [healy-dataviz](https://rstudio.cloud/spaces/22733/project/160035) project and open "06_models.Rmd" or "06_models.html" (if you want to simply see the output). This covers [Chapter 6: Work with Models](https://socviz.co/modeling.html#modeling) in Healy.
 
-- This covers [Chapter 6: Work with Models](https://socviz.co/modeling.html#modeling) in Healy
+- We'll use the same [`gganimate` project](https://rstudio.cloud/spaces/22733/project/211237) from last week that's on our RStudio.cloud workspace. But this time, we'll focus on the uncertainty examples, especially on linear regression.
+
+- [`flexdashboard` overview](https://rmarkdown.rstudio.com/flexdashboard/) / [intro pdf slides](https://github.com/wesslen/iviz-rstudio-workshop/raw/master/slides/flexdashboard.pdf) 
+For this part, we'll use [this RStudio.Cloud project](https://rstudio.cloud/spaces/22733/project/231799) on our class workspace.
+
+

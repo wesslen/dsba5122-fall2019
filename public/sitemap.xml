@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://dsba5122-fall2019.netlify.com/assignment/01-extra-credit/</loc>
-    <lastmod>2019-11-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://dsba5122-fall2019.netlify.com/assignment/04-problem-set/</loc>
     <lastmod>2019-11-11T00:00:00+00:00</lastmod>
   </url>
@@ -23,8 +18,23 @@
   </url>
   
   <url>
+    <loc>https://dsba5122-fall2019.netlify.com/assignment/03-problem-set/</loc>
+    <lastmod>2019-11-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://dsba5122-fall2019.netlify.com/class/09-class/</loc>
     <lastmod>2019-10-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dsba5122-fall2019.netlify.com/assignment/03-datacamp/</loc>
+    <lastmod>2019-10-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dsba5122-fall2019.netlify.com/reading/07-reading/</loc>
+    <lastmod>2019-10-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -38,12 +48,22 @@
   </url>
   
   <url>
-    <loc>https://dsba5122-fall2019.netlify.com/assignment/03-datacamp/</loc>
+    <loc>https://dsba5122-fall2019.netlify.com/assignment/design-contest/</loc>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dsba5122-fall2019.netlify.com/assignment/01-extra-credit/</loc>
     <lastmod>2019-09-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://dsba5122-fall2019.netlify.com/class/06-class/</loc>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dsba5122-fall2019.netlify.com/reading/06-reading/</loc>
     <lastmod>2019-09-30T00:00:00+00:00</lastmod>
   </url>
   
@@ -198,11 +218,6 @@
   </url>
   
   <url>
-    <loc>https://dsba5122-fall2019.netlify.com/assignment/03-problem-set/</loc>
-    <lastmod>2019-03-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://dsba5122-fall2019.netlify.com/assignment/03-quiz/</loc>
     <lastmod>2019-03-25T00:00:00+00:00</lastmod>
   </url>
@@ -223,27 +238,12 @@
   </url>
   
   <url>
-    <loc>https://dsba5122-fall2019.netlify.com/reading/07-reading/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://dsba5122-fall2019.netlify.com/slides/06-class/</loc>
     <lastmod>2019-02-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dsba5122-fall2019.netlify.com/assignment/design-contest/</loc>
-    <lastmod>2019-02-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://dsba5122-fall2019.netlify.com/assignment/02-quiz/</loc>
-    <lastmod>2019-02-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dsba5122-fall2019.netlify.com/reading/06-reading/</loc>
     <lastmod>2019-02-25T00:00:00+00:00</lastmod>
   </url>
   
@@ -343,7 +343,7 @@
   
   <url>
     <loc>https://dsba5122-fall2019.netlify.com/reading/</loc>
-    <lastmod>2019-09-24T00:00:00+00:00</lastmod>
+    <lastmod>2019-10-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

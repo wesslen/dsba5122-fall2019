@@ -1,7 +1,7 @@
 ---
-title: "Design contest"
-date: "2019-02-25"
-due_date: "2019-03-25"
+title: "Design contest: TidyTuesdays"
+date: "2019-09-30"
+due_date: "2019-10-28"
 due_time: "06:00 PM"
 editor_options: 
   chunk_output_type: console
@@ -9,39 +9,77 @@ editor_options:
 
 
 
-<p>Datasets:</p>
-<p>Choose from one of four datasets.</p>
+<p>For this contest, you will find someone else’s submitted #TidyTuesday submission, critique it, then offer suggestions on ways to improve and enhance their work.</p>
+<h3 id="goals">Goals:</h3>
 <ol style="list-style-type: decimal">
-<li><p><code>babynames</code>: US baby name data for each year from 1880 to 2013, the number of children of each sex given each name. All names used 5 or more times are included. 1,792,091 rows, 5 columns (year, sex, name, n, prop). (Source: Social security administration).</p></li>
-<li><p><code>fueleconomy</code>: Fuel economy data for all cars sold in the US from 1984 to 2015. 33,442 rows, 12 variables. (Source: Environmental protection agency)</p></li>
-<li><p><code>nasaweather</code>: Data from the 2006 ASA data expo. Contains monthly atmospheric measurements from Jan 1995 to Dec 2000 on 24 x 24 grid over Central America. 41,472 observations, 11 variables. (Source: ASA data expo)</p></li>
-<li><p><code>nycflights13</code>: This package contains information about all flights that departed from NYC (i.e., EWR, JFK and LGA) in 2013: 336,776 flights with 16 variables. To help understand what causes delays, it also includes a number of other useful datasets: weather, planes, airports, airlines. (Source: Bureau of transportation statistics)</p></li>
+<li><p>Become familar with <a href="https://www.tidytuesday.com">TidyTuesday</a> and the <a href="https://www.rfordatasci.com/">R Online Learning Community</a></p></li>
+<li><p>Learn through someone else’s submission on novel visualization techniques, how to provide code in open source (e.g., how people post code on GitHub, etc.), and how to provide constructive design feedback on existing designs.</p></li>
+<li><p>Improve and enhance others’ work by developing a task/scenario around the visualization and modifying the visualization for that task/scenario.</p></li>
 </ol>
-<p>Objective:</p>
+<h3 id="datasetssubmission">Datasets/Submission:</h3>
+<p>Choose any dataset from the <code>#tidytuesday</code> <a href="https://github.com/rfordatascience/tidytuesday">GitHub repository</a>.</p>
+<p>These datasets are part of a weekly RStudio crowd-sourced project.</p>
+<p>Check out some of these projects using these datasets:</p>
+<ul>
+<li><a href="https://www.tidytuesday.com/">#TidyTuesday Podcast series</a></li>
+<li><a href="https://evancanfield.netlify.com/">Evan Canfield’s Blog</a> including his <a href="https://evancanfield.netlify.com/posts/2019-09-16-national-parks-tidytuesday/tidy-tuesday-38/">National Park</a> and <a href="https://evancanfield.netlify.com/posts/2019-09-10-tidy-tuesday-week-37/amusement-park-injuries/">Amusement Park</a> entries.<span><label for="sn-1" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-1" class="margin-toggle"/><span class="sidenote">Evan is a UNCC DSBA student who took this course in the Spring. I highly recommend his excellent <a href="https://evancanfield.netlify.com/posts/2019-05-06-its_electric/electricity-generation-in-the-southeast-united-states/">final project blog post</a>.<br />
+<br />
+</span></span></li>
+<li><a href="https://github.com/Z3tt/TidyTuesday">Cédric Scherer’s Tidy Tuesday contributions</a><span><label for="sn-2" class="margin-toggle">&#8853;</label><input type="checkbox" id="sn-2" class="margin-toggle"/><span class="marginnote"> <img src="https://github.com/Z3tt/TidyTuesday/raw/master/plots/2019_35/2019_35_SimpsonsGuests_teaser.png" /><br />
+<br />
+</span></span></li>
+<li><a href="https://github.com/spren9er/tidytuesday">Dr. Torsten Sprenger’s Tidy Tuesday contributions</a><span><label for="sn-3" class="margin-toggle">&#8853;</label><input type="checkbox" id="sn-3" class="margin-toggle"/><span class="marginnote"> <img src="https://github.com/spren9er/tidytuesday/raw/master/images/tidytuesday_201926_ufo_sightings.gif" /><br />
+<br />
+</span></span></li>
+</ul>
+<h3 id="objective">Objective:</h3>
+<h4 id="research-and-choose-a-tidytuesday-submission">1. Research and choose a TidyTuesday submission:</h4>
+<p>Go onto Twitter and search <a href="https://twitter.com/hashtag/tidytuesday?lang=en">#tidytuesday</a> and find one (1) posting relating to your dataset that <strong>includes the code they used</strong>.<span><label for="sn-4" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-4" class="margin-toggle"/><span class="sidenote">This is critical. You will need to replicate and build off their submission. Therefore, if you cannot find their code and/or have any issues replicating their results, then select a different submission.<br />
+<br />
+</span></span></p>
+<h4 id="critique">2. Critique:</h4>
+<p>Critique the design of that TidyTuesday submission.</p>
+<p>-What are good design aspects?</p>
+<p>-What are ways to improve this visualization?</p>
+<p>-What are questions do you have with their code (e.g., packages, techniques, functions)?</p>
+<p>Think back to readings (e.g., Wilke, Healy books) on good viz principles. Stronger results will be justified by some of our past readings (e.g., “one positive of the submission included Ogabe-Ito color scheme to be aware of color blindness as cited in Wilke Ch. 19”).</p>
+<h4 id="design-a-scenariotask">3. Design a scenario/task</h4>
+<p>Design a scenario/task using a visual analytics tools using <code>flexdashboard</code>, <code>ggplot2</code>, <code>gganimate</code>, <code>htmlwidgets</code> and/or <code>shiny</code>.</p>
+<p>Think about the following questions in your design process:</p>
+<p>-What are the tasks?</p>
+<p>-What can/must be done using data analysis?</p>
+<p>-What needs to be done interactively?</p>
+<p>-How to best support the user in conducting the tasks?</p>
+<p>-What needs to be visualized and how to best visualize it?</p>
+<p>You goal is a dashboard on your scenario/task.</p>
+<p>For implementation, you should must use at least <code>flexdashboard</code> (recommended) but you can use <code>shiny</code> instead (or together), but <code>shiny</code> is optional.</p>
+<p>If you can’t figure out how to implement certain recommendations (e.g., certain types of interactions), then it’s okay to make notes. For this project, the goal is on design rather than implementation (though you’ll get a higher grade the more you can implement).</p>
+<p>For example, take a screen shot image of your flexdashboard and then (using powerpoint shapes/tool boxes) overlay changes you would like to modify if you had a broader set of tools (e.g., full knowledge of <code>shiny</code>, etc.).</p>
+<h3 id="presentation">Presentation:</h3>
+<p>Prepare a 7-8 minutes presentation to introduce your dataset, tidytuesday selection, design critique, and your suggested dashboard/improved version.</p>
+<p>Slides:</p>
 <ol style="list-style-type: decimal">
-<li><p>Create a scenario: Start by forming a primary research question. Then develop a scenario to answer that research question.</p></li>
-<li><p>Read the paper titled <a href="https://www.cs.ubc.ca/labs/imager/tr/2009/NestedModel/NestedModel.pdf">“A Nested Model for Visualization Design and Validation”</a>. It explains the design process in detail.</p></li>
-<li><p>Design a visual analytics system using <code>flexdashboard</code>, <code>ggplot2</code>, <code>htmlwidgets</code> and/or <code>shiny</code>. You need to design a visual analytics system to help yourself conduct the tasks you proposed.</p></li>
+<li>Title page: Teammates names, Dataset, Date</li>
+<li>Dataset &amp; TidyTuesday Selection: Provide an overview of your dataset by showing the user’s TidyTuesday selction you choose. Be sure to provide a link/credit to whomever created this post.</li>
+<li>Critiques: What are good design choices? What are ways to improve the selected TidyTuesday entry?</li>
+<li>Modified Selection: Provide a screen shot or demo of your modified version of the TidyTuesday submission. What did you modify? What is the value add of your additional enhancements (e.g., what do your enhancements enable?)</li>
 </ol>
-<p>Answer the following questions in your design process:</p>
+<p>You can then provide either screenshots or your dashboard live. Likely not enough time for demo but you can try.</p>
+<p>The presentations will be given on October 28 in class.</p>
+<p>For your presentation, you will need to create slides for your presentation. You may use PowerPoint, Keynote, or try an R-based presentation tool (e.g., ioslides, slidy, or <code>xaringan</code>). I would strongly recommend <code>xaringan</code>. (See this <a href="https://rstudio.cloud/spaces/22733/project/545907">RStudio Cloud project</a> to play with <code>xaringan</code>) You will need to email me these slides.</p>
+<h3 id="grading">Grading:</h3>
+<p>You will be graded on the following criteria:</p>
 <ul>
-<li><p>What are the data and tasks?</p></li>
-<li><p>What can/must be done using data analysis?</p></li>
-<li><p>What needs to be done interactively?</p></li>
-<li><p>How to best support the user in conducting the tasks?</p></li>
-<li><p>What’s the analysis and interaction flow?</p></li>
-<li><p>What needs to be visualized and how to best visualize it?</p></li>
+<li>Review of another’s #tidytuesday post (Recreate and Explain) (20%)</li>
+<li>Depth/insight of your critique of the #tidytuesday post (20%)</li>
+<li>The novelty (value add) of your suggested design/dashboard (20%)</li>
+<li>Quality of your dashboard (20%)</li>
+<li>Quality of the presentation (20%)</li>
 </ul>
-<p>The resulting design will be a visualization dashboard. If you can’t figure out how to implement certain recommendations (e.g., certain types of interactions), then it’s okay to make notes. For this project, the goal is on design rather than implementation (though you’ll get a higher grade the more you can implement).</p>
-<p><strong>Presentation</strong>: Prepare a 7-8 minutes presentation to introduce your dataset, scenario, design process (e.g. your answers to the problems), and your dashboard.</p>
-<p>The presentations will be given on March 25 in class. Upload your dashboard to your shinyapps.io account for deployment.</p>
-<p>For your presentation, you will need to create slides for your presentation. You may use PowerPoint, Keynote, or try an R-based presentation tool (e.g., ioslides, slidy, or <code>xaringan</code>). I would strongly recommend <code>xaringan</code>. In the first page of your slides, write down the names of the team members.</p>
-<p>Grading: The instructor grades the design after your presentation according to the following criteria:</p>
-<ul>
-<li>Novelty of your scenario (2 point)</li>
-<li>How well you follow the design process (2 points)</li>
-<li>The novelty of your design (2 points)</li>
-<li>Quality of your dashboard (2 points)</li>
-<li>Quality of the presentation (2 points)</li>
-</ul>
-<p>Higher scores will include using a broader range of packages and adding in interactive or animated tools (e.g., enable <code>shiny</code>, <code>gganimate</code>, <code>htmlwidgets</code> like plotly) when appropriate. However, please note, don’t just add interaction to add more complexity. You will need to justify why interaction or animation was necessary if you use these items.</p>
+<p>Higher grades will include using a broader range of packages and adding in interactive or animated tools (e.g., enable <code>shiny</code>, <code>gganimate</code>, <code>htmlwidgets</code> like plotly) when appropriate. But don’t feel obligated to use <code>shiny</code> or any tools we hadn’t covered up to this point. My intention is to get you to think about ideally what you’d like to do; but not have all the skills yet to accomplish your goal (this is what the final project is for).</p>
+<p>However, please note, don’t just add interaction to add more complexity. You will need to <em>justify</em> why interaction or animation was necessary if you use these items.</p>
+<p>Extra Credit:
+- Up to 20% for full reproducibility (e.g., GitHub repo or gist, public RStudio.Cloud link, and #tidytuesday Twitter post.). Please provide these as links in your final project slide or in the canvas notes. If you make a Twitter post, please tag whomever you cited and give them thanks for their submission! (Also, be sure to use #dsba5122 too 😉).</p>
+<h3 id="attribution">Attribution:</h3>
+<p>For this project, you can use/be inspired by others work, but whenever you use anything closely resembling someone else’s work, <strong>CITE YOUR SOURCE</strong>!!</p>
+<p>At minimum, you should provide the original <strong>individual’s full name</strong> and an <strong>active link</strong> to the place you found their work (e.g., Tweet, website/blog page, whatever). Any team found not citing will lose points and (depending on how much used) could face disclipinary actions. Therefore, when in doubt, err on the side of citing to avoid any possible complications.</p>

@@ -6,10 +6,35 @@
     <description>Recent content in Readings on Visual Analytics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Oct 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://dsba5122-fall2019.netlify.com/reading/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Multidimensional &amp; Dimensionality Reduction</title>
+      <link>https://dsba5122-fall2019.netlify.com/reading/07-reading/</link>
+      <pubDate>Mon, 14 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-fall2019.netlify.com/reading/07-reading/</guid>
+      <description>Required   Chapter 12: Visualizing associations in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
+
+  Chapter 4: Multivariate Analysis in Riccardo Mazza, Introduction to Information Visualization
+  Recommended   Kieran Healy, “Two y-axes”
+  Tyler Bradley, “PCA in a tidy(verse) framework”
+  David Schoch, “Dimensionality Reduction Methods using FIFA 18 Player Data”</description>
+    </item>
+    
+    <item>
+      <title>Statistical Models</title>
+      <link>https://dsba5122-fall2019.netlify.com/reading/06-reading/</link>
+      <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-fall2019.netlify.com/reading/06-reading/</guid>
+      <description>Required   Chapter 6: Work with Models in Healy.
+  Chapter 22: Model introduction and Chapter 23: Model basics in Wickham/Grolemund.
+  Recommended   Chapter 6: Basic Regression from “ModernDive: An Introduction to Statistical and Data Sciences via R” by Chester Ismay and Albert Y. Kim.This is an outstanding new book – with a free online version – that will be a big complement to the tidyverse in the future.</description>
+    </item>
     
     <item>
       <title>Distributions &amp; Uncertainty</title>
@@ -125,31 +150,6 @@
   Recommended   Chapter 6: Topic modeling in Julia Silge and David Robinson, Tidy Text Mining in RIbid.
 
   Ken Benoit, Kohei Watanabe, and Stefan Müller, “quanteda”quanteda is my favorite R-based text package.</description>
-    </item>
-    
-    <item>
-      <title>Multidimensional &amp; Dimensionality Reduction</title>
-      <link>https://dsba5122-fall2019.netlify.com/reading/07-reading/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-fall2019.netlify.com/reading/07-reading/</guid>
-      <description>Required   Chapters 9 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
-
-  Chapter 12: Visualizing associations in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
-
-  Chapter 4: Multivariate Analysis in Riccardo Mazza, Introduction to Information Visualization
-  Recommended   Kieran Healy, “Two y-axes”</description>
-    </item>
-    
-    <item>
-      <title>Statistical Models</title>
-      <link>https://dsba5122-fall2019.netlify.com/reading/06-reading/</link>
-      <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-fall2019.netlify.com/reading/06-reading/</guid>
-      <description>Required   Chapter 6: Work with Models in Healy.
-  Chapter 22: Model introduction and Chapter 23: Model basics in Wickham/Grolemund.
-  Recommended   Chapter 6: Basic Regression from “ModernDive: An Introduction to Statistical and Data Sciences via R” by Chester Ismay and Albert Y. Kim.This is an outstanding new book – with a free online version – that will be a big complement to the tidyverse in the future.</description>
     </item>
     
     <item>

@@ -1,7 +1,7 @@
 ---
 title: "Extra Credit 1"
-date: "2019-11-11"
-due_date: "2019-11-25"
+date: "2019-09-30"
+due_date: "2019-12-02"
 due_time: "11:59 PM"
 editor_options: 
   chunk_output_type: console
@@ -9,17 +9,17 @@ editor_options:
 
 # Task 0: Getting started
 
-For this problem set, you'll learn `blogdown`, an R package that enables building websites through [Hugo](https://gohugo.io/getting-started/), a web framework. Like shiny, `blogdown` enable you to use a more complex framework (i.e., Hugo) but through R functions and syntax that you've been learning about all semester.
+For this extra credit (worth 2% on your final grade), you'll learn `blogdown`, an R package that enables building websites through [Hugo](https://gohugo.io/getting-started/), a web framework. Like shiny, `blogdown` enable you to use a more complex framework (i.e., Hugo) but through R functions and syntax that you've been learning about all semester.
 
 I recommend running this exercise on your personal laptop, mainly so you'll have this blog site already saved on your own personal computer.
 
-For this assignment, we'll primarily be using Xie, Thomas, and Hill's [`blogdown` book](https://bookdown.org/yihui/blogdown/). This is a long book and should be used as more of a reference than read from beginning to end.
+For this, we'll primarily be using Xie, Thomas, and Hill's [`blogdown` book](https://bookdown.org/yihui/blogdown/). This is a long book and should be used as more of a reference than read from beginning to end.
 
 # Task 1: Read Chapter 1
 
 First, read [Chapter 1 from Xie, Thomas, and Hill](https://bookdown.org/yihui/blogdown/get-started.html)'s Blogdown book.
 
-# Task 2: Build your site (1 Point)
+# Task 2: Build your site
 
 Following [Section 1.7](https://bookdown.org/yihui/blogdown/get-started.html), we'll build a website:
 
@@ -41,7 +41,7 @@ Following [Section 1.7](https://bookdown.org/yihui/blogdown/get-started.html), w
 
 This will likely create a file pop up. Save that file as a template. It should be saved in the `content/post` folder.
 
-# Task 3: Modify the `config.toml` file (1 Point)
+# Task 3: Modify the `config.toml` file
 
 In Hugo, the most important file is the configuration file: `config.toml`.
 
@@ -53,7 +53,7 @@ You should now see these files. Open `config.toml`.
 
 1. Change the title,^[Think of a creative title name or just say "My Blog". You can always edit it later.] author name, color, homeSubtitle, and modify the social network (free feel to remove, add, or modify). Provide whatever names you want.
 
-# Task 4: Create content and write your first post (1 Points)
+# Task 4: Create content and write your first post
 
 To create new pages, you'll use RMarkdown. The key is the location of the files.
 
@@ -85,7 +85,7 @@ To learn more, see the [2nd section of this chapter](https://bookdown.org/yihui/
 
 Next, read through the rest of Chapter 2, especially [section 2.7 on static files](https://bookdown.org/yihui/blogdown/static-files.html). This is the location where you can put files (e.g., images, pdf, gifs).
 
-# Task 7: Deploy to Netlify (option 1: 1 point)
+# Task 7: Deploy to Netlify
 
 The simplest way to deploy your website is to put it on Netlify through drag and droping the contents of your `/public` folder.
 
@@ -93,7 +93,7 @@ To do this follow Allison Hill's [Hugo Troubleshooting steps](https://alison.rbi
 
 ![](/images/assignment/hill-deploy.gif)
 
-# Task 7 (alternate): Deploy to Netlify via GitHub (option 2: 3 points)
+# Task 7 (alternate, optional): Deploy to Netlify via GitHub
 
 For this task, you'll need to learn GitHub. You'll first need to create your own GitHub account as well as follow additional steps.
 
@@ -105,7 +105,9 @@ I'd highly recommend Jenny Bryan's [Happy Git With R](https://happygitwithr.com/
 
 # What to provide for credit
 
-To complete the assignment, simply provide the URL for your website on netlify on [Canvas](https://uncc.instructure.com/courses/100065/assignments/516674) by 11:59pm on Thursday, May 2, 2019. 
+To get extra credit, you need to DM on Slack (no emails please) your netlify website page link. Your site must be operational.
+
+Note the deadline is midnight by the final exam, 5:59pm on Monday, December 9. I will not take extra credit after that point, i.e., grades need to be finalized.
 
 # Help
 

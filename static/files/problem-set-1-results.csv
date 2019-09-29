@@ -1,0 +1,41 @@
+﻿Grade,Time,Issues
+82,.,.
+100,4,Rmarkdown Technicalities
+95,4,Coding Error in smoothed function
+86,4,Comprehending the code
+92,6,.
+100,.,.
+65,.,.
+95,6,running code in chunks
+95,.,.
+97,2.5,Instructions seemed unclea at times and Rstudio bugs
+100,2,.
+100,6,thinking read.csv and read_csv are the same thing
+97,1.5,Nothing
+95,5,understanding that %+% replaced the corrupt dataset
+77,5,Knowing the right terminology to find what to look for
+100,3,Handling strings for the country names
+82,10,Coding
+83,12,Coding
+97,3,R session connection issue
+99,3,Getting familiar with the interface and figuring out how to resolve issues
+94,2,"Second half of the assignment, mainly the graphs preventing running the code"
+94,2,.
+88,2,Installing the colorspace package
+97,4,ggplot and creating a zip folder in the end
+95,4,error changing the formula
+95,2,.
+100,4,installing cowplot package
+100,3,Understanding linear vs logarithmic scale
+97,.,.
+97,4,count function in code 5
+99,4,Understanding what to do and how to diagnose a problem
+98,3,dplyr piping function
+100,6,Took time in understanding and interpreting the plot
+92,1.2,.
+96,5,Getting to know what to do and setting up the environment
+98,3,Understanding what to do
+97,.,Working with R on local machine
+70,.,.
+94,2.5,Prefilled complex code helped
+100,3,Interpreting the graphs

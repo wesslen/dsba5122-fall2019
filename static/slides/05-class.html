@@ -132,11 +132,15 @@ class: center, middle
 
 &lt;img src="../images/slides/05-class/wilke13.png" width="700px" style="display: block; margin: auto;" /&gt;
 
+[`ggridges` examples](https://cran.r-project.org/web/packages/ggridges/vignettes/gallery.html)
+
 ---
 
 class: center, middle
 
 &lt;img src="../images/slides/05-class/wilke14.png" width="700px" style="display: block; margin: auto;" /&gt;
+
+[`ggridges` examples](https://cran.r-project.org/web/packages/ggridges/vignettes/gallery.html)
 
 ---
 
@@ -180,8 +184,8 @@ class: center, middle
 ```r
 organdata %&gt;% 
   ggplot(aes(x = country, y = donors)) +
-  stat_summary(fun.y = mean, geom = "point", size = 3) + 
-  stat_summary(fun.data = mean_cl_boot, geom = "errorbar", width = 0.5) +
+* stat_summary(fun.y = mean, geom = "point", size = 3) + 
+* stat_summary(fun.data = mean_cl_boot, geom = "errorbar", width = 0.5) +
   coord_flip() +
   cowplot::theme_cowplot() +
   labs(x = " ", 
@@ -201,10 +205,10 @@ organdata %&gt;%
 ```r
 organdata %&gt;%
   group_by(country) %&gt;%
-  do(as_tibble(bind_rows(Hmisc::smean.cl.boot(.$donors)))) %&gt;%
+* do(as_tibble(bind_rows(Hmisc::smean.cl.boot(.$donors)))) %&gt;% # bootstrapping by country
   ggplot(aes(x = reorder(country, Mean), y = Mean)) +
-  geom_point(size = 3) +
-  geom_errorbar(aes(ymin = Lower, ymax = Upper), width = 0.5) +
+* geom_point(size = 3) +    # Plot means as geom_point
+  geom_errorbar(aes(ymin = Lower, ymax = Upper), width = 0.5) + # Error as geom_errorbar
   coord_flip() +
   cowplot::theme_cowplot() +
   labs(x = " ", y = "Organ Donations in 000's", title = "Avg Organ Donations (000s) by Country")
@@ -249,7 +253,7 @@ df %&gt;%
 
 ---
 
-# Unemployment Rate
+# Types of Uncertainty: Reducible and Irreducible
 
 .center2[
 &lt;img src="../../images/slides/05-class/02-unemp-blog.png" width="800px" style="display: block; margin: auto;" /&gt;

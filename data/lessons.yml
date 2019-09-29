@@ -56,36 +56,32 @@ lessons:
   - title: "Class 6: Statistical Models"
     date: "September 30"
     reading: "06-reading"
-    #class: "06-class"
-    
-  - title: "**Quiz 2 (Due Oct 14)**"
-    date: "September 30"
-    #assignment: "02-quiz"
+    class: "06-class"
     
   - title: "Design Contest assigned (Due Oct 28)"
     date: "September 30"
-    #assignment: "design-contest"
-    
-  - title: "**Datacamp course 3 (Due Oct 22)**"
-    date: "September 30"
-    assignment: "03-datacamp"
+    assignment: "design-contest"
     
   - title: "No class (Fall Break)"
     date: "October 7"
 
   - title: "Class 7: Multidimensional Data"
     date: "October 14"
-    #reading: "07-reading"
+    reading: "07-reading"
     #class: "07-class"
+
+  - title: "**Quiz 2 (Due Oct 21)**"
+    date: "October 14"
+    #assignment: "02-quiz"
+    
+  - title: "**Datacamp course 3 (Due Nov 5)**"
+    date: "October 14"
+    assignment: "03-datacamp"
 
   - title: "Class 8: Networks and Trees"
     date: "October 21"
     #reading: "08-reading"
     #class: "08-class"
-    
-  - title: "**Problem set 3 (Due Nov 4)**"
-    date: "October 21"
-    #assignment: "03-problem-set"
     
   - title: "Class 9: Design Contest Presentations"
     date: "October 28"
@@ -102,6 +98,10 @@ lessons:
     date: "November 4"
     #reading: "10-reading"
     #class: "10-class"
+    
+  - title: "**Problem set 3 (Due Nov 18)**"
+    date: "November 4"
+    #assignment: "03-problem-set"
     
   - title: "Final project assigned (Due Dec 9)"
     date: "November 4"

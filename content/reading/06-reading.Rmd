@@ -1,6 +1,6 @@
 ---
 title: "Statistical Models"
-date: "2019-02-25"
+date: "2019-09-30"
 citeproc: false
 bibliography: ../../static/bib/references.bib
 csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl

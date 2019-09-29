@@ -18,7 +18,7 @@ editor_options:
 
 2. Reminder that [Problem Set 2](../../assignment/02-problem-set.html) is due by 11:59pm Monday, Oct 7th (during Fall Break).
 
-3. Next week Quiz 3 will be assigned. Focus will be on readings since Quiz 2 and `ggplot2`.
+3. Charlotte R Meetup Group. Possibly present on Tuesday, 12-1pm in [12/17 meeting](https://www.meetup.com/Charlotte-R-Users-Group/events/263288806/). See [Slack channel post](https://dsba5122fall2019.slack.com/archives/CLN2LED8R/p1568153057005000).
 
 # Tweet of the Day:
 
@@ -35,7 +35,7 @@ knitr::include_url('../../slides/05-class.html#1')
 
 # Lab 5:
 
-For the lab session, we'll use the same [`gganimate` project](https://rstudio.cloud/spaces/7976/project/211237) from last week that's on our RStudio.cloud workspace.
+For the lab session, we'll use the same [`gganimate` project](https://rstudio.cloud/spaces/22733/project/211237) from last week that's on our RStudio.cloud workspace.
 
 If we have time, I also included Matthew Kay's [Uncertainty visualization examples](https://github.com/mjskay/uncertainty-examples) in the RStudio.cloud project (see uncertainty-examples folder).^[Be sure to check out Claus Wilke's [`ungeviz`](https://wilkelab.org/ungeviz/index.html) package.]
 

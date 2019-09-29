@@ -43,11 +43,37 @@ I will try to review each quiz in the following class to provide feedback on eac
 
 **No late submissions**. After the deadline, if you did not complete your quiz, you will receive a 0% grade. 
 
+# Extra Credit
+
+You may receive up to **5%** extra credit to be added to your final grade. This is equivalent to a problem set or quiz grade (e.g., if you missed one). Extra points on problem sets or projects do not count towards this cap and are separate.
+
+Once a student hits the 5% cap, any additional work will not count towards extra credit.
+
+Other opportunities may arise through the semester but I'll make an annoucement as they become official.
+
+```{r assignments-grades, echo=F}
+assignments <- tibble::tribble(
+  ~Task,  ~Instructions, ~Points,
+  "Create your own\nblogdown website." , "See link below.", "2%",
+  "Attend R Meetup Group (Sept, Oct, Nov)", "See link below.", "1%",
+  "Slack participation*" , "Answer a question or provide an interesting post/finding. You'll only get credit if I respond #slackextracredit.", "0.25%"
+) 
+
+knitr::kable(assignments)
+```
+
+- [Create your own blogdown website](../../assignment/01-extra-credit/)
+- [Charlotte R Meetup Group](https://www.meetup.com/Charlotte-R-Users-Group/)
+
+*For Slack, you can only have up to 8 times (so 2% total extra points).
+
+To get extra credit, please DM me on Slack (e.g., for blogdown, you need to provide your netlify website.)
+
 # Design Contest / Mini-Project
 
 <span class="newthought">To give you practice for the final project</span>, you will complete a mini-project halfway through the semester. I will provide you with real-world data and pose one or more questions—you will make a static visualization plots.
 
-The goal of this project is to give you practice to design visualization solution for an interesting data problem. You are **not** expected to use interactive visualizations (e.g., Shiny, htmlwidgets) since we will not have covered that material in detail. Instead, you need to outline what skills/tools you want to learn more to better for the final project (e.g., what would you want to do if you could).
+The goal of this project is to give you practice to design visualization solution for an interesting data problem. You are **not** expected to use Shiny since we will not have covered that material in detail. Instead, you need to outline what skills/tools you want to learn more to better for the final project (e.g., what would you want to do if you could).
 
 Feel free to start thinking about ideas (datasets, research questions) now. This will be in groups of no more than 3 students per group.
 

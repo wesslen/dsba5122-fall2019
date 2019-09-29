@@ -12,16 +12,6 @@
     
     
     <item>
-      <title>Extra Credit 1</title>
-      <link>https://dsba5122-fall2019.netlify.com/assignment/01-extra-credit/</link>
-      <pubDate>Mon, 11 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-fall2019.netlify.com/assignment/01-extra-credit/</guid>
-      <description>Task 0: Getting started For this problem set, you’ll learn blogdown, an R package that enables building websites through Hugo, a web framework. Like shiny, blogdown enable you to use a more complex framework (i.e., Hugo) but through R functions and syntax that you’ve been learning about all semester.
-I recommend running this exercise on your personal laptop, mainly so you’ll have this blog site already saved on your own personal computer.</description>
-    </item>
-    
-    <item>
       <title>Problem set 4</title>
       <link>https://dsba5122-fall2019.netlify.com/assignment/04-problem-set/</link>
       <pubDate>Mon, 11 Nov 2019 00:00:00 +0000</pubDate>
@@ -53,6 +43,15 @@ For this DataCamp course, you’ll learn more about shiny using hands on case st
     </item>
     
     <item>
+      <title>Problem set 3</title>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/03-problem-set/</link>
+      <pubDate>Mon, 04 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/03-problem-set/</guid>
+      <description>a.sourceLine { display: inline-block; line-height: 1.25; } a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; } a.sourceLine:empty { height: 1.2em; } .sourceCode { overflow: visible; } code.sourceCode { white-space: pre; position: relative; } div.sourceCode { margin: 1em 0; } pre.sourceCode { margin: 0; } @media screen { div.sourceCode { overflow: auto; } } @media print { code.sourceCode { white-space: pre-wrap; } a.sourceLine { text-indent: -1em; padding-left: 1em; } } pre.</description>
+    </item>
+    
+    <item>
       <title>Design Contest Presentations</title>
       <link>https://dsba5122-fall2019.netlify.com/class/09-class/</link>
       <pubDate>Mon, 21 Oct 2019 00:00:00 +0000</pubDate>
@@ -61,6 +60,33 @@ For this DataCamp course, you’ll learn more about shiny using hands on case st
       <description> Contents  Slides Agenda and layout   Slides No lecture/slides today. We’ll have each group present their design contest presentations (10 minutes for each group).
 Agenda and layout These groups were randomly assigned. Please plan to present in 8 minutes with 1-2 min for questions.
   Time Item    6:00 PM Intro  6:20 PM Group X  6:30 PM Group X  6:40 PM Group X  6:50 PM Group X  7:00 PM Group X  7:10 PM Group X  7:20 PM Group X  7:30 PM 10 min Break  7:40 PM Group X  7:50 PM Group X  8:00 PM Group X  8:10 PM Group X  8:20 PM Group X  8:30 PM Group X    </description>
+    </item>
+    
+    <item>
+      <title>Datacamp Course 3</title>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/03-datacamp/</link>
+      <pubDate>Mon, 14 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/03-datacamp/</guid>
+      <description>DataCamp Course: (Modified for this assignment) DataCamp no longer offers their “Intro to Shiny”.
+Instead, you have two options:
+Watch a 2.5 hour introduction to Shiny training video.
+ Go through and read RStudio’s Shiny Introduction Article Series
+  Since I can’t verify your completion, to complete this assignment you must submit on Canvas this statement: “On my honor, I have completed option X for DataCamp course 3.” (where you state whether you did #1 or #2 in place of X).</description>
+    </item>
+    
+    <item>
+      <title>Multidimensional &amp; Dimensionality Reduction</title>
+      <link>https://dsba5122-fall2019.netlify.com/reading/07-reading/</link>
+      <pubDate>Mon, 14 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-fall2019.netlify.com/reading/07-reading/</guid>
+      <description>Required   Chapter 12: Visualizing associations in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
+
+  Chapter 4: Multivariate Analysis in Riccardo Mazza, Introduction to Information Visualization
+  Recommended   Kieran Healy, “Two y-axes”
+  Tyler Bradley, “PCA in a tidy(verse) framework”
+  David Schoch, “Dimensionality Reduction Methods using FIFA 18 Player Data”</description>
     </item>
     
     <item>
@@ -88,16 +114,24 @@ Slides: full screen / pdf version</description>
     </item>
     
     <item>
-      <title>Datacamp Course 3</title>
-      <link>https://dsba5122-fall2019.netlify.com/assignment/03-datacamp/</link>
+      <title>Design contest: TidyTuesdays</title>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/design-contest/</link>
       <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dsba5122-fall2019.netlify.com/assignment/03-datacamp/</guid>
-      <description>DataCamp Course: (Modified for this assignment) DataCamp no longer offers their “Intro to Shiny”.
-Instead, you have two options:
-Watch a 2.5 hour introduction to Shiny training video.
- Go through and read RStudio’s Shiny Introduction Article Series
-  Since I can’t verify your completion, to complete this assignment you must submit on Canvas this statement: “On my honor, I have completed option X for DataCamp course 3.” (where you state whether you did #1 or #2 in place of X).</description>
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/design-contest/</guid>
+      <description>For this contest, you will find someone else’s submitted #TidyTuesday submission, critique it, then offer suggestions on ways to improve and enhance their work.
+Goals: Become familar with TidyTuesday and the R Online Learning Community
+ Learn through someone else’s submission on novel visualization techniques, how to provide code in open source (e.g., how people post code on GitHub, etc.), and how to provide constructive design feedback on existing designs.</description>
+    </item>
+    
+    <item>
+      <title>Extra Credit 1</title>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/01-extra-credit/</link>
+      <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/01-extra-credit/</guid>
+      <description>Task 0: Getting started For this extra credit (worth 2% on your final grade), you’ll learn blogdown, an R package that enables building websites through Hugo, a web framework. Like shiny, blogdown enable you to use a more complex framework (i.e., Hugo) but through R functions and syntax that you’ve been learning about all semester.
+I recommend running this exercise on your personal laptop, mainly so you’ll have this blog site already saved on your own personal computer.</description>
     </item>
     
     <item>
@@ -106,7 +140,24 @@ Watch a 2.5 hour introduction to Shiny training video.
       <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-fall2019.netlify.com/class/06-class/</guid>
-      <description>Contents  Tweet of the day Overview Lab 6: Work with models in ggplot2   Tweet of the day At long last, the parsnip package is on CRAN. parsnip is a unified R interface to models. The first of two blog posts about the package is at https://t.co/PXgFJ8eucM #rstats #tidyverse pic.twitter.com/BmuA9exckK — Max Kuhn (@topepos) November 28, 2018   Overview Matthew Kay’s Tidy data and Bayesian analysis make uncertainty visualization fun</description>
+      <description>Contents  Announcements Tweet of the day Lab 6: Work with models in ggplot2   Announcements Problem Set 1 has been graded.  This plot does not include 7 submissions (grades 65, 70, 82, 95, 97, 97, 100) that did not provide time to complete.
+
+ {&#34;x&#34;:{&#34;data&#34;:[{&#34;x&#34;:[4.05160203939304,3.96255510947667,4.08344028508291,6.01531392759644,5.92235856642947,2.01132272598334,1.97686835839413,5.92516453512944,1.04556299294345,4.94064911729656,4.92692270749249,2.99281818503514,9.90103475819342,11.9583111525513,3.08537683249451,3.02956927325577,1.97121127177961,1.99946143706329,1.90638785948977,3.96132981744595,4.05824682535604,2.08224013140425,3.99861449720338,2.97119783977978,3.90698080952279,4.01475841598585,3.03242390840314,6.01348651857115,0.974095713347197,4.96018386851065,2.99378862739541,1.91597614395432,2.90203933627345],&#34;y&#34;:[99.9522087836172,94.9980291528627,86.0951282504015,91.9021509042475,95.0464017190039,97.0364107272588,99.968672604952,99.9729711455293,97.0209314046428,94.9970417097677,76.9926913842093,100.009144273633,82.033900323743,82.9148371446878,96.9542804929428,99.0177658515051,94.0527105272282,93.9568632285576,88.0703035848215,96.9533002968878,94.9874848370906,95.0068279764149,100.056715554371,100.046073425654,96.9541340987664,98.9630851930007,98.0151491359807,100.057349617267,91.9260425385553,96.0443524292205,97.9793301115278,93.9090781798121,99.954953266494],&#34;text&#34;:[&#34;Time: 4
+Grade: 100
+Issues: Rmarkdown Technicalities&#34;,&#34;Time: 4
+Grade: 95
+Issues: Coding Error in smoothed function&#34;</description>
+    </item>
+    
+    <item>
+      <title>Statistical Models</title>
+      <link>https://dsba5122-fall2019.netlify.com/reading/06-reading/</link>
+      <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-fall2019.netlify.com/reading/06-reading/</guid>
+      <description>Required   Chapter 6: Work with Models in Healy.
+  Chapter 22: Model introduction and Chapter 23: Model basics in Wickham/Grolemund.
+  Recommended   Chapter 6: Basic Regression from “ModernDive: An Introduction to Statistical and Data Sciences via R” by Chester Ismay and Albert Y. Kim.This is an outstanding new book – with a free online version – that will be a big complement to the tidyverse in the future.</description>
     </item>
     
     <item>
@@ -129,7 +180,7 @@ Watch a 2.5 hour introduction to Shiny training video.
       <guid>https://dsba5122-fall2019.netlify.com/class/05-class/</guid>
       <description>Contents  Annoucements Tweet of the Day: Slides: Lab 5: Links:   Annoucements DataCamp 2 is due by 11:59pm Tuesday, Sept 24th.
  Reminder that Problem Set 2 is due by 11:59pm Monday, Oct 7th (during Fall Break).
- Next week Quiz 3 will be assigned. Focus will be on readings since Quiz 2 and ggplot2.
+ Charlotte R Meetup Group. Possibly present on Tuesday, 12-1pm in 12/17 meeting. See Slack channel post.
   Tweet of the Day: My ??? talk is now in video form: A biased tour of the uncertainty visualization zoo.</description>
     </item>
     
@@ -428,15 +479,6 @@ Dataset: This is up to your group. You may use a dataset from the design contest
     </item>
     
     <item>
-      <title>Problem set 3</title>
-      <link>https://dsba5122-fall2019.netlify.com/assignment/03-problem-set/</link>
-      <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-fall2019.netlify.com/assignment/03-problem-set/</guid>
-      <description>a.sourceLine { display: inline-block; line-height: 1.25; } a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; } a.sourceLine:empty { height: 1.2em; } .sourceCode { overflow: visible; } code.sourceCode { white-space: pre; position: relative; } div.sourceCode { margin: 1em 0; } pre.sourceCode { margin: 0; } @media screen { div.sourceCode { overflow: auto; } } @media print { code.sourceCode { white-space: pre-wrap; } a.sourceLine { text-indent: -1em; padding-left: 1em; } } pre.</description>
-    </item>
-    
-    <item>
       <title>Quiz 3</title>
       <link>https://dsba5122-fall2019.netlify.com/assignment/03-quiz/</link>
       <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
@@ -486,20 +528,6 @@ Welcome  </description>
     </item>
     
     <item>
-      <title>Multidimensional &amp; Dimensionality Reduction</title>
-      <link>https://dsba5122-fall2019.netlify.com/reading/07-reading/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-fall2019.netlify.com/reading/07-reading/</guid>
-      <description>Required   Chapters 9 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
-
-  Chapter 12: Visualizing associations in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
-
-  Chapter 4: Multivariate Analysis in Riccardo Mazza, Introduction to Information Visualization
-  Recommended   Kieran Healy, “Two y-axes”</description>
-    </item>
-    
-    <item>
       <title>DSBA 5122: Visual Analytics</title>
       <link>https://dsba5122-fall2019.netlify.com/slides/06-class/</link>
       <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
@@ -510,35 +538,12 @@ Welcome  </description>
     </item>
     
     <item>
-      <title>Design contest</title>
-      <link>https://dsba5122-fall2019.netlify.com/assignment/design-contest/</link>
-      <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-fall2019.netlify.com/assignment/design-contest/</guid>
-      <description>Datasets:
-Choose from one of four datasets.
-babynames: US baby name data for each year from 1880 to 2013, the number of children of each sex given each name. All names used 5 or more times are included. 1,792,091 rows, 5 columns (year, sex, name, n, prop). (Source: Social security administration).
- fueleconomy: Fuel economy data for all cars sold in the US from 1984 to 2015. 33,442 rows, 12 variables.</description>
-    </item>
-    
-    <item>
       <title>Quiz 2</title>
       <link>https://dsba5122-fall2019.netlify.com/assignment/02-quiz/</link>
       <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-fall2019.netlify.com/assignment/02-quiz/</guid>
       <description>a.sourceLine { display: inline-block; line-height: 1.25; } a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; } a.sourceLine:empty { height: 1.2em; } .sourceCode { overflow: visible; } code.sourceCode { white-space: pre; position: relative; } div.sourceCode { margin: 1em 0; } pre.sourceCode { margin: 0; } @media screen { div.sourceCode { overflow: auto; } } @media print { code.sourceCode { white-space: pre-wrap; } a.sourceLine { text-indent: -1em; padding-left: 1em; } } pre.</description>
-    </item>
-    
-    <item>
-      <title>Statistical Models</title>
-      <link>https://dsba5122-fall2019.netlify.com/reading/06-reading/</link>
-      <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-fall2019.netlify.com/reading/06-reading/</guid>
-      <description>Required   Chapter 6: Work with Models in Healy.
-  Chapter 22: Model introduction and Chapter 23: Model basics in Wickham/Grolemund.
-  Recommended   Chapter 6: Basic Regression from “ModernDive: An Introduction to Statistical and Data Sciences via R” by Chester Ismay and Albert Y. Kim.This is an outstanding new book – with a free online version – that will be a big complement to the tidyverse in the future.</description>
     </item>
     
     <item>
@@ -679,7 +684,7 @@ RStudio.cloud R is free, but it can sometimes be a pain to install and configure
       
       <guid>https://dsba5122-fall2019.netlify.com/schedule/</guid>
       <description> Here’s your roadmap for the semester!
-  Readings should be completed before each class session  Assignments are due by 11:59 PM on the day they are due  Class materials (slides, in-class activities, etc.) will be added on the day of class     Information Visualization Reading Assignment Class   August 19 Class 1: Intro to Visual Analytics      August 19 Datacamp course 1 (Due Sept 3)      August 26 Class 2: Visual Representations I      August 26 Problem set 1 (Due Sept 16)      September 2 No class (Labor Day)      September 9 Class 3: Visual Representations II      September 9 Quiz 1 (Due Sept 16)      September 9 Datacamp course 2 (Due Sept 24)      September 16 Class 4: Time &amp;amp; Space      September 16 Problem set 2 (Due Oct 7)      September 23 Class 5: Distributions &amp;amp; Uncertainty       Interactive Visualizations Reading Assignment Class   September 30 Class 6: Statistical Models      September 30 Quiz 2 (Due Oct 14)      September 30 Design Contest assigned (Due Oct 28)      September 30 Datacamp course 3 (Due Oct 22)      October 7 No class (Fall Break)      October 14 Class 7: Multidimensional Data      October 21 Class 8: Networks and Trees      October 21 Problem set 3 (Due Nov 4)      October 28 Class 9: Design Contest Presentations      October 28 Quiz 3 (Due Nov 4)       Building Shiny Apps Reading Assignment Class   November 4 Class 10: Intro to Shiny      November 4 Final project assigned (Due Dec 9)      November 4 Datacamp course 4 (Due Nov 19)      November 11 Class 11: Interacting &amp;amp; Brushing      November 11 Problem set 4 (Due Nov 25)      November 18 Class 12: Shiny in Production      November 25 Class 13: Human Factors      November 25 Quiz 4 (Due Dec 2)      December 2 Class 14: TBD       Final Reading Assignment Class   December 9 Final project due       </description>
+  Readings should be completed before each class session  Assignments are due by 11:59 PM on the day they are due  Class materials (slides, in-class activities, etc.) will be added on the day of class     Information Visualization Reading Assignment Class   August 19 Class 1: Intro to Visual Analytics      August 19 Datacamp course 1 (Due Sept 3)      August 26 Class 2: Visual Representations I      August 26 Problem set 1 (Due Sept 16)      September 2 No class (Labor Day)      September 9 Class 3: Visual Representations II      September 9 Quiz 1 (Due Sept 16)      September 9 Datacamp course 2 (Due Sept 24)      September 16 Class 4: Time &amp;amp; Space      September 16 Problem set 2 (Due Oct 7)      September 23 Class 5: Distributions &amp;amp; Uncertainty       Interactive Visualizations Reading Assignment Class   September 30 Class 6: Statistical Models      September 30 Design Contest assigned (Due Oct 28)      October 7 No class (Fall Break)      October 14 Class 7: Multidimensional Data      October 14 Quiz 2 (Due Oct 21)      October 14 Datacamp course 3 (Due Nov 5)      October 21 Class 8: Networks and Trees      October 28 Class 9: Design Contest Presentations      October 28 Quiz 3 (Due Nov 4)       Building Shiny Apps Reading Assignment Class   November 4 Class 10: Intro to Shiny      November 4 Problem set 3 (Due Nov 18)      November 4 Final project assigned (Due Dec 9)      November 4 Datacamp course 4 (Due Nov 19)      November 11 Class 11: Interacting &amp;amp; Brushing      November 11 Problem set 4 (Due Nov 25)      November 18 Class 12: Shiny in Production      November 25 Class 13: Human Factors      November 25 Quiz 4 (Due Dec 2)      December 2 Class 14: TBD       Final Reading Assignment Class   December 9 Final project due       </description>
     </item>
     
     <item>

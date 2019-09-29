@@ -1,7 +1,7 @@
 ---
 title: "Extra Credit 1"
-date: "2019-11-11"
-due_date: "2019-11-25"
+date: "2019-09-30"
+due_date: "2019-12-02"
 due_time: "11:59 PM"
 editor_options: 
   chunk_output_type: console
@@ -10,12 +10,12 @@ editor_options:
 
 
 <h2 id="task-0-getting-started">Task 0: Getting started</h2>
-<p>For this problem set, you’ll learn <code>blogdown</code>, an R package that enables building websites through <a href="https://gohugo.io/getting-started/">Hugo</a>, a web framework. Like shiny, <code>blogdown</code> enable you to use a more complex framework (i.e., Hugo) but through R functions and syntax that you’ve been learning about all semester.</p>
+<p>For this extra credit (worth 2% on your final grade), you’ll learn <code>blogdown</code>, an R package that enables building websites through <a href="https://gohugo.io/getting-started/">Hugo</a>, a web framework. Like shiny, <code>blogdown</code> enable you to use a more complex framework (i.e., Hugo) but through R functions and syntax that you’ve been learning about all semester.</p>
 <p>I recommend running this exercise on your personal laptop, mainly so you’ll have this blog site already saved on your own personal computer.</p>
-<p>For this assignment, we’ll primarily be using Xie, Thomas, and Hill’s <a href="https://bookdown.org/yihui/blogdown/"><code>blogdown</code> book</a>. This is a long book and should be used as more of a reference than read from beginning to end.</p>
+<p>For this, we’ll primarily be using Xie, Thomas, and Hill’s <a href="https://bookdown.org/yihui/blogdown/"><code>blogdown</code> book</a>. This is a long book and should be used as more of a reference than read from beginning to end.</p>
 <h2 id="task-1-read-chapter-1">Task 1: Read Chapter 1</h2>
 <p>First, read <a href="https://bookdown.org/yihui/blogdown/get-started.html">Chapter 1 from Xie, Thomas, and Hill</a>’s Blogdown book.</p>
-<h2 id="task-2-build-your-site-1-point">Task 2: Build your site (1 Point)</h2>
+<h2 id="task-2-build-your-site">Task 2: Build your site</h2>
 <p>Following <a href="https://bookdown.org/yihui/blogdown/get-started.html">Section 1.7</a>, we’ll build a website:</p>
 <ol style="list-style-type: decimal">
 <li><p>Create a new R Project.</p></li>
@@ -30,7 +30,7 @@ editor_options:
 <li><p>Build your website with the code: <code>blogdown::new_site(theme = 'user/repo')</code></p></li>
 </ol>
 <p>This will likely create a file pop up. Save that file as a template. It should be saved in the <code>content/post</code> folder.</p>
-<h2 id="task-3-modify-the-config.toml-file-1-point">Task 3: Modify the <code>config.toml</code> file (1 Point)</h2>
+<h2 id="task-3-modify-the-config.toml-file">Task 3: Modify the <code>config.toml</code> file</h2>
 <p>In Hugo, the most important file is the configuration file: <code>config.toml</code>.</p>
 <p>Read Chapters 2.1-2.2 to understand the basics of the file structures.</p>
 <p>You should now see these files. Open <code>config.toml</code>.</p>
@@ -40,7 +40,7 @@ editor_options:
 <br />
 </span></span> author name, color, homeSubtitle, and modify the social network (free feel to remove, add, or modify). Provide whatever names you want.</li>
 </ol>
-<h2 id="task-4-create-content-and-write-your-first-post-1-points">Task 4: Create content and write your first post (1 Points)</h2>
+<h2 id="task-4-create-content-and-write-your-first-post">Task 4: Create content and write your first post</h2>
 <p>To create new pages, you’ll use RMarkdown. The key is the location of the files.</p>
 <p>Create a new post by clicking on the <code>Addins</code> button:</p>
 <p><img src="/images/assignment/blogdown-2.png" /></p>
@@ -58,17 +58,18 @@ editor_options:
 <p>To learn more, see the <a href="https://bookdown.org/yihui/blogdown/workflow.html">2nd section of this chapter</a>.</p>
 <h2 id="task-6-read-through-chapter-2">Task 6: Read through Chapter 2</h2>
 <p>Next, read through the rest of Chapter 2, especially <a href="https://bookdown.org/yihui/blogdown/static-files.html">section 2.7 on static files</a>. This is the location where you can put files (e.g., images, pdf, gifs).</p>
-<h2 id="task-7-deploy-to-netlify-option-1-1-point">Task 7: Deploy to Netlify (option 1: 1 point)</h2>
+<h2 id="task-7-deploy-to-netlify">Task 7: Deploy to Netlify</h2>
 <p>The simplest way to deploy your website is to put it on Netlify through drag and droping the contents of your <code>/public</code> folder.</p>
 <p>To do this follow Allison Hill’s <a href="https://alison.rbind.io/post/2019-03-04-hugo-troubleshooting/#netlify-drag-and-drop">Hugo Troubleshooting steps</a>.</p>
 <p><img src="/images/assignment/hill-deploy.gif" /></p>
-<h2 id="task-7-alternate-deploy-to-netlify-via-github-option-2-3-points">Task 7 (alternate): Deploy to Netlify via GitHub (option 2: 3 points)</h2>
+<h2 id="task-7-alternate-optional-deploy-to-netlify-via-github">Task 7 (alternate, optional): Deploy to Netlify via GitHub</h2>
 <p>For this task, you’ll need to learn GitHub. You’ll first need to create your own GitHub account as well as follow additional steps.</p>
 <p>Follow the instructions by Allison Hill in her post: <a href="https://apreshill.rbind.io/post/up-and-running-with-blogdown/">Up and Running with <code>blogdown</code></a>.</p>
 <p><strong>Note!</strong> Her blog is assuming using a Mac. While Windows users are welcome to try, the problem comes in with terminal (UNIX command line).</p>
 <p>I’d highly recommend Jenny Bryan’s <a href="https://happygitwithr.com/install-intro.html">Happy Git With R</a>. But remember, learning GitHub can be challenging at first. This is why if you decide to do this task, be prepared to work with someone who can help you.</p>
 <h2 id="what-to-provide-for-credit">What to provide for credit</h2>
-<p>To complete the assignment, simply provide the URL for your website on netlify on <a href="https://uncc.instructure.com/courses/100065/assignments/516674">Canvas</a> by 11:59pm on Thursday, May 2, 2019.</p>
+<p>To get extra credit, you need to DM on Slack (no emails please) your netlify website page link. Your site must be operational.</p>
+<p>Note the deadline is midnight by the final exam, 5:59pm on Monday, December 9. I will not take extra credit after that point, i.e., grades need to be finalized.</p>
 <h2 id="help">Help</h2>
 <p>For further help, check out these posts:</p>
 <ul>

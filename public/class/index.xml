@@ -63,7 +63,13 @@ Slides: full screen / pdf version</description>
       <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-fall2019.netlify.com/class/06-class/</guid>
-      <description>Contents  Tweet of the day Overview Lab 6: Work with models in ggplot2   Tweet of the day At long last, the parsnip package is on CRAN. parsnip is a unified R interface to models. The first of two blog posts about the package is at https://t.co/PXgFJ8eucM #rstats #tidyverse pic.twitter.com/BmuA9exckK — Max Kuhn (@topepos) November 28, 2018   Overview Matthew Kay’s Tidy data and Bayesian analysis make uncertainty visualization fun</description>
+      <description>Contents  Announcements Tweet of the day Lab 6: Work with models in ggplot2   Announcements Problem Set 1 has been graded.  This plot does not include 7 submissions (grades 65, 70, 82, 95, 97, 97, 100) that did not provide time to complete.
+
+ {&#34;x&#34;:{&#34;data&#34;:[{&#34;x&#34;:[4.05160203939304,3.96255510947667,4.08344028508291,6.01531392759644,5.92235856642947,2.01132272598334,1.97686835839413,5.92516453512944,1.04556299294345,4.94064911729656,4.92692270749249,2.99281818503514,9.90103475819342,11.9583111525513,3.08537683249451,3.02956927325577,1.97121127177961,1.99946143706329,1.90638785948977,3.96132981744595,4.05824682535604,2.08224013140425,3.99861449720338,2.97119783977978,3.90698080952279,4.01475841598585,3.03242390840314,6.01348651857115,0.974095713347197,4.96018386851065,2.99378862739541,1.91597614395432,2.90203933627345],&#34;y&#34;:[99.9522087836172,94.9980291528627,86.0951282504015,91.9021509042475,95.0464017190039,97.0364107272588,99.968672604952,99.9729711455293,97.0209314046428,94.9970417097677,76.9926913842093,100.009144273633,82.033900323743,82.9148371446878,96.9542804929428,99.0177658515051,94.0527105272282,93.9568632285576,88.0703035848215,96.9533002968878,94.9874848370906,95.0068279764149,100.056715554371,100.046073425654,96.9541340987664,98.9630851930007,98.0151491359807,100.057349617267,91.9260425385553,96.0443524292205,97.9793301115278,93.9090781798121,99.954953266494],&#34;text&#34;:[&#34;Time: 4
+Grade: 100
+Issues: Rmarkdown Technicalities&#34;,&#34;Time: 4
+Grade: 95
+Issues: Coding Error in smoothed function&#34;</description>
     </item>
     
     <item>
@@ -74,7 +80,7 @@ Slides: full screen / pdf version</description>
       <guid>https://dsba5122-fall2019.netlify.com/class/05-class/</guid>
       <description>Contents  Annoucements Tweet of the Day: Slides: Lab 5: Links:   Annoucements DataCamp 2 is due by 11:59pm Tuesday, Sept 24th.
  Reminder that Problem Set 2 is due by 11:59pm Monday, Oct 7th (during Fall Break).
- Next week Quiz 3 will be assigned. Focus will be on readings since Quiz 2 and ggplot2.
+ Charlotte R Meetup Group. Possibly present on Tuesday, 12-1pm in 12/17 meeting. See Slack channel post.
   Tweet of the Day: My ??? talk is now in video form: A biased tour of the uncertainty visualization zoo.</description>
     </item>
     

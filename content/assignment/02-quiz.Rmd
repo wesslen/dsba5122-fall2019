@@ -190,9 +190,9 @@ What is the correct interpretation of the bootstrapped confidence intervals in t
 
 A) After resampling with replacement, the mean hourly temperature per month is within the upper and lower limits in 95 percent of the resamples.
 
-B) We expect that the hourly temperature for JFK per month will be within the upper and lower limits 95 percent of observations
+B) We expect that the hourly temperature for JFK per month will be within the upper and lower limits 95 percent of observations.
 
-C) We find that 95 percent of the temperature observations (on an hourly) are within the upper and lower limits.
+C) 95 percent of the temperature observations (on an hourly) are within the upper and lower limits.
 
 D) Assuming a normal distribution, we expect the temperature in each month to be within the upper and lower limits 95 percent of the time.
 ` 

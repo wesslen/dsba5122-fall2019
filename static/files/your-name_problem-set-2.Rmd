@@ -31,10 +31,10 @@ library(tidyverse)
 library(scales)
 library(ggspatial) # make sure to install if you don't have it
 
-df <- read_csv("./data/Officer_Traffic_Stops.csv")
+df <- read_csv("data/Officer_Traffic_Stops.csv")
 ```
 
-## Demographics of drivers (1 point)
+## Demographics of drivers
 
 First, look at the data using the `glimpse()` function from `dplyr`
 
@@ -51,8 +51,6 @@ Let's consider our target variable: `Was_a_Search_Conducted`.
 ```{r bar}
 
 ```
-
-**It's okay if students use `geom_col()` instead of `geom_bar()`**
 
 How well balanced is the data set by this field? xxxxx
 
@@ -88,7 +86,7 @@ What is happening? xxxxx
 
 From the plots above, do you think the age of the driver is a significant factor in whether a search was conducted? Why or why not? xxxxx
 
-## Date of stop (1 point)
+## Date of stop
 
 Let's plot the number of stops by time. 
 
@@ -99,10 +97,10 @@ Let's first cleanup the date field using `tidyverse` packages like `stringr` and
 ```{r date-cleanup}
 library(stringr); library(lubridate)
 
-df <- df %>%
-  mutate(Month_of_Stop = str_replace_all(Month_of_Stop, "/","-")) %>% # replace "/" with "-"
-  mutate(Month_of_Stop = paste0(df$Month_of_Stop,"-01")) %>% # add in day
-  mutate(Date = ymd(Month_of_Stop)) # created a date field
+# see https://dsba5122fall2019.slack.com/archives/CLUCHHQPJ/p1569273552006200
+df <- mutate(df, Month_of_Stop = str_replace_all(Month_of_Stop, "/","-")) # replace "/" with "-"
+df <- mutate(df, Month_of_Stop = paste0(df$Month_of_Stop,"-01")) # add in day
+df <- mutate(df, Date = ymd(Month_of_Stop)) # created a date field
 ```
 
 **Plot** a line chart with the number of traffic stops for each month (hint: start with the `count()` function by Date then feed into ggplot. Remember the count variable is named 'n'.).
@@ -157,7 +155,7 @@ What are three observations you can make about the number of police stops by div
 
 Next, this doesn't help tell us where these areas are. For that, let's use a shape file to create a chloropleth of stops by division.
 
-## Geography (1 point)
+## Geography
 
 For this example, we'll create a cholorpleth for the number of police stops by police division.
 
@@ -210,7 +208,7 @@ cmpd %>%
 
 Do you notice any difference between the two maps? xxxxx
 
-## Advanced Plot: (0.5 point)
+## Advanced Plot:
 
 Now, let's create a chloropleth. Below is the code to create an advanced plot.
 
@@ -257,7 +255,7 @@ ggsave(cmpd_chloropleth, filename = "cmpd_chloropleth.png",
 ```
 
 
-## Choosing a ggplot extensions  (1 point)
+## Choosing a ggplot extensions 
 
 Go to [ggextensions website](https://www.ggplot2-exts.org/). Then click Galleries to explore the different ggplot extensions. Scroll through and see if any catch your eye.
 
@@ -285,7 +283,7 @@ Now, with the same package you ran, make a **plot** with that package and the ga
 
 Describe what you have found using that plot (write at least 3 sentences): xxxxx
 
-## Intro to interactivity (0.5 points)
+## Intro to interactivity
 
 For even more fun, **plot** an interactive HTML plot using the code for any of the plots above (fair warning, some of the ggextensions may not work well). 
 

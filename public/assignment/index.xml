@@ -12,16 +12,6 @@
     
     
     <item>
-      <title>Extra Credit 1</title>
-      <link>https://dsba5122-fall2019.netlify.com/assignment/01-extra-credit/</link>
-      <pubDate>Mon, 11 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-fall2019.netlify.com/assignment/01-extra-credit/</guid>
-      <description>Task 0: Getting started For this problem set, you’ll learn blogdown, an R package that enables building websites through Hugo, a web framework. Like shiny, blogdown enable you to use a more complex framework (i.e., Hugo) but through R functions and syntax that you’ve been learning about all semester.
-I recommend running this exercise on your personal laptop, mainly so you’ll have this blog site already saved on your own personal computer.</description>
-    </item>
-    
-    <item>
       <title>Problem set 4</title>
       <link>https://dsba5122-fall2019.netlify.com/assignment/04-problem-set/</link>
       <pubDate>Mon, 11 Nov 2019 00:00:00 +0000</pubDate>
@@ -42,9 +32,18 @@ For this DataCamp course, you’ll learn more about shiny using hands on case st
     </item>
     
     <item>
+      <title>Problem set 3</title>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/03-problem-set/</link>
+      <pubDate>Mon, 04 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/03-problem-set/</guid>
+      <description>a.sourceLine { display: inline-block; line-height: 1.25; } a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; } a.sourceLine:empty { height: 1.2em; } .sourceCode { overflow: visible; } code.sourceCode { white-space: pre; position: relative; } div.sourceCode { margin: 1em 0; } pre.sourceCode { margin: 0; } @media screen { div.sourceCode { overflow: auto; } } @media print { code.sourceCode { white-space: pre-wrap; } a.sourceLine { text-indent: -1em; padding-left: 1em; } } pre.</description>
+    </item>
+    
+    <item>
       <title>Datacamp Course 3</title>
       <link>https://dsba5122-fall2019.netlify.com/assignment/03-datacamp/</link>
-      <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 14 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-fall2019.netlify.com/assignment/03-datacamp/</guid>
       <description>DataCamp Course: (Modified for this assignment) DataCamp no longer offers their “Intro to Shiny”.
@@ -52,6 +51,27 @@ Instead, you have two options:
 Watch a 2.5 hour introduction to Shiny training video.
  Go through and read RStudio’s Shiny Introduction Article Series
   Since I can’t verify your completion, to complete this assignment you must submit on Canvas this statement: “On my honor, I have completed option X for DataCamp course 3.” (where you state whether you did #1 or #2 in place of X).</description>
+    </item>
+    
+    <item>
+      <title>Design contest: TidyTuesdays</title>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/design-contest/</link>
+      <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/design-contest/</guid>
+      <description>For this contest, you will find someone else’s submitted #TidyTuesday submission, critique it, then offer suggestions on ways to improve and enhance their work.
+Goals: Become familar with TidyTuesday and the R Online Learning Community
+ Learn through someone else’s submission on novel visualization techniques, how to provide code in open source (e.g., how people post code on GitHub, etc.), and how to provide constructive design feedback on existing designs.</description>
+    </item>
+    
+    <item>
+      <title>Extra Credit 1</title>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/01-extra-credit/</link>
+      <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/01-extra-credit/</guid>
+      <description>Task 0: Getting started For this extra credit (worth 2% on your final grade), you’ll learn blogdown, an R package that enables building websites through Hugo, a web framework. Like shiny, blogdown enable you to use a more complex framework (i.e., Hugo) but through R functions and syntax that you’ve been learning about all semester.
+I recommend running this exercise on your personal laptop, mainly so you’ll have this blog site already saved on your own personal computer.</description>
     </item>
     
     <item>
@@ -138,15 +158,6 @@ Dataset: This is up to your group. You may use a dataset from the design contest
     </item>
     
     <item>
-      <title>Problem set 3</title>
-      <link>https://dsba5122-fall2019.netlify.com/assignment/03-problem-set/</link>
-      <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-fall2019.netlify.com/assignment/03-problem-set/</guid>
-      <description>a.sourceLine { display: inline-block; line-height: 1.25; } a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; } a.sourceLine:empty { height: 1.2em; } .sourceCode { overflow: visible; } code.sourceCode { white-space: pre; position: relative; } div.sourceCode { margin: 1em 0; } pre.sourceCode { margin: 0; } @media screen { div.sourceCode { overflow: auto; } } @media print { code.sourceCode { white-space: pre-wrap; } a.sourceLine { text-indent: -1em; padding-left: 1em; } } pre.</description>
-    </item>
-    
-    <item>
       <title>Quiz 3</title>
       <link>https://dsba5122-fall2019.netlify.com/assignment/03-quiz/</link>
       <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
@@ -161,18 +172,6 @@ Multi-Dimensional Scaling (MDS)
  t-Distributed Stochastic Neighbor Embedding (t-SNE)
  Support Vector Machine (SVM)
   Question 2 Choose the option that best fills in the blanks to describe the primary purpose of certain multidimensional visualizations. Assume the data is in tidy format.</description>
-    </item>
-    
-    <item>
-      <title>Design contest</title>
-      <link>https://dsba5122-fall2019.netlify.com/assignment/design-contest/</link>
-      <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-fall2019.netlify.com/assignment/design-contest/</guid>
-      <description>Datasets:
-Choose from one of four datasets.
-babynames: US baby name data for each year from 1880 to 2013, the number of children of each sex given each name. All names used 5 or more times are included. 1,792,091 rows, 5 columns (year, sex, name, n, prop). (Source: Social security administration).
- fueleconomy: Fuel economy data for all cars sold in the US from 1984 to 2015. 33,442 rows, 12 variables.</description>
     </item>
     
     <item>
