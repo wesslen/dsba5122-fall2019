@@ -6,10 +6,21 @@
     <description>Recent content in Readings on Visual Analytics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 14 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 21 Oct 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://dsba5122-fall2019.netlify.com/reading/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Networks and Trees</title>
+      <link>https://dsba5122-fall2019.netlify.com/reading/08-reading/</link>
+      <pubDate>Mon, 21 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-fall2019.netlify.com/reading/08-reading/</guid>
+      <description> Required   Chapter 5: Networks and Hiearchies in Riccardo Mazza, Introduction to Information Visualization
+  Katya Ognyanova, “Static and dynamic network visualization with R”
+  Recommended   Chapters 2-9 in John Coene, Twinetbook  </description>
+    </item>
     
     <item>
       <title>Multidimensional &amp; Dimensionality Reduction</title>
@@ -138,18 +149,6 @@
       <description> Required   Chapter 5: Networks and Hiearchies in Riccardo Mazza, Introduction to Information Visualization
   Katya Ognyanova, “Static and dynamic network visualization with R”
   Recommended   Chapters 2-9 in John Coene, Twinetbook  </description>
-    </item>
-    
-    <item>
-      <title>Unstructured text</title>
-      <link>https://dsba5122-fall2019.netlify.com/reading/08-reading/</link>
-      <pubDate>Mon, 18 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-fall2019.netlify.com/reading/08-reading/</guid>
-      <description>Required   Chapter 1: Tidytext format and Chapter 3: Analyzing word and document frequency: tf-idf in Julia Silge and David Robinson, Tidy Text Mining in RJulia Silge and David Robinson, Text Mining with R (Sebastopol, California: O’Reilly Media, 2017), https://www.tidytextmining.com/.
-  Recommended   Chapter 6: Topic modeling in Julia Silge and David Robinson, Tidy Text Mining in RIbid.
-
-  Ken Benoit, Kohei Watanabe, and Stefan Müller, “quanteda”quanteda is my favorite R-based text package.</description>
     </item>
     
     <item>

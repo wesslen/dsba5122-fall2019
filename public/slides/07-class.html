@@ -4,7 +4,7 @@
     <title>DSBA 5122: Visual Analytics</title>
     <meta charset="utf-8">
     <meta name="author" content="Ryan Wesslen" />
-    <meta name="date" content="2019-03-11" />
+    <meta name="date" content="2019-10-14" />
     <script src="libs/htmlwidgets/htmlwidgets.js"></script>
     <script src="libs/pymjs/pym.v1.js"></script>
     <script src="libs/widgetframe-binding/widgetframe.js"></script>
@@ -17,7 +17,7 @@ class: center, middle, inverse, title-slide
 # DSBA 5122: Visual Analytics
 ## Class 7: Multidimensional &amp; Dimensionality Reduction
 ### Ryan Wesslen
-### March 11, 2019
+### October 14, 2019
 
 ---
 
@@ -26,7 +26,7 @@ class: center, middle, inverse, title-slide
 
 class: center, middle, inverse
 
-# Multidimensional Data: Cairo Ch. 9 and Wilke Ch. 12
+# Multidimensional Data: Wilke Ch. 12
 
 &lt;img src="../images/slides/07-class/table_lens.png" width="600px" style="display: block; margin: auto;" /&gt;
 
@@ -72,7 +72,7 @@ skim(mpg)
 ##  n obs: 234 
 ##  n variables: 11 
 ## 
-## ── Variable type:character ───────────────────────────────────────────────────────────────────
+## ── Variable type:character ─────────────────────────────────────────────────────────────
 ##      variable missing complete   n min max empty n_unique
 ##         class       0      234 234   3  10     0        7
 ##           drv       0      234 234   1   1     0        3
@@ -81,7 +81,7 @@ skim(mpg)
 ##         model       0      234 234   2  22     0       38
 ##         trans       0      234 234   8  10     0       10
 ## 
-## ── Variable type:integer ─────────────────────────────────────────────────────────────────────
+## ── Variable type:integer ───────────────────────────────────────────────────────────────
 ##  variable missing complete   n    mean   sd   p0  p25    p50  p75 p100
 ##       cty       0      234 234   16.86 4.26    9   14   17     19   35
 ##       cyl       0      234 234    5.89 1.61    4    4    6      8    8
@@ -93,7 +93,7 @@ skim(mpg)
 ##  ▃▇▃▇▅▁▁▁
 ##  ▇▁▁▁▁▁▁▇
 ## 
-## ── Variable type:numeric ─────────────────────────────────────────────────────────────────────
+## ── Variable type:numeric ───────────────────────────────────────────────────────────────
 ##  variable missing complete   n mean   sd  p0 p25 p50 p75 p100     hist
 ##     displ       0      234 234 3.47 1.29 1.6 2.4 3.3 4.6    7 ▇▇▅▅▅▃▂▁
 ```
@@ -102,8 +102,8 @@ skim(mpg)
 
 ## Table based
 
-<div id="htmlwidget-383ff24a6d79607f80c5" style="width:100%;height:302.4px;" class="widgetframe html-widget"></div>
-<script type="application/json" data-for="htmlwidget-383ff24a6d79607f80c5">{"x":{"url":"07-class_files/figure-html//widgets/widget_unnamed-chunk-4.html","options":{"xdomain":"*","allowfullscreen":false,"lazyload":false}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-0c2fcf8acf203dad1086" style="width:100%;height:302.4px;" class="widgetframe html-widget"></div>
+<script type="application/json" data-for="htmlwidget-0c2fcf8acf203dad1086">{"x":{"url":"07-class_files/figure-html//widgets/widget_unnamed-chunk-4.html","options":{"xdomain":"*","allowfullscreen":false,"lazyload":false}},"evals":[],"jsHooks":[]}</script>
 
 ---
 
@@ -166,8 +166,8 @@ library(d3heatmap)
 d3heatmap(mtcars, scale = "column", colors = "YlOrRd")
 ```
 
-<div id="htmlwidget-e26bbfa8cbb97891f11c" style="width:100%;height:302.4px;" class="widgetframe html-widget"></div>
-<script type="application/json" data-for="htmlwidget-e26bbfa8cbb97891f11c">{"x":{"url":"07-class_files/figure-html//widgets/widget_unnamed-chunk-9.html","options":{"xdomain":"*","allowfullscreen":false,"lazyload":false}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-283eb981192694f3eb85" style="width:100%;height:302.4px;" class="widgetframe html-widget"></div>
+<script type="application/json" data-for="htmlwidget-283eb981192694f3eb85">{"x":{"url":"07-class_files/figure-html//widgets/widget_unnamed-chunk-9.html","options":{"xdomain":"*","allowfullscreen":false,"lazyload":false}},"evals":[],"jsHooks":[]}</script>
 
 ---
 
@@ -191,14 +191,16 @@ library(pairsD3)
 pairsD3(iris[,1:4], group=iris[,5])
 ```
 
-<div id="htmlwidget-f2931885d29ac0dccbd4" style="width:100%;height:302.4px;" class="widgetframe html-widget"></div>
-<script type="application/json" data-for="htmlwidget-f2931885d29ac0dccbd4">{"x":{"url":"07-class_files/figure-html//widgets/widget_unnamed-chunk-13.html","options":{"xdomain":"*","allowfullscreen":false,"lazyload":false}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-d2bc67ea1ffc7f1fda67" style="width:100%;height:302.4px;" class="widgetframe html-widget"></div>
+<script type="application/json" data-for="htmlwidget-d2bc67ea1ffc7f1fda67">{"x":{"url":"07-class_files/figure-html//widgets/widget_unnamed-chunk-13.html","options":{"xdomain":"*","allowfullscreen":false,"lazyload":false}},"evals":[],"jsHooks":[]}</script>
 
 ---
 
 ## Parallel coordinates: 
 
-&lt;iframe src="../images/slides/07-class/parcoords.html" width="100%" height="100%" frameBorder="0"&gt;&lt;/iframe&gt;
+&lt;img src="../images/slides/07-class/parallel.png" width="620px" style="display: block; margin: auto;" /&gt;
+
+&lt;https://dsba5122.com/images/slides/07-class/parcoords.html&gt;
 
 [`parcoords`](http://www.buildingwidgets.com/blog/2015/1/30/week-04-interactive-parallel-coordinates-1)
 
@@ -240,7 +242,7 @@ ggplot(data.frame(x = rnorm(20), y = rexp(20), z = runif(20))) +
   scale_smile_continuous('Smilez', breaks = 0:10/10, midpoint = .5)
 ```
 
-![](07-class_files/figure-html/unnamed-chunk-18-1.png)&lt;!-- --&gt;
+![](07-class_files/figure-html/unnamed-chunk-19-1.png)&lt;!-- --&gt;
 
 ---
 
@@ -270,13 +272,15 @@ class: center, middle, inverse
 
 There exist many algorithms for projecting n-dimensions to 2D:
 
-- Principal components analysis (PCA)
+1. Principal components analysis (PCA)
 
-- Multi-dimensional scaling (MDS)
+2. Multi-dimensional scaling (MDS)
 
-- Linear discriminant analysis (LDA)
+3. Linear discriminant analysis (LDA)
 
-- t-Distributed Stochastic Neighbor Embedding (t-SNE)
+4. t-Distributed Stochastic Neighbor Embedding (t-SNE)
+
+5. Uniform Manifold Approximation and Projection (UMAP)
 
 ---
 
@@ -342,9 +346,9 @@ us_arrests_pca %&gt;%
 
 ```
 ## # A tibble: 1 x 3
-##   data              pca          pca_aug           
-##   &lt;list&gt;            &lt;list&gt;       &lt;list&gt;            
-## 1 &lt;tibble [50 × 5]&gt; &lt;S3: prcomp&gt; &lt;tibble [50 × 10]&gt;
+##   data              pca      pca_aug           
+##   &lt;list&gt;            &lt;list&gt;   &lt;list&gt;            
+## 1 &lt;tibble [50 × 5]&gt; &lt;prcomp&gt; &lt;tibble [50 × 10]&gt;
 ```
 
 ---
@@ -377,7 +381,7 @@ var_exp
 ```
 ]
 .pull-right[
-![](07-class_files/figure-html/unnamed-chunk-28-1.png)&lt;!-- --&gt;
+![](07-class_files/figure-html/unnamed-chunk-29-1.png)&lt;!-- --&gt;
 ]
 ---
 
@@ -388,7 +392,7 @@ var_exp
 ## [[1]]
 ```
 
-![](07-class_files/figure-html/unnamed-chunk-29-1.png)&lt;!-- --&gt;
+![](07-class_files/figure-html/unnamed-chunk-30-1.png)&lt;!-- --&gt;
 
 ---
 

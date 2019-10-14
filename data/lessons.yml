@@ -68,11 +68,11 @@ lessons:
   - title: "Class 7: Multidimensional Data"
     date: "October 14"
     reading: "07-reading"
-    #class: "07-class"
+    class: "07-class"
 
   - title: "**Quiz 2 (Due Oct 21)**"
     date: "October 14"
-    #assignment: "02-quiz"
+    assignment: "02-quiz"
     
   - title: "**Datacamp course 3 (Due Nov 5)**"
     date: "October 14"
@@ -80,7 +80,7 @@ lessons:
 
   - title: "Class 8: Networks and Trees"
     date: "October 21"
-    #reading: "08-reading"
+    reading: "08-reading"
     #class: "08-class"
     
   - title: "Class 9: Design Contest Presentations"

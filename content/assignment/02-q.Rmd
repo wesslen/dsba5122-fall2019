@@ -1,0 +1,375 @@
+---
+title: "Quiz 2"
+date: "2019-10-14"
+due_date: "2019-10-21"
+due_time: "5:59 PM"
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message=FALSE, warning=FALSE)
+library(tidyverse); library(ggridges); library(ggthemes)
+library(gapminder)
+
+l <- c("Jan 2013","Feb 2013","Mar 2013","Apr 2013",
+       "May 2013", "Jun 2013", "Jul 2013", "Aug 2013",
+       "Sep 2013", "Oct 2013", "Nov 2013", "Dec 2013")
+
+jfkWeather <- filter(nycflights13::weather, origin == "JFK") %>%
+  mutate(month = format(as.Date(time_hour), format = "%b %Y")) %>%
+  select(month, day, hour, temp, dewp, humid, wind_dir, wind_speed, precip) %>%
+  mutate(month = factor(month, levels = l))
+```
+
+
+## Question 1
+
+What is a common technique to better visualize the distribution of highly skewed, fat tailed data sets (e.g., scale-free, power law) like this:
+
+![](/images/assignment/county-populations-1.png) 
+
+A) Log transformation
+
+B) Exponential transformation
+
+C) Kalman Filter
+
+D) Hypothetical Outcome Plot (HOP)
+
+## Question 2
+
+For time series data, it can be important to decompose time series into individual components (e.g., using moving average, LOESS, etc.) because time series decomposition:
+
+A) detects the hidden (latent) factors within the data.
+
+B) detects correlations between different time series data sets.
+
+C) reduces the amount of data needed to analyze.
+
+D) enables the detection of trend, seasonality, and noise patterns.
+
+##  Use the gapminder dataset for Questions 3-4.
+
+```{r}
+head(gapminder)
+```
+
+## Question 3
+
+How would you use `dplyr` functions to rank Life Expectancy (`lifeExp`) **in descending order** by country in the `gapminder` dataset?
+
+```{r echo=FALSE}
+gapminder %>%
+  filter(year == 1977) %>%
+  arrange(desc(lifeExp))
+```
+
+A)
+
+```{r eval=FALSE}
+gapminder %>%
+  filter(year == 1977) %>%
+  arrange(desc(lifeExp))
+```
+
+B)
+
+```{r eval=FALSE}
+gapminder %>%
+  where(year == 1977) %>%
+  arrange(-lifeExp)
+```
+
+C)
+
+```{r eval=FALSE}
+gapminder %>%
+  filter(year == 1977) %>%
+  sort(lifeExp, descending = TRUE)
+```
+
+D)
+
+```{r eval=FALSE}
+gapminder %>%
+  arrange(country ~ lifeExp)
+```
+
+## Question 4
+
+Which code produces this plot of Life Expectancy by year for only Australia and New Zealand (hint: they're both the only two Oceania countries):
+
+```{r echo=FALSE}
+gapminder %>%
+  filter(continent == "Oceania") %>%
+  ggplot(aes(x = year, y = lifeExp)) +
+  geom_line() +
+  facet_wrap(~ country)
+```
+
+A)
+
+```{r eval=FALSE}
+gapminder %>%
+  ggplot(aes(x = year, y = lifeExp)) +
+  geom_line() +
+  facet_wrap(~ country)
+```
+
+B)
+
+```{r eval=FALSE}
+gapminder %>%
+  filter(continent == "Oceania") %>%
+  ggplot(aes(x = year, y = lifeExp)) +
+  geom_line() +
+  coord_flip()
+```
+
+C)
+
+```{r eval=FALSE}
+gapminder %>%
+  where(continent == "Oceania") %>%
+  ggplot(aes(x = year, y = lifeExp)) +
+  geom_line() +
+  facet_wrap(country)
+```
+
+D)
+
+```{r eval=FALSE}
+gapminder %>%
+  filter(continent == "Oceania") %>%
+  ggplot(aes(x = year, y = lifeExp)) +
+  geom_line() +
+  facet_wrap(~ country)
+```
+
+
+##  Use this dataset for Questions 5, 6, and 7
+
+This dataset includes hourly weather updates for New York City's JFK airport for 2013.
+
+```{r}
+head(jfkWeather, n = 5)
+```
+
+We will use two libraries.
+
+```{r eval=FALSE}
+library(tidyverse)
+library(ggridges)
+```
+
+## Question 5
+
+What code produces this plot:
+
+```{r echo=FALSE}
+jfkWeather %>%
+  ggplot(aes(x = temp, fill = month)) +
+  geom_density(alpha = 0.4)
+```
+
+A)
+
+```{r eval=FALSE}
+jfkWeather %>%
+  ggplot(x = temp, y = density, fill = month) +
+  geom_density(alpha = 0.4)
+```
+
+B)
+
+```{r eval=FALSE}
+ggplot(jfkWeather, aes(x = temp, y = density, color = month)) +
+  geom_distribution(alpha = 0.4)
+```
+
+C)
+
+```{r eval=FALSE}
+jfkWeather %>%
+  ggplot(aes(x = temp, fill = month)) +
+  geom_density(alpha = 0.4)
+```
+
+D)
+
+```{r eval=FALSE}
+jfkWeather %>%
+  ggplot(aes(x = temp, color = month)) +
+  geom_kernel(alpha = 0.4)
+```
+
+## Question 6
+
+Which code (using `ggridges`) produces this plot:
+
+```{r echo=FALSE}
+jfkWeather %>%
+  ggplot(aes(x = temp, y = month, fill = month)) +
+  geom_density_ridges(alpha = 0.4) + 
+  theme_bw() +
+  theme(legend.position = "none")
+```
+
+A)
+
+```{r eval=FALSE}
+jfkWeather %>%
+  ggplot(aes(x = temp, y = month, color = month)) +
+  geom_density(alpha = 0.4) + 
+  theme_bw() +
+  theme(legend.position = "none")
+```
+
+B)
+
+```{r eval=FALSE}
+jfkWeather %>%
+  ggplot(aes(x = temp, y = month, fill = month)) +
+  geom_kernel(adjust = 0.4) + 
+  theme_bw(legend.position = "none")
+```
+
+C)
+
+```{r eval=FALSE}
+jfkWeather %>%
+  ggplot(x = temp, y = year, color = year) +
+  geom_density(adjust = 0.4) + 
+  theme_bw() +
+  theme(legend.position = "none")
+```
+
+D)
+
+```{r eval=FALSE}
+jfkWeather %>%
+  ggplot(aes(x = temp, y = month, fill = month)) +
+  geom_density_ridges(alpha = 0.4) + 
+  theme_bw() +
+  theme(legend.position = "none")
+```
+
+## Question 7
+
+The following plot provides the average hourly temperature at JFK airport for Jan - Mar 2013 with bootstrapped 95 percent confidence intervals using error bars.
+
+```{r echo=TRUE,fig.height=2,fig.width=6}
+jfkWeather %>%
+  filter(month %in% c("Jan 2013","Feb 2013","Mar 2013")) %>%
+  ggplot(aes(x = month, y = temp)) +
+  stat_summary(fun.y = mean, geom = "point", size = 5) + 
+  stat_summary(fun.data = mean_cl_boot, geom = "errorbar", fun.args=list(conf.int = .95) ) + 
+  cowplot::theme_minimal_vgrid() +
+  coord_flip() +
+  scale_y_continuous(breaks= seq(32,40,by=1)) +
+  labs(x = " ", y = "Hourly Temperature")
+```
+
+What is the correct interpretation of the bootstrapped confidence intervals in this plot?
+
+A) After resampling with replacement, the mean hourly temperature per month is within the upper and lower limits in 95 percent of the resamples.
+
+B) We expect that the hourly temperature for JFK per month will be within the upper and lower limits 95 percent of observations.
+
+C) 95 percent of the temperature observations (on an hourly) are within the upper and lower limits.
+
+D) Assuming a normal distribution, we expect the temperature in each month to be within the upper and lower limits 95 percent of the time.
+
+
+## Use this dataset for Questions 8 and 9
+
+We'll use the classic `mtcars` dataset.
+
+```{r}
+head(mtcars, n = 5)
+```
+
+Also, note the initial variable formats.
+
+```{r}
+glimpse(mtcars)
+```
+
+## Question 8
+
+Let's say we run this regression where `mpg` is the dependent variable (sometimes called the y or target variable too).
+
+```{r echo=FALSE}
+library(broom)
+model <- lm(mpg ~ disp + cyl, mtcars)
+tidy(model)
+```
+
+Fill in the appropriate R function format for the regression above (i.e., fill in where `___?___`)
+
+```{r eval=FALSE}
+library(broom)
+model <- lm(___?___, mtcars)
+tidy(model)
+```
+
+A) `mpg ~ disp + cyl`
+
+B) `cyl ~ mpg + disp`
+
+C) `disp + cyl ~ mpg`
+
+D) `y = mpg, x = c(disp, cyl)`
+
+## Question 9
+
+One problem with the regression in Question 9, is that it assumes that `cyl` is numeric, not an ordered categorical variable.
+
+What data format would you need to convert `cyl` to before the regression to convert it to an ordered, categorical variable and get this regression instead:
+
+```{r echo=FALSE}
+mtcars$cyl <- as.factor(mtcars$cyl)
+model <- lm(mpg ~ disp + cyl, mtcars)
+tidy(model)
+```
+
+A) vector
+
+B) integer
+
+C) factor
+
+D) list column
+
+## Question 10
+
+The following is a preview of the dataframe `df`:
+
+```{r echo=F}
+df <- tibble::tribble(
+  ~city,  ~product, ~price,
+  "Boston","A",24,
+  "Boston","B",35,
+  "NYC","A",28,
+  "NYC","B",32
+)
+
+df %>% nest(product, price)
+```
+
+What `tidyr` function would unnest the list column `data` to create this dataset:
+
+```{r echo=F}
+df
+```
+
+A) denest
+
+B) expand
+
+C) unnest
+
+D) simplify
+
+

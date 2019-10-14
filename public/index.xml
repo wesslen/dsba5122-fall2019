@@ -63,6 +63,17 @@ Agenda and layout These groups were randomly assigned. Please plan to present in
     </item>
     
     <item>
+      <title>Networks and Trees</title>
+      <link>https://dsba5122-fall2019.netlify.com/reading/08-reading/</link>
+      <pubDate>Mon, 21 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-fall2019.netlify.com/reading/08-reading/</guid>
+      <description> Required   Chapter 5: Networks and Hiearchies in Riccardo Mazza, Introduction to Information Visualization
+  Katya Ognyanova, “Static and dynamic network visualization with R”
+  Recommended   Chapters 2-9 in John Coene, Twinetbook  </description>
+    </item>
+    
+    <item>
       <title>Datacamp Course 3</title>
       <link>https://dsba5122-fall2019.netlify.com/assignment/03-datacamp/</link>
       <pubDate>Mon, 14 Oct 2019 00:00:00 +0000</pubDate>
@@ -73,6 +84,16 @@ Instead, you have two options:
 Watch a 2.5 hour introduction to Shiny training video.
  Go through and read RStudio’s Shiny Introduction Article Series
   Since I can’t verify your completion, to complete this assignment you must submit on Canvas this statement: “On my honor, I have completed option X for DataCamp course 3.” (where you state whether you did #1 or #2 in place of X).</description>
+    </item>
+    
+    <item>
+      <title>Multidimensional &amp; Dimensionality Reduction</title>
+      <link>https://dsba5122-fall2019.netlify.com/class/07-class/</link>
+      <pubDate>Mon, 14 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-fall2019.netlify.com/class/07-class/</guid>
+      <description>Contents  Announcements Tweet of the day Slides: Lab: Text and t-SNE   Announcements Quiz 2 will be available tomorrow morning. You have until 5:59pm, Monday October 21 to complete. Canvas link to Quiz 2
+ Tomorrow, RStudio Engineer Davis Vaughn (SpeakerDeck) will be presenting for the Charlotte RMeetup Group tomorrow from 12-1pm at CenterCity 1102. Remember, if you attend (must attend the full hour), per the Extra Credit Policy, you will receive 1% extra credit for attending.</description>
     </item>
     
     <item>
@@ -101,16 +122,23 @@ Watch a 2.5 hour introduction to Shiny training video.
     </item>
     
     <item>
-      <title>Multidimensional &amp; Dimensionality Reduction</title>
-      <link>https://dsba5122-fall2019.netlify.com/class/07-class/</link>
-      <pubDate>Mon, 07 Oct 2019 00:00:00 +0000</pubDate>
+      <title>Quiz 2</title>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/02-q/</link>
+      <pubDate>Mon, 14 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dsba5122-fall2019.netlify.com/class/07-class/</guid>
-      <description>Contents  Tweet of the day Slides: Lab   Tweet of the day 🍾🍾 New project in the family! 🍾🍾
--&amp;gt;The https://t.co/tKJaXKC2qm
-A gallery of 200 Simple charts made with d3.js, with reproducible, commented &amp;amp; editable code. #dataviz pic.twitter.com/m19BKxiNe5 — Yan Holtz (@R_Graph_Gallery) February 19, 2019   Yan has an excellent visualization decision tree along with the r-graph gallery.com, python-graph-gallery.com, and even d3-graph-gallery.com.
-
-Slides: full screen / pdf version</description>
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/02-q/</guid>
+      <description>a.sourceLine { display: inline-block; line-height: 1.25; } a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; } a.sourceLine:empty { height: 1.2em; } .sourceCode { overflow: visible; } code.sourceCode { white-space: pre; position: relative; } div.sourceCode { margin: 1em 0; } pre.sourceCode { margin: 0; } @media screen { div.sourceCode { overflow: auto; } } @media print { code.sourceCode { white-space: pre-wrap; } a.sourceLine { text-indent: -1em; padding-left: 1em; } } pre.</description>
+    </item>
+    
+    <item>
+      <title>Quiz 2</title>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/02-quiz/</link>
+      <pubDate>Mon, 14 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/02-quiz/</guid>
+      <description>Quiz 2 can be taken starting on October 15th: Canvas link to Quiz 2
+You will have one week to complete the quiz (that is, the quiz must be completed by 5:59pm on October 21, 2019). Note this is not by midnight, but before the next class.
+ This quiz will consist of 10 multiple choice questions. You will have 20 minutes to complete the quiz. You may only take the quiz once.</description>
     </item>
     
     <item>
@@ -140,13 +168,17 @@ I recommend running this exercise on your personal laptop, mainly so you’ll ha
       <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-fall2019.netlify.com/class/06-class/</guid>
-      <description>Contents  Announcements Tweet of the day Lab 6: Work with models in ggplot2   Announcements Problem Set 1 has been graded.  This plot does not include 7 submissions (grades 65, 70, 82, 95, 97, 97, 100) that did not provide time to complete.
-
- {&#34;x&#34;:{&#34;data&#34;:[{&#34;x&#34;:[4.05160203939304,3.96255510947667,4.08344028508291,6.01531392759644,5.92235856642947,2.01132272598334,1.97686835839413,5.92516453512944,1.04556299294345,4.94064911729656,4.92692270749249,2.99281818503514,9.90103475819342,11.9583111525513,3.08537683249451,3.02956927325577,1.97121127177961,1.99946143706329,1.90638785948977,3.96132981744595,4.05824682535604,2.08224013140425,3.99861449720338,2.97119783977978,3.90698080952279,4.01475841598585,3.03242390840314,6.01348651857115,0.974095713347197,4.96018386851065,2.99378862739541,1.91597614395432,2.90203933627345],&#34;y&#34;:[99.9522087836172,94.9980291528627,86.0951282504015,91.9021509042475,95.0464017190039,97.0364107272588,99.968672604952,99.9729711455293,97.0209314046428,94.9970417097677,76.9926913842093,100.009144273633,82.033900323743,82.9148371446878,96.9542804929428,99.0177658515051,94.0527105272282,93.9568632285576,88.0703035848215,96.9533002968878,94.9874848370906,95.0068279764149,100.056715554371,100.046073425654,96.9541340987664,98.9630851930007,98.0151491359807,100.057349617267,91.9260425385553,96.0443524292205,97.9793301115278,93.9090781798121,99.954953266494],&#34;text&#34;:[&#34;Time: 4
+      <description>Contents  Announcements Tweet of the day Lab 6: Work with models in ggplot2   Announcements Problem Set 1 has been graded. See Problem Set 1 Solutions.   {&#34;x&#34;:{&#34;data&#34;:[{&#34;x&#34;:[4.09143585935235,3.91073410953395,3.90983948078938,5.94867903594859,5.92457718108781,1.97595756682567,2.04088165839203,5.93677604263648,0.988993629440665,5.03897781465203,5.09889089269564,3.06082437513396,9.99230161309242,11.9753975878004,2.93678720421158,2.93720158855431,2.03946167803369,2.04720402443782,1.99676724253222,3.94140610462055,3.90463172714226,2.06665544467978,3.92160714031197,3.03438924401999,3.94395571225323,3.91613396955654,2.91675796248019,6.0409476371482,0.954620388848707,5.03432424506173,3.00179495448247,2.08125266321003,3.05633028289303],&#34;y&#34;:[100.001321130898,95.0941786434967,85.9034535244107,92.0656857775059,94.9932500083465,96.9978818266187,100.044599844469,99.9572953870986,96.9601644052193,95.0737855848856,76.9401590469293,99.910800377233,81.996715288097,82.9752989505418,96.9564613242168,99.0994619674515,93.9004772689193,94.062953967182,87.9939702939242,97.0929825501516,95.09589945646,95.0409627687652,99.9061062910594,100.091675852379,96.9474880099297,99.0891321767587,98.0240738066845,99.9247731421143,91.9479942272417,96.0296380710788,97.9860685419757,94.055418995535,99.9669542263728],&#34;text&#34;:[&#34;Time: 4
 Grade: 100
 Issues: Rmarkdown Technicalities&#34;,&#34;Time: 4
 Grade: 95
-Issues: Coding Error in smoothed function&#34;</description>
+Issues: Coding Error in smoothed function&#34;,&#34;Time: 4
+Grade: 86
+Issues: Comprehending the code&#34;,&#34;Time: 6
+Grade: 92
+Issues: .&#34;,&#34;Time: 6
+Grade: 95
+Issues: running code in chunks&#34;</description>
     </item>
     
     <item>
@@ -506,18 +538,6 @@ Welcome  </description>
     </item>
     
     <item>
-      <title>Unstructured text</title>
-      <link>https://dsba5122-fall2019.netlify.com/reading/08-reading/</link>
-      <pubDate>Mon, 18 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-fall2019.netlify.com/reading/08-reading/</guid>
-      <description>Required   Chapter 1: Tidytext format and Chapter 3: Analyzing word and document frequency: tf-idf in Julia Silge and David Robinson, Tidy Text Mining in RJulia Silge and David Robinson, Text Mining with R (Sebastopol, California: O’Reilly Media, 2017), https://www.tidytextmining.com/.
-  Recommended   Chapter 6: Topic modeling in Julia Silge and David Robinson, Tidy Text Mining in RIbid.
-
-  Ken Benoit, Kohei Watanabe, and Stefan Müller, “quanteda”quanteda is my favorite R-based text package.</description>
-    </item>
-    
-    <item>
       <title>DSBA 5122: Visual Analytics</title>
       <link>https://dsba5122-fall2019.netlify.com/slides/07-class/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
@@ -535,15 +555,6 @@ Welcome  </description>
       <guid>https://dsba5122-fall2019.netlify.com/slides/06-class/</guid>
       <description> class: center, middle
 Welcome  </description>
-    </item>
-    
-    <item>
-      <title>Quiz 2</title>
-      <link>https://dsba5122-fall2019.netlify.com/assignment/02-quiz/</link>
-      <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-fall2019.netlify.com/assignment/02-quiz/</guid>
-      <description>a.sourceLine { display: inline-block; line-height: 1.25; } a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; } a.sourceLine:empty { height: 1.2em; } .sourceCode { overflow: visible; } code.sourceCode { white-space: pre; position: relative; } div.sourceCode { margin: 1em 0; } pre.sourceCode { margin: 0; } @media screen { div.sourceCode { overflow: auto; } } @media print { code.sourceCode { white-space: pre-wrap; } a.sourceLine { text-indent: -1em; padding-left: 1em; } } pre.</description>
     </item>
     
     <item>

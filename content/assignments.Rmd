@@ -54,18 +54,18 @@ Other opportunities may arise through the semester but I'll make an annoucement 
 ```{r assignments-grades, echo=F}
 assignments <- tibble::tribble(
   ~Task,  ~Instructions, ~Points,
-  "Create your own\nblogdown website." , "See link below.", "2%",
-  "Attend R Meetup Group (Sept, Oct, Nov)", "See link below.", "1%",
-  "Slack participation*" , "Answer a question or provide an interesting post/finding. You'll only get credit if I respond #slackextracredit.", "0.25%"
+  "*Create a blogdown website.*", "See link below.", "2%",
+  "*Attend R Meetup Group*", "See link below.", "1%",
+  "*Slack participation*^" , "Answer a question or provide an interesting post/finding.\nYou'll only get credit if I respond #slackextracredit.", "0.25%"
 ) 
 
-knitr::kable(assignments)
+knitr::kable(assignments, format = "html")
 ```
 
 - [Create your own blogdown website](../../assignment/01-extra-credit/)
 - [Charlotte R Meetup Group](https://www.meetup.com/Charlotte-R-Users-Group/)
 
-*For Slack, you can only have up to 8 times (so 2% total extra points).
+^For Slack, you can only have up to 8 times (so 2% total extra points).
 
 To get extra credit, please DM me on Slack (e.g., for blogdown, you need to provide your netlify website.)
 

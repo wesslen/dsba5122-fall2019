@@ -133,7 +133,7 @@
     <article class="group">
     <h1>Multidimensional &amp; Dimensionality Reduction</h1>
     
-    <p class="page-date">Materials for class on Monday, October 7, 2019</p>
+    <p class="page-date">Materials for class on Monday, October 14, 2019</p>
     
     
 <!-- BLOGDOWN-HEAD -->
@@ -142,12 +142,20 @@
 <h2>Contents</h2>
 <div id="TOC">
 <ul>
+<li><a href="#announcements">Announcements</a></li>
 <li><a href="#tweet-of-the-day">Tweet of the day</a></li>
 <li><a href="#slides">Slides:</a></li>
-<li><a href="#lab">Lab</a></li>
+<li><a href="#lab-text-and-t-sne">Lab: Text and t-SNE</a></li>
 </ul>
 </div>
 
+<h2 id="announcements">Announcements</h2>
+<ol style="list-style-type: decimal">
+<li><p><a href="../../assignment/02-quiz/">Quiz 2</a> will be available tomorrow morning. You have until 5:59pm, Monday October 21 to complete. <a href="https://uncc.instructure.com/courses/110218/quizzes/140149">Canvas link to Quiz 2</a></p></li>
+<li><p>Tomorrow, RStudio Engineer <a href="https://twitter.com/dvaughan32">Davis Vaughn</a> (<a href="https://speakerdeck.com/davisvaughan/slide-almanac">SpeakerDeck</a>) will be presenting for the <a href="https://www.meetup.com/Charlotte-R-Users-Group/events/263288753/">Charlotte RMeetup Group</a> tomorrow from 12-1pm at CenterCity 1102. Remember, if you attend (must attend the full hour), per the <a href="https://dsba5122.com/assignments/#Extra-Credit">Extra Credit Policy</a>, you will receive 1% extra credit for attending. I will take attendance after the session.</p></li>
+<li><p>RMeetup Group for optional final project presentation in December meeting. We had 21 students respond with “Yes”. Therefore, I’m going to book our class as presenting up to five group projects for the last RMeetup Group. You don’t have to do anything, simply mark your calendars for Tuesday, December 17 from 12-1pm at CenterCity.</p></li>
+<li><p><a href="../../assignment/03-datacamp.html">DataCamp 3</a> is due in 3 weeks (November 5) DataCamp no longer offers Intro to Shiny so have two options, which you’ll need to report on Canvas. Please see page for details.</p></li>
+</ol>
 <h2 id="tweet-of-the-day">Tweet of the day</h2>
 <blockquote class="twitter-tweet" data-lang="en">
 <p lang="en" dir="ltr">
@@ -160,19 +168,20 @@
 <br />
 </span></span></p>
 <h2 id="slides">Slides:</h2>
-<p><a href="../../slides/07-class.html#1">full screen</a> / <a href="https://github.com/wesslen/dsba5122-spring2019/raw/master/public/files/dsba5122-spring2019-07-class.pdf">pdf version</a></p>
+<p><a href="../../slides/07-class.html#1">full screen</a> / <a href="https://github.com/wesslen/dsba5122-fall2019/raw/master/public/files/dsba5122-fall2019-07-class.pdf">pdf version</a></p>
 <iframe src="../../slides/07-class.html#1" width="672" height="400px">
 </iframe>
 <ul>
-<li><p><i class="fas fa-external-link-square-alt"></i> Mike Bostock (bl.ocks.org), <a href="http://bl.ocks.org/syntagmatic/3150059">“Nutrient Parallel Coordinates”</a></p></li>
-<li><p><i class="fas fa-external-link-square-alt"></i> RStudio, <a href="http://gallery.htmlwidgets.org/">“HTML Widget Gallery”</a></p></li>
-<li><p><i class="fas fa-external-link-square-alt"></i> John Coene, <a href="https://john-coene.com/post/how-to-build-htmlwidgets/">“How to build htmlwidgets”</a></p></li>
-<li><p><i class="fas fa-external-link-square-alt"></i> RStudio, <a href="https://rstudio.github.io/r2d3/">“<code>r2d3</code> package”</a></p></li>
+<li><i class="fas fa-external-link-square-alt"></i> Mike Bostock (bl.ocks.org), <a href="http://bl.ocks.org/syntagmatic/3150059">“Nutrient Parallel Coordinates”</a></li>
 </ul>
-<h2 id="lab">Lab</h2>
-<ul>
-<li>We’ll run <code>htmlwidgets</code> in <a href="https://rstudio.cloud/spaces/7976/project/259799">this RStudio.cloud project</a>.</li>
-</ul>
+<h2 id="lab-text-and-t-sne">Lab: Text and t-SNE</h2>
+<ol style="list-style-type: decimal">
+<li><p>We’ll run text application in <a href="https://rstudio.cloud/spaces/22733/project/610781">this RStudio.cloud project</a>. This uses <code>reticulate</code> package, allowing python packages.</p></li>
+<li><p>For this data set, we’ll use a sample of the <a href="https://www.consumerfinance.gov/data-research/consumer-complaints/search/?from=0&amp;searchField=all&amp;searchText=&amp;size=25&amp;sort=created_date_desc">CFPB Public Complaints data set</a>. We’ll just use a sample of credit reporting (product) issues.</p></li>
+<li><p>We’ll use a technique called t-SNE to represent the text dataset. <i class="fas fa-external-link-square-alt"></i> Wattenberg, et al., <a href="https://distill.pub/2016/misread-tsne">“How to Use t-SNE Effectively”</a>, Distill, 2016. <a href="http://doi.org/10.23915/distill.00002" class="uri">http://doi.org/10.23915/distill.00002</a></p></li>
+<li><p>TensorFlow Projector Dimensionality Reduction on Word Embeddings: <a href="https://projector.tensorflow.org/" class="uri">https://projector.tensorflow.org/</a></p></li>
+</ol>
+<p>For more information on basics of text, see <i class="fas fa-book"></i> <a href="https://www.tidytextmining.com/tidytext.html">Chapter 1: Tidytext format</a> and <a href="https://www.tidytextmining.com/tfidf.html">Chapter 3: Analyzing word and document frequency: tf-idf</a> in Julia Silge and David Robinson, <em>Tidy Text Mining in R</em></p>
 
 
     </article>

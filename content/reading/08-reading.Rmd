@@ -1,6 +1,6 @@
 ---
-title: "Unstructured text"
-date: "2019-03-18"
+title: "Networks and Trees"
+date: "2019-10-21"
 citeproc: false
 bibliography: ../../static/bib/references.bib
 csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
@@ -8,15 +8,10 @@ csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
 
 # Required
 
-- <i class="fas fa-book"></i> [Chapter 1: Tidytext format](https://www.tidytextmining.com/tidytext.html) and [Chapter 3: Analyzing word and document frequency: tf-idf](https://www.tidytextmining.com/tfidf.html) in Julia Silge and David Robinson, *Tidy Text Mining in R* [@SilgeRobinson:2017]
+- <i class="fas fa-book"></i> [Chapter 5: Networks and Hiearchies](https://github.com/wesslen/dsba5122-spring2019/raw/master/static/readings/Mazza2009_Chapter_NetworksAndHierarchies.pdf) in Riccardo Mazza, *Introduction to Information Visualization* 
+
+- <i class="fas fa-external-link-square-alt"></i> Katya Ognyanova, ["Static and dynamic network visualization with R"](http://kateto.net/network-visualization)
 
 # Recommended
 
-- <i class="fas fa-book"></i> [Chapter 6: Topic modeling](https://www.tidytextmining.com/topicmodeling.html) in Julia Silge and David Robinson, *Tidy Text Mining in R* [@SilgeRobinson:2017]
-
-- <i class="fas fa-external-link-square-alt"></i> Ken Benoit, Kohei Watanabe, and Stefan M&uuml;ller, ["quanteda"](https://tutorials.quanteda.io/)^[`quanteda` is my favorite R-based text package. It is phenonemal and I highly recommmend it if you want to learn more about text analysis, including their related packages `readtext` and `spacyR`. I would also highly recommend Ken and Pablo Barbera's 2018 [LSE course on Quantitative Text Analysis](https://lse-my459.github.io/).]
-
-- <i class="fas fa-external-link-square-alt"></i> Julie Silge, ["Training, Evaluating, and Interpreting Topic Models"](https://juliasilge.com/blog/evaluating-stm/)^[Julie's blog is on the `stm` package, which is my favorite topic modeling package by Molly Roberts, Brandon Stewart, and Dustin Tingley (among others). If you want to learn more, see [their great website](https://www.structuraltopicmodel.com/).]
-
-- <i class="fas fa-external-link-square-alt"></i> Julie Silge, ["Text Classification with tidy principles"](https://juliasilge.com/blog/tidy-text-classification/)^[This blog will teach how to set up text classification problems, i.e., supervised machine learning.]
-
+- <i class="fas fa-book"></i> [Chapters 2-9](https://twinetbook.john-coene.com/intro.html) in John Coene, *Twinetbook* 

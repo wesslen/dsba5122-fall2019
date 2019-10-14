@@ -14,7 +14,7 @@ editor_options:
 
 # Announcements
 
-1. Problem Set 1 has been graded.
+1. Problem Set 1 has been graded. See [Problem Set 1 Solutions](https://rstudio.cloud/spaces/22733/project/566283).
 
 ```{r echo=F, message=F, warning=F}
 library(tidyverse)
@@ -29,7 +29,6 @@ df %>%
   scale_y_continuous(NULL, breaks = NULL) + # y axis not meaningful; ignore it
   labs(title = "Problem Set 1 Grades")
 ```
-^[This plot does not include 7 submissions (grades 65, 70, 82, 95, 97, 97, 100) that did not provide time to complete.]
 
 ```{r fig.height=6,fig.width=6, message=F, warning=F, echo=F}
 p <- filter(df, Time != ".") %>% 
@@ -43,14 +42,15 @@ p <- filter(df, Time != ".") %>%
 
 plotly::ggplotly(p)
 ```
+^[This plot does not include 7 submissions (grades 65, 70, 82, 95, 97, 97, 100) that did not provide time to complete.]
 
 2. [Design contest assignment](../../assignment/design-contest/). Presentations will be in class on October 28.
 
 3. [Problem Set 2](../../assignment/02-problem-set/) is due by 11:59pm Monday, Oct 7th (during Fall Break). Please use Slack for questions.
 
-4. [Extra Credit Policy](https://dsba5122.com/assignments/#Extra%Credit). For this semester, you can receive up to **5%** extra credit added to your final grade. 
+4. [Extra Credit Policy](https://dsba5122.com/assignments/#Extra-Credit). For this semester, you can receive up to **5%** extra credit added to your final grade. 
 
-5. Quiz 2 has been postponed. It will be provided next Class (Oct 14) and due the following Monday, Oct 21.
+5. Quiz 2 has been pushed back. It will be provided next Class (Oct 14) and due the following Monday, Oct 21.
 
 # Tweet of the day
 

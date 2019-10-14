@@ -2,7 +2,7 @@
 title: "DSBA 5122: Visual Analytics"
 subtitle: "Class 7: Multidimensional & Dimensionality Reduction"  
 author: "Ryan Wesslen"
-date: 'March 11, 2019'
+date: 'October 14, 2019'
 citeproc: false
 bibliography: ../../static/bib/references.bib
 csl: ../../static/bib/chicago-syllabus-no-bib.csl
@@ -65,7 +65,7 @@ mono_light(
 
 class: center, middle, inverse
 
-# Multidimensional Data: Cairo Ch. 9 and Wilke Ch. 12
+# Multidimensional Data: Wilke Ch. 12
 
 ```{r out.width = "600px", fig.align="center", echo=FALSE}
 knitr::include_graphics("../images/slides/07-class/table_lens.png")
@@ -207,7 +207,11 @@ frameWidget(l, width = "100%")
 
 ## Parallel coordinates: 
 
-<iframe src="../images/slides/07-class/parcoords.html" width="100%" height="100%" frameBorder="0"></iframe>
+```{r out.width = "620px", fig.align="center", echo=FALSE}
+knitr::include_graphics("../images/slides/07-class/parallel.png")
+```
+
+<https://dsba5122.com/images/slides/07-class/parcoords.html>
 
 [`parcoords`](http://www.buildingwidgets.com/blog/2015/1/30/week-04-interactive-parallel-coordinates-1)
 
@@ -290,13 +294,15 @@ knitr::include_graphics("../images/slides/07-class/dplyr.png")
 
 There exist many algorithms for projecting n-dimensions to 2D:
 
-- Principal components analysis (PCA)
+1. Principal components analysis (PCA)
 
-- Multi-dimensional scaling (MDS)
+2. Multi-dimensional scaling (MDS)
 
-- Linear discriminant analysis (LDA)
+3. Linear discriminant analysis (LDA)
 
-- t-Distributed Stochastic Neighbor Embedding (t-SNE)
+4. t-Distributed Stochastic Neighbor Embedding (t-SNE)
+
+5. Uniform Manifold Approximation and Projection (UMAP)
 
 ---
 

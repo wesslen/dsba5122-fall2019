@@ -199,15 +199,6 @@ cmpd %>%
 
 ```
 
-**Plot**: Now let's change the projection type. Simply add in `coord_sf(crs = st_crs(102003))` as an additional layer to `g`.
-
-```{r albers}
-
-```
-
-
-Do you notice any difference between the two maps? xxxxx
-
 ## Advanced Plot:
 
 Now, let's create a chloropleth. Below is the code to create an advanced plot.

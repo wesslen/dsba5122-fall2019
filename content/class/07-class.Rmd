@@ -1,6 +1,6 @@
 ---
 title: "Multidimensional & Dimensionality Reduction"
-date: "2019-10-07"
+date: "2019-10-14"
 citeproc: false
 bibliography: ../../static/bib/references.bib
 csl: ../../static/bib/chicago-syllabus-no-bib.csl
@@ -12,6 +12,16 @@ editor_options:
   chunk_output_type: console
 ---
 
+# Announcements
+
+1. [Quiz 2](../../assignment/02-quiz/) will be available tomorrow morning. You have until 5:59pm, Monday October 21 to complete. [Canvas link to Quiz 2](https://uncc.instructure.com/courses/110218/quizzes/140149)
+
+2. Tomorrow, RStudio Engineer [Davis Vaughn](https://twitter.com/dvaughan32) ([SpeakerDeck](https://speakerdeck.com/davisvaughan/slide-almanac)) will be presenting for the [Charlotte RMeetup Group](https://www.meetup.com/Charlotte-R-Users-Group/events/263288753/) tomorrow from 12-1pm at CenterCity 1102. Remember, if you attend (must attend the full hour), per the [Extra Credit Policy](https://dsba5122.com/assignments/#Extra-Credit), you will receive 1% extra credit for attending. I will take attendance after the session.
+
+3. RMeetup Group for optional final project presentation in December meeting. We had 21 students respond with "Yes". Therefore, I'm going to book our class as presenting up to five group projects for the last RMeetup Group. You don't have to do anything, simply mark your calendars for Tuesday, December 17 from 12-1pm at CenterCity. 
+
+4. [DataCamp 3](../../assignment/03-datacamp.html) is due in 3 weeks (November 5) DataCamp no longer offers Intro to Shiny so have two options, which you'll need to report on Canvas. Please see page for details.
+
 # Tweet of the day
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">🍾🍾 New project in the family! 🍾🍾<br><br>-&gt;The <a href="https://t.co/tKJaXKC2qm">https://t.co/tKJaXKC2qm</a><br><br>A gallery of 200  _Simple_ charts made with d3.js, with reproducible, commented &amp; editable code. <a href="https://twitter.com/hashtag/dataviz?src=hash&amp;ref_src=twsrc%5Etfw">#dataviz</a> <a href="https://t.co/m19BKxiNe5">pic.twitter.com/m19BKxiNe5</a></p>&mdash; Yan Holtz (@R_Graph_Gallery) <a href="https://twitter.com/R_Graph_Gallery/status/1097793810715869185?ref_src=twsrc%5Etfw">February 19, 2019</a></blockquote>
@@ -20,7 +30,7 @@ editor_options:
 
 # Slides:
 
-[full screen](../../slides/07-class.html#1) / [pdf version](https://github.com/wesslen/dsba5122-spring2019/raw/master/public/files/dsba5122-spring2019-07-class.pdf)
+[full screen](../../slides/07-class.html#1) / [pdf version](https://github.com/wesslen/dsba5122-fall2019/raw/master/public/files/dsba5122-fall2019-07-class.pdf)
 
 ```{r echo=FALSE}
 knitr::include_url('../../slides/07-class.html#1')
@@ -28,12 +38,14 @@ knitr::include_url('../../slides/07-class.html#1')
 
 - <i class="fas fa-external-link-square-alt"></i> Mike Bostock (bl.ocks.org), ["Nutrient Parallel Coordinates"](http://bl.ocks.org/syntagmatic/3150059)
 
-- <i class="fas fa-external-link-square-alt"></i> RStudio, ["HTML Widget Gallery"](http://gallery.htmlwidgets.org/)
+# Lab: Text and t-SNE
 
-- <i class="fas fa-external-link-square-alt"></i> John Coene, ["How to build htmlwidgets"](https://john-coene.com/post/how-to-build-htmlwidgets/)
+1. We'll run text application in [this RStudio.cloud project](https://rstudio.cloud/spaces/22733/project/610781). This uses `reticulate` package, allowing python packages.
 
-- <i class="fas fa-external-link-square-alt"></i> RStudio, ["`r2d3` package"](https://rstudio.github.io/r2d3/) 
+2. For this data set, we'll use a sample of the [CFPB Public Complaints data set](https://www.consumerfinance.gov/data-research/consumer-complaints/search/?from=0&searchField=all&searchText=&size=25&sort=created_date_desc). We'll just use a sample of credit reporting (product) issues.
 
-# Lab
+3. We'll use a technique called t-SNE to represent the text dataset. <i class="fas fa-external-link-square-alt"></i> Wattenberg, et al., ["How to Use t-SNE Effectively"](https://distill.pub/2016/misread-tsne), Distill, 2016. http://doi.org/10.23915/distill.00002
 
-- We'll run `htmlwidgets` in [this RStudio.cloud project](https://rstudio.cloud/spaces/7976/project/259799).
+4. TensorFlow Projector Dimensionality Reduction on Word Embeddings: <https://projector.tensorflow.org/>
+
+For more information on basics of text, see <i class="fas fa-book"></i> [Chapter 1: Tidytext format](https://www.tidytextmining.com/tidytext.html) and [Chapter 3: Analyzing word and document frequency: tf-idf](https://www.tidytextmining.com/tfidf.html) in Julia Silge and David Robinson, *Tidy Text Mining in R*
