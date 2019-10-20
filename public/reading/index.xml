@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Readings on Visual Analytics</title>
-    <link>https://dsba5122-fall2019.netlify.com/reading/</link>
+    <link>/reading/</link>
     <description>Recent content in Readings on Visual Analytics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 21 Oct 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://dsba5122-fall2019.netlify.com/reading/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/reading/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Networks and Trees</title>
-      <link>https://dsba5122-fall2019.netlify.com/reading/08-reading/</link>
+      <link>/reading/08-reading/</link>
       <pubDate>Mon, 21 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dsba5122-fall2019.netlify.com/reading/08-reading/</guid>
+      <guid>/reading/08-reading/</guid>
       <description> Required   Chapter 5: Networks and Hiearchies in Riccardo Mazza, Introduction to Information Visualization
   Katya Ognyanova, “Static and dynamic network visualization with R”
   Recommended   Chapters 2-9 in John Coene, Twinetbook  </description>
@@ -24,10 +24,10 @@
     
     <item>
       <title>Multidimensional &amp; Dimensionality Reduction</title>
-      <link>https://dsba5122-fall2019.netlify.com/reading/07-reading/</link>
+      <link>/reading/07-reading/</link>
       <pubDate>Mon, 14 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dsba5122-fall2019.netlify.com/reading/07-reading/</guid>
+      <guid>/reading/07-reading/</guid>
       <description>Required   Chapter 12: Visualizing associations in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
 
   Chapter 4: Multivariate Analysis in Riccardo Mazza, Introduction to Information Visualization
@@ -38,10 +38,10 @@
     
     <item>
       <title>Statistical Models</title>
-      <link>https://dsba5122-fall2019.netlify.com/reading/06-reading/</link>
+      <link>/reading/06-reading/</link>
       <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dsba5122-fall2019.netlify.com/reading/06-reading/</guid>
+      <guid>/reading/06-reading/</guid>
       <description>Required   Chapter 6: Work with Models in Healy.
   Chapter 22: Model introduction and Chapter 23: Model basics in Wickham/Grolemund.
   Recommended   Chapter 6: Basic Regression from “ModernDive: An Introduction to Statistical and Data Sciences via R” by Chester Ismay and Albert Y. Kim.This is an outstanding new book – with a free online version – that will be a big complement to the tidyverse in the future.</description>
@@ -49,10 +49,10 @@
     
     <item>
       <title>Distributions &amp; Uncertainty</title>
-      <link>https://dsba5122-fall2019.netlify.com/reading/05-reading/</link>
+      <link>/reading/05-reading/</link>
       <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dsba5122-fall2019.netlify.com/reading/05-reading/</guid>
+      <guid>/reading/05-reading/</guid>
       <description>Required   Chapter 7: Histograms and density plots, Chapter 8: Empirical cumulative distribution functions, Chapter 9: Visualizing many distributions at once and Chapter 16: Visualizing uncertainty in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
 
   Multiple Views Blog: Uncertainty Visualizations Explained by Jessica Hullman and Matthew Kay
@@ -61,10 +61,10 @@
     
     <item>
       <title>Time &amp; Space</title>
-      <link>https://dsba5122-fall2019.netlify.com/reading/04-reading/</link>
+      <link>/reading/04-reading/</link>
       <pubDate>Mon, 16 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dsba5122-fall2019.netlify.com/reading/04-reading/</guid>
+      <guid>/reading/04-reading/</guid>
       <description>Required   Chapter 7: Maps in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
 
   Chapter 13: Visualizing time series, Chapter 14: Visualizing trends and Chapter 15: Visualizing geospatial trends in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
@@ -74,10 +74,10 @@
     
     <item>
       <title>Visual Representations II</title>
-      <link>https://dsba5122-fall2019.netlify.com/reading/03-reading/</link>
+      <link>/reading/03-reading/</link>
       <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dsba5122-fall2019.netlify.com/reading/03-reading/</guid>
+      <guid>/reading/03-reading/</guid>
       <description>Required   Chapter 3: Make a Plot and Chapter 4: Show the right numbers in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
 
   Chapter 5: Directory of Visualization and Chapter 6: Visualizing Amounts in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
@@ -87,10 +87,10 @@
     
     <item>
       <title>Visual Representations I</title>
-      <link>https://dsba5122-fall2019.netlify.com/reading/02-reading/</link>
+      <link>/reading/02-reading/</link>
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dsba5122-fall2019.netlify.com/reading/02-reading/</guid>
+      <guid>/reading/02-reading/</guid>
       <description>Required   Chapter 3: Data visualization and Chapter 5: Data transformation in Garrett Grolemund and Hadley Wickham, R for Data ScienceHadley Wickham and Garrett Grolemund, R for Data Science: Import, Tidy, Transform, Visualize, and Model Data (Sebastopol, California: O’Reilly Media, 2017), http://r4ds.had.co.nz/.
 
   Chapter 2: Aesthetic mapping, Chapter 3: Coordinate systems and axes, Chapter 4: Color scales, and Chapter 19: Common pitfalls of color use in Claus Wilke, Fundamentals of Data VisualizationClaus E.</description>
@@ -98,28 +98,28 @@
     
     <item>
       <title>Intro to Visual Analytics</title>
-      <link>https://dsba5122-fall2019.netlify.com/reading/01-reading/</link>
+      <link>/reading/01-reading/</link>
       <pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dsba5122-fall2019.netlify.com/reading/01-reading/</guid>
+      <guid>/reading/01-reading/</guid>
       <description>Required There are no required readings for the first class.</description>
     </item>
     
     <item>
       <title>Machine Learning</title>
-      <link>https://dsba5122-fall2019.netlify.com/reading/13-reading/</link>
+      <link>/reading/13-reading/</link>
       <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dsba5122-fall2019.netlify.com/reading/13-reading/</guid>
+      <guid>/reading/13-reading/</guid>
       <description> Required   Chapter 1 and Chapter 2 in Christoph Molnar, Interpretable Machine Learning: A Guide for Making Black Box Models Explainable.  Recommended   Chapter 5 in Christoph Molnar, Interpretable Machine Learning: A Guide for Making Black Box Models Explainable.  </description>
     </item>
     
     <item>
       <title>Deployment, Back-end and Scalability</title>
-      <link>https://dsba5122-fall2019.netlify.com/reading/12-reading/</link>
+      <link>/reading/12-reading/</link>
       <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dsba5122-fall2019.netlify.com/reading/12-reading/</guid>
+      <guid>/reading/12-reading/</guid>
       <description> Required   Docker and `plumber’
   Profiling a Shiny App
   Persistent storage in Shiny Apps / RStudio blog post on persistent storage
@@ -131,10 +131,10 @@
     
     <item>
       <title>Interacting &amp; Brushing</title>
-      <link>https://dsba5122-fall2019.netlify.com/reading/11-reading/</link>
+      <link>/reading/11-reading/</link>
       <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dsba5122-fall2019.netlify.com/reading/11-reading/</guid>
+      <guid>/reading/11-reading/</guid>
       <description> Required   Interactive Dynamics for Visual Analysis by Jeff Heer and Ben Shneiderman
   Chapter 7: Interactions in Riccardo Mazza, Introduction to Information Visualization
   </description>
@@ -142,10 +142,10 @@
     
     <item>
       <title>Networks and Trees</title>
-      <link>https://dsba5122-fall2019.netlify.com/reading/10-reading/</link>
+      <link>/reading/10-reading/</link>
       <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dsba5122-fall2019.netlify.com/reading/10-reading/</guid>
+      <guid>/reading/10-reading/</guid>
       <description> Required   Chapter 5: Networks and Hiearchies in Riccardo Mazza, Introduction to Information Visualization
   Katya Ognyanova, “Static and dynamic network visualization with R”
   Recommended   Chapters 2-9 in John Coene, Twinetbook  </description>
@@ -153,10 +153,10 @@
     
     <item>
       <title>Truth, beauty, and data revisited</title>
-      <link>https://dsba5122-fall2019.netlify.com/reading/14-reading/</link>
+      <link>/reading/14-reading/</link>
       <pubDate>Tue, 11 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://dsba5122-fall2019.netlify.com/reading/14-reading/</guid>
+      <guid>/reading/14-reading/</guid>
       <description> Required   Chapter 12 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
   Chapter 24 in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
   Ben Wellington, “Making data mean more through storytelling”  Jonathan Schwabish, “Better Data Communication,” National Bureau of Economic Research  Why People Make Bad Charts (and What to Do When it Happens)  Questions to reflect on  Questions TBD  </description>
@@ -164,10 +164,10 @@
     
     <item>
       <title>Time</title>
-      <link>https://dsba5122-fall2019.netlify.com/reading/09-reading/</link>
+      <link>/reading/09-reading/</link>
       <pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://dsba5122-fall2019.netlify.com/reading/09-reading/</guid>
+      <guid>/reading/09-reading/</guid>
       <description>Required   Chapter 8 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
   The Nuclear Threat—The Shadow Peace, part 1  11 Ways to Visualize Changes Over Time – A Guide A bunch of (really) short blog posts:   Streamgraphs: Economic trade flows with R  A century of ocean shipping animated  What is seasonal adjustment and why is it used?</description>
     </item>

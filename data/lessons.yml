@@ -81,15 +81,11 @@ lessons:
   - title: "Class 8: Networks and Trees"
     date: "October 21"
     reading: "08-reading"
-    #class: "08-class"
+    class: "08-class"
     
   - title: "Class 9: Design Contest Presentations"
     date: "October 28"
     #class: "09-class"
-    
-  - title: "**Quiz 3 (Due Nov 4)**"
-    date: "October 28"
-    #assignment: "03-quiz"
 
   - title: '<span class="fake-header-table">Building Shiny Apps</span>'
     header: True
@@ -98,6 +94,10 @@ lessons:
     date: "November 4"
     #reading: "10-reading"
     #class: "10-class"
+    
+  - title: "**Quiz 3 (Due Nov 11)**"
+    date: "November 4"
+    #assignment: "03-quiz"
     
   - title: "**Problem set 3 (Due Nov 18)**"
     date: "November 4"
@@ -115,15 +115,15 @@ lessons:
     date: "November 11"
     #reading: "11-reading"
     #class: "11-class"
-    
-  - title: "**Problem set 4 (Due Nov 25)**"
-    date: "November 11"
-    #assignment: "04-problem-set"
 
   - title: "Class 12: Shiny in Production"
     date: "November 18"
     #reading: "12-reading"
     #class: "12-class"
+    
+  - title: "**Problem set 4 (Due Dec 2)**"
+    date: "November 18"
+    #assignment: "04-problem-set"
 
   - title: "Class 13: Human Factors"
     date: "November 25"

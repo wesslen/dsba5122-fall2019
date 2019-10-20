@@ -330,10 +330,10 @@ model &lt;-<span class="st"> </span><span class="kw">lm</span>(___?___, mtcars)
 <h3 id="question-10">Question 10</h3>
 <p>The following is a preview of the dataframe <code>df</code>:</p>
 <pre><code>## # A tibble: 2 x 2
-##   city   data            
-##   &lt;chr&gt;  &lt;list&gt;          
-## 1 Boston &lt;tibble [2 × 2]&gt;
-## 2 NYC    &lt;tibble [2 × 2]&gt;</code></pre>
+##   city             data
+##   &lt;chr&gt;  &lt;list&lt;df[,2]&gt;&gt;
+## 1 Boston        [2 × 2]
+## 2 NYC           [2 × 2]</code></pre>
 <p>What <code>tidyr</code> function would unnest the list column <code>data</code> to create this dataset:</p>
 <pre><code>## # A tibble: 4 x 3
 ##   city   product price

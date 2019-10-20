@@ -18,6 +18,9 @@ editor_options:
 💻 <a href="https://twitter.com/_ColinFay?ref_src=twsrc%5Etfw">@_ColinFay</a><a href="https://t.co/udr2nFW70R">https://t.co/udr2nFW70R</a> <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> <a href="https://twitter.com/hashtag/rshiny?src=hash&amp;ref_src=twsrc%5Etfw">#rshiny</a> <a href="https://t.co/DOgpcB2ICg">pic.twitter.com/DOgpcB2ICg</a></p>&mdash; Mara Averick (@dataandme) <a href="https://twitter.com/dataandme/status/1105453898603642880?ref_src=twsrc%5Etfw">March 12, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+#
+
+[Shiny in Production Workshop](https://kellobri.github.io/shiny-prod-book/devops-philosophy-tooling.html)
 
 # RStudio Cloud Project
 
