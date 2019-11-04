@@ -2,91 +2,91 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Slides on Visual Analytics</title>
-    <link>/slides/</link>
+    <link>https://dsba5122-fall2019.netlify.com/slides/</link>
     <description>Recent content in Slides on Visual Analytics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 22 Apr 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/slides/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://dsba5122-fall2019.netlify.com/slides/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>DSBA 5122: Visual Analytics</title>
-      <link>/slides/13-class/</link>
+      <link>https://dsba5122-fall2019.netlify.com/slides/13-class/</link>
       <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/slides/13-class/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/slides/13-class/</guid>
       <description> class: center, middle
 Welcome  </description>
     </item>
     
     <item>
       <title>DSBA 5122: Visual Analytics</title>
-      <link>/slides/12-class/</link>
+      <link>https://dsba5122-fall2019.netlify.com/slides/12-class/</link>
       <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/slides/12-class/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/slides/12-class/</guid>
       <description> class: center, middle
 Welcome  </description>
     </item>
     
     <item>
       <title>DSBA 5122: Visual Analytics</title>
-      <link>/slides/11-class/</link>
+      <link>https://dsba5122-fall2019.netlify.com/slides/11-class/</link>
       <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/slides/11-class/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/slides/11-class/</guid>
       <description> class: center, middle
 Welcome  </description>
     </item>
     
     <item>
       <title>DSBA 5122: Visual Analytics</title>
-      <link>/slides/10-class/</link>
+      <link>https://dsba5122-fall2019.netlify.com/slides/10-class/</link>
       <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/slides/10-class/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/slides/10-class/</guid>
       <description> class: center, middle
 Welcome  </description>
     </item>
     
     <item>
       <title>DSBA 5122: Visual Analytics</title>
-      <link>/slides/08-class/</link>
+      <link>https://dsba5122-fall2019.netlify.com/slides/08-class/</link>
       <pubDate>Mon, 18 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/slides/08-class/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/slides/08-class/</guid>
       <description> class: center, middle
 Welcome  </description>
     </item>
     
     <item>
       <title>DSBA 5122: Visual Analytics</title>
-      <link>/slides/07-class/</link>
+      <link>https://dsba5122-fall2019.netlify.com/slides/07-class/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/slides/07-class/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/slides/07-class/</guid>
       <description> class: center, middle
 Welcome  </description>
     </item>
     
     <item>
       <title>DSBA 5122: Visual Analytics</title>
-      <link>/slides/06-class/</link>
+      <link>https://dsba5122-fall2019.netlify.com/slides/06-class/</link>
       <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/slides/06-class/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/slides/06-class/</guid>
       <description> class: center, middle
 Welcome  </description>
     </item>
     
     <item>
       <title>DSBA 5122: Visual Analytics</title>
-      <link>/slides/05-class/</link>
+      <link>https://dsba5122-fall2019.netlify.com/slides/05-class/</link>
       <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/slides/05-class/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/slides/05-class/</guid>
       <description>class: center, middle, inverse
 Defining Uncertanity and Risk Knightian Uncertainty, a la Donald Rumsfeld
  Gigerenzer Separates the use of heuristics, or rule-of-thumbs
@@ -99,30 +99,30 @@ class: middle, center, inverse
     
     <item>
       <title>DSBA 5122: Visual Analytics</title>
-      <link>/slides/04-class/</link>
+      <link>https://dsba5122-fall2019.netlify.com/slides/04-class/</link>
       <pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/slides/04-class/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/slides/04-class/</guid>
       <description> class: center, middle
 Welcome  </description>
     </item>
     
     <item>
       <title>DSBA 5122: Visual Analytics</title>
-      <link>/slides/03-class/</link>
+      <link>https://dsba5122-fall2019.netlify.com/slides/03-class/</link>
       <pubDate>Mon, 04 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/slides/03-class/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/slides/03-class/</guid>
       <description> class: center, middle
 Welcome  </description>
     </item>
     
     <item>
       <title>DSBA 5122: Visual Analytics</title>
-      <link>/slides/02-class/</link>
+      <link>https://dsba5122-fall2019.netlify.com/slides/02-class/</link>
       <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/slides/02-class/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/slides/02-class/</guid>
       <description>class: center, middle, inverse
 The Truth Continuum (Chapter 3) “Any visualization is a model.”
 –
@@ -139,10 +139,10 @@ class: center, middle
     
     <item>
       <title>DSBA 5122: Visual Analytics</title>
-      <link>/slides/01-class/</link>
+      <link>https://dsba5122-fall2019.netlify.com/slides/01-class/</link>
       <pubDate>Mon, 14 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/slides/01-class/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/slides/01-class/</guid>
       <description>class: center, middle
 Welcome  Introduce yourself  Name
  What’s your academic and professional background?

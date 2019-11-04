@@ -1,8 +1,7 @@
 library(shiny)
-library(quanteda)
+library(tidytext)
 library(wordcloud)
-library(memoise)
-library(ggplot2)
+library(tidyverse)
 library(RColorBrewer)
 library(shinythemes)
 
@@ -11,29 +10,25 @@ books <- list("A Mid Summer Night's Dream" = "summer",
                "The Merchant of Venice" = "merchant",
                "Romeo and Juliet" = "romeo")
 
-# Using "memoise" to automatically cache the results
-getDfm <- memoise(function(book, minterms, stem, punct, ngrams) {
+getFreq <- function(book, stopwords = TRUE) {
   # check that only one of three books is selected
   if (!(book %in% books))
     stop("Unknown book")
   
-  text <- readLines(sprintf("./data/%s.txt", book), encoding="UTF-8")
+  text <-  tibble(text = readLines(sprintf("./data/%s.txt", book), encoding="UTF-8"))
   
   # could also pass column of text/character instead
-  myCorpus <- corpus(text)
+  text <- text %>%
+    unnest_tokens(word, text) %>%
+    count(word, sort = TRUE) 
   
-  # if... else if statement depending on 
-  if(ngrams == "unigram"){
-    ng = 1
-  }else if(ngrams == "both"){
-    ng = 1:2
-  }else if(ngrams == "bigram"){
-    ng = 2
+  if(stopwords){
+    text <- text %>%
+      anti_join(stop_words)
   }
-  
-  dfm(myCorpus, remove = stopwords('english'), remove_punct = punct, stem = stem, ngrams = ng) %>%
-    dfm_trim(min_termfreq = minterms, verbose = FALSE)
-})
+
+  return(text)
+}
 
 ui <- fluidPage(
   theme = shinytheme("cerulean"),
@@ -44,22 +39,28 @@ ui <- fluidPage(
     sidebarPanel(
       selectInput("selection", "Choose a book:",
                   choices = books),
-      checkboxInput("stem", "Stem words:", value = FALSE),
-      checkboxInput("punct", "Remove punctuation:", value = TRUE),
-      radioButtons("ngram", "Choice in n-grams:", 
-                   choices = c("Unigrams only" = "unigram",
-                               "Unigrams & Bigrams" = "both",
-                               "Bigrams only" = "bigram")),
-      sliderInput("freq", "Minimum Frequency:",
-                  min = 1,  max = 50, value = 10),
+      checkboxInput("stopwords", "Stop words:", value = TRUE),
+      actionButton("update", "Rerun"),
+      hr(),
+      h3("Word Cloud Settings"),
+      sliderInput("maxwords", "Max # of Words:",
+                   min = 10,  max = 200, value = 100, step = 10),
+      sliderInput("big", "Size of largest words:",
+                  min = 1, max = 8, value = 4),
+      sliderInput("small", "Size of smallest words:",
+                  min = 0.1, max = 4, value = 0.5),
       hr(), # add in a line
-      actionButton("update", "Rerun")
+      h3("Word Count Settings"),
+      sliderInput("barcutoff", "Minimum words for Counts Chart:",
+                  min = 10, max = 100, value = 25),
+      sliderInput("fontsize", "Font size for Counts Chart:",
+                  min = 8, max = 30, value = 14)
     ),
     
     mainPanel(
       tabsetPanel(
-        tabPanel("Word Cloud", plotOutput("cloud")), # show word cloud
-        tabPanel("Counts", plotOutput("freq", height = "600px")) # show frequency plot
+        tabPanel("Word Cloud", plotOutput("cloud", height = "600px")), # show word cloud
+        tabPanel("Word Counts", plotOutput("freq", height = "600px")) # show frequency plot
       )
     )
   )
@@ -67,31 +68,36 @@ ui <- fluidPage(
 
 server <- function(input, output) {
   # Define a reactive expression for the document term matrix
-  dfm <- reactive({
-    # Change when the "update" button is pressed...
-    input$update
-    isolate({ # ...but not for anything else
+  freq <- eventReactive(input$update,{
       withProgress({
         setProgress(message = "Processing corpus...")
-        getDfm(input$selection, input$freq, input$stem, input$punct, input$ngram)
+        getFreq(input$selection, input$stopwords)
       })
-    })
   })
   
   output$cloud <- renderPlot({
-    v <- dfm()
-    textplot_wordcloud(v, min_size=0.5, max_size=6, max_words=100, color=brewer.pal(8, "Dark2"))
+    v <- freq()
+    pal <- brewer.pal(8,"Dark2")
+    
+    v %>% 
+      with(
+        wordcloud(word, n, 
+          scale = c(input$big, input$small),
+          random.order = FALSE, 
+          max.words = input$maxwords, 
+          colors=pal))
   })
   
   output$freq <- renderPlot({
-    v <- dfm()
-    dfm_freq <- textstat_frequency(v, n = 50)
-    dfm_freq$feature <- with(dfm_freq, reorder(feature, frequency)) # sort in descending
+    v <- freq()
     
-    ggplot(dfm_freq, aes(x = feature, y = frequency)) +
-      geom_point() + 
-      coord_flip() + # flip coords
-      theme(text = element_text(size = 18)) # enlarge font to 18 for entire lot
+    v %>%
+      filter(n > input$barcutoff) %>%
+      ggplot(aes(x = reorder(word, n), y = n)) +
+      geom_col() +
+      coord_flip() +
+      theme(text = element_text(size=input$wordsize)) +
+      labs(x = "", y = "", title = " ")
   })
 }
 

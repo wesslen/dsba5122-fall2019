@@ -1,6 +1,6 @@
 ---
-title: "Networks and Trees"
-date: "2019-04-01"
+title: "Intro to Shiny"
+date: "2019-11-04"
 citeproc: false
 bibliography: ../../static/bib/references.bib
 csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
@@ -8,10 +8,5 @@ csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
 
 # Required
 
-- <i class="fas fa-book"></i> [Chapter 5: Networks and Hiearchies](https://github.com/wesslen/dsba5122-spring2019/raw/master/static/readings/Mazza2009_Chapter_NetworksAndHierarchies.pdf) in Riccardo Mazza, *Introduction to Information Visualization* 
+- <i class="fas fa-book"></i> [Chapters 2: Your First Shiny App](https://mastering-shiny.org/basic-app.html), [Chapters 3: Basic UI](https://mastering-shiny.org/basic-ui.html), and [Chapters 4: Basic Reactivity](https://mastering-shiny.org/basic-reactivity.html) in Hadley Wickham *Mastering Shiny* 
 
-- <i class="fas fa-external-link-square-alt"></i> Katya Ognyanova, ["Static and dynamic network visualization with R"](http://kateto.net/network-visualization)
-
-# Recommended
-
-- <i class="fas fa-book"></i> [Chapters 2-9](https://twinetbook.john-coene.com/intro.html) in John Coene, *Twinetbook* 

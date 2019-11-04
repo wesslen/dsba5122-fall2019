@@ -2,50 +2,61 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Assignments on Visual Analytics</title>
-    <link>/assignment/</link>
+    <link>https://dsba5122-fall2019.netlify.com/assignment/</link>
     <description>Recent content in Assignments on Visual Analytics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 11 Nov 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/assignment/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://dsba5122-fall2019.netlify.com/assignment/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Problem set 4</title>
-      <link>/assignment/04-problem-set/</link>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/04-problem-set/</link>
       <pubDate>Mon, 11 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/assignment/04-problem-set/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/04-problem-set/</guid>
       <description>Task 0: Getting started For this problem set, you’ll learn blogdown, an R package that enables building websites through Hugo, a web framework. Like shiny, blogdown enable you to use a more complex framework (i.e., Hugo) but through R functions and syntax that you’ve been learning about all semester.
 I recommend running this exercise on your personal laptop, mainly so you’ll have this blog site already saved on your own personal computer.</description>
     </item>
     
     <item>
+      <title>Final project</title>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/final-project/</link>
+      <pubDate>Thu, 07 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/final-project/</guid>
+      <description>Objective: Develop a Shiny app based on any data-related topic.&amp;#8853;
+Dataset: This is up to your group. You may use a dataset from the design contest (the same or a different data set) or select your own. Warning, don’t overthink selecting your dataset.
+In one week, make a decision on your data set by November 14, 2019 (send me by email). This is the most important step to start with.</description>
+    </item>
+    
+    <item>
       <title>Datacamp Course 4</title>
-      <link>/assignment/04-datacamp/</link>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/04-datacamp/</link>
       <pubDate>Mon, 04 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/assignment/04-datacamp/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/04-datacamp/</guid>
       <description>DataCamp Course: Building Web Applications in R with Shiny: Case Studies by Dean Attali Here is the link to the assigned course.
 For this DataCamp course, you’ll learn more about shiny using hands on case studies. The instructor for this course is a shiny expert who’s shinyjs package helps blend JavaScript code snippets within Shiny. He also has a great advanced shiny blog post that provides a lot of great tips for more customized functionality.</description>
     </item>
     
     <item>
       <title>Problem set 3</title>
-      <link>/assignment/03-problem-set/</link>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/03-problem-set/</link>
       <pubDate>Mon, 04 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/assignment/03-problem-set/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/03-problem-set/</guid>
       <description>a.sourceLine { display: inline-block; line-height: 1.25; } a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; } a.sourceLine:empty { height: 1.2em; } .sourceCode { overflow: visible; } code.sourceCode { white-space: pre; position: relative; } div.sourceCode { margin: 1em 0; } pre.sourceCode { margin: 0; } @media screen { div.sourceCode { overflow: auto; } } @media print { code.sourceCode { white-space: pre-wrap; } a.sourceLine { text-indent: -1em; padding-left: 1em; } } pre.</description>
     </item>
     
     <item>
       <title>Datacamp Course 3</title>
-      <link>/assignment/03-datacamp/</link>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/03-datacamp/</link>
       <pubDate>Mon, 14 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>/assignment/03-datacamp/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/03-datacamp/</guid>
       <description>DataCamp Course: (Modified for this assignment) DataCamp no longer offers their “Intro to Shiny”.
 Instead, you have two options:
 Watch a 2.5 hour introduction to Shiny training video.
@@ -55,19 +66,19 @@ Watch a 2.5 hour introduction to Shiny training video.
     
     <item>
       <title>Quiz 2</title>
-      <link>/assignment/02-q/</link>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/02-q/</link>
       <pubDate>Mon, 14 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>/assignment/02-q/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/02-q/</guid>
       <description>a.sourceLine { display: inline-block; line-height: 1.25; } a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; } a.sourceLine:empty { height: 1.2em; } .sourceCode { overflow: visible; } code.sourceCode { white-space: pre; position: relative; } div.sourceCode { margin: 1em 0; } pre.sourceCode { margin: 0; } @media screen { div.sourceCode { overflow: auto; } } @media print { code.sourceCode { white-space: pre-wrap; } a.sourceLine { text-indent: -1em; padding-left: 1em; } } pre.</description>
     </item>
     
     <item>
       <title>Quiz 2</title>
-      <link>/assignment/02-quiz/</link>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/02-quiz/</link>
       <pubDate>Mon, 14 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>/assignment/02-quiz/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/02-quiz/</guid>
       <description>Quiz 2 can be taken starting on October 15th: Canvas link to Quiz 2
 You will have one week to complete the quiz (that is, the quiz must be completed by 5:59pm on October 21, 2019). Note this is not by midnight, but before the next class.
  This quiz will consist of 10 multiple choice questions. You will have 20 minutes to complete the quiz. You may only take the quiz once.</description>
@@ -75,10 +86,10 @@ You will have one week to complete the quiz (that is, the quiz must be completed
     
     <item>
       <title>Design contest: TidyTuesdays</title>
-      <link>/assignment/design-contest/</link>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/design-contest/</link>
       <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/assignment/design-contest/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/design-contest/</guid>
       <description>For this contest, you will find someone else’s submitted #TidyTuesday submission, critique it, then offer suggestions on ways to improve and enhance their work.
 Goals: Become familar with TidyTuesday and the R Online Learning Community
  Learn through someone else’s submission on novel visualization techniques, how to provide code in open source (e.g., how people post code on GitHub, etc.), and how to provide constructive design feedback on existing designs.</description>
@@ -86,20 +97,20 @@ Goals: Become familar with TidyTuesday and the R Online Learning Community
     
     <item>
       <title>Extra Credit 1</title>
-      <link>/assignment/01-extra-credit/</link>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/01-extra-credit/</link>
       <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/assignment/01-extra-credit/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/01-extra-credit/</guid>
       <description>Task 0: Getting started For this extra credit (worth 2% on your final grade), you’ll learn blogdown, an R package that enables building websites through Hugo, a web framework. Like shiny, blogdown enable you to use a more complex framework (i.e., Hugo) but through R functions and syntax that you’ve been learning about all semester.
 I recommend running this exercise on your personal laptop, mainly so you’ll have this blog site already saved on your own personal computer.</description>
     </item>
     
     <item>
       <title>Problem set 2</title>
-      <link>/assignment/02-problem-set/</link>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/02-problem-set/</link>
       <pubDate>Mon, 16 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/assignment/02-problem-set/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/02-problem-set/</guid>
       <description>Task 0: Getting started Create a new RStudio project somewhere on your computer.&amp;#8853;Remember, in RStudio, “File &amp;gt; New Project ..”)
  Open that new folder in Windows Explorer or macOS Finder (however you navigate around the files on your computer), and create a subfolder there named data.
 Download the file below and place it in your new data/ folder.&amp;#8853;You’ll probably need to right click on each and choose “Save link as…”.</description>
@@ -107,20 +118,20 @@ Download the file below and place it in your new data/ folder.&amp;#8853;You’l
     
     <item>
       <title>Datacamp Course 2</title>
-      <link>/assignment/02-datacamp/</link>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/02-datacamp/</link>
       <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/assignment/02-datacamp/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/02-datacamp/</guid>
       <description>DataCamp Course: Exploratory Data Analysis in R by David Robinson Here is the link to the assigned course.
 For this DataCamp course, you’ll learn about doing exploratory data analysis, focusing on ggplot2 and the related tidyverse packages (e.g., dplyr, broom).</description>
     </item>
     
     <item>
       <title>Quiz 1</title>
-      <link>/assignment/01-quiz/</link>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/01-quiz/</link>
       <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/assignment/01-quiz/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/01-quiz/</guid>
       <description>Quiz 1 can be taken starting on September 10th.
  You will have one week to complete the quiz (that is, the quiz must be completed by 5:59pm on September 16, 2019). Note this is not by midnight, but before the next class.
  This quiz will consist of 10 multiple choice questions. You will have 15 minutes to complete the quiz. You may only take the quiz once. Grades will not be available until the quiz closes.</description>
@@ -128,10 +139,10 @@ For this DataCamp course, you’ll learn about doing exploratory data analysis, 
     
     <item>
       <title>Problem set 1</title>
-      <link>/assignment/01-problem-set/</link>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/01-problem-set/</link>
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>/assignment/01-problem-set/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/01-problem-set/</guid>
       <description>To complete this task, you MUST submit your final folder (compressed as a zip file) through here to Canvas by 11:59pm on September 16, 2019. Each person needs to submit their own folder! So if you work in pairs, both individuals have to submit a folder.
 Task 0 Either use RStudio.CloudIf you need help, see RStudio.Cloud’s primer or Primers like R Programming Basics or Working with Data.
  or make sure you install R and RStudio and tidyverse first.</description>
@@ -139,10 +150,10 @@ Task 0 Either use RStudio.CloudIf you need help, see RStudio.Cloud’s primer or
     
     <item>
       <title>Datacamp Course 1</title>
-      <link>/assignment/01-datacamp/</link>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/01-datacamp/</link>
       <pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>/assignment/01-datacamp/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/01-datacamp/</guid>
       <description>DataCamp Course: Introduction to the Tidyverse by David Robinson Here is the link to the assigned course.
 For this DataCamp course, you’ll learn about using tidyverse package from David Robinson, Chief Data Scientist for DataCamp.David is a prolific data scientist and blogger, whose blog “Variance Explained” is one of the most popular data science blogs. He has a great blog post discussing the background of this course.
 
@@ -151,38 +162,28 @@ This course has four chapters:</description>
     
     <item>
       <title>Quiz 5</title>
-      <link>/assignment/05-quiz/</link>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/05-quiz/</link>
       <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/assignment/05-quiz/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/05-quiz/</guid>
       <description>a.sourceLine { display: inline-block; line-height: 1.25; } a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; } a.sourceLine:empty { height: 1.2em; } .sourceCode { overflow: visible; } code.sourceCode { white-space: pre; position: relative; } div.sourceCode { margin: 1em 0; } pre.sourceCode { margin: 0; } @media screen { div.sourceCode { overflow: auto; } } @media print { code.sourceCode { white-space: pre-wrap; } a.sourceLine { text-indent: -1em; padding-left: 1em; } } pre.</description>
     </item>
     
     <item>
       <title>Quiz 4</title>
-      <link>/assignment/04-quiz/</link>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/04-quiz/</link>
       <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/assignment/04-quiz/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/04-quiz/</guid>
       <description>a.sourceLine { display: inline-block; line-height: 1.25; } a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; } a.sourceLine:empty { height: 1.2em; } .sourceCode { overflow: visible; } code.sourceCode { white-space: pre; position: relative; } div.sourceCode { margin: 1em 0; } pre.sourceCode { margin: 0; } @media screen { div.sourceCode { overflow: auto; } } @media print { code.sourceCode { white-space: pre-wrap; } a.sourceLine { text-indent: -1em; padding-left: 1em; } } pre.</description>
     </item>
     
     <item>
-      <title>Final project</title>
-      <link>/assignment/final-project/</link>
-      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/assignment/final-project/</guid>
-      <description>Objective: Develop a Shiny app based on any data-related topic.&amp;#8853;
-Dataset: This is up to your group. You may use a dataset from the design contest (the same or a different data set) or select your own. Warning, don’t overthink selecting your dataset. I will request you make a decision on your data set by April 8, 2019 (send me by email). This is the most important step to start with.</description>
-    </item>
-    
-    <item>
       <title>Quiz 3</title>
-      <link>/assignment/03-quiz/</link>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/03-quiz/</link>
       <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/assignment/03-quiz/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/03-quiz/</guid>
       <description>Name: _____________________
 Student ID: _________________________
 This quiz is closed-note. You will have 10 minutes to complete.

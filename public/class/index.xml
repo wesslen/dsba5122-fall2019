@@ -2,32 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Classes on Visual Analytics</title>
-    <link>/class/</link>
+    <link>https://dsba5122-fall2019.netlify.com/class/</link>
     <description>Recent content in Classes on Visual Analytics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 04 Nov 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/class/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://dsba5122-fall2019.netlify.com/class/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Intro to Shiny</title>
-      <link>/class/10-class/</link>
+      <link>https://dsba5122-fall2019.netlify.com/class/10-class/</link>
       <pubDate>Mon, 04 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/class/10-class/</guid>
-      <description> Contents  Tweet of the day Slides: Lab: Shiny Reactivity   Tweet of the day Our lab&#39;s first preprint! Coral: an R shiny and D3.js web app for flexible, interactive, and high-resolution visualization of the human kinome. https://t.co/xD7QUXgjOR pic.twitter.com/1gGy9zzsBT — doug phanstiel (@dphansti) May 25, 2018   Slides: full screen / pdf version
- Lab: Shiny Reactivity Garrett Grohlmund’s Introduction to Reactivity in Shiny
- RStudio Cloud project for sample Shiny apps  </description>
+      <guid>https://dsba5122-fall2019.netlify.com/class/10-class/</guid>
+      <description>Contents  Tweet of the day Announcements Slides: Lab: Sample Shiny Apps   Tweet of the day New blog post: “Advice to aspiring data scientists: start a blog” https://t.co/yMDHqviiBN #rstats pic.twitter.com/9AdPUdbjtE — David Robinson (@drob) November 14, 2017   David authored “Tidy Text Mining”, which you’ll use in problem set 3. David also occasionally does #tidytuesday live coding sessions. Extremely helpful to watch him in action.</description>
     </item>
     
     <item>
       <title>Design Contest Presentations</title>
-      <link>/class/09-class/</link>
+      <link>https://dsba5122-fall2019.netlify.com/class/09-class/</link>
       <pubDate>Mon, 21 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>/class/09-class/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/class/09-class/</guid>
       <description> Contents  Slides Agenda and layout   Slides No lecture/slides today. We’ll have each group present their design contest presentations (10 minutes for each group).
 Agenda and layout These groups were randomly assigned. Please plan to present in 8 minutes with 1-2 min for questions.
   Time Item    6:00 PM Intro  6:20 PM Group X  6:30 PM Group X  6:40 PM Group X  6:50 PM Group X  7:00 PM Group X  7:10 PM Group X  7:20 PM Group X  7:30 PM 10 min Break  7:40 PM Group X  7:50 PM Group X  8:00 PM Group X  8:10 PM Group X  8:20 PM Group X  8:30 PM Group X    </description>
@@ -35,20 +33,20 @@ Agenda and layout These groups were randomly assigned. Please plan to present in
     
     <item>
       <title>Multidimensional &amp; Dimensionality Reduction</title>
-      <link>/class/07-class/</link>
+      <link>https://dsba5122-fall2019.netlify.com/class/07-class/</link>
       <pubDate>Mon, 14 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>/class/07-class/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/class/07-class/</guid>
       <description>Contents  Announcements Tweet of the day Slides: Lab: Text and t-SNE   Announcements Quiz 2 will be available tomorrow morning. You have until 5:59pm, Monday October 21 to complete. Canvas link to Quiz 2
  Tomorrow, RStudio Engineer Davis Vaughn (SpeakerDeck) will be presenting for the Charlotte RMeetup Group tomorrow from 12-1pm at CenterCity 1102. Remember, if you attend (must attend the full hour), per the Extra Credit Policy, you will receive 1% extra credit for attending.</description>
     </item>
     
     <item>
       <title>Networks &amp; Trees</title>
-      <link>/class/08-class/</link>
+      <link>https://dsba5122-fall2019.netlify.com/class/08-class/</link>
       <pubDate>Mon, 14 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>/class/08-class/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/class/08-class/</guid>
       <description>Contents  Announcements Tweet of the day Slides: Links: Lab: Networks &amp;amp; Trees   Announcements Quiz 2
  Problem Set 2
  Design Contest next week and DataCamp 3 due in two weeks (Nov 5.)
@@ -57,11 +55,11 @@ Agenda and layout These groups were randomly assigned. Please plan to present in
     
     <item>
       <title>Statistical Models</title>
-      <link>/class/06-class/</link>
+      <link>https://dsba5122-fall2019.netlify.com/class/06-class/</link>
       <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/class/06-class/</guid>
-      <description>Contents  Announcements Tweet of the day Lab 6: Work with models in ggplot2   Announcements Problem Set 1 has been graded. See Problem Set 1 Solutions.   {&#34;x&#34;:{&#34;data&#34;:[{&#34;x&#34;:[3.98477334980853,4.0447125791572,4.06838194862939,5.91780720804818,5.95705722356215,1.98998736804351,2.06097801942378,6.08567106425762,1.08470669589005,4.91022985270247,5.05302516417578,3.04577054218389,10.023247794155,12.0501709723379,2.99083433728665,3.04533076304942,2.05406043943949,2.06653908598237,2.09959633871913,4.05300630466081,4.06440403452143,1.92888443833217,3.96034003579989,3.02954247640446,3.97295285253786,3.98284169589169,2.91622965955175,5.91366744092666,0.991385636245832,4.94780886499211,2.97956029968336,2.07012257636525,2.97395964637399],&#34;y&#34;:[99.9613473114558,94.9381290424149,85.9172734261025,91.9705054891296,94.9522797731683,97.0130568666384,100.039774685539,99.9213532822672,96.9331161156762,95.0811666127294,77.0798410932533,99.9284111618996,82.027052896237,82.9328614035621,97.0950815300923,98.9479864386842,94.0232244438026,93.9270444156602,87.9434101437684,97.0726161196828,95.0847476486117,95.0474597001914,99.9003882626072,99.9244075246621,96.9647949688137,98.9222239445895,97.9178500222508,99.9578575230204,92.0558547569439,96.0533359576948,98.0913964284584,93.914994740393,100.014232538175],&#34;text&#34;:[&#34;Time: 4
+      <guid>https://dsba5122-fall2019.netlify.com/class/06-class/</guid>
+      <description>Contents  Announcements Tweet of the day Lab 6: Work with models in ggplot2   Announcements Problem Set 1 has been graded. See Problem Set 1 Solutions.   {&#34;x&#34;:{&#34;data&#34;:[{&#34;x&#34;:[4.02766102398746,4.01516460883431,3.90895941141061,5.95575160942972,6.09905328294262,2.00783291985281,1.97418545968831,6.02832161225379,0.978365588793531,5.07931235264987,5.06616580188274,3.0965728466399,9.93539113644511,11.9821920404211,3.01428840886801,2.96278069349937,1.92690438972786,1.9401898086071,2.07994988788851,3.93408434777521,3.97056861594319,2.06335099912249,3.99658558969386,2.9532838569954,4.00472216708586,3.94918534327298,2.9928322583437,6.01839164062403,1.06057984698564,5.03915177718736,2.95934626716189,1.95893188407645,3.09490193640813],&#34;y&#34;:[100.096944198851,95.0551803378854,85.9970390178729,92.0266192227602,95.0553372582886,96.9334255722351,100.043726610159,100.070808173437,97.007475277409,95.0756409364753,76.9417154583149,99.9221418773755,81.9686231809668,82.9996245110873,96.934324946627,98.9961840394419,93.9090212491341,94.0117558365222,88.0463362904731,97.0603696276899,95.074365211511,94.9594384919386,100.080898487149,100.099961858941,96.9100109959487,99.0924700541887,97.9390440058894,99.9424793291837,92.0439951411914,95.9914761730004,98.0062242105603,93.9578285120893,99.9232527941931],&#34;text&#34;:[&#34;Time: 4
 Grade: 100
 Issues: Rmarkdown Technicalities&#34;,&#34;Time: 4
 Grade: 95
@@ -76,10 +74,10 @@ Issues: running code in chunks&#34;</description>
     
     <item>
       <title>Distributions &amp; Uncertainty</title>
-      <link>/class/05-class/</link>
+      <link>https://dsba5122-fall2019.netlify.com/class/05-class/</link>
       <pubDate>Mon, 23 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/class/05-class/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/class/05-class/</guid>
       <description>Contents  Annoucements Tweet of the Day: Slides: Lab 5: Links:   Annoucements DataCamp 2 is due by 11:59pm Tuesday, Sept 24th.
  Reminder that Problem Set 2 is due by 11:59pm Monday, Oct 7th (during Fall Break).
  Charlotte R Meetup Group. Possibly present on Tuesday, 12-1pm in 12/17 meeting. See Slack channel post.
@@ -88,10 +86,10 @@ Issues: running code in chunks&#34;</description>
     
     <item>
       <title>Time &amp; Space</title>
-      <link>/class/04-class/</link>
+      <link>https://dsba5122-fall2019.netlify.com/class/04-class/</link>
       <pubDate>Mon, 16 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/class/04-class/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/class/04-class/</guid>
       <description>Contents  Announcements Tweet of the day Lab 4: Ch. 5 and Ch. 7 of Healy Slides Links: For deeper dives into time/spatial data   Announcements Problem Set 1 is due tonight by 11:59pm Monday, Sept 16th. 50% penalty if turned in within 24 hours of deadline. 0% credit if turned in 24+ hours of deadline.
  Quiz 1 has closed. We will review answers in class.
  DataCamp 2 is due by 11:59pm Tuesday, Sept 24th.</description>
@@ -99,47 +97,47 @@ Issues: running code in chunks&#34;</description>
     
     <item>
       <title>Visual Representations II</title>
-      <link>/class/03-class/</link>
+      <link>https://dsba5122-fall2019.netlify.com/class/03-class/</link>
       <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/class/03-class/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/class/03-class/</guid>
       <description>Contents  Tweet of the Day Announcements Slides Lab 3: Make a plot (ggplot2) Helpful Links   Tweet of the Day 🌟 guide to visual encoding types from @tamaramunzner&amp;#39;s &amp;quot;Visualization &amp;amp; Journalism&amp;quot; https://t.co/A2x96QYNoL #dataviz #infovis pic.twitter.com/2FIyXeWk4h
 &amp;mdash; Mara Averick (@dataandme) October 17, 2018  Tamara Munzner is one of the most influential data visualization researchers. Her textbook “Visualization Analysis and Design” is one of the most popular data viz books and some of her former students are now leaders in data viz (e.</description>
     </item>
     
     <item>
       <title>Visual Representations I</title>
-      <link>/class/02-class/</link>
+      <link>https://dsba5122-fall2019.netlify.com/class/02-class/</link>
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>/class/02-class/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/class/02-class/</guid>
       <description>Contents  Tweet of the day Announcements Slides   Tweet of the day Visual encoding is itself a data transformation, often applied after a chain of other transformations. This is “first week of class”, table stakes stuff. Sad if true that we don’t internalize this! — Jeffrey Heer (@jeffrey_heer) August 11, 2018   Enrico Bertini is a data visualization researcher at NYU who co-hosts (with Moritz Stefaner) the podcast “Data Stories”, which I highly recommend.</description>
     </item>
     
     <item>
       <title>Introduction to Visual Analytics</title>
-      <link>/class/01-class/</link>
+      <link>https://dsba5122-fall2019.netlify.com/class/01-class/</link>
       <pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>/class/01-class/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/class/01-class/</guid>
       <description>Contents  Tweet of the day: Slides &amp;amp; Lab   Tweet of the day: Any time I have been struggling to learn a new tool/technology/software … I go back to this short clip I cut out of ???&#39;s 2014 ??? tutorial on Dplyr to motivate myself to keep pushing through … learning new tools is hard for everyone at the beginning! pic.twitter.com/RevpkSJqWc — Aliakbar Akbaritabar (Ali) (@Akbaritabar) July 25, 2018   Hadley Wickham is the R guru amongst gurus.</description>
     </item>
     
     <item>
       <title>Python</title>
-      <link>/class/14-class/</link>
+      <link>https://dsba5122-fall2019.netlify.com/class/14-class/</link>
       <pubDate>Mon, 29 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/class/14-class/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/class/14-class/</guid>
       <description>a.sourceLine { display: inline-block; line-height: 1.25; } a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; } a.sourceLine:empty { height: 1.2em; } .sourceCode { overflow: visible; } code.sourceCode { white-space: pre; position: relative; } div.sourceCode { margin: 1em 0; } pre.sourceCode { margin: 0; } @media screen { div.sourceCode { overflow: auto; } } @media print { code.sourceCode { white-space: pre-wrap; } a.sourceLine { text-indent: -1em; padding-left: 1em; } } pre.</description>
     </item>
     
     <item>
       <title>Human-Centered Machine Learning</title>
-      <link>/class/13-class/</link>
+      <link>https://dsba5122-fall2019.netlify.com/class/13-class/</link>
       <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/class/13-class/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/class/13-class/</guid>
       <description>Contents  Tweet of the day Slides Links   Tweet of the day … and that concludes Machine Learning 101. Now, go forth and apply what you&#39;ve learned to real data! pic.twitter.com/D6wSKgdjeM — ML Hipster (@ML_Hipster) August 19, 2015   Slides full screen / pdf version
  Links  TensorFlow’s Neural Network Playground Demo
  Interpreting Machine Learning Models by Omayma Said / Shiny App / GitHub for Shiny App</description>
@@ -147,10 +145,10 @@ Issues: running code in chunks&#34;</description>
     
     <item>
       <title>In Production: Deployment, Back-end and Scalability</title>
-      <link>/class/12-class/</link>
+      <link>https://dsba5122-fall2019.netlify.com/class/12-class/</link>
       <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/class/12-class/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/class/12-class/</guid>
       <description>Contents  Tweet of the Day  RStudio Cloud Project Links Brushing &amp;amp; interaction: Shiny in Production:  Recommended   Tweet of the Day ✨ Made easier w/ help from {golem}…
 “Building Big Shiny Apps — A Workflow 2/2” 👨 💻 ???https://t.co/udr2nFW70R #rstats #rshiny pic.twitter.com/DOgpcB2ICg — Mara Averick (@dataandme) March 12, 2019    Shiny in Production Workshop
 RStudio Cloud Project We’ll heavily use our RStudio Cloud project for sample Shiny apps.</description>
@@ -158,10 +156,10 @@ RStudio Cloud Project We’ll heavily use our RStudio Cloud project for sample S
     
     <item>
       <title>Coordinated Multiple Views: Interacting &amp; Brushing</title>
-      <link>/class/11-class/</link>
+      <link>https://dsba5122-fall2019.netlify.com/class/11-class/</link>
       <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/class/11-class/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/class/11-class/</guid>
       <description>Contents  Tweet(s) of the day: Slides Hands-on Class   Tweet(s) of the day: Announcing the Winners of the 1st Shiny Contest
 136 submissions, 4 winners, 6 runners-up, and 21 honorable mentions. See some of the great work shared by the #shiny developer community. https://t.co/RJZbZbo2aY pic.twitter.com/EoaK440CQQ — RStudio (@rstudio) April 5, 2019   🎉A first draft of my new book, “Interactive web-based data visualization with R, plotly, and shiny”, is now available!</description>
     </item>

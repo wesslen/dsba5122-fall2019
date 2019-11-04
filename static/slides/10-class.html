@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
   <head>
     <title>DSBA 5122: Visual Analytics</title>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <meta name="author" content="Ryan Wesslen" />
-    <meta name="date" content="2019-04-01" />
+    <meta name="date" content="2019-11-04" />
     <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
   </head>
   <body>
@@ -12,140 +12,260 @@
 class: center, middle, inverse, title-slide
 
 # DSBA 5122: Visual Analytics
-## Class 10: Networks and Trees
+## Class 10: Intro to Shiny
 ### Ryan Wesslen
-### April 1, 2019
+### November 4, 2019
 
 ---
 
 
 
 
-class: center, middle, inverse
+## Shiny
 
-# Networks and Trees
+A **Shiny** app is a web page (UI) connected to a computer running a live R session (Server)
 
-&lt;img src="../images/slides/10-class/mazzo.png" width="400px" style="display: block; margin: auto;" /&gt;
+&lt;img src="../images/slides/08-class/shiny-01.png" width="800px" /&gt;
 
-Read Chapter 5: Networks and Hiearchies of Mazza
-
----
-
-# Networks (a.k.a. graphs)
-
-&lt;img src="../images/slides/10-class/net1.png" width="600px" style="display: block; margin: auto;" /&gt;
-
-- Graphs are visual representations in which the points, called **nodes** or **vertices**, represent instances of the data.
-
-- Nodes are correlated by connections, called **edges**, which represent relationships between the instances. 
-
-- Possible features of a network: weights, direction, labels.
+Users can manipulate the UI, which will cause the server to update the UI's displays (by running R code).
 
 ---
 
-class: center, middle
-
-.pull-left[
-&lt;img src="../images/slides/10-class/undirected.jpeg" width="400px" style="display: block; margin: auto;" /&gt;
-]
-.pull-right[
-&lt;img src="../images/slides/10-class/directed.jpeg" width="400px" style="display: block; margin: auto;" /&gt;
-]
-
-[Vaidehi Joshi Medium post](https://medium.com/basecs/from-theory-to-practice-representing-graphs-cfd782c5be38)
+&lt;img src="../images/slides/08-class/shiny-02.png" width="800px" /&gt;
 
 ---
 
-class: middle, center
-
-&lt;img src="../images/slides/10-class/concept1.png" width="600px" style="display: block; margin: auto;" /&gt;
+&lt;img src="../images/slides/08-class/shiny-03.png" width="800px" /&gt;
 
 ---
 
-class: middle, center
-
-&lt;img src="../images/slides/10-class/concept2.png" width="600px" style="display: block; margin: auto;" /&gt;
-
-[BNOSAC: R NLP packages ecosystem](http://www.bnosac.be/index.php/blog/87-an-overview-of-the-nlp-ecosystem-in-r-nlproc-textasdata)
+&lt;img src="../images/slides/08-class/shiny-template.png" width="800px" /&gt;
 
 ---
 
-class: middle, center
+## Try This
 
-&lt;img src="../images/slides/10-class/net2.png" width="600px" style="display: block; margin: auto;" /&gt;
+1. Open a new .R file
 
----
+2. Type this into the file. (Do you have the shiny package?)
 
-class: middle, center
+    &lt;img src="../images/slides/08-class/shiny-template2.png" width="600px" /&gt;
 
-&lt;img src="../images/slides/10-class/net3.png" width="600px" style="display: block; margin: auto;" /&gt;
-
----
-
-class: middle, center
-
-&lt;img src="../images/slides/10-class/net4.png" width="600px" style="display: block; margin: auto;" /&gt;
-
----
-
-&lt;img src="../images/slides/10-class/tree1.png" width="650px" style="display: block; margin: auto;" /&gt;
-
-- A **tree** (hierarchy) can be represented through a graph with a starting node called root. 
-
-- Each node has zero or more child nodes its ancestor is called the **parent** node. A node has at most one parent.
-
----
-
-class: middle, center
-
-&lt;img src="../images/slides/10-class/tree2.png" width="600px" style="display: block; margin: auto;" /&gt;
-
----
-
-class: middle, center
-
-&lt;img src="../images/slides/10-class/tree3.png" width="500px" style="display: block; margin: auto;" /&gt;
-
----
-
-class: middle, center
-
-&lt;img src="../images/slides/10-class/tree4.png" width="600px" style="display: block; margin: auto;" /&gt;
-
----
-
-class: middle, center
-
-&lt;img src="../images/slides/10-class/tree5.png" width="600px" style="display: block; margin: auto;" /&gt;
+3. Click "Run"
 
 ---
 
 class: center, middle, inverse
 
-## Katya Ognyanova's "Network visualization with R."
-
-&lt;img src="../images/slides/10-class/katato.png" width="600px" style="display: block; margin: auto;" /&gt;
-
-http://kateto.net/network-visualization
+# User Interface: ui() function
 
 ---
 
-class: center, middle
+## `fluidPage()`
 
-&lt;img src="../images/slides/10-class/kateto1.png" width="800px" style="display: block; margin: auto;" /&gt;
-
----
-
-class: center, middle
-
-&lt;img src="../images/slides/10-class/katato2.png" width="800px" style="display: block; margin: auto;" /&gt;
+&lt;img src="../images/slides/08-class/shiny-04.png" width="800px" /&gt;
 
 ---
 
-class: center, middle
+## Example
 
-&lt;img src="../images/slides/10-class/katato3.png" width="800px" style="display: block; margin: auto;" /&gt;
+&lt;img src="../images/slides/08-class/shiny-input-ex1.png" width="800px" /&gt;
+
+---
+
+## Example
+
+&lt;img src="../images/slides/08-class/shiny-input-ex2.png" width="800px" /&gt;
+
+---
+
+## Input Syntax
+
+&lt;img src="../images/slides/08-class/shiny-inputs-syntax.png" width="800px" /&gt;
+
+---
+
+## Inputs
+
+&lt;img src="../images/slides/08-class/shiny-inputs.png" width="800px" /&gt;
+
+There are multiple common `Input()` functions.
+
+---
+
+## What's in an Input function? HTML
+
+&lt;img src="../images/slides/08-class/shiny-input-ex3.png" width="800px" /&gt;
+
+---
+
+## Output Syntax
+
+&lt;img src="../images/slides/08-class/shiny-outputs-syntax.png" width="800px" /&gt;
+
+---
+
+## Output Options
+
+&lt;img src="../images/slides/08-class/shiny-outputs.png" width="800px" /&gt;
+
+---
+
+## Example
+
+&lt;img src="../images/slides/08-class/shiny-outputs-ex3.png" width="800px" /&gt;
+
+---
+
+## Example
+
+&lt;img src="../images/slides/08-class/shiny-outputs-ex1.png" width="800px" /&gt;
+
+---
+
+## Example
+
+&lt;img src="../images/slides/08-class/shiny-outputs-ex2.png" width="800px" /&gt;
+
+---
+
+## Example
+
+&lt;img src="../images/slides/08-class/shiny-outputs-ex4.png" width="800px" /&gt;
+
+---
+
+## Layouts
+
+&lt;img src="../images/slides/08-class/shiny-layouts.png" width="800px" /&gt;
+
+---
+
+## `sidebarLayout()`
+
+&lt;img src="../images/slides/08-class/shiny-layout1.png" width="800px" /&gt;
+
+---
+
+## `sidebarLayout()`
+
+&lt;img src="../images/slides/08-class/shiny-layout2.png" width="800px" /&gt;
+
+---
+
+## `sidebarLayout()`
+
+&lt;img src="../images/slides/08-class/shiny-layout3.png" width="800px" /&gt;
+
+---
+
+## html tags if you know HTML
+
+&lt;img src="../images/slides/08-class/shiny-tags.png" width="800px" /&gt;
+
+---
+
+# Server: `server()` function
+
+&lt;img src="../images/slides/08-class/shiny-server1.png" width="800px" /&gt;
+
+---
+
+&lt;img src="../images/slides/08-class/shiny-server2.png" width="800px" /&gt;
+
+---
+
+&lt;img src="../images/slides/08-class/shiny-server2a.png" width="800px" /&gt;
+
+---
+
+&lt;img src="../images/slides/08-class/shiny-server2b.png" width="800px" /&gt;
+
+---
+
+&lt;img src="../images/slides/08-class/shiny-server2c.png" width="800px" /&gt;
+
+---
+
+&lt;img src="../images/slides/08-class/shiny-server2d.png" width="800px" /&gt;
+
+---
+
+&lt;img src="../images/slides/08-class/shiny-server3.png" width="800px" /&gt;
+
+---
+
+&lt;img src="../images/slides/08-class/shiny-server4.png" width="800px" /&gt;
+
+---
+
+&lt;img src="../images/slides/08-class/shiny-server5.png" width="800px" /&gt;
+
+---
+
+&lt;img src="../images/slides/08-class/shiny-server6.png" width="800px" /&gt;
+
+---
+
+&lt;img src="../images/slides/08-class/shiny-server-reactivity.png" width="800px" /&gt;
+
+---
+
+## Shiny: Output
+
+&lt;img src="../images/slides/08-class/shiny-server-output.png" width="800px" /&gt;
+
+---
+
+## Server Recap
+
+&lt;img src="../images/slides/08-class/shiny-server-recap.png" width="800px" /&gt;
+
+---
+
+## 15 minute Quick Assignment
+
+Open the `app.R` file.
+
+Try these three tasks:
+
+1. add a new slider that sets the number of breaks for the `rnorm()` function
+
+2. add a `textInput()` that sets the name of the plot
+
+3. add a `actionButton()` that updates the name of the plot (part 2) only when clicking (hint: see ?observeEvent)
+
+---
+
+# Deploying Apps to Shinyapps.io
+
+&lt;img src="../images/slides/08-class/shiny-shinyapps.png" width="800px" /&gt;
+
+---
+
+## Setup connection to ShinyApps.io
+
+&lt;img src="../images/slides/08-class/deploy1.gif" width="700px" /&gt;
+
+---
+
+## Setup connection to ShinyApps.io
+
+&lt;img src="../images/slides/08-class/deploy2.gif" width="700px" /&gt;
+
+---
+
+## Deploy to ShinyApps.io
+
+&lt;img src="../images/slides/08-class/deploy3.gif" width="700px" /&gt;
+
+---
+
+## Deploy to ShinyApps.io
+
+&lt;img src="../images/slides/08-class/deploy4.gif" width="700px" /&gt;
     </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="libs/remark-latest.min.js"></script>
 <script>var slideshow = remark.create({
 "highlightStyle": "github",
@@ -155,16 +275,74 @@ class: center, middle
 if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
   window.dispatchEvent(new Event('resize'));
 });
-(function() {
-  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
   if (!r) return;
   s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
   d.head.appendChild(s);
-})();</script>
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
 
 <script>
 (function() {
-  var i, text, code, codes = document.getElementsByTagName('code');
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
   for (i = 0; i < codes.length;) {
     code = codes[i];
     if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
@@ -178,7 +356,8 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     }
     i++;
   }
-})();
+};
+slideshow._releaseMath(document);
 </script>
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

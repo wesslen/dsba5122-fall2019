@@ -92,29 +92,29 @@ lessons:
     
   - title: "Class 10: Intro to Shiny"
     date: "November 4"
-    #reading: "10-reading"
-    #class: "10-class"
-    
-  - title: "**Quiz 3 (Due Nov 11)**"
-    date: "November 4"
-    #assignment: "03-quiz"
+    reading: "10-reading"
+    class: "10-class"
     
   - title: "**Problem set 3 (Due Nov 18)**"
     date: "November 4"
-    #assignment: "03-problem-set"
+    assignment: "03-problem-set"
     
   - title: "Final project assigned (Due Dec 9)"
     date: "November 4"
-    #assignment: "final-project"
-    
-  - title: "**Datacamp course 4 (Due Nov 19)**"
-    date: "November 4"
-    assignment: "04-datacamp"
+    assignment: "final-project"
 
   - title: "Class 11: Interacting & Brushing"
     date: "November 11"
-    #reading: "11-reading"
+    reading: "11-reading"
     #class: "11-class"
+    
+  - title: "**Datacamp course 4 (Due Nov 19)**"
+    date: "November 11"
+    #assignment: "04-datacamp"
+    
+  - title: "**Quiz 3 (Due Nov 18)**"
+    date: "November 11"
+    #assignment: "03-quiz"
 
   - title: "Class 12: Shiny in Production"
     date: "November 18"

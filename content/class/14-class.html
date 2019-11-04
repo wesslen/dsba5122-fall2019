@@ -129,44 +129,44 @@ Just released Altair version 3.0! This is a huge update, with many new visualiza
 <li><p>Will take time to install (free): <a href="https://docs.docker.com/install/">local Docker</a></p></li>
 <li><p>Will cost money: <a href="https://marketplace.digitalocean.com/apps/rstudio">Digital Ocean Droplet</a></p></li>
 </ol>
-<pre class="sourceCode bash"><code class="sourceCode bash"><span class="co"># run in bash command/terminal</span>
-<span class="ex">docker</span> run -e PASSWORD=[create_a_pwd] -p 8787:8787 rocker/ml</code></pre>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb1-1" title="1"><span class="co"># run in bash command/terminal</span></a>
+<a class="sourceLine" id="cb1-2" title="2"><span class="ex">docker</span> run -e PASSWORD=[create_a_pwd] -p 8787:8787 rocker/ml</a></code></pre></div>
 <p><span><label for="sn-3" class="margin-toggle">&#8853;</label><input type="checkbox" id="sn-3" class="margin-toggle"/><span class="marginnote"> <img src="https://raw.githubusercontent.com/wesslen/dsba5122-spring2019/master/static/images/class/play-with-docker.png" alt="play-with-docker.com option" /><br />
 <br />
 </span></span></p>
 <h3 id="open-rstudio-via-port-8787">3. Open RStudio via port 8787</h3>
 <p>FYI: username: rstudio, pwd: whatever you chose</p>
 <h3 id="importing-python-packages">4. <a href="https://rstudio.github.io/reticulate/index.html#importing-python-modules">Importing python packages</a></h3>
-<pre class="sourceCode r"><code class="sourceCode r"><span class="co"># run in RStudio console/file</span>
-<span class="co"># fyi reticulate is prepackaged</span>
-<span class="kw">library</span>(reticulate)
-os &lt;-<span class="st"> </span><span class="kw">import</span>(<span class="st">&quot;os&quot;</span>)
-os<span class="op">$</span><span class="kw">listdir</span>(<span class="st">&quot;.&quot;</span>)</code></pre>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb2-1" title="1"><span class="co"># run in RStudio console/file</span></a>
+<a class="sourceLine" id="cb2-2" title="2"><span class="co"># fyi reticulate is prepackaged</span></a>
+<a class="sourceLine" id="cb2-3" title="3"><span class="kw">library</span>(reticulate)</a>
+<a class="sourceLine" id="cb2-4" title="4">os &lt;-<span class="st"> </span><span class="kw">import</span>(<span class="st">&quot;os&quot;</span>)</a>
+<a class="sourceLine" id="cb2-5" title="5">os<span class="op">$</span><span class="kw">listdir</span>(<span class="st">&quot;.&quot;</span>)</a></code></pre></div>
 <h3 id="installing-python-packages">5. <a href="https://rstudio.github.io/reticulate/articles/python_packages.html">Installing python packages</a></h3>
 <ol style="list-style-type: decimal">
 <li>Run this in RStudio <em>terminal</em>:</li>
 </ol>
-<pre class="sourceCode bash"><code class="sourceCode bash"><span class="co">#run in rstudio terminal</span>
-<span class="ex">easy_install</span> pip
-<span class="ex">easy_install</span> virtualenv</code></pre>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb3-1" title="1"><span class="co">#run in rstudio terminal</span></a>
+<a class="sourceLine" id="cb3-2" title="2"><span class="ex">easy_install</span> pip</a>
+<a class="sourceLine" id="cb3-3" title="3"><span class="ex">easy_install</span> virtualenv</a></code></pre></div>
 <ol start="2" style="list-style-type: decimal">
 <li><p>Restart RStudio session (Session &gt; Restart R)</p></li>
 <li><p>Run this in RStudio <em>console</em>:</p></li>
 </ol>
-<pre class="sourceCode r"><code class="sourceCode r"><span class="co">#run in rstudio console</span>
-reticulate<span class="op">::</span><span class="kw">py_install</span>(<span class="st">&quot;pandas&quot;</span>)</code></pre>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb4-1" title="1"><span class="co">#run in rstudio console</span></a>
+<a class="sourceLine" id="cb4-2" title="2">reticulate<span class="op">::</span><span class="kw">py_install</span>(<span class="st">&quot;pandas&quot;</span>)</a></code></pre></div>
 <h2 id="altair-via-jupyter-docker-install-no-r">Altair via Jupyter Docker install (“no R”)</h2>
 <h3 id="altair-jupyter-notebook-installation">1. Altair Jupyter <a href="https://altair-viz.github.io/getting_started/installation.html#installation-notebook">notebook installation</a></h3>
-<pre class="sourceCode bash"><code class="sourceCode bash"><span class="co"># see https://jupyter-docker-stacks.readthedocs.io/en/latest/</span>
-<span class="ex">docker</span> run -p 8888:8888 jupyter/minimal-notebook:17aba6048f44</code></pre>
+<div class="sourceCode" id="cb5"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb5-1" title="1"><span class="co"># see https://jupyter-docker-stacks.readthedocs.io/en/latest/</span></a>
+<a class="sourceLine" id="cb5-2" title="2"><span class="ex">docker</span> run -p 8888:8888 jupyter/minimal-notebook:17aba6048f44</a></code></pre></div>
 <h3 id="open-the-jupyter-notebook-in-port-8888">2. Open the Jupyter notebook in port 8888</h3>
 <h3 id="open-terminal-via-jupyter-and-run">3. Open terminal via Jupyter and run:</h3>
-<pre class="sourceCode bash"><code class="sourceCode bash"><span class="ex">conda</span> install -c conda-forge altair vega_datasets notebook vega
-<span class="fu">git</span> clone https://github.com/altair-viz/altair-tutorial.git</code></pre>
+<div class="sourceCode" id="cb6"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb6-1" title="1"><span class="ex">conda</span> install -c conda-forge altair vega_datasets notebook vega</a>
+<a class="sourceLine" id="cb6-2" title="2"><span class="fu">git</span> clone https://github.com/altair-viz/altair-tutorial.git</a></code></pre></div>
 <h3 id="navigate-to-the-notebook-01-cars-demo.ipynb">4. Navigate to the notebook “01-Cars-Demo.ipynb”</h3>
 <p>See the folder “/altair-tutorial/notebooks/”.</p>
 <h3 id="comment-this-out-in-jupyter-notebook.">5. Comment this out in Jupyter notebook.</h3>
-<pre class="sourceCode python"><code class="sourceCode python">alt.renderers.enable(<span class="st">&#39;notebook&#39;</span>)</code></pre>
+<div class="sourceCode" id="cb7"><pre class="sourceCode python"><code class="sourceCode python"><a class="sourceLine" id="cb7-1" title="1">alt.renderers.enable(<span class="st">&#39;notebook&#39;</span>)</a></code></pre></div>
 <h2 id="links">Links</h2>
 <h3 id="docker-training">1. <a href="https://training.play-with-docker.com/">Docker training</a></h3>
 <h3 id="altair-tutorial-jupyter-notebooks-slides-and-video">2. Altair tutorial <a href="https://github.com/altair-viz/altair-tutorial/blob/master/notebooks/Index.ipynb">jupyter notebooks</a>, <a href="https://speakerdeck.com/jakevdp/altair-tutorial-intro-pycon-2018">slides</a> and <a href="https://www.youtube.com/watch?v=ms29ZPUKxbU">video</a></h3>

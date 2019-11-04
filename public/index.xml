@@ -2,61 +2,90 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data visualization on Visual Analytics</title>
-    <link>/</link>
+    <link>https://dsba5122-fall2019.netlify.com/</link>
     <description>Recent content in Data visualization on Visual Analytics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 11 Nov 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://dsba5122-fall2019.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Problem set 4</title>
-      <link>/assignment/04-problem-set/</link>
+      <title>Interacting &amp; Brushing</title>
+      <link>https://dsba5122-fall2019.netlify.com/reading/11-reading/</link>
       <pubDate>Mon, 11 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/assignment/04-problem-set/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/reading/11-reading/</guid>
+      <description> Required   Chapters 6: Workflow, Chapters 7: User feedback, Chapters 8: Uploads and downloads and Chapters 9: Dynamic UI in Hadley Wickham Mastering Shiny
+  Chapter 7: Interactions in Riccardo Mazza, Introduction to Information Visualization
+  Recommended   Interactive Dynamics for Visual Analysis by Jeff Heer and Ben Shneiderman  </description>
+    </item>
+    
+    <item>
+      <title>Problem set 4</title>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/04-problem-set/</link>
+      <pubDate>Mon, 11 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/04-problem-set/</guid>
       <description>Task 0: Getting started For this problem set, you’ll learn blogdown, an R package that enables building websites through Hugo, a web framework. Like shiny, blogdown enable you to use a more complex framework (i.e., Hugo) but through R functions and syntax that you’ve been learning about all semester.
 I recommend running this exercise on your personal laptop, mainly so you’ll have this blog site already saved on your own personal computer.</description>
     </item>
     
     <item>
+      <title>Final project</title>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/final-project/</link>
+      <pubDate>Thu, 07 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/final-project/</guid>
+      <description>Objective: Develop a Shiny app based on any data-related topic.&amp;#8853;
+Dataset: This is up to your group. You may use a dataset from the design contest (the same or a different data set) or select your own. Warning, don’t overthink selecting your dataset.
+In one week, make a decision on your data set by November 14, 2019 (send me by email). This is the most important step to start with.</description>
+    </item>
+    
+    <item>
       <title>Datacamp Course 4</title>
-      <link>/assignment/04-datacamp/</link>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/04-datacamp/</link>
       <pubDate>Mon, 04 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/assignment/04-datacamp/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/04-datacamp/</guid>
       <description>DataCamp Course: Building Web Applications in R with Shiny: Case Studies by Dean Attali Here is the link to the assigned course.
 For this DataCamp course, you’ll learn more about shiny using hands on case studies. The instructor for this course is a shiny expert who’s shinyjs package helps blend JavaScript code snippets within Shiny. He also has a great advanced shiny blog post that provides a lot of great tips for more customized functionality.</description>
     </item>
     
     <item>
       <title>Intro to Shiny</title>
-      <link>/class/10-class/</link>
+      <link>https://dsba5122-fall2019.netlify.com/class/10-class/</link>
       <pubDate>Mon, 04 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/class/10-class/</guid>
-      <description> Contents  Tweet of the day Slides: Lab: Shiny Reactivity   Tweet of the day Our lab&#39;s first preprint! Coral: an R shiny and D3.js web app for flexible, interactive, and high-resolution visualization of the human kinome. https://t.co/xD7QUXgjOR pic.twitter.com/1gGy9zzsBT — doug phanstiel (@dphansti) May 25, 2018   Slides: full screen / pdf version
- Lab: Shiny Reactivity Garrett Grohlmund’s Introduction to Reactivity in Shiny
- RStudio Cloud project for sample Shiny apps  </description>
+      <guid>https://dsba5122-fall2019.netlify.com/class/10-class/</guid>
+      <description>Contents  Tweet of the day Announcements Slides: Lab: Sample Shiny Apps   Tweet of the day New blog post: “Advice to aspiring data scientists: start a blog” https://t.co/yMDHqviiBN #rstats pic.twitter.com/9AdPUdbjtE — David Robinson (@drob) November 14, 2017   David authored “Tidy Text Mining”, which you’ll use in problem set 3. David also occasionally does #tidytuesday live coding sessions. Extremely helpful to watch him in action.</description>
+    </item>
+    
+    <item>
+      <title>Intro to Shiny</title>
+      <link>https://dsba5122-fall2019.netlify.com/reading/10-reading/</link>
+      <pubDate>Mon, 04 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-fall2019.netlify.com/reading/10-reading/</guid>
+      <description> Required   Chapters 2: Your First Shiny App, Chapters 3: Basic UI, and Chapters 4: Basic Reactivity in Hadley Wickham Mastering Shiny  </description>
     </item>
     
     <item>
       <title>Problem set 3</title>
-      <link>/assignment/03-problem-set/</link>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/03-problem-set/</link>
       <pubDate>Mon, 04 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/assignment/03-problem-set/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/03-problem-set/</guid>
       <description>a.sourceLine { display: inline-block; line-height: 1.25; } a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; } a.sourceLine:empty { height: 1.2em; } .sourceCode { overflow: visible; } code.sourceCode { white-space: pre; position: relative; } div.sourceCode { margin: 1em 0; } pre.sourceCode { margin: 0; } @media screen { div.sourceCode { overflow: auto; } } @media print { code.sourceCode { white-space: pre-wrap; } a.sourceLine { text-indent: -1em; padding-left: 1em; } } pre.</description>
     </item>
     
     <item>
       <title>Design Contest Presentations</title>
-      <link>/class/09-class/</link>
+      <link>https://dsba5122-fall2019.netlify.com/class/09-class/</link>
       <pubDate>Mon, 21 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>/class/09-class/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/class/09-class/</guid>
       <description> Contents  Slides Agenda and layout   Slides No lecture/slides today. We’ll have each group present their design contest presentations (10 minutes for each group).
 Agenda and layout These groups were randomly assigned. Please plan to present in 8 minutes with 1-2 min for questions.
   Time Item    6:00 PM Intro  6:20 PM Group X  6:30 PM Group X  6:40 PM Group X  6:50 PM Group X  7:00 PM Group X  7:10 PM Group X  7:20 PM Group X  7:30 PM 10 min Break  7:40 PM Group X  7:50 PM Group X  8:00 PM Group X  8:10 PM Group X  8:20 PM Group X  8:30 PM Group X    </description>
@@ -64,10 +93,10 @@ Agenda and layout These groups were randomly assigned. Please plan to present in
     
     <item>
       <title>Networks and Trees</title>
-      <link>/reading/08-reading/</link>
+      <link>https://dsba5122-fall2019.netlify.com/reading/08-reading/</link>
       <pubDate>Mon, 21 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>/reading/08-reading/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/reading/08-reading/</guid>
       <description> Required   Chapter 5: Networks and Hiearchies in Riccardo Mazza, Introduction to Information Visualization
   Katya Ognyanova, “Static and dynamic network visualization with R”
   Recommended   Chapters 2-9 in John Coene, Twinetbook  </description>
@@ -75,10 +104,10 @@ Agenda and layout These groups were randomly assigned. Please plan to present in
     
     <item>
       <title>Datacamp Course 3</title>
-      <link>/assignment/03-datacamp/</link>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/03-datacamp/</link>
       <pubDate>Mon, 14 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>/assignment/03-datacamp/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/03-datacamp/</guid>
       <description>DataCamp Course: (Modified for this assignment) DataCamp no longer offers their “Intro to Shiny”.
 Instead, you have two options:
 Watch a 2.5 hour introduction to Shiny training video.
@@ -88,20 +117,20 @@ Watch a 2.5 hour introduction to Shiny training video.
     
     <item>
       <title>Multidimensional &amp; Dimensionality Reduction</title>
-      <link>/class/07-class/</link>
+      <link>https://dsba5122-fall2019.netlify.com/class/07-class/</link>
       <pubDate>Mon, 14 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>/class/07-class/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/class/07-class/</guid>
       <description>Contents  Announcements Tweet of the day Slides: Lab: Text and t-SNE   Announcements Quiz 2 will be available tomorrow morning. You have until 5:59pm, Monday October 21 to complete. Canvas link to Quiz 2
  Tomorrow, RStudio Engineer Davis Vaughn (SpeakerDeck) will be presenting for the Charlotte RMeetup Group tomorrow from 12-1pm at CenterCity 1102. Remember, if you attend (must attend the full hour), per the Extra Credit Policy, you will receive 1% extra credit for attending.</description>
     </item>
     
     <item>
       <title>Multidimensional &amp; Dimensionality Reduction</title>
-      <link>/reading/07-reading/</link>
+      <link>https://dsba5122-fall2019.netlify.com/reading/07-reading/</link>
       <pubDate>Mon, 14 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>/reading/07-reading/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/reading/07-reading/</guid>
       <description>Required   Chapter 12: Visualizing associations in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
 
   Chapter 4: Multivariate Analysis in Riccardo Mazza, Introduction to Information Visualization
@@ -112,10 +141,10 @@ Watch a 2.5 hour introduction to Shiny training video.
     
     <item>
       <title>Networks &amp; Trees</title>
-      <link>/class/08-class/</link>
+      <link>https://dsba5122-fall2019.netlify.com/class/08-class/</link>
       <pubDate>Mon, 14 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>/class/08-class/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/class/08-class/</guid>
       <description>Contents  Announcements Tweet of the day Slides: Links: Lab: Networks &amp;amp; Trees   Announcements Quiz 2
  Problem Set 2
  Design Contest next week and DataCamp 3 due in two weeks (Nov 5.)
@@ -124,19 +153,19 @@ Watch a 2.5 hour introduction to Shiny training video.
     
     <item>
       <title>Quiz 2</title>
-      <link>/assignment/02-q/</link>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/02-q/</link>
       <pubDate>Mon, 14 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>/assignment/02-q/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/02-q/</guid>
       <description>a.sourceLine { display: inline-block; line-height: 1.25; } a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; } a.sourceLine:empty { height: 1.2em; } .sourceCode { overflow: visible; } code.sourceCode { white-space: pre; position: relative; } div.sourceCode { margin: 1em 0; } pre.sourceCode { margin: 0; } @media screen { div.sourceCode { overflow: auto; } } @media print { code.sourceCode { white-space: pre-wrap; } a.sourceLine { text-indent: -1em; padding-left: 1em; } } pre.</description>
     </item>
     
     <item>
       <title>Quiz 2</title>
-      <link>/assignment/02-quiz/</link>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/02-quiz/</link>
       <pubDate>Mon, 14 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>/assignment/02-quiz/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/02-quiz/</guid>
       <description>Quiz 2 can be taken starting on October 15th: Canvas link to Quiz 2
 You will have one week to complete the quiz (that is, the quiz must be completed by 5:59pm on October 21, 2019). Note this is not by midnight, but before the next class.
  This quiz will consist of 10 multiple choice questions. You will have 20 minutes to complete the quiz. You may only take the quiz once.</description>
@@ -144,10 +173,10 @@ You will have one week to complete the quiz (that is, the quiz must be completed
     
     <item>
       <title>Design contest: TidyTuesdays</title>
-      <link>/assignment/design-contest/</link>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/design-contest/</link>
       <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/assignment/design-contest/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/design-contest/</guid>
       <description>For this contest, you will find someone else’s submitted #TidyTuesday submission, critique it, then offer suggestions on ways to improve and enhance their work.
 Goals: Become familar with TidyTuesday and the R Online Learning Community
  Learn through someone else’s submission on novel visualization techniques, how to provide code in open source (e.g., how people post code on GitHub, etc.), and how to provide constructive design feedback on existing designs.</description>
@@ -155,21 +184,21 @@ Goals: Become familar with TidyTuesday and the R Online Learning Community
     
     <item>
       <title>Extra Credit 1</title>
-      <link>/assignment/01-extra-credit/</link>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/01-extra-credit/</link>
       <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/assignment/01-extra-credit/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/01-extra-credit/</guid>
       <description>Task 0: Getting started For this extra credit (worth 2% on your final grade), you’ll learn blogdown, an R package that enables building websites through Hugo, a web framework. Like shiny, blogdown enable you to use a more complex framework (i.e., Hugo) but through R functions and syntax that you’ve been learning about all semester.
 I recommend running this exercise on your personal laptop, mainly so you’ll have this blog site already saved on your own personal computer.</description>
     </item>
     
     <item>
       <title>Statistical Models</title>
-      <link>/class/06-class/</link>
+      <link>https://dsba5122-fall2019.netlify.com/class/06-class/</link>
       <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/class/06-class/</guid>
-      <description>Contents  Announcements Tweet of the day Lab 6: Work with models in ggplot2   Announcements Problem Set 1 has been graded. See Problem Set 1 Solutions.   {&#34;x&#34;:{&#34;data&#34;:[{&#34;x&#34;:[3.98477334980853,4.0447125791572,4.06838194862939,5.91780720804818,5.95705722356215,1.98998736804351,2.06097801942378,6.08567106425762,1.08470669589005,4.91022985270247,5.05302516417578,3.04577054218389,10.023247794155,12.0501709723379,2.99083433728665,3.04533076304942,2.05406043943949,2.06653908598237,2.09959633871913,4.05300630466081,4.06440403452143,1.92888443833217,3.96034003579989,3.02954247640446,3.97295285253786,3.98284169589169,2.91622965955175,5.91366744092666,0.991385636245832,4.94780886499211,2.97956029968336,2.07012257636525,2.97395964637399],&#34;y&#34;:[99.9613473114558,94.9381290424149,85.9172734261025,91.9705054891296,94.9522797731683,97.0130568666384,100.039774685539,99.9213532822672,96.9331161156762,95.0811666127294,77.0798410932533,99.9284111618996,82.027052896237,82.9328614035621,97.0950815300923,98.9479864386842,94.0232244438026,93.9270444156602,87.9434101437684,97.0726161196828,95.0847476486117,95.0474597001914,99.9003882626072,99.9244075246621,96.9647949688137,98.9222239445895,97.9178500222508,99.9578575230204,92.0558547569439,96.0533359576948,98.0913964284584,93.914994740393,100.014232538175],&#34;text&#34;:[&#34;Time: 4
+      <guid>https://dsba5122-fall2019.netlify.com/class/06-class/</guid>
+      <description>Contents  Announcements Tweet of the day Lab 6: Work with models in ggplot2   Announcements Problem Set 1 has been graded. See Problem Set 1 Solutions.   {&#34;x&#34;:{&#34;data&#34;:[{&#34;x&#34;:[4.02766102398746,4.01516460883431,3.90895941141061,5.95575160942972,6.09905328294262,2.00783291985281,1.97418545968831,6.02832161225379,0.978365588793531,5.07931235264987,5.06616580188274,3.0965728466399,9.93539113644511,11.9821920404211,3.01428840886801,2.96278069349937,1.92690438972786,1.9401898086071,2.07994988788851,3.93408434777521,3.97056861594319,2.06335099912249,3.99658558969386,2.9532838569954,4.00472216708586,3.94918534327298,2.9928322583437,6.01839164062403,1.06057984698564,5.03915177718736,2.95934626716189,1.95893188407645,3.09490193640813],&#34;y&#34;:[100.096944198851,95.0551803378854,85.9970390178729,92.0266192227602,95.0553372582886,96.9334255722351,100.043726610159,100.070808173437,97.007475277409,95.0756409364753,76.9417154583149,99.9221418773755,81.9686231809668,82.9996245110873,96.934324946627,98.9961840394419,93.9090212491341,94.0117558365222,88.0463362904731,97.0603696276899,95.074365211511,94.9594384919386,100.080898487149,100.099961858941,96.9100109959487,99.0924700541887,97.9390440058894,99.9424793291837,92.0439951411914,95.9914761730004,98.0062242105603,93.9578285120893,99.9232527941931],&#34;text&#34;:[&#34;Time: 4
 Grade: 100
 Issues: Rmarkdown Technicalities&#34;,&#34;Time: 4
 Grade: 95
@@ -184,10 +213,10 @@ Issues: running code in chunks&#34;</description>
     
     <item>
       <title>Statistical Models</title>
-      <link>/reading/06-reading/</link>
+      <link>https://dsba5122-fall2019.netlify.com/reading/06-reading/</link>
       <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/reading/06-reading/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/reading/06-reading/</guid>
       <description>Required   Chapter 6: Work with Models in Healy.
   Chapter 22: Model introduction and Chapter 23: Model basics in Wickham/Grolemund.
   Recommended   Chapter 6: Basic Regression from “ModernDive: An Introduction to Statistical and Data Sciences via R” by Chester Ismay and Albert Y. Kim.This is an outstanding new book – with a free online version – that will be a big complement to the tidyverse in the future.</description>
@@ -195,10 +224,10 @@ Issues: running code in chunks&#34;</description>
     
     <item>
       <title>Distributions &amp; Uncertainty</title>
-      <link>/reading/05-reading/</link>
+      <link>https://dsba5122-fall2019.netlify.com/reading/05-reading/</link>
       <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/reading/05-reading/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/reading/05-reading/</guid>
       <description>Required   Chapter 7: Histograms and density plots, Chapter 8: Empirical cumulative distribution functions, Chapter 9: Visualizing many distributions at once and Chapter 16: Visualizing uncertainty in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
 
   Multiple Views Blog: Uncertainty Visualizations Explained by Jessica Hullman and Matthew Kay
@@ -207,10 +236,10 @@ Issues: running code in chunks&#34;</description>
     
     <item>
       <title>Distributions &amp; Uncertainty</title>
-      <link>/class/05-class/</link>
+      <link>https://dsba5122-fall2019.netlify.com/class/05-class/</link>
       <pubDate>Mon, 23 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/class/05-class/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/class/05-class/</guid>
       <description>Contents  Annoucements Tweet of the Day: Slides: Lab 5: Links:   Annoucements DataCamp 2 is due by 11:59pm Tuesday, Sept 24th.
  Reminder that Problem Set 2 is due by 11:59pm Monday, Oct 7th (during Fall Break).
  Charlotte R Meetup Group. Possibly present on Tuesday, 12-1pm in 12/17 meeting. See Slack channel post.
@@ -219,10 +248,10 @@ Issues: running code in chunks&#34;</description>
     
     <item>
       <title>Problem set 2</title>
-      <link>/assignment/02-problem-set/</link>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/02-problem-set/</link>
       <pubDate>Mon, 16 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/assignment/02-problem-set/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/02-problem-set/</guid>
       <description>Task 0: Getting started Create a new RStudio project somewhere on your computer.&amp;#8853;Remember, in RStudio, “File &amp;gt; New Project ..”)
  Open that new folder in Windows Explorer or macOS Finder (however you navigate around the files on your computer), and create a subfolder there named data.
 Download the file below and place it in your new data/ folder.&amp;#8853;You’ll probably need to right click on each and choose “Save link as…”.</description>
@@ -230,10 +259,10 @@ Download the file below and place it in your new data/ folder.&amp;#8853;You’l
     
     <item>
       <title>Time &amp; Space</title>
-      <link>/class/04-class/</link>
+      <link>https://dsba5122-fall2019.netlify.com/class/04-class/</link>
       <pubDate>Mon, 16 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/class/04-class/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/class/04-class/</guid>
       <description>Contents  Announcements Tweet of the day Lab 4: Ch. 5 and Ch. 7 of Healy Slides Links: For deeper dives into time/spatial data   Announcements Problem Set 1 is due tonight by 11:59pm Monday, Sept 16th. 50% penalty if turned in within 24 hours of deadline. 0% credit if turned in 24+ hours of deadline.
  Quiz 1 has closed. We will review answers in class.
  DataCamp 2 is due by 11:59pm Tuesday, Sept 24th.</description>
@@ -241,10 +270,10 @@ Download the file below and place it in your new data/ folder.&amp;#8853;You’l
     
     <item>
       <title>Time &amp; Space</title>
-      <link>/reading/04-reading/</link>
+      <link>https://dsba5122-fall2019.netlify.com/reading/04-reading/</link>
       <pubDate>Mon, 16 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/reading/04-reading/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/reading/04-reading/</guid>
       <description>Required   Chapter 7: Maps in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
 
   Chapter 13: Visualizing time series, Chapter 14: Visualizing trends and Chapter 15: Visualizing geospatial trends in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
@@ -254,20 +283,20 @@ Download the file below and place it in your new data/ folder.&amp;#8853;You’l
     
     <item>
       <title>Datacamp Course 2</title>
-      <link>/assignment/02-datacamp/</link>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/02-datacamp/</link>
       <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/assignment/02-datacamp/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/02-datacamp/</guid>
       <description>DataCamp Course: Exploratory Data Analysis in R by David Robinson Here is the link to the assigned course.
 For this DataCamp course, you’ll learn about doing exploratory data analysis, focusing on ggplot2 and the related tidyverse packages (e.g., dplyr, broom).</description>
     </item>
     
     <item>
       <title>Quiz 1</title>
-      <link>/assignment/01-quiz/</link>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/01-quiz/</link>
       <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/assignment/01-quiz/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/01-quiz/</guid>
       <description>Quiz 1 can be taken starting on September 10th.
  You will have one week to complete the quiz (that is, the quiz must be completed by 5:59pm on September 16, 2019). Note this is not by midnight, but before the next class.
  This quiz will consist of 10 multiple choice questions. You will have 15 minutes to complete the quiz. You may only take the quiz once. Grades will not be available until the quiz closes.</description>
@@ -275,20 +304,20 @@ For this DataCamp course, you’ll learn about doing exploratory data analysis, 
     
     <item>
       <title>Visual Representations II</title>
-      <link>/class/03-class/</link>
+      <link>https://dsba5122-fall2019.netlify.com/class/03-class/</link>
       <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/class/03-class/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/class/03-class/</guid>
       <description>Contents  Tweet of the Day Announcements Slides Lab 3: Make a plot (ggplot2) Helpful Links   Tweet of the Day 🌟 guide to visual encoding types from @tamaramunzner&amp;#39;s &amp;quot;Visualization &amp;amp; Journalism&amp;quot; https://t.co/A2x96QYNoL #dataviz #infovis pic.twitter.com/2FIyXeWk4h
 &amp;mdash; Mara Averick (@dataandme) October 17, 2018  Tamara Munzner is one of the most influential data visualization researchers. Her textbook “Visualization Analysis and Design” is one of the most popular data viz books and some of her former students are now leaders in data viz (e.</description>
     </item>
     
     <item>
       <title>Visual Representations II</title>
-      <link>/reading/03-reading/</link>
+      <link>https://dsba5122-fall2019.netlify.com/reading/03-reading/</link>
       <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/reading/03-reading/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/reading/03-reading/</guid>
       <description>Required   Chapter 3: Make a Plot and Chapter 4: Show the right numbers in Kieran Healy, Data VisualizationKieran Healy, Data Visualization: A Practical Introduction (Princeton: Princeton University Press, 2018), http://socviz.co/.
 
   Chapter 5: Directory of Visualization and Chapter 6: Visualizing Amounts in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
@@ -298,10 +327,10 @@ For this DataCamp course, you’ll learn about doing exploratory data analysis, 
     
     <item>
       <title>Problem set 1</title>
-      <link>/assignment/01-problem-set/</link>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/01-problem-set/</link>
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>/assignment/01-problem-set/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/01-problem-set/</guid>
       <description>To complete this task, you MUST submit your final folder (compressed as a zip file) through here to Canvas by 11:59pm on September 16, 2019. Each person needs to submit their own folder! So if you work in pairs, both individuals have to submit a folder.
 Task 0 Either use RStudio.CloudIf you need help, see RStudio.Cloud’s primer or Primers like R Programming Basics or Working with Data.
  or make sure you install R and RStudio and tidyverse first.</description>
@@ -309,19 +338,19 @@ Task 0 Either use RStudio.CloudIf you need help, see RStudio.Cloud’s primer or
     
     <item>
       <title>Visual Representations I</title>
-      <link>/class/02-class/</link>
+      <link>https://dsba5122-fall2019.netlify.com/class/02-class/</link>
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>/class/02-class/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/class/02-class/</guid>
       <description>Contents  Tweet of the day Announcements Slides   Tweet of the day Visual encoding is itself a data transformation, often applied after a chain of other transformations. This is “first week of class”, table stakes stuff. Sad if true that we don’t internalize this! — Jeffrey Heer (@jeffrey_heer) August 11, 2018   Enrico Bertini is a data visualization researcher at NYU who co-hosts (with Moritz Stefaner) the podcast “Data Stories”, which I highly recommend.</description>
     </item>
     
     <item>
       <title>Visual Representations I</title>
-      <link>/reading/02-reading/</link>
+      <link>https://dsba5122-fall2019.netlify.com/reading/02-reading/</link>
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>/reading/02-reading/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/reading/02-reading/</guid>
       <description>Required   Chapter 3: Data visualization and Chapter 5: Data transformation in Garrett Grolemund and Hadley Wickham, R for Data ScienceHadley Wickham and Garrett Grolemund, R for Data Science: Import, Tidy, Transform, Visualize, and Model Data (Sebastopol, California: O’Reilly Media, 2017), http://r4ds.had.co.nz/.
 
   Chapter 2: Aesthetic mapping, Chapter 3: Coordinate systems and axes, Chapter 4: Color scales, and Chapter 19: Common pitfalls of color use in Claus Wilke, Fundamentals of Data VisualizationClaus E.</description>
@@ -329,10 +358,10 @@ Task 0 Either use RStudio.CloudIf you need help, see RStudio.Cloud’s primer or
     
     <item>
       <title>Datacamp Course 1</title>
-      <link>/assignment/01-datacamp/</link>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/01-datacamp/</link>
       <pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>/assignment/01-datacamp/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/01-datacamp/</guid>
       <description>DataCamp Course: Introduction to the Tidyverse by David Robinson Here is the link to the assigned course.
 For this DataCamp course, you’ll learn about using tidyverse package from David Robinson, Chief Data Scientist for DataCamp.David is a prolific data scientist and blogger, whose blog “Variance Explained” is one of the most popular data science blogs. He has a great blog post discussing the background of this course.
 
@@ -341,47 +370,47 @@ This course has four chapters:</description>
     
     <item>
       <title>Intro to Visual Analytics</title>
-      <link>/reading/01-reading/</link>
+      <link>https://dsba5122-fall2019.netlify.com/reading/01-reading/</link>
       <pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>/reading/01-reading/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/reading/01-reading/</guid>
       <description>Required There are no required readings for the first class.</description>
     </item>
     
     <item>
       <title>Introduction to Visual Analytics</title>
-      <link>/class/01-class/</link>
+      <link>https://dsba5122-fall2019.netlify.com/class/01-class/</link>
       <pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>/class/01-class/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/class/01-class/</guid>
       <description>Contents  Tweet of the day: Slides &amp;amp; Lab   Tweet of the day: Any time I have been struggling to learn a new tool/technology/software … I go back to this short clip I cut out of ???&#39;s 2014 ??? tutorial on Dplyr to motivate myself to keep pushing through … learning new tools is hard for everyone at the beginning! pic.twitter.com/RevpkSJqWc — Aliakbar Akbaritabar (Ali) (@Akbaritabar) July 25, 2018   Hadley Wickham is the R guru amongst gurus.</description>
     </item>
     
     <item>
       <title>Python</title>
-      <link>/class/14-class/</link>
+      <link>https://dsba5122-fall2019.netlify.com/class/14-class/</link>
       <pubDate>Mon, 29 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/class/14-class/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/class/14-class/</guid>
       <description>a.sourceLine { display: inline-block; line-height: 1.25; } a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; } a.sourceLine:empty { height: 1.2em; } .sourceCode { overflow: visible; } code.sourceCode { white-space: pre; position: relative; } div.sourceCode { margin: 1em 0; } pre.sourceCode { margin: 0; } @media screen { div.sourceCode { overflow: auto; } } @media print { code.sourceCode { white-space: pre-wrap; } a.sourceLine { text-indent: -1em; padding-left: 1em; } } pre.</description>
     </item>
     
     <item>
       <title>DSBA 5122: Visual Analytics</title>
-      <link>/slides/13-class/</link>
+      <link>https://dsba5122-fall2019.netlify.com/slides/13-class/</link>
       <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/slides/13-class/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/slides/13-class/</guid>
       <description> class: center, middle
 Welcome  </description>
     </item>
     
     <item>
       <title>Human-Centered Machine Learning</title>
-      <link>/class/13-class/</link>
+      <link>https://dsba5122-fall2019.netlify.com/class/13-class/</link>
       <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/class/13-class/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/class/13-class/</guid>
       <description>Contents  Tweet of the day Slides Links   Tweet of the day … and that concludes Machine Learning 101. Now, go forth and apply what you&#39;ve learned to real data! pic.twitter.com/D6wSKgdjeM — ML Hipster (@ML_Hipster) August 19, 2015   Slides full screen / pdf version
  Links  TensorFlow’s Neural Network Playground Demo
  Interpreting Machine Learning Models by Omayma Said / Shiny App / GitHub for Shiny App</description>
@@ -389,38 +418,38 @@ Welcome  </description>
     
     <item>
       <title>Machine Learning</title>
-      <link>/reading/13-reading/</link>
+      <link>https://dsba5122-fall2019.netlify.com/reading/13-reading/</link>
       <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/reading/13-reading/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/reading/13-reading/</guid>
       <description> Required   Chapter 1 and Chapter 2 in Christoph Molnar, Interpretable Machine Learning: A Guide for Making Black Box Models Explainable.  Recommended   Chapter 5 in Christoph Molnar, Interpretable Machine Learning: A Guide for Making Black Box Models Explainable.  </description>
     </item>
     
     <item>
       <title>Quiz 5</title>
-      <link>/assignment/05-quiz/</link>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/05-quiz/</link>
       <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/assignment/05-quiz/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/05-quiz/</guid>
       <description>a.sourceLine { display: inline-block; line-height: 1.25; } a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; } a.sourceLine:empty { height: 1.2em; } .sourceCode { overflow: visible; } code.sourceCode { white-space: pre; position: relative; } div.sourceCode { margin: 1em 0; } pre.sourceCode { margin: 0; } @media screen { div.sourceCode { overflow: auto; } } @media print { code.sourceCode { white-space: pre-wrap; } a.sourceLine { text-indent: -1em; padding-left: 1em; } } pre.</description>
     </item>
     
     <item>
       <title>DSBA 5122: Visual Analytics</title>
-      <link>/slides/12-class/</link>
+      <link>https://dsba5122-fall2019.netlify.com/slides/12-class/</link>
       <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/slides/12-class/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/slides/12-class/</guid>
       <description> class: center, middle
 Welcome  </description>
     </item>
     
     <item>
       <title>Deployment, Back-end and Scalability</title>
-      <link>/reading/12-reading/</link>
+      <link>https://dsba5122-fall2019.netlify.com/reading/12-reading/</link>
       <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/reading/12-reading/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/reading/12-reading/</guid>
       <description> Required   Docker and `plumber’
   Profiling a Shiny App
   Persistent storage in Shiny Apps / RStudio blog post on persistent storage
@@ -432,10 +461,10 @@ Welcome  </description>
     
     <item>
       <title>In Production: Deployment, Back-end and Scalability</title>
-      <link>/class/12-class/</link>
+      <link>https://dsba5122-fall2019.netlify.com/class/12-class/</link>
       <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/class/12-class/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/class/12-class/</guid>
       <description>Contents  Tweet of the Day  RStudio Cloud Project Links Brushing &amp;amp; interaction: Shiny in Production:  Recommended   Tweet of the Day ✨ Made easier w/ help from {golem}…
 “Building Big Shiny Apps — A Workflow 2/2” 👨 💻 ???https://t.co/udr2nFW70R #rstats #rshiny pic.twitter.com/DOgpcB2ICg — Mara Averick (@dataandme) March 12, 2019    Shiny in Production Workshop
 RStudio Cloud Project We’ll heavily use our RStudio Cloud project for sample Shiny apps.</description>
@@ -443,81 +472,49 @@ RStudio Cloud Project We’ll heavily use our RStudio Cloud project for sample S
     
     <item>
       <title>Coordinated Multiple Views: Interacting &amp; Brushing</title>
-      <link>/class/11-class/</link>
+      <link>https://dsba5122-fall2019.netlify.com/class/11-class/</link>
       <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/class/11-class/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/class/11-class/</guid>
       <description>Contents  Tweet(s) of the day: Slides Hands-on Class   Tweet(s) of the day: Announcing the Winners of the 1st Shiny Contest
 136 submissions, 4 winners, 6 runners-up, and 21 honorable mentions. See some of the great work shared by the #shiny developer community. https://t.co/RJZbZbo2aY pic.twitter.com/EoaK440CQQ — RStudio (@rstudio) April 5, 2019   🎉A first draft of my new book, “Interactive web-based data visualization with R, plotly, and shiny”, is now available!</description>
     </item>
     
     <item>
       <title>DSBA 5122: Visual Analytics</title>
-      <link>/slides/11-class/</link>
+      <link>https://dsba5122-fall2019.netlify.com/slides/11-class/</link>
       <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/slides/11-class/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/slides/11-class/</guid>
       <description> class: center, middle
 Welcome  </description>
     </item>
     
     <item>
-      <title>Interacting &amp; Brushing</title>
-      <link>/reading/11-reading/</link>
-      <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/reading/11-reading/</guid>
-      <description> Required   Interactive Dynamics for Visual Analysis by Jeff Heer and Ben Shneiderman
-  Chapter 7: Interactions in Riccardo Mazza, Introduction to Information Visualization
-  </description>
-    </item>
-    
-    <item>
       <title>Quiz 4</title>
-      <link>/assignment/04-quiz/</link>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/04-quiz/</link>
       <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/assignment/04-quiz/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/04-quiz/</guid>
       <description>a.sourceLine { display: inline-block; line-height: 1.25; } a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; } a.sourceLine:empty { height: 1.2em; } .sourceCode { overflow: visible; } code.sourceCode { white-space: pre; position: relative; } div.sourceCode { margin: 1em 0; } pre.sourceCode { margin: 0; } @media screen { div.sourceCode { overflow: auto; } } @media print { code.sourceCode { white-space: pre-wrap; } a.sourceLine { text-indent: -1em; padding-left: 1em; } } pre.</description>
     </item>
     
     <item>
       <title>DSBA 5122: Visual Analytics</title>
-      <link>/slides/10-class/</link>
+      <link>https://dsba5122-fall2019.netlify.com/slides/10-class/</link>
       <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/slides/10-class/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/slides/10-class/</guid>
       <description> class: center, middle
 Welcome  </description>
     </item>
     
     <item>
-      <title>Final project</title>
-      <link>/assignment/final-project/</link>
-      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/assignment/final-project/</guid>
-      <description>Objective: Develop a Shiny app based on any data-related topic.&amp;#8853;
-Dataset: This is up to your group. You may use a dataset from the design contest (the same or a different data set) or select your own. Warning, don’t overthink selecting your dataset. I will request you make a decision on your data set by April 8, 2019 (send me by email). This is the most important step to start with.</description>
-    </item>
-    
-    <item>
-      <title>Networks and Trees</title>
-      <link>/reading/10-reading/</link>
-      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/reading/10-reading/</guid>
-      <description> Required   Chapter 5: Networks and Hiearchies in Riccardo Mazza, Introduction to Information Visualization
-  Katya Ognyanova, “Static and dynamic network visualization with R”
-  Recommended   Chapters 2-9 in John Coene, Twinetbook  </description>
-    </item>
-    
-    <item>
       <title>Quiz 3</title>
-      <link>/assignment/03-quiz/</link>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/03-quiz/</link>
       <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/assignment/03-quiz/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/03-quiz/</guid>
       <description>Name: _____________________
 Student ID: _________________________
 This quiz is closed-note. You will have 10 minutes to complete.
@@ -531,40 +528,40 @@ Multi-Dimensional Scaling (MDS)
     
     <item>
       <title>DSBA 5122: Visual Analytics</title>
-      <link>/slides/08-class/</link>
+      <link>https://dsba5122-fall2019.netlify.com/slides/08-class/</link>
       <pubDate>Mon, 18 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/slides/08-class/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/slides/08-class/</guid>
       <description> class: center, middle
 Welcome  </description>
     </item>
     
     <item>
       <title>DSBA 5122: Visual Analytics</title>
-      <link>/slides/07-class/</link>
+      <link>https://dsba5122-fall2019.netlify.com/slides/07-class/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/slides/07-class/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/slides/07-class/</guid>
       <description> class: center, middle
 Welcome  </description>
     </item>
     
     <item>
       <title>DSBA 5122: Visual Analytics</title>
-      <link>/slides/06-class/</link>
+      <link>https://dsba5122-fall2019.netlify.com/slides/06-class/</link>
       <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/slides/06-class/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/slides/06-class/</guid>
       <description> class: center, middle
 Welcome  </description>
     </item>
     
     <item>
       <title>DSBA 5122: Visual Analytics</title>
-      <link>/slides/05-class/</link>
+      <link>https://dsba5122-fall2019.netlify.com/slides/05-class/</link>
       <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/slides/05-class/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/slides/05-class/</guid>
       <description>class: center, middle, inverse
 Defining Uncertanity and Risk Knightian Uncertainty, a la Donald Rumsfeld
  Gigerenzer Separates the use of heuristics, or rule-of-thumbs
@@ -577,30 +574,30 @@ class: middle, center, inverse
     
     <item>
       <title>DSBA 5122: Visual Analytics</title>
-      <link>/slides/04-class/</link>
+      <link>https://dsba5122-fall2019.netlify.com/slides/04-class/</link>
       <pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/slides/04-class/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/slides/04-class/</guid>
       <description> class: center, middle
 Welcome  </description>
     </item>
     
     <item>
       <title>DSBA 5122: Visual Analytics</title>
-      <link>/slides/03-class/</link>
+      <link>https://dsba5122-fall2019.netlify.com/slides/03-class/</link>
       <pubDate>Mon, 04 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/slides/03-class/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/slides/03-class/</guid>
       <description> class: center, middle
 Welcome  </description>
     </item>
     
     <item>
       <title>DSBA 5122: Visual Analytics</title>
-      <link>/slides/02-class/</link>
+      <link>https://dsba5122-fall2019.netlify.com/slides/02-class/</link>
       <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/slides/02-class/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/slides/02-class/</guid>
       <description>class: center, middle, inverse
 The Truth Continuum (Chapter 3) “Any visualization is a model.”
 –
@@ -617,10 +614,10 @@ class: center, middle
     
     <item>
       <title>DSBA 5122: Visual Analytics</title>
-      <link>/slides/01-class/</link>
+      <link>https://dsba5122-fall2019.netlify.com/slides/01-class/</link>
       <pubDate>Mon, 14 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/slides/01-class/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/slides/01-class/</guid>
       <description>class: center, middle
 Welcome  Introduce yourself  Name
  What’s your academic and professional background?
@@ -631,10 +628,10 @@ Welcome  Introduce yourself  Name
     
     <item>
       <title>Truth, beauty, and data revisited</title>
-      <link>/reading/14-reading/</link>
+      <link>https://dsba5122-fall2019.netlify.com/reading/14-reading/</link>
       <pubDate>Tue, 11 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>/reading/14-reading/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/reading/14-reading/</guid>
       <description> Required   Chapter 12 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
   Chapter 24 in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
   Ben Wellington, “Making data mean more through storytelling”  Jonathan Schwabish, “Better Data Communication,” National Bureau of Economic Research  Why People Make Bad Charts (and What to Do When it Happens)  Questions to reflect on  Questions TBD  </description>
@@ -642,20 +639,20 @@ Welcome  Introduce yourself  Name
     
     <item>
       <title>Time</title>
-      <link>/reading/09-reading/</link>
+      <link>https://dsba5122-fall2019.netlify.com/reading/09-reading/</link>
       <pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>/reading/09-reading/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/reading/09-reading/</guid>
       <description>Required   Chapter 8 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
   The Nuclear Threat—The Shadow Peace, part 1  11 Ways to Visualize Changes Over Time – A Guide A bunch of (really) short blog posts:   Streamgraphs: Economic trade flows with R  A century of ocean shipping animated  What is seasonal adjustment and why is it used?</description>
     </item>
     
     <item>
       <title>Assignments</title>
-      <link>/assignments/</link>
+      <link>https://dsba5122-fall2019.netlify.com/assignments/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/assignments/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/assignments/</guid>
       <description>Attendance &amp;amp; Participation You are expected to attend class and actively participate (e.g., ask questions, provide your perspective).
 You are permitted to miss to have two (2) unexcused absences. Excused absences must be approved before the class and can only be approved for medical issues (with a doctor’s note) or work-travel related.
 Attendance will be taken during break on a written sheet of paper. Each unexcused absences after your first two unexcused absences will decrease your Attendance grade by 10%.</description>
@@ -663,49 +660,49 @@ Attendance will be taken during break on a written sheet of paper. Each unexcuse
     
     <item>
       <title>Final projects</title>
-      <link>/final-projects/</link>
+      <link>https://dsba5122-fall2019.netlify.com/final-projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/final-projects/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/final-projects/</guid>
       <description>Contents  Helpful links   For their final projects, students will develop their own Shiny app to develop an interactive visualization on an interesting data-intensive problem.
 Helpful links Mike Kearney’s list of 3,000+ Shiny Apps shared on TwitterThis site is a great place to start for getting motivation. Find someone else’s app. Look at their code. Get ideas of what can improve their visualization. Learn new ways to present data.</description>
     </item>
     
     <item>
       <title>Installing R, RStudio, and tidyverse</title>
-      <link>/install/</link>
+      <link>https://dsba5122-fall2019.netlify.com/install/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/install/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/install/</guid>
       <description>You will do all of your visualization work in this class with the open source (and free!) programming language R. You will use RStudio as the main program to access R. Think of R as an engine and RStudio as a car dashboard—R handles all the calculations and the actual statistics, while RStudio provides a nice interface for running R code.
 RStudio.cloud R is free, but it can sometimes be a pain to install and configure.</description>
     </item>
     
     <item>
       <title>Reference</title>
-      <link>/reference/</link>
+      <link>https://dsba5122-fall2019.netlify.com/reference/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/reference/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/reference/</guid>
       <description>Contents  Citations and bibliography Information Visualization &amp;amp; Visual Analytics Courses Interesting and excellent real world examples How to select the appropriate chart type Helpful data visualization resources Visualization in Excel Visualization in Tableau Working with R and ggplot2 R in the wild Data Pulling your own data: Past datasets:  Colors Fonts Markdown   Citations and bibliography &amp;#8853;You can open the file in BibDesk on macOS, JabRef on Windows, or Zotero or Mendeley online.</description>
     </item>
     
     <item>
       <title>Schedule</title>
-      <link>/schedule/</link>
+      <link>https://dsba5122-fall2019.netlify.com/schedule/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/schedule/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/schedule/</guid>
       <description> Here’s your roadmap for the semester!
-  Readings should be completed before each class session  Assignments are due by 11:59 PM on the day they are due  Class materials (slides, in-class activities, etc.) will be added on the day of class     Information Visualization Reading Assignment Class   August 19 Class 1: Intro to Visual Analytics      August 19 Datacamp course 1 (Due Sept 3)      August 26 Class 2: Visual Representations I      August 26 Problem set 1 (Due Sept 16)      September 2 No class (Labor Day)      September 9 Class 3: Visual Representations II      September 9 Quiz 1 (Due Sept 16)      September 9 Datacamp course 2 (Due Sept 24)      September 16 Class 4: Time &amp;amp; Space      September 16 Problem set 2 (Due Oct 7)      September 23 Class 5: Distributions &amp;amp; Uncertainty       Interactive Visualizations Reading Assignment Class   September 30 Class 6: Statistical Models      September 30 Design Contest assigned (Due Oct 28)      October 7 No class (Fall Break)      October 14 Class 7: Multidimensional Data      October 14 Quiz 2 (Due Oct 21)      October 14 Datacamp course 3 (Due Nov 5)      October 21 Class 8: Networks and Trees      October 28 Class 9: Design Contest Presentations       Building Shiny Apps Reading Assignment Class   November 4 Class 10: Intro to Shiny      November 4 Quiz 3 (Due Nov 11)      November 4 Problem set 3 (Due Nov 18)      November 4 Final project assigned (Due Dec 9)      November 4 Datacamp course 4 (Due Nov 19)      November 11 Class 11: Interacting &amp;amp; Brushing      November 18 Class 12: Shiny in Production      November 18 Problem set 4 (Due Dec 2)      November 25 Class 13: Human Factors      November 25 Quiz 4 (Due Dec 2)      December 2 Class 14: TBD       Final Reading Assignment Class   December 9 Final project due       </description>
+  Readings should be completed before each class session  Assignments are due by 11:59 PM on the day they are due  Class materials (slides, in-class activities, etc.) will be added on the day of class     Information Visualization Reading Assignment Class   August 19 Class 1: Intro to Visual Analytics      August 19 Datacamp course 1 (Due Sept 3)      August 26 Class 2: Visual Representations I      August 26 Problem set 1 (Due Sept 16)      September 2 No class (Labor Day)      September 9 Class 3: Visual Representations II      September 9 Quiz 1 (Due Sept 16)      September 9 Datacamp course 2 (Due Sept 24)      September 16 Class 4: Time &amp;amp; Space      September 16 Problem set 2 (Due Oct 7)      September 23 Class 5: Distributions &amp;amp; Uncertainty       Interactive Visualizations Reading Assignment Class   September 30 Class 6: Statistical Models      September 30 Design Contest assigned (Due Oct 28)      October 7 No class (Fall Break)      October 14 Class 7: Multidimensional Data      October 14 Quiz 2 (Due Oct 21)      October 14 Datacamp course 3 (Due Nov 5)      October 21 Class 8: Networks and Trees      October 28 Class 9: Design Contest Presentations       Building Shiny Apps Reading Assignment Class   November 4 Class 10: Intro to Shiny      November 4 Problem set 3 (Due Nov 18)      November 4 Final project assigned (Due Dec 9)      November 11 Class 11: Interacting &amp;amp; Brushing      November 11 Datacamp course 4 (Due Nov 19)      November 11 Quiz 3 (Due Nov 18)      November 18 Class 12: Shiny in Production      November 18 Problem set 4 (Due Dec 2)      November 25 Class 13: Human Factors      November 25 Quiz 4 (Due Dec 2)      December 2 Class 14: TBD       Final Reading Assignment Class   December 9 Final project due       </description>
     </item>
     
     <item>
       <title>Syllabus</title>
-      <link>/syllabus/</link>
+      <link>https://dsba5122-fall2019.netlify.com/syllabus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/syllabus/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/syllabus/</guid>
       <description>Data rarely speaks for itself.&amp;#8853;Instructor
 Ryan Wesslen
  CenterCity

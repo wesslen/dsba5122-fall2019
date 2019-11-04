@@ -1,8 +1,8 @@
 library(shiny)
 
-# task4: add in getDfm function for pre-processing
+# task4: add in getFreq function for pre-processing
 
-# task6: add in shinythemes, memoize function
+# task6: add in shinythemes function
 
 ui <- fluidPage(
   titlePanel("Shakespeare's Plays Word Frequencies") # Application title
@@ -15,12 +15,12 @@ ui <- fluidPage(
   
   # task3: add in the outputs in the sidebarPanel
   
-  # task6: and modify your counts output object height to 600px
+  # task6: and modify your figure heights
 )
 
 server <- function(input, output) {
   
-  # task5: add in reactivity for getDfm function based on inputs
+  # task5: add in reactivity for getFreq function based on inputs
   
 }
 

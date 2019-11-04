@@ -1,8 +1,8 @@
 ---
 title: "DSBA 5122: Visual Analytics"
-subtitle: "Class 10: Networks and Trees"  
+subtitle: "Class 10: Intro to Shiny"  
 author: "Ryan Wesslen"
-date: 'April 1, 2019'
+date: 'November 4, 2019'
 citeproc: false
 bibliography: ../../static/bib/references.bib
 csl: ../../static/bib/chicago-syllabus-no-bib.csl
@@ -27,7 +27,7 @@ library(tidyverse)
 mono_light(
   base_color = "#046A38",
   white_color = "#ffffff",
-  text_font_size = "24px",
+  text_font_size = "28px",
   header_h1_font_size = "40px",
   header_h2_font_size = "35px", 
   header_h3_font_size = "30px",
@@ -38,163 +38,326 @@ mono_light(
 )
 ```
 
-class: center, middle, inverse
+## Shiny
 
-# Networks and Trees
+A **Shiny** app is a web page (UI) connected to a computer running a live R session (Server)
 
-```{r out.width = "400px", fig.align="center", echo=FALSE}
-knitr::include_graphics("../images/slides/10-class/mazzo.png")
+```{r echo=F, out.width = "800px"}
+knitr::include_graphics("../images/slides/08-class/shiny-01.png")
 ```
 
-Read Chapter 5: Networks and Hiearchies of Mazza
+Users can manipulate the UI, which will cause the server to update the UI's displays (by running R code).
 
 ---
 
-# Networks (a.k.a. graphs)
-
-```{r out.width = "600px", fig.align="center", echo=FALSE}
-knitr::include_graphics("../images/slides/10-class/net1.png")
-```
-
-- Graphs are visual representations in which the points, called **nodes** or **vertices**, represent instances of the data.
-
-- Nodes are correlated by connections, called **edges**, which represent relationships between the instances. 
-
-- Possible features of a network: weights, direction, labels.
-
----
-
-class: center, middle
-
-.pull-left[
-```{r out.width = "400px", fig.align="center", echo=FALSE}
-knitr::include_graphics("../images/slides/10-class/undirected.jpeg")
-```
-]
-.pull-right[
-```{r out.width = "400px", fig.align="center", echo=FALSE}
-knitr::include_graphics("../images/slides/10-class/directed.jpeg")
-```
-]
-
-[Vaidehi Joshi Medium post](https://medium.com/basecs/from-theory-to-practice-representing-graphs-cfd782c5be38)
-
----
-
-class: middle, center
-
-```{r out.width = "600px", fig.align="center", echo=FALSE}
-knitr::include_graphics("../images/slides/10-class/concept1.png")
+```{r echo=F, out.width = "800px"}
+knitr::include_graphics("../images/slides/08-class/shiny-02.png")
 ```
 
 ---
 
-class: middle, center
-
-```{r out.width = "600px", fig.align="center", echo=FALSE}
-knitr::include_graphics("../images/slides/10-class/concept2.png")
-```
-
-[BNOSAC: R NLP packages ecosystem](http://www.bnosac.be/index.php/blog/87-an-overview-of-the-nlp-ecosystem-in-r-nlproc-textasdata)
-
----
-
-class: middle, center
-
-```{r out.width = "600px", fig.align="center", echo=FALSE}
-knitr::include_graphics("../images/slides/10-class/net2.png")
+```{r echo=F, out.width = "800px"}
+knitr::include_graphics("../images/slides/08-class/shiny-03.png")
 ```
 
 ---
 
-class: middle, center
-
-```{r out.width = "600px", fig.align="center", echo=FALSE}
-knitr::include_graphics("../images/slides/10-class/net3.png")
+```{r echo=F, out.width = "800px"}
+knitr::include_graphics("../images/slides/08-class/shiny-template.png")
 ```
 
 ---
 
-class: middle, center
+## Try This
 
-```{r out.width = "600px", fig.align="center", echo=FALSE}
-knitr::include_graphics("../images/slides/10-class/net4.png")
-```
+1. Open a new .R file
 
----
+2. Type this into the file. (Do you have the shiny package?)
 
-```{r out.width = "650px", fig.align="center", echo=FALSE}
-knitr::include_graphics("../images/slides/10-class/tree1.png")
-```
+    ```{r echo=F, out.width = "600px"}
+    knitr::include_graphics("../images/slides/08-class/shiny-template2.png")
+    ```
 
-- A **tree** (hierarchy) can be represented through a graph with a starting node called root. 
-
-- Each node has zero or more child nodes its ancestor is called the **parent** node. A node has at most one parent.
-
----
-
-class: middle, center
-
-```{r out.width = "600px", fig.align="center", echo=FALSE}
-knitr::include_graphics("../images/slides/10-class/tree2.png")
-```
-
----
-
-class: middle, center
-
-```{r out.width = "500px", fig.align="center", echo=FALSE}
-knitr::include_graphics("../images/slides/10-class/tree3.png")
-```
-
----
-
-class: middle, center
-
-```{r out.width = "600px", fig.align="center", echo=FALSE}
-knitr::include_graphics("../images/slides/10-class/tree4.png")
-```
-
----
-
-class: middle, center
-
-```{r out.width = "600px", fig.align="center", echo=FALSE}
-knitr::include_graphics("../images/slides/10-class/tree5.png")
-```
+3. Click "Run"
 
 ---
 
 class: center, middle, inverse
 
-## Katya Ognyanova's "Network visualization with R."
-
-```{r out.width = "600px", fig.align="center", echo=FALSE}
-knitr::include_graphics("../images/slides/10-class/katato.png")
-```
-
-http://kateto.net/network-visualization
+# User Interface: ui() function
 
 ---
 
-class: center, middle
+## `fluidPage()`
 
-```{r out.width = "800px", fig.align="center", echo=FALSE}
-knitr::include_graphics("../images/slides/10-class/kateto1.png")
+```{r echo=F, out.width = "800px"}
+knitr::include_graphics("../images/slides/08-class/shiny-04.png")
 ```
 
 ---
 
-class: center, middle
+## Example
 
-```{r out.width = "800px", fig.align="center", echo=FALSE}
-knitr::include_graphics("../images/slides/10-class/katato2.png")
+```{r echo=F, out.width = "800px"}
+knitr::include_graphics("../images/slides/08-class/shiny-input-ex1.png")
 ```
 
 ---
 
-class: center, middle
+## Example
 
-```{r out.width = "800px", fig.align="center", echo=FALSE}
-knitr::include_graphics("../images/slides/10-class/katato3.png")
+```{r echo=F, out.width = "800px"}
+knitr::include_graphics("../images/slides/08-class/shiny-input-ex2.png")
+```
+
+---
+
+## Input Syntax
+
+```{r echo=F, out.width = "800px"}
+knitr::include_graphics("../images/slides/08-class/shiny-inputs-syntax.png")
+```
+
+---
+
+## Inputs
+
+```{r echo=F, out.width = "800px"}
+knitr::include_graphics("../images/slides/08-class/shiny-inputs.png")
+```
+
+There are multiple common `Input()` functions.
+
+---
+
+## What's in an Input function? HTML
+
+```{r echo=F, out.width = "800px"}
+knitr::include_graphics("../images/slides/08-class/shiny-input-ex3.png")
+```
+
+---
+
+## Output Syntax
+
+```{r echo=F, out.width = "800px"}
+knitr::include_graphics("../images/slides/08-class/shiny-outputs-syntax.png")
+```
+
+---
+
+## Output Options
+
+```{r echo=F, out.width = "800px"}
+knitr::include_graphics("../images/slides/08-class/shiny-outputs.png")
+```
+
+---
+
+## Example
+
+```{r echo=F, out.width = "800px"}
+knitr::include_graphics("../images/slides/08-class/shiny-outputs-ex3.png")
+```
+
+---
+
+## Example
+
+```{r echo=F, out.width = "800px"}
+knitr::include_graphics("../images/slides/08-class/shiny-outputs-ex1.png")
+```
+
+---
+
+## Example
+
+```{r echo=F, out.width = "800px"}
+knitr::include_graphics("../images/slides/08-class/shiny-outputs-ex2.png")
+```
+
+---
+
+## Example
+
+```{r echo=F, out.width = "800px"}
+knitr::include_graphics("../images/slides/08-class/shiny-outputs-ex4.png")
+```
+
+---
+
+## Layouts
+
+```{r echo=F, out.width = "800px"}
+knitr::include_graphics("../images/slides/08-class/shiny-layouts.png")
+```
+
+---
+
+## `sidebarLayout()`
+
+```{r echo=F, out.width = "800px"}
+knitr::include_graphics("../images/slides/08-class/shiny-layout1.png")
+```
+
+---
+
+## `sidebarLayout()`
+
+```{r echo=F, out.width = "800px"}
+knitr::include_graphics("../images/slides/08-class/shiny-layout2.png")
+```
+
+---
+
+## `sidebarLayout()`
+
+```{r echo=F, out.width = "800px"}
+knitr::include_graphics("../images/slides/08-class/shiny-layout3.png")
+```
+
+---
+
+## html tags if you know HTML
+
+```{r echo=F, out.width = "800px"}
+knitr::include_graphics("../images/slides/08-class/shiny-tags.png")
+```
+
+---
+
+# Server: `server()` function
+
+```{r echo=F, out.width = "800px"}
+knitr::include_graphics("../images/slides/08-class/shiny-server1.png")
+```
+
+---
+
+```{r echo=F, out.width = "800px"}
+knitr::include_graphics("../images/slides/08-class/shiny-server2.png")
+```
+
+---
+
+```{r echo=F, out.width = "800px"}
+knitr::include_graphics("../images/slides/08-class/shiny-server2a.png")
+```
+
+---
+
+```{r echo=F, out.width = "800px"}
+knitr::include_graphics("../images/slides/08-class/shiny-server2b.png")
+```
+
+---
+
+```{r echo=F, out.width = "800px"}
+knitr::include_graphics("../images/slides/08-class/shiny-server2c.png")
+```
+
+---
+
+```{r echo=F, out.width = "800px"}
+knitr::include_graphics("../images/slides/08-class/shiny-server2d.png")
+```
+
+---
+
+```{r echo=F, out.width = "800px"}
+knitr::include_graphics("../images/slides/08-class/shiny-server3.png")
+```
+
+---
+
+```{r echo=F, out.width = "800px"}
+knitr::include_graphics("../images/slides/08-class/shiny-server4.png")
+```
+
+---
+
+```{r echo=F, out.width = "800px"}
+knitr::include_graphics("../images/slides/08-class/shiny-server5.png")
+```
+
+---
+
+```{r echo=F, out.width = "800px"}
+knitr::include_graphics("../images/slides/08-class/shiny-server6.png")
+```
+
+---
+
+```{r echo=F, out.width = "800px"}
+knitr::include_graphics("../images/slides/08-class/shiny-server-reactivity.png")
+```
+
+---
+
+## Shiny: Output
+
+```{r echo=F, out.width = "800px"}
+knitr::include_graphics("../images/slides/08-class/shiny-server-output.png")
+```
+
+---
+
+## Server Recap
+
+```{r echo=F, out.width = "800px"}
+knitr::include_graphics("../images/slides/08-class/shiny-server-recap.png")
+```
+
+---
+
+## 15 minute Quick Assignment
+
+Open the `app.R` file.
+
+Try these three tasks:
+
+1. add a new slider that sets the number of breaks for the `rnorm()` function
+
+2. add a `textInput()` that sets the name of the plot
+
+3. add a `actionButton()` that updates the name of the plot (part 2) only when clicking (hint: see ?observeEvent)
+
+---
+
+# Deploying Apps to Shinyapps.io
+
+```{r echo=F, out.width = "800px"}
+knitr::include_graphics("../images/slides/08-class/shiny-shinyapps.png")
+```
+
+---
+
+## Setup connection to ShinyApps.io
+
+```{r echo=F, out.width = "700px"}
+knitr::include_graphics("../images/slides/08-class/deploy1.gif")
+```
+
+---
+
+## Setup connection to ShinyApps.io
+
+```{r echo=F, out.width = "700px"}
+knitr::include_graphics("../images/slides/08-class/deploy2.gif")
+```
+
+---
+
+## Deploy to ShinyApps.io
+
+```{r echo=F, out.width = "700px"}
+knitr::include_graphics("../images/slides/08-class/deploy3.gif")
+```
+
+---
+
+## Deploy to ShinyApps.io
+
+```{r echo=F, out.width = "700px"}
+knitr::include_graphics("../images/slides/08-class/deploy4.gif")
 ```

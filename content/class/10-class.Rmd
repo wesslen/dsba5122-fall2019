@@ -14,8 +14,21 @@ editor_options:
 
 # Tweet of the day
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Our lab&#39;s first preprint!  Coral: an R shiny and D3.js web app for flexible, interactive, and high-resolution visualization of the human kinome. <a href="https://t.co/xD7QUXgjOR">https://t.co/xD7QUXgjOR</a> <a href="https://t.co/1gGy9zzsBT">pic.twitter.com/1gGy9zzsBT</a></p>&mdash; doug phanstiel (@dphansti) <a href="https://twitter.com/dphansti/status/1000074434982699009?ref_src=twsrc%5Etfw">May 25, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">New blog post: &quot;Advice to aspiring data scientists: start a blog&quot; <a href="https://t.co/yMDHqviiBN">https://t.co/yMDHqviiBN</a> <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> <a href="https://t.co/9AdPUdbjtE">pic.twitter.com/9AdPUdbjtE</a></p>&mdash; David Robinson (@drob) <a href="https://twitter.com/drob/status/930492543187513345?ref_src=twsrc%5Etfw">November 14, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+^[David authored ["Tidy Text Mining"](https://www.tidytextmining.com/), which you'll use in problem set 3. David also occasionally does #tidytuesday [live coding sessions](https://twitter.com/drob/status/1190295915082452992?s=20). Extremely helpful to watch him in action.]
+
+# Announcements
+
+1. Design Contest Feedback
+
+2. [Final Project](../../content/assignment/final-project.html)
+
+3. [Problem Set 3](../../content/assignment/03-problem-set.html) is due in two weeks.
+
+4. Quiz 3 delayed a week. Will be assigned next week and due . If possible, I will try this week to post the required readings in advance (but it's almost all of the required readings/lectures). 
+
+5. [DataCamp 3](../../content/assignment/03-datacamp.html) due tomorrow by midnight
 
 # Slides:
 
@@ -25,8 +38,6 @@ editor_options:
 knitr::include_url('../../slides/10-class.html#1')
 ```
 
-# Lab: Shiny Reactivity
+# Lab: Sample Shiny Apps
 
-Garrett Grohlmund's [Introduction to Reactivity in Shiny](https://github.com/wesslen/dsba5122-spring2019/raw/master/public/files/shiny-reactivity.pdf)
-
-- RStudio Cloud project for [sample Shiny apps](https://rstudio.cloud/spaces/7976/project/256282)
+- RStudio Cloud project for [sample Shiny apps](https://rstudio.cloud/spaces/22733/project/454724)

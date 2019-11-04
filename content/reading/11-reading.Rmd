@@ -1,6 +1,6 @@
 ---
 title: "Interacting & Brushing"
-date: "2019-04-08"
+date: "2019-11-11"
 citeproc: false
 bibliography: ../../static/bib/references.bib
 csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
@@ -8,7 +8,11 @@ csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
 
 # Required
 
-- <i class="fas fa-book"></i> [Interactive Dynamics for
-Visual Analysis](../../readings/heer-shneiderman.pdf) by Jeff Heer and Ben Shneiderman
+- <i class="fas fa-book"></i> [Chapters 6: Workflow](https://mastering-shiny.org/action-workflow.html), [Chapters 7: User feedback](https://mastering-shiny.org/action-feedback.html), [Chapters 8: Uploads and downloads](https://mastering-shiny.org/action-transfer.html) and [Chapters 9: Dynamic UI](https://mastering-shiny.org/action-dynamic.html) in Hadley Wickham *Mastering Shiny* 
 
 - <i class="fas fa-book"></i> [Chapter 7: Interactions](../../readings/Mazza2009_Chapter_Interactions.pdf) in Riccardo Mazza, *Introduction to Information Visualization* 
+
+# Recommended
+
+- <i class="fas fa-book"></i> [Interactive Dynamics for
+Visual Analysis](../../readings/heer-shneiderman.pdf) by Jeff Heer and Ben Shneiderman
