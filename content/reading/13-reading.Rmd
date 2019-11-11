@@ -1,6 +1,6 @@
 ---
-title: "Machine Learning"
-date: "2019-04-22"
+title: "Shiny in Production"
+date: "2019-11-25"
 citeproc: false
 bibliography: ../../static/bib/references.bib
 csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
@@ -8,9 +8,18 @@ csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
 
 # Required
 
-
-- <i class="fas fa-book"></i> [Chapter 1](https://christophm.github.io/interpretable-ml-book/intro.html) and [Chapter 2](https://christophm.github.io/interpretable-ml-book/interpretability.html) in Christoph Molnar, *Interpretable Machine Learning: A Guide for Making Black Box Models Explainable.* 
+- <i class="fas fa-book"></i> [Chapter 1](https://thinkr-open.github.io/building-shiny-apps-workflow/successfulshinyapp.html), [Chapter 3](https://thinkr-open.github.io/building-shiny-apps-workflow/structure.html), [Chapter 4](https://thinkr-open.github.io/building-shiny-apps-workflow/golem.html) and [Chapter 5](https://thinkr-open.github.io/building-shiny-apps-workflow/workflow.html) in Colin Fay, Vincent Guyader, Cervan Girard, Sébastien Rochette, *Building Big Shiny Apps - A Workflow.* ^[This book is under development.]
 
 # Recommended
 
-- <i class="fas fa-book"></i> [Chapter 5](https://christophm.github.io/interpretable-ml-book/agnostic.html) in Christoph Molnar, *Interpretable Machine Learning: A Guide for Making Black Box Models Explainable.* 
+- <i class="fas fa-external-link-square-alt"></i> [Docker and `plumber'](https://medium.com/@skyetetra/using-docker-to-deploy-an-r-plumber-api-863ccf91516d)
+
+- <i class="fas fa-external-link-square-alt"></i> [Profiling a Shiny App](https://rstudio.github.io/profvis/examples.html#example-3---profiling-a-shiny-application)
+
+- <i class="fas fa-external-link-square-alt"></i> [Persistent storage in Shiny Apps](https://daattali.com/shiny/persistent-data-storage/) / [RStudio blog post on persistent storage](https://shiny.rstudio.com/articles/persistent-data-storage.html)
+
+- <i class="fas fa-external-link-square-alt"></i> [Plot caching](https://blog.rstudio.com/2018/11/13/shiny-1-2-0/)
+
+- <i class="fas fa-external-link-square-alt"></i> [Scaling Shiny Apps with async](https://blog.rstudio.com/2018/06/26/shiny-1-1-0/) 
+
+- <i class="fas fa-external-link-square-alt"></i> [Shiny unit testing with `testhat`](https://www.r-bloggers.com/unit-testing-shiny-apps-using-testthat/)

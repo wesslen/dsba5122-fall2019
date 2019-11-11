@@ -103,29 +103,29 @@ lessons:
     date: "November 4"
     assignment: "final-project"
 
-  - title: "Class 11: Interacting & Brushing"
+  - title: "Class 11: Reactive Programming"
     date: "November 11"
     reading: "11-reading"
-    #class: "11-class"
+    class: "11-class"
     
-  - title: "**Datacamp course 4 (Due Nov 19)**"
+  - title: "**Datacamp course 4 (Due Nov 26)**"
     date: "November 11"
-    #assignment: "04-datacamp"
+    assignment: "04-datacamp"
     
   - title: "**Quiz 3 (Due Nov 18)**"
     date: "November 11"
-    #assignment: "03-quiz"
+    assignment: "03-quiz"
 
-  - title: "Class 12: Shiny in Production"
+  - title: "Class 12: Interacting & Brushing"
     date: "November 18"
-    #reading: "12-reading"
+    reading: "12-reading"
     #class: "12-class"
     
   - title: "**Problem set 4 (Due Dec 2)**"
     date: "November 18"
     #assignment: "04-problem-set"
 
-  - title: "Class 13: Human Factors"
+  - title: "Class 13: Shiny in Production"
     date: "November 25"
     #reading: "13-reading"
     #class: "13-class"

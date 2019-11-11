@@ -6,10 +6,42 @@
     <description>Recent content in Data visualization on Visual Analytics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 25 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://dsba5122-fall2019.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Shiny in Production</title>
+      <link>https://dsba5122-fall2019.netlify.com/reading/13-reading/</link>
+      <pubDate>Mon, 25 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-fall2019.netlify.com/reading/13-reading/</guid>
+      <description>Required   Chapter 1, Chapter 3, Chapter 4 and Chapter 5 in Colin Fay, Vincent Guyader, Cervan Girard, Sébastien Rochette, Building Big Shiny Apps - A Workflow.This book is under development.
+  Recommended   Docker and `plumber’
+  Profiling a Shiny App
+  Persistent storage in Shiny Apps / RStudio blog post on persistent storage
+  Plot caching
+  Scaling Shiny Apps with async</description>
+    </item>
+    
+    <item>
+      <title>Interactivity and Brushing</title>
+      <link>https://dsba5122-fall2019.netlify.com/reading/12-reading/</link>
+      <pubDate>Mon, 18 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-fall2019.netlify.com/reading/12-reading/</guid>
+      <description> Required   Chapters 6: Workflow, Chapters 7: User feedback, Chapters 8: Uploads and downloads and Chapters 9: Dynamic UI in Hadley Wickham Mastering Shiny  </description>
+    </item>
+    
+    <item>
+      <title>Problem set 4</title>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/04-problem-set/</link>
+      <pubDate>Mon, 18 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/04-problem-set/</guid>
+      <description>a.sourceLine { display: inline-block; line-height: 1.25; } a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; } a.sourceLine:empty { height: 1.2em; } .sourceCode { overflow: visible; } code.sourceCode { white-space: pre; position: relative; } div.sourceCode { margin: 1em 0; } pre.sourceCode { margin: 0; } @media screen { div.sourceCode { overflow: auto; } } @media print { code.sourceCode { white-space: pre-wrap; } a.sourceLine { text-indent: -1em; padding-left: 1em; } } pre.</description>
+    </item>
     
     <item>
       <title>Interacting &amp; Brushing</title>
@@ -23,13 +55,27 @@
     </item>
     
     <item>
-      <title>Problem set 4</title>
-      <link>https://dsba5122-fall2019.netlify.com/assignment/04-problem-set/</link>
+      <title>Quiz 3</title>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/03-quiz/</link>
       <pubDate>Mon, 11 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dsba5122-fall2019.netlify.com/assignment/04-problem-set/</guid>
-      <description>Task 0: Getting started For this problem set, you’ll learn blogdown, an R package that enables building websites through Hugo, a web framework. Like shiny, blogdown enable you to use a more complex framework (i.e., Hugo) but through R functions and syntax that you’ve been learning about all semester.
-I recommend running this exercise on your personal laptop, mainly so you’ll have this blog site already saved on your own personal computer.</description>
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/03-quiz/</guid>
+      <description>Quiz 3 can be taken starting on November 12th: Canvas link to Quiz 3
+You will have one week to complete the quiz (that is, the quiz must be completed by 5:59pm on November 18, 2019).This is not by midnight, but before the next class.
+
+ This quiz will consist of 10 multiple choice questions. You will have 15 minutes to complete the quiz. You may only take the quiz once.</description>
+    </item>
+    
+    <item>
+      <title>Reactive Programming</title>
+      <link>https://dsba5122-fall2019.netlify.com/class/11-class/</link>
+      <pubDate>Mon, 11 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-fall2019.netlify.com/class/11-class/</guid>
+      <description>Contents  Announcements Tweet(s) of the day: Hands-on Class   Announcements  Problem Set 3 due next by 11:59pm next Monday (11/18)
+ Quiz 3 has been assigned and will be available at midnight. It is due next before class 5:59pm next Monday (11/18).
+ DataCamp 4 due date has been pushed back to Tuesday (11/26).
+ You should have your groups and your dataset for your Final Project.</description>
     </item>
     
     <item>
@@ -198,7 +244,7 @@ I recommend running this exercise on your personal laptop, mainly so you’ll ha
       <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-fall2019.netlify.com/class/06-class/</guid>
-      <description>Contents  Announcements Tweet of the day Lab 6: Work with models in ggplot2   Announcements Problem Set 1 has been graded. See Problem Set 1 Solutions.   {&#34;x&#34;:{&#34;data&#34;:[{&#34;x&#34;:[4.02766102398746,4.01516460883431,3.90895941141061,5.95575160942972,6.09905328294262,2.00783291985281,1.97418545968831,6.02832161225379,0.978365588793531,5.07931235264987,5.06616580188274,3.0965728466399,9.93539113644511,11.9821920404211,3.01428840886801,2.96278069349937,1.92690438972786,1.9401898086071,2.07994988788851,3.93408434777521,3.97056861594319,2.06335099912249,3.99658558969386,2.9532838569954,4.00472216708586,3.94918534327298,2.9928322583437,6.01839164062403,1.06057984698564,5.03915177718736,2.95934626716189,1.95893188407645,3.09490193640813],&#34;y&#34;:[100.096944198851,95.0551803378854,85.9970390178729,92.0266192227602,95.0553372582886,96.9334255722351,100.043726610159,100.070808173437,97.007475277409,95.0756409364753,76.9417154583149,99.9221418773755,81.9686231809668,82.9996245110873,96.934324946627,98.9961840394419,93.9090212491341,94.0117558365222,88.0463362904731,97.0603696276899,95.074365211511,94.9594384919386,100.080898487149,100.099961858941,96.9100109959487,99.0924700541887,97.9390440058894,99.9424793291837,92.0439951411914,95.9914761730004,98.0062242105603,93.9578285120893,99.9232527941931],&#34;text&#34;:[&#34;Time: 4
+      <description>Contents  Announcements Tweet of the day Lab 6: Work with models in ggplot2   Announcements Problem Set 1 has been graded. See Problem Set 1 Solutions.   {&#34;x&#34;:{&#34;data&#34;:[{&#34;x&#34;:[3.94882073882036,4.08403538060375,4.09555845973082,6.05071916286834,6.04727446851321,2.07734939623624,2.04006950692274,5.90485247690231,0.98205467085354,5.04335918780416,4.90032852441072,2.91386136929505,10.0724577273708,12.0491468092427,3.0459104297217,2.97351061934605,1.95881978264078,2.06347209746018,2.00262933014892,4.02556672836654,4.08701484538615,1.91752095874399,4.04712419887073,3.08688945313916,3.97455423357896,3.92033830019645,3.09936629789881,5.96798318265937,1.06569775911048,5.07662701541558,3.00529626156203,2.07741463282146,2.97384068523534],&#34;y&#34;:[99.9507065399084,94.9864155378193,85.9888836092781,91.9724328555632,95.0881362188607,96.9888969213236,100.081336629717,99.9666720463429,97.0335019975901,94.9408992796205,76.9880854352377,99.9447887904942,81.9118603080977,82.9472129620612,97.097949676076,99.0482001459692,94.0575446513016,93.9762288544793,88.0900852160994,96.9927992734127,95.0190250876825,94.9110386366025,99.9366068463307,100.024410180561,97.0720788412727,98.9638109903783,97.9499666647054,100.005581889302,91.956133368751,96.0833874158096,97.9565358531661,94.0211427244823,99.9972125889733],&#34;text&#34;:[&#34;Time: 4
 Grade: 100
 Issues: Rmarkdown Technicalities&#34;,&#34;Time: 4
 Grade: 95
@@ -406,26 +452,6 @@ Welcome  </description>
     </item>
     
     <item>
-      <title>Human-Centered Machine Learning</title>
-      <link>https://dsba5122-fall2019.netlify.com/class/13-class/</link>
-      <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-fall2019.netlify.com/class/13-class/</guid>
-      <description>Contents  Tweet of the day Slides Links   Tweet of the day … and that concludes Machine Learning 101. Now, go forth and apply what you&#39;ve learned to real data! pic.twitter.com/D6wSKgdjeM — ML Hipster (@ML_Hipster) August 19, 2015   Slides full screen / pdf version
- Links  TensorFlow’s Neural Network Playground Demo
- Interpreting Machine Learning Models by Omayma Said / Shiny App / GitHub for Shiny App</description>
-    </item>
-    
-    <item>
-      <title>Machine Learning</title>
-      <link>https://dsba5122-fall2019.netlify.com/reading/13-reading/</link>
-      <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-fall2019.netlify.com/reading/13-reading/</guid>
-      <description> Required   Chapter 1 and Chapter 2 in Christoph Molnar, Interpretable Machine Learning: A Guide for Making Black Box Models Explainable.  Recommended   Chapter 5 in Christoph Molnar, Interpretable Machine Learning: A Guide for Making Black Box Models Explainable.  </description>
-    </item>
-    
-    <item>
       <title>Quiz 5</title>
       <link>https://dsba5122-fall2019.netlify.com/assignment/05-quiz/</link>
       <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
@@ -445,39 +471,14 @@ Welcome  </description>
     </item>
     
     <item>
-      <title>Deployment, Back-end and Scalability</title>
-      <link>https://dsba5122-fall2019.netlify.com/reading/12-reading/</link>
-      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-fall2019.netlify.com/reading/12-reading/</guid>
-      <description> Required   Docker and `plumber’
-  Profiling a Shiny App
-  Persistent storage in Shiny Apps / RStudio blog post on persistent storage
-  Plot caching
-  Scaling Shiny Apps with async
-  Shiny unit testing with testhat
-  </description>
-    </item>
-    
-    <item>
       <title>In Production: Deployment, Back-end and Scalability</title>
-      <link>https://dsba5122-fall2019.netlify.com/class/12-class/</link>
+      <link>https://dsba5122-fall2019.netlify.com/class/13-class/</link>
       <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dsba5122-fall2019.netlify.com/class/12-class/</guid>
+      <guid>https://dsba5122-fall2019.netlify.com/class/13-class/</guid>
       <description>Contents  Tweet of the Day  RStudio Cloud Project Links Brushing &amp;amp; interaction: Shiny in Production:  Recommended   Tweet of the Day ✨ Made easier w/ help from {golem}…
 “Building Big Shiny Apps — A Workflow 2/2” 👨 💻 ???https://t.co/udr2nFW70R #rstats #rshiny pic.twitter.com/DOgpcB2ICg — Mara Averick (@dataandme) March 12, 2019    Shiny in Production Workshop
 RStudio Cloud Project We’ll heavily use our RStudio Cloud project for sample Shiny apps.</description>
-    </item>
-    
-    <item>
-      <title>Coordinated Multiple Views: Interacting &amp; Brushing</title>
-      <link>https://dsba5122-fall2019.netlify.com/class/11-class/</link>
-      <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-fall2019.netlify.com/class/11-class/</guid>
-      <description>Contents  Tweet(s) of the day: Slides Hands-on Class   Tweet(s) of the day: Announcing the Winners of the 1st Shiny Contest
-136 submissions, 4 winners, 6 runners-up, and 21 honorable mentions. See some of the great work shared by the #shiny developer community. https://t.co/RJZbZbo2aY pic.twitter.com/EoaK440CQQ — RStudio (@rstudio) April 5, 2019   🎉A first draft of my new book, “Interactive web-based data visualization with R, plotly, and shiny”, is now available!</description>
     </item>
     
     <item>
@@ -500,6 +501,17 @@ Welcome  </description>
     </item>
     
     <item>
+      <title>Reactive Programming</title>
+      <link>https://dsba5122-fall2019.netlify.com/class/12-class/</link>
+      <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-fall2019.netlify.com/class/12-class/</guid>
+      <description>Contents  Tweet(s) of the day: Slides Hands-on Class   Tweet(s) of the day: 🎅 Major announcement for #rstats shiny addicts🎅:
+Excited to officially introduce RinteRface, a collection of open-source HTML templates for #shiny and more 🦄
+Thanks ??? for joining the project 🔥https://t.co/IAX76FEz1k??? ??? ??? ??? pic.twitter.com/WCvuAxJiI4 — David Granjon (@divadnojnarg) November 28, 2018   RinteRface includes several web frameworks as R packages including: shinydashboardPlus, bs4Dash, argonDash.</description>
+    </item>
+    
+    <item>
       <title>DSBA 5122: Visual Analytics</title>
       <link>https://dsba5122-fall2019.netlify.com/slides/10-class/</link>
       <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
@@ -507,23 +519,6 @@ Welcome  </description>
       <guid>https://dsba5122-fall2019.netlify.com/slides/10-class/</guid>
       <description> class: center, middle
 Welcome  </description>
-    </item>
-    
-    <item>
-      <title>Quiz 3</title>
-      <link>https://dsba5122-fall2019.netlify.com/assignment/03-quiz/</link>
-      <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-fall2019.netlify.com/assignment/03-quiz/</guid>
-      <description>Name: _____________________
-Student ID: _________________________
-This quiz is closed-note. You will have 10 minutes to complete.
-Question 1 Which of the following is not a dimensionality reduction method:
-Multi-Dimensional Scaling (MDS)
- Principal Components Analysis (PCA)
- t-Distributed Stochastic Neighbor Embedding (t-SNE)
- Support Vector Machine (SVM)
-  Question 2 Choose the option that best fills in the blanks to describe the primary purpose of certain multidimensional visualizations. Assume the data is in tidy format.</description>
     </item>
     
     <item>
@@ -694,7 +689,7 @@ RStudio.cloud R is free, but it can sometimes be a pain to install and configure
       
       <guid>https://dsba5122-fall2019.netlify.com/schedule/</guid>
       <description> Here’s your roadmap for the semester!
-  Readings should be completed before each class session  Assignments are due by 11:59 PM on the day they are due  Class materials (slides, in-class activities, etc.) will be added on the day of class     Information Visualization Reading Assignment Class   August 19 Class 1: Intro to Visual Analytics      August 19 Datacamp course 1 (Due Sept 3)      August 26 Class 2: Visual Representations I      August 26 Problem set 1 (Due Sept 16)      September 2 No class (Labor Day)      September 9 Class 3: Visual Representations II      September 9 Quiz 1 (Due Sept 16)      September 9 Datacamp course 2 (Due Sept 24)      September 16 Class 4: Time &amp;amp; Space      September 16 Problem set 2 (Due Oct 7)      September 23 Class 5: Distributions &amp;amp; Uncertainty       Interactive Visualizations Reading Assignment Class   September 30 Class 6: Statistical Models      September 30 Design Contest assigned (Due Oct 28)      October 7 No class (Fall Break)      October 14 Class 7: Multidimensional Data      October 14 Quiz 2 (Due Oct 21)      October 14 Datacamp course 3 (Due Nov 5)      October 21 Class 8: Networks and Trees      October 28 Class 9: Design Contest Presentations       Building Shiny Apps Reading Assignment Class   November 4 Class 10: Intro to Shiny      November 4 Problem set 3 (Due Nov 18)      November 4 Final project assigned (Due Dec 9)      November 11 Class 11: Interacting &amp;amp; Brushing      November 11 Datacamp course 4 (Due Nov 19)      November 11 Quiz 3 (Due Nov 18)      November 18 Class 12: Shiny in Production      November 18 Problem set 4 (Due Dec 2)      November 25 Class 13: Human Factors      November 25 Quiz 4 (Due Dec 2)      December 2 Class 14: TBD       Final Reading Assignment Class   December 9 Final project due       </description>
+  Readings should be completed before each class session  Assignments are due by 11:59 PM on the day they are due  Class materials (slides, in-class activities, etc.) will be added on the day of class     Information Visualization Reading Assignment Class   August 19 Class 1: Intro to Visual Analytics      August 19 Datacamp course 1 (Due Sept 3)      August 26 Class 2: Visual Representations I      August 26 Problem set 1 (Due Sept 16)      September 2 No class (Labor Day)      September 9 Class 3: Visual Representations II      September 9 Quiz 1 (Due Sept 16)      September 9 Datacamp course 2 (Due Sept 24)      September 16 Class 4: Time &amp;amp; Space      September 16 Problem set 2 (Due Oct 7)      September 23 Class 5: Distributions &amp;amp; Uncertainty       Interactive Visualizations Reading Assignment Class   September 30 Class 6: Statistical Models      September 30 Design Contest assigned (Due Oct 28)      October 7 No class (Fall Break)      October 14 Class 7: Multidimensional Data      October 14 Quiz 2 (Due Oct 21)      October 14 Datacamp course 3 (Due Nov 5)      October 21 Class 8: Networks and Trees      October 28 Class 9: Design Contest Presentations       Building Shiny Apps Reading Assignment Class   November 4 Class 10: Intro to Shiny      November 4 Problem set 3 (Due Nov 18)      November 4 Final project assigned (Due Dec 9)      November 11 Class 11: Reactive Programming      November 11 Datacamp course 4 (Due Nov 26)      November 11 Quiz 3 (Due Nov 18)      November 18 Class 12: Interacting &amp;amp; Brushing      November 18 Problem set 4 (Due Dec 2)      November 25 Class 13: Shiny in Production      November 25 Quiz 4 (Due Dec 2)      December 2 Class 14: TBD       Final Reading Assignment Class   December 9 Final project due       </description>
     </item>
     
     <item>

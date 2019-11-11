@@ -1,6 +1,6 @@
 ---
-title: "In Production: Deployment, Back-end and Scalability"
-date: "2019-04-15"
+title: "Reactive Programming"
+date: "2019-04-08"
 citeproc: false
 bibliography: ../../static/bib/references.bib
 csl: ../../static/bib/chicago-syllabus-no-bib.csl
@@ -12,40 +12,47 @@ editor_options:
   chunk_output_type: console
 ---
 
-# Tweet of the Day
+# Tweet(s) of the day:
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">✨ Made easier w/ help from {golem}…<br>&quot;Building Big Shiny Apps — A Workflow 2/2&quot; 👨
-💻 <a href="https://twitter.com/_ColinFay?ref_src=twsrc%5Etfw">@_ColinFay</a><a href="https://t.co/udr2nFW70R">https://t.co/udr2nFW70R</a> <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> <a href="https://twitter.com/hashtag/rshiny?src=hash&amp;ref_src=twsrc%5Etfw">#rshiny</a> <a href="https://t.co/DOgpcB2ICg">pic.twitter.com/DOgpcB2ICg</a></p>&mdash; Mara Averick (@dataandme) <a href="https://twitter.com/dataandme/status/1105453898603642880?ref_src=twsrc%5Etfw">March 12, 2019</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">🎅 Major announcement for <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> shiny addicts🎅:<br>Excited to officially introduce RinteRface, a collection of open-source HTML templates for <a href="https://twitter.com/hashtag/shiny?src=hash&amp;ref_src=twsrc%5Etfw">#shiny</a> and more 🦄<br>Thanks <a href="https://twitter.com/jdatap?ref_src=twsrc%5Etfw">@jdatap</a> for joining the project 🔥<a href="https://t.co/IAX76FEz1k">https://t.co/IAX76FEz1k</a><a href="https://twitter.com/ZurichRUsers?ref_src=twsrc%5Etfw">@ZurichRUsers</a> <a href="https://twitter.com/dataandme?ref_src=twsrc%5Etfw">@dataandme</a> <a href="https://twitter.com/minebocek?ref_src=twsrc%5Etfw">@minebocek</a> <a href="https://twitter.com/_pvictorr?ref_src=twsrc%5Etfw">@_pvictorr</a> <a href="https://t.co/WCvuAxJiI4">pic.twitter.com/WCvuAxJiI4</a></p>&mdash; David Granjon (@divadnojnarg) <a href="https://twitter.com/divadnojnarg/status/1067804524495192064?ref_src=twsrc%5Etfw">November 28, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-#
+^[[RinteRface](https://rinterface.com/) includes several web frameworks as R packages including: [`shinydashboardPlus`](https://github.com/RinteRface/shinydashboardPlus),  [`bs4Dash`](https://github.com/RinteRface/bs4Dash),  [`argonDash`](https://rinterface.github.io/argonDash/).]
 
-[Shiny in Production Workshop](https://kellobri.github.io/shiny-prod-book/devops-philosophy-tooling.html)
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">🎉A first draft of my new book,  &quot;Interactive web-based data visualization with R, plotly, and shiny&quot;, is now available!  🎉<a href="https://t.co/rCsZgwIo2d">https://t.co/rCsZgwIo2d</a><br><br>For those of you familiar with the plotly book, there is a ton of new content, feedback welcome!<a href="https://t.co/TmS8Tk2Wjn">https://t.co/TmS8Tk2Wjn</a> <a href="https://t.co/1e9hWFsAlU">pic.twitter.com/1e9hWFsAlU</a></p>&mdash; Carson Sievert (@cpsievert) <a href="https://twitter.com/cpsievert/status/1113834019286855692?ref_src=twsrc%5Etfw">April 4, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-# RStudio Cloud Project
+^[This is an excellent resource if you decide to use plotly for your project!]
 
-We'll heavily use our RStudio Cloud project for [sample Shiny apps](https://rstudio.cloud/spaces/7976/project/256282). ^[If you're missing files, you will need to delete the project and reload to get new files.]
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">🎅 Major announcement for <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> shiny addicts🎅:<br>Excited to officially introduce RinteRface, a collection of open-source HTML templates for <a href="https://twitter.com/hashtag/shiny?src=hash&amp;ref_src=twsrc%5Etfw">#shiny</a> and more 🦄<br>Thanks <a href="https://twitter.com/jdatap?ref_src=twsrc%5Etfw">@jdatap</a> for joining the project 🔥<a href="https://t.co/IAX76FEz1k">https://t.co/IAX76FEz1k</a><a href="https://twitter.com/ZurichRUsers?ref_src=twsrc%5Etfw">@ZurichRUsers</a> <a href="https://twitter.com/dataandme?ref_src=twsrc%5Etfw">@dataandme</a> <a href="https://twitter.com/minebocek?ref_src=twsrc%5Etfw">@minebocek</a> <a href="https://twitter.com/_pvictorr?ref_src=twsrc%5Etfw">@_pvictorr</a> <a href="https://t.co/WCvuAxJiI4">pic.twitter.com/WCvuAxJiI4</a></p>&mdash; David Granjon (@divadnojnarg) <a href="https://twitter.com/divadnojnarg/status/1067804524495192064?ref_src=twsrc%5Etfw">November 28, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-# Links
+^[[RinteRface](https://rinterface.com/) includes several web frameworks as R packages including: [`shinydashboardPlus`](https://github.com/RinteRface/shinydashboardPlus),  [`bs4Dash`](https://github.com/RinteRface/bs4Dash),  [`argonDash`](https://rinterface.github.io/argonDash/).]
 
-## Brushing & interaction:
+# Slides
 
-1. JJ Alaire's [`flexdashboard` shiny-enabled brushing](https://jjallaire.shinyapps.io/shiny-ggplot2-brushing/)
+- <i class="fas fa-book"></i> [Week 10: Interactions](https://github.com/wesslen/dsba5122-spring2019/raw/master/static/readings/10-Interaction.pdf) and [Week 11: Views](https://github.com/wesslen/dsba5122-spring2019/raw/master/static/readings/11-Views.pdf) by Alexander Lex, *CS-5630 / CS-6630 Visualization for Data Science*
 
-2. John Coene's [`echarts4r`](https://echarts4r.john-coene.com/articles/shiny.html)
+# Hands-on Class
 
-3. [`crosstalk`](https://rstudio.github.io/crosstalk/using.html), ^[`echarts4r` interactivity is based on `crosstalk`, e.g., see [this brushing/slider tutorial](https://echarts4r.john-coene.com/articles/brush.html).] 
-
-4. [`plotly`](https://plotly-r.com/linking-views-with-shiny.html) ^[Specifically see Chapter 15-17 of Carson Sievert's book.]
-
-## Shiny in Production:
-
-- Joe Cheng's [Shiny in Production](https://speakerdeck.com/jcheng5/shiny-in-production) ^[Alternatively, you can watch Joe's talk from RStudio::Conf 2019 [here](https://resources.rstudio.com/rstudio-conf-2019/shiny-in-production-principles-practices-and-tools-joe-cheng). It's also important to see [`shinyloadtest`](https://rstudio.github.io/shinyloadtest/) for instructions on how to install as it can be a bit tricky.]
-
-# Recommended
-
-- [Building Bigger Shiny Apps](https://thinkr-open.github.io/building-shiny-apps-workflow/) by Colin Fay
-
-- [Scaling Shiny Apps via Async Programming](https://github.com/rstudio/webinars/blob/master/56-scaling-shiny-apps/Scaling%20Shiny%20apps%20with%20async%20programming.pdf)
+We'll heavily use our RStudio Cloud project for [sample Shiny apps](https://rstudio.cloud/spaces/7976/project/256282). It has been updated from last class so its highly recommended you delete your previous version and recreate a new project.
 
 
+
+1. Review Reactivity: [Reactivity Overview by RStudio](https://shiny.rstudio.com/articles/reactivity-overview.html)
+
+  Garrett Grohlmund's [Introduction to Reactivity in Shiny](https://github.com/wesslen/dsba5122-spring2019/raw/master/public/files/shiny-reactivity.pdf)
+
+2. [Shiny enabled `flexdashboard`](https://rmarkdown.rstudio.com/flexdashboard/shiny.html) ^[{-} ![dashboard](/images/class/dashboard.png)]
+
+  Example: [Kyle Walker](http://personal.tcu.edu/kylewalker/)'s [Neighborhood Diversity App by ](https://walkerke.shinyapps.io/neighborhood_diversity/) / [GitHub](https://github.com/walkerke/neighborhood_diversity)
+
+3. Brusing & interaction:
+
+- JJ Alaire's [`flexdashboard` shiny-enabled brushing](https://jjallaire.shinyapps.io/shiny-ggplot2-brushing/), John Coene's [`echarts4r`](https://echarts4r.john-coene.com/articles/shiny.html),  [`crosstalk`](https://rstudio.github.io/crosstalk/using.html),^[`echarts4r` interactivity is based on `crosstalk`, e.g., see [this brushing/slider tutorial](https://echarts4r.john-coene.com/articles/brush.html).] or [`plotly`](https://plotly-r.com/linking-views-with-shiny.html) ^[Specifically see Chapter 15-17 of Carson Sievert's book.]
+
+4. [`shinydashboard`](https://rstudio.github.io/shinydashboard/)
+
+- [Omayma Said's Intro to Shiny Workshop](https://github.com/OmaymaS/intro_to_shiny_workshop/) ^[See `000c-omaayma-shiny-workshop` folder in our Rstudio cloud shiny project.]
+
+5. Helper functions: [`dragulaR`](https://github.com/zzawadz/dragulaR),  [`shinyWidgets`](https://github.com/dreamRs/shinyWidgets) / [shiny demo](http://shinyapps.dreamrs.fr/shinyWidgets/), and [`waiter`](https://shiny.john-coene.com/waiter/)

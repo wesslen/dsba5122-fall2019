@@ -22,13 +22,13 @@ editor_options:
 
 1. Design Contest Feedback
 
-2. [Final Project](../../content/assignment/final-project.html)
+2. [Final Project](../../assignment/final-project/)
 
-3. [Problem Set 3](../../content/assignment/03-problem-set.html) is due in two weeks.
+3. [Problem Set 3](../../assignment/03-problem-set/) is due in two weeks.
 
-4. Quiz 3 delayed a week. Will be assigned next week and due . If possible, I will try this week to post the required readings in advance (but it's almost all of the required readings/lectures). 
+4. Quiz 3 delayed a week. Will be assigned next week. If possible, I will try this week to post the required readings in advance (but it's almost all of the required readings/lectures). 
 
-5. [DataCamp 3](../../content/assignment/03-datacamp.html) due tomorrow by midnight
+5. [DataCamp 3](../../assignment/03-datacamp/) due tomorrow by midnight
 
 # Slides:
 

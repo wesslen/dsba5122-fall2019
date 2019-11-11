@@ -6,10 +6,33 @@
     <description>Recent content in Readings on Visual Analytics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 25 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://dsba5122-fall2019.netlify.com/reading/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Shiny in Production</title>
+      <link>https://dsba5122-fall2019.netlify.com/reading/13-reading/</link>
+      <pubDate>Mon, 25 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-fall2019.netlify.com/reading/13-reading/</guid>
+      <description>Required   Chapter 1, Chapter 3, Chapter 4 and Chapter 5 in Colin Fay, Vincent Guyader, Cervan Girard, Sébastien Rochette, Building Big Shiny Apps - A Workflow.This book is under development.
+  Recommended   Docker and `plumber’
+  Profiling a Shiny App
+  Persistent storage in Shiny Apps / RStudio blog post on persistent storage
+  Plot caching
+  Scaling Shiny Apps with async</description>
+    </item>
+    
+    <item>
+      <title>Interactivity and Brushing</title>
+      <link>https://dsba5122-fall2019.netlify.com/reading/12-reading/</link>
+      <pubDate>Mon, 18 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-fall2019.netlify.com/reading/12-reading/</guid>
+      <description> Required   Chapters 6: Workflow, Chapters 7: User feedback, Chapters 8: Uploads and downloads and Chapters 9: Dynamic UI in Hadley Wickham Mastering Shiny  </description>
+    </item>
     
     <item>
       <title>Interacting &amp; Brushing</title>
@@ -123,30 +146,6 @@
       
       <guid>https://dsba5122-fall2019.netlify.com/reading/01-reading/</guid>
       <description>Required There are no required readings for the first class.</description>
-    </item>
-    
-    <item>
-      <title>Machine Learning</title>
-      <link>https://dsba5122-fall2019.netlify.com/reading/13-reading/</link>
-      <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-fall2019.netlify.com/reading/13-reading/</guid>
-      <description> Required   Chapter 1 and Chapter 2 in Christoph Molnar, Interpretable Machine Learning: A Guide for Making Black Box Models Explainable.  Recommended   Chapter 5 in Christoph Molnar, Interpretable Machine Learning: A Guide for Making Black Box Models Explainable.  </description>
-    </item>
-    
-    <item>
-      <title>Deployment, Back-end and Scalability</title>
-      <link>https://dsba5122-fall2019.netlify.com/reading/12-reading/</link>
-      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-fall2019.netlify.com/reading/12-reading/</guid>
-      <description> Required   Docker and `plumber’
-  Profiling a Shiny App
-  Persistent storage in Shiny Apps / RStudio blog post on persistent storage
-  Plot caching
-  Scaling Shiny Apps with async
-  Shiny unit testing with testhat
-  </description>
     </item>
     
     <item>

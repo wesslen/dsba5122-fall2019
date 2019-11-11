@@ -1,6 +1,6 @@
 ---
-title: "Deployment, Back-end and Scalability"
-date: "2019-04-15"
+title: "Interactivity and Brushing"
+date: "2019-11-18"
 citeproc: false
 bibliography: ../../static/bib/references.bib
 csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
@@ -8,14 +8,6 @@ csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
 
 # Required
 
-- <i class="fas fa-external-link-square-alt"></i> [Docker and `plumber'](https://medium.com/@skyetetra/using-docker-to-deploy-an-r-plumber-api-863ccf91516d)
+- <i class="fas fa-book"></i> [Chapters 6: Workflow](https://mastering-shiny.org/action-workflow.html), [Chapters 7: User feedback](https://mastering-shiny.org/action-feedback.html), [Chapters 8: Uploads and downloads](https://mastering-shiny.org/action-transfer.html) and [Chapters 9: Dynamic UI](https://mastering-shiny.org/action-dynamic.html) in Hadley Wickham *Mastering Shiny* 
 
-- <i class="fas fa-external-link-square-alt"></i> [Profiling a Shiny App](https://rstudio.github.io/profvis/examples.html#example-3---profiling-a-shiny-application)
 
-- <i class="fas fa-external-link-square-alt"></i> [Persistent storage in Shiny Apps](https://daattali.com/shiny/persistent-data-storage/) / [RStudio blog post on persistent storage](https://shiny.rstudio.com/articles/persistent-data-storage.html)
-
-- <i class="fas fa-external-link-square-alt"></i> [Plot caching](https://blog.rstudio.com/2018/11/13/shiny-1-2-0/)
-
-- <i class="fas fa-external-link-square-alt"></i> [Scaling Shiny Apps with async](https://blog.rstudio.com/2018/06/26/shiny-1-1-0/) 
-
-- <i class="fas fa-external-link-square-alt"></i> [Shiny unit testing with `testhat`](https://www.r-bloggers.com/unit-testing-shiny-apps-using-testthat/)

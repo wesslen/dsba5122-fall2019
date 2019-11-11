@@ -1,8 +1,8 @@
 ---
 title: "Quiz 3"
-date: "2019-03-25"
-due_date: "2019-03-25"
-due_time: "11:59 PM"
+date: "2019-11-11"
+due_date: "2019-11-18"
+due_time: "5:59 PM"
 editor_options: 
   chunk_output_type: console
 ---
@@ -11,71 +11,36 @@ editor_options:
 knitr::opts_chunk$set(echo = TRUE, message=FALSE, warning=FALSE)
 ```
 
-Name: _____________________
+Quiz 3 can be taken starting on November 12th: [Canvas link to Quiz 3](https://uncc.instructure.com/courses/110218/quizzes/140168)
 
-Student ID: _________________________
+1. You will have one week to complete the quiz (that is, the quiz must be completed by 5:59pm on November 18, 2019).^[This is not by midnight, but **before the next class**.]
 
-This quiz is closed-note. You will have 10 minutes to complete.
+2. This quiz will consist of 10 multiple choice questions. You will have *15 minutes* to complete the quiz. You may only take the quiz once. Grades will not be available until the quiz closes.^[I moved this quiz back to 15 minutes.]
 
+3. You will be required to use in-browser locking to prevent you from having other materials open.
 
-## Question 1
+4. Per the syllabus, you are **not allowed to use any resources** (slides, notes, other people, etc.) when taking this quiz. By taking the quiz, you pledge **on your honor** that you did not use any unauthorized resource.
 
-Which of the following is **not** a dimensionality reduction method:
+5. **No late quizzes accepted**. If you do not complete the quiz in time, you will receive 0% grade.
 
-A) Multi-Dimensional Scaling (MDS)
+# Scope
 
-B) Principal Components Analysis (PCA)
+## 1. Multidimensional (Week 7): 2-4 questions
 
-C) t-Distributed Stochastic Neighbor Embedding (t-SNE)
+- [Week 7 Lecture Slides](../../slides/07-class.html#1)
 
-D) Support Vector Machine (SVM)
+- <i class="fas fa-book"></i> [Chapter 12: Visualizing associations](https://serialmentor.com/dataviz/visualizing-associations.html) in Claus Wilke, *Fundamentals of Data Visualization* 
 
-## Question 2
+- <i class="fas fa-book"></i> [Chapter 4: Multivariate Analysis](../readings/Mazza2009_Chapter_MultivariateAnalysis.pdf) in Riccardo Mazza, *Introduction to Information Visualization* 
 
-Choose the option that best fills in the blanks to describe the primary purpose of certain multidimensional visualizations. Assume the data is in tidy format.
+## 2. Networks and Trees (Week 8): 2-4 questions
 
-*Scatterplot matrices* aid in identifying ____[1]____ between many variables (columns) while *Chernoff faces* and *radar plots* aid in identifying ____[2]____ between records (observations) with many variables (columns).
+- [Week 8 Lecture Slides](../../slides/08-class.html#1)
 
-A) [1] = relationships; [2] = similarities
+- <i class="fas fa-book"></i> [Chapter 5: Networks and Hierarchies](../readings/Mazza2009_Chapter_NetworksAndHierarchies.pdf) in Riccardo Mazza, *Introduction to Information Visualization*
 
-B) [1] = distances; [2] = relationships  
+## 3. Intro to Shiny (Week 10): [Healy Chapter 6](http://socviz.co/modeling.html) (2-4 questions)
 
-C) [1] = similarities; [2] = uncertainty
+- [Week 10 Lecture Slides](../../slides/10-class.html#1)
 
-D) [1] = uncertainty; [2] = similarities
-
-## Question 3
-
-Word frequencies in a large corpus of text documents tends to follow what type of a probability distribution (sometimes referred to as Zipf's law)?
-
-A) A normal distribution
-
-B) A t-distribution
-
-C) A power law distribution
-
-D) A beta distribution
-
-## Question 4
-
-What assumption is made when quantifying a collection of text documents as a document-term matrix (i.e., counts the word frequencies per document)?
-
-A) Bag-of-words (a.k.a., exchangeability)
-
-B) Term Frequency-Inverse Document Frequency (TF-IDF)
-
-C) Distributional hypothesis of linguistics
-
-D) Principle of least resistance
-
-## Question 5
-
-The basic template of a shiny app (when using an app.R file) **requires** `library(shiny)` and all of the following items **except**:
-
-A) `server` function that provides instructions on how to build and rebuild the R objects displayed in the UI of a Shiny app.
-
-B) `ui` function that assembles HTML for the user interface in a Shiny app.
-
-C) `reactive` function that provides reactivity capabilities between objects in a Shiny app.
-
-D) `shinyApp` function that combines ui and server functions into a Shiny app.
+- <i class="fas fa-book"></i> [Chapters 2: Your First Shiny App](https://mastering-shiny.org/basic-app.html), [Chapters 3: Basic UI](https://mastering-shiny.org/basic-ui.html), and [Chapters 4: Basic Reactivity](https://mastering-shiny.org/basic-reactivity.html) in Hadley Wickham *Mastering Shiny* 

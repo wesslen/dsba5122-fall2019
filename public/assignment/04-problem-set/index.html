@@ -134,82 +134,107 @@
     <h1>Problem set 4</h1>
 
     
-    <p class="page-date">Due by <strong>11:59 PM</strong> on Monday, November 25, 2019</p>
+    <p class="page-date">Due by <strong>11:59 PM</strong> on Monday, December 2, 2019</p>
     
     
     
+<style type="text/css">
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
+}
+pre.numberSource a.sourceLine
+  { position: relative; left: -4em; }
+pre.numberSource a.sourceLine::before
+  { content: attr(title);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    background-color: #ffffff;
+    color: #a0a0a0;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #a0a0a0;  padding-left: 4px; }
+div.sourceCode
+  { color: #1f1c1b; background-color: #ffffff; }
+@media screen {
+a.sourceLine::before { text-decoration: underline; }
+}
+code span. { color: #1f1c1b; } /* Normal */
+code span.al { color: #bf0303; background-color: #f7e6e6; font-weight: bold; } /* Alert */
+code span.an { color: #ca60ca; } /* Annotation */
+code span.at { color: #0057ae; } /* Attribute */
+code span.bn { color: #b08000; } /* BaseN */
+code span.bu { color: #644a9b; font-weight: bold; } /* BuiltIn */
+code span.cf { color: #1f1c1b; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #924c9d; } /* Char */
+code span.cn { color: #aa5500; } /* Constant */
+code span.co { color: #898887; } /* Comment */
+code span.cv { color: #0095ff; } /* CommentVar */
+code span.do { color: #607880; } /* Documentation */
+code span.dt { color: #0057ae; } /* DataType */
+code span.dv { color: #b08000; } /* DecVal */
+code span.er { color: #bf0303; text-decoration: underline; } /* Error */
+code span.ex { color: #0095ff; font-weight: bold; } /* Extension */
+code span.fl { color: #b08000; } /* Float */
+code span.fu { color: #644a9b; } /* Function */
+code span.im { color: #ff5500; } /* Import */
+code span.in { color: #b08000; } /* Information */
+code span.kw { color: #1f1c1b; font-weight: bold; } /* Keyword */
+code span.op { color: #1f1c1b; } /* Operator */
+code span.ot { color: #006e28; } /* Other */
+code span.pp { color: #006e28; } /* Preprocessor */
+code span.re { color: #0057ae; background-color: #e0e9f8; } /* RegionMarker */
+code span.sc { color: #3daee9; } /* SpecialChar */
+code span.ss { color: #ff5500; } /* SpecialString */
+code span.st { color: #bf0303; } /* String */
+code span.va { color: #0057ae; } /* Variable */
+code span.vs { color: #bf0303; } /* VerbatimString */
+code span.wa { color: #bf0303; } /* Warning */
+</style>
 
 
-<h2 id="task-0-getting-started">Task 0: Getting started</h2>
-<p>For this problem set, you’ll learn <code>blogdown</code>, an R package that enables building websites through <a href="https://gohugo.io/getting-started/">Hugo</a>, a web framework. Like shiny, <code>blogdown</code> enable you to use a more complex framework (i.e., Hugo) but through R functions and syntax that you’ve been learning about all semester.</p>
-<p>I recommend running this exercise on your personal laptop, mainly so you’ll have this blog site already saved on your own personal computer.</p>
-<p>For this assignment, we’ll primarily be using Xie, Thomas, and Hill’s <a href="https://bookdown.org/yihui/blogdown/"><code>blogdown</code> book</a>. This is a long book and should be used as more of a reference than read from beginning to end.</p>
-<h2 id="task-1-read-chapter-1">Task 1: Read Chapter 1</h2>
-<p>First, read <a href="https://bookdown.org/yihui/blogdown/get-started.html">Chapter 1 from Xie, Thomas, and Hill</a>’s Blogdown book.</p>
-<h2 id="task-2-build-your-site-1-point">Task 2: Build your site (1 Point)</h2>
-<p>Following <a href="https://bookdown.org/yihui/blogdown/get-started.html">Section 1.7</a>, we’ll build a website:</p>
-<ol style="list-style-type: decimal">
-<li><p>Create a new R Project.</p></li>
-<li><p>install the <code>blogdown</code> package.</p></li>
-<li><p>Run <code>blogdown::install_hugo()</code> to install Hugo, which is the complementary web framework.</p></li>
-<li><p>Check that Hugo was correctly installed by running <code>blogdown::hugo_version()</code>, where you should get <code>‘0.55.1’</code>.</p></li>
-<li><p>Go to Tools &gt; Project Options and select:</p></li>
-</ol>
-<p><img src="/images/assignment/rstudio-project-options.png" /></p>
-<ol start="6" style="list-style-type: decimal">
-<li><p>Select a <a href="http://themes.gohugo.io">Hugo theme</a></p></li>
-<li><p>Build your website with the code: <code>blogdown::new_site(theme = 'user/repo')</code></p></li>
-</ol>
-<p>This will likely create a file pop up. Save that file as a template. It should be saved in the <code>content/post</code> folder.</p>
-<h2 id="task-3-modify-the-config.toml-file-1-point">Task 3: Modify the <code>config.toml</code> file (1 Point)</h2>
-<p>In Hugo, the most important file is the configuration file: <code>config.toml</code>.</p>
-<p>Read Chapters 2.1-2.2 to understand the basics of the file structures.</p>
-<p>You should now see these files. Open <code>config.toml</code>.</p>
-<p><img src="/images/assignment/blogdown-1.png" /></p>
-<ol style="list-style-type: decimal">
-<li>Change the title,<span><label for="sn-1" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-1" class="margin-toggle"/><span class="sidenote">Think of a creative title name or just say “My Blog”. You can always edit it later.<br />
-<br />
-</span></span> author name, color, homeSubtitle, and modify the social network (free feel to remove, add, or modify). Provide whatever names you want.</li>
-</ol>
-<h2 id="task-4-create-content-and-write-your-first-post-1-points">Task 4: Create content and write your first post (1 Points)</h2>
-<p>To create new pages, you’ll use RMarkdown. The key is the location of the files.</p>
-<p>Create a new post by clicking on the <code>Addins</code> button:</p>
-<p><img src="/images/assignment/blogdown-2.png" /></p>
-<p>and choose “New Post”.</p>
-<p>Give your post a title, your name, and fill in tags (what can be searched) or other fields. Keep the subdirectory to “post”, this is where the file will be created.</p>
-<p><img src="/images/assignment/blogdown-3.png" /></p>
-<p>Modify the file to a .Rmd file at the bottom before creating the file.<span><label for="sn-2" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-2" class="margin-toggle"/><span class="sidenote">This <a href="https://bookdown.org/yihui/blogdown/output-format.html">chapter</a> describes the difference between a markdown and Rmarkdown file.<br />
-<br />
-</span></span></p>
-<p>Now open that new .Rmd file in RStudio to modify.</p>
-<p>To finish, add in whatever you want! Code, data, plots, whatever. Simply write at least 100 lines of content.</p>
-<h2 id="task-5-serve-your-site">Task 5: Serve your site</h2>
-<p>You’ll need to serve your site by updating it. Think of this as Knitting all possible files.</p>
-<p>To do this, you’ll need to click “Addins” again and click “Serve Site”.</p>
-<p>To learn more, see the <a href="https://bookdown.org/yihui/blogdown/workflow.html">2nd section of this chapter</a>.</p>
-<h2 id="task-6-read-through-chapter-2">Task 6: Read through Chapter 2</h2>
-<p>Next, read through the rest of Chapter 2, especially <a href="https://bookdown.org/yihui/blogdown/static-files.html">section 2.7 on static files</a>. This is the location where you can put files (e.g., images, pdf, gifs).</p>
-<h2 id="task-7-deploy-to-netlify-option-1-1-point">Task 7: Deploy to Netlify (option 1: 1 point)</h2>
-<p>The simplest way to deploy your website is to put it on Netlify through drag and droping the contents of your <code>/public</code> folder.</p>
-<p>To do this follow Allison Hill’s <a href="https://alison.rbind.io/post/2019-03-04-hugo-troubleshooting/#netlify-drag-and-drop">Hugo Troubleshooting steps</a>.</p>
-<p><img src="/images/assignment/hill-deploy.gif" /></p>
-<h2 id="task-7-alternate-deploy-to-netlify-via-github-option-2-3-points">Task 7 (alternate): Deploy to Netlify via GitHub (option 2: 3 points)</h2>
-<p>For this task, you’ll need to learn GitHub. You’ll first need to create your own GitHub account as well as follow additional steps.</p>
-<p>Follow the instructions by Allison Hill in her post: <a href="https://apreshill.rbind.io/post/up-and-running-with-blogdown/">Up and Running with <code>blogdown</code></a>.</p>
-<p><strong>Note!</strong> Her blog is assuming using a Mac. While Windows users are welcome to try, the problem comes in with terminal (UNIX command line).</p>
-<p>I’d highly recommend Jenny Bryan’s <a href="https://happygitwithr.com/install-intro.html">Happy Git With R</a>. But remember, learning GitHub can be challenging at first. This is why if you decide to do this task, be prepared to work with someone who can help you.</p>
-<h2 id="what-to-provide-for-credit">What to provide for credit</h2>
-<p>To complete the assignment, simply provide the URL for your website on netlify on <a href="https://uncc.instructure.com/courses/100065/assignments/516674">Canvas</a> by 11:59pm on Thursday, May 2, 2019.</p>
-<h2 id="help">Help</h2>
-<p>For further help, check out these posts:</p>
-<ul>
-<li><p>Amber Thomas’ <a href="http://amber.rbind.io/blog/2016/12/19/creatingsite/">Making a Website Using Blogdown, Hugo, and GitHub pages.</a><span><label for="sn-3" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-3" class="margin-toggle"/><span class="sidenote">This is a great overview of using blogdown, hugo, and GitHub; however, this post is from December 2016 and may not be 100% up-to-date with recent changes to packages. Therefore, you may have issues if you implement but the general descriptions are a great overview.<br />
-<br />
-</span></span></p></li>
-<li><p>Garrick Aden-Buie’s <a href="https://www.garrickadenbuie.com/blog/blogdown-netlify-new-post-workflow/">A Blogdown New Post Workflow with Github and Netlify</a></p></li>
-<li><p>Allison Hill’s <a href="https://alison.rbind.io/slides/blogdown-workshop-slides.html#1">Blogdown Workshop Slides</a>.</p></li>
-</ul>
-<p>If you’re having issues with Netlify, check out Allison’s recent <a href="https://alison.rbind.io/post/2019-03-04-hugo-troubleshooting/">blog post</a>.</p>
+<p>You will implement the shiny app shown in <a href="https://mastering-shiny.org/basic-case-study.html">Chapter 5 in Mastering Shiny</a> by Hadley Wickham.</p>
+<h2 id="task-1-app-1.r">Task 1: app-1.R</h2>
+<p>Create a Shiny app based on <a href="https://mastering-shiny.org/basic-case-study.html">5.4</a>. Call this file app-1.R.</p>
+<p>To download, the files. This will put the files into a folder names ‘neiss’.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" title="1"><span class="kw">download.file</span>(<span class="st">&quot;https://github.com/hadley/mastering-shiny/raw/master/neiss/injuries.tsv.gz&quot;</span>, <span class="st">&quot;neiss/injuries.tsv.gz&quot;</span>)</a>
+<a class="sourceLine" id="cb1-2" title="2"><span class="kw">download.file</span>(<span class="st">&quot;https://github.com/hadley/mastering-shiny/raw/master/neiss/products.tsv&quot;</span>, <span class="st">&quot;neiss/products.tsv&quot;</span>)</a>
+<a class="sourceLine" id="cb1-3" title="3"><span class="kw">download.file</span>(<span class="st">&quot;https://github.com/hadley/mastering-shiny/raw/master/neiss/population.tsv&quot;</span>, <span class="st">&quot;neiss/population.tsv&quot;</span>)</a></code></pre></div>
+<p>app-1.R should create this app:</p>
+<p><img src="https://d33wubrfki0l68.cloudfront.net/af299ae0e6295ff2aa83b9ee3eb7c555fd1902a1/4bb21/screenshots/basic-case-study/prototype.png" /></p>
+<h2 id="task-2-app-2.r">Task 2: app-2.R</h2>
+<p>Using app-1.R as a template/base, create a new file call app-2.R that starts with app-1.R.</p>
+<p>Follow the instructions in 5.5 Polish tables.</p>
+<p>app-2.R should look like this:</p>
+<p><img src="https://d33wubrfki0l68.cloudfront.net/6715440fc49e331fc1f0a28ef1506d435472a291/aebaf/screenshots/basic-case-study/polish-tables.png" /></p>
+<h2 id="task-3-app-3.r">Task 3: app-3.R</h2>
+<p>Follow 5.6 Rate vs count to create app-3.R.</p>
+<p>app-3.R should look like this:</p>
+<p><img src="https://d33wubrfki0l68.cloudfront.net/5c10b7f7652e5df9931e7ec1ae251c40a4564711/a5376/screenshots/basic-case-study/rate-vs-count.png" /></p>
+<h2 id="task-4-app-4.r">Task 4: app-4.R</h2>
+<p>Follow 5.7 Narrative and create app-4.R.</p>
+<p>app-4.R should looks like this:</p>
+<p><img src="https://d33wubrfki0l68.cloudfront.net/3148b2daf8c2c7ab066081a01733b182cb163878/a0a03/screenshots/basic-case-study/narrative.png" /></p>
+<h2 id="task-5-make-an-improvement">Task 5: Make an Improvement</h2>
+<p>Create an enhancement on app-4.R and save it as app-5.R.</p>
+<p>You can choose anything. A new layout, new shiny theme, add in a better ggplot2 theme.</p>
+<p>More creative choices will get more credit.</p>
+<h2 id="task-6-zip-your-folder-and-load-to-canvas">Task 6: Zip your folder and load to Canvas</h2>
+<p>Save your folder as lastname-problem-set-04.zip.</p>
+<p>It should have your data,</p>
 
 
     </article>

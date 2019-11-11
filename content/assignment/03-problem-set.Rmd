@@ -9,7 +9,7 @@ editor_options:
 
 # Deliverables:
 
-1. Upload a zip file with your shiny app (as mentioned below)
+1. Upload a zip file with your shiny app (as mentioned below) onto [Canvas Problem Set 3 page](https://uncc.instructure.com/courses/110218/assignments/655333).
 
 2. In the Canvas comments, provide the url for your deployed shiny app on shinyapps.io. Mention in the comments if you worked with another student.
 

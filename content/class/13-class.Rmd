@@ -1,6 +1,6 @@
 ---
-title: "Human-Centered Machine Learning"
-date: "2019-04-22"
+title: "In Production: Deployment, Back-end and Scalability"
+date: "2019-04-15"
 citeproc: false
 bibliography: ../../static/bib/references.bib
 csl: ../../static/bib/chicago-syllabus-no-bib.csl
@@ -12,23 +12,40 @@ editor_options:
   chunk_output_type: console
 ---
 
-# Tweet of the day
+# Tweet of the Day
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">… and that concludes Machine Learning 101. Now, go forth and apply what you&#39;ve learned to real data! <a href="http://t.co/D6wSKgdjeM">pic.twitter.com/D6wSKgdjeM</a></p>&mdash; ML Hipster (@ML_Hipster) <a href="https://twitter.com/ML_Hipster/status/633954383542128640?ref_src=twsrc%5Etfw">August 19, 2015</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">✨ Made easier w/ help from {golem}…<br>&quot;Building Big Shiny Apps — A Workflow 2/2&quot; 👨
+💻 <a href="https://twitter.com/_ColinFay?ref_src=twsrc%5Etfw">@_ColinFay</a><a href="https://t.co/udr2nFW70R">https://t.co/udr2nFW70R</a> <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> <a href="https://twitter.com/hashtag/rshiny?src=hash&amp;ref_src=twsrc%5Etfw">#rshiny</a> <a href="https://t.co/DOgpcB2ICg">pic.twitter.com/DOgpcB2ICg</a></p>&mdash; Mara Averick (@dataandme) <a href="https://twitter.com/dataandme/status/1105453898603642880?ref_src=twsrc%5Etfw">March 12, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-# Slides
+#
 
-[full screen](../../slides/13-class.html#1) / [pdf version](https://github.com/wesslen/dsba5122-spring2019/raw/master/public/files/dsba5122-spring2019-13-class.pdf)
+[Shiny in Production Workshop](https://kellobri.github.io/shiny-prod-book/devops-philosophy-tooling.html)
 
-```{r echo=FALSE}
-knitr::include_url('../../slides/13-class.html#1')
-```
+# RStudio Cloud Project
+
+We'll heavily use our RStudio Cloud project for [sample Shiny apps](https://rstudio.cloud/spaces/7976/project/256282). ^[If you're missing files, you will need to delete the project and reload to get new files.]
 
 # Links
 
-- [TensorFlow's Neural Network Playground Demo](https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.11311&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false)
+## Brushing & interaction:
 
-- [Interpreting Machine Learning Models](https://speakerdeck.com/omaymas/interpreting-machine-learning-models-why-and-how) by Omayma Said / [Shiny App](https://omaymas.shinyapps.io/lime_explainer/) / [GitHub for Shiny App](https://github.com/OmaymaS/lime_explainer)
+1. JJ Alaire's [`flexdashboard` shiny-enabled brushing](https://jjallaire.shinyapps.io/shiny-ggplot2-brushing/)
 
-- Case Study: [T-Mobile's Enterprise Web Services with Neural Networks Using R and TensorFlow](https://opensource.t-mobile.com/blog/posts/r-tensorflow-api/)
+2. John Coene's [`echarts4r`](https://echarts4r.john-coene.com/articles/shiny.html)
+
+3. [`crosstalk`](https://rstudio.github.io/crosstalk/using.html), ^[`echarts4r` interactivity is based on `crosstalk`, e.g., see [this brushing/slider tutorial](https://echarts4r.john-coene.com/articles/brush.html).] 
+
+4. [`plotly`](https://plotly-r.com/linking-views-with-shiny.html) ^[Specifically see Chapter 15-17 of Carson Sievert's book.]
+
+## Shiny in Production:
+
+- Joe Cheng's [Shiny in Production](https://speakerdeck.com/jcheng5/shiny-in-production) ^[Alternatively, you can watch Joe's talk from RStudio::Conf 2019 [here](https://resources.rstudio.com/rstudio-conf-2019/shiny-in-production-principles-practices-and-tools-joe-cheng). It's also important to see [`shinyloadtest`](https://rstudio.github.io/shinyloadtest/) for instructions on how to install as it can be a bit tricky.]
+
+# Recommended
+
+- [Building Bigger Shiny Apps](https://thinkr-open.github.io/building-shiny-apps-workflow/) by Colin Fay
+
+- [Scaling Shiny Apps via Async Programming](https://github.com/rstudio/webinars/blob/master/56-scaling-shiny-apps/Scaling%20Shiny%20apps%20with%20async%20programming.pdf)
+
+

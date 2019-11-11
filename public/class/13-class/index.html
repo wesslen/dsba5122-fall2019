@@ -11,13 +11,13 @@
 
     <meta name="twitter:card" value="summary_large_image">
     <meta name="twitter:site" content="@ryanwesslen">
-    <meta name="twitter:title" content="Human-Centered Machine Learning | DSBA 5122: Visual Analytics">
+    <meta name="twitter:title" content="In Production: Deployment, Back-end and Scalability | DSBA 5122: Visual Analytics">
     <meta name="twitter:creator" content="@ryanwesslen">
     <meta name="twitter:image" content="https://dsba5122-fall2019.netlify.com/images/dsba5122.png">
     <meta name="twitter:description" content="Communicate science and statistics with beautiful graphics" />
 
     <meta property="og:site_name" content="DSBA 5122: Visual Analytics"/>
-    <meta property="og:title" content="Human-Centered Machine Learning | DSBA 5122: Visual Analytics">
+    <meta property="og:title" content="In Production: Deployment, Back-end and Scalability | DSBA 5122: Visual Analytics">
     <meta property="og:type" content="article" />
     <meta property="article:author" content="" />
     <meta property="og:url" content="https://dsba5122-fall2019.netlify.com" />
@@ -26,7 +26,7 @@
 
     <meta name="generator" content="Hugo 0.51" />    
 
-    <title>Human-Centered Machine Learning | DSBA 5122: Visual Analytics</title>
+    <title>In Production: Deployment, Back-end and Scalability | DSBA 5122: Visual Analytics</title>
     <link rel="canonical" href="https://dsba5122-fall2019.netlify.com/class/13-class/">
     <link href="/theme/css/tufte.css" rel="stylesheet">
     <link href="/theme/css/latex.css" rel="stylesheet">
@@ -131,9 +131,9 @@
 
 
     <article class="group">
-    <h1>Human-Centered Machine Learning</h1>
+    <h1>In Production: Deployment, Back-end and Scalability</h1>
     
-    <p class="page-date">Materials for class on Monday, April 22, 2019</p>
+    <p class="page-date">Materials for class on Monday, April 15, 2019</p>
     
     
 <!-- BLOGDOWN-HEAD -->
@@ -142,29 +142,54 @@
 <h2>Contents</h2>
 <div id="TOC">
 <ul>
-<li><a href="#tweet-of-the-day">Tweet of the day</a></li>
-<li><a href="#slides">Slides</a></li>
-<li><a href="#links">Links</a></li>
+<li><a href="#tweet-of-the-day">Tweet of the Day</a></li>
+<li><a href="#section"></a></li>
+<li><a href="#rstudio-cloud-project">RStudio Cloud Project</a></li>
+<li><a href="#links">Links</a><ul>
+<li><a href="#brushing-interaction">Brushing &amp; interaction:</a></li>
+<li><a href="#shiny-in-production">Shiny in Production:</a></li>
+</ul></li>
+<li><a href="#recommended">Recommended</a></li>
 </ul>
 </div>
 
-<h2 id="tweet-of-the-day">Tweet of the day</h2>
+<h2 id="tweet-of-the-day">Tweet of the Day</h2>
 <blockquote class="twitter-tweet" data-lang="en">
 <p lang="en" dir="ltr">
-… and that concludes Machine Learning 101. Now, go forth and apply what you've learned to real data! <a href="http://t.co/D6wSKgdjeM">pic.twitter.com/D6wSKgdjeM</a>
+✨ Made easier w/ help from {golem}…<br>“Building Big Shiny Apps — A Workflow 2/2” 👨
+💻 <a href="https://twitter.com/_ColinFay?ref_src=twsrc%5Etfw"><span class="citation"><span class="citeproc-not-found" data-reference-id="_ColinFay"><strong>???</strong></span></span></a><a href="https://t.co/udr2nFW70R">https://t.co/udr2nFW70R</a> <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> <a href="https://twitter.com/hashtag/rshiny?src=hash&amp;ref_src=twsrc%5Etfw">#rshiny</a> <a href="https://t.co/DOgpcB2ICg">pic.twitter.com/DOgpcB2ICg</a>
 </p>
-— ML Hipster (@ML_Hipster) <a href="https://twitter.com/ML_Hipster/status/633954383542128640?ref_src=twsrc%5Etfw">August 19, 2015</a>
+— Mara Averick (@dataandme) <a href="https://twitter.com/dataandme/status/1105453898603642880?ref_src=twsrc%5Etfw">March 12, 2019</a>
 </blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-<h2 id="slides">Slides</h2>
-<p><a href="../../slides/13-class.html#1">full screen</a> / <a href="https://github.com/wesslen/dsba5122-spring2019/raw/master/public/files/dsba5122-spring2019-13-class.pdf">pdf version</a></p>
-<iframe src="../../slides/13-class.html#1" width="672" height="400px">
-</iframe>
+<h2 id="section"></h2>
+<p><a href="https://kellobri.github.io/shiny-prod-book/devops-philosophy-tooling.html">Shiny in Production Workshop</a></p>
+<h2 id="rstudio-cloud-project">RStudio Cloud Project</h2>
+<p>We’ll heavily use our RStudio Cloud project for <a href="https://rstudio.cloud/spaces/7976/project/256282">sample Shiny apps</a>.<span><label for="sn-1" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-1" class="margin-toggle"/><span class="sidenote">If you’re missing files, you will need to delete the project and reload to get new files.<br />
+<br />
+</span></span></p>
 <h2 id="links">Links</h2>
+<h3 id="brushing-interaction">Brushing &amp; interaction:</h3>
+<ol style="list-style-type: decimal">
+<li><p>JJ Alaire’s <a href="https://jjallaire.shinyapps.io/shiny-ggplot2-brushing/"><code>flexdashboard</code> shiny-enabled brushing</a></p></li>
+<li><p>John Coene’s <a href="https://echarts4r.john-coene.com/articles/shiny.html"><code>echarts4r</code></a></p></li>
+<li><p><a href="https://rstudio.github.io/crosstalk/using.html"><code>crosstalk</code></a>,<span><label for="sn-2" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-2" class="margin-toggle"/><span class="sidenote"><code>echarts4r</code> interactivity is based on <code>crosstalk</code>, e.g., see <a href="https://echarts4r.john-coene.com/articles/brush.html">this brushing/slider tutorial</a>.<br />
+<br />
+</span></span></p></li>
+<li><p><a href="https://plotly-r.com/linking-views-with-shiny.html"><code>plotly</code></a><span><label for="sn-3" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-3" class="margin-toggle"/><span class="sidenote">Specifically see Chapter 15-17 of Carson Sievert’s book.<br />
+<br />
+</span></span></p></li>
+</ol>
+<h3 id="shiny-in-production">Shiny in Production:</h3>
 <ul>
-<li><p><a href="https://playground.tensorflow.org/#activation=tanh&amp;batchSize=10&amp;dataset=circle&amp;regDataset=reg-plane&amp;learningRate=0.03&amp;regularizationRate=0&amp;noise=0&amp;networkShape=4,2&amp;seed=0.11311&amp;showTestData=false&amp;discretize=false&amp;percTrainData=50&amp;x=true&amp;y=true&amp;xTimesY=false&amp;xSquared=false&amp;ySquared=false&amp;cosX=false&amp;sinX=false&amp;cosY=false&amp;sinY=false&amp;collectStats=false&amp;problem=classification&amp;initZero=false&amp;hideText=false">TensorFlow’s Neural Network Playground Demo</a></p></li>
-<li><p><a href="https://speakerdeck.com/omaymas/interpreting-machine-learning-models-why-and-how">Interpreting Machine Learning Models</a> by Omayma Said / <a href="https://omaymas.shinyapps.io/lime_explainer/">Shiny App</a> / <a href="https://github.com/OmaymaS/lime_explainer">GitHub for Shiny App</a></p></li>
-<li><p>Case Study: <a href="https://opensource.t-mobile.com/blog/posts/r-tensorflow-api/">T-Mobile’s Enterprise Web Services with Neural Networks Using R and TensorFlow</a></p></li>
+<li>Joe Cheng’s <a href="https://speakerdeck.com/jcheng5/shiny-in-production">Shiny in Production</a><span><label for="sn-4" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-4" class="margin-toggle"/><span class="sidenote">Alternatively, you can watch Joe’s talk from RStudio::Conf 2019 <a href="https://resources.rstudio.com/rstudio-conf-2019/shiny-in-production-principles-practices-and-tools-joe-cheng">here</a>. It’s also important to see <a href="https://rstudio.github.io/shinyloadtest/"><code>shinyloadtest</code></a> for instructions on how to install as it can be a bit tricky.<br />
+<br />
+</span></span></li>
+</ul>
+<h2 id="recommended">Recommended</h2>
+<ul>
+<li><p><a href="https://thinkr-open.github.io/building-shiny-apps-workflow/">Building Bigger Shiny Apps</a> by Colin Fay</p></li>
+<li><p><a href="https://github.com/rstudio/webinars/blob/master/56-scaling-shiny-apps/Scaling%20Shiny%20apps%20with%20async%20programming.pdf">Scaling Shiny Apps via Async Programming</a></p></li>
 </ul>
 
 
