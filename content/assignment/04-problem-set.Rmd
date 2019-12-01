@@ -64,8 +64,4 @@ More creative choices will get more credit.
 
 Save your folder as lastname-problem-set-04.zip.
 
-It should have your data, 
-
-
-
-
+It should have your data and be fully reproducible. You do not need to deploy your app to shinyapps.io.

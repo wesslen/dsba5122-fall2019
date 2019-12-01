@@ -31,15 +31,15 @@ Quiz 3 can be taken starting on November 12th: [Canvas link to Quiz 3](https://u
 
 - <i class="fas fa-book"></i> [Chapter 12: Visualizing associations](https://serialmentor.com/dataviz/visualizing-associations.html) in Claus Wilke, *Fundamentals of Data Visualization* 
 
-- <i class="fas fa-book"></i> [Chapter 4: Multivariate Analysis](../readings/Mazza2009_Chapter_MultivariateAnalysis.pdf) in Riccardo Mazza, *Introduction to Information Visualization* 
+- <i class="fas fa-book"></i> [Chapter 4: Multivariate Analysis](../../readings/Mazza2009_Chapter_MultivariateAnalysis.pdf) in Riccardo Mazza, *Introduction to Information Visualization* 
 
 ## 2. Networks and Trees (Week 8): 2-4 questions
 
 - [Week 8 Lecture Slides](../../slides/08-class.html#1)
 
-- <i class="fas fa-book"></i> [Chapter 5: Networks and Hierarchies](../readings/Mazza2009_Chapter_NetworksAndHierarchies.pdf) in Riccardo Mazza, *Introduction to Information Visualization*
+- <i class="fas fa-book"></i> [Chapter 5: Networks and Hierarchies](../../readings/Mazza2009_Chapter_NetworksAndHierarchies.pdf) in Riccardo Mazza, *Introduction to Information Visualization*
 
-## 3. Intro to Shiny (Week 10): [Healy Chapter 6](http://socviz.co/modeling.html) (2-4 questions)
+## 3. Intro to Shiny (Week 10): (2-4 questions)
 
 - [Week 10 Lecture Slides](../../slides/10-class.html#1)
 

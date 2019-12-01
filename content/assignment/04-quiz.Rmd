@@ -1,7 +1,7 @@
 ---
 title: "Quiz 4"
-date: "2019-04-08"
-due_date: "2019-04-08"
+date: "2019-11-25"
+due_date: "2019-12-02"
 due_time: "11:59 PM"
 editor_options: 
   chunk_output_type: console
@@ -11,96 +11,30 @@ editor_options:
 knitr::opts_chunk$set(echo = TRUE, message=FALSE, warning=FALSE)
 ```
 
-Name: _____________________
+Quiz 4 can be taken starting on November 25: [Canvas link to Quiz 4](https://uncc.instructure.com/courses/110218/quizzes/140169)
 
-Student ID: _________________________
+1. You will have one week to complete the quiz (that is, the quiz must be completed by 5:59pm on December 2nd, 2019).^[This is not by midnight, but **before the next class**.]
 
-This quiz is closed-note. You will have 10 minutes to complete.
+2. This quiz will consist of 10 multiple choice questions. You will have *15 minutes* to complete the quiz. You may only take the quiz once. Grades will not be available until the quiz closes.
 
-## Question 1
+3. You will be required to use in-browser locking to prevent you from having other materials open.
 
-In a network (or graph), individual data instances (e.g., records/observations) are represented by ____[A]____ while ____[B]____ represent relationships between those instances.
+4. Per the syllabus, you are **not allowed to use any resources** (slides, notes, other people, etc.) when taking this quiz. By taking the quiz, you pledge **on your honor** that you did not use any unauthorized resource.
 
-A) [A] = edges, [B] = vertices/nodes
+5. **No late quizzes accepted**. If you do not complete the quiz in time, you will receive 0% grade.
 
-B) [A] = kernels, [B] = mappings
+# Scope
 
-C) [A] = vertices/nodes, [B] = edges
+## 1. Reactivity (Week 11): (2-4 questions)
 
-D) [A] = rows, [B] = mappings
+- [Week 11 Lecture Slides](https://dsba5122.com/files/shiny-reactivity.pdf)
 
-## Question 2
+## 2. Interactivity (Week 12): (2-4 questions)
 
-All of the following are ways to represent networks as data **except**:
+- Study the `/interactions/` folder examples from <https://rstudio.cloud/spaces/22733/project/707339>
 
-A) Edge list
+## 3. DataCamp 4: (2-4 questions)
 
-B) Transformation matrix
-
-C) Adjacency matrix
-
-D) Adjacency list
-
-## For questions 3-4, use this shiny code to fill in the [A] and [B] blanks:
-
-```{r eval=F}
-library(shiny)
-
-ui <- fluidPage(
-  sliderInput(inputId = "num",
-              label = "Choose a number",
-              value = 25, min = 1, max = 100),
-  plotOutput("hist")
-)
-
-server <- function(input, output) {
-
-  data <- reactive({
-    rnorm(___A___)
-  })
-
-  output$hist <- renderPlot({
-    hist(___B___)
-  })
-  
-}
-
-shinyApp(ui = ui, server = server)
-```
+- [Building Web Applications in R with Shiny: Case Studies](../../assignment/04-datacamp/)
 
 
-## Question 3
-
-What should be in place of "___A___" to call the `num` slider object from the UI?
-
-A) `num`
-
-B) `input$num`
-
-C) `"num"`
-
-D) `ui$num`
-
-## Question 4
-
-What should be in place of "___B___" to call the reactive object `data`?
-
-A) `data`
-
-B) `reactive$data`
-
-C) `data()`
-
-D) `output$data`
-
-## Question 5
-
-In shiny, what function helps debugging by allowing you to set a breakpoint anywhere in your code?
-
-A) `server()` function
-
-B) `checkpoint()` function
-
-C) `diagnose()` function
-
-D) `browser()` function

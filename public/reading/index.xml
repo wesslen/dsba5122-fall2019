@@ -18,11 +18,11 @@
       
       <guid>https://dsba5122-fall2019.netlify.com/reading/13-reading/</guid>
       <description>Required   Chapter 1, Chapter 3, Chapter 4 and Chapter 5 in Colin Fay, Vincent Guyader, Cervan Girard, Sébastien Rochette, Building Big Shiny Apps - A Workflow.This book is under development.
-  Recommended   Docker and `plumber’
+  Recommended   Shiny In Production Workshop
+  Docker and `plumber’
   Profiling a Shiny App
   Persistent storage in Shiny Apps / RStudio blog post on persistent storage
-  Plot caching
-  Scaling Shiny Apps with async</description>
+  Plot caching</description>
     </item>
     
     <item>
@@ -149,14 +149,12 @@
     </item>
     
     <item>
-      <title>Truth, beauty, and data revisited</title>
+      <title>Python</title>
       <link>https://dsba5122-fall2019.netlify.com/reading/14-reading/</link>
       <pubDate>Tue, 11 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-fall2019.netlify.com/reading/14-reading/</guid>
-      <description> Required   Chapter 12 in Alberto Cairo, The Truthful ArtAlberto Cairo, The Truthful Art: Data, Charts, and Maps for Communication (Berkeley, California: New Riders, 2016).
-  Chapter 24 in Claus Wilke, Fundamentals of Data VisualizationClaus E. Wilke, Fundamentals of Data Visualization (Sebastopol, California: O’Reilly Media, 2018), https://serialmentor.com/dataviz/.
-  Ben Wellington, “Making data mean more through storytelling”  Jonathan Schwabish, “Better Data Communication,” National Bureau of Economic Research  Why People Make Bad Charts (and What to Do When it Happens)  Questions to reflect on  Questions TBD  </description>
+      <description>Required No required reading. Enjoy!</description>
     </item>
     
     <item>

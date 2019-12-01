@@ -28,10 +28,8 @@ editor_options:
 
 # Hands-on Class
 
-* Tarun Sharma's presentation on Creating PowerPoint slides in RMarkdown: <https://rstudio.cloud/project/701622>. This uses the [`officer` package](https://davidgohel.github.io/officer/index.html) that enables editing different Microsoft files (e.g., .pptx, .doc/Word, etc.).^[It also has a helpful Word/PPT scraper functionality]
-
-* Garrett Grohlmund's [Introduction to Reactivity in Shiny](../files/shiny-reactivity.pdf) ^[If you need more understanding on Reactivity, be sure to read this [Reactivity Overview by RStudio](https://shiny.rstudio.com/articles/reactivity-overview.html)]
+* Garrett Grohlmund's [Introduction to Reactivity in Shiny](../../files/shiny-reactivity.pdf) ^[If you need more understanding on Reactivity, be sure to read this [Reactivity Overview by RStudio](https://shiny.rstudio.com/articles/reactivity-overview.html)]
   
-* In-Class Practice: Questions 1-5 in Wickham ["Mastering Shiny" Chapter 2.8 Exercises](https://mastering-shiny.org/basic-app.html)^[I will send out an RStudio.Cloud ]
+* In-Class Practice: Questions 1-5 in Wickham ["Mastering Shiny" Chapter 2.8 Exercises](https://mastering-shiny.org/basic-app.html)^[I will send out an RStudio.Cloud project with the correct answers after class.]
 
 * Also recall our RStudio Cloud project with [150+ sample Shiny apps](https://rstudio.cloud/spaces/22733/project/454724). 

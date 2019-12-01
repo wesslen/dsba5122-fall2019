@@ -12,6 +12,8 @@ csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
 
 # Recommended
 
+- <i class="fas fa-external-link-square-alt"></i> [Shiny In Production Workshop](https://kellobri.github.io/shiny-prod-book/index.html)
+
 - <i class="fas fa-external-link-square-alt"></i> [Docker and `plumber'](https://medium.com/@skyetetra/using-docker-to-deploy-an-r-plumber-api-863ccf91516d)
 
 - <i class="fas fa-external-link-square-alt"></i> [Profiling a Shiny App](https://rstudio.github.io/profvis/examples.html#example-3---profiling-a-shiny-application)

@@ -1,6 +1,6 @@
 ---
-title: "In Production: Deployment, Back-end and Scalability"
-date: "2019-04-15"
+title: "Shiny in Production"
+date: "2019-11-25"
 citeproc: false
 bibliography: ../../static/bib/references.bib
 csl: ../../static/bib/chicago-syllabus-no-bib.csl
@@ -12,40 +12,35 @@ editor_options:
   chunk_output_type: console
 ---
 
+# Annoucements
+
+1. Final Projects. Optional 20 min project check-ins this Sat, Dec 1 (12-4pm) and Mon, Dec 3 (12-1pm).^[For each group, please select no more than 1 time. If some group members can't make it physically, consider bringing in calling or using Google Hangouts - students are responsible for setting it up!]
+
+<!-- Calendly badge widget begin -->
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+<script type="text/javascript">Calendly.initBadgeWidget({ url: 'https://calendly.com/ryanwesslen/dsba5122-group-project', text: 'Schedule 20 min time for final project', color: '#00a2ff', textColor: '#ffffff', branding: true });</script>
+<!-- Calendly badge widget end -->
+
+2. [Problem Set 4](../../assignment/04-problem-set/) is due in a week.^[If you've been following class, it should be easy.]
+
+3. [DataCamp 4](../../assignment/04-datacamp/) is due by tomorrow (November 26) at midnight.
+
+4. [Quiz 4](../../assignment/04-quiz/) assigned. Due by class (5:59pm, Monday, December 2nd).
+
 # Tweet of the Day
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">✨ Made easier w/ help from {golem}…<br>&quot;Building Big Shiny Apps — A Workflow 2/2&quot; 👨
-💻 <a href="https://twitter.com/_ColinFay?ref_src=twsrc%5Etfw">@_ColinFay</a><a href="https://t.co/udr2nFW70R">https://t.co/udr2nFW70R</a> <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> <a href="https://twitter.com/hashtag/rshiny?src=hash&amp;ref_src=twsrc%5Etfw">#rshiny</a> <a href="https://t.co/DOgpcB2ICg">pic.twitter.com/DOgpcB2ICg</a></p>&mdash; Mara Averick (@dataandme) <a href="https://twitter.com/dataandme/status/1105453898603642880?ref_src=twsrc%5Etfw">March 12, 2019</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">🎉Critical Power Dashboard 1.0.0 is out🎉<br>💻new website<br>🛠️bug fixes<br>⚙️ new design and improvements thanks to the {golem} 📦, {bs4Dash} 📦, {shinyWidgets} 📦, {bsplus} 📦, and {rintrojs} 📦<br>🔗<a href="https://t.co/Fb8zkTBbcl">https://t.co/Fb8zkTBbcl</a><a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> <a href="https://t.co/vvZZJvQ1bE">pic.twitter.com/vvZZJvQ1bE</a></p>&mdash; Felipe Mattioni, MSc (@felipe_mattioni) <a href="https://twitter.com/felipe_mattioni/status/1197898520902152192?ref_src=twsrc%5Etfw">November 22, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-#
+^[Check out [`rintrojs`](https://carlganz.github.io/rintrojs/)]
 
-[Shiny in Production Workshop](https://kellobri.github.io/shiny-prod-book/devops-philosophy-tooling.html)
+# Materials
 
-# RStudio Cloud Project
+## 1. [Shiny in Production Workshop](https://kellobri.github.io/shiny-prod-book/application-testing-shinytest.html)
 
-We'll heavily use our RStudio Cloud project for [sample Shiny apps](https://rstudio.cloud/spaces/7976/project/256282). ^[If you're missing files, you will need to delete the project and reload to get new files.]
+## 2. Joe Cheng's [Shiny in Production](https://speakerdeck.com/jcheng5/shiny-in-production) 
+^[Alternatively, you can watch Joe's talk from RStudio::Conf 2019 [here](https://resources.rstudio.com/rstudio-conf-2019/shiny-in-production-principles-practices-and-tools-joe-cheng). It's also important to see [`shinyloadtest`](https://rstudio.github.io/shinyloadtest/) for instructions on how to install as it can be a bit tricky.]
 
-# Links
+## 3. Hands-on
 
-## Brushing & interaction:
-
-1. JJ Alaire's [`flexdashboard` shiny-enabled brushing](https://jjallaire.shinyapps.io/shiny-ggplot2-brushing/)
-
-2. John Coene's [`echarts4r`](https://echarts4r.john-coene.com/articles/shiny.html)
-
-3. [`crosstalk`](https://rstudio.github.io/crosstalk/using.html), ^[`echarts4r` interactivity is based on `crosstalk`, e.g., see [this brushing/slider tutorial](https://echarts4r.john-coene.com/articles/brush.html).] 
-
-4. [`plotly`](https://plotly-r.com/linking-views-with-shiny.html) ^[Specifically see Chapter 15-17 of Carson Sievert's book.]
-
-## Shiny in Production:
-
-- Joe Cheng's [Shiny in Production](https://speakerdeck.com/jcheng5/shiny-in-production) ^[Alternatively, you can watch Joe's talk from RStudio::Conf 2019 [here](https://resources.rstudio.com/rstudio-conf-2019/shiny-in-production-principles-practices-and-tools-joe-cheng). It's also important to see [`shinyloadtest`](https://rstudio.github.io/shinyloadtest/) for instructions on how to install as it can be a bit tricky.]
-
-# Recommended
-
-- [Building Bigger Shiny Apps](https://thinkr-open.github.io/building-shiny-apps-workflow/) by Colin Fay
-
-- [Scaling Shiny Apps via Async Programming](https://github.com/rstudio/webinars/blob/master/56-scaling-shiny-apps/Scaling%20Shiny%20apps%20with%20async%20programming.pdf)
-
-
+If time, we'll consider this [RStudio.Cloud project with `golem`](https://rstudio.cloud/spaces/22733/project/745104). We'll use [these slides](https://github.com/VincentGuyader/user2019/raw/master/golem_Vincent_Guyader_USER!2019.pdf) from `golem` too.

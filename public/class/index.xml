@@ -6,10 +6,42 @@
     <description>Recent content in Classes on Visual Analytics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Dec 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://dsba5122-fall2019.netlify.com/class/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Python</title>
+      <link>https://dsba5122-fall2019.netlify.com/class/14-class/</link>
+      <pubDate>Mon, 02 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-fall2019.netlify.com/class/14-class/</guid>
+      <description>Contents  Announcements Final Projects. Due next class 12/9. Course Evaluations  Tweet of the day Slides/Lab   Announcements Final Projects. Due next class 12/9. Your final project will have three deliverables due on Canvas:
+ Your app (e.g., as a zip file, github, RStudio.Cloud link)
+ Your presentation slides (e.g., pptx or zip file with xaringan)If you submit xaringan, I highly recommend submitting a .pdf that you can get by viewing your xaringan in full screen, then right click &amp;gt; “print” and then save as pdf.</description>
+    </item>
+    
+    <item>
+      <title>Shiny in Production</title>
+      <link>https://dsba5122-fall2019.netlify.com/class/13-class/</link>
+      <pubDate>Mon, 25 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-fall2019.netlify.com/class/13-class/</guid>
+      <description>Contents  Annoucements Tweet of the Day Materials 1. Shiny in Production Workshop 2. Joe Cheng’s Shiny in Production 3. Hands-on    Annoucements Final Projects. Optional 20 min project check-ins this Sat, Dec 1 (12-4pm) and Mon, Dec 3 (12-1pm).For each group, please select no more than 1 time. If some group members can’t make it physically, consider bringing in calling or using Google Hangouts - students are responsible for setting it up!</description>
+    </item>
+    
+    <item>
+      <title>Interactions &amp; Frameworks</title>
+      <link>https://dsba5122-fall2019.netlify.com/class/12-class/</link>
+      <pubDate>Mon, 18 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-fall2019.netlify.com/class/12-class/</guid>
+      <description>Contents  Announcements Tweet(s) of the day: Hands-on Class Creating PowerPoint using R Hands-on Work  Helpful Links 1. Brusing &amp;amp; interaction: 2. shinydashboard 3. Helper functions: dragulaR, shinyWidgets / shiny demo, and waiter 4. Optional slides    Announcements  Quiz 3 grades.
+ Problem Set 4 posted. We’ll spend the last half of class starting this.
+ DataCamp 4 due 11:59pm on Tuesday, Nov 26.
+  Tweet(s) of the day: 🎅 Major announcement for #rstats shiny addicts🎅:</description>
+    </item>
     
     <item>
       <title>Reactive Programming</title>
@@ -71,7 +103,7 @@ Agenda and layout These groups were randomly assigned. Please plan to present in
       <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-fall2019.netlify.com/class/06-class/</guid>
-      <description>Contents  Announcements Tweet of the day Lab 6: Work with models in ggplot2   Announcements Problem Set 1 has been graded. See Problem Set 1 Solutions.   {&#34;x&#34;:{&#34;data&#34;:[{&#34;x&#34;:[3.94882073882036,4.08403538060375,4.09555845973082,6.05071916286834,6.04727446851321,2.07734939623624,2.04006950692274,5.90485247690231,0.98205467085354,5.04335918780416,4.90032852441072,2.91386136929505,10.0724577273708,12.0491468092427,3.0459104297217,2.97351061934605,1.95881978264078,2.06347209746018,2.00262933014892,4.02556672836654,4.08701484538615,1.91752095874399,4.04712419887073,3.08688945313916,3.97455423357896,3.92033830019645,3.09936629789881,5.96798318265937,1.06569775911048,5.07662701541558,3.00529626156203,2.07741463282146,2.97384068523534],&#34;y&#34;:[99.9507065399084,94.9864155378193,85.9888836092781,91.9724328555632,95.0881362188607,96.9888969213236,100.081336629717,99.9666720463429,97.0335019975901,94.9408992796205,76.9880854352377,99.9447887904942,81.9118603080977,82.9472129620612,97.097949676076,99.0482001459692,94.0575446513016,93.9762288544793,88.0900852160994,96.9927992734127,95.0190250876825,94.9110386366025,99.9366068463307,100.024410180561,97.0720788412727,98.9638109903783,97.9499666647054,100.005581889302,91.956133368751,96.0833874158096,97.9565358531661,94.0211427244823,99.9972125889733],&#34;text&#34;:[&#34;Time: 4
+      <description>Contents  Announcements Tweet of the day Lab 6: Work with models in ggplot2   Announcements Problem Set 1 has been graded. See Problem Set 1 Solutions.   {&#34;x&#34;:{&#34;data&#34;:[{&#34;x&#34;:[3.99015924632549,3.97540732058696,3.9029878471978,5.90183471506461,5.93456761552952,1.96166797890328,1.94742821245454,6.08412317777984,0.973795554833487,4.99586821580306,4.94439290473238,2.92307103858329,9.96947145396843,11.9442399604246,2.9641060913913,3.0406668888405,1.94576660087332,1.99553220090456,1.95565362116322,4.05190761941485,4.01481899255887,1.90424744817428,4.03384850905277,3.07722129579633,3.97692016693763,4.08564266590402,3.07294488879852,5.97585187321529,1.02218188992701,4.9659474610351,3.07858974216506,2.02535692052916,2.97856281967834],&#34;y&#34;:[100.067537464853,94.9808816364966,85.9908373087645,91.9743253403809,94.9895886848681,96.9478266011924,99.9452003356069,100.061774135195,96.9941667478997,94.9185552246403,77.0545161934569,100.053006911557,81.9023423692677,83.0652652420104,96.9418852416333,98.9245859903749,93.9693905171938,94.0481068267953,88.0228471016046,97.0215872890782,95.0590167756192,94.9747684058268,99.9959822353441,99.9752096139826,96.9555705431383,98.9029650235549,97.9532971116248,99.9233920898289,91.9885339133907,95.9632633951958,97.9276681117713,94.0782586093526,99.9579246294685],&#34;text&#34;:[&#34;Time: 4
 Grade: 100
 Issues: Rmarkdown Technicalities&#34;,&#34;Time: 4
 Grade: 95
@@ -133,37 +165,6 @@ Issues: running code in chunks&#34;</description>
       
       <guid>https://dsba5122-fall2019.netlify.com/class/01-class/</guid>
       <description>Contents  Tweet of the day: Slides &amp;amp; Lab   Tweet of the day: Any time I have been struggling to learn a new tool/technology/software … I go back to this short clip I cut out of ???&#39;s 2014 ??? tutorial on Dplyr to motivate myself to keep pushing through … learning new tools is hard for everyone at the beginning! pic.twitter.com/RevpkSJqWc — Aliakbar Akbaritabar (Ali) (@Akbaritabar) July 25, 2018   Hadley Wickham is the R guru amongst gurus.</description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>https://dsba5122-fall2019.netlify.com/class/14-class/</link>
-      <pubDate>Mon, 29 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-fall2019.netlify.com/class/14-class/</guid>
-      <description>a.sourceLine { display: inline-block; line-height: 1.25; } a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; } a.sourceLine:empty { height: 1.2em; } .sourceCode { overflow: visible; } code.sourceCode { white-space: pre; position: relative; } div.sourceCode { margin: 1em 0; } pre.sourceCode { margin: 0; } @media screen { div.sourceCode { overflow: auto; } } @media print { code.sourceCode { white-space: pre-wrap; } a.sourceLine { text-indent: -1em; padding-left: 1em; } } pre.</description>
-    </item>
-    
-    <item>
-      <title>In Production: Deployment, Back-end and Scalability</title>
-      <link>https://dsba5122-fall2019.netlify.com/class/13-class/</link>
-      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-fall2019.netlify.com/class/13-class/</guid>
-      <description>Contents  Tweet of the Day  RStudio Cloud Project Links Brushing &amp;amp; interaction: Shiny in Production:  Recommended   Tweet of the Day ✨ Made easier w/ help from {golem}…
-“Building Big Shiny Apps — A Workflow 2/2” 👨 💻 ???https://t.co/udr2nFW70R #rstats #rshiny pic.twitter.com/DOgpcB2ICg — Mara Averick (@dataandme) March 12, 2019    Shiny in Production Workshop
-RStudio Cloud Project We’ll heavily use our RStudio Cloud project for sample Shiny apps.</description>
-    </item>
-    
-    <item>
-      <title>Reactive Programming</title>
-      <link>https://dsba5122-fall2019.netlify.com/class/12-class/</link>
-      <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-fall2019.netlify.com/class/12-class/</guid>
-      <description>Contents  Tweet(s) of the day: Slides Hands-on Class   Tweet(s) of the day: 🎅 Major announcement for #rstats shiny addicts🎅:
-Excited to officially introduce RinteRface, a collection of open-source HTML templates for #shiny and more 🦄
-Thanks ??? for joining the project 🔥https://t.co/IAX76FEz1k??? ??? ??? ??? pic.twitter.com/WCvuAxJiI4 — David Granjon (@divadnojnarg) November 28, 2018   RinteRface includes several web frameworks as R packages including: shinydashboardPlus, bs4Dash, argonDash.</description>
     </item>
     
   </channel>

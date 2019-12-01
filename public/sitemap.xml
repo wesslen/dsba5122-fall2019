@@ -3,8 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://dsba5122-fall2019.netlify.com/class/14-class/</loc>
+    <lastmod>2019-12-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dsba5122-fall2019.netlify.com/assignment/04-quiz/</loc>
+    <lastmod>2019-11-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dsba5122-fall2019.netlify.com/class/13-class/</loc>
+    <lastmod>2019-11-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://dsba5122-fall2019.netlify.com/reading/13-reading/</loc>
     <lastmod>2019-11-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dsba5122-fall2019.netlify.com/class/12-class/</loc>
+    <lastmod>2019-11-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -193,11 +213,6 @@
   </url>
   
   <url>
-    <loc>https://dsba5122-fall2019.netlify.com/class/14-class/</loc>
-    <lastmod>2019-04-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://dsba5122-fall2019.netlify.com/slides/13-class/</loc>
     <lastmod>2019-04-22T00:00:00+00:00</lastmod>
   </url>
@@ -213,22 +228,7 @@
   </url>
   
   <url>
-    <loc>https://dsba5122-fall2019.netlify.com/class/13-class/</loc>
-    <lastmod>2019-04-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://dsba5122-fall2019.netlify.com/slides/11-class/</loc>
-    <lastmod>2019-04-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dsba5122-fall2019.netlify.com/assignment/04-quiz/</loc>
-    <lastmod>2019-04-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dsba5122-fall2019.netlify.com/class/12-class/</loc>
     <lastmod>2019-04-08T00:00:00+00:00</lastmod>
   </url>
   
@@ -319,7 +319,7 @@
   
   <url>
     <loc>https://dsba5122-fall2019.netlify.com/assignment/</loc>
-    <lastmod>2019-11-18T00:00:00+00:00</lastmod>
+    <lastmod>2019-11-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -329,13 +329,13 @@
   
   <url>
     <loc>https://dsba5122-fall2019.netlify.com/class/</loc>
-    <lastmod>2019-11-11T00:00:00+00:00</lastmod>
+    <lastmod>2019-12-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://dsba5122-fall2019.netlify.com/</loc>
-    <lastmod>2019-11-25T00:00:00+00:00</lastmod>
+    <lastmod>2019-12-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>

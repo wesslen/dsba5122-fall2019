@@ -403,3 +403,48 @@
   color: #FFFFFF;
   opacity: 1;
 }
+
+
+/* Extra CSS */
+.verysmall {
+  font-size: 80%;
+}
+.center2 {
+  margin: auto;
+  top: 30%;
+  width: 110%;
+}
+.sbig .remark-code {
+  font-size: 60%;
+}
+.big .remark-code {
+  font-size: 75%;
+}
+.little .remark-code {
+  font-size: 40%;
+}
+.center3 {
+  margin: 0;
+  top: 20%;
+  width: 90%;
+}
+.full-width {
+  display: flex;
+  width: 100%;
+  flex: 1 1 auto;
+}
+.right-column2 {
+  width: 60%;
+  float: right;
+  padding-top: 1em;
+}
+.bg-text {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  text-align: left;
+}
+.remark-slide-number {
+  color: #FFFFFF;
+  opacity: 1;
+}

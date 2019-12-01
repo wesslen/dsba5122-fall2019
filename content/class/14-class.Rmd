@@ -1,6 +1,6 @@
 ---
 title: "Python"
-date: "2019-04-29"
+date: "2019-12-02"
 citeproc: false
 bibliography: ../../static/bib/references.bib
 csl: ../../static/bib/chicago-syllabus-no-bib.csl
@@ -12,99 +12,37 @@ editor_options:
   chunk_output_type: console
 ---
 
+# Announcements
+
+## Final Projects. Due next class 12/9. 
+
+Your final project will have three deliverables due on [Canvas](https://uncc.instructure.com/courses/110218/assignments/681957):
+
+* Your app (e.g., as a zip file, github, RStudio.Cloud link)
+
+* Your presentation slides (e.g., pptx or zip file with `xaringan`)^[If you submit xaringan, I highly recommend submitting a .pdf that you can get by viewing your `xaringan` in full screen, then right click > "print" and then save as pdf.]
+
+* Your final report (e.g., word doc, pdf, html RMarkdown output)
+
+All are due by 6:00pm next Monday (12/9). Please make sure to submit well in advance. 
+
+For any of the three projects, you may also provide URL's but files are the safest bets. You will **not** be permitted to make any updates after that point. 
+
+## Course Evaluations
+
+Due by 11:59pm on Thursday, December 5. 
+
+Can be completed here: <https://myevals.uncc.edu>
+
 # Tweet of the day
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Just released Altair version 3.0! This is a huge update, with many new visualization features and bug-fixes thanks to the hard work of the <a href="https://twitter.com/vega_vis?ref_src=twsrc%5Etfw">@vega_vis</a> team.<br><br>Check it out: <a href="https://t.co/PCyrIOTcvv">https://t.co/PCyrIOTcvv</a> <a href="https://t.co/0YT2ckQizl">pic.twitter.com/0YT2ckQizl</a></p>&mdash; Jake VanderPlas (@jakevdp) <a href="https://twitter.com/jakevdp/status/1121824167790137345?ref_src=twsrc%5Etfw">April 26, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> ^[Altair is based on Vega and Vega-Lite, another creation by Jeff Heer and his lab. You can try [Vega and Vega-lite here](https://vega.github.io/editor/#/custom/vega-lite)! There is also a [vegalite](https://github.com/hrbrmstr/vegalite) R package.]
 
-# Lab: Python+R (reticulate) in a Docker Container
+# Slides/Lab
 
-## 1. Run [RStudio's ML Docker Image](https://hub.docker.com/r/rocker/ml) in one of these ways:
+[full screen](../../slides/14-class.html#1) / [pdf version](https://github.com/wesslen/dsba5122-fall2019/raw/master/public/files/dsba5122-fall2019-14-class.pdf)
 
-^[Did you know, this docker image also includes Machine Learning packages (for CPU) like h2o, tensorflow, and [keras](https://keras.rstudio.com/)! It can expand to GPU environments too!]
-
-1. Easiest option (free, no local install): [play-with-docker](https://labs.play-with-docker.com/) 
-
-2. Will take time to install (free): [local Docker](https://docs.docker.com/install/)
-
-3. Will cost money: [Digital Ocean Droplet](https://marketplace.digitalocean.com/apps/rstudio)
-
-```{bash eval=FALSE}
-# run in bash command/terminal
-docker run -e PASSWORD=[create_a_pwd] -p 8787:8787 rocker/ml
+```{r echo=FALSE}
+knitr::include_url('../../slides/14-class.html#1')
 ```
-
-^[{-} ![play-with-docker.com option](https://raw.githubusercontent.com/wesslen/dsba5122-spring2019/master/static/images/class/play-with-docker.png)]
-
-## 3. Open RStudio via port 8787 
-
-FYI: username: rstudio, pwd: whatever you chose
-
-## 4. [Importing python packages](https://rstudio.github.io/reticulate/index.html#importing-python-modules)
-
-```{r eval=FALSE}
-# run in RStudio console/file
-# fyi reticulate is prepackaged
-library(reticulate)
-os <- import("os")
-os$listdir(".")
-```
-
-## 5. [Installing python packages](https://rstudio.github.io/reticulate/articles/python_packages.html)
-
-1. Run this in RStudio *terminal*:
-
-```{bash eval=FALSE}
-#run in rstudio terminal
-easy_install pip
-easy_install virtualenv
-```
-
-2. Restart RStudio session (Session > Restart R)
-
-3. Run this in RStudio *console*:
-
-```{r eval=FALSE}
-#run in rstudio console
-reticulate::py_install("pandas")
-```
-
-# Altair via Jupyter Docker install ("no R")
-
-## 1. Altair Jupyter [notebook installation](https://altair-viz.github.io/getting_started/installation.html#installation-notebook)
-
-```{bash eval=FALSE}
-# see https://jupyter-docker-stacks.readthedocs.io/en/latest/
-docker run -p 8888:8888 jupyter/minimal-notebook:17aba6048f44
-```
-
-## 2. Open the Jupyter notebook in port 8888 
-
-## 3. Open terminal via Jupyter and run:
-
-```{bash eval=FALSE}
-conda install -c conda-forge altair vega_datasets notebook vega
-git clone https://github.com/altair-viz/altair-tutorial.git
-```
-
-## 4. Navigate to the notebook "01-Cars-Demo.ipynb" 
-
-See the folder "/altair-tutorial/notebooks/".
-
-## 5. Comment this out in Jupyter notebook.
-
-```{python eval=FALSE}
-alt.renderers.enable('notebook')
-```
-
-# Links
-
-## 1. [Docker training](https://training.play-with-docker.com/)
-
-## 2. Altair tutorial [jupyter notebooks](https://github.com/altair-viz/altair-tutorial/blob/master/notebooks/Index.ipynb), [slides](https://speakerdeck.com/jakevdp/altair-tutorial-intro-pycon-2018) and [video](https://www.youtube.com/watch?v=ms29ZPUKxbU)
-
-## 3. Yihui's thoughts on [R-Python notebooks](https://yihui.name/en/2018/09/notebook-war/#how-about-r-markdown-notebooks)
-
-## 4. [Python `reticulate` configuration](https://rstudio.github.io/reticulate/articles/versions.html)
-
-## 5. [RStudio `reticulate` cheatsheet](https://github.com/rstudio/cheatsheets/raw/master/reticulate.pdf)

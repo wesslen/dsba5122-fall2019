@@ -116,28 +116,28 @@ lessons:
     date: "November 11"
     assignment: "03-quiz"
 
-  - title: "Class 12: Interacting & Brushing"
+  - title: "Class 12: Interactions & Frameworks"
     date: "November 18"
     reading: "12-reading"
-    #class: "12-class"
+    class: "12-class"
     
   - title: "**Problem set 4 (Due Dec 2)**"
     date: "November 18"
-    #assignment: "04-problem-set"
+    assignment: "04-problem-set"
 
   - title: "Class 13: Shiny in Production"
     date: "November 25"
-    #reading: "13-reading"
-    #class: "13-class"
+    reading: "13-reading"
+    class: "13-class"
     
   - title: "**Quiz 4 (Due Dec 2)**"
     date: "November 25"
-    #assignment: "04-quiz"
+    assignment: "04-quiz"
 
-  - title: "Class 14: TBD"
+  - title: "Class 14: Python"
     date: "December 2"
-    #reading: "14-reading"
-    #class: "14-class"
+    reading: "14-reading"
+    class: "14-class"
 
   - title: '<span class="fake-header-table">Final</span>'
     header: True

@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
   <head>
     <title>DSBA 5122: Visual Analytics</title>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <meta name="author" content="Ryan Wesslen" />
     <meta name="date" content="2019-09-23" />
     <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
@@ -184,7 +184,7 @@ class: center, middle
 ```r
 organdata %&gt;% 
   ggplot(aes(x = country, y = donors)) +
-* stat_summary(fun.y = mean, geom = "point", size = 3) + 
+ {{stat_summary(fun.y = mean, geom = "point", size = 3) +}} 
 * stat_summary(fun.data = mean_cl_boot, geom = "errorbar", width = 0.5) +
   coord_flip() +
   cowplot::theme_cowplot() +
@@ -205,9 +205,9 @@ organdata %&gt;%
 ```r
 organdata %&gt;%
   group_by(country) %&gt;%
-* do(as_tibble(bind_rows(Hmisc::smean.cl.boot(.$donors)))) %&gt;% # bootstrapping by country
+ {{do(as_tibble(bind_rows(Hmisc::smean.cl.boot(.$donors)))) %&gt;%}} # bootstrapping by country
   ggplot(aes(x = reorder(country, Mean), y = Mean)) +
-* geom_point(size = 3) +    # Plot means as geom_point
+ {{geom_point(size = 3) + }}   # Plot means as geom_point
   geom_errorbar(aes(ymin = Lower, ymax = Upper), width = 0.5) + # Error as geom_errorbar
   coord_flip() +
   cowplot::theme_cowplot() +
@@ -341,6 +341,7 @@ Source: [Matthew Kay](https://github.com/mjskay/uncertainty-examples/blob/master
 
 [Matthew Kay](https://mjskay.github.io/uncertainty-vis-book/ch-why-hard.html)
     </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="libs/remark-latest.min.js"></script>
 <script src="https://platform.twitter.com/widgets.js"></script>
 <script>var slideshow = remark.create({
@@ -351,16 +352,74 @@ Source: [Matthew Kay](https://github.com/mjskay/uncertainty-examples/blob/master
 if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
   window.dispatchEvent(new Event('resize'));
 });
-(function() {
-  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
   if (!r) return;
   s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
   d.head.appendChild(s);
-})();</script>
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
 
 <script>
 (function() {
-  var i, text, code, codes = document.getElementsByTagName('code');
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
   for (i = 0; i < codes.length;) {
     code = codes[i];
     if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
@@ -374,7 +433,8 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     }
     i++;
   }
-})();
+};
+slideshow._releaseMath(document);
 </script>
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

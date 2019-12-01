@@ -100,7 +100,7 @@ knitr::include_graphics("../../images/assignment/munzner.png")
 ```
 
 To understand sections 1-4, you will need to read Tamara Munzner's [“A Nested Model for Visualization Design and Validation”](https://www.cs.ubc.ca/labs/imager/tr/2009/NestedModel/NestedModel.pdf). 
-Section 5 is an outline for how you could (hypothetically) evaluate whether you ^[For this part, be sure to read [Mazza's chapter on evaluating interfaces ](https://github.com/wesslen/dsba5122-spring2019/raw/master/public/readings/Mazza2009_Chapter_Evaluations.pdf)]
+Section 5 is an outline for how you could (hypothetically) evaluate whether you ^[For this part, be sure to read [Mazza's chapter on evaluating interfaces ](https://github.com/wesslen/dsba5122-fall2019/raw/master/public/readings/Mazza2009_Chapter_Evaluations.pdf)]
 
 **Length**: Each section can be about 2-5 paragraphs. Figures are always helpful. Maybe a table or two. When in doubt, put things in the appendix to keep the report concise.
 
@@ -116,7 +116,7 @@ The instructor grades the design after your presentation according to the follow
 
 2. Reproducibility & Code:
 
-- **Reproducible code** (12.5%): Code is standalone and can be fully reproduced. Better (more organized) code will receive higher points than code that is not organized. GitHub highly recommended ^[This is an excellent opportunity for you to start your code portfolio. Follow Jenny Bryan's [excellent introduction to Git with R](https://happygitwithr.com/install-intro.html) tutorial.]. Or you can create an RStudio cloud project and share with me the link (much easier). 
+- **Reproducible code** (12.5%): Code is standalone and can be fully reproduced. Better (more organized) code will receive higher points than code that is not organized. GitHub highly recommended ^[This is an excellent opportunity for you to start your code portfolio. Follow Jenny Bryan's [excellent introduction to Git with R](https://happygitwithr.com/install-intro.html) tutorial.]. 
 
 - **Deployed app or RStudio Cloud Project** (12.5%): App is either deployed on shinyapps.io OR you provide an RStudio Cloud project link. shinyapps.io are preferred but RStudio Cloud can be helpful if you may have issues deploying. ^[Even better, take this opportunity to create your own blogdown blog using Allison Hill's [great introduction to blogdown](https://alison.rbind.io/talk/blogdown-meetup/) and then write your first post to introduce your app.]
 
@@ -126,11 +126,11 @@ The instructor grades the design after your presentation according to the follow
 
 - **Algorithmic evaluation**^[(i.e., runtime, scale, optimization)] (12.5%): How you implement your design. Does your app respond well. Points will be removed if the interactions are too complex (too slow) and hurt the users' ability to perform the task. Can this app be scaled if you were provided more data? 
 
-4. Final Report (10 points):
+4. Final Report:
 
 - **Report contents** (12.5%): Report is organized, with clear explanations, limited spelling, punctuation, appropriate tables and figures, and explanation for how to reproduce the results (run the code).
 
-- **Shiny app evaluation**(12.5%): describe how you would evaluate your app. Base this on your task and how you would devise an experiment to validate that your shiny app improves your task. This can be what you review for your presentation.
+- **Shiny app evaluation**(12.5%): describe how you would evaluate your app. Base this on your task and how you would devise an experiment to validate that your shiny app improves your task. This can be what you review for your presentation.^[How would you determine if your app does what you intend? This could include online experiments or qualitative/interviews. Be sure to read [Mazza's chapter on evaluating interfaces](https://github.com/wesslen/dsba5122-fall2019/raw/master/public/readings/Mazza2009_Chapter_Evaluations.pdf)]
 
 ## Bonus Points: Shiny App Awards
 

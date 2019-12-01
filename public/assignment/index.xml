@@ -6,10 +6,22 @@
     <description>Recent content in Assignments on Visual Analytics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 18 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 25 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://dsba5122-fall2019.netlify.com/assignment/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Quiz 4</title>
+      <link>https://dsba5122-fall2019.netlify.com/assignment/04-quiz/</link>
+      <pubDate>Mon, 25 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dsba5122-fall2019.netlify.com/assignment/04-quiz/</guid>
+      <description>Quiz 4 can be taken starting on November 25: Canvas link to Quiz 4
+You will have one week to complete the quiz (that is, the quiz must be completed by 5:59pm on December 2nd, 2019).This is not by midnight, but before the next class.
+
+ This quiz will consist of 10 multiple choice questions. You will have 15 minutes to complete the quiz. You may only take the quiz once.</description>
+    </item>
     
     <item>
       <title>Problem set 4</title>
@@ -177,15 +189,6 @@ This course has four chapters:</description>
       <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dsba5122-fall2019.netlify.com/assignment/05-quiz/</guid>
-      <description>a.sourceLine { display: inline-block; line-height: 1.25; } a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; } a.sourceLine:empty { height: 1.2em; } .sourceCode { overflow: visible; } code.sourceCode { white-space: pre; position: relative; } div.sourceCode { margin: 1em 0; } pre.sourceCode { margin: 0; } @media screen { div.sourceCode { overflow: auto; } } @media print { code.sourceCode { white-space: pre-wrap; } a.sourceLine { text-indent: -1em; padding-left: 1em; } } pre.</description>
-    </item>
-    
-    <item>
-      <title>Quiz 4</title>
-      <link>https://dsba5122-fall2019.netlify.com/assignment/04-quiz/</link>
-      <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dsba5122-fall2019.netlify.com/assignment/04-quiz/</guid>
       <description>a.sourceLine { display: inline-block; line-height: 1.25; } a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; } a.sourceLine:empty { height: 1.2em; } .sourceCode { overflow: visible; } code.sourceCode { white-space: pre; position: relative; } div.sourceCode { margin: 1em 0; } pre.sourceCode { margin: 0; } @media screen { div.sourceCode { overflow: auto; } } @media print { code.sourceCode { white-space: pre-wrap; } a.sourceLine { text-indent: -1em; padding-left: 1em; } } pre.</description>
     </item>
     
